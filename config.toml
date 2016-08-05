@@ -1,5 +1,5 @@
 # Site settings (baseurl must end with a trailing slash!)
-baseurl = "http://www-mattstratton-com.s3-website-us-west-2.amazonaws.com"
+baseurl = "http://www.mattstratton.com/"
 languageCode = "en-us"
 title = "Matt Stratton"
 theme = "grid-side"

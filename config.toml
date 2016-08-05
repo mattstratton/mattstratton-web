@@ -23,6 +23,16 @@ copyright = "Copyright &#169;  Matt Stratton"
     identifier = "about"
     url = "/about"
 
+[[Menu.Main]]
+    name = "Speaking"
+    identifier = "speaking"
+    url = "/speaking"
+
+[[Menu.Main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "/projects"
+
 [Params]
     # When set to true, will use infinite scrolling to load paginated content
     # for posts, galleries, and projects
@@ -180,4 +190,4 @@ copyright = "Copyright &#169;  Matt Stratton"
 
             name = "Projects"
             link = "/project/"
-            image = "/img/drone.jpg"
+            image = "/img/projects.jpg"

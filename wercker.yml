@@ -1,4 +1,4 @@
-box: debian
+box: mm-git/hugo-box@0.0.3
 build:
   steps:
     - arjen/hugo-build:

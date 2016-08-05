@@ -1,4 +1,4 @@
-box: mm-git/hugo-box@0.0.3
+box: mm-git/hugo-box
 build:
   steps:
     - arjen/hugo-build:

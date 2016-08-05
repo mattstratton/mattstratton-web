@@ -1,4 +1,4 @@
-box: mm-git/hugo-box
+box: golang
 build:
   steps:
     - arjen/hugo-build:

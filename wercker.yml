@@ -13,3 +13,8 @@ deploy:
           apt-get update
     - install-packages:
         packages: git ssh-client
+    - schickling/s3-website:
+        key: $KEY
+        secret: $SECRET
+        bucket: $BUCKET
+        region: us-west-2

@@ -5,6 +5,8 @@ title = "Matt Stratton"
 theme = "grid-side"
 copyright = "Copyright &#169;  Matt Stratton"
 
+googleAnalytics = "UA-7327719-1"
+
 # The theme uses pagination for post, gallery, and project listings.
 #paginate = 12
 

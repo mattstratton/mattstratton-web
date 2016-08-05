@@ -3,11 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         theme: grid-side
-        flags: --buildDrafts=false
-    - script:
-        name: Install packages
-        code: |
-          hugo -v
+        flags: --buildDrafts=false -v
 
 deploy:
   steps:

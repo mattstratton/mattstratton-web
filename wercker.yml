@@ -1,0 +1,15 @@
+box: debian
+build:
+  steps:
+    - arjen/hugo-build:
+        theme: grid-side
+        flags: --buildDrafts=false
+
+deploy:
+  steps:
+    - script:
+        name: Install packages
+        code: |
+          apt-get update
+    - install-packages:
+        packages: git ssh-client

@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         theme: grid-side
-        flags: --buildDrafts=false -v
+        flags: --buildDrafts=false
 
 deploy:
   steps:

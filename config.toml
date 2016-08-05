@@ -12,7 +12,7 @@ copyright = "Copyright &#169;  Matt Stratton"
 # not locally when run with `hugo server`; as with standard Hugo disqus,
 # you can specify disqus_identifier, disqus_title, and disqus_url in the
 # front matter of specific content.
-#disqusShortname = "yourDisqusShortname"
+disqusShortname = "mattstratton"
 
 # The theme supports menus with up to one submenu per menu item
 # The menu name must be "Main"
@@ -112,18 +112,34 @@ copyright = "Copyright &#169;  Matt Stratton"
 
         [[Params.Footer.List]]
 
+            icon_class = "facebook"
+            icon_link = "https://www.facebook.com/matt.stratton"
+
+        [[Params.Footer.List]]
+
             icon_class = "linkedin"
-            icon_link = "#!"
+            icon_link = "http://www.linkedin.com/in/mattstratton"
 
         [[Params.Footer.List]]
 
             icon_class = "google-plus"
-            icon_link = "#!"
+            icon_link = "https://plus.google.com/+MattStratton"
 
         [[Params.Footer.List]]
 
             icon_class = "github"
-            icon_link = "#!"
+            icon_link = "https://github.com/mattstratton"
+
+        [[Params.Footer.List]]
+
+            icon_class = "instagram"
+            icon_link = "https://www.instagram.com/mattstratton/"
+
+        [[Params.Footer.List]]
+            icon_class = "snapchat"
+            icon_link = "https://www.snapchat.com/add/themattstratton"
+
+
 
     #
     # Contains the Cells representing the sections of your website. Each cell

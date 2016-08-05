@@ -14,5 +14,5 @@ deploy:
     - arjen/s3sync:
         key-id: $KEY
         key-secret: $SECRET
-        bucket-url: s3://www-mattstratton-com
+        bucket-url: s3://www.mattstratton.com
         source-dir: public

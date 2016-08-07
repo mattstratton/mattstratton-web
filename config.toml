@@ -8,7 +8,7 @@ copyright = "Copyright &#169;  Matt Stratton"
 googleAnalytics = "UA-7327719-1"
 
 # The theme uses pagination for post, gallery, and project listings.
-#paginate = 12
+paginate = 12
 
 # The theme supports disqus, which will appear only on deployed sites,
 # not locally when run with `hugo server`; as with standard Hugo disqus,
@@ -38,7 +38,7 @@ disqusShortname = "mattstratton"
 [Params]
     # When set to true, will use infinite scrolling to load paginated content
     # for posts, galleries, and projects
-    infinite_scroll = true
+    infinite_scroll = false
 
     #
     # The post, project, and gallery sections can have infinite scroll turned

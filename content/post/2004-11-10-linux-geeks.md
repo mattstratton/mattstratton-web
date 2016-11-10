@@ -12,7 +12,7 @@ categories:
 ---
 This is my friend Trapper's rant about Linux geeks. As true today as when it was written
 
-```
+__________
 So here is another thing that pisses me off&#8230;why is it that EVERY TIME someone figures out how to run Linux on something, all the Linux F*ckheads have to say how they need to run out and buy one.
   
 Linux geek 1: &#8220;I got Linux running on my xbox&#8221;
@@ -28,4 +28,4 @@ Linux geek 2: &#8220;I only buy American made cars&#8230; but if someone got Lin
 Linux geek 4: &#8220;Me too! me too!&#8221;
   
 Linux geek 3: &#8220;Can I wack off while I watch you run Linux on your Honda Civic?
-```
+_______

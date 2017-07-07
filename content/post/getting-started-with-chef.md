@@ -145,7 +145,7 @@ So it's not installed. But it's kind of a pain to have to log in and check manua
 
 ## Writing an InSpec test
 
-We will be writing our tests using the [InSpec](https://wwww.inspec.io) language. It's cool.
+We will be writing our tests using the [InSpec](https://www.inspec.io) language. It's cool.
 
 The tests live in the `test/smoke/default` directory of our cookbook. If we take a look in there, we can see there's already a default test (the file is called `default_test.rb`, coincidentally enough). Here's how this file looks right now:
 

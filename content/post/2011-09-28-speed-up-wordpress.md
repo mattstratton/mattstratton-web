@@ -12,7 +12,7 @@ thesis_post_image_vertical:
   - before-post
 thesis_thumb:
   - http://cdn.mattstratton.com/wp-content/uploads/speedytn.png
-thesis_description:
+description:
   - Everyone wants their blog to load faster. One of the best ways to improve performance on self-hosted WordPress is using a combination of the W3 Total Cache plugin and a Content Delivery Network such as Amazon CloudFront. This post will walk you through the process, step by step, and have you serving up a speedier blog in no time!
 dsq_thread_id:
   - 429044043

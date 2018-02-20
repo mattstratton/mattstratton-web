@@ -12,7 +12,7 @@ thesis_post_image_vertical:
   - before-post
 dsq_thread_id:
   - 268565614
-thesis_description:
+description:
   - It was Legs and Back day today. This is a workout that doesn’t change from phase to phase (although it is skipped in Recovery Week). It’s definitely the biggest burner of all the workouts, as I generally exceed 1,000 calories burned while doing it (when combined with Ab Ripper X). However, it also included an unplanned bit of damage to our drywall.
 categories:
   - Health

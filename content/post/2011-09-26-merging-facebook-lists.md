@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-09-27T02:00:59+00:00
 url: /tech-tips/merging-facebook-lists
-thesis_description:
+description:
   - "If you have previously set up Facebook lists, but want to leverage the power of the new Close Friends and Acquaintances lists, it's fairly easy to merge your old Lists into the new. And I'll show you how to do it."
 thesis_keywords:
   - facebook

@@ -6,8 +6,7 @@ date: 2011-07-26T04:06:38+00:00
 url: /tech-tips/making-wordpress-faster
 thesis_post_image:
   - /wp-content/uploads/FastWomanDSO.jpg
-thesis_description:
-  - Speed matters, right? It’s a proven fact that the speed of page load has a direct impact on Google rankings and visitor conversion. Well, it’s about as proven as anything is on the Internet, which basically means that a lot of us think it sounds logical, so it must be true. Regardless, having a faster website can only be a good thing and help you feel way more awesome about yourself. In this blog post, I’ll summarize some of the tweaks I made to my friend Jenn’s blog – Jenn Said What?! – to make her a blogger speed demon.
+description: Speed matters, right? It’s a proven fact that the speed of page load has a direct impact on Google rankings and visitor conversion. Well, it’s about as proven as anything is on the Internet, which basically means that a lot of us think it sounds logical, so it must be true. Regardless, having a faster website can only be a good thing and help you feel way more awesome about yourself. In this blog post, I’ll summarize some of the tweaks I made to my friend Jenn’s blog – Jenn Said What?! – to make her a blogger speed demon.
 dsq_thread_id:
   - 368613533
 categories:

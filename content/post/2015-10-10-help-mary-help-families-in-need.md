@@ -4,8 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2015-10-10T05:01:49+00:00
 url: /life-in-general/help-mary-help-families-in-need
-thesis_description:
-  - My roommate, Mary, has "adopted" two families in need this Christmas. Last year she adopted three families, and your donations and generosity made it happen. She could use YOUR help in making the holidays amazing for these families.
+image: /wp-content/uploads/mary-presents.png
+description: My roommate, Mary, has "adopted" two families in need this Christmas. Last year she adopted three families, and your donations and generosity made it happen. She could use YOUR help in making the holidays amazing for these families.
 dsq_thread_id:
   - 4211187142
 thesis_thumb_width:

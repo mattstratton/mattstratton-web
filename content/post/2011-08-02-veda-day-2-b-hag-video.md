@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-08-02T13:49:33+00:00
 url: /vlogs/veda-day-2-b-hag-video
-thesis_description:
+description:
   - "In today's VEDA video, I discuss my B-HAG (Big, Hairy, Audacious Goal). It actually isn't that big OR audacious, and it's also fairly geeky. Consider yourself warned."
 dsq_thread_id:
   - 375143549

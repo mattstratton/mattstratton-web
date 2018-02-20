@@ -4,6 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2015-07-17T03:04:56+00:00
 url: /tech/starting-a-tech-podcast
+image: /wp-content/uploads/pdocast.png
 dsq_thread_id:
   - 3941980611
 categories:

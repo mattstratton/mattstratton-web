@@ -12,7 +12,7 @@ thesis_post_image_vertical:
   - before-post
 dsq_thread_id:
   - 239985712
-thesis_description:
+description:
   - "The strange Google searches that bring people to this blog never cease to amuse me. Here's a random sampling of some of the more hilarious and obscure search terms that brought in traffic to Good Old Rock in the past 30 days."
 categories:
   - Friday Fun

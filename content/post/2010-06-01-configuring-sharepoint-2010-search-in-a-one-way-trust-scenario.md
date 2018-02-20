@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-06-01T14:54:45+00:00
 url: /tech-tips/configuring-sharepoint-2010-search-in-a-one-way-trust-scenario
-thesis_description:
+description:
   - SharePoint 2010 is a pretty great product. However, quite a few gotchas will come up with a one-way trust scenario, most notably, search issues. With some PowerShell kung-fu, however, these can be resolved.
 thesis_keywords:
   - sharepoint, sharepoint search, sharepoint 2010

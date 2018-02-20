@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-09-04T02:01:54+00:00
 url: /the-internets/getting-wheezy
-thesis_description:
+description:
   - "If a bunch of people watch one of Wheezy Waiter's videos, a bunch of kids get cool technology in their classroom from Intel. So watch the video. The link is in this blog post."
 thesis_post_image:
   - http://cdn.mattstratton.com/wp-content/uploads/wheezy.png

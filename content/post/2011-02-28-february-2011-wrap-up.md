@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-02-28T14:03:33+00:00
 url: /life-in-general/february-2011-wrap-up
-thesis_description:
+description:
   - |
     Inspired by this post by @writetoreach, I have decided to do monthly "personal" wrap-up posts. I've long struggled with how to integrate more personal posts with all the tech tips and other geeky type of posts on this blog, and a monthly summary seems to be a good way to do this. So without further delay, here's what was going on in my world in February.
 thesis_post_image:

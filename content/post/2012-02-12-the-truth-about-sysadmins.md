@@ -4,6 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-02-12T19:32:41+00:00
 url: /hilarity/the-truth-about-sysadmins
+image: /wp-content/uploads/sysadmin-300x200.jpg
+description: "There's a meme going around, and I decided to take my shot at spoofing it for system administrators."
 dsq_thread_id:
   - 573596024
 categories:

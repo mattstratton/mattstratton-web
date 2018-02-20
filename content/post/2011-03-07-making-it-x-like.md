@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-03-07T13:58:30+00:00
 url: /health/making-it-x-like
-thesis_description:
+description:
   - Longtime readers of this blog will know that this is not the first time I’ve tried to get into better shape. But this time, I mean it!
 thesis_post_image:
   - /wp-content/uploads/dumbbells.png

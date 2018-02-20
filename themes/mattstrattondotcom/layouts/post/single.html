@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class = "row">
+    <div class = "col">
+        <h2>{{.Title}}</h2>
+        <small>Posted on {{ dateFormat "Monday, Jan 2, 2006" .Date }} </small>
+        <hr />
+    </div>
+</div>
+
+<div class = "row">
+    <div class = "col">
+        {{ .Content }}
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        {{ partial "disqus.html" . }}
+    </div>
+</div>
+{{ end }}

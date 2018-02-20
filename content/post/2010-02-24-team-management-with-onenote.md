@@ -4,8 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-02-24T19:49:42+00:00
 url: /tech-tips/team-management-with-onenote
-thesis_description:
-  - "Managing resources across a team can be a real challenge. I've devised a system for tracking this using a combination of Microsoft OneNote and Outlook. Bear in mind that I just invented this today, so a) it's not really a proven system yet, and b) I'm VERY open to feedback and suggestions for how it can be improved."
+description: "Managing resources across a team can be a real challenge. I've devised a system for tracking this using a combination of Microsoft OneNote and Outlook. Bear in mind that I just invented this today, so a) it's not really a proven system yet, and b) I'm VERY open to feedback and suggestions for how it can be improved."
 thesis_thumb:
   - /wp-content/uploads/onenote.png
 dsq_thread_id:

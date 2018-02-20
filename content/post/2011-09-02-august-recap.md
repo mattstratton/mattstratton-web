@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-09-02T23:00:36+00:00
 url: /life-in-general/august-recap
-thesis_description:
+description:
   - 'What did I do in the month of August? Video challenge, work stuff, and you know, family and junk. '
 thesis_post_image:
   - http://cdn.mattstratton.com/wp-content/uploads/torch.png

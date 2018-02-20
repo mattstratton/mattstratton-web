@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-10-24T20:39:02+00:00
 url: /hilarity/is-there-a-seinfeld-for-2010
-thesis_description:
+description:
   - "What show, if any, is the heir apparent for Seinfeld? Some postulate it is How I Met Your Mother. I argue that It's Always Sunny In Philadelphia more completely espouses the spirit of the seminal NBC sitcom of the 90s."
 dsq_thread_id:
   - 163053507

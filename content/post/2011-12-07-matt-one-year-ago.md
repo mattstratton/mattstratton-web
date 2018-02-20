@@ -4,8 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-12-07T11:38:11+00:00
 url: /life-in-general/matt-one-year-ago
-thesis_description:
-  - Every year for my birthday, I compose an email to be sent to myself a year in the future. This is the email I composed one year ago.
+description: Every year for my birthday, I compose an email to be sent to myself a year in the future. This is the email I composed one year ago.
 thesis_post_image:
   - http://cdn.mattstratton.com/wp-content/uploads/future.png
 thesis_post_image_vertical:

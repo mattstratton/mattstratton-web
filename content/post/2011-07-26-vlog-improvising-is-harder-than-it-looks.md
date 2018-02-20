@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-07-27T01:52:44+00:00
 url: /vlogs/vlog-improvising-is-harder-than-it-looks
-thesis_description:
+description:
   - |
     |
         I'm doing this thing called VEDA (Video Every Day in August) and thought it was a good idea to practice vlogging.

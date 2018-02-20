@@ -10,7 +10,7 @@ thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
-thesis_description:
+description:
   - "If you're a Microsoft system administrator, it's hard to avoid PowerShell. Pretty much any of the recent versions of Microsoft server technologies are heavily reliant upon this scripting system. I've been resistent to it for a while now, insisting upon using vbscript for most of my scripting tasks, but I've recently done a complete turnaround and embraced it wholeheartedly."
 thesis_keywords:
   - powershell

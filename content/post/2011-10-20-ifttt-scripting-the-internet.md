@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-10-20T20:10:28+00:00
 url: /tech/ifttt-scripting-the-internet
-thesis_description:
+description:
   - |
     I'm pretty much in love with the service known as ifttt - "if this, then that". It's kind of like a scripting language for the Internet.
 thesis_post_image:

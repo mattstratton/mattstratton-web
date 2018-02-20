@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-07-07T16:57:34+00:00
 url: /tech-tips/how-i-set-up-my-circles-in-google-plus
-thesis_description:
+description:
   - 'Tips and tricks on setting up Circles in Google Plus for maximum enjoyment. Or something. '
 dsq_thread_id:
   - 352215247

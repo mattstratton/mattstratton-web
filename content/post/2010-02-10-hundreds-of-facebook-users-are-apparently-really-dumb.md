@@ -4,8 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-02-11T01:30:05+00:00
 url: /hilarity/hundreds-of-facebook-users-are-apparently-really-dumb
-thesis_description:
-  - On Wednesday, 2/10/2010, the tech blog ReadWriteWeb posted an article about Facebook Connect. This post became highly ranked in Google for the term "facebook login"...which resulted in hundreds of Facebook users attempting to log into ReadWriteWeb, thinking the site was yet another Facebook redesign.
+description: On Wednesday, 2/10/2010, the tech blog ReadWriteWeb posted an article about Facebook Connect. This post became highly ranked in Google for the term "facebook login"...which resulted in hundreds of Facebook users attempting to log into ReadWriteWeb, thinking the site was yet another Facebook redesign.
 dsq_thread_id:
   - 66002307
 categories:

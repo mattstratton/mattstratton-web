@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-03-21T12:58:47+00:00
 url: /health/p90x-week-3-wrapup
-thesis_description:
+description:
   - I have finished up Week 3 of my P90X experience, and I have to say, it’s going pretty damn well. I’m quite proud of myself for what I’ve accomplished. I’ve completed three weeks of P90X, and two of them without missing ANY days.
 thesis_keywords:
   - p90x

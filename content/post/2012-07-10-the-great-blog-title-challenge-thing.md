@@ -4,6 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2012-07-11T02:47:11+00:00
 url: /meta/the-great-blog-title-challenge-thing
+image: /wp-content/uploads/20120710-215011.jpg
 dsq_thread_id:
   - 759799256
 categories:

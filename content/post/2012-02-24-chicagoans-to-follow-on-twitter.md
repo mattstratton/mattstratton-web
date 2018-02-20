@@ -4,11 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-02-25T05:47:43+00:00
 url: /the-internets/chicagoans-to-follow-on-twitter
-thesis_description:
-  - |
-    A completely subjective list of the eleven people from Chicago who you should follow on Twitter RIGHT NOW.
-    
-    Very little science or analytics were used to generate this list. Pizza bagels may have been involved.
+description: A completely subjective list of the eleven people from Chicago who you should follow on Twitter RIGHT NOW. Very little science or analytics were used to generate this list. Pizza bagels may have been involved.
+image: /wp-content/uploads/chi-tweets-venn.png
 dsq_thread_id:
   - 588557765
 categories:

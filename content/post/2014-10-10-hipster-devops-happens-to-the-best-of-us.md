@@ -4,6 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2014-10-11T00:32:18+00:00
 url: /devops/hipster-devops-happens-to-the-best-of-us
+image: /wp-content/uploads/hipsterdevops2.png
 dsq_thread_id:
   - 3104933417
 categories:

@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-07-12T16:51:40+00:00
 url: /life-in-general/lets-get-physical
-thesis_description:
+description:
   - ' In early June, I started improving my diet and a few weeks later, began physical exercise with a vengeance. I still have a ways to go. I have a few plans in place, but I also have some follow-up questions to you, my readers, to get your input and advice.'
 dsq_thread_id:
   - 117053141
@@ -15,6 +15,7 @@ tags:
   - Health
   - South Beach Diet
   - Weight loss
+image: http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_%27weigh%27_he_was_--_weightloss_at_Guantanamo.jpg/300px-The_%27weigh%27_he_was_--_weightloss_at_Guantanamo.jpg
 
 ---
 <div class="zemanta-img" style="margin: 1em; display: block;">

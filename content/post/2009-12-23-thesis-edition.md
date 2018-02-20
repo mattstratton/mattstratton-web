@@ -6,7 +6,7 @@ date: 2009-12-23T15:07:56+00:00
 url: /wednesday-web-wanderings/thesis-edition
 aktt_notify_twitter:
   - no
-thesis_description:
+description:
   - "I've recently updated my blog to use the super flexible, super extensible Thesis theme from DIYThemes. Here's a list of some helpful and cool Thesis-related links."
 thesis_post_image:
   - /wp-content/uploads/Untitled.png

@@ -6,7 +6,7 @@ date: 2009-12-15T21:51:05+00:00
 url: /meta/some-housekeeping
 aktt_notify_twitter:
   - no
-thesis_description:
+description:
   - "Lots of changes going on at Good Old Rock. I've installed a new theme and streamlined the content."
 dsq_thread_id:
   - 52076656

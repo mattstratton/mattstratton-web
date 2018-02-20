@@ -7,7 +7,7 @@ $color3: rgba(116, 131, 134, 1);
 $color4: rgba(114, 14, 7, 1);
 $color5: rgba(69, 5, 12, 1);
 
-$brand-primary:             $color5, 16.5%;
+$brand-primary:             lighten($color5, 16.5%);
 $body-bg:                   $color2;
 $main-container-bg:        #FFF9CC;
 $middle-container-bg:      lighten($color3,25%);
@@ -27,8 +27,8 @@ $pagination-hover-bg:                  lighten($color3,35%);
 $pagination-hover-border:              #ddd;
 
 $pagination-active-color:              #fff;
-$pagination-active-bg:                 $brand-primary;
-$pagination-active-border:             $brand-primary;
+$pagination-active-bg:                 $color2;
+$pagination-active-border:             $color2;
 
 $pagination-disabled-color:            lighten($color3,25%);
 $pagination-disabled-bg:               #fff;

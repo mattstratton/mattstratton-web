@@ -139,7 +139,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #45050c, 16.5%;
+  color: #930b1a;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -2003,7 +2003,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #45050c, 16.5%;
+  color: #930b1a;
   background-color: transparent; }
   .btn-link:hover {
     color: #720e07;
@@ -3148,7 +3148,7 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #45050c, 16.5%;
+  color: #930b1a;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
@@ -3175,8 +3175,8 @@ tbody.collapse.show {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #45050c, 16.5%;
-  border-color: #45050c, 16.5%; }
+  background-color: #706563;
+  border-color: #706563; }
 
 .page-item.disabled .page-link {
   color: #b8c0c2;
@@ -6091,7 +6091,7 @@ a {
 
 .pagination > li > a,
 .pagination > li > span {
-  color: #45050c, 16.5%;
+  color: #930b1a;
   background-color: #fff;
   border: 1px solid #ddd; }
 
@@ -6107,8 +6107,8 @@ a {
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
   color: #fff;
-  background-color: #45050c, 16.5% !important;
-  border-color: #45050c, 16.5% !important; }
+  background-color: #706563 !important;
+  border-color: #706563 !important; }
 
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,

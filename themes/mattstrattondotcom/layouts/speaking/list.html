@@ -1,5 +1,13 @@
 {{ define "main" }}
-{{ .Content}}
+<div class="row">
+    <div class="col">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+    <div class="col-lg-4">
+            <img alt="Matty Stratton" src="/img/huge-mistake.jpg" class="img-center img-fluid rounded mx-auto d-block">
+    </div>
+</div>
 
 <h2>Upcoming</h2>
 <table class="table table-hover">

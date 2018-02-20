@@ -1,7 +1,5 @@
 ---
 title: Client testing
-author: Matt Stratton
-layout: post
 date: 2001-04-01T19:07:00+00:00
 url: /meta/client-testing
 aktt_notify_twitter:

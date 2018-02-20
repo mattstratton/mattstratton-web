@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-03-05T13:18:11+00:00
 url: /health/five-activities-that-make-me-happy
-thesis_description:
+description:
   - "Today's Daily Challenge from MeYouHealth.com was to 'write down 5 activities that make you happy'. I decided to do it in blog form."
 thesis_post_image:
   - /wp-content/uploads/jojo-happy.png

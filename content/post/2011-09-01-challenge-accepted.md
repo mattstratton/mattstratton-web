@@ -18,8 +18,7 @@ thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
-thesis_description:
-  - Since I almost managed to complete the Video Every Day in August challenge, it stands to reason I can Blog Every Day in September, right?
+description: Since I almost managed to complete the Video Every Day in August challenge, it stands to reason I can Blog Every Day in September, right?
 categories:
   - Meta
 tags:

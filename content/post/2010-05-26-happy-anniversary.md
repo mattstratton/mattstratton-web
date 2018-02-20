@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-05-26T14:27:53+00:00
 url: /life-in-general/happy-anniversary
-thesis_description:
+description:
   - My lovely wife Carrie and I were married on May 26, 2007. On Saturday, almost exactly three years later, we stood in the same place, but this time, with two amazing little boys who were being baptized in the same church, and by the same priest, where we were married.
 thesis_thumb:
   - http://farm3.static.flickr.com/2159/2085726927_e30bf639eb_s.jpg

@@ -6,7 +6,7 @@ date: 2009-12-25T19:28:19+00:00
 url: /life-in-general/happy-holidays
 aktt_notify_twitter:
   - no
-thesis_description:
+description:
   - Happy Holidays from the Stratton Family!
 thesis_post_image:
   - /wp-content/uploads/christmas-port.jpg

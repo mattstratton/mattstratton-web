@@ -14,8 +14,7 @@ thesis_post_image_vertical:
   - before-post
 thesis_thumb:
   - http://cdn.mattstratton.com/wp-content/uploads/facebook-lists-tn.png
-thesis_description:
-  - Facebook has released some major changes to how the Feed and Activity function. This post will explain how to make the new Facebook work FOR you, not AGAINST you.
+description: Facebook has released some major changes to how the Feed and Activity function. This post will explain how to make the new Facebook work FOR you, not AGAINST you.
 dsq_thread_id:
   - 423251100
 categories:

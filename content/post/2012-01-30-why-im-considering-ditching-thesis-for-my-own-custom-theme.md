@@ -4,8 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-01-30T14:00:54+00:00
 url: /tech/why-im-considering-ditching-thesis-for-my-own-custom-theme
-thesis_post_image:
-  - /wp-content/uploads/thesis1.png
+description: Long-time readers of this blog will be aware that I have been a vocal supporter and proponent of the Thesis framework for WordPress for quite some time. This site runs on Thesis, and I am always keen to recommend it to others. That being said, I&#8217;ve recently been considering dropping Thesis from this blog and replacing it with my own custom theme.
+image: /wp-content/uploads/thesis1.png
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:

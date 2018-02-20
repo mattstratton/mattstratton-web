@@ -12,7 +12,7 @@ thesis_post_image_horizontal:
   - right
 thesis_post_image_vertical:
   - after-headline
-thesis_description:
+description:
   - "People find their way to my blog with some very strange Google searches. I've compiled a list of some of the more amusing ones."
 thesis_thumb:
   - /wp-content/uploads/search.png

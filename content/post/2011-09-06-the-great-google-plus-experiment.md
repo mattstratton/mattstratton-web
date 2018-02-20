@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-09-06T18:37:07+00:00
 url: /the-internets/the-great-google-plus-experiment
-thesis_description:
+description:
   - |
     I've been using Google Plus since the beginning of July. I'm a big fan of it and have decided to try to make it my main "social media" platform. To test this theory out, I am going to be taking a hiatus from Facebook for the rest of the month of September, using Google Plus for my social sharing.
 thesis_keywords:

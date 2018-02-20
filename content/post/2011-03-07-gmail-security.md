@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-03-07T23:18:17+00:00
 url: /tech-tips/gmail-security
-thesis_description:
+description:
   - Email can be our lifeblood. Your email inbox is the center of your existence, and if it gets compromised, you can be in for a world of hurt. If hackers get access to your email, they can use this access to reset passwords to your Facebook account, or even your online banking accounts. Because of this, you should be doing everything possible to guard the keys to your email kingdom. This post will mostly focus on securing a Gmail account (most tips will apply to Google Apps email as well), but some of the points apply to any email system.
 thesis_post_image:
   - /wp-content/uploads/bulletproof.jpg

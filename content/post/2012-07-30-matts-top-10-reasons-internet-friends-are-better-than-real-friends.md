@@ -4,10 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-07-30T15:48:40+00:00
 url: /life-in-general/matts-top-10-reasons-internet-friends-are-better-than-real-friends
-thesis_description:
-  - Everyone knows that having friend on the internet is awesome. Here are 10 reasons why.
-thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/Foul_Bachelor_Frog-FRIDAY_NIGHT_not_alone_with_internet_friends.png
+description: Everyone knows that having friend on the internet is awesome. Here are 10 reasons why.
+image: /wp-content/uploads/Foul_Bachelor_Frog-FRIDAY_NIGHT_not_alone_with_internet_friends.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:

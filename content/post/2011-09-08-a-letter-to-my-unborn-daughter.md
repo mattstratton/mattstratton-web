@@ -12,8 +12,7 @@ thesis_post_image_vertical:
   - before-post
 thesis_thumb:
   - http://cdn.mattstratton.com/wp-content/uploads/carrie-babytn.png
-thesis_description:
-  - September 9th is the due date of my unborn baby girl (who is currently nameless). My wife sent me a link to a list of 50 Rules for Dads of Daughters. Besides make me almost tear up at work, it got me to thinking. This is a letter to my little baby girl, on the day before she is supposed to be born.
+description: September 9th is the due date of my unborn baby girl (who is currently nameless). My wife sent me a link to a list of 50 Rules for Dads of Daughters. Besides make me almost tear up at work, it got me to thinking. This is a letter to my little baby girl, on the day before she is supposed to be born.
 thesis_keywords:
   - baby daughter
 dsq_thread_id:

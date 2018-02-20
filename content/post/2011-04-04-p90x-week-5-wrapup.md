@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-04-04T16:19:07+00:00
 url: /health/p90x-week-5-wrapup
-thesis_description:
+description:
   - I’ve completed five weeks of P90X…which puts me at just under the halfway mark. I would venture to say that this is further than I’ve gotten in the past (technically, I did more than five weeks last time, but I didn’t do it properly, so I don’t count it). This was also the first time I’ve completed the Phase 2 full week (minus a day of yoga, which we’ll talk about later).
 thesis_post_image:
   - /wp-content/uploads/warmup1.jpg

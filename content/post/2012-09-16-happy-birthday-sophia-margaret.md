@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2012-09-16T16:30:48+00:00
 url: /life-in-general/happy-birthday-sophia-margaret
-thesis_description:
+description:
   - Happy first birthday to the best little Fifi-bunny ever.
 dsq_thread_id:
   - 846645492
@@ -15,6 +15,7 @@ tags:
   - Birthdays
   - fifi
   - sophia
+image: /wp-content/uploads/fifiborn.jpg
 
 ---
 One year ago today, this little girl showed up:

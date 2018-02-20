@@ -1,0 +1,75 @@
+{{ define "main" }}
+{{ .Content}}
+
+<h2>Upcoming</h2>
+<table class="table table-hover">
+    <thead class="thead-inverse">
+        <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Title</th>
+            <th>Location</th>
+        </tr>
+    </thead>    
+    <tbody>
+    {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "ge" now).ByParam "presentation_date" }}
+        <tr>
+            <td>{{ dateFormat "Jan 2, 2006" .Params.presentation_date }}</td>
+            {{- if isset .Params "event_url" -}}
+                <td><a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a></td>
+            {{- else -}}
+                <td>{{ .Params.event_name }}</td>
+            {{- end -}}
+            {{- if isset .Params "detail_url" -}}
+                <td><a href = "{{ .Params.detail_url }}">{{ .Title }}</a></td>
+            {{- else -}}
+                <td>{{ .Title }}</td>
+            {{- end -}}
+            <td>{{ .Params.event_location }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+
+</table>
+
+<h2>Past</h2>
+
+<table class="table table-hover">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Title</th>
+                <th>Location</th>
+            </tr>
+        </thead>    
+        <tbody>
+        {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "lt" now).ByParam "presentation_date" }}
+            <tr>
+                <td>{{ dateFormat "Jan 2006" .Params.presentation_date }}</td>
+                {{- if isset .Params "event_url" -}}
+                    <td><a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a></td>
+                {{- else -}}
+                    <td>{{ .Params.event_name }}</td>
+                {{- end -}}
+                <td>
+                {{- if isset .Params "detail_url" -}}
+                    <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>
+                {{- else -}}
+                    {{ .Title }}
+                {{- end -}}
+                {{ with .Params.video }}
+                    &nbsp;<a href = "{{.}}"><i class="fab fa-youtube"></i></a>
+                {{ end }}
+                {{ with .Params.slides }}
+                    &nbsp;<a href = "{{.}}"><i class="fas fa-file-powerpoint"></i></a>
+                {{ end }}
+                </td>
+                <td>{{ .Params.event_location }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    
+    </table>
+
+{{ end }}

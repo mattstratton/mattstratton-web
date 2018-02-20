@@ -4,10 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-07-12T18:51:20+00:00
 url: /real-world/how-to-get-a-lot-of-blog-post-titles-in-24-hours
-thesis_description:
-  - |
-    As you may recall, I am embarking on an experiment to crowd-sourced blog titles. I asked Twitter to suggest titles for blog posts using the hashtag #mattblog, and committed to writing a post for every title.
-    Today's post title comes to us from @gRegorLove, and it seemed like a great one to start with. I did have a tough time determing which one would be first, which is why I solicited the assistance of my good pal @FeliciaCago, who came up with a spreadsheet of all the topics along with her "invaluable feedback".
+description: "As you may recall, I am embarking on an experiment to crowd-sourced blog titles. I asked Twitter to suggest titles for blog posts using the hashtag #mattblog, and committed to writing a post for every title." 
+image: /wp-content/uploads/24hours.png
 dsq_thread_id:
   - 762457060
 categories:

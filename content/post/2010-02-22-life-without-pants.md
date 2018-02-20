@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-02-22T21:56:23+00:00
 url: /rss-recommendations/life-without-pants
-thesis_description:
+description:
   - |
     Today's feed recommendation is Life Without Pants, a Matt Cheuvront joint. I've been following LWP for quite a while now, and in addition to being a major Thesis  guru, Matt's content is really the king here. He has phenomenal insights on building community inside a blog, but also touches on "big picture" subjects as well. One of my favorite posts discussed the fact that life and success is not a zero-sum game.
 thesis_thumb:

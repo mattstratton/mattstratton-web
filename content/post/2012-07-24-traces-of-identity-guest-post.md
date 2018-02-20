@@ -10,8 +10,7 @@ thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
-thesis_description:
-  - 'My name is Ashley and I blog at Writing To Reach You.  When I asked for opportunities to guest blog, Matt offered me some space here and asked, “how about the personal and emotional implications of leaving portions of yourself and your content in a disparate and incongruent network that is both ephemeral and everlasting?”  Matt hit on something I think is so interesting about the content we create for the internet.  What we put out there stays forever, but so much is created that most of it is lost or buried.'
+description: My name is Ashley and I blog at Writing To Reach You.  When I asked for opportunities to guest blog, Matt offered me some space here and asked, “how about the personal and emotional implications of leaving portions of yourself and your content in a disparate and incongruent network that is both ephemeral and everlasting?”
 dsq_thread_id:
   - 778071538
 thesis_thumb:

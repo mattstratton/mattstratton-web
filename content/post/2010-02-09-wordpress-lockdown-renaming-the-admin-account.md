@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-02-09T21:38:23+00:00
 url: /tech-tips/wordpress-lockdown-renaming-the-admin-account
-thesis_description:
+description:
   - |
     By default, when WordPress is installed, an administrative account called "admin" is created. This account is a prime target for hackers, since they know that every WordPress blog has a powerful account with the name "admin". They can launch a password-guessing tool against your blog with the user "admin", and eventually, they might be able to get through. Here's how to "rename" the default admin account in WordPress.
 thesis_keywords:

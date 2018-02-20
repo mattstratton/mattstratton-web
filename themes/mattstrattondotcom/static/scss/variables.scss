@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - coolors.co/020300-706563-748386-720e07-45050c */
+
+/* RGB */
+$color1: rgba(2, 3, 0, 1);
+$color2: rgba(112, 101, 99, 1);
+$color3: rgba(116, 131, 134, 1);
+$color4: rgba(114, 14, 7, 1);
+$color5: rgba(69, 5, 12, 1);
+
+$brand-primary:             $color5, 16.5%;
+$body-bg:                   $color2;
+$main-container-bg:        #FFF9CC;
+$middle-container-bg:      lighten($color3,25%);
+$link-color:               $brand-primary;
+$link-hover-color:         $color4;
+
+//== Pagination
+//
+//##
+
+$pagination-color:                     $link-color;
+$pagination-bg:                        #fff;
+$pagination-border:                    #ddd;
+
+$pagination-hover-color:               $link-hover-color;
+$pagination-hover-bg:                  lighten($color3,35%);
+$pagination-hover-border:              #ddd;
+
+$pagination-active-color:              #fff;
+$pagination-active-bg:                 $brand-primary;
+$pagination-active-border:             $brand-primary;
+
+$pagination-disabled-color:            lighten($color3,25%);
+$pagination-disabled-bg:               #fff;
+$pagination-disabled-border:           #ddd;

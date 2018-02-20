@@ -4,10 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-08-01T13:54:26+00:00
 url: /vlogs/veda-day-1-introduction-video
-thesis_description:
-  - |
-    |
-        This is the first day of VEDA - Video Every Day in August. Today's video is a small introduction...kind of a "meet and greet". It also includes a couple small snips from a few short films I made years and years ago. 
+description: This is the first day of VEDA - Video Every Day in August. Today's video is a small introduction...kind of a "meet and greet". It also includes a couple small snips from a few short films I made years and years ago. 
 dsq_thread_id:
   - 374175272
 categories:

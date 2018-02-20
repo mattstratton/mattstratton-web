@@ -4,17 +4,12 @@ author: Matt Stratton
 layout: post
 date: 2011-10-29T20:28:03+00:00
 url: /vlogs/do-you-think-i-have-an-accent
-thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/accent.png
+thesis_post_image: wp-content/uploads/accent.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
-thesis_description:
-  - |
-    There's a vlog meme running around, where people upload videos of themselves saying certain words or phrases, and then you, the viewer, identify the accent.
-    
-    So here's mine.
+description: There's a vlog meme running around, where people upload videos of themselves saying certain words or phrases, and then you, the viewer, identify the accent. So here's mine.
 dsq_thread_id:
   - 456468193
 categories:

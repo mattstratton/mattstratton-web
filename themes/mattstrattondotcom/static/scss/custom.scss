@@ -1,0 +1,113 @@
+body {
+    padding-top: 70px;
+    background-color: $body-bg;
+}
+
+a {
+  color: $body-bg;
+}
+
+.social-links {
+    margin-top: 10px !important;
+    margin-bottom: 0;
+    margin-right: 0 !important;
+    padding: 0 2px !important;
+}
+
+.middle_container {
+    background-color: $middle-container-bg;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-light {
+    background-color: $middle-container-bg;
+}
+.hero_container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+}
+.main_container {
+    background-color: $main-container-bg;
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottom_container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.navbar_footer {
+    border-radius: 0px!important;
+}
+.footer_copyright {
+  > a {
+    color: $middle-container-bg;
+  }
+    padding-right: 40px;
+    padding-top: 10px;
+    color: $middle-container-bg
+}
+
+.post-card-container {
+    padding-bottom: 20px;
+  }
+
+.post-card {
+padding: 20px;
+}
+
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+.pagination {
+
+    > ul {
+      margin-top: 20px;
+    }
+  
+    > li {
+      > a,
+      > span {
+        color: $pagination-color;
+        background-color: $pagination-bg;
+        border: 1px solid $pagination-border;
+      }
+    }
+  
+    > li > a,
+    > li > span {
+      &:hover,
+      &:focus {
+        color: $pagination-hover-color;
+        background-color: $pagination-hover-bg;
+        border-color: $pagination-hover-border;
+      }
+    }
+  
+    > .active > a,
+    > .active > span {
+      &,
+      &:hover,
+      &:focus {
+        color: $pagination-active-color;
+        background-color: $pagination-active-bg !important;
+        border-color: $pagination-active-border !important;
+      }
+    }
+  
+    > .disabled {
+      > span,
+      > span:hover,
+      > span:focus,
+      > a,
+      > a:hover,
+      > a:focus {
+        color: $pagination-disabled-color;
+        background-color: $pagination-disabled-bg;
+        border-color: $pagination-disabled-border;
+      }
+    }
+  }

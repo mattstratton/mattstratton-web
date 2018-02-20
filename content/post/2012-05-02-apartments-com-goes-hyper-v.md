@@ -4,11 +4,8 @@ author: Matt Stratton
 layout: post
 date: 2012-05-02T21:28:08+00:00
 url: /tech/apartments-com-goes-hyper-v
-thesis_description:
-  - |
-    If you follow me on Twitter, or are my friend on Facebook, you may have seen me posting links to various online articles about something called "Hyper-V". Basically, earlier this year, my team here at Apartments.com migrated our virtualization platform from VMWare to Microsoft's Hyper-V offering. Here's a listing of some of these articles.
-thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/hyper-v.png
+description: If you follow me on Twitter, or are my friend on Facebook, you may have seen me posting links to various online articles about something called "Hyper-V". Basically, earlier this year, my team here at Apartments.com migrated our virtualization platform from VMWare to Microsoft's Hyper-V offering. Here's a listing of some of these articles.
+thesis_post_image: /wp-content/uploads/hyper-v.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:

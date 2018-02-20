@@ -10,7 +10,7 @@ thesis_post_image_vertical:
   - before-post
 thesis_post_image_horizontal:
   - center
-thesis_description:
+description:
   - |
     With it's famous "Five minute install method", getting WordPress up and running for your blog is relatively trivial. However, after the base install, there are several things that should be configured for the most awesome WordPress experience possible.
 dsq_thread_id:

@@ -6,8 +6,7 @@ date: 2010-01-18T17:32:04+00:00
 url: /meta/check-out-the-new-look
 aktt_notify_twitter:
   - no
-thesis_description:
-  - "I've made quite a few changes to the look and feel of Good Old Rock, and I'd love to get some feedback on what you all think of them. I've got a new theme, and a bunch of new functionality. Please comment on the blog post with any thoughts and opinions you might have!"
+description: "I've made quite a few changes to the look and feel of Good Old Rock, and I'd love to get some feedback on what you all think of them. I've got a new theme, and a bunch of new functionality. Please comment on the blog post with any thoughts and opinions you might have!"
 thesis_thumb:
   - /wp-content/uploads/gor-tnail.jpg
 dsq_thread_id:

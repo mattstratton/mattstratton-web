@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2010-04-15T04:33:52+00:00
 url: /photography/photoshoot-meetup
-thesis_description:
+description:
   - "Back in March, I joined up with fellow local photographers Louis Parks, John Morrison, and Allie Osmar for a fun photoshoot project. We all met up at Chicago's Millennium Park, and took it in turns to shoot the same set of models. The theory behind the project was to see how different photographers captured the same subjects in the same location in the same conditions."
 thesis_keywords:
   - portrait, photography

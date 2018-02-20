@@ -4,7 +4,7 @@ author: Matt Stratton
 layout: post
 date: 2011-09-09T18:14:47+00:00
 url: /friday-fun/the-first-female-doctor
-thesis_description:
+description:
   - |
     During VEDA, my friend Kitty announced her goal of being the first female to play the eponymous character on Dr. Who. She expressed her desire in this video (link opens in a new window). Earlier today, my friends @Dutchface and @tomfromhr and I had a little bit of "back and forth" about this topic (starting with Tom comparing Ian's new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.
 thesis_post_image:

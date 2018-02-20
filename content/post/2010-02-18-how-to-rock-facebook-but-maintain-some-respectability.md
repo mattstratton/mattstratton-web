@@ -10,8 +10,7 @@ DiggUrl:
   - http://digg.com/security/How_to_rock_Facebook_but_maintain_some_respectability
 digg:
   - 1
-thesis_description:
-  - "So you've given in to the peer pressure and signed up with Facebook. You've hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play Scrabulous Lexulous.It's great. Everyone is on the Fizzy Bizzy. But how can you control WHO can see WHAT in your Facebook profile? "
+description: "So you've given in to the peer pressure and signed up with Facebook. You've hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play Scrabulous Lexulous.It's great. Everyone is on the Fizzy Bizzy. But how can you control WHO can see WHAT in your Facebook profile? "
 thesis_keywords:
   - facebook, privacy, security, facebook security, facebook privacy
 thesis_post_image_horizontal:

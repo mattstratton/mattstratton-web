@@ -15,16 +15,20 @@
     {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "ge" now).ByParam "presentation_date" }}
         <tr>
             <td>{{ dateFormat "Jan 2, 2006" .Params.presentation_date }}</td>
+            <td>
             {{- if isset .Params "event_url" -}}
-                <td><a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a></td>
+                <a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a>
             {{- else -}}
-                <td>{{ .Params.event_name }}</td>
+                {{ .Params.event_name }}
             {{- end -}}
+            </td>
+            <td>
             {{- if isset .Params "detail_url" -}}
-                <td><a href = "{{ .Params.detail_url }}">{{ .Title }}</a></td>
+                <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>
             {{- else -}}
-                <td>{{ .Title }}</td>
+                {{ .Title }}
             {{- end -}}
+            </td>
             <td>{{ .Params.event_location }}</td>
         </tr>
         {{ end }}
@@ -44,14 +48,16 @@
             </tr>
         </thead>    
         <tbody>
-        {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "lt" now).ByParam "presentation_date" }}
+        {{ range sort (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "lt" now) ".Params.presentation_date" "desc" }}
             <tr>
                 <td>{{ dateFormat "Jan 2006" .Params.presentation_date }}</td>
+                <td>
                 {{- if isset .Params "event_url" -}}
-                    <td><a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a></td>
+                    <a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a>
                 {{- else -}}
-                    <td>{{ .Params.event_name }}</td>
+                    {{ .Params.event_name }}
                 {{- end -}}
+                </td>
                 <td>
                 {{- if isset .Params "detail_url" -}}
                     <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>

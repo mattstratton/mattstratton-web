@@ -22,8 +22,20 @@
             <div class = "card h-100">
                 <img class = "card-img-top" src="/img/speaking/{{ .File.BaseFileName}}.png" alt="{{ .Title }}"> <!-- the image for the event/talk. Should be 320x180 -->
                 <div class = "card-body">
-                    <h5 class = "card-title">{{ .Title }}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ .Params.event_name }}</h6>
+                    <h5 class = "card-title">
+                        {{- if isset .Params "detail_url" -}}
+                            <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>
+                        {{- else -}}
+                            {{ .Title }}
+                        {{- end -}}
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{- if isset .Params "event_url" -}}
+                            <a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a>
+                        {{- else -}}
+                            {{ .Params.event_name }}
+                        {{- end -}}
+                    </h6>
                 </div>
                 <div class="card-footer text-muted">{{ dateFormat "Jan 2, 2006" .Params.presentation_date }}</div>
             </div>
@@ -90,7 +102,19 @@
         <div class = "col">
             <hr />
             {{ range sort (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "lt" now) ".Params.presentation_date" "desc" }}
-            <p><b>{{ .Title }}</b><br/>{{ .Params.event_name }} ({{ dateFormat "Jan 2006" .Params.presentation_date }})</p>
+            <p><b>
+                {{- if isset .Params "detail_url" -}}
+                    <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>
+                {{- else -}}
+                    {{ .Title }}
+                {{- end -}}
+            </b><br/>
+            {{- if isset .Params "event_url" -}}
+                <a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a>
+            {{- else -}}
+            {{ .Params.event_name }}
+            {{- end -}} 
+            &nbsp;({{ dateFormat "Jan 2006" .Params.presentation_date }})</p>
             {{ with .Params.video }}
                 &nbsp;<a href = "{{.}}"><i class="fab fa-youtube"></i></a>
             {{ end }}

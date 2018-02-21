@@ -1,52 +1,51 @@
 {{ define "main" }}
-<div class="row">
-    <div class="col">
+<div class="row speaking-header-row">
+    <div class="col speaking-text-widget">
         <h1>{{ .Title }}</h1>
         {{ .Content }}
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 speaking-image-widget">
             <img alt="Matty Stratton" src="/img/huge-mistake.jpg" class="img-center img-fluid rounded mx-auto d-block">
     </div>
 </div>
 
-<h2>Upcoming</h2>
-<table class="table table-hover">
-    <thead class="thead-inverse">
-        <tr>
-            <th>Date</th>
-            <th>Event</th>
-            <th>Title</th>
-            <th>Location</th>
-        </tr>
-    </thead>    
-    <tbody>
+<div class = "row">
+    <div class = "col speaking-title">
+        <h2>Upcoming</h2>
+    </div>
+</div>
+{{- $.Scratch.Add "i" 1 -}}
+<div class = "container">
+    <div class = "row">
     {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "ge" now).ByParam "presentation_date" }}
-        <tr>
-            <td>{{ dateFormat "Jan 2, 2006" .Params.presentation_date }}</td>
-            <td>
-            {{- if isset .Params "event_url" -}}
-                <a href = "{{ .Params.event_url }}">{{ .Params.event_name }}</a>
-            {{- else -}}
-                {{ .Params.event_name }}
-            {{- end -}}
-            </td>
-            <td>
-            {{- if isset .Params "detail_url" -}}
-                <a href = "{{ .Params.detail_url }}">{{ .Title }}</a>
-            {{- else -}}
-                {{ .Title }}
-            {{- end -}}
-            </td>
-            <td>{{ .Params.event_location }}</td>
-        </tr>
-        {{ end }}
-    </tbody>
+        <div class = "col-lg-3 col-md-6 speaking-card">
+            <div class = "card h-100">
+                <img class = "card-img-top" src="/img/speaking/{{ .File.BaseFileName}}.png" alt="{{ .Title }}"> <!-- the image for the event/talk. Should be 320x180 -->
+                <div class = "card-body">
+                    <h5 class = "card-title">{{ .Title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ .Params.event_name }}</h6>
+                </div>
+                <div class="card-footer text-muted">{{ dateFormat "Jan 2, 2006" .Params.presentation_date }}</div>
+            </div>
+        </div>
+        {{- if modBool ($.Scratch.Get "i") 4 -}}
+            </div> <!-- close the row -->
+            <div class="row"> <!-- start new row -->
+        {{- end -}}
+        {{ $.Scratch.Add "i" 1 }}
+    {{ end }} <!-- loop -->
+    </div> <!-- close the row -->
+</div> <!-- close the container -->
 
-</table>
-
-<h2>Past</h2>
-
-<table class="table table-hover">
+<div class = "row">
+    <div class = "col speaking-title">
+        <h2>Past</h2>
+    </div>
+</div>
+<div class = "row">
+    <div class = "col speaking-text-widget">
+        <!-- table is only on visible on large screens -->
+<table class="table table-hover d-none d-lg-block">
         <thead class="thead-inverse">
             <tr>
                 <th>Date</th>
@@ -85,5 +84,25 @@
         </tbody>
     
     </table>
+
+    <!-- this part would be for smaller screens -->
+    <div class = "row d-lg-none">
+        <div class = "col">
+            <hr />
+            {{ range sort (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "lt" now) ".Params.presentation_date" "desc" }}
+            <p><b>{{ .Title }}</b><br/>{{ .Params.event_name }} ({{ dateFormat "Jan 2006" .Params.presentation_date }})</p>
+            {{ with .Params.video }}
+                &nbsp;<a href = "{{.}}"><i class="fab fa-youtube"></i></a>
+            {{ end }}
+            {{ with .Params.slides }}
+                &nbsp;<a href = "{{.}}"><i class="fas fa-file-powerpoint"></i></a>
+            {{ end }}
+            <hr />
+            {{ end }}
+        </div>
+    </div>
+
+</div>
+</div>
 
 {{ end }}

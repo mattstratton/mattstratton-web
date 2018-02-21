@@ -59,6 +59,46 @@ a {
 padding: 20px;
 }
 
+.speaking-card {
+  margin-bottom:  10px;
+  margin-top:     10px;
+}
+
+.speaking-text-widget {
+  margin-left:  30px;
+  margin-right: 30px;
+  background-color: #fff;
+}
+
+.speaking-image-widget {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@include media-breakpoint-down(md) {
+  .speaking-image-widget {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+.speaking-header-row {
+  margin-bottom: 20px;
+}
+
+.speaking-title {
+  // background-color:  $brand-primary;
+  color: $brand-primary;
+  margin-left: 20px;
+}
+
+
 //
 // Pagination (multiple pages)
 // --------------------------------------------------

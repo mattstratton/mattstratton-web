@@ -6086,6 +6086,36 @@ a {
 .post-card {
   padding: 20px; }
 
+.speaking-card {
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.speaking-text-widget {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fff; }
+
+.speaking-image-widget {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+@media (max-width: 991.98px) {
+  .speaking-image-widget {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px; } }
+
+.speaking-header-row {
+  margin-bottom: 20px; }
+
+.speaking-title {
+  color: #930b1a;
+  margin-left: 20px; }
+
 .pagination > ul {
   margin-top: 20px; }
 

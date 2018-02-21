@@ -1,8 +1,8 @@
----
-title: Speaking
-date: 2015-04-11T21:05:52+00:00
-
----
++++
+title = "Speaking"
+date = 2015-04-11T21:05:52+00:00
+description = "Matt Stratton is a DevOps Evangelist at PagerDuty, as well as the host of Arrested DevOps and an organizer of DevOpsDays Chicago. Find out where Matt will be speaking next!"
++++
 
 I try to keep this page updated with my upcoming talks, as well as past speaking engagements.
 

@@ -1,14 +1,17 @@
 <!-- Schema.org markup -->
-<meta itemprop="name" content="{{ .Title }}">
+<meta itemprop="name" content="Matt Stratton - {{ .Title }}">
 <meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
 
 <!-- Output images -->
-{{ with .Params.images }}{{ range first 6 . }}
-	<meta itemprop="image" content="{{ . }}">
-{{ end }}{{ end }}
+
+{{- with .Params.sharing_image -}}
+	{{- $.Scratch.Set "sharing_url" ( . | absURL ) -}}
+{{- else -}}
+	{{- $.Scratch.Set "sharing_url" ("img/default-sharing.jpg" | absURL ) -}}
+{{- end -}}
+<meta itemprop="image" content="{{ $.Scratch.Get "sharing_url" }}">
 
 <!-- Output all taxonomies as schema.org keywords -->
-<meta itemprop="keywords" content="{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}" />
 
 {{if .IsPage}}
 <meta itemprop="wordCount" content="{{ .WordCount }}">

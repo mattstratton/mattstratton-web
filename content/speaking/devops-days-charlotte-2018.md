@@ -6,4 +6,5 @@ detail_url = "https://devopsdayscharlotte2018.sched.com/event/DIhm/everything-is
 event_name = "DevOpsDays Charlotte"
 event_url = "https://www.devopsdays.org/events/2018-charlotte/welcome/"
 event_location = "Charlotte, NC"
+slides = "https://speakerdeck.com/mattstratton/everything-is-a-product-how-to-apply-product-management-practices-to-technology-services"
 +++

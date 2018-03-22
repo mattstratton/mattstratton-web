@@ -6,4 +6,5 @@ detail_url = "https://www.meetup.com/DevOps-Minneapolis/events/247091630/"
 event_name = "DevOps Minneapolis"
 event_url = "https://www.meetup.com/DevOps-Minneapolis"
 event_location = "Minneapolis, MN"
+video = "https://youtu.be/4ZHFPiRXJls"
 +++

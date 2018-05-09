@@ -6093,7 +6093,8 @@ a {
 .speaking-text-widget {
   margin-left: 30px;
   margin-right: 30px;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 30px; }
 
 .speaking-image-widget {
   margin-left: 30px;

@@ -16,7 +16,7 @@ paginate = 12
 disqusShortname = "mattstratton"
 
 [permalinks]
-	# page = "/:filename/"
+	page = "/:filename/"
 	about = "/:filename/"
     speaking = "/:filename/"
 
@@ -38,6 +38,15 @@ disqusShortname = "mattstratton"
     name = "Blog"
     identifier = "blog"
     url = "/post"
+# [[Menu.Main]]
+#     name = "Contact"
+#     identifier = "contact"
+#     url = "/contact"
+
+[[Menu.Main]]
+    name = "Newsletter"
+    identifier = "newsletter"
+    url = "/newsletter"
 
 [params]
     copyright_notice = "Copyright &#169; 2001-2018 [Matt Stratton](https://www.mattstratton.com)"

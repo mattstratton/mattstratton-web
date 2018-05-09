@@ -20,7 +20,11 @@
     {{ range (where (where .Data.Pages "Section" "speaking") ".Params.presentation_date" "ge" now).ByParam "presentation_date" }}
         <div class = "col-lg-3 col-md-6 speaking-card">
             <div class = "card h-100">
-                <img class = "card-img-top" src="/img/speaking/{{ .File.BaseFileName}}.png" alt="{{ .Title }}"> <!-- the image for the event/talk. Should be 320x180 -->
+                    {{- if fileExists (printf "static/img/speaking/%s.png" .File.BaseFileName) -}}
+                        <img class = "card-img-top" src="/img/speaking/{{ .File.BaseFileName}}.png" alt="{{ .Title }}"> <!-- the image for the event/talk. Should be 320x180 -->
+                    {{- else -}}
+                        <img class = "card-img-top" src="/img/speaking/default.png" alt="{{ .Title }}"> <!-- the image for the event/talk. Should be 320x180 -->
+                    {{- end -}}
                 <div class = "card-body">
                     <h5 class = "card-title">
                         {{- if isset .Params "detail_url" -}}

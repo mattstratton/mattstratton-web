@@ -27,6 +27,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/archetypes\/page.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/archetypes\/page.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/archetypes\/post.md": {
 		"cB": 0,
 		"cS": 0,
@@ -43702,6 +43720,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/layouts\/index.html",
+		"oF": 0
+		},
+	"\/layouts\/page\/single.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/layouts\/page\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/disqus.html": {

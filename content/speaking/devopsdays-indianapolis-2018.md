@@ -1,5 +1,5 @@
 +++
-presentation_date = 2018-06-23T12:45:18-04:00
+presentation_date = 2018-07-23T12:45:18-04:00
 title = "Hot Takes, Myths, And Fake News - Why Everyone Is Wrong About DevOps Except For Me"
 date = 2018-05-09T12:45:18-04:00
 detail_url = "https://www.devopsdays.org/events/2018-indianapolis/program/matt-stratton/"

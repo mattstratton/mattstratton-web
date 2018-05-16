@@ -6,6 +6,6 @@ detail_url = "https://slcdevopsdays2018.sched.com/event/Dj7n?iframe=no"
 event_name = "DevOpsDays Salt Lake City 2018"
 event_url = "https://www.slcdevopsdays.org/"
 event_location = "Salt Lake City, UT"
-slides = ""
+slides = "https://speakerdeck.com/mattstratton/how-do-you-infect-your-organization-with-humane-ops"
 video = ""
 +++

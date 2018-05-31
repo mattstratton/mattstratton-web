@@ -6,6 +6,6 @@ detail_url = "https://www.devopsdays.org/events/2018-toronto/program/matty-strat
 event_name = "DevOpsDays Toronto 2018"
 event_url = "https://www.devopsdays.org/events/2018-toronto/welcome/"
 event_location = "Toronto, CA"
-slides = ""
+slides = "https://speakerdeck.com/mattstratton/talk-selection-as-mockumentary-film-editing"
 video = ""
 +++

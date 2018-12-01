@@ -1,7 +1,7 @@
 # Site settings (baseurl must end with a trailing slash!)
 baseurl = "https://www.mattstratton.com/"
 languageCode = "en-us"
-title = "Matt Stratton"
+title = "Matty Stratton"
 theme = "mattstrattondotcom"
 
 googleAnalytics = "UA-7327719-1"
@@ -55,7 +55,6 @@ disqusShortname = "mattstratton"
   [params.social]
     github = "mattstratton"
     gitlab = "mattstratton"
-    facebook = "matt.stratton"
     twitter = "mattstratton"
     twitter_domain = "mattstratton.com" # This domain shows in twitter cards as "View on `twitter_domain`"
     pinterest = "mattstratton"

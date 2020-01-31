@@ -3,7 +3,7 @@ title: About
 date: 2009-01-07T10:56:11+00:00
 
 ---
-<img class="alignright" alt="Week 3/52" src="http://farm4.static.flickr.com/3457/3204350154_68cd055fc6.jpg" width="270" height="180" />
+<img class="alignright" alt="Matt Stratton" src="https://on.notist.cloud/headshots/hs-mattstratton-thumb-ee136488cb086296.jpg" />
 
 # About Matt Stratton
 

@@ -2,7 +2,7 @@
 title = "Take Care of Yourself"
 date = 2020-06-02T08:30:40-05:00
 +++
-*I wanted to share something I just posted on my Facebook (it’s private so not easily shareable and I would prefer to keep it that way). For context, I had a pretty unpleasant depressive episode this weekend due to factors unrelated to current events (well, unrelated, but I’m sure that anxiety/anger about the current events exacerbated things). I don’t know if this will help anyone, but I wanted to share.*
+*For context, this refers to a depressive episode due to factors unrelated to current events (well, unrelated, but I’m sure that anxiety/anger about the current events exacerbated things). I don’t know if this will help anyone, but I wanted to share.*
 
 I'm doing better today. I'm not to "good" (could anyone be "good" right now??) but I'm closer to "okay".
 

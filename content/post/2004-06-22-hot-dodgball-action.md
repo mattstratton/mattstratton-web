@@ -16,4 +16,4 @@ So if you a Chicago persona, go ahead and get yo&#8217; ass one of those. It see
 
 I&#8217;m in there under Matt Stratton, because unlike [some people][1], I&#8217;m not scared of using my real name.
 
- [1]: http://www.livejournal.com/users/heavymetalsushi
+ [1]: https://www.livejournal.com/users/heavymetalsushi

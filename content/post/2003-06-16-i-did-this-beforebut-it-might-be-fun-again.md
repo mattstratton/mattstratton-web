@@ -18,4 +18,4 @@ Keep it truthful and serious. This seems interesting.
 
 **Anonymous posting is enabled, IP logging is disabled.**
 
- [1]: http://www.livejournal.com/users/mugsy1274/75994.html
+ [1]: https://www.livejournal.com/users/mugsy1274/75994.html

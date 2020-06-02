@@ -11,7 +11,7 @@ categories:
 
 ---
 <div class="flickrEmailPost">
-  <a href="http://www.flickr.com/photos/mugsy/8808110/" title="A Picture Share!"><img src="http://photos4.flickr.com/8808110_75f88031bc_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> 
+  <a href="https://www.flickr.com/photos/mugsy/8808110/" title="A Picture Share!"><img src="https://photos4.flickr.com/8808110_75f88031bc_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> 
   
   <p>
     My halloween costume. This is more of a moblog test than anything else.

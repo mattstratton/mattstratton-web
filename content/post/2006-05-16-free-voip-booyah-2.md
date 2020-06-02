@@ -20,5 +20,5 @@ It worked great. So, for the rest of the year, I think I have my new &#8220;work
 
 Give it a try. I&#8217;m &#8220;mattstratton&#8221; on Skype.
 
- [1]: http://www.lifehacker.com/software/skype/free-calls-to-any-phone-with-skypeout-173795.php
- [2]: http://share.skype.com/sites/en/2006/05/free_calls_to_all_landlines_an.html
+ [1]: https://www.lifehacker.com/software/skype/free-calls-to-any-phone-with-skypeout-173795.php
+ [2]: https://share.skype.com/sites/en/2006/05/free_calls_to_all_landlines_an.html

@@ -16,4 +16,4 @@ Amanda&#8217;s boyo, [Darren][1], has entered the blogosphere, by way of LiveJou
 
 If you enjoy the blogging stylings of you might find Darren&#8217;s amusing as well. I think that Brian is ghostwriting for him.
 
- [1]: http://tigerworm.livejournal.com
+ [1]: https://tigerworm.livejournal.com

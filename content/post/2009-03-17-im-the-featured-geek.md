@@ -14,4 +14,4 @@ tags:
   - Geek
 
 ---
-Grandy at The Girly Anti-Geek posted an interview with me today. I think it turned out really well. <a href="http://girlyantigeek.today.com/2009/03/17/tuesday-geek-feature-matt-stratton" target="_blank">Check it out</a>!
+Grandy at The Girly Anti-Geek posted an interview with me today. I think it turned out really well. <a href="https://girlyantigeek.today.com/2009/03/17/tuesday-geek-feature-matt-stratton" target="_blank">Check it out</a>!

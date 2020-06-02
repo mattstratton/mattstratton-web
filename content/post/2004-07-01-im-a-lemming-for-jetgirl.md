@@ -16,7 +16,7 @@ Blame . I do.
   <table border="1" bgcolor="#90BED5" cellspacing="0" cellpadding="2">
     <tr>
       <td colspan="2" align="center" bgcolor='083360'>
-        <a href='http://www.kwiz.biz/showquiz.php?quizid=2123' target='_new'><font color="ffffff"><b>What Is Your Best Sexual Skill?</b></a></font></td> </tr> 
+        <a href='https://www.kwiz.biz/showquiz.php?quizid=2123' target='_new'><font color="ffffff"><b>What Is Your Best Sexual Skill?</b></a></font></td> </tr> 
         
         <tr>
           <td>
@@ -487,7 +487,7 @@ Blame . I do.
                                 
                                 <tr>
                                   <td colspan="2" align="center">
-                                    <font size="-1"><b>This <a href="http://www.kwiz.biz/"><font color="black">Quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=4711'><font color="#000000">lady_wintermoon</font></a> &#8211; Taken 122991 Times.<br /> </font></a></b></font>
+                                    <font size="-1"><b>This <a href="https://www.kwiz.biz/"><font color="black">Quiz</font></a> by <a href='https://www.kwiz.biz/userprofile.php?userid=4711'><font color="#000000">lady_wintermoon</font></a> &#8211; Taken 122991 Times.<br /> </font></a></b></font>
                                   </td>
                                 </tr></table> 
                                 
@@ -495,5 +495,5 @@ Blame . I do.
                                   <font>New &#8211; Kwiz.Biz Astrology</font></div> 
                                   
                                   <p>
-                                    <a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" /></a> Liz Phair &#8211; Mesmerizing</span>
+                                    <a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" /></a> Liz Phair &#8211; Mesmerizing</span>
                                   </p>

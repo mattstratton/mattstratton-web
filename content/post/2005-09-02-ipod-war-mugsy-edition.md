@@ -94,4 +94,4 @@ Extraordninary &#8211; Liz Phair
   
 Shake Your Rump &#8211; Beastie Boys
 
- [1]: http://www.livejournal.com/users/mugsy1274/424541.html
+ [1]: https://www.livejournal.com/users/mugsy1274/424541.html

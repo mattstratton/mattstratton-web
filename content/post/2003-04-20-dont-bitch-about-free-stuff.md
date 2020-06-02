@@ -30,5 +30,5 @@ People like that can go piss up a tree, sideways.
 
 m.
 
- [1]: http://windyhop.org
- [2]: http://windyhop.org/blackandtan
+ [1]: https://windyhop.org
+ [2]: https://windyhop.org/blackandtan

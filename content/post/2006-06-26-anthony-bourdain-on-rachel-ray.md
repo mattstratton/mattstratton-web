@@ -12,7 +12,7 @@ categories:
 ---
 Courtesy of an email from ..
 
-<http://www.salon.com/mwt/feature/2006/06/26/bourdain_QA>
+<https://www.salon.com/mwt/feature/2006/06/26/bourdain_QA>
 
 > I always entertain the notion that I&#8217;m wrong, or that I&#8217;ll have to revise my opinion. Most of the time that feels good; sometimes it really hurts and is embarrassing. But it&#8217;s not a problem for me to change positions. For instance, I think that beating up on Emeril was turning into shtick. He looks like [legendary chef Georges Auguste] Escoffier now compared to some of the bobble-heads who are on that network.
 > 

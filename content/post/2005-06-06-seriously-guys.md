@@ -16,4 +16,4 @@ It&#8217;s quite honestly one of the weirdest things on the entire webbernet.
 
 Especially if you like candy.
 
- [1]: http://www.livejournal.com/users/brian81773
+ [1]: https://www.livejournal.com/users/brian81773

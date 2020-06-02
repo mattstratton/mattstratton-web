@@ -16,7 +16,7 @@ tags:
 
 ---
 <div>
-  <em>This is a guest post from Nick Cardot. </em><em>Nick uses his blog <a href="http://www.sitesketch101.com/">Site Sketch 101</a> to express his passion for helping people learn <a href="http://www.sitesketch101.com/">how to blog</a> with awesome content, brilliant designs and commanding influence.</em>
+  <em>This is a guest post from Nick Cardot. </em><em>Nick uses his blog <a href="https://www.sitesketch101.com/">Site Sketch 101</a> to express his passion for helping people learn <a href="https://www.sitesketch101.com/">how to blog</a> with awesome content, brilliant designs and commanding influence.</em>
 </div>
 
 <div>

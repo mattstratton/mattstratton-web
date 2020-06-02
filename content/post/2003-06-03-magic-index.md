@@ -12,7 +12,7 @@ categories:
 ---
 So I did this like a year ago&#8230;and some things just haven&#8217;t changed&#8230;
 
-You can make LJ tell you which users match up to you the most&#8230;just hop to http://www.livejournal.com/interests.bml?mode=findsim_do&user=mugsy1274, but replace &#8220;mugsy1274&#8221; with your LJ name.
+You can make LJ tell you which users match up to you the most&#8230;just hop to https://www.livejournal.com/interests.bml?mode=findsim_do&user=mugsy1274, but replace &#8220;mugsy1274&#8221; with your LJ name.
 
 Each matching user gets computed a magic index, which is a weighting of two factors: the raw number of like interests, and some extra points for sharing uncommon interests.
 

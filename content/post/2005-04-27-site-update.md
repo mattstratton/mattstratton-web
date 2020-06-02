@@ -21,4 +21,4 @@ I have to give credit to , because I ganked some of his CSS styles and some othe
 Edit: Made this a &#8220;friends only&#8221; post, so that it doesn&#8217;t show up on the feed and make my site waaaay too meta.
 
  [1]: /
- [2]: http://photos7.flickr.com/11152779_63ff0d7591_o.jpg
+ [2]: https://photos7.flickr.com/11152779_63ff0d7591_o.jpg

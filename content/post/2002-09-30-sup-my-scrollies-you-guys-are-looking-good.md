@@ -12,4 +12,4 @@ categories:
 ---
 [This][1] makes Mondays worthwhile.
 
- [1]: http://www.homestarrunner.com/sbemail.html
+ [1]: https://www.homestarrunner.com/sbemail.html

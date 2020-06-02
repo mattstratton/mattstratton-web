@@ -11,7 +11,7 @@ categories:
 <table cellspacing='0' cellpadding='2' align='center'>
   <tr>
     <th colspan="2" bgcolor='#000000'>
-      <font color='#DDDD88'>Your LJ Halloween Party by <a href='http://www.livejournal.com/users/cerulean_dreams/'><font color='#DDDD88'>cerulean_dreams</font></a></font>
+      <font color='#DDDD88'>Your LJ Halloween Party by <a href='https://www.livejournal.com/users/cerulean_dreams/'><font color='#DDDD88'>cerulean_dreams</font></a></font>
     </th>
   </tr>
   
@@ -142,7 +142,7 @@ categories:
   
   <tr>
     <td colspan="2" align='center' bgcolor='#000000'>
-      <font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font>
+      <font size='-1' color='#FFFFFF'><a href='https://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font>
     </td>
   </tr>
 </table>

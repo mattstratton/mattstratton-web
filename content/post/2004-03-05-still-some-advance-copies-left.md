@@ -10,9 +10,9 @@ categories:
   - Personal
 
 ---
-As you know, my production company, <a href="http://www.gravytrainfilms.com" target="_blank">Gravy Train Films</a>, has just
+As you know, my production company, <a href="https://www.gravytrainfilms.com" target="_blank">Gravy Train Films</a>, has just
   
-released our first film, _<a href="http://dancingwithgaia.com" target="_blank">Dancing With Gaia</a>_.
+released our first film, _<a href="https://dancingwithgaia.com" target="_blank">Dancing With Gaia</a>_.
 
 The DVD&#8217;s will &#8220;officially&#8221; go on sale March 17. However we have a
   
@@ -20,7 +20,7 @@ limited number of the &#8220;advance&#8221; copies still available.
 
 You can purchase them by visiting the super-secret URL at
   
-<a href="http://dancingwithgaia.com/purchase.htm" target="_blank">http://dancingwithgaia.com/purchase.htm</a>.
+<a href="https://dancingwithgaia.com/purchase.htm" target="_blank">https://dancingwithgaia.com/purchase.htm</a>.
 
 The DVD&#8217;s are $20 each plus $3 for shipping. The &#8220;Advance Copies&#8221; are just as good as the retail ones, but they are a limited run. The synopsis text on the back of the case is different on the retail versions :) Plus you can get the &#8220;Advance Copy&#8221; now instead of waiting another couple of weeks.
 
@@ -38,4 +38,4 @@ Matt and Dallas
   
 Gravy Train Films
   
-<a href="http://www.gravytrainfilms.com" target="_blank">http://www.gravytrainfilms.com</a>
+<a href="https://www.gravytrainfilms.com" target="_blank">https://www.gravytrainfilms.com</a>

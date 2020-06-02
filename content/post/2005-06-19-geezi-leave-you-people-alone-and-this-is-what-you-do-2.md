@@ -16,4 +16,4 @@ That&#8217;s about three blocks from my house. And almost right next door to my 
 
 Scary stuff. Second big fire in our neighborhood in two weeks.
 
- [1]: http://www.chicagotribune.com/news/local/chi-050619blaze,1,5157711.story?coll=chi-news-hed
+ [1]: https://www.chicagotribune.com/news/local/chi-050619blaze,1,5157711.story?coll=chi-news-hed

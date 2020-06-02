@@ -16,7 +16,7 @@ tags:
 In honor of 
 
 <div class="ljuser">
-  <a href="http://shanabanana.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://shanabanana.livejournal.com/"><b>shanabanana</b></a>
+  <a href="https://shanabanana.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://shanabanana.livejournal.com/"><b>shanabanana</b></a>
 </div>
 
 &nbsp;&#8216;s birthday, I give you the Shana and Matt IM Greatest Hits:

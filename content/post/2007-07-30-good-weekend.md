@@ -12,7 +12,7 @@ categories:
 ---
 Weekend kicked off with Carrie and myself visiting US Cellular Field to watch the Chicago White Sox do battle with the Toronto Blue Jays. Carrie got us some tickets since it was a work outing, but for the last couple of innings our friend Amanda hooked us up with a couple of empty seats next to her godfather&#8217;s season tickets:
 
-[<img width="500" height="400" src="http://static.flickr.com/1275/922242391_1042ab3d6e.jpg" title="At US Cellular (by Matt Stratton)" alt="At US Cellular (by Matt Stratton)" />][1]
+[<img width="500" height="400" src="https://static.flickr.com/1275/922242391_1042ab3d6e.jpg" title="At US Cellular (by Matt Stratton)" alt="At US Cellular (by Matt Stratton)" />][1]
 
 Yes, it was the first row right behind the dugout. It was very Costanza:
 
@@ -30,10 +30,10 @@ Not a lot to say about that flick, besides that I was very pleasantly surprised 
 
 On Sunday, Carrie and I went for a long bike ride up to the [Chicago Botanical Gardens][2]. We drove up to Skokie and picked up the North Branch Trail at Old Orchard Road. The entire trip was about 21 miles, which translated into about 2 hours of riding. We had a really good time. I want to head up there again with the 350D, but Carrie took a bunch of fun shots with our Olympus point-and-shoot.
 
-[<img width="500" height="375" src="http://static.flickr.com/1045/953608580_fd083357bc.jpg" title="Self Portrait (by Daisy331)" alt="Self Portrait (by Daisy331)" />][3]
+[<img width="500" height="375" src="https://static.flickr.com/1045/953608580_fd083357bc.jpg" title="Self Portrait (by Daisy331)" alt="Self Portrait (by Daisy331)" />][3]
 
 This week I am working from home all week since I am on-call. Fun fun fun.
 
- [1]: http://www.flickr.com/photos/mugsy/922242391/ "At US Cellular (by Matt Stratton)"
- [2]: http://www.flickr.com/photos/daisy331/tags/chicagobotanicalgardens/
- [3]: http://www.flickr.com/photos/daisy331/953608580/ "Self Portrait (by Daisy331)"
+ [1]: https://www.flickr.com/photos/mugsy/922242391/ "At US Cellular (by Matt Stratton)"
+ [2]: https://www.flickr.com/photos/daisy331/tags/chicagobotanicalgardens/
+ [3]: https://www.flickr.com/photos/daisy331/953608580/ "Self Portrait (by Daisy331)"

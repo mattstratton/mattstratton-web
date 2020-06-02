@@ -18,13 +18,13 @@ tags:
   - thesis
 
 ---
-You might notice things look a little different around here at the Rock. I&#8217;ve been making some changes, with the help of the awesome <a href="http://www.ourlittleapartment.com/" target="_blank">Ashley</a>, and I&#8217;m almost completely finished. I&#8217;m curious to what you think of the new look.
+You might notice things look a little different around here at the Rock. I&#8217;ve been making some changes, with the help of the awesome <a href="https://www.ourlittleapartment.com/" target="_blank">Ashley</a>, and I&#8217;m almost completely finished. I&#8217;m curious to what you think of the new look.
 
 ## New Theme
 
-I&#8217;ve <a href="/tags/thesis" target="_self">blogged a little bit already about Thesis</a>, which is the theme I&#8217;m using now. It&#8217;s more than just a theme, though. <a href="http://www.shareasale.com/r.cfm?B=198392&U=404372&M=24570" target="_blank">Thesis</a> is more like a framework for WordPress. I haven&#8217;t completely taken full advantage of everything it can do, but having a super-flexible theme like this has made it WAY easier to implement a lot of these changes.
+I&#8217;ve <a href="/tags/thesis" target="_self">blogged a little bit already about Thesis</a>, which is the theme I&#8217;m using now. It&#8217;s more than just a theme, though. <a href="https://www.shareasale.com/r.cfm?B=198392&U=404372&M=24570" target="_blank">Thesis</a> is more like a framework for WordPress. I haven&#8217;t completely taken full advantage of everything it can do, but having a super-flexible theme like this has made it WAY easier to implement a lot of these changes.
 
-The background was a sample one I pulled from a Thesis tutorial about <a href="http://diythemes.com/thesis/rtfm/custom-backgrounds/" target="_blank">creating a custom background image in Thesis</a>. I noticed they had one with a &#8220;rock&#8221; in it, so as a laugh, I put it in. And lo and behold&#8230;it totally matched my color scheme and look. I think it&#8217;s awesome.
+The background was a sample one I pulled from a Thesis tutorial about <a href="https://diythemes.com/thesis/rtfm/custom-backgrounds/" target="_blank">creating a custom background image in Thesis</a>. I noticed they had one with a &#8220;rock&#8221; in it, so as a laugh, I put it in. And lo and behold&#8230;it totally matched my color scheme and look. I think it&#8217;s awesome.
 
 ## Killer New Header
 
@@ -36,7 +36,7 @@ I&#8217;m also experimenting with featured content &#8211; if you look in the si
 
 ## Search
 
-Once I moved to Thesis, I suddenly had issues with the built-in WordPress search functionality. I have no idea why it stopped working (it definitely was Thesis-related, as the search worked great when I changed back to a default theme). Luckily, right when this happened, I noticed a cool think on <a href="http://doniree.com" target="_blank">Doni</a>&#8216;s blog for searching using this thing called <a href="http://Lijit.com" target="_blank">Lijit</a>. Since my goal in blogging life is apparently to copy every damn thing Doni does, I signed up to check out Lijit. And I&#8217;ve decided that it&#8217;s the most awesome thing on the planet. Well, at least as far as blog searching goes. I can&#8217;t recommend it enough to all you bloggers out there. Not only does it allow you to extend your searching beyond just your blog into other areas like your Flickr stream, Twitter, etc&#8230;but it gives you great analytics on just WHAT people are searching for on your blog. Super-mergatroid cool.
+Once I moved to Thesis, I suddenly had issues with the built-in WordPress search functionality. I have no idea why it stopped working (it definitely was Thesis-related, as the search worked great when I changed back to a default theme). Luckily, right when this happened, I noticed a cool think on <a href="https://doniree.com" target="_blank">Doni</a>&#8216;s blog for searching using this thing called <a href="https://Lijit.com" target="_blank">Lijit</a>. Since my goal in blogging life is apparently to copy every damn thing Doni does, I signed up to check out Lijit. And I&#8217;ve decided that it&#8217;s the most awesome thing on the planet. Well, at least as far as blog searching goes. I can&#8217;t recommend it enough to all you bloggers out there. Not only does it allow you to extend your searching beyond just your blog into other areas like your Flickr stream, Twitter, etc&#8230;but it gives you great analytics on just WHAT people are searching for on your blog. Super-mergatroid cool.
 
 ## Relations
 

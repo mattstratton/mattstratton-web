@@ -12,4 +12,4 @@ categories:
 ---
 **[How Compatible are You with me?][1]**
 
- [1]: http://sminds.com/cgi-bin/match.pl?compare=matt%40gravytrainfilms.com
+ [1]: https://sminds.com/cgi-bin/match.pl?compare=matt%40gravytrainfilms.com

@@ -13,7 +13,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/11255928/"><img style="border:solid 2px #000000;" src="http://farm1.static.flickr.com/7/11255928_2037ec6f7e_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/11255928/">Jason and Matt</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/11255928/"><img style="border:solid 2px #000000;" src="https://farm1.static.flickr.com/7/11255928_2037ec6f7e_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/11255928/">Jason and Matt</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 This is x-posted from [Windyhop][1]:
@@ -34,5 +34,5 @@ Jay and I have tried to &#8220;retire&#8221; several times in the past, and neve
 
 Also, the picture I posted is Jay dancing with me in my birthday jam in 2000.
 
- [1]: http://www.windyhop.org
- [2]: http://windyhop.org/forum/default.aspx?f=34
+ [1]: https://www.windyhop.org
+ [2]: https://windyhop.org/forum/default.aspx?f=34

@@ -24,5 +24,5 @@ Couple memories&#8230;it got a lot more fun towards the end, when I&#8217;d had 
 
 Would I do it again? Probably not, unless Kitty gets desparate and offers to buy me a drink if I do. Would I recommend it for other people? Sure. It was fun, and not without its charm.
 
- [1]: http://dailykitty.blogspot.com
- [2]: http://www.lptrixie.com
+ [1]: https://dailykitty.blogspot.com
+ [2]: https://www.lptrixie.com

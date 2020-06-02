@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-&#8230;I finally found a place to do the transfer of the _<a href="http://www.dancingwithgaia.com" target="_blank">Dancing With Gaia</a>_ transfer from DigiBeta of the master tape.
+&#8230;I finally found a place to do the transfer of the _<a href="https://www.dancingwithgaia.com" target="_blank">Dancing With Gaia</a>_ transfer from DigiBeta of the master tape.
 
 What does that mean? It means that after next Friday, I will have the master of _DWG_ in a format that allows me to author the DVD&#8217;s and put this thing to bed. Finally. The edit of this movie was done in March. It&#8217;s taken almost as long to do the duplication of this as the editing took. Longer, actually.
 

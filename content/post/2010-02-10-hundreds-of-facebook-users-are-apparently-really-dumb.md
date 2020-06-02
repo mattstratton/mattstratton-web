@@ -17,7 +17,7 @@ tags:
 ---
 I know, I know, it&#8217;s a Wednesday, which means I&#8217;m supposed to be posted Web Wanderings. But this was just too hilarious to NOT share.
 
-Earlier today, <a class="zem_slink" title="ReadWriteWeb" rel="homepage" href="http://readwriteweb.com">ReadWriteWeb</a> <a href="http://www.readwriteweb.com/archives/facebook_wants_to_be_your_one_true_loginpage3.php" target="_blank">posted an article about Facebook Connect</a>. Apparently, RWW has some amazing Google-fu, because within hours, that post became one of the top 5 results for Google searches for &#8220;facebook login&#8221;.
+Earlier today, <a class="zem_slink" title="ReadWriteWeb" rel="homepage" href="https://readwriteweb.com">ReadWriteWeb</a> <a href="https://www.readwriteweb.com/archives/facebook_wants_to_be_your_one_true_loginpage3.php" target="_blank">posted an article about Facebook Connect</a>. Apparently, RWW has some amazing Google-fu, because within hours, that post became one of the top 5 results for Google searches for &#8220;facebook login&#8221;.
 
 
   
@@ -29,7 +29,7 @@ Because LITERALLY HUNDREDS of Facebook users posted angrily on the comment threa
 
 Yes. Here&#8217;s what these rocket scientists did:
 
-1) To log into Facebook, instead of going to [http://facebook.com][1]{.linkification-ext} in their browser&#8217;s address bar (or maybe, heaven forbid, use a bookmark), these Facebook users simply do a Google search for &#8220;facebook login&#8221; EVERY TIME THEY WANT TO GO ON FACEBOOK.
+1) To log into Facebook, instead of going to [https://facebook.com][1]{.linkification-ext} in their browser&#8217;s address bar (or maybe, heaven forbid, use a bookmark), these Facebook users simply do a Google search for &#8220;facebook login&#8221; EVERY TIME THEY WANT TO GO ON FACEBOOK.
 
 2) They ended up clicking on the RWW link in the results (which makes little sense, as even though it was a top 5 hit, it was never #1)
 
@@ -51,7 +51,7 @@ But never fear. Laraine Tressler won&#8217;t have to delete her Facebook after a
   <img class="aligncenter size-full wp-image-5861" title="bing-solution" src="/wp-content/uploads/bing-solution.png" alt="" width="482" height="165" srcset="/wp-content/uploads/bing-solution.png 603w, /wp-content/uploads/bing-solution-300x102.png 300w" sizes="(max-width: 482px) 100vw, 482px" />
 </p>
 
-For a while, some commentors thought that this was way too good to be true. There was no way that there could be THAT many dumb people&#8230;it had to be a <a class="zem_slink" title="4chan" rel="homepage" href="http://www.4chan.org">4chan</a> prank or something. The RWW folks weighed in and reported that no, sadly, this WAS the reality.
+For a while, some commentors thought that this was way too good to be true. There was no way that there could be THAT many dumb people&#8230;it had to be a <a class="zem_slink" title="4chan" rel="homepage" href="https://www.4chan.org">4chan</a> prank or something. The RWW folks weighed in and reported that no, sadly, this WAS the reality.
 
 <p style="text-align: center;">
   <img class="aligncenter size-full wp-image-5862" title="stats" src="/wp-content/uploads/stats.png" alt="" width="518" height="241" srcset="/wp-content/uploads/stats.png 648w, /wp-content/uploads/stats-300x139.png 300w" sizes="(max-width: 518px) 100vw, 518px" />
@@ -59,4 +59,4 @@ For a while, some commentors thought that this was way too good to be true. Ther
 
 I weep for the future of the internets.
 
- [1]: http://facebook.com "Linkification: http://facebook.com"
+ [1]: https://facebook.com "Linkification: https://facebook.com"

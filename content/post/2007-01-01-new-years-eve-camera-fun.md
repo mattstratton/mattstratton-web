@@ -12,8 +12,8 @@ tags:
   - "New Year's Eve"
 
 ---
-[http://www.youtube.com/watch?v=U0t3er5tydo][1]{.linkification-ext}
+[https://www.youtube.com/watch?v=U0t3er5tydo][1]{.linkification-ext}
   
 Witness the hilarity as Ryan puts us through our paces for a NYE photo shoot.
 
- [1]: http://www.youtube.com/watch?v=U0t3er5tydo "http://www.youtube.com/watch?v=U0t3er5tydo"
+ [1]: https://www.youtube.com/watch?v=U0t3er5tydo "https://www.youtube.com/watch?v=U0t3er5tydo"

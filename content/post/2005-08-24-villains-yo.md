@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-<a href="http://www.krakowstudios.com/archive.php?date=20050211" target="_blank"></a>
+<a href="https://www.krakowstudios.com/archive.php?date=20050211" target="_blank"></a>

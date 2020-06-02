@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-Even thought <a href="http://www.loungin.net/barhopping.html" target="_blank">this</a> is a really stupid game, I keep imagining myself as when I play it.
+Even thought <a href="https://www.loungin.net/barhopping.html" target="_blank">this</a> is a really stupid game, I keep imagining myself as when I play it.

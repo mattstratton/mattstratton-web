@@ -32,7 +32,7 @@ Friends, family, City of Chicago: These are the ways you have disappointed us th
   * Sox &#8211; Still being punished for the Black Sox scandal of 1919
   * Bears &#8211; It&#8217;s been 19 years since you did the Super Bowl Shuffle. Also, you landed a space ship on your stadium and are now going to get your historical landmark designation ripped away. Way to go.
 
- [1]: http://www.chicagoist.com
- [2]: http://www.chicagoist.com/staff.php#rachelle
- [3]: http://www.chicagoist.com/archives/2004/12/23/a_festivus_for_the_rest_of_us.php
- [4]: http://www.chicagoist.com/archives/2004/12/22/blue_meanies_christmas.php
+ [1]: https://www.chicagoist.com
+ [2]: https://www.chicagoist.com/staff.php#rachelle
+ [3]: https://www.chicagoist.com/archives/2004/12/23/a_festivus_for_the_rest_of_us.php
+ [4]: https://www.chicagoist.com/archives/2004/12/22/blue_meanies_christmas.php

@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/175011241/" title="photo sharing"><img src="http://static.flickr.com/77/175011241_0b290769b4_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/175011241/">Godparents and parents</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/175011241/" title="photo sharing"><img src="https://static.flickr.com/77/175011241_0b290769b4_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/175011241/">Godparents and parents</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Yesterday was the baptism of our niece, Katelyn (do I get to call her my niece yet, or do I have to wait until Carrie and I get married?)
@@ -20,4 +20,4 @@ Ellie (Carrie&#8217;s sister) and Kevin asked Carrie and me to be Kate&#8217;s g
 
 But it was fun. More pictures [here][1].
 
- [1]: http://flickr.com/photos/mugsy/sets/72157594177497909/
+ [1]: https://flickr.com/photos/mugsy/sets/72157594177497909/

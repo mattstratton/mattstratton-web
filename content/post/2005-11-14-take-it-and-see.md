@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-<a href="http://www.okcupid.com/tests/take?testid=506728335491802855&useCache=0" target="_blank">How Well Do You Know Mugsy?</a>
+<a href="https://www.okcupid.com/tests/take?testid=506728335491802855&useCache=0" target="_blank">How Well Do You Know Mugsy?</a>

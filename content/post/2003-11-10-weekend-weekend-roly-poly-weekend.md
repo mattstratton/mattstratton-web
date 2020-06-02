@@ -40,4 +40,4 @@ At the late night dance, I learned that when the U of Chicago kids do body shots
 
 Sunday we had brunch with Tracy and Brian, and played Uno and other board games all day. Nando and Dallas went off to the Willowbrook Ballroom, and I stayed home and watched TV.
 
- [1]: http://wclx.org
+ [1]: https://wclx.org

@@ -14,4 +14,4 @@ categories:
 
 ![][1]
 
- [1]: http://chicago.cubs.mlb.com/images/2004/03/24/aosPVP8A.jpg
+ [1]: https://chicago.cubs.mlb.com/images/2004/03/24/aosPVP8A.jpg

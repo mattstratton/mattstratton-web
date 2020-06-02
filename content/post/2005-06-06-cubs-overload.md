@@ -20,4 +20,4 @@ So [So][1] just invited me to go to Monday&#8217;s game against the Marlins. I&#
 
 Then, next weekend is the three-game series at Yankee Stadium. Hot.
 
- [1]: http://theprotagonist5.livejournal.com/
+ [1]: https://theprotagonist5.livejournal.com/

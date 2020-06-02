@@ -19,11 +19,11 @@ categories:
   
   <tr>
     <td bgcolor="#eeeeee">
-      <font color="#000000"><br /> <a href="http://click.linksynergy.com/fs-bin/click?id=CkIfgYlVpZA&offerid=78941.454939234&type=10&subid="><br /> See her whole playlist here (iTunes required)</a></font>
+      <font color="#000000"><br /> <a href="https://click.linksynergy.com/fs-bin/click?id=CkIfgYlVpZA&offerid=78941.454939234&type=10&subid="><br /> See her whole playlist here (iTunes required)</a></font>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <a href="http://www.blogthings.com/whatcelebritymatchesyourtasteinmusicquiz/">What Celebrity Matches Your Taste in Music?</a>
+  <a href="https://www.blogthings.com/whatcelebritymatchesyourtasteinmusicquiz/">What Celebrity Matches Your Taste in Music?</a>
 </div>

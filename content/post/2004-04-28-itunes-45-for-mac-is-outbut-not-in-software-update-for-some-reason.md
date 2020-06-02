@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-So I just read that you can <a href="http://www.apple.com/itunes/download/" target="_blank">download</a> iTunes 4.5 now for the Mac. Actually, maybe they have it for Windows too. I&#8217;m not sure.
+So I just read that you can <a href="https://www.apple.com/itunes/download/" target="_blank">download</a> iTunes 4.5 now for the Mac. Actually, maybe they have it for Windows too. I&#8217;m not sure.
 
 Here&#8217;s what appears to be the new features in 4.5 (I assume it&#8217;ll show up in Software Update in the next day or two):
 

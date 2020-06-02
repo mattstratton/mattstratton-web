@@ -15,7 +15,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/1093936626/"><img style="border:solid 2px #000000;" src="http://farm2.static.flickr.com/1391/1093936626_8f3527d30e_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/1093936626/">DJ Larkin&#8217;s Lack of Style Disgusts Me</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/1093936626/"><img style="border:solid 2px #000000;" src="https://farm2.static.flickr.com/1391/1093936626_8f3527d30e_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/1093936626/">DJ Larkin&#8217;s Lack of Style Disgusts Me</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 So there&#8217;s this thing on Facebook where it gives you two of the people on your friends list and has you compare them on various criteria.

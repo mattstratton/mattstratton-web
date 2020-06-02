@@ -14,5 +14,5 @@ Photo Credit Matt Stratton
 Modification by 
 
 <div class="ljuser">
-  <a href="http://mteson.livejournal.com/profile"><img width="17" height="17" src="http://p-stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;padding-right:1px;" /></a><a href="http://mteson.livejournal.com/"><b>mteson</b></a>
+  <a href="https://mteson.livejournal.com/profile"><img width="17" height="17" src="https://p-stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;padding-right:1px;" /></a><a href="https://mteson.livejournal.com/"><b>mteson</b></a>
 </div>

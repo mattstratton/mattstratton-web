@@ -19,7 +19,7 @@ For that manner, this will work on pretty much any phpBB-based forum.
 </p>
 
 <p>
-  First, install the <a href="http://greasemonkey.mozdev.org/" target="_blank" class="postlink">Greasemonkey</a> extension into Firefox. Once you have installed it, you need to install this user script (right-click on the link and say &#8220;install user script&#8221;). Once you have done this, refresh Yehoodi. Next to user&#8217;s names by their posts, you will see a little &#8220;x&#8221;. Click it to ignore them.
+  First, install the <a href="https://greasemonkey.mozdev.org/" target="_blank" class="postlink">Greasemonkey</a> extension into Firefox. Once you have installed it, you need to install this user script (right-click on the link and say &#8220;install user script&#8221;). Once you have done this, refresh Yehoodi. Next to user&#8217;s names by their posts, you will see a little &#8220;x&#8221;. Click it to ignore them.
 </p>
 
 <p>

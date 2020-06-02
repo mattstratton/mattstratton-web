@@ -38,7 +38,7 @@ One thing that I am kicking myself for &#8211; I had my [Aperture][4] library ex
 
 Guess what? I haven&#8217;t backed up my Aperture library (since it&#8217;s a manual process) since Dec 29, 2007. Oh well. Luckily I have anything important already on Flickr. I hope.
 
- [1]: http://www.linkedin.com/in/mattstratton
- [2]: http://www.apple.com/macosx/
- [3]: http://www.apple.com/macosx/features/timemachine.html
- [4]: http://www.apple.com/aperture/
+ [1]: https://www.linkedin.com/in/mattstratton
+ [2]: https://www.apple.com/macosx/
+ [3]: https://www.apple.com/macosx/features/timemachine.html
+ [4]: https://www.apple.com/aperture/

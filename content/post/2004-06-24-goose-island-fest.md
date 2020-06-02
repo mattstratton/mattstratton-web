@@ -14,5 +14,5 @@ I want to know who&#8217;s playing&#8230;they&#8217;ve always got good bands.
 
 [![][1]][2] Avril Lavigne &#8211; Sk8ter Boy</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

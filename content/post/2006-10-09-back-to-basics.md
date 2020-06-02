@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/11256105/" title="photo sharing"><img src="http://static.flickr.com/8/11256105_21a9eac0fb_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/11256105/">Matt and Dora</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/11256105/" title="photo sharing"><img src="https://static.flickr.com/8/11256105_21a9eac0fb_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/11256105/">Matt and Dora</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 So as you all know, Carrie just finished up her Swing I class with [Big City Swing][1]. She&#8217;s doing very well.
@@ -26,5 +26,5 @@ But at least it will be easier to practice with Carrie now, since I&#8217;ll kno
 
 And all you old geezers &#8211; we need to get Fizz started at the old, sad bastard time so that Carrie can get more practice &#8211; we can&#8217;t be going out so late. So let&#8217;s make that happen, m&#8217;kay?
 
- [1]: http://www.bigcityswing.com
- [2]: http://www.flickr.com/photos/mugsy/tags/julee
+ [1]: https://www.bigcityswing.com
+ [2]: https://www.flickr.com/photos/mugsy/tags/julee

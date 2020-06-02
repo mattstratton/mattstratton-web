@@ -12,4 +12,4 @@ categories:
 ---
 If any of you on my friends list are interested in joining the LJ-only Fantasy league, that would be cool and stuff.
 
-Visit <http://fantasysports.yahoo.com>. The League ID# is **243719** and the Password is **mugsymalone**.
+Visit <https://fantasysports.yahoo.com>. The League ID# is **243719** and the Password is **mugsymalone**.

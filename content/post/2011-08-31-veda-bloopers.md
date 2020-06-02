@@ -16,4 +16,4 @@ We are coming to the conclusion of VEDA &#8211; Vlog Every Day in August. The pr
 
 
 
-To see more of my VEDA videos, you can check out my <a href="http://www.youtube.com/playlist?list=PL20722ABC7A7D3679" target="_blank">VEDA playlist</a>.
+To see more of my VEDA videos, you can check out my <a href="https://www.youtube.com/playlist?list=PL20722ABC7A7D3679" target="_blank">VEDA playlist</a>.

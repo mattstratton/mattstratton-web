@@ -65,5 +65,5 @@ can I expect at that airport (LAX)?_
 _Thanks, advice is appreciated._
 
  [1]: /tags/australian-nightmare-girl/
- [2]: http://lizditz.typepad.com/i_speak_of_dreams/2004/09/piracy_identity.html
- [3]: http://groups.google.com/group/misc.immigration.usa/browse_frm/thread/94ef043e8124d7b8/50abaf2f942d604e?hl=en&lr=&ie=UTF-8&safe=off&rnum=1&prev=/groups%3Fq%3Duh_oh_aussie%26hl%3Den%26lr%3D%26ie%3DUTF-8%26safe%3Doff%26selm%3D6af07901.0407171216.748bed47%2540posting.google.com%26rnum%3D1#50abaf2f942d604e
+ [2]: https://lizditz.typepad.com/i_speak_of_dreams/2004/09/piracy_identity.html
+ [3]: https://groups.google.com/group/misc.immigration.usa/browse_frm/thread/94ef043e8124d7b8/50abaf2f942d604e?hl=en&lr=&ie=UTF-8&safe=off&rnum=1&prev=/groups%3Fq%3Duh_oh_aussie%26hl%3Den%26lr%3D%26ie%3DUTF-8%26safe%3Doff%26selm%3D6af07901.0407171216.748bed47%2540posting.google.com%26rnum%3D1#50abaf2f942d604e

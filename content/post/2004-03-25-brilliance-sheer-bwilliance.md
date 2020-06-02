@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-**<a href="http://news.bbc.co.uk/2/hi/entertainment/3563405.stm" target="_new"><i>Life of Brian</i> to be re-released to challenge <i>Passion</i></a>**
+**<a href="https://news.bbc.co.uk/2/hi/entertainment/3563405.stm" target="_new"><i>Life of Brian</i> to be re-released to challenge <i>Passion</i></a>**
 
 Quote from article:
 

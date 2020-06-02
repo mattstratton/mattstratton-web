@@ -22,5 +22,5 @@ Because I seriously have no idea what any of this means (from [fandom_wank][1]):
 
 I have no idea what ANY of that means. Not even a little.
 
- [1]: http://www.journalfen.net/community/fandom_wank/
- [2]: http://www.livejournal.com/community/beatlesslash/443008.html
+ [1]: https://www.journalfen.net/community/fandom_wank/
+ [2]: https://www.livejournal.com/community/beatlesslash/443008.html

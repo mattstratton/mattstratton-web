@@ -12,4 +12,4 @@ categories:
 ---
 **[Worst Album Covers of All Time][1]**
 
- [1]: http://www.cenedella.com/stone/archives/000302.html
+ [1]: https://www.cenedella.com/stone/archives/000302.html

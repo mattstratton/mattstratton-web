@@ -22,10 +22,10 @@ Check out the bathroom!
 
 The next two nights are in the superior room at Tabacon.
 
-<img align="right" alt="" src="http://www.tabacon.com/images/9.jpg" /><span style="font-weight:bold;">Superior Room</span>   
+<img align="right" alt="" src="https://www.tabacon.com/images/9.jpg" /><span style="font-weight:bold;">Superior Room</span>   
 In addition to our forest & garden room amenities, these rooms offer plush cotton bathrobes and a breathtaking view of the Arenal volcano, especially perfect for those who wish to view the volcano at night. Superior rooms have been recently remodeled, and now they offer DVDs, new furnishings and additional amenities.
 
 <font size="2">After that, we spend three nights at Hotel Si Como No, in a Superior Room. Each <b>Superior Room</b> offers both ocean and jungle views, private balconies, bathroom with tiled shower, air-conditioning, kitchen or stocked mini-bar, king or queen size beds, ceiling fans, telephone, and security safes.</font>
 
- [1]: http://centralamerica.com/cr/hotel/graphics/peadeluxe1.jpg
- [2]: http://centralamerica.com/cr/hotel/graphics/peadxbath.jpg
+ [1]: https://centralamerica.com/cr/hotel/graphics/peadeluxe1.jpg
+ [2]: https://centralamerica.com/cr/hotel/graphics/peadxbath.jpg

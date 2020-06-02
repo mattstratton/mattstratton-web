@@ -5,7 +5,7 @@ layout: post
 date: 2012-07-24T12:39:10+00:00
 url: /the-internets/traces-of-identity-guest-post
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/writetoreach.jpg
+  - https://cdn.mattstratton.com/wp-content/uploads/writetoreach.jpg
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
@@ -14,7 +14,7 @@ description: My name is Ashley and I blog at Writing To Reach You.  When I asked
 dsq_thread_id:
   - 778071538
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/rsz_writetoreach.png
+  - https://cdn.mattstratton.com/wp-content/uploads/rsz_writetoreach.png
 categories:
   - Featured
   - Meta
@@ -25,9 +25,9 @@ tags:
   - writing
 
 ---
-_Today&#8217;s post is a guest post from the super-amazing <a href="http://twitter.com/writetoreach" target="_blank">@writetoreach</a>. I also totally put up this picture without asking her, but it seemed appropriate. Yay coffee.)_
+_Today&#8217;s post is a guest post from the super-amazing <a href="https://twitter.com/writetoreach" target="_blank">@writetoreach</a>. I also totally put up this picture without asking her, but it seemed appropriate. Yay coffee.)_
 
-My name is Ashley and I blog at <a href="http://www.writingtoreachyou.com/" target="_blank">Writing To Reach You</a>.  When I asked for opportunities to guest blog, Matt offered me some space here and asked, “how about the personal and emotional implications of leaving portions of yourself and your content in a disparate and incongruent network that is both ephemeral and everlasting?”  Matt hit on something I think is so interesting about the content we create for the internet.  What we put out there stays forever, but so much is created that most of it is lost or buried.
+My name is Ashley and I blog at <a href="https://www.writingtoreachyou.com/" target="_blank">Writing To Reach You</a>.  When I asked for opportunities to guest blog, Matt offered me some space here and asked, “how about the personal and emotional implications of leaving portions of yourself and your content in a disparate and incongruent network that is both ephemeral and everlasting?”  Matt hit on something I think is so interesting about the content we create for the internet.  What we put out there stays forever, but so much is created that most of it is lost or buried.
 
 I once heard someone say that it’s everyone’s greatest fear to die and be forgotten.  I thought, “Uh, that doesn’t even make my top ten.”  Would I love to write a novel that’s of such great importance that it still has an audience even after my death? Yeah, that sounds pretty great; but if anyone is going to hold a parade in my honor, I’d rather it be while I’m still alive.  What I’m getting at is that leaving a legacy isn’t very important to me, so in that sense, nothing I do on the internet is in an effort to be remembered.
 

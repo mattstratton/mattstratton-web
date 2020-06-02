@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<a href="http://www.imdb.com/title/tt0314676/" target="_blank"><strong>The Singing Detective</strong></a>
+<a href="https://www.imdb.com/title/tt0314676/" target="_blank"><strong>The Singing Detective</strong></a>
   
 Directed by Keith Gordon
   

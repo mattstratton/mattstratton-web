@@ -22,4 +22,4 @@ like the rockstar that you are._
 
 No reply. So I guess Larry and Livia were probably right :)
 
- [1]: http://mugsy1274.livejournal.com/315249.html
+ [1]: https://mugsy1274.livejournal.com/315249.html

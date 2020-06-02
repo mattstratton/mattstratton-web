@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=lAT27LhkQ-4  
+https://www.youtube.com/watch?v=lAT27LhkQ-4  
 So I don&#8217;t really watch American Idol that much &#8211; I mostly know about the show from when Carrie watches it, or Best Week Ever.
 
 But even I know that this guy is annoying and talentless.

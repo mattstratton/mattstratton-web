@@ -16,4 +16,4 @@ Stop cluttering up LJ entries and just check out the [**gmail invite spooler**][
 
 Done and done.
 
- [1]: http://isnoop.net/gmailomatic.php
+ [1]: https://isnoop.net/gmailomatic.php

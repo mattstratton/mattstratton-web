@@ -26,5 +26,5 @@ P.S. &#8211; I wanna see pictures!
 
 [![][1]][2] Verbow &#8211; Closer to Free</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

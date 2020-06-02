@@ -14,5 +14,5 @@ I&#8217;m **a generally unfuckwitted, liberal, not-too-generous, not-too-selfish
 [See how compatible you are with me!][1]  
 Brought to you by [Rum and Monkey][2]
 
- [1]: http://rumandmonkey.com/widgets/tests/compatibility/?checkid=2318
- [2]: http://rumandmonkey.com/
+ [1]: https://rumandmonkey.com/widgets/tests/compatibility/?checkid=2318
+ [2]: https://rumandmonkey.com/

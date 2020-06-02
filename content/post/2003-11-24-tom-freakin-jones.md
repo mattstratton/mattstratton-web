@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-So I just got home from the <a href="http://www.sing365.com/music/lyric.nsf/singerUnid/30B3C8E8321DEB4248256B72002EA36F" target="_new">Tom Jones</a> show.
+So I just got home from the <a href="https://www.sing365.com/music/lyric.nsf/singerUnid/30B3C8E8321DEB4248256B72002EA36F" target="_new">Tom Jones</a> show.
 
 Man, that was really fun. For a 63 year old guy, he looks great and really can move.
 

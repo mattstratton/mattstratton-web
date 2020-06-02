@@ -18,5 +18,5 @@ And just like , I fucked up the answer to a question. Question 10 should be C, b
 
 [scores][2]
 
- [1]: http://www.stumpyourfriends.com/stump2.cgi?33748141432003
- [2]: http://www.stumpyourfriends.com/score.cgi?33748141432003
+ [1]: https://www.stumpyourfriends.com/stump2.cgi?33748141432003
+ [2]: https://www.stumpyourfriends.com/score.cgi?33748141432003

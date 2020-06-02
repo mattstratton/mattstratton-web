@@ -14,4 +14,4 @@ categories:
 
 m.
 
- [1]: http://www.livejournal.com/talkpost.bml?journal=mugsy1274&itemid=91028
+ [1]: https://www.livejournal.com/talkpost.bml?journal=mugsy1274&itemid=91028

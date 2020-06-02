@@ -10,5 +10,5 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=Sv5iEK-IEzw  
+https://www.youtube.com/watch?v=Sv5iEK-IEzw  
 Especially for Cherie &#8211; funny stuff indeed!

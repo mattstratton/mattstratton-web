@@ -12,10 +12,10 @@ categories:
 ---
 Thanks to , I will be attending a screening of [_Gong fu_][1] (Kung Fu Hustle) tomorrow night.
 
-<img src="http://photos8.flickr.com/7797445_fa537b16dc.jpg" width="400" />
+<img src="https://photos8.flickr.com/7797445_fa537b16dc.jpg" width="400" />
 
 That&#8217;s so rad.
 
 I know that is so jealous. You can admit it.
 
- [1]: http://www.imdb.com/title/tt0373074/
+ [1]: https://www.imdb.com/title/tt0373074/

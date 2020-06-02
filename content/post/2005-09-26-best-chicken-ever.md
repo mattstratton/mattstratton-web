@@ -18,4 +18,4 @@ BEST CHICKEN IN THE WORLD.
   
 21 W Jackson Blvd
 
- [1]: http://chicago-hotels.tripadvisor.com/Restaurant_Review-g35805-d428058-Reviews-Chicken_Planet-Chicago_Illinois.html
+ [1]: https://chicago-hotels.tripadvisor.com/Restaurant_Review-g35805-d428058-Reviews-Chicken_Planet-Chicago_Illinois.html

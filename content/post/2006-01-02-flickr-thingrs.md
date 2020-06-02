@@ -21,5 +21,5 @@ Couple cool tools for use with the Flickr online photo sharing site:
 
 [Flickr Importr][2] &#8211; third-party upload tool for Windows that provides a lot more flexibility towards tagging, etc (I haven&#8217;t tried it yet, but it sounds like it works a lot like the iPhoto Flickr plugin)
 
- [1]: http://www.quickrpickr.com/
- [2]: http://flickrimportr.blogspot.com/
+ [1]: https://www.quickrpickr.com/
+ [2]: https://flickrimportr.blogspot.com/

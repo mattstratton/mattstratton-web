@@ -16,4 +16,4 @@ Here&#8217;s hoping a speedy recovery to my boy Mark Prior.
 
 In other news, I&#8217;m leaving for Atlanta in about 5 hours. Should be a weekend of good fun and I&#8217;m looking forward to seeing old friends again, including who is also in ATL this weekend!
 
- [1]: http://sports.espn.go.com/espn/wire?section=mlb&id=1766728
+ [1]: https://sports.espn.go.com/espn/wire?section=mlb&id=1766728

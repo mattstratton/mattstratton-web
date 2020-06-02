@@ -10,6 +10,6 @@ categories:
 ---
 We still have slots available in the LJ-only Fantasy league, but hurry! The draft is tonight at 7 PM CST.
 
-Visit [http://fantasysports.yahoo.com][1]. The League ID# is **243719** and the Password is **mugsymalone**.
+Visit [https://fantasysports.yahoo.com][1]. The League ID# is **243719** and the Password is **mugsymalone**.
 
- [1]: http://fantasysports.yahoo.com/
+ [1]: https://fantasysports.yahoo.com/

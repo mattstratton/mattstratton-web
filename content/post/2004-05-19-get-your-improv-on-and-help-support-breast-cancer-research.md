@@ -33,6 +33,6 @@ Who can play? Anyone who wants to. The first 20 people to sign up get to play ga
 
 What if I don&#8217;t want to play? We still need an audience! As an audience member, it will be your job to yell out suggestions to our performers, yell &#8220;DIE!!!&#8221; when our performers screw up, score the quality of the scenes, and laugh until it hurts.
 
-And of course, all of the proceeds from this event will go to the <a href="http://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_blank">Avon Walk for Breast Cancer</a>.
+And of course, all of the proceeds from this event will go to the <a href="https://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_blank">Avon Walk for Breast Cancer</a>.
 
 So come on out! May 25th. 4210 N. Lincoln (there are big corn stalks painted on the front of the building &#8211; you can&#8217;t miss it). Five dollars. BYOB. Doors open at 8:00pm. I&#8217;ll see you there!

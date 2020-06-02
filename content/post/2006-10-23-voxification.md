@@ -16,5 +16,5 @@ Anyway, while I play around with Vox, I&#8217;ll be probably posting to both. Bu
 
 If you want an invite to Vox, just send me an email (matt dot stratton at gmail) and I&#8217;ll sign you up.
 
- [1]: http://mteson.livejournal.com/322157.html
- [2]: http://mattstratton.vox.com
+ [1]: https://mteson.livejournal.com/322157.html
+ [2]: https://mattstratton.vox.com

@@ -22,9 +22,9 @@ DETRIOMPHE &#8211; WWW.DETRIOMPHE.COM
   
 NAILING AMY &#8211; WWW.NAILINGAMY.TK
   
-CHUANG TZU &#8211; HTTP://ANEMPTYCUP.TK
+CHUANG TZU &#8211; https://ANEMPTYCUP.TK
   
-THE CARDS &#8211; HTTP://WWW.TRAXCORE.TK
+THE CARDS &#8211; https://WWW.TRAXCORE.TK
 
 AT NILES, **BRUNSWICK ZONE**
 
@@ -38,4 +38,4 @@ BENEFIT FOR HABITAT FOR HUMANITY. STARTS AT 10:00 P.M.
 
 -RAKIDO
 
- [1]: http://www.livejournal.com/community/chicagoindie/266248.html
+ [1]: https://www.livejournal.com/community/chicagoindie/266248.html

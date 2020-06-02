@@ -6,11 +6,11 @@ date: 2011-12-07T11:38:11+00:00
 url: /life-in-general/matt-one-year-ago
 description: Every year for my birthday, I compose an email to be sent to myself a year in the future. This is the email I composed one year ago.
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/future.png
+  - https://cdn.mattstratton.com/wp-content/uploads/future.png
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/future_tn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/future_tn.png
 dsq_thread_id:
   - 496276600
 categories:
@@ -19,7 +19,7 @@ tags:
   - Birthdays
 
 ---
-Every year on my birthday, I receive an email from myself, written the year before, via the <a href="http://www.futureme.org" target="_blank">FutureMe.org</a> service (hattip to my friend <a href="http://trappermarkelz.com/" target="_blank">Trapper</a> for giving me the idea several year ago).
+Every year on my birthday, I receive an email from myself, written the year before, via the <a href="https://www.futureme.org" target="_blank">FutureMe.org</a> service (hattip to my friend <a href="https://trappermarkelz.com/" target="_blank">Trapper</a> for giving me the idea several year ago).
 
 I just received the letter from 2010. It&#8217;s interesting to review it, and see how things have changed in a year:
 

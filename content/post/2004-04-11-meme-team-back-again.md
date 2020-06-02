@@ -36,5 +36,5 @@ _I leave on a time; I could have to get away. Go! Let&#8217;s see what else can 
   
 _Do i Get your co worker and i they were pretty sad that makes the latest print club mailings, have **finally gone out for the cockpit and moist towelette neither of you can get enough that,** aren&#8217;t perishable: these sticker packs. Have for my porch feeding my first time all, the metro was also the weekend so is that they understand. Japanese way i&#8217;m going to worry because eating a dry cold or something. Edit. Luckily, the funniest shit definitely see why everyone adores her; because i still think about the pics to sell._
 
- [1]: http://www.livejournal.com/users/mugsy1274/156973.html
- [2]: http://www.antispin.net/~martine/cgi-bin/insanity.cgi?mugsy1274
+ [1]: https://www.livejournal.com/users/mugsy1274/156973.html
+ [2]: https://www.antispin.net/~martine/cgi-bin/insanity.cgi?mugsy1274

@@ -12,4 +12,4 @@ Oh yeah, and like says&#8230;if you write a [bio][1] for me, I&#8217;ll write on
 
 m.
 
- [1]: http://www.livejournal.com/users/mugsy1274/135753.html
+ [1]: https://www.livejournal.com/users/mugsy1274/135753.html

@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-As most of you know&#8230;I&#8217;ve involved with a fun little website called <a href="http://straighteye.com" target="_blank"><b>Straight Eye for the Queer Shows</b></a>.
+As most of you know&#8230;I&#8217;ve involved with a fun little website called <a href="https://straighteye.com" target="_blank"><b>Straight Eye for the Queer Shows</b></a>.
 
 Well, we need a logo. Both for our website and for maybe some SE t-shirts (the site is horribly popular, and pretty soon we&#8217;re going to need to pay for bandwidth).
 

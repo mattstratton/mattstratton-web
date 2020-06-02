@@ -24,6 +24,6 @@ Saw _Adaptation_ the other night. Wasn&#8217;t as good as I&#8217;d hoped, but s
 
 m.
 
- [1]: http://www.theonion.com
- [2]: http://www.jivinjoules.com/jet.htm
- [3]: http://photography.mattstratton.com
+ [1]: https://www.theonion.com
+ [2]: https://www.jivinjoules.com/jet.htm
+ [3]: https://photography.mattstratton.com

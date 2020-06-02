@@ -415,4 +415,4 @@ Plan for Week 6 is more of the same. I am going to try to focus a bit more on my
  [1]: /wp-content/uploads/week5-cst.png
  [2]: /wp-content/uploads/week5-bb.png
  [3]: /health/p90x-week-5-legs-and-back
- [4]: http://cdn.mattstratton.com/wp-content/uploads/legs-and-back-week5.png
+ [4]: https://cdn.mattstratton.com/wp-content/uploads/legs-and-back-week5.png

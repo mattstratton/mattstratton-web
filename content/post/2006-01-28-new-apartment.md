@@ -28,11 +28,11 @@ Lincoln Square/North Center
   
 New kitchen w/dishwasher, microwave and garbage disposal, wood floors, central air/heat, free laundry, front deck, back yard and lots of storage. Walking distance to Western Ave Brown line (open during construction), Jewel, shops, entertainment and dining, Old Town School of Folk Music, Sulzer Library and Welles Park which has tennis courts and indoor swimming pool. Dogs and Cats OK.
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000fb6k" width="300" height="225" />][1][<img src="http://pics.livejournal.com/mugsy1274/pic/0000g648" width="300" height="225" />][2]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000fb6k" width="300" height="225" />][1][<img src="https://pics.livejournal.com/mugsy1274/pic/0000g648" width="300" height="225" />][2]
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000hfhs/s320x240" width="180" height="240" />][3][<img src="http://pics.livejournal.com/mugsy1274/pic/0000k405/s320x240" width="180" height="240" />][4]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000hfhs/s320x240" width="180" height="240" />][3][<img src="https://pics.livejournal.com/mugsy1274/pic/0000k405/s320x240" width="180" height="240" />][4]
 
- [1]: http://pics.livejournal.com/mugsy1274/pic/0000fb6k/
- [2]: http://pics.livejournal.com/mugsy1274/pic/0000g648/
- [3]: http://pics.livejournal.com/mugsy1274/pic/0000hfhs/
- [4]: http://pics.livejournal.com/mugsy1274/pic/0000k405/
+ [1]: https://pics.livejournal.com/mugsy1274/pic/0000fb6k/
+ [2]: https://pics.livejournal.com/mugsy1274/pic/0000g648/
+ [3]: https://pics.livejournal.com/mugsy1274/pic/0000hfhs/
+ [4]: https://pics.livejournal.com/mugsy1274/pic/0000k405/

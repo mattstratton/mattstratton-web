@@ -22,4 +22,4 @@ categories:
 > 
 > I fully realize that this country is not divided along truely black and white lines. I realize that not all Conservatives/Republicans think that everything the current administration is doing is good. But I wonder &#8211; those of you who voted for GWB in this past election &#8211; do you feel good about this? Are you happy with what has happened? Or do you not mind that the suspension of Habeas Corpus and erosion of human rights as long as financial and econmic issues that affect you are served?
 
- [1]: http://www.crooksandliars.com/2006/10/18/countdown-special-comment-death-of-habeas-corpus-your-words-are-lies-sir/
+ [1]: https://www.crooksandliars.com/2006/10/18/countdown-special-comment-death-of-habeas-corpus-your-words-are-lies-sir/

@@ -18,16 +18,16 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/3211446232/"><img style="border:solid 2px #000000;" src="http://farm4.static.flickr.com/3368/3211446232_a081179a87_m.jpg" alt="" /></a></p> 
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/3211446232/"><img style="border:solid 2px #000000;" src="https://farm4.static.flickr.com/3368/3211446232_a081179a87_m.jpg" alt="" /></a></p> 
   
   <p>
-    <span style="font-size:.9em;margin-top:0;"><br /> <a href="http://www.flickr.com/photos/mugsy/3211446232/">Scout</a></p> 
+    <span style="font-size:.9em;margin-top:0;"><br /> <a href="https://www.flickr.com/photos/mugsy/3211446232/">Scout</a></p> 
     
     <p>
-      Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a><br /> </span></div> 
+      Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a><br /> </span></div> 
       
       <p>
-        So poor Scout had to have a cyst removed from his head last week. We got the good news today that it was totally benign (it is some kind of tumor that develops from a hair follicle) but they got the whole thing excised and he should be just fine&#8230;except for the fact that he looks a little like he had <a href="http://flickr.com/photos/mugsy/3203519275/">brain surgery</a>.
+        So poor Scout had to have a cyst removed from his head last week. We got the good news today that it was totally benign (it is some kind of tumor that develops from a hair follicle) but they got the whole thing excised and he should be just fine&#8230;except for the fact that he looks a little like he had <a href="https://flickr.com/photos/mugsy/3203519275/">brain surgery</a>.
       </p>
       
       <p>

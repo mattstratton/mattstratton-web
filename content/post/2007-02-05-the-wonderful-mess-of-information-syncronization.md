@@ -10,7 +10,7 @@ categories:
   - Tech
 
 ---
-<span class="postbody">So <a href="http://mugsy1274.livejournal.com/459460.html">a while ago</a>, I asked some questions and ranted about my difficulty in keeping my contacts in sync. </p> 
+<span class="postbody">So <a href="https://mugsy1274.livejournal.com/459460.html">a while ago</a>, I asked some questions and ranted about my difficulty in keeping my contacts in sync. </p> 
 
 <p>
   I think I&#8217;m 99% of the way to a solution, although I won&#8217;t be able to fully test until I get home and install some stuff on my Mac. I&#8217;m going to explain what I&#8217;m doing, what I plan to do, and what I still need, in the hopes that a) someone might be able to help me fill in the gaps, and b) it might help some other folks.
@@ -45,13 +45,13 @@ categories:
 </p>
 
 <p>
-  Luckily, I just found out that <a class="postlink" target="_blank" href="http://blog.spanningsync.com/">Spanning Sync</a> has gone into public beta. This is a tool that does a two-way sync between iCal and Gcal. I will be installing it as soon as I get home tonight, and that solves a large portion of my calendar sync issues.
+  Luckily, I just found out that <a class="postlink" target="_blank" href="https://blog.spanningsync.com/">Spanning Sync</a> has gone into public beta. This is a tool that does a two-way sync between iCal and Gcal. I will be installing it as soon as I get home tonight, and that solves a large portion of my calendar sync issues.
 </p>
 
 <p>
-  However, it does not help with the Contacts. Again, the authoritative source for my contacts is Address Book on OS X &#8211; which then syncs (two-way) to the BlackBerry via <a class="postlink" target="_blank" href="http://www.pocketmac.net/products/pmblackberry/">PocketMac</a>. This is kind of a crappy setup right now, since I don&#8217;t really like how PocketMac is working (it lacks the ability to sync over Bluetooth, and some of the sync features bug me). Luckily, the <a class="postlink" target="_blank" href="http://www.markspace.com/missingsync_blackberry.php">BlackBerry version of the Missing Sync</a> is supposed to be coming out soon, and that should help with that.
+  However, it does not help with the Contacts. Again, the authoritative source for my contacts is Address Book on OS X &#8211; which then syncs (two-way) to the BlackBerry via <a class="postlink" target="_blank" href="https://www.pocketmac.net/products/pmblackberry/">PocketMac</a>. This is kind of a crappy setup right now, since I don&#8217;t really like how PocketMac is working (it lacks the ability to sync over Bluetooth, and some of the sync features bug me). Luckily, the <a class="postlink" target="_blank" href="https://www.markspace.com/missingsync_blackberry.php">BlackBerry version of the Missing Sync</a> is supposed to be coming out soon, and that should help with that.
 </p>
 
 <p>
-  So what&#8217;s still missing? I need a way to sync my Lotus Notes calendar with Gcal (there&#8217;s a tool out there called &#8220;<a class="postlink" target="_blank" href="http://www.companionlink.com/products/companionlinkforgoogle.html">CompanionLink for Google Calendar</a>&#8221; that will sync Notes with Gcal, but it only can sync the &#8220;default&#8221; Gcal calendar, so that doesn&#8217;t help). And I still need an automated way to keep my OS X Address Book in sync with the Gmail contacts. </span>
+  So what&#8217;s still missing? I need a way to sync my Lotus Notes calendar with Gcal (there&#8217;s a tool out there called &#8220;<a class="postlink" target="_blank" href="https://www.companionlink.com/products/companionlinkforgoogle.html">CompanionLink for Google Calendar</a>&#8221; that will sync Notes with Gcal, but it only can sync the &#8220;default&#8221; Gcal calendar, so that doesn&#8217;t help). And I still need an automated way to keep my OS X Address Book in sync with the Gmail contacts. </span>
 </p>

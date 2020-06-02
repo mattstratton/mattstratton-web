@@ -14,7 +14,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/393538262/"><img style="border:solid 2px #000000;" src="http://farm1.static.flickr.com/147/393538262_e563eb078f_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/393538262/">Carrie roller skating</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/393538262/"><img style="border:solid 2px #000000;" src="https://farm1.static.flickr.com/147/393538262_e563eb078f_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/393538262/">Carrie roller skating</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 So far this has been a busy weekend. Friday night, Carrie and I went to Bed, Bath, and Beyond to finish up our registry. Afterwards, we had dinner at Goose Island, which was pretty tasty. I was surprised that Carrie had never eaten there before; it brought back memories of several summers ago, when I was out of work and would go to Goose Island (the one on Clark, not the one by the B3) with Erika and chow on burgers during Cubs games.

@@ -19,5 +19,5 @@ Happy berfday, !
 
 ![][2]
 
- [1]: http://static.flickr.com/10/11150403_9f5bc563c6.jpg?v=0
- [2]: http://static.flickr.com/30/45838560_9e1341e63a.jpg?v=0
+ [1]: https://static.flickr.com/10/11150403_9f5bc563c6.jpg?v=0
+ [2]: https://static.flickr.com/30/45838560_9e1341e63a.jpg?v=0

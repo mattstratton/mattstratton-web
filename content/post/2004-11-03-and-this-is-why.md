@@ -26,5 +26,5 @@ That is why I voted the way I did.
   
 It&#8217;s not open for debate.</i>
 
- [1]: http://www.yehoodi.com/phpBB2/viewtopic.php?p=535055#535055
- [2]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com/phpBB2/viewtopic.php?p=535055#535055
+ [2]: https://www.yehoodi.com

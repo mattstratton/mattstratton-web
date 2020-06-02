@@ -16,4 +16,4 @@ This is my favorite picture from the weekend that I&#8217;ve seen so far.
 
 The power of the Seinfeld obsessed. Concentrated.
 
- [1]: http://www.ryanswift.com/albums/friends/DSC00876.sized.jpg
+ [1]: https://www.ryanswift.com/albums/friends/DSC00876.sized.jpg

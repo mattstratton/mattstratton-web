@@ -52,7 +52,7 @@ Some of my Circles don’t seem to make sense from a privacy perspective – for
 
 I highly recommend moving people from your Gmail contacts into appropriate Circles, even if they aren’t on Plus yet. That way, when they DO sign up with Plus, they will already be Circled. This wasn’t a big deal for me last week, but in the past few days, with lots more folks joining up, it was really nice to not have to manage them into the appropriate Circle at that time.
 
-_What about YOU? What tips and tricks have you come up with for managing your Circles? How are you using Circles to control your sharing on Plus? Let me know in the comments! And if you ARE a Plus user, don’t forget to check my out at_ [_http://profiles.google.com/mattstratton_][2]_._
+_What about YOU? What tips and tricks have you come up with for managing your Circles? How are you using Circles to control your sharing on Plus? Let me know in the comments! And if you ARE a Plus user, don’t forget to check my out at_ [_https://profiles.google.com/mattstratton_][2]_._
 
  [1]: /wp-content/uploads/circles.png
- [2]: http://profiles.google.com/mattstratton
+ [2]: https://profiles.google.com/mattstratton

@@ -17,11 +17,11 @@ tags:
   - wordpress
 
 ---
-[<img class="alignright" title="Housekeeping" src="http://farm4.static.flickr.com/3140/2580879201_f33871ba2b.jpg" alt="" width="228" height="300" />][1]You might notice things look a little different around here. I&#8217;m giving my blog a much-needed facelift. Granted, I&#8217;m not done yet, but I&#8217;m just setting the stage for some new fancy designs that are on their way (with the assistance of the amazingly awesome <a href="http://twitter.com/ashleymarie6" target="_blank">@ashleymarie6</a>).
+[<img class="alignright" title="Housekeeping" src="https://farm4.static.flickr.com/3140/2580879201_f33871ba2b.jpg" alt="" width="228" height="300" />][1]You might notice things look a little different around here. I&#8217;m giving my blog a much-needed facelift. Granted, I&#8217;m not done yet, but I&#8217;m just setting the stage for some new fancy designs that are on their way (with the assistance of the amazingly awesome <a href="https://twitter.com/ashleymarie6" target="_blank">@ashleymarie6</a>).
 
 ## New theme
 
-First major overhaul item was switching to the <a href="http://diythemes.com/" target="_blank">Thesis theme</a>. It appears that all the truly &#8216;leet WordPress folks are all about Thesis&#8230;or at least that&#8217;s what <a href="http://doniree.com" target="_blank">Doniree</a> tells me. It&#8217;s not so much a theme as it is an entire framework. It&#8217;s super customizable, although it takes a bit of hacking to really find your way around. But just playing around with the configuration options has already gotten me to some things that I totally dig. For example &#8211; those little &#8220;teasers&#8221; for past blog posts on the bottom of the page. I like those.
+First major overhaul item was switching to the <a href="https://diythemes.com/" target="_blank">Thesis theme</a>. It appears that all the truly &#8216;leet WordPress folks are all about Thesis&#8230;or at least that&#8217;s what <a href="https://doniree.com" target="_blank">Doniree</a> tells me. It&#8217;s not so much a theme as it is an entire framework. It&#8217;s super customizable, although it takes a bit of hacking to really find your way around. But just playing around with the configuration options has already gotten me to some things that I totally dig. For example &#8211; those little &#8220;teasers&#8221; for past blog posts on the bottom of the page. I like those.
 
 ## Cleaning up the junk
 
@@ -41,4 +41,4 @@ Ashley is working on a new header for me, and she&#8217;s got a lot of recommend
 
 _What do you think of the changes so far? Any suggestions? Anything you think REALLY needs to be fixed? Let me know in the comments!_
 
- [1]: http://www.flickr.com/photos/wererabbit/2580879201/
+ [1]: https://www.flickr.com/photos/wererabbit/2580879201/

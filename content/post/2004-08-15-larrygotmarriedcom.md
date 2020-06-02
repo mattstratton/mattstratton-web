@@ -22,4 +22,4 @@ I&#8217;ve been up since 4:30 AM yesterday.
 
 I sleep now.
 
- [1]: http://www.yehoodi.com/images/news_photos/507.jpg
+ [1]: https://www.yehoodi.com/images/news_photos/507.jpg

@@ -14,5 +14,5 @@ Might prove useful on [Yehoopty][2].
 
 m.
 
- [1]: http://www.proft.org/tips/conv-terror.html
- [2]: http://www.yehoodi.com
+ [1]: https://www.proft.org/tips/conv-terror.html
+ [2]: https://www.yehoodi.com

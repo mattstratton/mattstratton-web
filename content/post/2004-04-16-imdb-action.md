@@ -10,8 +10,8 @@ categories:
   - Personal
 
 ---
-So the <a href="http://www.imdb.com" target="_blank">IMDB</a> has finally added _Inventing: Music_ to their listing.
+So the <a href="https://www.imdb.com" target="_blank">IMDB</a> has finally added _Inventing: Music_ to their listing.
 
-<a href="http://www.imdb.com/title/tt0404143/" target="_blank">Check it out.</a>
+<a href="https://www.imdb.com/title/tt0404143/" target="_blank">Check it out.</a>
 
 Of course, they haven&#8217;t finished adding all the names yet. Including mine. But still, it&#8217;s pretty sweet.

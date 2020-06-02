@@ -12,4 +12,4 @@ categories:
 ---
 If you didn&#8217;t get an [Evite][1] for our May 20th housewarming cookout, and you&#8217;re going to be in Chicago that weekend, let me know and I&#8217;ll send it to you.
 
- [1]: http://www.evite.com/app/publicUrl/matt [at] gravytrainfilms [dot] com/housewarming
+ [1]: https://www.evite.com/app/publicUrl/matt [at] gravytrainfilms [dot] com/housewarming

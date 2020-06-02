@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/18074285/" title="photo sharing"><img src="http://static.flickr.com/3/18074285_369e63bbab_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/18074285/">Dallas on set of Dancing With Gaia</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/18074285/" title="photo sharing"><img src="https://static.flickr.com/3/18074285_369e63bbab_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/18074285/">Dallas on set of Dancing With Gaia</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 So yesterday, I got this email from some dude with [AFI][1]:
@@ -34,7 +34,7 @@ We&#8217;re pretty sure that he&#8217;s talking about [DWG][4], because our othe
   
 **Dallas:** Like much of life, there&#8217;s not nearly enough Fuzzy.
 
- [1]: http://www.afi.com/
- [2]: http://www.customflix.com/Store/ShowEStore.jsp?id=204932
- [3]: http://www.dancingwithgaia.com/dwg_press_kit.pdf
- [4]: http://www.dancingwithgaia.com
+ [1]: https://www.afi.com/
+ [2]: https://www.customflix.com/Store/ShowEStore.jsp?id=204932
+ [3]: https://www.dancingwithgaia.com/dwg_press_kit.pdf
+ [4]: https://www.dancingwithgaia.com

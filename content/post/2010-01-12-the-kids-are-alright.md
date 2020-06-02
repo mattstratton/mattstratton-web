@@ -26,7 +26,7 @@ If you&#8217;ve been wondering why there&#8217;s been a marked lack of content h
 
 On Wednesday, Dec 30, my lovely wife Carrie gave birth to our two awesome new sons, Henry Phillip and Joseph Steven.
 
-I&#8217;ve been blogging a lot over at <a href="http://strattonboys.com" target="_blank">http://strattonboys.com</a>, which is the site I set up for updates about the two guys. I recommend you take a visit over there for all the details, but in case one Stratton website is your limit, I&#8217;ll give you some updates and info here.
+I&#8217;ve been blogging a lot over at <a href="https://strattonboys.com" target="_blank">https://strattonboys.com</a>, which is the site I set up for updates about the two guys. I recommend you take a visit over there for all the details, but in case one Stratton website is your limit, I&#8217;ll give you some updates and info here.
 
 Henry and Joey were born slightly early &#8211; they were delivered at 35 weeks and 5 days. This was determined to be necessary as Carrie was diagnosed with preclampsia, which can be a very severe condition. The doctors decided that the risk to her health was greater than the benefits of the boys staying in utero. So out they came.
 

@@ -18,5 +18,5 @@ Since everyone seems to think I know everything (which I do, so it&#8217;s under
 **Matt:** yehoodi.com goes to a banner ad for some event manu is doing in atlanta  
 **frankyboy:** yeah manu had to do a reboot this morning  
 **frankyboy:** uh oh  
-**Matt:** this is what comes up &#8211; http://www.yehoodi.com/SaveyourSoul.jpg  
+**Matt:** this is what comes up &#8211; https://www.yehoodi.com/SaveyourSoul.jpg  
 **frankyboy:** thansk bro

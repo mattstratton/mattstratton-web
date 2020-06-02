@@ -40,10 +40,10 @@ Calories Burned: 772
   
 Average HR: 122
   
-DailyMile link:<http://www.dailymile.com/people/MattS/entries/6199449>
+DailyMile link:<https://www.dailymile.com/people/MattS/entries/6199449>
 
 _Inspired by [Tori][1], I have decided to do daily blog posts about my P90X workouts. Since I know not everyone is fascinated by this, these posts will likely not be syndicated to my Facebook, but they will still be available via RSS. I have also created a specific RSS feed for just my [P90X posts][2], for those of you who are only interested in that (it will include my weekly wrap-up posts as well). This feed can be subscribed to by clicking [here][3]. I might even start taking some photos DURING the exercises, just for fun._
 
- [1]: http://torisp90xjourney.com/
+ [1]: https://torisp90xjourney.com/
  [2]: /tags/p90x
- [3]: http://feeds.feedburner.com/MattP90x
+ [3]: https://feeds.feedburner.com/MattP90x

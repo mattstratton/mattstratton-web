@@ -20,4 +20,4 @@ Saturday, thanks to my awesome friend [Heather][1], I will be returning to Wrigl
 
 I love baseball, even though the Cubs are absolute SHIT right now.
 
- [1]: http://www.yehoodi.com/phpBB2/profile.php?mode=viewprofile&u=2214
+ [1]: https://www.yehoodi.com/phpBB2/profile.php?mode=viewprofile&u=2214

@@ -42,7 +42,7 @@ Tiffany Brissette? Yeah, me too.
 
 
   
-We all remember dancing to the hits of <a href="http://www.myspace.com/comebacks" target="_blank">Sweet Diss and the Comebacks</a>
+We all remember dancing to the hits of <a href="https://www.myspace.com/comebacks" target="_blank">Sweet Diss and the Comebacks</a>
   
 at our junior high school dances, but did you know that they are fans
   
@@ -66,7 +66,7 @@ Mr. Beef? Of course you wouldn&#8217;t.
 
 
   
-No clever commentary for this one. It&#8217;s just cute as hell. Plus, <a href="http://fuzzyco.com/news/hey_im_in_a_movie/making_pollywog.html" target="_blank">my<br /> friend Fuzzy helped with the puppets</a>.
+No clever commentary for this one. It&#8217;s just cute as hell. Plus, <a href="https://fuzzyco.com/news/hey_im_in_a_movie/making_pollywog.html" target="_blank">my<br /> friend Fuzzy helped with the puppets</a>.
 
 ## The Website Is Down (NSFW)
 

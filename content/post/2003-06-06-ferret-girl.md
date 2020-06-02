@@ -14,4 +14,4 @@ Check the dates to make sure you read them in order.
 
 m.
 
- [1]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Ferretgirl&filter=all
+ [1]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Ferretgirl&filter=all

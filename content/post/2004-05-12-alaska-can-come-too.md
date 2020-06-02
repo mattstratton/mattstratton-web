@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-**<a href="http://www.ebaumsworld.com/endofworld.html" target="_blank">Seriously, this is for awesome</a>**
+**<a href="https://www.ebaumsworld.com/endofworld.html" target="_blank">Seriously, this is for awesome</a>**

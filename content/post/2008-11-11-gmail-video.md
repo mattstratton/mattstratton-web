@@ -14,6 +14,6 @@ If any of you Gmail users got the [If any of you Gmail users got the][1] enabled
 
 It&#8217;s not rolled out to everyone, and to find out if you DO&nbsp;have it, you need to [install the plugin][3] first.
 
- [1]: http://lifehacker.com/5083481/google-launches-voice-and-video-chat-inside-gmail
+ [1]: https://lifehacker.com/5083481/google-launches-voice-and-video-chat-inside-gmail
  [2]: javascript:DeCryptX('2o3d3w3w0.3v3w0r2c2v3w3r3q2B3j3p1b2k2n1/0c0o2o')
- [3]: http://mail.google.com/videochat
+ [3]: https://mail.google.com/videochat

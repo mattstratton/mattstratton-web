@@ -18,5 +18,5 @@ So I invited her to come to the Cubs game with me next weekend, but it turns out
 
 She&#8217;s remained flirty on IM which is good. Man, I hope I don&#8217;t screw this one up. I really do like her. A lot. Yargh.
 
- [1]: http://mugsy1274.livejournal.com/225219.html
- [2]: http://www.livejournal.com/users/mugsy1274/115673.html
+ [1]: https://mugsy1274.livejournal.com/225219.html
+ [2]: https://www.livejournal.com/users/mugsy1274/115673.html

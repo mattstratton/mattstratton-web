@@ -21,7 +21,7 @@ tags:
 ---
 OK, so I&#8217;ll do my best to recap the action, or at least the highlights.
 
-We originally had 20 players signed up, but ended up with only 17 showing up. This made for three tables &#8211; two of six, and one of five. Random draw put me at a table with a bunch of players I had never played with before, with the exception of Mamalou. <a href="http://theprotagonist5.livejournal.com/" target="_blank">Cherie</a> was our table&#8217;s dealer, and she did a pretty good job &#8211; at least for the brief period I was sitting down.
+We originally had 20 players signed up, but ended up with only 17 showing up. This made for three tables &#8211; two of six, and one of five. Random draw put me at a table with a bunch of players I had never played with before, with the exception of Mamalou. <a href="https://theprotagonist5.livejournal.com/" target="_blank">Cherie</a> was our table&#8217;s dealer, and she did a pretty good job &#8211; at least for the brief period I was sitting down.
 
 Yup. I was the first one eliminated. I was knocked out in 20 minutes, before we even had our first blind increase. Oh, the humiliation.
 

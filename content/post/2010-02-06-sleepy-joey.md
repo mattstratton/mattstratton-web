@@ -7,7 +7,7 @@ url: /photos/sleepy-joey
 aktt_notify_twitter:
   - no
 thesis_thumb:
-  - http://farm3.static.flickr.com/2714/4333371905_cc9e706400_t.jpg
+  - https://farm3.static.flickr.com/2714/4333371905_cc9e706400_t.jpg
 thesis_thumb_width:
   - 100
 thesis_thumb_height:
@@ -21,7 +21,7 @@ tags:
 
 ---
 <p style="text-align: center;">
-  <a title="Sleepy Joey by Matt Stratton, on Flickr" href="http://www.flickr.com/photos/mugsy/4333371905/"><img class="aligncenter" src="http://farm3.static.flickr.com/2714/4333371905_cc9e706400.jpg" alt="Sleepy Joey" width="500" height="333" /></a>
+  <a title="Sleepy Joey by Matt Stratton, on Flickr" href="https://www.flickr.com/photos/mugsy/4333371905/"><img class="aligncenter" src="https://farm3.static.flickr.com/2714/4333371905_cc9e706400.jpg" alt="Sleepy Joey" width="500" height="333" /></a>
 </p>
 
 I’m kind of okay with cheating on the weekends and just posting pictures of either my sons or my dog.

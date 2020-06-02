@@ -20,4 +20,4 @@ Someone amuse me. I&#8217;m **mugsy1274**on Yahoo and **MugsyMalone74** on AIM.
 
 m.
 
- [1]: http://windyhop.org
+ [1]: https://windyhop.org

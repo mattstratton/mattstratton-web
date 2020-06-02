@@ -15,7 +15,7 @@ tags:
   - unicorn
 
 ---
-_It&#8217;s [Guest Post Week][1] here at Good Old Rock&#8230;today&#8217;s post comes to us from our good pal Christina of <a href="http://stackedblog.com" target="_blank">Stacked</a>._
+_It&#8217;s [Guest Post Week][1] here at Good Old Rock&#8230;today&#8217;s post comes to us from our good pal Christina of <a href="https://stackedblog.com" target="_blank">Stacked</a>._
 
 When Matt suggested I write a guest post here at Good Old Rock, I had a difficult time coming up with a topic. What does Matt like that I also like and have some worthy knowledge of.
 
@@ -23,7 +23,7 @@ And then it came to me. Unicorns. Or the Big Bang Theory, but I would just talk 
 
 Since I’m a book blogger, I wanted to tie my post back to books. And hey, Matt likes photography too – there just so happens to be a book of unicorn photography out there &#8211; PERFECT!
 
-Except then I started doing my research and found that <a href="http://www.amazon.com/Unicorns-Have-Known-Robert-Vavra/dp/0688022030/ref=cm_cr_pr_product_top" target="_blank">Unicorns I Have Known</a> is really only available on Robert Vavra’s website ….for $50 or in used copy form where people are trying to sell it for even more. I like unicorns but not enough to warrant buying a copy since my library doesn’t carry a copy.
+Except then I started doing my research and found that <a href="https://www.amazon.com/Unicorns-Have-Known-Robert-Vavra/dp/0688022030/ref=cm_cr_pr_product_top" target="_blank">Unicorns I Have Known</a> is really only available on Robert Vavra’s website ….for $50 or in used copy form where people are trying to sell it for even more. I like unicorns but not enough to warrant buying a copy since my library doesn’t carry a copy.
 
 It turns out that Vavra has a lot of unicorn photos on his website, so I got my fix looking through them. He does a great job of making the horses that model look like unicorns. I wonder if horse models have an image complex like human models. But instead of living on a diet of cigarettes and Diet Coke and getting breast implants, the horses only eat two sugar cubes a day and organic hay. At some point they must start to allow the wooden horns attached to their bridle to become an extension of their self worth.
 

@@ -12,7 +12,7 @@ categories:
 ---
 <div>
   <p class="ljsyndicationlink">
-    <a href="http://www.overheardinnewyork.com/archives/002370.html">http://www.overheardinnewyork.com/archives/002370.html</a>
+    <a href="https://www.overheardinnewyork.com/archives/002370.html">https://www.overheardinnewyork.com/archives/002370.html</a>
   </p>
   
   <p>

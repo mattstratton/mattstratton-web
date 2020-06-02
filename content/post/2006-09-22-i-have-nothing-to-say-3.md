@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/242035106/" title="photo sharing"><img src="http://static.flickr.com/83/242035106_941bccaa60_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/242035106/">Matt and Kate</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/242035106/" title="photo sharing"><img src="https://static.flickr.com/83/242035106_941bccaa60_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/242035106/">Matt and Kate</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 First of all, this picture has nothing to do with my post, but I think Kate looks hilarious. 
@@ -24,4 +24,4 @@ On the biking front, I&#8217;ve been a slacker this week. I rode on Monday, but 
 
 But I&#8217;m here at work now. I&#8217;m just not sure how I&#8217;m going to make sure my riding clothes get dry enough for my ride home. My workplace is kind of stuffy, and I don&#8217;t think they&#8217;d take too kindly to me draping my dripping wet dryfit over my cube wall.
 
- [1]: http://beckyhillphotography.com/
+ [1]: https://beckyhillphotography.com/

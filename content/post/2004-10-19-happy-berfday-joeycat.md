@@ -15,7 +15,7 @@ tags:
   - Joeycat
 
 ---
-Happy berfday to my favorite Jersey girl, <a href="http://jodiemim.livejournal.com/" target="_blank">Joeycat</a>!
+Happy berfday to my favorite Jersey girl, <a href="https://jodiemim.livejournal.com/" target="_blank">Joeycat</a>!
 
 Got no time for the corner boys
   

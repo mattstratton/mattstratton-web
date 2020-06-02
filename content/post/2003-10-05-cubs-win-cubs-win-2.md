@@ -22,4 +22,4 @@ By the end of the 1st inning, I knew they had this game wrapped up.
 
 Problem is in the future. You can&#8217;t win a best of seven series with a two-man rotation. Zambrano and Clement are gonna have to step it up.
 
- [1]: http://chicago.cubs.mlb.com/images/2003/10/05/foj8CctC.jpg
+ [1]: https://chicago.cubs.mlb.com/images/2003/10/05/foj8CctC.jpg

@@ -14,4 +14,4 @@ If you&#8217;ve got a bunch of invite codes, you can trade them in for a coupon 
 
 [Cash in baby!][1]
 
- [1]: http://www.livejournal.com/community/lj_biz/205605.html
+ [1]: https://www.livejournal.com/community/lj_biz/205605.html

@@ -35,4 +35,4 @@ I probably won&#8217;t follow all of the [prompts][1], but they&#8217;ll be a ha
 
 Here we go!
 
- [1]: http://www.purekatherine.com/2011/09/welcome-to-beds/
+ [1]: https://www.purekatherine.com/2011/09/welcome-to-beds/

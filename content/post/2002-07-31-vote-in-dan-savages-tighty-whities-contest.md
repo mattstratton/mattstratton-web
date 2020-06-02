@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<http://www.tightywhitiesarehot.com>
+<https://www.tightywhitiesarehot.com>
 
 And no, this does NOT make me gay.
 

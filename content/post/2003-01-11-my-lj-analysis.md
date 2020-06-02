@@ -12,7 +12,7 @@ tags:
   - Meme
 
 ---
-<span class="ljuser" style="white-space: nowrap;"><a href="http://dandycat.livejournal.com/"><strong>dandycat</strong></a></span> had this in her LJ&#8230;so I figured I&#8217;d post my Livejournal Analasys.
+<span class="ljuser" style="white-space: nowrap;"><a href="https://dandycat.livejournal.com/"><strong>dandycat</strong></a></span> had this in her LJ&#8230;so I figured I&#8217;d post my Livejournal Analasys.
 
 # Your Livejournal Analasys
 

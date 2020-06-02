@@ -17,7 +17,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/2729176295/"><img style="border:solid 2px #000000;" src="http://farm4.static.flickr.com/3218/2729176295_7be30ccc16_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/2729176295/">No Parking</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/2729176295/"><img style="border:solid 2px #000000;" src="https://farm4.static.flickr.com/3218/2729176295_7be30ccc16_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/2729176295/">No Parking</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 In case you didn&#8217;t notice, there was a big honkin&#8217; storm last night. Carrie, Scout, and I actually ended up down in the basement for about 20 minutes when we heard the tornado sirens go off (especially when I read in the NWS alert that &#8220;the tornado&#8221; would be at Montrose Harbor at 8:20 PM). All in all, no big deal &#8211; we never lost power, got just a little dampness in the basement, and only one patio chair got blown over.

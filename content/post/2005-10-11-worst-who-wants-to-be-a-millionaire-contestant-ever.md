@@ -12,7 +12,7 @@ categories:
 ---
 <div>
   <p>
-    <img alt="Worst_millionaire" title="Worst_millionaire" src="http://bestweekever.blogs.com/photos/uncategorized/worst_millionaire.jpg" border="0" />
+    <img alt="Worst_millionaire" title="Worst_millionaire" src="https://bestweekever.blogs.com/photos/uncategorized/worst_millionaire.jpg" border="0" />
   </p>
   
   <p>

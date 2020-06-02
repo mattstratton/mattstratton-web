@@ -16,4 +16,4 @@ I will be attending the Cubs/Yankees games on the 17-18-19. (Friday with , Satur
 
 , don&#8217;t forget we have photog plans. , I&#8217;d better see you out at BKS while I&#8217;m there.
 
- [1]: http://www.nyc-architecture.com/LM/LM021-4NEWYORKPLAZA.htm
+ [1]: https://www.nyc-architecture.com/LM/LM021-4NEWYORKPLAZA.htm

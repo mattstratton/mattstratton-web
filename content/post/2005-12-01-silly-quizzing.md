@@ -42,4 +42,4 @@ Post your results.
 29) Is friends with ? I&#8217;m sure they&#8217;ve met.  
 30) Would and make a good couple? The hottest.
 
- [1]: http://junk.alanv.org/ljquiz.php
+ [1]: https://junk.alanv.org/ljquiz.php

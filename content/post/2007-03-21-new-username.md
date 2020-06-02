@@ -13,7 +13,7 @@ categories:
 For various reasons, I decided to change my username here on teh El Jay. No longer am I mugsy1274. Now I am 
 
 <div class="ljuser">
-  <a href="http://mattstratton.livejournal.com/profile"><img width="17" alt="[info]" src="http://stat.livejournal.com/img/userinfo.gif" style="border:0 none;vertical-align:bottom;" /></a><a href="http://mattstratton.livejournal.com/"><b>mattstratton</b></a>
+  <a href="https://mattstratton.livejournal.com/profile"><img width="17" alt="[info]" src="https://stat.livejournal.com/img/userinfo.gif" style="border:0 none;vertical-align:bottom;" /></a><a href="https://mattstratton.livejournal.com/"><b>mattstratton</b></a>
 </div>
 
 .

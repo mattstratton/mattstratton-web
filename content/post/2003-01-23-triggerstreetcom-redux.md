@@ -10,5 +10,5 @@ categories:
 ---
 You can check us out at [_Inventing: Music_ page][1] on [Triggerstreet.com][2]
 
- [1]: http://www.triggerstreet.com/gbase/Trigger/UploadViewMain?oid=oid%3A254140
- [2]: http://www.triggerstreet.com
+ [1]: https://www.triggerstreet.com/gbase/Trigger/UploadViewMain?oid=oid%3A254140
+ [2]: https://www.triggerstreet.com

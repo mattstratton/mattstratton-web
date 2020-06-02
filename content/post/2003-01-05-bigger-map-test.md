@@ -21,5 +21,5 @@ Don&#8217;t forget&#8230;clicking must be done from [my main LJ page][2], and NO
 
 m.
 
- [1]: http://www.leoville.com
- [2]: http://mugsy1274.livejournal.com
+ [1]: https://www.leoville.com
+ [2]: https://mugsy1274.livejournal.com

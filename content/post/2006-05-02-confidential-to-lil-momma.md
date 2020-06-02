@@ -18,4 +18,4 @@ Who doesn&#8217;t love Chee-to porn?
 
 Reminded me of this picture:
 
- [1]: http://www.syslog.com/%7Ejwilson/pics-i-like/cheeto.jpg
+ [1]: https://www.syslog.com/%7Ejwilson/pics-i-like/cheeto.jpg

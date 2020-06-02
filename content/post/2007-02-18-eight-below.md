@@ -14,4 +14,4 @@ Carrie and I just finished watching [_Eight Below_][1] (a Disney movie about sle
 
 If you like dogs, watch this movie. If you don&#8217;t, then don&#8217;t bother.
 
- [1]: http://www.imdb.com/title/tt0397313/
+ [1]: https://www.imdb.com/title/tt0397313/

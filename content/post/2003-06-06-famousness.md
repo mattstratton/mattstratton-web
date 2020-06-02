@@ -16,4 +16,4 @@ She&#8217;s not happy about it.
 
 m.
 
- [1]: http://www.baseballmusings.com
+ [1]: https://www.baseballmusings.com

@@ -10,4 +10,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://picayune.uclick.com/comics/bo/2004/bo040616.gif
+ [1]: https://picayune.uclick.com/comics/bo/2004/bo040616.gif

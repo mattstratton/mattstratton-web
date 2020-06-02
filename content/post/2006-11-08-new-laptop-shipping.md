@@ -14,4 +14,4 @@ So my [new laptop for work][1] was finally approved. It looks like it will ship 
 
 Of course, that is the week of Thanksgiving, and I am out of the office the whole week. So I guess it will be waiting for me when I return on the 27th. Neat!
 
- [1]: http://mugsy1274.livejournal.com/545155.html
+ [1]: https://mugsy1274.livejournal.com/545155.html

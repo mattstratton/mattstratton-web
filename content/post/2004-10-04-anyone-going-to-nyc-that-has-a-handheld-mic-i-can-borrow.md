@@ -14,4 +14,4 @@ I am in need of a handheld microphone for a [project][1] I&#8217;m doing in NYC 
 
 If any of you cats who are going to Y6A have one I can borrow, that you can bring, I&#8217;ll be your best friend.
 
- [1]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=68122
+ [1]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=68122

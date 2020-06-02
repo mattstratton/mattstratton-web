@@ -14,5 +14,5 @@ categories:
 
 You must read the hilarious account of **Scott Stapp** in Denny&#8217;s. You just gotta![[link][2]]
 
- [1]: http://bestweekever.blogs.com/photos/uncategorized/index_r1_c1.gif
- [2]: http://www.livejournal.com/users/tomluv/13923.html
+ [1]: https://bestweekever.blogs.com/photos/uncategorized/index_r1_c1.gif
+ [2]: https://www.livejournal.com/users/tomluv/13923.html

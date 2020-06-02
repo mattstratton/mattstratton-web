@@ -16,6 +16,6 @@ So here you go. The [**video**][2] for &#8220;We Will Become Silhouettes&#8221; 
 
 Dig it, kids.
 
- [1]: http://www.kevinkmp.com
- [2]: http://www.boardsmag.com/screeningroom/musicvideos/1458/
- [3]: http://www.subpop.com/bands/postalservice/ "http://www.subpop.com/bands/postalservice/"
+ [1]: https://www.kevinkmp.com
+ [2]: https://www.boardsmag.com/screeningroom/musicvideos/1458/
+ [3]: https://www.subpop.com/bands/postalservice/ "https://www.subpop.com/bands/postalservice/"

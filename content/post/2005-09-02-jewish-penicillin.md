@@ -12,7 +12,7 @@ categories:
 ---
 To my Lakeview neighbors&#8230;next time you are sick:
 
-<http://www.bagelrestaurant.com>
+<https://www.bagelrestaurant.com>
 
 They deliver. And nothing makes you feel better when you&#8217;re sick that chicken matzo ball soup.
 

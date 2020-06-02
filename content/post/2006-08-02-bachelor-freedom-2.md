@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/7397526/" title="photo sharing"><img src="http://static.flickr.com/5/7397526_5dd204b320_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/7397526/">Nando</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/7397526/" title="photo sharing"><img src="https://static.flickr.com/5/7397526_5dd204b320_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/7397526/">Nando</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 As I mentioned before, Carrie and Scout are out of town this week. Last night was the first night since March that we haven&#8217;t spent the night together (yes, up North we slept in separate rooms, but we were still together, you know?)

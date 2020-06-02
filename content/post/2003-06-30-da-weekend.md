@@ -28,9 +28,9 @@ Lazy Sunday. I sat around and got caught up on my Tivo all day. Finally saw _The
 
 m.
 
- [1]: http://dailykitty.blogspot.com/
- [2]: http://www.jeffersontap.com/
- [3]: http://www.tjmweb.com
- [4]: http://www.ctodd.org
- [5]: http://www.fuzzyco.com/productions/neutrino/index.html
- [6]: http://www.bbcamerica.com
+ [1]: https://dailykitty.blogspot.com/
+ [2]: https://www.jeffersontap.com/
+ [3]: https://www.tjmweb.com
+ [4]: https://www.ctodd.org
+ [5]: https://www.fuzzyco.com/productions/neutrino/index.html
+ [6]: https://www.bbcamerica.com

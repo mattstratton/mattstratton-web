@@ -16,7 +16,7 @@ categories:
 ---
 It&#8217;s a proven fact* that using multiple displays is more efficient than simply having one big monitor. Of course, some people, like myself, use both &#8211; two displays AND a giant monitor. **Attaching an external monitor to your laptop can give you a real boost in productivity**, or at the minimum, make your computing experience that much more awesome. Today, I will be sharing with you a great tool to increase the value of multiple-display computing called DisplayFusion.
 
-At work, I have a laptop with a 14.1 inch widescreen display, which runs at a resolution of 1280 x 800. When my laptop is in its docking station, it is also connected to a 24&#8243; <a href="http://www.amazon.com/gp/product/B0018LJYFC?ie=UTF8&tag=straigeyefort-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0018LJYFC" target="_blank">Dell 2408WFP</a> display with a resolution of 1920 x 1200.  This affords me some interesting options &#8211; my laptop&#8217;s resolution is not terribly high (wow, I can&#8217;t believe I live in a world where I call that &#8220;not high resolution&#8221;), especially for using tools like System Center Operations Manager or TweetDeck. The extra real estate of the larger monitor is great for that. But rather than just use the 24&#8243; monitor, by using BOTH displays, **I can put some windows on the larger screen and keep other windows, that don&#8217;t require the high resolution, on my laptop**. This gives me even great room to work. It&#8217;s a good thing.
+At work, I have a laptop with a 14.1 inch widescreen display, which runs at a resolution of 1280 x 800. When my laptop is in its docking station, it is also connected to a 24&#8243; <a href="https://www.amazon.com/gp/product/B0018LJYFC?ie=UTF8&tag=straigeyefort-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0018LJYFC" target="_blank">Dell 2408WFP</a> display with a resolution of 1920 x 1200.  This affords me some interesting options &#8211; my laptop&#8217;s resolution is not terribly high (wow, I can&#8217;t believe I live in a world where I call that &#8220;not high resolution&#8221;), especially for using tools like System Center Operations Manager or TweetDeck. The extra real estate of the larger monitor is great for that. But rather than just use the 24&#8243; monitor, by using BOTH displays, **I can put some windows on the larger screen and keep other windows, that don&#8217;t require the high resolution, on my laptop**. This gives me even great room to work. It&#8217;s a good thing.
 
 There are a few challenges with multi-display though. One thing that is a large challenge is getting the displays to &#8220;line up&#8221;, so that when you move your mouse from one screen to another it does not &#8220;jump&#8221;. If you have two monitors of the same size, this is easy, as they will align. But in my case, my 24&#8243; monitor is higher than my laptop, so I had to do some futzing inside the Display Settings control panel to align them properly. I still haven&#8217;t gotten them EXACTLY right, but it works well enough.
 
@@ -32,7 +32,7 @@ There are a few challenges with multi-display though. One thing that is a large 
    
 </p>
 
-Just adding the extra monitor gives you a boost, but there&#8217;s a lot more you can do. I am a big fan of a tool called <a href="http://www.binaryfortress.com/displayfusion/" target="_blank">DisplayFusion</a> (Windows only) that adds some really neat extra features to help you maximize your multi-monitor computing. For example&#8230;
+Just adding the extra monitor gives you a boost, but there&#8217;s a lot more you can do. I am a big fan of a tool called <a href="https://www.binaryfortress.com/displayfusion/" target="_blank">DisplayFusion</a> (Windows only) that adds some really neat extra features to help you maximize your multi-monitor computing. For example&#8230;
 
 **HotKeys** &#8211; With DisplayFusion, I can move windows from one display to another through the use of keyboard shortcuts. Here are the default HotKeys that it supports (if you pay $20 for the Pro license, you can customize these):
 
@@ -64,4 +64,4 @@ What experiences have YOU had with multiple displays? Are they helpful to you? W
 
  
 
-_*&#8211; Well, at least the New York Times_ <a href="http://www.nytimes.com/2006/04/20/technology/20basics.html?ei=5090&en=6fc17b9bf54ea2ef&ex=1303185600&adxnnl=1&partner=rssuserland&emc=rss&adxnnlx=1145537733-/Kdyvqpu0/eVBVNBYUcsqg" target="_blank"><em>thinks so</em></a>_._
+_*&#8211; Well, at least the New York Times_ <a href="https://www.nytimes.com/2006/04/20/technology/20basics.html?ei=5090&en=6fc17b9bf54ea2ef&ex=1303185600&adxnnl=1&partner=rssuserland&emc=rss&adxnnlx=1145537733-/Kdyvqpu0/eVBVNBYUcsqg" target="_blank"><em>thinks so</em></a>_._

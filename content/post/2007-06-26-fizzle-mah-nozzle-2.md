@@ -13,7 +13,7 @@ categories:
 So last night, Carrie and I went out to Fizz for a meeting of the Old Sad Bastards Club, to celebrate Mertz&#8217;s birthday. It was super duper PACKED at Fizz &#8211; in addition to the usual suspects of the OSBC, Mike and Dana were there and even Matt and Andy. And 
 
 <div class="ljuser">
-  <a href="http://tavist.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://tavist.livejournal.com/"><b>tavist</b></a>
+  <a href="https://tavist.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://tavist.livejournal.com/"><b>tavist</b></a>
 </div>
 
 &nbsp; even showed up &#8211; apparently Sammer Jammers was left at home with Brian (I&#8217;d put in his LJ icon, except I never remember his goofball LJ name, which is like &#8220;brian1387927OMGPONIES!!&#8221;). So that was pretty cool.
@@ -21,7 +21,7 @@ So last night, Carrie and I went out to Fizz for a meeting of the Old Sad Bastar
 Carrie and I danced to &#8220;Love&#8221;, and when it was over, we walked back to the table to join 
 
 <div class="ljuser">
-  <a href="http://belcanto88.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://belcanto88.livejournal.com/"><b>belcanto88</b></a>
+  <a href="https://belcanto88.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://belcanto88.livejournal.com/"><b>belcanto88</b></a>
 </div>
 
 . The next song started up, and Carrie said &#8220;Oh wow, this is our song too!&#8221; 

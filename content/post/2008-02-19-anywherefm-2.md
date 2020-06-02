@@ -12,4 +12,4 @@ categories:
 ---
 I&#8217;ve been experimenting with using Anywhere.fm for listening to my music at work. Theoretically, I can share this link with you folks, but I think you need a (free) Anywhere.fm account to check it out.
 
-Anyway, if you want to play&#8230;http://www.anywhere.fm/mattstratton
+Anyway, if you want to play&#8230;https://www.anywhere.fm/mattstratton

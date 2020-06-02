@@ -16,4 +16,4 @@ But the funniest thing&#8230;there&#8217;s a character on it named &#8220;Johnny
 
 I think it&#8217;s the fez that does it.
 
- [1]: http://www.tikibartv.com/
+ [1]: https://www.tikibartv.com/

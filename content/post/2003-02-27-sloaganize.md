@@ -18,4 +18,4 @@ It&#8217;s old news&#8230;but fun anyway.
 
 m.
 
- [1]: http://www.thesurrealist.co.uk/slogan.cgi?word=Mugsy
+ [1]: https://www.thesurrealist.co.uk/slogan.cgi?word=Mugsy

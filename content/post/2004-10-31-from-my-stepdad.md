@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-(FYI, I did check this on <a href="http://www.snopes.com/sports/football/election.asp" target="_blank">Snopes.com</a>, and it&#8217;s legit&#8230;I mean&#8230;statistically)
+(FYI, I did check this on <a href="https://www.snopes.com/sports/football/election.asp" target="_blank">Snopes.com</a>, and it&#8217;s legit&#8230;I mean&#8230;statistically)
 
 The outcome of Washington Redskins football games has correctly predicted the winner of every U.S. presidential election since 1936.
 

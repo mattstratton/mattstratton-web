@@ -15,13 +15,13 @@ tags:
   - wordpress
 
 ---
-Speed matters, right? It’s a proven fact that the speed of page load has a direct impact on Google rankings and visitor conversion. Well, it’s about as proven as anything is on the Internet, which basically means that a lot of us think it sounds logical, so it must be true. Regardless, having a faster website can only be a good thing and help you feel way more awesome about yourself. In this blog post, I’ll summarize some of the tweaks I made to my friend Jenn’s blog – <a href="http://jennsaidwhat.com/" target="_blank">Jenn Said What?!</a> – to make her a blogger speed demon.
+Speed matters, right? It’s a proven fact that the speed of page load has a direct impact on Google rankings and visitor conversion. Well, it’s about as proven as anything is on the Internet, which basically means that a lot of us think it sounds logical, so it must be true. Regardless, having a faster website can only be a good thing and help you feel way more awesome about yourself. In this blog post, I’ll summarize some of the tweaks I made to my friend Jenn’s blog – <a href="https://jennsaidwhat.com/" target="_blank">Jenn Said What?!</a> – to make her a blogger speed demon.
 
 ## How do we measure up?
 
-There are two tools I used to measure the performance of Jenn’s website. One is <a href="http://code.google.com/speed/page-speed/" target="_blank">PageSpeed</a>, which is a Google Chrome extension that provides a “score” to evaluate how well a page stacks up to a list of good practices for speedy pages. A high PageSpeed score doesn’t necessarily mean that your page loads quickly, but it does mean that you’re doing everything you can to make it fast.
+There are two tools I used to measure the performance of Jenn’s website. One is <a href="https://code.google.com/speed/page-speed/" target="_blank">PageSpeed</a>, which is a Google Chrome extension that provides a “score” to evaluate how well a page stacks up to a list of good practices for speedy pages. A high PageSpeed score doesn’t necessarily mean that your page loads quickly, but it does mean that you’re doing everything you can to make it fast.
 
-The other tool is <a href="http://www.webpagetest.org" target="_blank">WebPageTest.org</a>. This is a super-cool (and free!) online tool that will load any website from various locations around the world, using different browsers, and report back on how long the page took to load – as well as some tips and suggestions on how to make things faster.
+The other tool is <a href="https://www.webpagetest.org" target="_blank">WebPageTest.org</a>. This is a super-cool (and free!) online tool that will load any website from various locations around the world, using different browsers, and report back on how long the page took to load – as well as some tips and suggestions on how to make things faster.
 
 Prior to making any changes, this is how Jenn Said What?! scored:
 
@@ -43,7 +43,7 @@ Overall, the speed of Jenn Said What?! wasn’t _terrible_…WPT (using IE8) rep
 
 First item of business was to resize the social icons. This was done easily in Photoshop, and was a quick win.
 
-For the rest of the tweaking, I turned to my performance tool of choice for WordPress, the <a href="http://wordpress.org/extend/plugins/w3-total-cache/" target="_blank">W3 Total Cache plugin</a>. This plugin is definitely not for the faint of heart, but used properly, you can make some major changes to your site’s performance. For Jenn’s site I enabled all of the features, with the exception of minification/combination of JavaScript and CSS – these take a lot of trial and error, and I wasn’t ready to do that tonight!
+For the rest of the tweaking, I turned to my performance tool of choice for WordPress, the <a href="https://wordpress.org/extend/plugins/w3-total-cache/" target="_blank">W3 Total Cache plugin</a>. This plugin is definitely not for the faint of heart, but used properly, you can make some major changes to your site’s performance. For Jenn’s site I enabled all of the features, with the exception of minification/combination of JavaScript and CSS – these take a lot of trial and error, and I wasn’t ready to do that tonight!
 
 ## The Results
 
@@ -55,7 +55,7 @@ WebPageTest.org reported a speed increase as well – going from 8.271 seconds d
 
 ## How Exactly Does It Work?
 
-I will be having a follow-up post, either here, or if I ever get around to doing my guest posts at <a href="http://doniree.com" target="_blank">Doniree.com</a>, that goes in-depth on all of the configurations for W3TC and all of the measuring tools used here. Stay tuned!
+I will be having a follow-up post, either here, or if I ever get around to doing my guest posts at <a href="https://doniree.com" target="_blank">Doniree.com</a>, that goes in-depth on all of the configurations for W3TC and all of the measuring tools used here. Stay tuned!
 
  [1]: /wp-content/uploads/before-test.png
  [2]: /wp-content/uploads/after-test.png

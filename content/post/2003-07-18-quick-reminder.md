@@ -18,4 +18,4 @@ Thanks!
 
 m.
 
- [1]: http://www.livejournal.com/users/mugsy_feed
+ [1]: https://www.livejournal.com/users/mugsy_feed

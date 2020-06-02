@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/11961472/" title="photo sharing"><img src="http://static.flickr.com/8/11961472_a7f5d0628c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/11961472/">High school speech team banquet</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/11961472/" title="photo sharing"><img src="https://static.flickr.com/8/11961472_a7f5d0628c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/11961472/">High school speech team banquet</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 At least the heat&#8217;s finally broken. Funny thing &#8211; last night Cherie was over working on her Second City video, and when she left for the L, it was pouring rain. So I offered her the use of my umbrella, saying she could just bring it back on Sunday when she comes over to finish up.

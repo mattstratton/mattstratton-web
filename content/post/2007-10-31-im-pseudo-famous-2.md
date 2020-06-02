@@ -16,5 +16,5 @@ One of my photos from the Puptown Howl-O-Ween party this weekend was picked up b
 
 [Another Call for Costume Photos][2]
 
- [1]: http://www.kevinkmp.com
- [2]: http://chicagoist.com/2007/10/31/costume_photos.php
+ [1]: https://www.kevinkmp.com
+ [2]: https://chicagoist.com/2007/10/31/costume_photos.php

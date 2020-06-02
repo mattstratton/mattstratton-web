@@ -25,7 +25,7 @@ Of course, many months ago, before I knew this move was happening, I scheduled a
 
 So don&#8217;t be surprised if I&#8217;m a little stressed for the next few weeks. I&#8217;m going to be elbow-deep in server elevations, migration schedules, and &#8220;what if?&#8221; scenarios. Plus all of the usual holiday parties and activities. Fortunately, we&#8217;re done with our holiday shopping. I even ordered Carrie&#8217;s &#8220;push present&#8221; this morning (although once it arrives, there&#8217;s another activity where I have to prepare it for her. More details on that when I can tell you all what I got her. Which will be after SHE finds out, of course.)
 
-This weekend was also the second one in a row where I fully intended to finish the setup of the boys&#8217; blog/website ([http://strattonboys.com][1]{.linkification-ext}). Yeah, that didn&#8217;t happen.
+This weekend was also the second one in a row where I fully intended to finish the setup of the boys&#8217; blog/website ([https://strattonboys.com][1]{.linkification-ext}). Yeah, that didn&#8217;t happen.
 
 Fun sidenote &#8211; this is my first blog post composed entirely on my iPhone. It was not as easy to type as you might think.
 
@@ -33,5 +33,5 @@ Fun sidenote &#8211; this is my first blog post composed entirely on my iPhone. 
 
 [<img class="alignnone size-full wp-image-364" src="/wp-content/uploads/2009/11/p_2048_1536_6AFC7B78-3E3E-42D5-B22A-8A9BCEC6CCC4.jpeg" alt="" width="225" height="300" />][2]
 
- [1]: http://strattonboys.com "Linkification: http://strattonboys.com"
+ [1]: https://strattonboys.com "Linkification: https://strattonboys.com"
  [2]: /wp-content/uploads/2009/11/p_2048_1536_6AFC7B78-3E3E-42D5-B22A-8A9BCEC6CCC4.jpeg

@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-So I&#8217;ve been running <a href="http://www.mozilla.org/products/firefox/" target="_new">Mozilla Firefox</a> on my PC lately. I don&#8217;t run it on my Mac because, well, <a href="http://www.apple.com/safari" target="_new">Safari</a> kicks ass.
+So I&#8217;ve been running <a href="https://www.mozilla.org/products/firefox/" target="_new">Mozilla Firefox</a> on my PC lately. I don&#8217;t run it on my Mac because, well, <a href="https://www.apple.com/safari" target="_new">Safari</a> kicks ass.
 
 I&#8217;d loving Firefox. Super speedy and most every website I&#8217;ve been to works just as well as in IE. The only thing that hasn&#8217;t worked for me is this heavily Java-based asset management website we use at work. But it&#8217;s a pretty crappy webapp that half the time doesn&#8217;t work in IE either :)
 

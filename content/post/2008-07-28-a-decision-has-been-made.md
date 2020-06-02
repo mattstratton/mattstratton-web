@@ -18,4 +18,4 @@ House-hunting is (almost) officially over. Last week we made an offer on [the Bl
 
 We&#8217;re shooting for a late September closing date. Time to start packing!
 
- [1]: http://mattstratton.livejournal.com/631283.html
+ [1]: https://mattstratton.livejournal.com/631283.html

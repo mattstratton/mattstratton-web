@@ -15,5 +15,5 @@ tags:
 ---
 [![][1]][2]
 
- [1]: http://chicagoist.com/attachments/Margaret%20Lyons/2008_2_25.ee.jpg
- [2]: http://www.flickr.com/photos/calexico/2285202902/in/pool-chicagoist
+ [1]: https://chicagoist.com/attachments/Margaret%20Lyons/2008_2_25.ee.jpg
+ [2]: https://www.flickr.com/photos/calexico/2285202902/in/pool-chicagoist

@@ -16,7 +16,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/2954135151/"><img style="border:solid 2px #000000;" src="http://farm4.static.flickr.com/3146/2954135151_1f1b425221_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/2954135151/">Carrie and Matt with Joel McHale</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/2954135151/"><img style="border:solid 2px #000000;" src="https://farm4.static.flickr.com/3146/2954135151_1f1b425221_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/2954135151/">Carrie and Matt with Joel McHale</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Last night Carrie and I drove over an hour to Waukegan to see Joel McHale (of [_The Soup_][1] fame) perform stand-up.
@@ -41,5 +41,5 @@ Unfortunately, we didn&#8217;t have any cash on us, so we didn&#8217;t get to bu
 
 Seacrest out!
 
- [1]: http://www.google.com/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Fwww.eonline.com%2Fon%2Fshows%2Fthesoup%2F&ei=nE_7SJXLOJi2MeP4lCY&usg=AFQjCNE3U2WruHPiDyD9y3yGqccZB9tMig&sig2=cGi3_2e8rwTE3n4VcIiYlg
- [2]: http://www.yelp.com/biz/the-bavarian-lodge-lisle
+ [1]: https://www.google.com/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Fwww.eonline.com%2Fon%2Fshows%2Fthesoup%2F&ei=nE_7SJXLOJi2MeP4lCY&usg=AFQjCNE3U2WruHPiDyD9y3yGqccZB9tMig&sig2=cGi3_2e8rwTE3n4VcIiYlg
+ [2]: https://www.yelp.com/biz/the-bavarian-lodge-lisle

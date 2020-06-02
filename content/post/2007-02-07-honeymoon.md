@@ -14,13 +14,13 @@ Well, looks like it&#8217;s official now. I just bought our plane tickets for Co
 
 Here&#8217;s our itinerary:
 
-<span style="font-weight:bold;">May 28th SAN JOSE &#8211; ARRIVAL- <a href="http://centralamerica.com/cr/hotel/peace.htm">PEACE LODGE</a></span>
+<span style="font-weight:bold;">May 28th SAN JOSE &#8211; ARRIVAL- <a href="https://centralamerica.com/cr/hotel/peace.htm">PEACE LODGE</a></span>
   
 Arrival. Private transfer to [Peace Lodge][1]. Aprox. driving time 1 hr
 
 Check into a deluxe room, breakfast is included
 
-<span style="font-weight:bold;">May 29th PEACE LODGE &#8211; <a href="http://en.wikipedia.org/wiki/Arenal">ARENAL VOLCANO</a></span>
+<span style="font-weight:bold;">May 29th PEACE LODGE &#8211; <a href="https://en.wikipedia.org/wiki/Arenal">ARENAL VOLCANO</a></span>
   
 After breakfast, private transfer to Arenal. Aprox. driving time 2 hrs.
 
@@ -40,7 +40,7 @@ At 11 am, transfer to &#8220;El Tanque&#8221; airstrip, to take a local flight t
 
 Check into a superior room, breakfast is included
 
-<span style="font-weight:bold;">June 1st <a href="http://www.manuelantoniopark.com/mapk/default.asp">MANUEL ANTONIO NATIONAL PARK</a></span>
+<span style="font-weight:bold;">June 1st <a href="https://www.manuelantoniopark.com/mapk/default.asp">MANUEL ANTONIO NATIONAL PARK</a></span>
   
 Half day guided tour includes transprotation
 
@@ -56,6 +56,6 @@ Free day
   
 After breakfast, transfer to Quepos airstrip to take a local flight to San Jose, upon arrival transfer to the international airport
 
- [1]: http://centralamerica.com/cr/hotel/peace.htm
- [2]: http://www.tabacon.com/
- [3]: http://www.sicomono.com/
+ [1]: https://centralamerica.com/cr/hotel/peace.htm
+ [2]: https://www.tabacon.com/
+ [3]: https://www.sicomono.com/

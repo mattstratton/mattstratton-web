@@ -10,4 +10,4 @@ categories:
 ---
 Since sold me out in the [Big Gulp poll][1] I had to get mah revenge on, yo&#8230;
 
- [1]: http://www.livejournal.com/poll/?id=29849
+ [1]: https://www.livejournal.com/poll/?id=29849

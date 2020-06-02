@@ -14,7 +14,7 @@ tags:
   - Scout
 
 ---
-[<img class="alignright" src="http://farm4.static.flickr.com/3369/3211443258_ecc494734f.jpg" alt="Scout" width="200" height="300" />][1] In honor of his <a href="http://bit.ly/7lLK5" target="_blank">entry into the Cutest Dog Competition</a>, this week Good Old Rock will be dedicated to my dog, Scout. He&#8217;s a four year old Shetland Sheepdog. He&#8217;s also very neurotic. Here&#8217;s a small list of the things that are unique/annoying about Scout:
+[<img class="alignright" src="https://farm4.static.flickr.com/3369/3211443258_ecc494734f.jpg" alt="Scout" width="200" height="300" />][1] In honor of his <a href="https://bit.ly/7lLK5" target="_blank">entry into the Cutest Dog Competition</a>, this week Good Old Rock will be dedicated to my dog, Scout. He&#8217;s a four year old Shetland Sheepdog. He&#8217;s also very neurotic. Here&#8217;s a small list of the things that are unique/annoying about Scout:
 
 **Fear of Windows** &#8211; No, this doesn&#8217;t mean that Scout is all about Linux. For some reason, he has decided that the opening and closing of windows in our house is our attempt to torture him. This is a REALLY strange thing. From what I can determine, this can be traced back to when he was a puppy, and Carrie had aluminum horizontal blinds in her apartment. When the blinds were raised and lowered, they made a sound that Scout really hated, so he would cry and whine anytime we touched the blinds. This evolved into a canine nervous breakdown any time we opened or shut windows. Eventually, poor Scout got so upset by the window concept that if we even GO NEAR THE THERMOSTAT he starts to cry &#8211; because he&#8217;s figured out that if we adjust the thermostat, the next thing we&#8217;ll do is open or shut windows. If we touch the windows, or raise or lower blinds, this now causes Scout to bark like a damn fool and run all over the house having a barking tantrum. Even if he is in the backyard and we open a window on the second floor of the house&#8230;he hears it, and freaks out.
 
@@ -24,6 +24,6 @@ tags:
 
 **What a Ding Dong** &#8211; This is a more &#8220;normal&#8221; dog behavior, I think, but the doorbell causes Scout to run furiously to the door and bark his head off. He isn&#8217;t upset that people are coming over &#8211; he LIKES people. He just wants to make sure we heard the doorbell, I think, and maybe he figures we didn&#8217;t know there was someone there.
 
-What types of neurotic behavior do YOUR pets exhibit? Oh, and don&#8217;t forget to <a href="http://bit.ly/7lLK5" target="_blank">vote for Scout</a> today!
+What types of neurotic behavior do YOUR pets exhibit? Oh, and don&#8217;t forget to <a href="https://bit.ly/7lLK5" target="_blank">vote for Scout</a> today!
 
- [1]: http://www.flickr.com/photos/mugsy/3211443258/ "Scout by Matt Stratton, on Flickr"
+ [1]: https://www.flickr.com/photos/mugsy/3211443258/ "Scout by Matt Stratton, on Flickr"

@@ -10,8 +10,8 @@ categories:
 ---
 Something for
 
-<a href="http://www.forbes.com/technology/2004/03/16/cx_ah_0316chips.html" target="_new"><b>Your Trekkie Communicator Is Ready</b></a>
+<a href="https://www.forbes.com/technology/2004/03/16/cx_ah_0316chips.html" target="_new"><b>Your Trekkie Communicator Is Ready</b></a>
 
 ![][1]
 
- [1]: http://images.forbes.com/images/2004/03/16/0316chips_200x250.gif
+ [1]: https://images.forbes.com/images/2004/03/16/0316chips_200x250.gif

@@ -13,7 +13,7 @@ tags:
 
 ---
 <p class="ljsyndicationlink">
-  <a href="http://www.overheardinnewyork.com/archives/002404.html">http://www.overheardinnewyork.com/archives/002404.html</a>
+  <a href="https://www.overheardinnewyork.com/archives/002404.html">https://www.overheardinnewyork.com/archives/002404.html</a>
 </p>
 
 Hipster girl: Post-hipster is like post-irony, you&#8217;re being ironic about irony.

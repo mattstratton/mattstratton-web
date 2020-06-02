@@ -27,7 +27,7 @@ Longtime readers of this blog will know that this is not the first time I’ve t
 
 # My history
 
-As I mentioned, [I’ve tried lots of things to get into shape][1]. Last spring I started doing South Beach, and I lost about 11 pounds from that (when combined with <a href="http://www.coolrunning.com/engine/2/2_3/181.shtml" target="_blank">Couch to 5K</a> and 100 Pushups).
+As I mentioned, [I’ve tried lots of things to get into shape][1]. Last spring I started doing South Beach, and I lost about 11 pounds from that (when combined with <a href="https://www.coolrunning.com/engine/2/2_3/181.shtml" target="_blank">Couch to 5K</a> and 100 Pushups).
 
 I also started the P90X workout in September of 2010, and stuck with it until mid-October (so basically, I did “P45X”). I fell off the P90X wagon for a few reasons – one, I went on a week long business trip and wasn’t able to work out then (although I did run during that time) and secondly, I really couldn’t get into the second phase of P90X, so that provided an excuse for stopping.
 
@@ -71,7 +71,7 @@ I’ll admit it. I never committed to Ab Ripper X properly before (I probably on
 
 # P90X Tips
 
-One of the most essential points in doing P90X is keeping track of what you’ve done – previously, I always just wrote it down in a notebook, which worked out okay, but it was not easy to see improvements (and every week I’d have to look at the previous workout to see how many reps and what weight to use). Yesterday I decided to start tracking all of this in Excel, and when I was looking to see if anyone had a P90X template for recording the exercises, I came across <a href="http://trek2befit.com/p90x-worksheets-p90x-binder-p90x-excel-spreadsheet" target="_blank">an excellent post</a> that included a link to a super awesome <a href="http://trek2befit.com/downloads/p90x%20excel.xls" target="_blank">P90X Excel workbook</a>.
+One of the most essential points in doing P90X is keeping track of what you’ve done – previously, I always just wrote it down in a notebook, which worked out okay, but it was not easy to see improvements (and every week I’d have to look at the previous workout to see how many reps and what weight to use). Yesterday I decided to start tracking all of this in Excel, and when I was looking to see if anyone had a P90X template for recording the exercises, I came across <a href="https://trek2befit.com/p90x-worksheets-p90x-binder-p90x-excel-spreadsheet" target="_blank">an excellent post</a> that included a link to a super awesome <a href="https://trek2befit.com/downloads/p90x%20excel.xls" target="_blank">P90X Excel workbook</a>.
 
 This thing is awesome. Not only does it make it easy to track the exercises (easy enough that I was able to record them in real time in Excel this morning, as opposed to writing them down and transferring later), it builds cool charts to see your progress. For example, here’s my chart so far for Chest & Back:
 

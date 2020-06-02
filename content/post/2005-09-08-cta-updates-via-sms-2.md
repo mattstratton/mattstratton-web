@@ -14,4 +14,4 @@ Whoa, <u>[this][1]</u> is cool.
 
 Supposedly you can use this to get sms pages to tell you \*why\* the CTA outages are happening. I signed up. I&#8217;ll let you guys know how well it works for me.
 
- [1]: http://www.ctatattler.com/cta_wireless_alerts/index.html
+ [1]: https://www.ctatattler.com/cta_wireless_alerts/index.html

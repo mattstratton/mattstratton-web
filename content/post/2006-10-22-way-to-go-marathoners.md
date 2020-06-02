@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/276459894/" title="photo sharing"><img src="http://static.flickr.com/109/276459894_b6da3aa4b8_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/276459894/">Kevin and Brian</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/276459894/" title="photo sharing"><img src="https://static.flickr.com/109/276459894_b6da3aa4b8_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/276459894/">Kevin and Brian</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Carrie and I went down by Old St. Pat&#8217;s this morning to cheer for the people running the marathon. We were at the halfway point, so we heard &#8220;Living on a Prayer&#8221; a lot.
@@ -28,4 +28,4 @@ Way to go, guys! That&#8217;s super impressive to finish. And congrats to Kevin 
 
 The rest of my marathon pictures can be seen [here][1].
 
- [1]: http://flickr.com/photos/mugsy/sets/72157594340055652/
+ [1]: https://flickr.com/photos/mugsy/sets/72157594340055652/

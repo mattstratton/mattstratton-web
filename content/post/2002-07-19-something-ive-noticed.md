@@ -14,4 +14,4 @@ I&#8217;ve been reading random LJ&#8217;s again&#8230;and I&#8217;ve noticed tha
 
 Now, the question is&#8230;why does this seem to be predominately a female behaviour? I haven&#8217;t come accross too many LJ&#8217;s of men going on and on about how much they love their girlfriend. Of course, this could be because, [as Adam Carrolla says][1], all men on LJ are gay.
 
- [1]: http://www.livejournal.com/talkread.bml?journal=themonkey&itemid=192688
+ [1]: https://www.livejournal.com/talkread.bml?journal=themonkey&itemid=192688

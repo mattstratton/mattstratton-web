@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-Both and made dolls of themselves at <a href="http://elouai.com/doll-makers/candybar-doll-maker.php" target="_blank">this cool site</a>.
+Both and made dolls of themselves at <a href="https://elouai.com/doll-makers/candybar-doll-maker.php" target="_blank">this cool site</a>.
 
 So I did one of .
 

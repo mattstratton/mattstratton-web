@@ -42,7 +42,7 @@ Here&#8217;s the scoop:
 
 I&#8217;ll be there. You should as well.
 
-<span class="xj_itms"><a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" alt="" /></a>The Psychedelic Furs &#8211; Pretty In Pink [Original Version]</span>
+<span class="xj_itms"><a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" alt="" /></a>The Psychedelic Furs &#8211; Pretty In Pink [Original Version]</span>
 
- [1]: http://flyingbuttresses.net/
- [2]: http://www.beatkitchen.com/
+ [1]: https://flyingbuttresses.net/
+ [2]: https://www.beatkitchen.com/

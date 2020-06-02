@@ -12,7 +12,7 @@ categories:
 ---
 **Update** &#8211; poll is closed. Blog has been created.
 
-http://lessthanmatt.com
+https://lessthanmatt.com
 
 Thanks all!
 

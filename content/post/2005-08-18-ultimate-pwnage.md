@@ -12,4 +12,4 @@ categories:
 ---
 Kid gets busted by his mom for breaking curfew on WoW forums.
 
-<u><http://www.joystiq.com/entry/1234000920054699></u>
+<u><https://www.joystiq.com/entry/1234000920054699></u>

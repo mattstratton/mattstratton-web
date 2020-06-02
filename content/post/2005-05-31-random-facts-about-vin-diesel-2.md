@@ -36,4 +36,4 @@ categories:
       &#8220;Vin Diesel slipped on a banana peel and landed on his head, knocking himself out. When he awoke, he had come up with an idea for a more efficient flux capacitor.&#8221; </span>
     </p>
 
- [1]: http://www.4q.cc/vin/index.php
+ [1]: https://www.4q.cc/vin/index.php

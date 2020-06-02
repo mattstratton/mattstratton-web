@@ -20,5 +20,5 @@ Blech.
 
 [![][1]][2] Joss Stone &#8211; Super Duper Love (Are You Diggin&#8217; On Me?), Pt. 1</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

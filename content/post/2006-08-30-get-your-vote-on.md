@@ -11,14 +11,14 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/croppold/134548694/" title="photo sharing"><img src="http://static.flickr.com/48/134548694_356407a5ba_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/croppold/134548694/">Me!</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/croppold/">croppold</a>. </span>
+  <a href="https://www.flickr.com/photos/croppold/134548694/" title="photo sharing"><img src="https://static.flickr.com/48/134548694_356407a5ba_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/croppold/134548694/">Me!</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/croppold/">croppold</a>. </span>
 </div>
 
 This one chick on Yehoodi is shilling for votes for a story she wrote. I thought it was hilarious (the story, not the shilling), so I&#8217;m posting the link here so you guys can all vote too.
 
 > Two summers ago I had a sureal NYC experience that I turned into a story and recently entered in an online writing contest. Anyway, I was trucking along at first place when suddenly someone else entered and started racking up points too!
 > 
-> Anyway, visit http://tribeca.net/home/comma/native-new-yorker (Direct link to my entry).
+> Anyway, visit https://tribeca.net/home/comma/native-new-yorker (Direct link to my entry).
 > 
 > On the righthand side of the screen will be an orange button marked &#8220;VOTE&#8221; Click there, register (it&#8217;s quick) and vote for me! The higher the ranking the better I do.
 > 

@@ -12,4 +12,4 @@ categories:
   
 (Not the dangerous kind, the Flash kind!)
 
- [1]: http://www.njagyouth.org/liberty.htm
+ [1]: https://www.njagyouth.org/liberty.htm

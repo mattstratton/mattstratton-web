@@ -14,4 +14,4 @@ categories:
 ---
 Scout has a [blog][1].
 
- [1]: http://www.dogster.com/?284512
+ [1]: https://www.dogster.com/?284512

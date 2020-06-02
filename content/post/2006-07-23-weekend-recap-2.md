@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/196457461/" title="photo sharing"><img src="http://static.flickr.com/72/196457461_7c3878d832_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/196457461/">Bucket</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/196457461/" title="photo sharing"><img src="https://static.flickr.com/72/196457461_7c3878d832_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/196457461/">Bucket</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Good times, and I&#8217;m not ready to go back to work tomorrow. Working sucks.
@@ -30,8 +30,8 @@ I just really don&#8217;t want to have to go to work tomorrow.
 
 [Honda Car Camping Photo Set][5] on Flickr.
 
- [1]: http://lakesideknitter.blogspot.com/
- [2]: http://flickr.com/photos/93458931@N00/
- [3]: http://flickr.com/photos/mugsy/tags/aaron/
- [4]: http://flickr.com/photos/mugsy/196458295/in/set-72157594209226930/
- [5]: http://flickr.com/photos/mugsy/sets/72157594209226930/
+ [1]: https://lakesideknitter.blogspot.com/
+ [2]: https://flickr.com/photos/93458931@N00/
+ [3]: https://flickr.com/photos/mugsy/tags/aaron/
+ [4]: https://flickr.com/photos/mugsy/196458295/in/set-72157594209226930/
+ [5]: https://flickr.com/photos/mugsy/sets/72157594209226930/

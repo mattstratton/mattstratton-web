@@ -22,5 +22,5 @@ OK&#8230;the sleepies just hit me hardcore. Time to sign off, yo.
 
 m.
 
- [1]: http://www.canondv.com/gl1/index.html
- [2]: http://www.canondv.com/xl1s/index.html
+ [1]: https://www.canondv.com/gl1/index.html
+ [2]: https://www.canondv.com/xl1s/index.html

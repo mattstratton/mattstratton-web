@@ -22,4 +22,4 @@ tags:
 
 I have to agree &#8211; paper dots are about the most useless candy on the planet. But circus peanuts are truly the worst candy of all time.
 
- [1]: http://www.seriouseats.com/required_eating/2007/06/the-5-worst-candies-of-all-tim.html
+ [1]: https://www.seriouseats.com/required_eating/2007/06/the-5-worst-candies-of-all-tim.html

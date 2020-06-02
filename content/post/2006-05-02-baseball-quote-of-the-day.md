@@ -18,4 +18,4 @@ I love it. I mean, I realize that Johnny Damon returning to Fenway is (apparentl
 
 Probably.
 
- [1]: http://jervo.livejournal.com/512628.html
+ [1]: https://jervo.livejournal.com/512628.html

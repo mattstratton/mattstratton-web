@@ -23,13 +23,13 @@ The worst offender is multi-protocol IM clients. On my Mac I run [Adium][5], whi
 <div style="margin-left:40px;">
   <ul>
     <li>
-      <a href="http://www.ceruleanstudios.com/">Trillian Pro</a>
+      <a href="https://www.ceruleanstudios.com/">Trillian Pro</a>
     </li>
     <li>
-      <a href="http://www.pidgin.im">Pidgin</a>/GAIM
+      <a href="https://www.pidgin.im">Pidgin</a>/GAIM
     </li>
     <li>
-      <a href="http://www.meebo.com">Meebo</a>
+      <a href="https://www.meebo.com">Meebo</a>
     </li>
   </ul>
 </div>
@@ -52,9 +52,9 @@ The functionality that I am missing from Adium (that none of these clients can h
 
 Are there any products I am missing? Meebo is definitely been a good way for me to go, but it requires me to have Firefox open in order to get IM&#8217;s and it needs the [Meebo extension][6] in order for me to get notification of new IM&#8217;s (which is not terrible). My resistance to Meebo is the lack of logging, mostly.
 
- [1]: http://www.blacktree.com/
- [2]: http://www.trydash.com
- [3]: http://www.launchy.net
- [4]: http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx
- [5]: http://www.adiumx.com
- [6]: http://wwwl.meebo.com/firefox/
+ [1]: https://www.blacktree.com/
+ [2]: https://www.trydash.com
+ [3]: https://www.launchy.net
+ [4]: https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx
+ [5]: https://www.adiumx.com
+ [6]: https://wwwl.meebo.com/firefox/

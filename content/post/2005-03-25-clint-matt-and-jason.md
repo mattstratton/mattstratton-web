@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/7411183/" title="photo sharing"><img src="http://photos7.flickr.com/7411183_8ef5050a16_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/7411183/">Clint, Matt, and Jason</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/7411183/" title="photo sharing"><img src="https://photos7.flickr.com/7411183_8ef5050a16_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/7411183/">Clint, Matt, and Jason</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Mostly, I&#8217;m just seeing what happens when I play with Flickr and blogging, but this picture was taken in 1998 in Vegas.

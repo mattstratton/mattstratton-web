@@ -20,4 +20,4 @@ Happy birthday to my little sister, [Debbie][1]!
 
 As of today, she is no longer a teenager. So I guess that means she has to stop saying &#8220;w00t&#8221; and &#8220;teh&#8221;.
 
- [1]: http://fashionarcade.livejournal.com/
+ [1]: https://fashionarcade.livejournal.com/

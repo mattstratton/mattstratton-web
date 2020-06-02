@@ -28,4 +28,4 @@ Had a meeting for the Black and Tan after editing. Then came home, at leftover m
 
 m.
 
- [1]: http://www.dancingwithgaia.com
+ [1]: https://www.dancingwithgaia.com

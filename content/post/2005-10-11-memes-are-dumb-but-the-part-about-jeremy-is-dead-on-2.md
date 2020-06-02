@@ -18,7 +18,7 @@ categories:
           <tr bgcolor="#003366">
             <td colspan="2" align="center" valign="middle">
               <div align="center" style="color:#FFFFFF;font-weight:bold;">
-                <a href="http://www.blogquiz.net/quizzes/LiveJournal-Memes/581/what-sexual-things-do-youre-friends-think-about-you">what sexual things do your friends think about you?</a>
+                <a href="https://www.blogquiz.net/quizzes/LiveJournal-Memes/581/what-sexual-things-do-youre-friends-think-about-you">what sexual things do your friends think about you?</a>
               </div>
             </td>
           </tr>
@@ -160,7 +160,7 @@ categories:
           <tr bgcolor="#003366">
             <td colspan="2" align="center" valign="middle">
               <div style="color:#FFFFFF;" align="center">
-                This <a href="http://www.blogquiz.net/">Fun Quiz</a> created by <a href="http://www.blogquiz.net/users/dying_secrets">Molly</a> at <strong>BlogQuiz.Net</strong>
+                This <a href="https://www.blogquiz.net/">Fun Quiz</a> created by <a href="https://www.blogquiz.net/users/dying_secrets">Molly</a> at <strong>BlogQuiz.Net</strong>
               </div>
             </td>
           </tr>

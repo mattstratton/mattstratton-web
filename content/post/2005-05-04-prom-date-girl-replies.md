@@ -40,5 +40,5 @@ _maybe we could meet up for a postgame drink or something like that_
 
 __Promising start. I&#8217;m thinking the proper play is to just exchange info for the June weekend, and if things happen there, go from there, but don&#8217;t ask her out or anything prior :)
 
- [1]: http://www.livejournal.com/users/mugsy1274/369750.html
- [2]: http://atalanta74.livejournal.com/
+ [1]: https://www.livejournal.com/users/mugsy1274/369750.html
+ [2]: https://atalanta74.livejournal.com/

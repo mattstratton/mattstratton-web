@@ -56,8 +56,8 @@ When I was thinking about what to put in this blog post on the train this mornin
 
 I&#8217;m pretty sure that after all this, we&#8217;re not going to buy a house again ever. We&#8217;ll live in this house until we die :) Or move to Florida.
 
- [1]: http://www.sherylgoble.com/
- [2]: http://www.homegain.com/
- [3]: http://www.flickr.com/photos/mugsy/archives/date-posted/2008/04/14/detail/
- [4]: http://www.hgtv.com/hgtv/shows_hmfp/
- [5]: http://www.yelp.com/biz/chinns-34th-st-fishery-lisle
+ [1]: https://www.sherylgoble.com/
+ [2]: https://www.homegain.com/
+ [3]: https://www.flickr.com/photos/mugsy/archives/date-posted/2008/04/14/detail/
+ [4]: https://www.hgtv.com/hgtv/shows_hmfp/
+ [5]: https://www.yelp.com/biz/chinns-34th-st-fishery-lisle

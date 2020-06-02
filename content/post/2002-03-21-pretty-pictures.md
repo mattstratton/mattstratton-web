@@ -28,7 +28,7 @@ Mugsy and Punches
   
 Midnight at the Mill (well, more like 2:30 AM, but who&#8217;s counting?)
 
- [1]: http://www.windyhop.org/images/photos/unapproved/Dscf0046-200232191214.jpg
- [2]: http://www.windyhop.org/images/photos/unapproved/121-2148_IMG-2002317234442.JPG
- [3]: http://www.windyhop.org/images/photos/unapproved/Dcp_1935-20023208352.jpg
- [4]: http://www.windyhop.org/images/photos/unapproved/Dscf0045-20023219124.jpg
+ [1]: https://www.windyhop.org/images/photos/unapproved/Dscf0046-200232191214.jpg
+ [2]: https://www.windyhop.org/images/photos/unapproved/121-2148_IMG-2002317234442.JPG
+ [3]: https://www.windyhop.org/images/photos/unapproved/Dcp_1935-20023208352.jpg
+ [4]: https://www.windyhop.org/images/photos/unapproved/Dscf0045-20023219124.jpg

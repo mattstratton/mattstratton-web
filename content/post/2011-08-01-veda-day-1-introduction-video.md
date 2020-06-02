@@ -12,7 +12,7 @@ categories:
   - Vlogs
 
 ---
-This is the first day of <a href="http://weblogwevlog.com/" target="_blank">VEDA </a>&#8211; Video Every Day in August. Today&#8217;s video is a small introduction&#8230;kind of a &#8220;meet and greet&#8221;. It also includes a couple small snips from a few short films I made years and years ago.
+This is the first day of <a href="https://weblogwevlog.com/" target="_blank">VEDA </a>&#8211; Video Every Day in August. Today&#8217;s video is a small introduction&#8230;kind of a &#8220;meet and greet&#8221;. It also includes a couple small snips from a few short films I made years and years ago.
 
 
 

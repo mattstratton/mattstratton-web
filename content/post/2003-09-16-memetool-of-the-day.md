@@ -26,4 +26,4 @@ _This journal says I&#8217;m male. You thought I am your friend like It on for a
 
 &#8212; enoelie</i>
 
- [1]: http://www.antispin.net/~martine/cgi-bin/insanity.cgi?mugsy1274
+ [1]: https://www.antispin.net/~martine/cgi-bin/insanity.cgi?mugsy1274

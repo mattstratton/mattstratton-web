@@ -40,5 +40,5 @@ Ok, folks – in YOUR experience, perspective, and just **plain ol’ opinions**
 
 Thanks for your feedback, folks!
 
- [1]: http://stkate.edu
- [2]: http://doniree.com/2009/02/02/help-me-pimp-out-twitter/
+ [1]: https://stkate.edu
+ [2]: https://doniree.com/2009/02/02/help-me-pimp-out-twitter/

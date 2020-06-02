@@ -19,11 +19,11 @@ categories:
   - Personal
 
 ---
-Inspired by <a href="http://www.writingtoreachyou.com/2011/02/28/a-scattered-post-of-good-intentions-goodbye-february" target="_blank">this post</a> by <a href="http://twitter.com/@writetoreach" target="_blank">@writetoreach</a>, I have decided to do monthly &#8220;personal&#8221; wrap-up posts. I&#8217;ve long struggled with how to integrate more personal posts with all the tech tips and other geeky type of posts on this blog, and a monthly summary seems to be a good way to do this. So without further delay, here&#8217;s what was going on in my world in February.
+Inspired by <a href="https://www.writingtoreachyou.com/2011/02/28/a-scattered-post-of-good-intentions-goodbye-february" target="_blank">this post</a> by <a href="https://twitter.com/@writetoreach" target="_blank">@writetoreach</a>, I have decided to do monthly &#8220;personal&#8221; wrap-up posts. I&#8217;ve long struggled with how to integrate more personal posts with all the tech tips and other geeky type of posts on this blog, and a monthly summary seems to be a good way to do this. So without further delay, here&#8217;s what was going on in my world in February.
 
 # So that happened
 
-As you may recall, my wife and I had a [long and difficult infertility journey][1] getting pregnant with <a href="http://strattonboys.com" target="_blank">Henry and Joey</a>. So it was quite a shock and pleasant surprise when we discovered that these two guys are going to be big brothers.
+As you may recall, my wife and I had a [long and difficult infertility journey][1] getting pregnant with <a href="https://strattonboys.com" target="_blank">Henry and Joey</a>. So it was quite a shock and pleasant surprise when we discovered that these two guys are going to be big brothers.
 
 <img class="aligncenter size-medium wp-image-6220" title="bigbros" src="/wp-content/uploads/bigbros-300x199.jpg" alt="" width="300" height="199" srcset="/wp-content/uploads/bigbros-300x199.jpg 300w, /wp-content/uploads/bigbros.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" />
 
@@ -35,7 +35,7 @@ I don&#8217;t blog much about work, but I&#8217;m sure you all would love to kno
 
 ## Going live&#8230;soon!
 
-We&#8217;re on the home stretch to release our massive site redesign to the public. We&#8217;ve been in beta since last year, and this project has taken over a year of effort from our entire tech department. In addition to a cool new look and feel, we&#8217;ve done major changes and improvements to our back end, including a best-of-breed search engine, cutting-edge database technology, and super awesome infrastructure overhauls. Like any major change, the last &#8220;mile&#8221; is always the toughest, but I know that once we finish, it&#8217;s going to blow everyone anyway. I&#8217;ll let you all know when we go live for real, but for now, if you visit http://apartments.com, you have a pretty good chance of hitting our beta (if your URL starts with ww1 or ww2 you are on the beta site).
+We&#8217;re on the home stretch to release our massive site redesign to the public. We&#8217;ve been in beta since last year, and this project has taken over a year of effort from our entire tech department. In addition to a cool new look and feel, we&#8217;ve done major changes and improvements to our back end, including a best-of-breed search engine, cutting-edge database technology, and super awesome infrastructure overhauls. Like any major change, the last &#8220;mile&#8221; is always the toughest, but I know that once we finish, it&#8217;s going to blow everyone anyway. I&#8217;ll let you all know when we go live for real, but for now, if you visit https://apartments.com, you have a pretty good chance of hitting our beta (if your URL starts with ww1 or ww2 you are on the beta site).
 
 ## Administrative stuff
 
@@ -61,4 +61,4 @@ So that was my update! Now that I think about it, there was definitely more goin
  [2]: /tech-tips/configuring-sharepoint-2010-search-in-a-one-way-trust-scenario "Configuring SharePoint 2010 Search in a one-way trust scenario"
  [3]: /2010/02
  [4]: /meta/the-28-day-blogging-challenge "The 28 Day Blogging Challenge"
- [5]: http://www.itbuildscharacter.com
+ [5]: https://www.itbuildscharacter.com

@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-The first <a href="http://www.dancingwithgaia.com/teaser" title="DWG Teaser" target="_blank">teaser</a> for _Dancing With Gaia_ is now available for viewing.
+The first <a href="https://www.dancingwithgaia.com/teaser" title="DWG Teaser" target="_blank">teaser</a> for _Dancing With Gaia_ is now available for viewing.
 
 Enjoy!

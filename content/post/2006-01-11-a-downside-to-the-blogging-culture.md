@@ -24,4 +24,4 @@ Like you would with a blog.
 
 I&#8217;m really a nerd.
 
- [1]: http://www.amazon.com/gp/product/0743250621
+ [1]: https://www.amazon.com/gp/product/0743250621

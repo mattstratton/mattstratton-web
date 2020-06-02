@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
- <a href="http://www.engadget.com/entry/4182199342254177/" target="_blank">Isaac Hayes&#8217; Three Laws of Robotics</a>:
+ <a href="https://www.engadget.com/entry/4182199342254177/" target="_blank">Isaac Hayes&#8217; Three Laws of Robotics</a>:
 
 1. A robot must risk his neck for his brother man, and may not cop out when there&#8217;s danger all about.
      

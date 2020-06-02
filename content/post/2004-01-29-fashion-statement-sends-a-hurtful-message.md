@@ -30,7 +30,7 @@ Robin&#8217;s mom is Irish Catholic. Her dad is Jewish. So a blue &#8220;Everybo
     </td>
     
     <td colSpan="2">
-      <img height="170" alt="T-shirt" src="http://seattlepi.nwsource.com/dayart/20040128/226jewishgirls_tshirt.jpg" width="226" border="0" />
+      <img height="170" alt="T-shirt" src="https://seattlepi.nwsource.com/dayart/20040128/226jewishgirls_tshirt.jpg" width="226" border="0" />
     </td>
   </tr>
   
@@ -40,7 +40,7 @@ Robin&#8217;s mom is Irish Catholic. Her dad is Jewish. So a blue &#8220;Everybo
     </td>
     
     <td width="45">
-      <a href="http://seattlepi.nwsource.com/photos/photo.asp?PhotoID=35072"><img height="14" alt="Zoom" src="http://seattlepi.nwsource.com/art2/zoom.gif" width="42" border="0" /></a>
+      <a href="https://seattlepi.nwsource.com/photos/photo.asp?PhotoID=35072"><img height="14" alt="Zoom" src="https://seattlepi.nwsource.com/art2/zoom.gif" width="42" border="0" /></a>
     </td>
     
     <td class="credit" align="right">
@@ -99,5 +99,5 @@ The &#8220;Everybody Loves Jewish Girls&#8221; tee with its happy dollar signs i
   <b>Susan Paynter&#8217;s column appears Mondays, Wednesdays and Fridays. Call her at 206-448-8392 or send e-mail to <a href="javascript:DeCryptX('0s1v3v0a2p2r3d0y1o1u2g2t2B1t0e0a2v0t2n3h3s2k0.1d0o1n')">susanpaynter [at] seattlepi [dot] com</a></b>
 </div>
 
- [1]: http://seattlepi.nwsource.com/paynter/158269_paynter28.asp
+ [1]: https://seattlepi.nwsource.com/paynter/158269_paynter28.asp
  [2]: javascript:DeCryptX('1t1v1t2c3q3s2c1z0n1u2g0r2B1t3h3d3w2v0l3h1q0i0.1d2q3p')

@@ -12,5 +12,5 @@ If any of you are around tonight looking for something cool, don&#8217;t miss th
 
 The show starts at 9 PM, and is $12. Carrie and I will be there. I know it&#8217;s not as cool as a Bonnie Raitt concert, but it&#8217;s a lot closer :)
 
- [1]: http://thehoylebrothers.com/
- [2]: http://www.martyrslive.com/
+ [1]: https://thehoylebrothers.com/
+ [2]: https://www.martyrslive.com/

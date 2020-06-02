@@ -22,7 +22,7 @@ And let me point out that one judge up for retention was dinged by all nine bar 
 
 So please download that sample ballot, but then read the evaulations and see if you agree with their reasons. Make your own decisions, you American, you. (And then vote &#8220;No&#8221; on McDunn. Seriously.)
 
- [1]: http://www.fuzzyco.com/news/archives/000940.html
- [2]: http://www.fuzzyco.com
- [3]: http://www.voteforjudges.org/
- [4]: http://www.voteforjudges.org/docs/CCL2004CEQJballot.pdf
+ [1]: https://www.fuzzyco.com/news/archives/000940.html
+ [2]: https://www.fuzzyco.com
+ [3]: https://www.voteforjudges.org/
+ [4]: https://www.voteforjudges.org/docs/CCL2004CEQJballot.pdf

@@ -12,6 +12,6 @@ categories:
 
 <font size="2">You are outgoing Willow. You have really come into your<br /> stride and are one with your surroundings. Everyone thinks you are super-cool,<br /> but you&#8217;re a bit worried that they&#8217;ll figure out you&#8217;re pretty normal.<br /> But you have such potential and a great attitude that you simply don&#8217;t<br /> know your worth.</font>
 
-Wanna see which Willow you are? <a href="http://www.seprah.com/buffy/quiz/willquiz.html" target="new">Take the test!</a>
+Wanna see which Willow you are? <a href="https://www.seprah.com/buffy/quiz/willquiz.html" target="new">Take the test!</a>
 
- [1]: http://www.seprah.com/buffy/quiz/willoutgoing.jpg
+ [1]: https://www.seprah.com/buffy/quiz/willoutgoing.jpg

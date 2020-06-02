@@ -130,5 +130,5 @@ ENVY
   
 8. Finally, what is your favorite deadly sin? Gluttony. I like to eat.
 
- [1]: http://www.gravytrainfilms.com
- [2]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=59321
+ [1]: https://www.gravytrainfilms.com
+ [2]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=59321

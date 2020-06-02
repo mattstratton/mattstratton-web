@@ -10,4 +10,4 @@ categories:
 ---
 I have unlocked all the &#8220;planning&#8221; LJ posts about the engagement. You can view them all here:
 
-**<span style="text-decoration:underline;"><a href="http://mugsy1274.livejournal.com/tag/secret+squirrel">Secret Squirrel Plans</a></span>**
+**<span style="text-decoration:underline;"><a href="https://mugsy1274.livejournal.com/tag/secret+squirrel">Secret Squirrel Plans</a></span>**

@@ -24,4 +24,4 @@ After the movie, and I hustled home, and then headed up to WaNoHoMoFloJo for and
 
 It was great. I was all Ducky-ed up (ala _Pretty In Pink_), and everyone else looked fantastic too. Great music, fun drinks&#8230;and some drunk shenanagins. Although not by me. I was shenanagan free.
 
- [1]: http://www.tommywhitetie.com
+ [1]: https://www.tommywhitetie.com

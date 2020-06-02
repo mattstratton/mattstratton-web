@@ -28,9 +28,9 @@ After:
   
 &#8212; from [mugsy1274][6]
 
- [1]: http://static.flickr.com/38/93077645_ea5f83998b_m.jpg
- [2]: http://www.flickr.com/photos/daisy331/93077645/
- [3]: http://www.flickr.com/people/daisy331/
- [4]: http://static.flickr.com/53/139414532_684dfc2270_m.jpg
- [5]: http://www.flickr.com/photos/mugsy/139414532/
- [6]: http://www.flickr.com/people/mugsy/
+ [1]: https://static.flickr.com/38/93077645_ea5f83998b_m.jpg
+ [2]: https://www.flickr.com/photos/daisy331/93077645/
+ [3]: https://www.flickr.com/people/daisy331/
+ [4]: https://static.flickr.com/53/139414532_684dfc2270_m.jpg
+ [5]: https://www.flickr.com/photos/mugsy/139414532/
+ [6]: https://www.flickr.com/people/mugsy/

@@ -21,5 +21,5 @@ My wife&#8217;s friend Kristen is getting married, and they were discussing wedd
 For the record&#8230;those of you who have had weddings &#8211; did you have a videographer? If so, did you think it was worth it? How much have you gone back to watch your video? If not&#8230;do you regret not having one?
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/zemified_a.png?x-id=262a3190-22e8-4651-91ce-1bb715001a9d" alt="Enhanced by Zemanta" /></a><span class="zem-script pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="https://www.zemanta.com/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/zemified_a.png?x-id=262a3190-22e8-4651-91ce-1bb715001a9d" alt="Enhanced by Zemanta" /></a><span class="zem-script pretty-attribution"></span>
 </div>

@@ -43,7 +43,7 @@ _Sunday, July 16th –_ _noon_ Is your pup the cutest dog in Chicago? Find out a
 </p>
 
 <p style="margin:0;">
-  This is THE summer social for pet lovers &#8211; dogs welcome!&nbsp; Enjoy a wide variety of appetizers, cocktails, and a raffle while socializing.&nbsp; Silent auction will feature one-of-a-kind dog and cat dishes designed by local celebrities and artists.&nbsp;$35/person in advance; $40 at the door (with or without dog).&nbsp; River East Art Center (435 E Illinois). <strong><em>Pet-friendly event!&nbsp; No aggressive dogs or dogs in heat.&nbsp; Vaccinations must be current.&nbsp; All dogs must remain on leash.</em></strong> <strong>Register online at <a href="http://www.anticruelty.org/" target="_blank">www.anticruelty.org</a> or call 312.644.8338, ext. 307. TICKETS AVAILABLE NOW! </strong>
+  This is THE summer social for pet lovers &#8211; dogs welcome!&nbsp; Enjoy a wide variety of appetizers, cocktails, and a raffle while socializing.&nbsp; Silent auction will feature one-of-a-kind dog and cat dishes designed by local celebrities and artists.&nbsp;$35/person in advance; $40 at the door (with or without dog).&nbsp; River East Art Center (435 E Illinois). <strong><em>Pet-friendly event!&nbsp; No aggressive dogs or dogs in heat.&nbsp; Vaccinations must be current.&nbsp; All dogs must remain on leash.</em></strong> <strong>Register online at <a href="https://www.anticruelty.org/" target="_blank">www.anticruelty.org</a> or call 312.644.8338, ext. 307. TICKETS AVAILABLE NOW! </strong>
 </p>
 
 <p style="margin:0;">
@@ -76,4 +76,4 @@ SAVE THE DATE
   <em>Wednesday, August 30th – all day (during store hours)</em>
 </p>
 
-Shop ‘til you drop and support The Anti-Cruelty Society at the same time! Buy a $10 ticket from The Society and receive a 15-20%\* discount at participating stores (900 N Michigan & 600 N Wabash, Chicago; 376 Old Orchard Center, Skokie; 4 Oakbrook Center, Oakbrook). Enjoy entertainment, fashion events, and cooking demonstrations the entire day. (\*Limited exclusions apply. Total discount depends upon amount spent and method of payment.) Download a ticket order form at <a href="http://www.anticruelty.org/" target="_blank">www.anticruelty.org</a>. TICKETS AVAILABLE NOW!&nbsp;
+Shop ‘til you drop and support The Anti-Cruelty Society at the same time! Buy a $10 ticket from The Society and receive a 15-20%\* discount at participating stores (900 N Michigan & 600 N Wabash, Chicago; 376 Old Orchard Center, Skokie; 4 Oakbrook Center, Oakbrook). Enjoy entertainment, fashion events, and cooking demonstrations the entire day. (\*Limited exclusions apply. Total discount depends upon amount spent and method of payment.) Download a ticket order form at <a href="https://www.anticruelty.org/" target="_blank">www.anticruelty.org</a>. TICKETS AVAILABLE NOW!&nbsp;

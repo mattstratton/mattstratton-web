@@ -20,11 +20,11 @@ I wanted to poke around more on [Orkut][1], but work blocks it.
 
 ItalianStallion: you&#8217;re like Woody Allen
 
-So the <a href="http://www.imdb.com/" target="_blank">IMDb</a> has finally added me to their listing.
+So the <a href="https://www.imdb.com/" target="_blank">IMDb</a> has finally added me to their listing.
 
 I understand suddenly why none of my friends want to set me up with anyone!
 
-Blame <span class="ljuser" style="white-space:nowrap;"><a href="http://www.livejournal.com/userinfo.bml?user=heavymetalsushi"><img src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" height="17" width="17" /></a><a href="http://www.livejournal.com/users/heavymetalsushi/"><b>heavymetalsushi</b></a></span>.
+Blame <span class="ljuser" style="white-space:nowrap;"><a href="https://www.livejournal.com/userinfo.bml?user=heavymetalsushi"><img src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" height="17" width="17" /></a><a href="https://www.livejournal.com/users/heavymetalsushi/"><b>heavymetalsushi</b></a></span>.
 
 I really want a dog.
 
@@ -36,5 +36,5 @@ OK, for serious, I am quitting smoking.
 
 I spent the better part of my work day on the phone explaining to people why they are stupid.
 
- [1]: http://www.orkut.com/
- [2]: http://pics.livejournal.com/manage/
+ [1]: https://www.orkut.com/
+ [2]: https://pics.livejournal.com/manage/

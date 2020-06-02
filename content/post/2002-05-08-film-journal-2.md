@@ -26,5 +26,5 @@ For those of you who can&#8217;t wait, here&#8217;s a picture from Day One of sh
 
 m.
 
- [1]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all
- [2]: http://www.fuzzyco.com/personal/movie.html
+ [1]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all
+ [2]: https://www.fuzzyco.com/personal/movie.html

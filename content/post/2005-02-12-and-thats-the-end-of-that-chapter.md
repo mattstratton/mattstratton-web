@@ -20,4 +20,4 @@ That super fly TV I bought cost me all of one hundred bucks.
 
 Rock.
 
- [1]: http://www.livejournal.com/users/mugsy1274/338263.html
+ [1]: https://www.livejournal.com/users/mugsy1274/338263.html

@@ -14,6 +14,6 @@ I just tried it&#8230;I am getting a &#8220;No disk space remaining for your acc
 
 [![][2]][3] Britney Spears &#8211; I&#8217;m Not A Girl, Not Yet A Woman</span>
 
- [1]: http://pics.livejournal.com/manage/
- [2]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [3]: http://www.itunes.com
+ [1]: https://pics.livejournal.com/manage/
+ [2]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [3]: https://www.itunes.com

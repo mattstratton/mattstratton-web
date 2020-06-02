@@ -5,7 +5,7 @@ layout: post
 date: 2011-09-23T03:52:51+00:00
 url: /tech-tips/facebook-lists
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/facebook-lists-header.png
+  - https://cdn.mattstratton.com/wp-content/uploads/facebook-lists-header.png
 thesis_post_image_alt:
   - Facebook Lists
 thesis_post_image_horizontal:
@@ -13,7 +13,7 @@ thesis_post_image_horizontal:
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/facebook-lists-tn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/facebook-lists-tn.png
 description: Facebook has released some major changes to how the Feed and Activity function. This post will explain how to make the new Facebook work FOR you, not AGAINST you.
 dsq_thread_id:
   - 423251100

@@ -12,11 +12,11 @@ categories:
   - Tech Tips
 
 ---
-I&#8217;ll happily admit it &#8211; I&#8217;m an early adopter, and I like playing with new toys. I got my first TiVo in 1999, for example. So when I heard that Google had their very own fancy-pants web browser, called <a href="http://www.google.com/chrome" target="_blank">Chrome</a>, I downloaded and installed it as soon as the servers would let me. I used Chrome for about a week, but soon gave up on it due to its lack of extensions and the fact that it choked on about 75% of the sites I used regularly.
+I&#8217;ll happily admit it &#8211; I&#8217;m an early adopter, and I like playing with new toys. I got my first TiVo in 1999, for example. So when I heard that Google had their very own fancy-pants web browser, called <a href="https://www.google.com/chrome" target="_blank">Chrome</a>, I downloaded and installed it as soon as the servers would let me. I used Chrome for about a week, but soon gave up on it due to its lack of extensions and the fact that it choked on about 75% of the sites I used regularly.
 
-About two months ago, while rebuilding my laptop, I thought to myself &#8220;Self, it&#8217;s time to try Google Chrome again.&#8221; So I bopped to the <a href="http://www.google.com/chrome/eula.html" target="_blank">download page</a> and installed the son-of-a-gun.
+About two months ago, while rebuilding my laptop, I thought to myself &#8220;Self, it&#8217;s time to try Google Chrome again.&#8221; So I bopped to the <a href="https://www.google.com/chrome/eula.html" target="_blank">download page</a> and installed the son-of-a-gun.
 
-All was well for a while. I ran Chrome on my XP laptop at work, and my Vista desktop at home. I marveled at the speed at which it rendered Javascript heavy sites like Gmail. I loved the integration of <a href="http://gears.google.com/" target="_blank">Gears</a>. I cheered aloud when tab isolation kept a bad page from crashing my entire browser.
+All was well for a while. I ran Chrome on my XP laptop at work, and my Vista desktop at home. I marveled at the speed at which it rendered Javascript heavy sites like Gmail. I loved the integration of <a href="https://gears.google.com/" target="_blank">Gears</a>. I cheered aloud when tab isolation kept a bad page from crashing my entire browser.
 
 But then&#8230;the troubles began. Webpages started to have broken images inside them, but only in Chrome.
 
@@ -46,13 +46,13 @@ Plus, worse, entire pages wouldn&#8217;t load due to random so-called DNS errors
   </p>
 </div>
 
-Enough was enough. I determined (through frantic Googling&#8230;no irony intended) that this was related to <a href="http://jackkonblog.blogspot.com/2009/02/why-does-google-chrome-sometimes-have.html" target="_blank">some potential issues with DNS caching</a>. Disabling prefetching in Chrome should resolve this issue &#8211; but Chrome was already in a precarious situation as my browser of choice.
+Enough was enough. I determined (through frantic Googling&#8230;no irony intended) that this was related to <a href="https://jackkonblog.blogspot.com/2009/02/why-does-google-chrome-sometimes-have.html" target="_blank">some potential issues with DNS caching</a>. Disabling prefetching in Chrome should resolve this issue &#8211; but Chrome was already in a precarious situation as my browser of choice.
 
-Things came to a head yesterday at work. I was cruising along in Chrome, with only about five tabs open (most likely <a href="http://gmail.com" target="_blank">Gmail</a>, <a href="http://yehoodi.com" target="_blank">Yehoodi</a>, <a href="http://facebook.com" target="_blank">Facebook</a>, <a href="http://google.com/reader" target="_blank">Google Reader</a>, and possibly <a href="http://getclicky.com" target="_blank">Clicky</a> or even Good Old Rock). My laptop suddenly became very non-responsive. Opening Task Manager revealed that one instance of Chrome was using **1.5 GB of RAM**. Mind you, this was after about ten minutes of use.
+Things came to a head yesterday at work. I was cruising along in Chrome, with only about five tabs open (most likely <a href="https://gmail.com" target="_blank">Gmail</a>, <a href="https://yehoodi.com" target="_blank">Yehoodi</a>, <a href="https://facebook.com" target="_blank">Facebook</a>, <a href="https://google.com/reader" target="_blank">Google Reader</a>, and possibly <a href="https://getclicky.com" target="_blank">Clicky</a> or even Good Old Rock). My laptop suddenly became very non-responsive. Opening Task Manager revealed that one instance of Chrome was using **1.5 GB of RAM**. Mind you, this was after about ten minutes of use.
 
 1.5 GB of RAM.
 
-Outlook never gets that high. Even memory-leaky Firefox never gets there. Hell, even <a href="http://www.tweetdeck.com" target="_blank">TweetDeck</a> won&#8217;t hit 1.5 GB after only ten minutes.
+Outlook never gets that high. Even memory-leaky Firefox never gets there. Hell, even <a href="https://www.tweetdeck.com" target="_blank">TweetDeck</a> won&#8217;t hit 1.5 GB after only ten minutes.
 
 I gave Chrome one more chance. I killed the process (Chrome wouldn&#8217;t shut down otherwise) and tried again.
 

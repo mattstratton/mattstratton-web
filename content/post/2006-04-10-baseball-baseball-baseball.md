@@ -14,23 +14,23 @@ Upcoming games for Mugsy:
 
 Thursday, April 13, vs. Cincinatti
   
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000tc1q" width="170" height="128" />][1]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000tc1q" width="170" height="128" />][1]
 
 Saturday, April 29th, vs. Milwaukee
   
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000w5ws" width="170" height="128" />][2]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000w5ws" width="170" height="128" />][2]
 
 Saturday, June 17th, vs. Detroit
   
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000xs1y" width="170" height="128" />][3]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000xs1y" width="170" height="128" />][3]
 
 Friday, June 30th, vs. White Sox
   
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000yxxw" width="170" height="128" />][4]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000yxxw" width="170" height="128" />][4]
 
 Plus, one of the games when the Mets come in July, with , , , , , , and .
 
- [1]: http://pics.livejournal.com/mugsy1274/pic/0000tc1q/
- [2]: http://pics.livejournal.com/mugsy1274/pic/0000w5ws/
- [3]: http://pics.livejournal.com/mugsy1274/pic/0000xs1y/
- [4]: http://pics.livejournal.com/mugsy1274/pic/0000yxxw/
+ [1]: https://pics.livejournal.com/mugsy1274/pic/0000tc1q/
+ [2]: https://pics.livejournal.com/mugsy1274/pic/0000w5ws/
+ [3]: https://pics.livejournal.com/mugsy1274/pic/0000xs1y/
+ [4]: https://pics.livejournal.com/mugsy1274/pic/0000yxxw/

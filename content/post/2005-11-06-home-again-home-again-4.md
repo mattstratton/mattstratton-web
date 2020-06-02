@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/60305850/" title="photo sharing"><img src="http://static.flickr.com/28/60305850_c6997c679d_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/60305850/">Brian, Tracy, and Kevin</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/60305850/" title="photo sharing"><img src="https://static.flickr.com/28/60305850_c6997c679d_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/60305850/">Brian, Tracy, and Kevin</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Ah. So nice to be home again. Spent the evening with , , and . We had some yummy dinner prepared by Tracy, and then proceeded to get really kind of drunk and played &#8220;Loaded Questions&#8221;.

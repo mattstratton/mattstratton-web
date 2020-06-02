@@ -12,7 +12,7 @@ categories:
 ---
 If I felt more physically comfortable, I would totally take this workshop. I still might.
 
-<a href="http://www.actorsgymnasium.com/site/epage/11348_314.htm" target="_blank"><strong>500 Clown: Risk, Play, and Relationship</strong></a>
+<a href="https://www.actorsgymnasium.com/site/epage/11348_314.htm" target="_blank"><strong>500 Clown: Risk, Play, and Relationship</strong></a>
 
 The trio known as 500 Clown creates some of the most accomplished foolishness
   

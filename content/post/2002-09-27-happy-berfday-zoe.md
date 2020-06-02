@@ -20,4 +20,4 @@ Happy berfday, Zoë!
 
 m.
 
- [1]: http://www.dancingwithgaia.com
+ [1]: https://www.dancingwithgaia.com

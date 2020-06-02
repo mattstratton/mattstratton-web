@@ -14,4 +14,4 @@ categories:
 
 I got 48.5, but I did it fast.
 
- [1]: http://www.yetanotherdot.com/asp/80s.html
+ [1]: https://www.yetanotherdot.com/asp/80s.html

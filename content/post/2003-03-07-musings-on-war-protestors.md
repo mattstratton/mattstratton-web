@@ -44,6 +44,6 @@ It&#8217;s not that simple. But if punching a hippie in the face makes the world
 
 m.
 
- [1]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=58539&start=90
- [2]: http://www.yehoodi.com/phpBB2/profile.php?mode=viewprofile&u=3918
- [3]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=58539&start=90
+ [2]: https://www.yehoodi.com/phpBB2/profile.php?mode=viewprofile&u=3918
+ [3]: https://www.yehoodi.com

@@ -14,7 +14,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/82988710@N00/80540193/"><img style="border:solid 2px #000000;" src="http://static.flickr.com/43/80540193_3958a80b59_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/82988710@N00/80540193/">DSCN2312</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/82988710@N00/">Daisy331</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/82988710@N00/80540193/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/43/80540193_3958a80b59_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/82988710@N00/80540193/">DSCN2312</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/82988710@N00/">Daisy331</a>. </span>
 </div>
 
 NYE was pretty low-key this year. Carrie and I went to dinner with some friends at Uncommon Ground (which was pretty good). Then we all went to see &#8220;Cupid Has A Heart On&#8221; at <span style="text-decoration:line-through;">Improv Olympic</span> [IO Chicago][1]. That show is friggin&#8217; hilarious. You should all go see it. Cherie was there with some of her Second City friends as well.
@@ -23,4 +23,4 @@ After the show, Carrie and I went to a party that her friends Sarah and Jessie w
 
 Good times.
 
- [1]: http://www.iochicago.net/
+ [1]: https://www.iochicago.net/

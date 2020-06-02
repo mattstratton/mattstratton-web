@@ -14,7 +14,7 @@ tags:
   - Trapper
 
 ---
-<a href="http://www.invention.com/kuhuski.htm" target="_blank"><strong>Fan Pants!</strong></a>
+<a href="https://www.invention.com/kuhuski.htm" target="_blank"><strong>Fan Pants!</strong></a>
 
 &#8212;
 

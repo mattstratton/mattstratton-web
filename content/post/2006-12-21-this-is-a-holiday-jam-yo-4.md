@@ -8,7 +8,7 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=Y31DMjZBVYU  
+https://www.youtube.com/watch?v=Y31DMjZBVYU  
 So while everyone is rocking out to the &#8220;Cock in a Box&#8221; video from SNL, this is the true, original Christmas jam.
 
 J-Timb eat your heart out. This is the real weapon of mass affection.

@@ -46,4 +46,4 @@ Post your results.
 29) If and were siamese twins, where would they be joined? Left ear to right kneecap  
 30) If took over the world, who would suffer? Impotent men
 
- [1]: http://junk.alanv.org/ljquiz.php
+ [1]: https://junk.alanv.org/ljquiz.php

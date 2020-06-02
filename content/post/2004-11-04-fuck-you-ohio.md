@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-From <a href="http://www.salon.com/news/feature/2004/10/18/gayohio/" target="_blank">Salon</a>
+From <a href="https://www.salon.com/news/feature/2004/10/18/gayohio/" target="_blank">Salon</a>
 
 During a question-and-answer period, someone says they&#8217;d once heard [Patrick] Johnston [vice chairman of the Ohio branch of the far-right Constitution Party] call for the execution of gays and lesbians. He vigorously denies the charge. Later, he tells me that the decision to put gays to death is a matter best left up to the states. &#8220;If we ever had a nation sufficiently Christian&#8221; to make homosexuality illegal, he says, imposing capital punishment for homosexuality would be a subject for &#8220;an in-house debate. There were capital crimes in the Bible, and that would be something debated.
 

@@ -18,6 +18,6 @@ But here&#8217;s the coolest thing, which I just [read on Chicagoist][2]:
 
 Awesome.
 
- [1]: http://chicago.cubs.mlb.com/news/article.jsp?ymd=20070206&content_id=1795789&vkey=news_chc&fext=.jsp&c_id=chc
- [2]: http://www.chicagoist.com/archives/2007/02/07/its_all_a_game_the_price_of_fame.php
- [3]: http://suntimes.com/news/metro/246402,CST-NWS-wrig07.article
+ [1]: https://chicago.cubs.mlb.com/news/article.jsp?ymd=20070206&content_id=1795789&vkey=news_chc&fext=.jsp&c_id=chc
+ [2]: https://www.chicagoist.com/archives/2007/02/07/its_all_a_game_the_price_of_fame.php
+ [3]: https://suntimes.com/news/metro/246402,CST-NWS-wrig07.article

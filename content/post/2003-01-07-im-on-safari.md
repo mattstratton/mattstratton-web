@@ -20,4 +20,4 @@ I think my Mac may become my surfing machine from now on. Anyone running OS X, I
 
 m.
 
- [1]: http://www.apple.com/safari
+ [1]: https://www.apple.com/safari

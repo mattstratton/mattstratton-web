@@ -14,4 +14,4 @@ Hmmm&#8230;trying it out with this so-called &#8220;client&#8221;&#8230;somehow,
 
 And what is this &#8220;detect music&#8221; crap?
 
- [1]: http://www.w3c.org
+ [1]: https://www.w3c.org

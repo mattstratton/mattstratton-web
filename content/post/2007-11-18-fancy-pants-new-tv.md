@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/2044515959/" title="photo sharing"><img src="http://farm3.static.flickr.com/2293/2044515959_bbf781523c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/2044515959/">New TV</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/2044515959/" title="photo sharing"><img src="https://farm3.static.flickr.com/2293/2044515959_bbf781523c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/2044515959/">New TV</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Last week, Carrie and I bought a new TV, since [the old one][1] was just too huge. It&#8217;s a [42&#8243; Panasonic plasma][2], and we&#8217;re really happy with it.
@@ -26,5 +26,5 @@ Also, our new bed was delivered this morning. We finally have a queen-sized bed.
 
 Incidentally, if you know anyone in the Chicago area who wants a nice (but huge) Sony HDTV, point them towards my Craigslist ad.
 
- [1]: http://mattstratton.livejournal.com/338263.html
- [2]: http://www2.panasonic.com/consumer-electronics/support/Televisions/Plasma-HDTVs/model.TH-42PZ700U
+ [1]: https://mattstratton.livejournal.com/338263.html
+ [2]: https://www2.panasonic.com/consumer-electronics/support/Televisions/Plasma-HDTVs/model.TH-42PZ700U

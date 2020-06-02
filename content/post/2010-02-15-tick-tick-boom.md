@@ -24,11 +24,11 @@ Remember yesterday when I was <a href="/meta/week-2-recap" target="_self">braggi
 
 ## The technology
 
-Over the weekend, I was doing some experimenting with stuff on my blog and my server. I host my blog on a VPS, and due to potential memory constraints, was advised to run lighttpd instead of <a class="zem_slink" title="Apache HTTP Server" rel="homepage" href="http://httpd.apache.org/">Apache</a> as my web server. If you don&#8217;t know what that means, don&#8217;t sweat it&#8230;all you need to know is that Apache is a very common server to run WordPress on, and Lighty&#8230;well, he&#8217;s not as popular.
+Over the weekend, I was doing some experimenting with stuff on my blog and my server. I host my blog on a VPS, and due to potential memory constraints, was advised to run lighttpd instead of <a class="zem_slink" title="Apache HTTP Server" rel="homepage" href="https://httpd.apache.org/">Apache</a> as my web server. If you don&#8217;t know what that means, don&#8217;t sweat it&#8230;all you need to know is that Apache is a very common server to run WordPress on, and Lighty&#8230;well, he&#8217;s not as popular.
 
 I&#8217;d run into some issues using lighty, specifically goopy stuff with .htaccess files and any plugins that rely on it. I gave the matter some thought, and figured hey, I have 512 MB of RAM to work with..let&#8217;s try Apache. I putzed with this for a while over the weekend, but never really got it to work the way I wanted to.
 
-Another thing I did this weekend was install the <a href="http://www.w3-edge.com/wordpress-plugins/w3-total-cache/" target="_blank">W3 Total Cache plugin</a>. Yeah, I couldn&#8217;t use it to its full value, since I don&#8217;t have Apache, but it had some neat features. One of them was the ability to use a CDN for things like javascripts, CSS, and images. Since we all know I dig the cloud, I thought it would be cool to migrate this type of content to Amazon <a class="zem_slink" title="CloudFront" rel="homepage" href="http://aws.amazon.com/cloudfront/">CloudFront</a>. I&#8217;m not going to lie and say it was super easy, but it was a great learning experience for me, which is really all that matters.
+Another thing I did this weekend was install the <a href="https://www.w3-edge.com/wordpress-plugins/w3-total-cache/" target="_blank">W3 Total Cache plugin</a>. Yeah, I couldn&#8217;t use it to its full value, since I don&#8217;t have Apache, but it had some neat features. One of them was the ability to use a CDN for things like javascripts, CSS, and images. Since we all know I dig the cloud, I thought it would be cool to migrate this type of content to Amazon <a class="zem_slink" title="CloudFront" rel="homepage" href="https://aws.amazon.com/cloudfront/">CloudFront</a>. I&#8217;m not going to lie and say it was super easy, but it was a great learning experience for me, which is really all that matters.
 
 ## The irony clouds gather
 
@@ -78,10 +78,10 @@ Of course, my initial calculations are that my CloudFront bill for today will be
 
 _Have you ever had a post completely blow up and generate WAY more traffic than you ever expected? Did your server have a complete meltdown, or did you come through unscathed?_ 
 
-Image licensed via Creative Commons from Flickr user <a href="http://www.flickr.com/photos/gmcmullen/" target="_blank">gmcmullen</a>
+Image licensed via Creative Commons from Flickr user <a href="https://www.flickr.com/photos/gmcmullen/" target="_blank">gmcmullen</a>
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/74ddab83-f6a0-4626-94ef-a3bd77f5b3a1/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=74ddab83-f6a0-4626-94ef-a3bd77f5b3a1" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/74ddab83-f6a0-4626-94ef-a3bd77f5b3a1/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=74ddab83-f6a0-4626-94ef-a3bd77f5b3a1" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>
 
  [1]: /wp-content/uploads/outage.png

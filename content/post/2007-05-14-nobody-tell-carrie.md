@@ -12,12 +12,12 @@ categories:
 ---
 <div class="content_box_435">
   <div class="forecastHeaderLeft">
-    <a href="http://wwwa.accuweather.com/adcbin/public/premium_benefits.asp?partner=forecastfox&traveler=0&zipcode=60601&metric=0" target="_blank" class="detailLink">Saturday</a>, May&nbsp;26
+    <a href="https://wwwa.accuweather.com/adcbin/public/premium_benefits.asp?partner=forecastfox&traveler=0&zipcode=60601&metric=0" target="_blank" class="detailLink">Saturday</a>, May&nbsp;26
   </div></p>
 </div>
 
 <div class="fcstIconArea">
-  <img src="http://vortex.accuweather.com/adc2004/common/images/wxicons/52x40/15.gif" alt="T-Storms" class="fcstIcon" title="T-Storms" />
+  <img src="https://vortex.accuweather.com/adc2004/common/images/wxicons/52x40/15.gif" alt="T-Storms" class="fcstIcon" title="T-Storms" />
 </div>
 
 <div class="fcstSmTextBox">

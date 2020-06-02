@@ -44,12 +44,12 @@ _Super secure tip_ &#8211; if you want to be REALLY tight, only give your new ac
 
 WordPress won&#8217;t let you rename an existing account, but we can accomplish this in a roundabout way. Create a new account that will be considered your &#8220;backdoor&#8221; or &#8220;break glass&#8221; admin for your blog. I suggest giving it a name that you will remember, but not something like &#8220;root&#8221; or &#8220;administrator&#8221;. It&#8217;s okay to have the word &#8220;admin&#8221; IN the login name, however. For example, if your blog is called &#8220;Awesome Blog 2000&#8221;, you might call your admin account &#8220;abadmin&#8221;.
 
-Give that account the &#8220;administrator&#8221; role, and set a REALLY strong password for it. It should be 14 characters long, and include letters, numbers, symbols, and mixed case. I recommend using the <a href="http://strongpasswordgenerator.com/" target="_blank">Strong Password Generator</a> website to create this password. Don&#8217;t worry about remembering it &#8211; you&#8217;re going to store this password in a safe place, but not have to remember it in your head.
+Give that account the &#8220;administrator&#8221; role, and set a REALLY strong password for it. It should be 14 characters long, and include letters, numbers, symbols, and mixed case. I recommend using the <a href="https://strongpasswordgenerator.com/" target="_blank">Strong Password Generator</a> website to create this password. Don&#8217;t worry about remembering it &#8211; you&#8217;re going to store this password in a safe place, but not have to remember it in your head.
 
 Now, go into Authors & Users under &#8220;Users&#8221; in your WordPress settings, and delete the account called &#8220;admin&#8221;. If you&#8217;ve been posting as this user, when you delete it, WordPress will ask you who to assign those posts to &#8211; just pick your own personal account for this. No fuss, no muss.
 
-_Lock image from Flickr user_ <a href="http://www.flickr.com/photos/darwinbell/443924168/" target="_blank"><em>Darwin Bell</em></a>
+_Lock image from Flickr user_ <a href="https://www.flickr.com/photos/darwinbell/443924168/" target="_blank"><em>Darwin Bell</em></a>
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/3aab49a5-e52a-45f2-8cd8-abf99f53cca6/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=3aab49a5-e52a-45f2-8cd8-abf99f53cca6" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/3aab49a5-e52a-45f2-8cd8-abf99f53cca6/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=3aab49a5-e52a-45f2-8cd8-abf99f53cca6" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>

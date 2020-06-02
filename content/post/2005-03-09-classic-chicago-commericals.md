@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-&nbsp;<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">A post on&nbsp;<a href="http://www.yehoodi.com/" target="_blank">Yehoodi</a> got me thinking about the Eagle Insurance commerical here in Chicago, which led me to <a href="http://www.bintgoddess.com/2003_08_01_bintlogarchive.html" target="_blank">this page</a>, which lists a bunch of the classic Chicago-area commericals that have amused/annoyed us over the years:</p> 
+&nbsp;<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">A post on&nbsp;<a href="https://www.yehoodi.com/" target="_blank">Yehoodi</a> got me thinking about the Eagle Insurance commerical here in Chicago, which led me to <a href="https://www.bintgoddess.com/2003_08_01_bintlogarchive.html" target="_blank">this page</a>, which lists a bunch of the classic Chicago-area commericals that have amused/annoyed us over the years:</p> 
 
 <p>
   1. Empire Carpet. A classic! The Empire guy doesn&#8217;t appear to have aged at all during my entire tv-watching life. The song has changed a bit over time, adding &#8220;800&#8221; before the 588-2300, but at least you can always depend on the dancing bunnymen at Easter time doing the bunny hop, and the elves doing their &#8220;Jingle Bells&#8221; parody w/Empire guy as Santa (&#8220;588-23-ho-ho!&#8221;). At one time, they were even giving away Empire guy bobbleheads as a promotion. Interestingly, if you see Empire commercials on the Spanish-speaking stations, the Empire guy isn&#8217;t in them. I guess his appeal isn&#8217;t quite universal.
@@ -45,7 +45,7 @@ categories:
 </p>
 
 <p>
-  <img alt=" - " src="http://www.rdrproductions.com/eagleman_pic1.jpg" /><br /> <img alt=" - " src="http://www.rdrproductions.com/eagleman_pic2.jpg" /><br /> <img alt=" - " src="http://www.rdrproductions.com/eagleman_pic3.jpg" />
+  <img alt=" - " src="https://www.rdrproductions.com/eagleman_pic1.jpg" /><br /> <img alt=" - " src="https://www.rdrproductions.com/eagleman_pic2.jpg" /><br /> <img alt=" - " src="https://www.rdrproductions.com/eagleman_pic3.jpg" />
 </p>
 
 <p>

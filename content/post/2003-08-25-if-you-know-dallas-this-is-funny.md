@@ -28,4 +28,4 @@ Ah, to be pampered by gay men.
   
 &#8211; Dallas, Straight Eye for the Queer Shows
 
- [1]: http://animeclub.org/forum/viewtopic.php?t=450
+ [1]: https://animeclub.org/forum/viewtopic.php?t=450

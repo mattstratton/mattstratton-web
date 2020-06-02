@@ -13,7 +13,7 @@ categories:
 <table cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td colspan="2">
-      <a href="http://video.google.com/videoplay?docid=4313772690011721857"> <img alt="Microsoft redesigns iPod packaging" /></a>
+      <a href="https://video.google.com/videoplay?docid=4313772690011721857"> <img alt="Microsoft redesigns iPod packaging" /></a>
     </td>
   </tr>
   
@@ -21,11 +21,11 @@ categories:
     <td>
       <tr bgcolor="#E8E8E8">
         <td>
-          <font face="arial, sans-serif" size="2"><a href="http://video.google.com/videoplay?docid=4313772690011721857">&#8220;<i>Microsoft redesigns iPod packaging</i>&#8221; on Google Video</a></font>
+          <font face="arial, sans-serif" size="2"><a href="https://video.google.com/videoplay?docid=4313772690011721857">&#8220;<i>Microsoft redesigns iPod packaging</i>&#8221; on Google Video</a></font>
         </td>
         
         <td align="right">
-          <a href="http://video.google.com"><img border="0" src="http://video.google.com/nara/miniLogo2.gif" /></a>
+          <a href="https://video.google.com"><img border="0" src="https://video.google.com/nara/miniLogo2.gif" /></a>
         </td>
       </tr>
     </td>

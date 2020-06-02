@@ -18,4 +18,4 @@ It wasn&#8217;t easy, but I did it.
 
 It doesn&#8217;t make it any easier when I come to that conclusion these days either. I guess the only thing that makes it somewhat easier is to realize that perhaps I do that to some girls and I don&#8217;t even know about it. Maybe I don&#8217;t, but I like to think that I do &#8211; it makes it not quite as painful when it happens to me.
 
- [1]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Gaga+Girls&filter=all
+ [1]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Gaga+Girls&filter=all

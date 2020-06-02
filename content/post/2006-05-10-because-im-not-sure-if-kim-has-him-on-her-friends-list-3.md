@@ -17,5 +17,5 @@ Saw this in &#8216;s LJ, but thought would enjoy it:
 
 [![][1]][2]
 
- [1]: http://pics.livejournal.com/tdj/pic/000wt7e5
- [2]: http://scienceblogs.com/insolence/2006/05/how_to_choose_a_career_in_medi.php
+ [1]: https://pics.livejournal.com/tdj/pic/000wt7e5
+ [2]: https://scienceblogs.com/insolence/2006/05/how_to_choose_a_career_in_medi.php

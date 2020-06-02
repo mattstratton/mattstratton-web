@@ -10,4 +10,4 @@ categories:
 ---
 I never knew it was this simple.
 
-<img SRC="http://www.brunching.com/images/oralsexbutton.jpg" WIDTH="75" HEIGHT="45" BORDER="0" ALT="Oral Sex Donations Accepted" />
+<img SRC="https://www.brunching.com/images/oralsexbutton.jpg" WIDTH="75" HEIGHT="45" BORDER="0" ALT="Oral Sex Donations Accepted" />

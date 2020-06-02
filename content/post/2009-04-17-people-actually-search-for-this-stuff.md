@@ -18,7 +18,7 @@ When I&#8217;m feeling lazy on a Friday, a sure-fire &#8220;fun&#8221; post is t
 
 **pimp google reader** &#8211; I wonder if they meant &#8220;pimp&#8221; as a noun or a verb. It would be funny if people were looking for a specific Google Reader for use by pimps. Or maybe a Google device for reading your pimps. The variations are endless! Okay, maybe there&#8217;s just the two.
 
-**yelp mud bath** &#8211; This just plain scares me. Did they want a <a href="http://yelp.com" target="_blank">Yelp</a> review of mud baths? Or a mud bath that makes someone yelp?
+**yelp mud bath** &#8211; This just plain scares me. Did they want a <a href="https://yelp.com" target="_blank">Yelp</a> review of mud baths? Or a mud bath that makes someone yelp?
 
 **what does unyk acronym mean?** &#8211; I kind of want to know this one myself.
 

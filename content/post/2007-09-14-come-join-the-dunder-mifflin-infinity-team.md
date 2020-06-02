@@ -18,4 +18,4 @@ The more people I get to register as &#8220;employees&#8221; of me, the greater 
 
 So if you want to play, go to [www.dundermifflininfinity.com][1], and sign up an an &#8220;employee&#8221; of the Gary, IN branch &#8211; with hiring code y0k0yjw5hz. The first person to sign up under me will earn the coveted title of Assistant to the Regional Manager.
 
- [1]: http://www.dundermifflininfinity.com
+ [1]: https://www.dundermifflininfinity.com

@@ -9,7 +9,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/tjmweb/177723827/" title="photo sharing"><img src="http://static.flickr.com/74/177723827_8a465ddece_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/tjmweb/177723827/">Hannah got hops</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/tjmweb/">Markelz Family</a>. </span>
+  <a href="https://www.flickr.com/photos/tjmweb/177723827/" title="photo sharing"><img src="https://static.flickr.com/74/177723827_8a465ddece_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/tjmweb/177723827/">Hannah got hops</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/tjmweb/">Markelz Family</a>. </span>
 </div>
 
 Your pal and mine, [Trapper][1], posted this picture in his blog.
@@ -20,4 +20,4 @@ I had to put the camera on the piano with a time delay and get it just right&#82
 
 It totally cracks me up. Impressive photog skillz, yo.
 
- [1]: http://www.trappermarkelz.com
+ [1]: https://www.trappermarkelz.com

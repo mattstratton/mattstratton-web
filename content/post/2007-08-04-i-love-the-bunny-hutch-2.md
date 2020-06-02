@@ -10,5 +10,5 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=lunjb9BT0AE  
+https://www.youtube.com/watch?v=lunjb9BT0AE  
 This is just for Kevin and Tracy. And I guess Brian too. But seriously, I love this commercial.

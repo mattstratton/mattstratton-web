@@ -30,15 +30,15 @@ Wooden bedframe &#8211; $10 (fits full-sized mattress)
 
 Make an offer or stop by to check it out! Send an email with any questions or for more information.
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000psrh/s320x240" width="154" height="240" />][1]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000psrh/s320x240" width="154" height="240" />][1]
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000qzbs/s320x240" width="320" height="238" />][2]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000qzbs/s320x240" width="320" height="238" />][2]
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000rhsp/s320x240" width="180" height="240" />][3]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000rhsp/s320x240" width="180" height="240" />][3]
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000sx66/s320x240" width="320" height="186" />][4]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000sx66/s320x240" width="320" height="186" />][4]
 
- [1]: http://pics.livejournal.com/mugsy1274/pic/0000psrh/
- [2]: http://pics.livejournal.com/mugsy1274/pic/0000qzbs/
- [3]: http://pics.livejournal.com/mugsy1274/pic/0000rhsp/
- [4]: http://pics.livejournal.com/mugsy1274/pic/0000sx66/
+ [1]: https://pics.livejournal.com/mugsy1274/pic/0000psrh/
+ [2]: https://pics.livejournal.com/mugsy1274/pic/0000qzbs/
+ [3]: https://pics.livejournal.com/mugsy1274/pic/0000rhsp/
+ [4]: https://pics.livejournal.com/mugsy1274/pic/0000sx66/

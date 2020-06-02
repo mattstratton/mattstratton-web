@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-So I checked out <a href="http://www.eharmony.com" target="_blank">eHarmony</a> at the endorsement/suggestion of several friends.
+So I checked out <a href="https://www.eharmony.com" target="_blank">eHarmony</a> at the endorsement/suggestion of several friends.
 
 Went through the extensive personality test, filled out the whole profile.
 

@@ -20,7 +20,7 @@ Oh, and I discovered that yet another thing interferes with my crappy wireless b
 
 Speaking of which&#8230;I know some of you all are cyclists, so maybe you might have some insight into this.
 
-A few months ago, I bought a <a href="http://www.pricepoint.com/detail/14353-095_SETQV5-0-Search--/Sette-Quantum-X2-v.2.0-Wireless-Computer.htm" target="_blank" class="postlink">Sette Quantum X2 v.2.0 Wireless Computer</a> from Pricepoint. It seemed pretty cool, until lately I noticed it was WILDLY inaccurate. Well, I figured out that the &#8220;inaccuracy&#8221; was coming from the fact that I would bring the computer inside after riding (in order to record the information), and it was picking up signals from my laptop or cell phone, and thinking that I was speeding along at 35 mph while I was sitting at my desk.
+A few months ago, I bought a <a href="https://www.pricepoint.com/detail/14353-095_SETQV5-0-Search--/Sette-Quantum-X2-v.2.0-Wireless-Computer.htm" target="_blank" class="postlink">Sette Quantum X2 v.2.0 Wireless Computer</a> from Pricepoint. It seemed pretty cool, until lately I noticed it was WILDLY inaccurate. Well, I figured out that the &#8220;inaccuracy&#8221; was coming from the fact that I would bring the computer inside after riding (in order to record the information), and it was picking up signals from my laptop or cell phone, and thinking that I was speeding along at 35 mph while I was sitting at my desk.
 
 So I decided to not bring it in anymore. Well, I then found out that if I carry my cell phone in my pocket while riding, it fucks up the reading. So the cell phone went back into the bag.
 
@@ -34,4 +34,4 @@ Therefore, I&#8217;m in the market for a new bike computer. I think I want to av
 
 Any recommendations?
 
- [1]: http://www.bikeforums.net/
+ [1]: https://www.bikeforums.net/

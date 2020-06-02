@@ -12,7 +12,7 @@ My old college friend [Scott Smith][1] has apparently become an arts and enterta
 
 The site is pretty cool. They have a New York version too I guess.
 
- [1]: http://www.chicagoist.com/staff.php#scott
- [2]: http://chicagoist.com
- [3]: http://chicagoist.com/authors.php?author=chicago_scott
- [4]: http://www.chicagoist.com/archives/2004/10/14/dave_eggers_giraffes_and_you.php
+ [1]: https://www.chicagoist.com/staff.php#scott
+ [2]: https://chicagoist.com
+ [3]: https://chicagoist.com/authors.php?author=chicago_scott
+ [4]: https://www.chicagoist.com/archives/2004/10/14/dave_eggers_giraffes_and_you.php

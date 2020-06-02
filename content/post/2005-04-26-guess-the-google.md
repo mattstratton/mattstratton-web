@@ -12,4 +12,4 @@ categories:
 ---
 Courtesy of
 
-Today&#8217;s fun game of the day is <a href="http://grant.robinson.name/projects/guess-the-google/" target="_blank">&#8220;Guess The Google&#8221;</a>. Requires Flash. My high score: 250.
+Today&#8217;s fun game of the day is <a href="https://grant.robinson.name/projects/guess-the-google/" target="_blank">&#8220;Guess The Google&#8221;</a>. Requires Flash. My high score: 250.

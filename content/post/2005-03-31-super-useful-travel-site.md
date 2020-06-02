@@ -14,4 +14,4 @@ Next time you&#8217;re booking a flight, make sure you check out [SeatGuru][1].
 
 It lists different ratings of different seats on various airlines/aircraft. Very helpful stuff!
 
- [1]: http://seatguru.com/
+ [1]: https://seatguru.com/

@@ -9,7 +9,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/92514650@N00/142461759/"><img style="border:solid 2px #000000;" src="http://farm1.static.flickr.com/9/142461759_956b381a0c_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/92514650@N00/142461759/">mini golf crue</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/92514650@N00/">tavist</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/92514650@N00/142461759/"><img style="border:solid 2px #000000;" src="https://farm1.static.flickr.com/9/142461759_956b381a0c_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/92514650@N00/142461759/">mini golf crue</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/92514650@N00/">tavist</a>. </span>
 </div>
 
 This picture is from last spring, but I just came across it in my Flickr favorites, and since the weather is getting nice, I liked it.
@@ -20,4 +20,4 @@ Just sent the address list and final wording to our [invitation lady][1]. Yet an
 
 And&#8230;speaking of, I just noticed an error in the spreadsheet I sent with the addresses. And the error was with Kim. Darn her again! :)
 
- [1]: http://www.styleonabudget.com
+ [1]: https://www.styleonabudget.com

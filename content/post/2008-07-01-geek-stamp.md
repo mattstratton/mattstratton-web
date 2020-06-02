@@ -16,4 +16,4 @@ Because I&#8217;m bored, I&#8217;m going to share with you my Microsoft stamp.
 
 I can&#8217;t help but feel that that Apple certifications must have much nicer looking logos.
 
- [1]: http://farm4.static.flickr.com/3193/2627157783_07c4039a89_o.jpg
+ [1]: https://farm4.static.flickr.com/3193/2627157783_07c4039a89_o.jpg

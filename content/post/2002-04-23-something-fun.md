@@ -18,4 +18,4 @@ I just like the fact that apparently I consider OSX to be a friend. We&#8217;re 
 
 m.
 
- [1]: http://www.livejournal.com/directory.bml?loc_cn=&loc_st=&loc_ci=&ut_days=&age_min=&age_max=&int_like=&fr_user=&fro_user=mugsy1274&opt_format=pics&opt_sort=ut&opt_pagesize=50
+ [1]: https://www.livejournal.com/directory.bml?loc_cn=&loc_st=&loc_ci=&ut_days=&age_min=&age_max=&int_like=&fr_user=&fro_user=mugsy1274&opt_format=pics&opt_sort=ut&opt_pagesize=50

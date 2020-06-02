@@ -15,6 +15,6 @@ tags:
   - Brian
 
 ---
-Happy birthday to <a href="http://brian81773.livejournal.com/" target="_blank">Brian</a>. I was going to get you some candy as a gift, but decided instead to come to your wedding on Saturday.
+Happy birthday to <a href="https://brian81773.livejournal.com/" target="_blank">Brian</a>. I was going to get you some candy as a gift, but decided instead to come to your wedding on Saturday.
 
 You&#8217;re welcome.

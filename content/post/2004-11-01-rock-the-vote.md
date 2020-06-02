@@ -10,7 +10,7 @@ categories:
 ---
 Courtesy of [Fuzzy][1]:
 
-The New York Times has a list of &#8220;<a href="http://www.nytimes.com/2004/11/01/opinion/01mon1.html?ex=1257051600&en=c36c39f1260580f4&ei=5090&partner=rssuserland" target="_blank">What to Do on Election Day</a>&#8221; that includes these items:
+The New York Times has a list of &#8220;<a href="https://www.nytimes.com/2004/11/01/opinion/01mon1.html?ex=1257051600&en=c36c39f1260580f4&ei=5090&partner=rssuserland" target="_blank">What to Do on Election Day</a>&#8221; that includes these items:
 
 5. Know your rights concerning provisional ballots. No voter can be turned away in any state this year without being allowed to vote. If there is a question about your eligibility, you must be allowed to vote on a provisional ballot, the validity of which will be determined later. But if you are entitled to vote on a regular ballot, you should insist on doing so, since a provisional ballot may be disqualified later on a technicality.
 
@@ -20,6 +20,6 @@ The New York Times has a list of &#8220;<a href="http://www.nytimes.com/2004/11/
 
 Here in Chicago, the U.S. attorney&#8217;s office will have a hot line to report voting-related complaints. The number is 312-469-6157.
 
-Via <a href="http://www.kottke.org/04/11/election-day-list" target="_blank">kottke.org</a> and the Trib
+Via <a href="https://www.kottke.org/04/11/election-day-list" target="_blank">kottke.org</a> and the Trib
 
- [1]: http://www.fuzzyco.com
+ [1]: https://www.fuzzyco.com

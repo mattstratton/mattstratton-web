@@ -14,7 +14,7 @@ categories:
 ---
 <div class="zemanta-img" style="margin: 1em; display: block;">
   <div style="width: 250px" class="wp-caption alignright">
-    <a href="http://commons.wikipedia.org/wiki/Image:MarkZuckerberg.jpg"><img class=" " title="Mark Zuckerberg, founder and CEO of Facebook" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MarkZuckerberg.jpg/300px-MarkZuckerberg.jpg" alt="Mark Zuckerberg, founder and CEO of Facebook" width="240" height="320" /></a>
+    <a href="https://commons.wikipedia.org/wiki/Image:MarkZuckerberg.jpg"><img class=" " title="Mark Zuckerberg, founder and CEO of Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MarkZuckerberg.jpg/300px-MarkZuckerberg.jpg" alt="Mark Zuckerberg, founder and CEO of Facebook" width="240" height="320" /></a>
     
     <p class="wp-caption-text">
       Image via Wikipedia
@@ -36,7 +36,7 @@ _Total Pageviews &#8211; 45_
 
 ## Tuesday &#8211; <a href="/life-in-general/a-short-story-with-no-l" target="_self">A short story with no ‘L’</a>
 
-I&#8217;ll admit it. This was a total &#8220;oh, crap&#8230;I have to post something today&#8221; post. I thought the smart move would be to use <a href="http://www.plinky.com/mini/reroute/19677" target="_blank">Plinky</a>, since, well, that&#8217;s what it&#8217;s there for. The suggestion I got was to write a short story without using the letter &#8220;L&#8221;. I attempted that for this post. And not only was it dumb&#8230;I failed, and used an &#8220;L&#8221; after all.
+I&#8217;ll admit it. This was a total &#8220;oh, crap&#8230;I have to post something today&#8221; post. I thought the smart move would be to use <a href="https://www.plinky.com/mini/reroute/19677" target="_blank">Plinky</a>, since, well, that&#8217;s what it&#8217;s there for. The suggestion I got was to write a short story without using the letter &#8220;L&#8221;. I attempted that for this post. And not only was it dumb&#8230;I failed, and used an &#8220;L&#8221; after all.
 
 _Total Pageviews &#8211; 16_
 
@@ -82,4 +82,4 @@ As mentioned before, everything blew up on Monday. Get ready to see some REALLY 
 
 What are we learning? Well, one thing is that when you blow up on a site like Digg or Reddit, your bounce rate and PPV goes into the crapper. Mostly because you start to have REALLY targeted visitors. Those guys come in to see ONE post, but they tend to not stick around and see what else you have to say. Which, in a nutshell, means it&#8217;s not terribly helpful for building RETURN traffic.
 
- [1]: http://twitter.com/jenniferalaine
+ [1]: https://twitter.com/jenniferalaine

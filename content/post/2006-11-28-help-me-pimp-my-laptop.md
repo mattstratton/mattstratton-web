@@ -50,28 +50,28 @@ And here are the Greasemonkey scripts I have:
 
 What else do you guys find important? What other tools are great finds? (This is for my Windows laptop, so OS X stuff is not really on-topic, but I wouldn&#8217;t mind hearing what you had to say in that arena as well)
 
- [1]: http://www.mozilla.com/en-US/
- [2]: http://gaim.sourceforge.net
- [3]: http://desktop.google.com/
- [4]: http://www.alphaworks.ibm.com/tech/notesbuddy
- [5]: http://www.apple.com/itunes
- [6]: http://www.mirekw.com/winfreeware/pins.html
- [7]: http://deepestsender.mozdev.org/
- [8]: http://del.icio.us/help/firefox/extension
- [9]: http://fasterfox.mozdev.org/
- [10]: http://www.google.com/tools/firefox/browsersync/
- [11]: http://greasemonkey.mozdev.org/
- [12]: http://users.blueprintit.co.uk/%7Edave/web/firefox/nightly
- [13]: http://adblockplus.org/
+ [1]: https://www.mozilla.com/en-US/
+ [2]: https://gaim.sourceforge.net
+ [3]: https://desktop.google.com/
+ [4]: https://www.alphaworks.ibm.com/tech/notesbuddy
+ [5]: https://www.apple.com/itunes
+ [6]: https://www.mirekw.com/winfreeware/pins.html
+ [7]: https://deepestsender.mozdev.org/
+ [8]: https://del.icio.us/help/firefox/extension
+ [9]: https://fasterfox.mozdev.org/
+ [10]: https://www.google.com/tools/firefox/browsersync/
+ [11]: https://greasemonkey.mozdev.org/
+ [12]: https://users.blueprintit.co.uk/%7Edave/web/firefox/nightly
+ [13]: https://adblockplus.org/
  [14]: https://addons.mozilla.org/firefox/3780/
- [15]: http://ietab.mozdev.org/
- [16]: http://userscripts.org/scripts/show/3299
- [17]: http://userscripts.org/scripts/show/4716
- [18]: http://userscripts.org/scripts/show/3316
- [19]: http://userscripts.org/scripts/show/1667
- [20]: http://userscripts.org/scripts/show/1348
- [21]: http://userscripts.org/scripts/show/1287
- [22]: http://userscripts.org/scripts/show/1704
- [23]: http://userscripts.org/scripts/show/4811
- [24]: http://userscripts.org/scripts/show/3992
- [25]: http://userscripts.org/scripts/show/6178
+ [15]: https://ietab.mozdev.org/
+ [16]: https://userscripts.org/scripts/show/3299
+ [17]: https://userscripts.org/scripts/show/4716
+ [18]: https://userscripts.org/scripts/show/3316
+ [19]: https://userscripts.org/scripts/show/1667
+ [20]: https://userscripts.org/scripts/show/1348
+ [21]: https://userscripts.org/scripts/show/1287
+ [22]: https://userscripts.org/scripts/show/1704
+ [23]: https://userscripts.org/scripts/show/4811
+ [24]: https://userscripts.org/scripts/show/3992
+ [25]: https://userscripts.org/scripts/show/6178

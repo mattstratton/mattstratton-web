@@ -22,7 +22,7 @@ Man, this was a long day. Quick recap now, maybe more later (yeah, right).
   * I got many compliments on my new suit. I felt sharp. Plus, a girl told me that I was &#8220;handsome&#8221; and that &#8220;not many men can match their shirt to their eyes&#8221;. Of course, I have brownish-hazel eyes, and was wearing a cobalt shirt, so take that as you will.
   * It&#8217;s been totally fun hanging out with **[Emmysue][4]**.
 
- [1]: http://www.flickr.com/photos/64995367@N00/48428127/
- [2]: http://www.flickr.com/photos/kang/48284874/
- [3]: http://www.flickr.com/photos/20436130@N00/48350615/
- [4]: http://www.flickr.com/photos/20436130@N00/48351500/
+ [1]: https://www.flickr.com/photos/64995367@N00/48428127/
+ [2]: https://www.flickr.com/photos/kang/48284874/
+ [3]: https://www.flickr.com/photos/20436130@N00/48350615/
+ [4]: https://www.flickr.com/photos/20436130@N00/48351500/

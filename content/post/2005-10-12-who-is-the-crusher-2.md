@@ -39,63 +39,63 @@ I&#8217;ve limited this post to only people who read Yehoodi, and made it so onl
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://bluemekka.livejournal.com/"><strong>bluemekka</strong></a></span> &#8212; marcelo&#8217;s mom.
+      <span class="ljuser"><a href="https://bluemekka.livejournal.com/"><strong>bluemekka</strong></a></span> &#8212; marcelo&#8217;s mom.
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://rachakate.livejournal.com/"><strong>rachakate</strong></a></span> &#8212; HAHAHA you think I read yehoodi!!!
+      <span class="ljuser"><a href="https://rachakate.livejournal.com/"><strong>rachakate</strong></a></span> &#8212; HAHAHA you think I read yehoodi!!!
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://m-is-for-meg.livejournal.com/"><strong>m_is_for_meg</strong></a></span> &#8212; fools run
+      <span class="ljuser"><a href="https://m-is-for-meg.livejournal.com/"><strong>m_is_for_meg</strong></a></span> &#8212; fools run
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://suchagirliegirl.livejournal.com/"><strong>suchagirliegirl</strong></a></span> &#8212; Arcecat?
+      <span class="ljuser"><a href="https://suchagirliegirl.livejournal.com/"><strong>suchagirliegirl</strong></a></span> &#8212; Arcecat?
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://glitterlisa.livejournal.com/"><strong>glitterlisa</strong></a></span> &#8212; emmysue!
+      <span class="ljuser"><a href="https://glitterlisa.livejournal.com/"><strong>glitterlisa</strong></a></span> &#8212; emmysue!
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://swifty0682.livejournal.com/"><strong>swifty0682</strong></a></span> &#8212; Emmysue?
+      <span class="ljuser"><a href="https://swifty0682.livejournal.com/"><strong>swifty0682</strong></a></span> &#8212; Emmysue?
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://kathy-skadoo.livejournal.com/"><strong>kathy_skadoo</strong></a></span> &#8212; Yes.
+      <span class="ljuser"><a href="https://kathy-skadoo.livejournal.com/"><strong>kathy_skadoo</strong></a></span> &#8212; Yes.
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://rickimsears.livejournal.com/"><strong>rickimsears</strong></a></span> &#8212; Marcelo
+      <span class="ljuser"><a href="https://rickimsears.livejournal.com/"><strong>rickimsears</strong></a></span> &#8212; Marcelo
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://nuprinz.livejournal.com/"><strong>nuprinz</strong></a></span> &#8212; frankyboy
+      <span class="ljuser"><a href="https://nuprinz.livejournal.com/"><strong>nuprinz</strong></a></span> &#8212; frankyboy
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://vsb.livejournal.com/"><strong>vsb</strong></a></span> &#8212; Amy or mouth (I really have no clue)
+      <span class="ljuser"><a href="https://vsb.livejournal.com/"><strong>vsb</strong></a></span> &#8212; Amy or mouth (I really have no clue)
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://mteson.livejournal.com/"><strong>mteson</strong></a></span> &#8212; Drew
+      <span class="ljuser"><a href="https://mteson.livejournal.com/"><strong>mteson</strong></a></span> &#8212; Drew
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://yes-she-does.livejournal.com/"><strong>yes_she_does</strong></a></span> &#8212; emmysue
+      <span class="ljuser"><a href="https://yes-she-does.livejournal.com/"><strong>yes_she_does</strong></a></span> &#8212; emmysue
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://drewfansler.livejournal.com/"><strong>drewfansler</strong></a></span> &#8212; skadoo
+      <span class="ljuser"><a href="https://drewfansler.livejournal.com/"><strong>drewfansler</strong></a></span> &#8212; skadoo
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://grumpyoldhepcat.livejournal.com/"><strong>grumpyoldhepcat</strong></a></span> &#8212; Frankyboy
+      <span class="ljuser"><a href="https://grumpyoldhepcat.livejournal.com/"><strong>grumpyoldhepcat</strong></a></span> &#8212; Frankyboy
     </div>
     
     <div>
-      <span class="ljuser"><a href="http://shanabanana.livejournal.com/"><strong>shanabanana</strong></a></span> &#8212; Amy?
+      <span class="ljuser"><a href="https://shanabanana.livejournal.com/"><strong>shanabanana</strong></a></span> &#8212; Amy?
     </div>
   </div>
 </div>

@@ -14,4 +14,4 @@ Check out his shirt:
 
 ![joss.rules][1]
 
- [1]: http://www.slayage.com/news/images/joss_whedon_buffy_closed.jpg
+ [1]: https://www.slayage.com/news/images/joss_whedon_buffy_closed.jpg

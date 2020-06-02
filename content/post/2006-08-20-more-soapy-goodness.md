@@ -20,8 +20,8 @@ In order to completely overdose on Snakes on a Plane crap, I give you these hand
 
 [_Snakes on a Plane_ Auditions][5]
 
- [1]: http://snakeplay.pbwiki.com/script
- [2]: http://youtube.com/watch?v=ihAoSwQqo44
- [3]: http://www.youtube.com/watch?v=c746JvOqDco
- [4]: http://www.cobrastarship.com/
- [5]: http://www.youtube.com/watch?v=PUgl_8fI-XQ
+ [1]: https://snakeplay.pbwiki.com/script
+ [2]: https://youtube.com/watch?v=ihAoSwQqo44
+ [3]: https://www.youtube.com/watch?v=c746JvOqDco
+ [4]: https://www.cobrastarship.com/
+ [5]: https://www.youtube.com/watch?v=PUgl_8fI-XQ

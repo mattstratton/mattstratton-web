@@ -22,7 +22,7 @@ image: /wp-content/uploads/mary-presents.png
 
 My roommate, <a href="https://twitter.com/marywallyall" target="_blank">Mary</a>, has &#8220;adopted&#8221; not one, not two, but THREE families in need this Christmas. Last year she adopted a family of six, and had such an amazing experience she decided to up it by a factor of three.
 
-You can donate using <a href="http://www.paypal.com" target="_blank">Paypal</a>, <a href="https://www.chase.com/online-banking/quickpay" target="_blank">Chase Quickpay</a>, <a href="https://www.google.com/wallet/" target="_blank">Google Wallet</a>, or <a href="https://square.com/cash" target="_blank">Square Cash</a> by sending the payments to [notcontrary [at] gmail [dot] com][1].
+You can donate using <a href="https://www.paypal.com" target="_blank">Paypal</a>, <a href="https://www.chase.com/online-banking/quickpay" target="_blank">Chase Quickpay</a>, <a href="https://www.google.com/wallet/" target="_blank">Google Wallet</a>, or <a href="https://square.com/cash" target="_blank">Square Cash</a> by sending the payments to [notcontrary [at] gmail [dot] com][1].
 
 Here are the details of the adopted families:
 

@@ -19,7 +19,7 @@ So since a couple of my friends have just recently gotten themselves some dope R
 
 <span style="font-size: medium;"><strong>Books</strong></span>
   
-<a href="http://www.amazon.com/Understanding-Exposure-Photographs-Digital-Updated/dp/0817463003%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0817463003" target="_blank"><em>Understanding Exposure</em></a> by Bryan Peterson
+<a href="https://www.amazon.com/Understanding-Exposure-Photographs-Digital-Updated/dp/0817463003%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0817463003" target="_blank"><em>Understanding Exposure</em></a> by Bryan Peterson
   
 Get this book. Read it fifteen times. Take a bunch of pictures. Read the book another fifteen times. Your pictures will be about 100% better. This is a fantastic book that helps you understand the basics of aperture, ISO, and shutter speed, but more than anything else, makes you realize that it&#8217;s not about just getting a good exposure, but that there are lots of different _creative_ exposures in any situation. I love this book.
 
@@ -53,11 +53,11 @@ A major digital photography site &#8211; one thing that I think is cool is they 
 
 <span style="font-size: medium;"><strong>Gear</strong></span>
   
-<a href="http://www.amazon.com/Opteka-Battery-Vertical-Shutter-Batteries/dp/B001HK4LWA%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001HK4LWA" target="_blank">Opteka Battery Pack Grip  with 2 NB-2LH Batteries</a>
+<a href="https://www.amazon.com/Opteka-Battery-Vertical-Shutter-Batteries/dp/B001HK4LWA%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001HK4LWA" target="_blank">Opteka Battery Pack Grip  with 2 NB-2LH Batteries</a>
   
 This is a pretty good grip, and it&#8217;s a lot cheaper than the Canon-branded one. Plus, it comes with two batteries. Here&#8217;s a tip &#8211; don&#8217;t buy the Canon branded batteries; the third-party ones are much cheaper and just as good. And you always, always want extra batteries.
 
-<a href="http://www.amazon.com/Canon-50mm-1-8-Camera-Lens/dp/B00007E7JU%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00007E7JU" target="_blank">Canon EF 50mm f/1.8 II Lens</a>
+<a href="https://www.amazon.com/Canon-50mm-1-8-Camera-Lens/dp/B00007E7JU%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00007E7JU" target="_blank">Canon EF 50mm f/1.8 II Lens</a>
   
 Is this the best lens you&#8217;ll ever buy? Not by a long shot. But for the price, you really can&#8217;t justify not owning it. Yes, it&#8217;s plastic-feeling and light, and the autofocus hunts for years when shooting in low light, but if you want that really shallow DOF, you can&#8217;t beat it for the price. Buy it. You&#8217;ll thank me later.
 
@@ -69,7 +69,7 @@ I&#8217;ll be honest. I don&#8217;t own this bag &#8211; yet. But it will probab
   
 This is another piece of gear that I don&#8217;t currently own, but really want. You really have to get the flash off of the camera to use it &#8211; although since I don&#8217;t have $200+ laying around right now, I am suffering through with the on-camera flash. This is an area that I still have more research to do on, but I&#8217;ve heard nothing but good stuff about the 430EX. You can get a cheaper flash, but you&#8217;ll lose the ability to bounce it (among other things) so I don&#8217;t think it&#8217;s worth it..
 
-<span class="sans"><a href="http://www.amazon.com/gp/product/B000BAX50G/104-5106653-1652764">Lowepro SlingShot 100 All-Weather Digital Camera Backpack</a><br /> I got this bag right before we went Up North this summer, to replace my Off Trail 1, which I hated. And I like this bag a lot. It&#8217;s not very heavy, and while the &#8220;sling&#8221; portion took some getting used to (it must be worn on the opposite shoulder than I am used to for my messenger bag), I find it pretty comfortable. I can store my 350D with kit lens, both of my other lenses, all of my memory cards, extra batteries, our point and shoot, and my filters all in the same bag. Pretty nice.<br /> </span>
+<span class="sans"><a href="https://www.amazon.com/gp/product/B000BAX50G/104-5106653-1652764">Lowepro SlingShot 100 All-Weather Digital Camera Backpack</a><br /> I got this bag right before we went Up North this summer, to replace my Off Trail 1, which I hated. And I like this bag a lot. It&#8217;s not very heavy, and while the &#8220;sling&#8221; portion took some getting used to (it must be worn on the opposite shoulder than I am used to for my messenger bag), I find it pretty comfortable. I can store my 350D with kit lens, both of my other lenses, all of my memory cards, extra batteries, our point and shoot, and my filters all in the same bag. Pretty nice.<br /> </span>
   
 <span style="font-size: medium;"><strong>Software</strong></span>
   
@@ -78,18 +78,18 @@ I&#8217;m actually not going to be TERRIBLY useful for non-Mac users on this sub
 So that&#8217;s that. I will keep this post updated as I get/learn about new gear and resources, and of course, any tips and comments you all might have.
 
  [1]: /2004/11/28/helpful-firefox-install-action/
- [2]: http://jodiemim.livejournal.com/
- [3]: http://swifty0682.livejournal.com/
- [4]: http://www.amazon.com/Digital-Photography-Book-Scott-Kelby/dp/032147404X%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D032147404X
- [5]: http://www.amazon.com/Photoshop-Digital-Photographers-Voices-Matter/dp/0321330625/
- [6]: http://www.amazon.com/Magic-Lantern-Guides-Digital-Photography/dp/157990761X%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D157990761X
- [7]: http://del.icio.us/mattstratton/photography
- [8]: http://www.usa.canon.com/content/rebelxt_tutorial/rebelxtlessons.htm
- [9]: http://photography-on-the.net/forum/index.php
- [10]: http://www.fredmiranda.com/
- [11]: http://www.tamrac.com/5747.htm
- [12]: http://www.ebags.com/lowepro/off_trail_1/product_detail/index.cfm?modelid=3327
- [13]: http://www.amazon.com/Canon-430EX-Speedlite-Flash-Cameras/dp/B000AO3L84/
- [14]: http://www.apple.com/aperture/
- [15]: http://www.adobe.com/products/photoshop/photoshop/
- [16]: http://connectedflow.com/flickrexport/aperture/
+ [2]: https://jodiemim.livejournal.com/
+ [3]: https://swifty0682.livejournal.com/
+ [4]: https://www.amazon.com/Digital-Photography-Book-Scott-Kelby/dp/032147404X%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D032147404X
+ [5]: https://www.amazon.com/Photoshop-Digital-Photographers-Voices-Matter/dp/0321330625/
+ [6]: https://www.amazon.com/Magic-Lantern-Guides-Digital-Photography/dp/157990761X%3FSubscriptionId%3D02E5W5871AJF7PMMMS82%26tag%3Dstraigeyefort-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D157990761X
+ [7]: https://del.icio.us/mattstratton/photography
+ [8]: https://www.usa.canon.com/content/rebelxt_tutorial/rebelxtlessons.htm
+ [9]: https://photography-on-the.net/forum/index.php
+ [10]: https://www.fredmiranda.com/
+ [11]: https://www.tamrac.com/5747.htm
+ [12]: https://www.ebags.com/lowepro/off_trail_1/product_detail/index.cfm?modelid=3327
+ [13]: https://www.amazon.com/Canon-430EX-Speedlite-Flash-Cameras/dp/B000AO3L84/
+ [14]: https://www.apple.com/aperture/
+ [15]: https://www.adobe.com/products/photoshop/photoshop/
+ [16]: https://connectedflow.com/flickrexport/aperture/

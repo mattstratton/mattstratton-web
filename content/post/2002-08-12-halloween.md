@@ -14,4 +14,4 @@ Last year I was Inigo Montoya.
 
 The year before I was the [Chicken Buddha][1].
 
- [1]: http://www.chickenbuddha.com
+ [1]: https://www.chickenbuddha.com

@@ -12,8 +12,8 @@ categories:
 ---
 As you may recall, the other day I posted a David Sedaris story about Easter. Actually, it was more about French lessons.
 
-Well, I also posted it on <a href="http://www.windyhop.org" target="_blank">Windyhop</a>. And I got a major <a href="http://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=009226" target="_blank">over-reaction</a> from a fella who just doesn&#8217;t like me.
+Well, I also posted it on <a href="https://www.windyhop.org" target="_blank">Windyhop</a>. And I got a major <a href="https://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=009226" target="_blank">over-reaction</a> from a fella who just doesn&#8217;t like me.
 
-Actually, he&#8217;s mostly still holding a grudge against me for <a href="http://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=003357" target="_blank">a &#8220;Night Before Christmas&#8221; spoof</a> I posted a few years ago.
+Actually, he&#8217;s mostly still holding a grudge against me for <a href="https://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=003357" target="_blank">a &#8220;Night Before Christmas&#8221; spoof</a> I posted a few years ago.
 
 Stupid people make my intellect sad.

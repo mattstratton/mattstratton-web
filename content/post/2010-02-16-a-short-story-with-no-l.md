@@ -27,5 +27,5 @@ categories:
 </p>
 
 <p class="plinky_badge_rid:19677" style="clear: both; margin: 0; padding: 0; margin-top: 10px; font-size: 13px; font-family: Georgia; line-height: 24px;">
-  <a href="http://www.plinky.com/mini/reroute/19677"> <img style="border: 0; padding-right: 4px; vertical-align: middle;" src="http://www.plinky.com/proxy/badge?id=19677" alt="" /> </a>
+  <a href="https://www.plinky.com/mini/reroute/19677"> <img style="border: 0; padding-right: 4px; vertical-align: middle;" src="https://www.plinky.com/proxy/badge?id=19677" alt="" /> </a>
 </p>

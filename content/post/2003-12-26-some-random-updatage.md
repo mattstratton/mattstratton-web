@@ -22,9 +22,9 @@ Thursday I chilled at home most of the day, and then went to see _Big Fish_ with
 
 Today I am watching TV and will go into work for a bit later to change tapes.
 
-Oh! Don&#8217;t forget to visit <a href="http://www.filmtease.com" target="_blank">Filmtease</a> to check out the hot crossover action with Dallas and myself as guest reviewers.
+Oh! Don&#8217;t forget to visit <a href="https://www.filmtease.com" target="_blank">Filmtease</a> to check out the hot crossover action with Dallas and myself as guest reviewers.
 
 [![][1]][2] Evanescence &#8211; &#8220;Going Under&#8221;
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

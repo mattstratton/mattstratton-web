@@ -12,4 +12,4 @@ OK&#8230;I just started exploring it&#8230;but [Triggerstreet.com][1] seems pret
 
 m.
 
- [1]: http://www.triggerstreet.com
+ [1]: https://www.triggerstreet.com

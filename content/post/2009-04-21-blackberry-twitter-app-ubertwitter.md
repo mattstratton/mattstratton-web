@@ -15,13 +15,13 @@ tags:
   - Twitter
 
 ---
-Twitter is something that has become a part of my daily life. When I&#8217;m on my computer(s), I use <a href="http://www.tweetdeck.com" target="_blank">TweetDeck</a> to keep up with all of the folks that I follow, and it&#8217;s really a robust solution. However, a good portion of my time is spent away from a computer, so I am reliant upon my BlackBerry for all internet-type things.
+Twitter is something that has become a part of my daily life. When I&#8217;m on my computer(s), I use <a href="https://www.tweetdeck.com" target="_blank">TweetDeck</a> to keep up with all of the folks that I follow, and it&#8217;s really a robust solution. However, a good portion of my time is spent away from a computer, so I am reliant upon my BlackBerry for all internet-type things.
 
 Previously, I posted my [BlackBerry Twitter Client Shoot-Out][1], in which I reviewed four of the main Twitter apps for the BlackBerry. As a result of that evaluation, I determined that TinyTwitter was the clear champion in this space. However, since then, a new piece of software has been released, and despite a few oddities and minor issues, it has now become my go-to app for Twittering on my BB.
 
 What is this magical software, you ask?
 
-<a href="http://www.ubertwitter.com/" target="_blank"><strong>ÜberTwitter</strong></a>.
+<a href="https://www.ubertwitter.com/" target="_blank"><strong>ÜberTwitter</strong></a>.
 
 The main appeal of ÜberTwitter (hereafter referred to as &#8220;UT&#8221;), to me, is how slick and seamless it is. It&#8217;s a piece of software where the designers clearly thought through the usability. It follows the BlackBerry keyboard shortcut conventions (&#8220;T&#8221; for &#8220;top&#8221;, &#8220;B&#8221; for bottom, etc), and it does not &#8220;steal focus&#8221; on updates. Integration is clear and it&#8217;s very easy to figure out how to do just about anything you need to do.
 
@@ -61,7 +61,7 @@ Like all apps, UT is not without its issues. You can only attach a photo to a tw
 
 Overall, ÜberTwitter is my new favorite BlackBerry app, period. If you use a BlackBerry and you are a Twitter user, I can&#8217;t recommend this app enough. Give it a try &#8211; I think you&#8217;ll really enjoy it!
 
-<a href="http://www.ubertwitter.com/" target="_blank"><strong>Download ÜberTwitter</strong></a>
+<a href="https://www.ubertwitter.com/" target="_blank"><strong>Download ÜberTwitter</strong></a>
 
 _Are you an ÜberTwitter user? Have another favorite app that you think blows UT out of the water? Let me know in the comments!_
 

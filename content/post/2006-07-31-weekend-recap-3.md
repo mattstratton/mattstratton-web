@@ -15,7 +15,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/7409603/"><img style="border:solid 2px #000000;" src="http://static.flickr.com/7/7409603_f84ce05d95_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/7409603/">Kristen</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/7409603/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/7/7409603_f84ce05d95_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/7409603/">Kristen</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Pretty good weekend, all told.
@@ -28,4 +28,4 @@ Sunday was a lazy day. We had breakfast at the Golden Angel (mostly so that I co
 
 Tomorrow morning, Carrie and Scout are leaving for Michigan, and they&#8217;ll be gone for a week. I wonder if I remember how to be a bachelor :)
 
- [1]: http://flickr.com/photos/mugsy/tags/sammy
+ [1]: https://flickr.com/photos/mugsy/tags/sammy

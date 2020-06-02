@@ -14,4 +14,4 @@ Some highlights of some hilarious exchanges in the world of online dating.
 
 **[OnlineDatingMorons.com][1]**
 
- [1]: http://www.onlinedatingmorons.com
+ [1]: https://www.onlinedatingmorons.com

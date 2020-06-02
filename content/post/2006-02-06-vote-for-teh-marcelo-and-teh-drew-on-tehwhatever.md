@@ -18,17 +18,17 @@ My friends and are in the final ten for a cool little video contest at Gizmodo. 
 > 
 > **All you have to do is go here:</p> 
 > 
-> <http://gizmodo.com/gadgets/announcements/laptop-confidential-vote-time-153088.php>
+> <https://gizmodo.com/gadgets/announcements/laptop-confidential-vote-time-153088.php>
 > 
 > And vote for our movie (called &#8220;Sucker for Dames&#8221;). You don&#8217;t need to register or give your email address or anything. Just click and vote.</strong>
 > 
 > You can see the first five finalists (including ours) here:
 > 
-> <http://gizmodo.com/gadgets/announcements/laptop-confidential-finale-uno-153079.php>
+> <https://gizmodo.com/gadgets/announcements/laptop-confidential-finale-uno-153079.php>
 > 
 > The second five are here:
 > 
-> <http://gizmodo.com/gadgets/announcements/laptop-confidential-finale-dos-153083.php>
+> <https://gizmodo.com/gadgets/announcements/laptop-confidential-finale-dos-153083.php>
 > 
 > We&#8217;re really proud of our little film and we truly think it&#8217;s the best one of the ten. We&#8217;d really appreciate your help in making it number one! Again, you don&#8217;t have to register or give an email address or anything &#8211; just go to the URL and vote! It really doesn&#8217;t take any time.
 > 

@@ -14,4 +14,4 @@ I think all the hate broke [teh Yehoodi][1].
 
 And I was just trying to post something funny about the Russian Mafia.
 
- [1]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com

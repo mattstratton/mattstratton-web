@@ -22,6 +22,6 @@ The government &#8212; a sprawling, bureaucracy-choked, socially-minded morass &
 
 Voting is voluntary. Crime &#8212; especially youth-related &#8212; is relatively low. Bubbleshorts&#8217;s national animal is the mongoose, which frolics freely in the nation&#8217;s many lush forests, and its currency is the doodle.</em>
 
- [1]: http://www.nationstates.net/
- [2]: http://rikomatic.typepad.com/blog/2006/01/i_am_the_ruler_.html
- [3]: http://www.nationstates.net/bubbleshorts
+ [1]: https://www.nationstates.net/
+ [2]: https://rikomatic.typepad.com/blog/2006/01/i_am_the_ruler_.html
+ [3]: https://www.nationstates.net/bubbleshorts

@@ -26,5 +26,5 @@ On an unrelated note, I am digging this song I&#8217;m listening to right now. &
 
 [![][1]][2] Dynamite Hack &#8211; Boyz-N-The Hood
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

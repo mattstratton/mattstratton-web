@@ -15,6 +15,6 @@ tags:
   - Erika
 
 ---
-Happy smoocherific berfday to <a href="http://belcanto88.livejournal.com" target="_blank">Erika</a>!
+Happy smoocherific berfday to <a href="https://belcanto88.livejournal.com" target="_blank">Erika</a>!
 
 May this next year bring you lots of hot boys with no shirts on.

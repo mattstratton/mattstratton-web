@@ -5,20 +5,20 @@ layout: post
 date: 2011-09-05T13:02:33+00:00
 url: /life-in-general/thats-my-philosophy-marti
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/fry.png
+  - https://cdn.mattstratton.com/wp-content/uploads/fry.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/fry-tn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/fry-tn.png
 dsq_thread_id:
   - 405267107
 categories:
   - Personal
 
 ---
-The <a href="http://www.purekatherine.com/2011/09/welcome-to-beds/" target="_blank">BEDS</a> prompt for today is to share a &#8220;favorite quote&#8221;. Now, given that it is Labor Day, it seems only appropriate to share a quotation (quote is a verb, quotation is a noun) that is inspirational.
+The <a href="https://www.purekatherine.com/2011/09/welcome-to-beds/" target="_blank">BEDS</a> prompt for today is to share a &#8220;favorite quote&#8221;. Now, given that it is Labor Day, it seems only appropriate to share a quotation (quote is a verb, quotation is a noun) that is inspirational.
 
 I am not going to do that. I am totally rebellous* like that.
 

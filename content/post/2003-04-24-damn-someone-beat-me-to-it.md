@@ -14,4 +14,4 @@ So apparently the guy who [hacked Madonna&#8217;s website][1] also proposed marr
 
 Vote for Morgan over Leeann Tweeden here.
 
- [1]: http://www.thesmokinggun.com/archive/madonnasplash1.html
+ [1]: https://www.thesmokinggun.com/archive/madonnasplash1.html

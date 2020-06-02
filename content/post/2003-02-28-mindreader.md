@@ -12,7 +12,7 @@ categories:
 ---
 Hmm&#8230;this is pretty intense:
 
-http://mr-31238.mr.valuehost.co.uk/assets/Flash/psychic.swf
+https://mr-31238.mr.valuehost.co.uk/assets/Flash/psychic.swf
 
 Anyone figured that one out yet?
 

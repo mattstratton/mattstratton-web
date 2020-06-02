@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-My good friend <a href="http://dailykitty.blogspot.com" target="_new">Kitty</a> is doing that Avon Walk thing. And one of the things she&#8217;s doing to raise money for it is playing some cool music. And you can come listen to it!
+My good friend <a href="https://dailykitty.blogspot.com" target="_new">Kitty</a> is doing that Avon Walk thing. And one of the things she&#8217;s doing to raise money for it is playing some cool music. And you can come listen to it!
 
 Here is what she has to say about it:
 
@@ -24,4 +24,4 @@ Couple of quick things to mention: the location is a dance studio, so there aren
 
 But come on out! Bring your friends! Bring your neighbors! Bring your friend&#8217;s neighbors and your neighbor&#8217;s friends! And thank you thank you thank you for your support!!!</i>
 
-For more information, or to make a donation, visit her <a href="http://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_new">Avon Walk Page</a>.
+For more information, or to make a donation, visit her <a href="https://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_new">Avon Walk Page</a>.

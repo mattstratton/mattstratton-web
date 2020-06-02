@@ -47,7 +47,7 @@ There are a bunch of other great features of the G-Voice system &#8211; as menti
 
 Another method is by calling your own Google Voice number from one of your phones, and then walking through a menu to dial the number. Also not very easy, but if you put the speedial and pause commands into your phone, you can automate it somehow.
 
-The best method would be to use an app on a smartphone to handle all the dialing for you. <a href="http://www.google.com/mobile/products/voice.html#p=blackberry" target="_blank">Google recently released official apps for both the BlackBerry and for Android</a> to handle this. There is no &#8220;official&#8221; iPhone app yet, but there&#8217;s a decent one in the app store (it&#8217;s not free, but I don&#8217;t think it&#8217;s very expensive either).
+The best method would be to use an app on a smartphone to handle all the dialing for you. <a href="https://www.google.com/mobile/products/voice.html#p=blackberry" target="_blank">Google recently released official apps for both the BlackBerry and for Android</a> to handle this. There is no &#8220;official&#8221; iPhone app yet, but there&#8217;s a decent one in the app store (it&#8217;s not free, but I don&#8217;t think it&#8217;s very expensive either).
 
 To make a call using the BlackBerry app, you navigate to the person you want to call in your address book, and then using the context menu, choose &#8220;Call With Google Voice&#8221;, as you can see here:
 
@@ -67,16 +67,16 @@ What do you think? Have you tried Google Voice yet? Are you eagerly waiting for 
 
 <ul class="zemanta-article-ul">
   <li class="zemanta-article-ul-li">
-    <a href="http://laughingsquid.com/google-releases-new-google-voice-mobile-web-app-for-iphone-palm-webos/">Google Releases New Google Voice Mobile Web App For iPhone & Palm WebOS</a> (laughingsquid.com)
+    <a href="https://laughingsquid.com/google-releases-new-google-voice-mobile-web-app-for-iphone-palm-webos/">Google Releases New Google Voice Mobile Web App For iPhone & Palm WebOS</a> (laughingsquid.com)
   </li>
   <li class="zemanta-article-ul-li">
-    <a href="http://www.macworld.com/article/145902/2010/01/voice_webapp.html?lsrc=rss_main">Google Voice rolls out iPhone Web app</a> (macworld.com)
+    <a href="https://www.macworld.com/article/145902/2010/01/voice_webapp.html?lsrc=rss_main">Google Voice rolls out iPhone Web app</a> (macworld.com)
   </li>
   <li class="zemanta-article-ul-li">
-    <a href="http://news.cnet.com/8301-19882_3-10440921-250.html?part=rss&subj=news&tag=2547-1_3-0-20">Hands-on with Google Voice for the iPhone</a> (news.cnet.com)
+    <a href="https://news.cnet.com/8301-19882_3-10440921-250.html?part=rss&subj=news&tag=2547-1_3-0-20">Hands-on with Google Voice for the iPhone</a> (news.cnet.com)
   </li>
 </ul>
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/53acc630-5395-4545-968f-b65701eb3c03/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=53acc630-5395-4545-968f-b65701eb3c03" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/53acc630-5395-4545-968f-b65701eb3c03/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="https://img.zemanta.com/reblog_e.png?x-id=53acc630-5395-4545-968f-b65701eb3c03" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>

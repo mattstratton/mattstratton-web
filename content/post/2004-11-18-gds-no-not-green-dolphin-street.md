@@ -24,4 +24,4 @@ Anyone else have any thoughts?
 
 <font color="#ccccff">yes, I read the brouhaha on /. a while ago about how you can theoretically search the files of other users on the same computer if you&#8217;re an admin, blah blah blah&#8230;well, nobody gets to use my computer but me, so I don&#8217;t much care.</font>
 
- [1]: http://www.desktop.google.com/
+ [1]: https://www.desktop.google.com/

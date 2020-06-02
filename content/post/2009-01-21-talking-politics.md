@@ -38,7 +38,7 @@ Score: -5.62
   
 [Political Spectrum Quiz][2]
 
- [1]: http://www.gotoquiz.com/politics/grid/12x24.gif
- [2]: http://www.gotoquiz.com/politics/political-spectrum-quiz.html
- [3]: http://www.gotoquiz.com/politics/grid/n54.gif
- [4]: http://www.gotoquiz.com/politics/grid/c22.gif
+ [1]: https://www.gotoquiz.com/politics/grid/12x24.gif
+ [2]: https://www.gotoquiz.com/politics/political-spectrum-quiz.html
+ [3]: https://www.gotoquiz.com/politics/grid/n54.gif
+ [4]: https://www.gotoquiz.com/politics/grid/c22.gif

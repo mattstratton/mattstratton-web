@@ -14,5 +14,5 @@ So that was $30 on a $5 investment. Not bad :)
 
 [![][1]][2] Orgy &#8211; Blue Monday</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

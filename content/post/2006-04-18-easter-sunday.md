@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/130769488/" title="photo sharing"><img src="http://static.flickr.com/48/130769488_aec6404978_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/130769488/">Scout opens his Easter basket</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/130769488/" title="photo sharing"><img src="https://static.flickr.com/48/130769488_aec6404978_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/130769488/">Scout opens his Easter basket</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 &#8230;wake up in the late afternoon. Call Parnell&#8230;
@@ -24,4 +24,4 @@ After Mass, we jumped on the Eisenhower to head out to Homestead Flechter for Ea
 
 [<u>**Easter 2006 Photos**</u>][1]
 
- [1]: http://www.flickr.com/photos/mugsy/sets/72057594110401405/
+ [1]: https://www.flickr.com/photos/mugsy/sets/72057594110401405/

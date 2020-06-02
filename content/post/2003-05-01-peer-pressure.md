@@ -12,4 +12,4 @@ So I just updated my friends page, with the help of [this tool][1] (paid account
 
 m.
 
- [1]: http://www.livejournal.com/friends/popwithfriends.bml
+ [1]: https://www.livejournal.com/friends/popwithfriends.bml

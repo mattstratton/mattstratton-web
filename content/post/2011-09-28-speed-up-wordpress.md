@@ -5,13 +5,13 @@ layout: post
 date: 2011-09-29T04:14:40+00:00
 url: /tech-tips/speed-up-wordpress
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/speedy-header.png
+  - https://cdn.mattstratton.com/wp-content/uploads/speedy-header.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/speedytn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/speedytn.png
 description:
   - Everyone wants their blog to load faster. One of the best ways to improve performance on self-hosted WordPress is using a combination of the W3 Total Cache plugin and a Content Delivery Network such as Amazon CloudFront. This post will walk you through the process, step by step, and have you serving up a speedier blog in no time!
 dsq_thread_id:
@@ -84,7 +84,7 @@ Now scroll down to the section titled &#8220;Configuration&#8221;. You will ente
 
 #### Setting up Amazon
 
-Good question. To get going with this, you will need an AWS account. You will sign up for this at <http://aws.amazon.com/>. Unfortunately, I already have my account, and I&#8217;m not going to create a new one, so you&#8217;ll have to go without screenshots. But once you have your account, sign onto the <a href="https://console.aws.amazon.com/s3/home" target="_blank">management console</a> and click on Security Credentials:
+Good question. To get going with this, you will need an AWS account. You will sign up for this at <https://aws.amazon.com/>. Unfortunately, I already have my account, and I&#8217;m not going to create a new one, so you&#8217;ll have to go without screenshots. But once you have your account, sign onto the <a href="https://console.aws.amazon.com/s3/home" target="_blank">management console</a> and click on Security Credentials:
 
 <img class="alignnone size-full wp-image-6769" title="aws-credentials" src="/wp-content/uploads/aws-credentials.png" alt="" width="292" height="140" />
 
@@ -137,6 +137,6 @@ Of course, all this caching comes with a bit of a cost. Any time you make a DESI
 I realize that this post is SUPER long and pretty complex. But hopefully it will help you get started on speeding up your WordPress installation. In Part 2, we will dig into some of the other possible settings, including Browser Caching as well as configuring a CNAME for your CDN so it is served from your own domain. Part 3 will discuss the Minify options. Good luck and speedy serving!
 
  [1]: /tech-tips/making-wordpress-faster "Making Jenn Fast – How I Sped Up A WordPress Blog"
- [2]: http://www.jennsaidwhat.com
- [3]: http://wordpress.org/extend/plugins/w3-total-cache/
+ [2]: https://www.jennsaidwhat.com
+ [3]: https://wordpress.org/extend/plugins/w3-total-cache/
  [4]: /meta/tick-tick-boom "Tick, tick…boom"

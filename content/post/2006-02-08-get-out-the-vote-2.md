@@ -18,4 +18,4 @@ DO IT. Do it now.
 
 It&#8217;s the right thing to do, and a tasty way to do it.
 
- [1]: http://www.gizmodo.com/gadgets/announcements/laptop-confidential-vote-time-153088.php
+ [1]: https://www.gizmodo.com/gadgets/announcements/laptop-confidential-vote-time-153088.php

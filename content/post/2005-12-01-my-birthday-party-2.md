@@ -22,5 +22,5 @@ More info about Suite can be found at **this story** on Metromix.
 
 If you are thinking of coming, please email me at **[matt [dot] stratton [at] gmail [dot] com][2]** and I&#8217;ll add you to the Evite so I can have an idea of how many people to expect.
 
- [1]: http://www.500clown.com/
+ [1]: https://www.500clown.com/
  [2]: javascript:DeCryptX('3p2c2v3w1/1t2v0r1b2v3w1p3q1A3j2o2c2k2n0.0c1p3p')

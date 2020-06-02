@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/160386845/" title="photo sharing"><img src="http://static.flickr.com/70/160386845_37d1d8fb00_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/160386845/">Nora and Kevin</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/160386845/" title="photo sharing"><img src="https://static.flickr.com/70/160386845_37d1d8fb00_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/160386845/">Nora and Kevin</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 I think I might have posted about this before, but it&#8217;s really starting to take off and get cooler than ever, so I thought I&#8217;d share again.
@@ -20,4 +20,4 @@ I think I might have posted about this before, but it&#8217;s really starting to
 
 read more&nbsp;|&nbsp;[digg story][1]
 
- [1]: http://digg.com/tech_news/onXiam_Lets_You_Tie_All_Of_Your_Profiles_Together_(even_your_Digg_Profile!)
+ [1]: https://digg.com/tech_news/onXiam_Lets_You_Tie_All_Of_Your_Profiles_Together_(even_your_Digg_Profile!)

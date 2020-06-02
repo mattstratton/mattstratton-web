@@ -18,5 +18,5 @@ Well done.
 
 m.
 
- [1]: http://www1.scoopthis.com/411/met_uf/stc_met_uf_mtv.htm
- [2]: http://www.snopes.com/inboxer/hoaxes/metallica.asp
+ [1]: https://www1.scoopthis.com/411/met_uf/stc_met_uf_mtv.htm
+ [2]: https://www.snopes.com/inboxer/hoaxes/metallica.asp

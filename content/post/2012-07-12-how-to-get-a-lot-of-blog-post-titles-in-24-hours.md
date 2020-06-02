@@ -21,7 +21,7 @@ tags:
 
 As you may recall, I am <a title="The Great Blog Title Challenge Thing" href="/meta/the-great-blog-title-challenge-thing" target="_blank">embarking on an experiment</a> to crowd-source blog titles. I asked Twitter to suggest titles for blog posts using the hashtag #mattblog, and committed to writing a post for every title.
 
-Today&#8217;s post title comes to us from <a href="http://twitter.com/gRegorLove" target="_blank">@gRegorLove</a>, and it seemed like a great one to start with. I did have a tough time determing which one would be first, which is why I solicited the assistance of my good pal <a href="http://twitter.com/FeliciaCago" target="_blank">@FeliciaCago</a>, who came up with a <a href="https://docs.google.com/spreadsheet/ccc?key=0Agc3HJT3D0F0dHRIcXh3NmZHQkFDM013aFh4d2Y2eGc" target="_blank">spreadsheet of all the topics</a> along with her &#8220;invaluable feedback&#8221;.
+Today&#8217;s post title comes to us from <a href="https://twitter.com/gRegorLove" target="_blank">@gRegorLove</a>, and it seemed like a great one to start with. I did have a tough time determing which one would be first, which is why I solicited the assistance of my good pal <a href="https://twitter.com/FeliciaCago" target="_blank">@FeliciaCago</a>, who came up with a <a href="https://docs.google.com/spreadsheet/ccc?key=0Agc3HJT3D0F0dHRIcXh3NmZHQkFDM013aFh4d2Y2eGc" target="_blank">spreadsheet of all the topics</a> along with her &#8220;invaluable feedback&#8221;.
 
 Initially, she was confused about the purpose of the project, which just goes to show she ignores all of my tweets:
 
@@ -49,11 +49,11 @@ Initially, she was confused about the purpose of the project, which just goes to
 
 <div>
   <p>
-    Shortly after clarification, Felicia decided that we couldn&#8217;t evaluate this on our own. We needed the assistance of the smartest person we know, that is, <a href="http://twitter.com/ourmaninchicago" target="_blank">@ourmaninchicago</a>. His entire feedback on every title was &#8220;I don&#8217;t know&#8221;, with the exception of <a href="http://twitter.com/KarynCarlton" target="_blank">@KarynCarlton</a>&#8216;s suggestion of &#8220;Hall and Oates: American Heroes&#8221;. To that, he simply said, in all caps and giant font: &#8220;<strong>DO THIS ONE</strong>&#8220;.
+    Shortly after clarification, Felicia decided that we couldn&#8217;t evaluate this on our own. We needed the assistance of the smartest person we know, that is, <a href="https://twitter.com/ourmaninchicago" target="_blank">@ourmaninchicago</a>. His entire feedback on every title was &#8220;I don&#8217;t know&#8221;, with the exception of <a href="https://twitter.com/KarynCarlton" target="_blank">@KarynCarlton</a>&#8216;s suggestion of &#8220;Hall and Oates: American Heroes&#8221;. To that, he simply said, in all caps and giant font: &#8220;<strong>DO THIS ONE</strong>&#8220;.
   </p>
   
   <p>
-    What have I learned so far? I&#8217;ve learned that <a href="http://twitter.com/purekatherine" target="_blank">@purekatherine</a> has a lot of ideas. I mean a LOT. 20% of the suggestions came from her. Which I can only surmise means either a) she cares about my success as a blogger or b) she was supposed to be glittering some shoes and needed to procrastinate.
+    What have I learned so far? I&#8217;ve learned that <a href="https://twitter.com/purekatherine" target="_blank">@purekatherine</a> has a lot of ideas. I mean a LOT. 20% of the suggestions came from her. Which I can only surmise means either a) she cares about my success as a blogger or b) she was supposed to be glittering some shoes and needed to procrastinate.
   </p>
   
   <p>

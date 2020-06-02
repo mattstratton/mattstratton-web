@@ -16,7 +16,7 @@ tags:
 ---
 About two weeks ago, I <a href="/2009/07/22/making-progress/" target="_self">posted my first &#8220;progress report&#8221;</a> on my fitness/weight loss program. It seems like a good enough time to post another one.
 
-I&#8217;m into Week 6 of my <a href="http://www.coolrunning.com/engine/2/2_3/181.shtml" target="_blank">Couch to 5K</a> program, and it&#8217;s really going well. I have not missed a single day of scheduled running, which I&#8217;m very proud of. My diet has been steady and I&#8217;m sticking to the &#8220;don&#8217;t eat like an idiot&#8221; program. I&#8217;ve also been bringing my lunch to work with me almost every day (at least four days a week) and in addition to the diet control that gives me, I&#8217;ve figured out that the cost savings will go a long way towards the diaper fund.
+I&#8217;m into Week 6 of my <a href="https://www.coolrunning.com/engine/2/2_3/181.shtml" target="_blank">Couch to 5K</a> program, and it&#8217;s really going well. I have not missed a single day of scheduled running, which I&#8217;m very proud of. My diet has been steady and I&#8217;m sticking to the &#8220;don&#8217;t eat like an idiot&#8221; program. I&#8217;ve also been bringing my lunch to work with me almost every day (at least four days a week) and in addition to the diet control that gives me, I&#8217;ve figured out that the cost savings will go a long way towards the diaper fund.
 
 Weight-wise, I haven&#8217;t really lost much since the last report. This morning I weighed in at 232.4 pounds, which is only about half a pound less than two weeks ago. However, I was down to 230 on Sunday morning, and honestly, I&#8217;m not going to sweat the poundage, since I know that I&#8217;ve lost fat. I started tracking my waistline on July 26, and between then and August 3 (so a week) I dropped an inch. That was pretty good. Here&#8217;s my weigh-in report since my last post:
 
@@ -36,7 +36,7 @@ My running, however, is going really well. This past Sunday was the dreaded &#82
   </div>
   
   <p>
-    Overall, though, my running program is going well. I&#8217;m actually signed up to run an 8K race at the end of September for PAWS (Pets Are Worth Saving). If you&#8217;d like to contribute towards my fundraising goal, I would very much appreciate it. You can donate (and learn more) <a href="http://bit.ly/HW7XM" target="_blank">here</a>.
+    Overall, though, my running program is going well. I&#8217;m actually signed up to run an 8K race at the end of September for PAWS (Pets Are Worth Saving). If you&#8217;d like to contribute towards my fundraising goal, I would very much appreciate it. You can donate (and learn more) <a href="https://bit.ly/HW7XM" target="_blank">here</a>.
   </p>
   
   <p>

@@ -18,4 +18,4 @@ Damn. What a day!
 
 **Edit:** Baby Beeyachski was born at 11:58 AM Eastern time. According to Tom, he has sideburns. It&#8217;s the Second Coming of Elvis!
 
- [1]: http://www.livejournal.com/users/swingdoc/125057.html
+ [1]: https://www.livejournal.com/users/swingdoc/125057.html

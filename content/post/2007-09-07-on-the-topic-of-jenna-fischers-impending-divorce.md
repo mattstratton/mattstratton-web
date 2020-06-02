@@ -18,5 +18,5 @@ Some backstory &#8211; a while ago, Marcelo thought it would be funny for us to 
 
 <u>[Arcecat and Mugsy Discuss Marcelo][2]</u>
 
- [1]: http://mattstratton.livejournal.com/tag/arcecat
+ [1]: https://mattstratton.livejournal.com/tag/arcecat
  [2]: /life-in-general/man-sometimes-i-can-be-so-mean

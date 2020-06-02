@@ -13,7 +13,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/2602504780/" title="photo sharing"><img src="http://farm4.static.flickr.com/3161/2602504780_8b9be701c5_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/2602504780/">Time to roll up the tarp</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/2602504780/" title="photo sharing"><img src="https://farm4.static.flickr.com/3161/2602504780_8b9be701c5_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/2602504780/">Time to roll up the tarp</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 25 minutes until game time&#8230;and the rain has stopped!  

@@ -10,8 +10,8 @@ categories:
   - Personal
 
 ---
-So all this whining about gay marriage and I decided to do something a little more constructive than fight with rednecks on <a href="http://www.yehoodi.com" target="_blank">swing dancing discussion boards</a>.
+So all this whining about gay marriage and I decided to do something a little more constructive than fight with rednecks on <a href="https://www.yehoodi.com" target="_blank">swing dancing discussion boards</a>.
 
-I made a $50 donation to <a href="http://www.freedomtomarry.org" target="_blank">FreedomToMarry.org</a>.
+I made a $50 donation to <a href="https://www.freedomtomarry.org" target="_blank">FreedomToMarry.org</a>.
 
 Put that in your pipe and smoke it.

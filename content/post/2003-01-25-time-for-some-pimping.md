@@ -16,4 +16,4 @@ Brian is my composer friend who also scores all of our films&#8230;because he&#8
 
 m.
 
- [1]: http://artists.mp3s.com/artists/526/brian_crane.html
+ [1]: https://artists.mp3s.com/artists/526/brian_crane.html

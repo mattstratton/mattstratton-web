@@ -13,7 +13,7 @@ categories:
 Dear 
 
 <div class="ljuser">
-  <a href="http://nandoasti.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://nandoasti.livejournal.com/"><b>nandoasti</b></a>
+  <a href="https://nandoasti.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://nandoasti.livejournal.com/"><b>nandoasti</b></a>
 </div>
 
 ,

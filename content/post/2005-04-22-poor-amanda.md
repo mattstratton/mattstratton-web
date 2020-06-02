@@ -100,8 +100,8 @@ The Redwalls
   
 The Changes 
 
-<span class="posted">Posted by Scott Smith in <a href="http://www.chicagoist.com/archives/music/index.php">Music</a> </span>
+<span class="posted">Posted by Scott Smith in <a href="https://www.chicagoist.com/archives/music/index.php">Music</a> </span>
 
- [1]: http://www.lollapalooza.com
- [2]: http://www.chicagoist.com/archives/2005/04/22/lollapalooza_lineup_announced.php
- [3]: http://www.lollapalooza.com/default.asp?fd=1
+ [1]: https://www.lollapalooza.com
+ [2]: https://www.chicagoist.com/archives/2005/04/22/lollapalooza_lineup_announced.php
+ [3]: https://www.lollapalooza.com/default.asp?fd=1

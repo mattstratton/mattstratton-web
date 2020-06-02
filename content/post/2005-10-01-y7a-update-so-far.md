@@ -26,15 +26,15 @@ The dance was fun&#8230;and long. [**robertajean**][6] had made about 200 jello
 
 Today I am heading back down to Dance Manhattan in a few hours to teach my improv workshop, and then the lights and glitz of Y7A. Whoohoo!
 
- [1]: http://larrykang.livejournal.com/
- [2]: http://swingdoc.livejournal.com/
- [3]: http://www.bhphotovideo.com/
- [4]: http://www.nychotels.com/amsterdam.html
- [5]: http://www.pratooutlets.com/
- [6]: http://robertajean.livejournal.com/
- [7]: http://atalanta74.livejournal.com/
- [8]: http://nandoasti.livejournal.com/
- [9]: http://jodiemim.livejournal.com/
- [10]: http://www.icedoutgear.com/BB61.php
- [11]: http://swingfeline.livejournal.com/
- [12]: http://glitterlisa.livejournal.com/
+ [1]: https://larrykang.livejournal.com/
+ [2]: https://swingdoc.livejournal.com/
+ [3]: https://www.bhphotovideo.com/
+ [4]: https://www.nychotels.com/amsterdam.html
+ [5]: https://www.pratooutlets.com/
+ [6]: https://robertajean.livejournal.com/
+ [7]: https://atalanta74.livejournal.com/
+ [8]: https://nandoasti.livejournal.com/
+ [9]: https://jodiemim.livejournal.com/
+ [10]: https://www.icedoutgear.com/BB61.php
+ [11]: https://swingfeline.livejournal.com/
+ [12]: https://glitterlisa.livejournal.com/

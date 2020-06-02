@@ -10,8 +10,8 @@ categories:
   - Personal
 
 ---
-<a href="http://www.smithe.com/field.htm" target="_blank">Walter E. Smithe has received the naming rights to Wrigley Field.<br /> Wrigley Field will now be called Walter E. Smithe Field.</a>
+<a href="https://www.smithe.com/field.htm" target="_blank">Walter E. Smithe has received the naming rights to Wrigley Field.<br /> Wrigley Field will now be called Walter E. Smithe Field.</a>
 
 ![][1]
 
- [1]: http://www.smithe.com/images/Smithe_Marquee_Luck3.jpg
+ [1]: https://www.smithe.com/images/Smithe_Marquee_Luck3.jpg

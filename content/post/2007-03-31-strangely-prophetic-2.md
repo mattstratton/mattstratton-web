@@ -10,5 +10,5 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=7da3iwxMUjU  
+https://www.youtube.com/watch?v=7da3iwxMUjU  
 This video was posted to YouTube last November. Given the season 3 finale of this past Sunday, it&#8217;s strangely prophetic.

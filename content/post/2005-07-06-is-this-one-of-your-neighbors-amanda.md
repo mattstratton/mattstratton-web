@@ -18,4 +18,4 @@ Girl #2: I don&#8217;t even know if my building has a roof.
 
 &#8211;Brooklyn Heights
 
- [1]: http://www.overheardinnewyork.com/
+ [1]: https://www.overheardinnewyork.com/

@@ -10,5 +10,5 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=OXYKef7d3VI  
+https://www.youtube.com/watch?v=OXYKef7d3VI  
 This is pretty much the funniest thing I&#8217;ve seen on YouTube in about fifteen years.

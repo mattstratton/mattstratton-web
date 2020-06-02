@@ -10,8 +10,8 @@ categories:
   - Personal
 
 ---
-<img src="http://digital.lib.umn.edu/IMAGES/reference/swhp/SWHP0228.jpg" width="500" />
+<img src="https://digital.lib.umn.edu/IMAGES/reference/swhp/SWHP0228.jpg" width="500" />
 
 From [American Social Hygiene Posters][1].
 
- [1]: http://special.lib.umn.edu/swha/IMAGES/home.html
+ [1]: https://special.lib.umn.edu/swha/IMAGES/home.html

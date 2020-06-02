@@ -54,23 +54,23 @@ Since my old Firefox post is woefully out of date, here&#8217;s a list of the ex
   
 [CustomizeGoogle][20]
 
- [1]: http://adblockplus.org/en/
+ [1]: https://adblockplus.org/en/
  [2]: https://addons.mozilla.org/en-US/firefox/addon/491
- [3]: http://lifehacker.com/software/lifehacker-code/upgrade-flickr-with-the-better-flickr-firefox-extension-263985.php
- [4]: http://lifehacker.com/software/exclusive-lifehacker-download/better-gmail-2-firefox-extension-for-new-gmail-320618.php
- [5]: http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php
+ [3]: https://lifehacker.com/software/lifehacker-code/upgrade-flickr-with-the-better-flickr-firefox-extension-263985.php
+ [4]: https://lifehacker.com/software/exclusive-lifehacker-download/better-gmail-2-firefox-extension-for-new-gmail-320618.php
+ [5]: https://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php
  [6]: https://addons.mozilla.org/en-US/firefox/addon/3780
- [7]: http://www.gdocsbar.com/
- [8]: http://www.google.com/tools/firefox/browsersync/
+ [7]: https://www.gdocsbar.com/
+ [8]: https://www.google.com/tools/firefox/browsersync/
  [9]: https://addons.mozilla.org/en-US/firefox/addon/3977
- [10]: http://www.greasespot.net/
+ [10]: https://www.greasespot.net/
  [11]: https://addons.mozilla.org/en-US/firefox/addon/5700
  [12]: https://addons.mozilla.org/en-US/firefox/addon/4980
- [13]: http://www.chrisfinke.com/addons/slashdotter/
- [14]: http://imagezoom.yellowgorilla.net/
+ [13]: https://www.chrisfinke.com/addons/slashdotter/
+ [14]: https://imagezoom.yellowgorilla.net/
  [15]: https://blueimp.net/mozilla/Secure%20Login/
  [16]: https://blueimp.net/mozilla/Autofill%20Forms/
- [17]: http://javimoya.com/blog/youtube_en.php
+ [17]: https://javimoya.com/blog/youtube_en.php
  [18]: https://addons.mozilla.org/en-US/firefox/addon/1715
- [19]: http://yellow5.us/firefox/linkification/
- [20]: http://www.customizegoogle.com/
+ [19]: https://yellow5.us/firefox/linkification/
+ [20]: https://www.customizegoogle.com/

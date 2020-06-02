@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-<a href="http://www.liquidgeneration.com" target="_blank"><img src="http://www.liquidgeneration.com/quiz/images/bratpackian.jpg" width="403" height="165" border="1" /></p>
+<a href="https://www.liquidgeneration.com" target="_blank"><img src="https://www.liquidgeneration.com/quiz/images/bratpackian.jpg" width="403" height="165" border="1" /></p>

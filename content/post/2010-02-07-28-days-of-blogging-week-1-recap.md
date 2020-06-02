@@ -21,7 +21,7 @@ Today represents the end of the first week of the 28 Day Blog Challenge. I think
 
 ## Monday &#8211; [Playing catchup][1]
 
-I started off with a post detailing the latest updates in my life, including taking care of <a href="http://strattonboys.com" target="_blank">newborn twin boys</a>, writing for <a href="http://todaysiphone.com" target="_blank">an iPhone blog</a>, and attempting to  <a href="http://blogs.msdn.com/ianpal/archive/2008/06/03/email-task-and-time-management-with-pifem.aspx" target="_blank">take control of my time management</a>. This was also the post where I officially kicked off the <a href="http://realtimemarketer.com/the-28-day-blogging-challenge/" target="_blank">28 Day Blog Challenge</a>.
+I started off with a post detailing the latest updates in my life, including taking care of <a href="https://strattonboys.com" target="_blank">newborn twin boys</a>, writing for <a href="https://todaysiphone.com" target="_blank">an iPhone blog</a>, and attempting to  <a href="https://blogs.msdn.com/ianpal/archive/2008/06/03/email-task-and-time-management-with-pifem.aspx" target="_blank">take control of my time management</a>. This was also the post where I officially kicked off the <a href="https://realtimemarketer.com/the-28-day-blogging-challenge/" target="_blank">28 Day Blog Challenge</a>.
 
 _Total Pageviews &#8211; 42_
 
@@ -33,7 +33,7 @@ _Total Pageviews &#8211; 64_
 
 ## Wednesday &#8211; <a href="/wednesday-web-wanderings/pimp-your-blog" target="_self">Wednesday Web Wanderings – Pimp Your Blog Edition</a>
 
-One of the areas I was hoping to improve on was posting specific topic areas on specific days. In the past I&#8217;d had great success with doing link-lists every Wednesday. This post represented a return to that particular strategy. It also gave me a chance to post a shout-out of congratulations to my friend <a href="http://doniree.com" target="_blank">Doni</a> for her new job at <a href="http://Lijit.com" target="_blank">Lijit</a>, and inclusion of unicorn-related content &#8211; and since my blog boasts about having &#8220;unicorn conspiracy theories&#8221; as a major subject area, that&#8217;s pretty important.
+One of the areas I was hoping to improve on was posting specific topic areas on specific days. In the past I&#8217;d had great success with doing link-lists every Wednesday. This post represented a return to that particular strategy. It also gave me a chance to post a shout-out of congratulations to my friend <a href="https://doniree.com" target="_blank">Doni</a> for her new job at <a href="https://Lijit.com" target="_blank">Lijit</a>, and inclusion of unicorn-related content &#8211; and since my blog boasts about having &#8220;unicorn conspiracy theories&#8221; as a major subject area, that&#8217;s pretty important.
 
 _Total Pageviews &#8211; 38_
 

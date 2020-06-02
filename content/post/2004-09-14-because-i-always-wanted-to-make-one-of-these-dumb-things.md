@@ -84,9 +84,9 @@ It&#8217;s really only funny (I suppose) if you read [Yehoodi][1]. And maybe not
   
   <tr>
     <td colspan="2" align='center' bgcolor='#000000'>
-      <font size='-1' color='#FFFFFF'><a href='http://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font>
+      <font size='-1' color='#FFFFFF'><a href='https://memegen.net/'><font color='#DDDD88'>Quiz created with MemeGen</font></a>!</font>
     </td>
   </tr>
 </table>
 
- [1]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com

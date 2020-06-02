@@ -20,7 +20,7 @@ tags:
   - p90x
 
 ---
-_Inspired by <a href="http://torisp90xjourney.com/" target="_blank">Tori</a>, I have decided to do daily blog posts about my P90X workouts. Since I know not everyone is fascinated by this, these posts will likely not be syndicated to my Facebook, but they will still be available via RSS. I have also created a specific RSS feed for just my [P90X posts][1], for those of you who are only interested in that (it will include my weekly wrap-up posts as well). This feed can be subscribed to by clicking <a href="http://feeds.feedburner.com/MattP90x" target="_blank">here</a>. I might even start taking some photos DURING the exercises, just for fun._
+_Inspired by <a href="https://torisp90xjourney.com/" target="_blank">Tori</a>, I have decided to do daily blog posts about my P90X workouts. Since I know not everyone is fascinated by this, these posts will likely not be syndicated to my Facebook, but they will still be available via RSS. I have also created a specific RSS feed for just my [P90X posts][1], for those of you who are only interested in that (it will include my weekly wrap-up posts as well). This feed can be subscribed to by clicking <a href="https://feeds.feedburner.com/MattP90x" target="_blank">here</a>. I might even start taking some photos DURING the exercises, just for fun._
 
 ## Workout Summary
 
@@ -44,6 +44,6 @@ Calories Burned: 803
   
 Average HR: 133
   
-DailyMile link: <http://www.dailymile.com/people/MattS/entries/6177160>
+DailyMile link: <https://www.dailymile.com/people/MattS/entries/6177160>
 
  [1]: /tags/p90x

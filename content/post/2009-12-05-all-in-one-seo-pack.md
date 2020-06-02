@@ -16,7 +16,7 @@ tags:
   - wordpress
 
 ---
-<img class="alignright size-medium wp-image-5660" title="SEO-services" src="/wp-content/uploads/2009/12/SEO-services-293x300.jpg" alt="SEO-services" width="293" height="300" srcset="/wp-content/uploads/2009/12/SEO-services-293x300.jpg 293w, /wp-content/uploads/2009/12/SEO-services.jpg 336w" sizes="(max-width: 293px) 100vw, 293px" />Today we&#8217;re going to be talking about a nifty plugin for WordPress called <a href="http://wordpress.org/extend/plugins/all-in-one-seo-pack/" target="_blank">All In One SEO Pack</a>. It has some useful SEO features, which I&#8217;ll explain in a minute, but the main thing I&#8217;ve found to be indispensable about it is the ease of controlling the appearance of a link when it is shared on Facebook.
+<img class="alignright size-medium wp-image-5660" title="SEO-services" src="/wp-content/uploads/2009/12/SEO-services-293x300.jpg" alt="SEO-services" width="293" height="300" srcset="/wp-content/uploads/2009/12/SEO-services-293x300.jpg 293w, /wp-content/uploads/2009/12/SEO-services.jpg 336w" sizes="(max-width: 293px) 100vw, 293px" />Today we&#8217;re going to be talking about a nifty plugin for WordPress called <a href="https://wordpress.org/extend/plugins/all-in-one-seo-pack/" target="_blank">All In One SEO Pack</a>. It has some useful SEO features, which I&#8217;ll explain in a minute, but the main thing I&#8217;ve found to be indispensable about it is the ease of controlling the appearance of a link when it is shared on Facebook.
 
 Let me explain.
 

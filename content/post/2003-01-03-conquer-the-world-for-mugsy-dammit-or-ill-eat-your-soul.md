@@ -18,6 +18,6 @@ Take over the world for me! Just click on the little mappy thingy and you will c
 
 **NOTE! You need to do the clicky clicky from my [main blog page][3] or else the &#8220;credit&#8221; goes to livejournal.com.**
 
- [1]: http://www.jumpingmonkeys.com/
- [2]: http://www.techtv.com
- [3]: http://mugsy1274.livejournal.com
+ [1]: https://www.jumpingmonkeys.com/
+ [2]: https://www.techtv.com
+ [3]: https://mugsy1274.livejournal.com

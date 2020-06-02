@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=W91sqAs-_-g  
+https://www.youtube.com/watch?v=W91sqAs-_-g  
 Swifty sent me this just now.
 
 This is comedy gold, people.
@@ -23,5 +23,5 @@ ETA &#8211; via [BWE][1], you can download the mp3 here.
 
 ETA the deuce &#8211; also via [Action-Squad][2].
 
- [1]: http://www.bestweekever.tv/2007/04/02/video-hits-one-alanis-morissette-ironically-covers-my-humps-seriously-i-swear-to-god/
- [2]: http://www.action-squad.com/?p=2101
+ [1]: https://www.bestweekever.tv/2007/04/02/video-hits-one-alanis-morissette-ironically-covers-my-humps-seriously-i-swear-to-god/
+ [2]: https://www.action-squad.com/?p=2101

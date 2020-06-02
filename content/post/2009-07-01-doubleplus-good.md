@@ -14,7 +14,7 @@ tags:
   - The Twins
 
 ---
-[<img class="alignright" src="http://farm3.static.flickr.com/2533/3677459738_fa6c79e7b7_b.jpg" alt="Scout has a big announcement" width="254" height="368" />][1]{.tt-flickr.tt-flickr-Large} Regular readers of this blog know that my wife and I have been <a href="/tags/infertility/" target="_self">struggling with infertility</a> issues for a while now. Over the past 18 plus months we&#8217;ve played games with having &#8220;relations&#8221; on a specific schedule (whether we wanted to or not), injected more needles than Sammy Sosa, and moved genetic material around in all kinds of random ways.
+[<img class="alignright" src="https://farm3.static.flickr.com/2533/3677459738_fa6c79e7b7_b.jpg" alt="Scout has a big announcement" width="254" height="368" />][1]{.tt-flickr.tt-flickr-Large} Regular readers of this blog know that my wife and I have been <a href="/tags/infertility/" target="_self">struggling with infertility</a> issues for a while now. Over the past 18 plus months we&#8217;ve played games with having &#8220;relations&#8221; on a specific schedule (whether we wanted to or not), injected more needles than Sammy Sosa, and moved genetic material around in all kinds of random ways.
 
 And it&#8217;s finally paid off.
 
@@ -42,4 +42,4 @@ Now you get to hear us talk endlessly about multiples.
   <img class="aligncenter size-full wp-image-5419" title="usound" src="/wp-content/uploads/2009/07/usound.jpg" alt="usound" width="367" height="276" srcset="/wp-content/uploads/2009/07/usound.jpg 611w, /wp-content/uploads/2009/07/usound-300x225.jpg 300w" sizes="(max-width: 367px) 100vw, 367px" />
 </p>
 
- [1]: http://www.flickr.com/photos/mugsy/3677459738/ "Scout has a big announcement"
+ [1]: https://www.flickr.com/photos/mugsy/3677459738/ "Scout has a big announcement"

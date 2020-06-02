@@ -12,6 +12,6 @@ categories:
 ---
 We&#8217;ve finally made the big time! The official [Bravo][1] website lists **[Straight Eye for the Queer Shows][2]** on the [QEftSG Fan Sites][3] page! Check us out!
 
- [1]: http://www.bravotv.com
- [2]: http://straighteye.com
- [3]: http://www.bravotv.com/Queer_Eye_for_the_Straight_Guy/Community/Fan_Sites/
+ [1]: https://www.bravotv.com
+ [2]: https://straighteye.com
+ [3]: https://www.bravotv.com/Queer_Eye_for_the_Straight_Guy/Community/Fan_Sites/

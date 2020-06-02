@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-From http://www.cnn.com/2003/WORLD/africa/06/02/offbeat.pants.reut/index.html
+From https://www.cnn.com/2003/WORLD/africa/06/02/offbeat.pants.reut/index.html
 
 **</p> 
 

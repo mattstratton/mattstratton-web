@@ -14,4 +14,4 @@ Two new DVD&#8217;s coming out [this week][1]:
 
 **&#8220;Breakin&#8217; 2: Electric Boogaloo&#8221;**(1984). Directed by Sam Firstenberg. Starring Lucinda Dickey, Adolfo &#8220;Shabba Doo&#8221; Quinones, Michael &#8220;Boogaloo Shrimp&#8221; Chambers (MGM). Perennial fave of drive-in movie critic Joe Bob Briggs. Must be seen to be believed.
 
- [1]: http://www.salon.com/ent/movies/dvd/2003/04/15/new_releases/index.html
+ [1]: https://www.salon.com/ent/movies/dvd/2003/04/15/new_releases/index.html

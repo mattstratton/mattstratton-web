@@ -51,5 +51,5 @@ categories:
 </table>
 
 <div align="center">
-  <a href="http://www.blogthings.com/americancitiesbestfitquiz/">Which American Cities Best Fit You?</a>
+  <a href="https://www.blogthings.com/americancitiesbestfitquiz/">Which American Cities Best Fit You?</a>
 </div>

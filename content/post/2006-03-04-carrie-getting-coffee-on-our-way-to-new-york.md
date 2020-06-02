@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/107618162/" title="photo sharing"><img src="http://static.flickr.com/56/107618162_d4024d64ca_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/107618162/">Carrie getting coffee on our way to new york.</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/107618162/" title="photo sharing"><img src="https://static.flickr.com/56/107618162_d4024d64ca_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/107618162/">Carrie getting coffee on our way to new york.</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Carrie getting coffee on our way to new york.

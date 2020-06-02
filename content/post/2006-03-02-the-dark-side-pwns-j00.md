@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-<img src="http://students.cs.byu.edu/~neilself/owned.jpg" width="432" height="373" />
+<img src="https://students.cs.byu.edu/~neilself/owned.jpg" width="432" height="373" />

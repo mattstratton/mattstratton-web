@@ -32,4 +32,4 @@ Apparently the [governor of our fair state doesn&#8217;t watch Comedy Central ne
 
 Heh. I bet even Daley knows about the Daily Show. Of course, it&#8217;s probably just because he stays tuned for Crank Yankers.
 
- [1]: http://www.chicagotribune.com/news/local/chi-060223blagojevich,1,2091494.story?coll=chi-news-hed&ctrack=1&cset=true
+ [1]: https://www.chicagotribune.com/news/local/chi-060223blagojevich,1,2091494.story?coll=chi-news-hed&ctrack=1&cset=true

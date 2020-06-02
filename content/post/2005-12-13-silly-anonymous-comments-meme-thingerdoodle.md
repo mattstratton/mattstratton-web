@@ -52,4 +52,4 @@ Anonymous comments to [you all][1]:
 
 20. I keep forgetting that I&#8217;ve seen you topless. Like, twice. Secrets are fun.
 
- [1]: http://www.livejournal.com/users/mugsy1274/friends
+ [1]: https://www.livejournal.com/users/mugsy1274/friends

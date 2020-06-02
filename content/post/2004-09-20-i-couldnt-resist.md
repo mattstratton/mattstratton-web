@@ -17,5 +17,5 @@ categories:
 </table>
 
 <div align="center">
-  <a href="http://www.blogthings.com/penisname.html"><b>Get your own Penis Name</b></a>
+  <a href="https://www.blogthings.com/penisname.html"><b>Get your own Penis Name</b></a>
 </div>

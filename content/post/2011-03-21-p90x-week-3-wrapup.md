@@ -26,7 +26,7 @@ tags:
 ---
 I have finished up Week 3 of my P90X experience, and I have to say, it’s going pretty damn well. I’m quite proud of myself for what I’ve accomplished. I’ve completed three weeks of P90X, and two of them without missing ANY days.
 
-In Week 3, I paid more attention to my diet, tracking calories via the <a href="http://www.loseit.com" target="_blank">Lose It!</a> iPhone app and trying to stick to a 50/50 balance of protein and carbs. This definitely had an impact on my waistline.
+In Week 3, I paid more attention to my diet, tracking calories via the <a href="https://www.loseit.com" target="_blank">Lose It!</a> iPhone app and trying to stick to a 50/50 balance of protein and carbs. This definitely had an impact on my waistline.
 
 # Results so far
 

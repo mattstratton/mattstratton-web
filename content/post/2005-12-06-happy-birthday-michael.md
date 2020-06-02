@@ -16,4 +16,4 @@ tags:
 ---
 Happy birthday to [Michael][1]!
 
- [1]: http://michael_j_lucid.livejournal.com
+ [1]: https://michael_j_lucid.livejournal.com

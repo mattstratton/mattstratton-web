@@ -14,4 +14,4 @@ A message in my Flickr inbox:
 
 ![][1]
 
- [1]: http://photos29.flickr.com/38638210_388b03ba12_o.jpg
+ [1]: https://photos29.flickr.com/38638210_388b03ba12_o.jpg

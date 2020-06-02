@@ -9,13 +9,13 @@ description:
 thesis_keywords:
   - facebook
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/merge.png
+  - https://cdn.mattstratton.com/wp-content/uploads/merge.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/merge-tn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/merge-tn.png
 dsq_thread_id:
   - 426821883
 categories:

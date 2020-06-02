@@ -12,6 +12,6 @@ categories:
 ---
 &#8230;he digs on Homestar.
 
-http://www.livejournal.com/users/xander__harris/23345.html
+https://www.livejournal.com/users/xander__harris/23345.html
 
 (Yes, I know it&#8217;s a joke. Phuck off. It amused me.)

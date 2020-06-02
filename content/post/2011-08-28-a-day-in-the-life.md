@@ -17,4 +17,4 @@ For Day 27, the prompt was to share an &#8220;average&#8221; day. I actually che
 
 **What goes into an average day for you? Is there such thing as an &#8220;average&#8221; day?**
 
-BTW, if you want to see all of my VEDA videos, you can check out my <a href="http://www.youtube.com/playlist?list=PL20722ABC7A7D3679" target="_blank">VEDA playlist</a>.
+BTW, if you want to see all of my VEDA videos, you can check out my <a href="https://www.youtube.com/playlist?list=PL20722ABC7A7D3679" target="_blank">VEDA playlist</a>.

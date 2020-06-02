@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/262189438/" title="photo sharing"><img src="http://static.flickr.com/99/262189438_5bcba3993a_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/262189438/">Amusing Riya.com Error</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/262189438/" title="photo sharing"><img src="https://static.flickr.com/99/262189438_5bcba3993a_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/262189438/">Amusing Riya.com Error</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 I&#8217;ve been messing around with the face recognition features of [Riya][1], and it&#8217;s pretty good. Although as you can see, sometimes it doesn&#8217;t quite hit the mark.
@@ -22,4 +22,4 @@ Check it out though. It&#8217;s fun to play with.
 
 <u>[Riya.com][1]</u>
 
- [1]: http://www.riya.com
+ [1]: https://www.riya.com

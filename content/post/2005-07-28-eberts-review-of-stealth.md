@@ -32,4 +32,4 @@ _Lightning strikes the UCAV, which goes nuts and starts to download songs from t
   
 _Soon all four of them are having lunch, and the three pilots are discussing military secrets in front of the Thai girl, who &#8220;doesn&#8217;t speak English.&#8221; Beautiful Thai girls who allow themselves to be picked up by U.S. pilots almost always speak English, but never mind. It&#8217;s not that Purcell is too stupid to know that trusting her is dangerous; it&#8217;s that the movie is too stupid. How stupid? Nothing happens. The girl can&#8217;t speak English._
 
- [1]: http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20050727/REVIEWS/50713001
+ [1]: https://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20050727/REVIEWS/50713001

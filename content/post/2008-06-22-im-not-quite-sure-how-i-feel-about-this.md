@@ -11,7 +11,7 @@ categories:
 
 ---
 <div>
-  <b><a href="http://www.dailymotion.com/swf/x5v3wv">Rap</a></b><br /><i>by <a href="http://www.dailymotion.com/bsap11">bsap11</a></i>
+  <b><a href="https://www.dailymotion.com/swf/x5v3wv">Rap</a></b><br /><i>by <a href="https://www.dailymotion.com/bsap11">bsap11</a></i>
 </div>
 
 The good news is, both skippers are terrible rappers. I&#8217;m still trying to puzzle out a few of the lines (from both of them).

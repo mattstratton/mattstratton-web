@@ -14,4 +14,4 @@ The Idaho House of Representatives **commends Jared and Jerusha Hess** and the c
 
 Thanks to Kevin for the heads-up.
 
- [1]: http://www.imdb.com/title/tt0374900/ "Napolean Dynamite"
+ [1]: https://www.imdb.com/title/tt0374900/ "Napolean Dynamite"

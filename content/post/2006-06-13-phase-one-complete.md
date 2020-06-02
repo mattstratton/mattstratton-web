@@ -29,4 +29,4 @@ Some things I learned:
 
 That&#8217;s about it for today. Totally fun though. I&#8217;m glad I did it, and I&#8217;m looking forward to doing this every day.
 
- [1]: http://www.gmap-pedometer.com/?r=235263
+ [1]: https://www.gmap-pedometer.com/?r=235263

@@ -14,6 +14,6 @@ This is kind of cool. It&#8217;s from a site that theoretically figures things o
 
 Give it a try to see [how well you know me?][1]
 
-http://www.likebetter.com
+https://www.likebetter.com
 
- [1]: http://www.likebetter.com/doyouknow/mattstratton
+ [1]: https://www.likebetter.com/doyouknow/mattstratton

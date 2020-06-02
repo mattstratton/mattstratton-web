@@ -18,4 +18,4 @@ It&#8217;s pages 244-246.
 
 This is probably the most exciting thing that happened to our family today. Sigh.
 
- [1]: http://www.amazon.com/Such-Pretty-Fat-Narcissists-Discover/dp/0451223896
+ [1]: https://www.amazon.com/Such-Pretty-Fat-Narcissists-Discover/dp/0451223896

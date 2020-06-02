@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/7410429/" title="photo sharing"><img src="http://static.flickr.com/7/7410429_8b5e74af22_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/7410429/">Carrie</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/7410429/" title="photo sharing"><img src="https://static.flickr.com/7/7410429_8b5e74af22_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/7410429/">Carrie</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Granted, my office is air conditioned, but the heat just makes me lethargic. I&#8217;ve accomplished very little today, and I&#8217;m thinking about going home early.
@@ -26,4 +26,4 @@ I was also excited to see that the latest version of the [Flickr Export for iPho
 
 And finally&#8230;goodbye, Greg Maddux. I&#8217;m sorry to see you go.
 
- [1]: http://www.connectedflow.com/
+ [1]: https://www.connectedflow.com/

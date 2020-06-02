@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=mgmhSSM2alE  
+https://www.youtube.com/watch?v=mgmhSSM2alE  
 This was from Saturday night when Carrie and I were babysitting for our goddaughter/niece Kate.
 
 Pretty funny.

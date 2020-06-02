@@ -155,7 +155,7 @@ The tests live in the `test/smoke/default` directory of our cookbook. If we take
 # Inspec test for recipe my_awesome_cookbook::default
 
 # The Inspec reference, with examples and extensive documentation, can be
-# found at http://inspec.io/docs/reference/resources/
+# found at https://inspec.io/docs/reference/resources/
 
 unless os.windows?
   describe user('root') do
@@ -178,7 +178,7 @@ We can see there are two default tests. One checks to see if the user `root` exi
 # Inspec test for recipe my_awesome_cookbook::default
 
 # The Inspec reference, with examples and extensive documentation, can be
-# found at http://inspec.io/docs/reference/resources/
+# found at https://inspec.io/docs/reference/resources/
 
 describe package('apache2') do
     it { should be_installed  }

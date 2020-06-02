@@ -14,5 +14,5 @@ categories:
 
 ![][2]
 
- [1]: http://www.cdbaby.com/cd/ballisticedna
- [2]: http://www.cdbaby.com/covers/b/a/ballisticedna.jpg
+ [1]: https://www.cdbaby.com/cd/ballisticedna
+ [2]: https://www.cdbaby.com/covers/b/a/ballisticedna.jpg

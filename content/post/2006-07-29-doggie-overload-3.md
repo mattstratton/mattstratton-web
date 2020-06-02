@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/143152888/" title="photo sharing"><img src="http://static.flickr.com/45/143152888_ec035f12a1_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/143152888/">Scout</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/143152888/" title="photo sharing"><img src="https://static.flickr.com/45/143152888_ec035f12a1_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/143152888/">Scout</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Today&#8217;s been a long day. Carrie and I had breakfast at Cafe Sel Marie in Lincoln Square, and then I spent the rest of the day at Second City, videotaping Cherie&#8217;s grad show (and then taping &#8220;interviews&#8221; with the cast at the bar accross the street).

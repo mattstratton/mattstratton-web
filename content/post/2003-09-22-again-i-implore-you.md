@@ -14,5 +14,5 @@ Many people keep offering that they would do one&#8230;but nobody ever does. We 
 
 Email me at [matt [at] straighteye [dot] com][2] for more details. Thanks!
 
- [1]: http://straighteye.com
+ [1]: https://straighteye.com
  [2]: javascript:DeCryptX('2o3d3w2v1A3v3w3u2c2k0g3k3w3h2{0e0.2e3r3p')

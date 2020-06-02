@@ -8,7 +8,7 @@ description:
   - |
     During VEDA, my friend Kitty announced her goal of being the first female to play the eponymous character on Dr. Who. She expressed her desire in this video (link opens in a new window). Earlier today, my friends @Dutchface and @tomfromhr and I had a little bit of "back and forth" about this topic (starting with Tom comparing Ian's new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/doctorwho.jpg
+  - https://cdn.mattstratton.com/wp-content/uploads/doctorwho.jpg
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
@@ -16,7 +16,7 @@ thesis_post_image_vertical:
 dsq_thread_id:
   - 409651188
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/doctorwhotn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/doctorwhotn.png
 categories:
   - Friday Fun
 tags:
@@ -25,7 +25,7 @@ tags:
   - veda
 
 ---
-During VEDA, my friend <a href="http://dailykitty.blogspot.com/" target="_blank">Kitty</a> announced her goal of being the first female to play the eponymous character on _Doctor Who_. She expressed her desire in <a href="http://youtu.be/qMQ7CM49A-c?hd=1&t=31s" target="_blank">this video</a> (link opens in a new window). Earlier today, my friends <a href="http://www.twitter.com/Dutchface" target="_blank">@Dutchface</a> and <a href="http://www.twitter.com/tomfromhr" target="_blank">@tomfromhr</a> and I had a little bit of &#8220;back and forth&#8221; about this topic (starting with Tom comparing Ian&#8217;s new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.
+During VEDA, my friend <a href="https://dailykitty.blogspot.com/" target="_blank">Kitty</a> announced her goal of being the first female to play the eponymous character on _Doctor Who_. She expressed her desire in <a href="https://youtu.be/qMQ7CM49A-c?hd=1&t=31s" target="_blank">this video</a> (link opens in a new window). Earlier today, my friends <a href="https://www.twitter.com/Dutchface" target="_blank">@Dutchface</a> and <a href="https://www.twitter.com/tomfromhr" target="_blank">@tomfromhr</a> and I had a little bit of &#8220;back and forth&#8221; about this topic (starting with Tom comparing Ian&#8217;s new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.
 
 It all started when Ian tweeted a photo of himself in a snazzy new suit:
 

@@ -11,7 +11,7 @@ thesis_post_image_horizontal:
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/rsz_foul_bachelor_frog-friday_night_not_alone_with_internet_friends-1.png
+  - https://cdn.mattstratton.com/wp-content/uploads/rsz_foul_bachelor_frog-friday_night_not_alone_with_internet_friends-1.png
 dsq_thread_id:
   - 785719951
 categories:
@@ -24,7 +24,7 @@ tags:
   - internet friends
 
 ---
-Continuing my project of [crowd-sourced blog topics][1], today&#8217;s suggestion was via <a href="http://twitter.com/dutchface" target="_blank">@dutchface</a>. I like it for two reasons: One, it&#8217;s an interesting topic. Two, it&#8217;s a list, and everyone knows that lists are good blog posts to do, because they are easy and everyone likes to read them.
+Continuing my project of [crowd-sourced blog topics][1], today&#8217;s suggestion was via <a href="https://twitter.com/dutchface" target="_blank">@dutchface</a>. I like it for two reasons: One, it&#8217;s an interesting topic. Two, it&#8217;s a list, and everyone knows that lists are good blog posts to do, because they are easy and everyone likes to read them.
 
   1. **Internet friends are always available.** Real-life friends have things like &#8220;jobs&#8221; and &#8220;families&#8221; which might make them not there when you are bored and need entertainment. There&#8217;s always an internet friend available, as long as you have a data connection.
   2. **Real-life friends require a synchronous relationship.** Hanging out with your real-life friends means you need to both be available at the same time. Internet friends can be interacted with via chat or blog post, which means you don&#8217;t have to both be dedicated to the interaction at the exact same time.

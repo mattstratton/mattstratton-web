@@ -22,4 +22,4 @@ Shanabanana: that&#8217;s a bad thing
   
 Shanabanana: if you feel opressed being around a vegan, you&#8217;ll definitely feel opressed by a woman&#8217;s studies major
 
- [1]: http://www.nerve.com
+ [1]: https://www.nerve.com

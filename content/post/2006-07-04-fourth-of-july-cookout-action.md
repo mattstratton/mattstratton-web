@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/182098426/" title="photo sharing"><img src="http://static.flickr.com/67/182098426_f82f7be8ba_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/182098426/">Pinata!</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/182098426/" title="photo sharing"><img src="https://static.flickr.com/67/182098426_f82f7be8ba_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/182098426/">Pinata!</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Wow, we had a great time today. A bunch of cool friends came over for cookout and beers. Ryan brought his birthday pinata (which, apparently, was left-over from March), and we all regressed to childhood and gave it a whack.
@@ -20,4 +20,4 @@ Evin and Noah&#8217;s daughter Kesiah got to meet our niece Katelyn, which was f
 
 [Fourth of July Photos][1]
 
- [1]: http://flickr.com/photos/mugsy/sets/72157594187733398/
+ [1]: https://flickr.com/photos/mugsy/sets/72157594187733398/

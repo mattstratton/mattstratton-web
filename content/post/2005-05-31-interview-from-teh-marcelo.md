@@ -18,7 +18,7 @@ This is a tough one. Because almost everything I find funny I find to be terribl
 
 I would say it is either [this video here][1], or this picture of Nando taking it up the butt:
 
-[<img src="http://windyhop.org/images/photos/unapproved/P1010033-2001317105118.JPG" width="300" />][2]
+[<img src="https://windyhop.org/images/photos/unapproved/P1010033-2001317105118.JPG" width="300" />][2]
 
 However, upon further reflection, I just remembered.
 
@@ -42,6 +42,6 @@ _5. Better performance &#8211; William Shatner in Star Trek II: The Wrath of Kha
   
 It&#8217;s all about Burt Reynolds. The smugness carries that entire movie. Plus, Wrath of Khan doesn&#8217;t have wacky outtakes at the end. If they could have had Leonard Nimoy cracking up because Shatner said &#8220;Can&#8221; instead of &#8220;Khan&#8221;, then MAYBE there would be a comparison.
 
- [1]: http://www.xanga.com/item.aspx?user=Barrester&tab=weblogs&uid=270892934
- [2]: http://windyhop.org/images/photos/unapproved/P1010033-2001317105118.JPG
- [3]: http://www.milkandcookies.com/links/26951/
+ [1]: https://www.xanga.com/item.aspx?user=Barrester&tab=weblogs&uid=270892934
+ [2]: https://windyhop.org/images/photos/unapproved/P1010033-2001317105118.JPG
+ [3]: https://www.milkandcookies.com/links/26951/

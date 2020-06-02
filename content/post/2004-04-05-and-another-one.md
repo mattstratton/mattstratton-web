@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-Just got word that _Inventing: Music_ was accepted into the <a href="http://www.rochesterfilmfest.org/" target="_blank">Rochester International Film Festival</a>, May 6-8.
+Just got word that _Inventing: Music_ was accepted into the <a href="https://www.rochesterfilmfest.org/" target="_blank">Rochester International Film Festival</a>, May 6-8.
 
 I&#8217;m excited. I will definitely be going to this! Special thanks to for clueing me into this festival. He&#8217;ll be getting a shout-out in our acceptance speech.
 

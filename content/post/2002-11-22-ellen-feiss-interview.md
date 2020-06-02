@@ -18,5 +18,5 @@ It was pretty funny. I also like this Fox Trot comic &#8211;
 
 ![][2]
 
- [1]: http://www.jumpingmonkeys.com/
- [2]: http://images.ucomics.com/comics/ft/2002/ft021106.gif
+ [1]: https://www.jumpingmonkeys.com/
+ [2]: https://images.ucomics.com/comics/ft/2002/ft021106.gif

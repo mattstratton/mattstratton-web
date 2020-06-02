@@ -30,4 +30,4 @@ Today I am going to Side Street around 3 PM for Chris&#8217;s &#8220;going away&
 
 Keep your fingers crossed for nice weather this weekend!
 
- [1]: http://belcanto88.livejournal.com/
+ [1]: https://belcanto88.livejournal.com/

@@ -16,19 +16,19 @@ Busy weekend. Here&#8217;s the recap for yo&#8217; azz:
 After work, I joined&nbsp; 
 
 <div class="ljuser">
-  <a href="http://brian81773.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="http://stat.livejournal.com/img/userinfo.gif" /></a><a href="http://brian81773.livejournal.com/"><b>brian81773</b></a>
+  <a href="https://brian81773.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="https://stat.livejournal.com/img/userinfo.gif" /></a><a href="https://brian81773.livejournal.com/"><b>brian81773</b></a>
 </div>
 
 on the Metra to head out to the suburbs. He and 
 
 <div class="ljuser">
-  <a href="http://tavist.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="http://stat.livejournal.com/img/userinfo.gif" /></a><a href="http://tavist.livejournal.com/"><b>tavist</b></a>
+  <a href="https://tavist.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="https://stat.livejournal.com/img/userinfo.gif" /></a><a href="https://tavist.livejournal.com/"><b>tavist</b></a>
 </div>
 
 &nbsp;both felt that it would be good practice for when we move out there. We met up with 
 
 <div class="ljuser">
-  <a href="http://tavist.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="http://stat.livejournal.com/img/userinfo.gif" /></a><a href="http://tavist.livejournal.com/"><b>tavist</b></a>
+  <a href="https://tavist.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="https://stat.livejournal.com/img/userinfo.gif" /></a><a href="https://tavist.livejournal.com/"><b>tavist</b></a>
 </div>
 
 &nbsp;and Carrie for dinner at Uncle Julio&#8217;s, and then stopped at Baker&#8217;s Square for some pie. We took the pie back to their house and played Cranium. Then we went home.
@@ -41,7 +41,7 @@ Well, later that day, he emailed me the proposal &#8211; it did NOT include airf
 After our travel agent meeting, we joined 
 
 <div class="ljuser">
-  <a href="http://sveltebunny.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="http://stat.livejournal.com/img/userinfo.gif" /></a><a href="http://sveltebunny.livejournal.com/"><b>sveltebunny</b></a>
+  <a href="https://sveltebunny.livejournal.com/profile"><img width="17" height="17" style="border:0 none;vertical-align:bottom;" alt="[info]" src="https://stat.livejournal.com/img/userinfo.gif" /></a><a href="https://sveltebunny.livejournal.com/"><b>sveltebunny</b></a>
 </div>
 
 &nbsp;for brunch at Eleven City Diner. Had some delicious lox. Plus, they have a dish called the [&#8220;Tom Waits Breakfast&#8221;][2]. Neat.
@@ -55,8 +55,8 @@ After the invitations, we went to Bed Bath and Beyond to register. That was exha
 
 After registering, we had dinner at my mom&#8217;s house and I geeked out over Tom Waits with my stepfather.
 
- [1]: http://www.costaricaexperts.com/
- [2]: http://flickr.com/photos/mugsy/371052444/
- [3]: http://lakesideknitter.blogspot.com/
- [4]: http://www.action-squad.com/
- [5]: http://www.styleonabudget.com
+ [1]: https://www.costaricaexperts.com/
+ [2]: https://flickr.com/photos/mugsy/371052444/
+ [3]: https://lakesideknitter.blogspot.com/
+ [4]: https://www.action-squad.com/
+ [5]: https://www.styleonabudget.com

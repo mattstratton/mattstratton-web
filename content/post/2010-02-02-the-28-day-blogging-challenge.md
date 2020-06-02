@@ -22,7 +22,7 @@ tags:
   - blogging
 
 ---
-Yesterday I made mention of the fact that I&#8217;d jumped on board with Scott Bishop&#8217;s <a href="http://realtimemarketer.com/the-28-day-blogging-challenge" target="_blank">28 Day Blogging Challenge</a>. One of the main precepts of this challenge is to look for measurable improvement and change in this blog.
+Yesterday I made mention of the fact that I&#8217;d jumped on board with Scott Bishop&#8217;s <a href="https://realtimemarketer.com/the-28-day-blogging-challenge" target="_blank">28 Day Blogging Challenge</a>. One of the main precepts of this challenge is to look for measurable improvement and change in this blog.
 
 ## What am I looking for?
 
@@ -42,7 +42,7 @@ These goals are well and good&#8230;but they don&#8217;t do anything without act
 
 **Organized and schedule posting** &#8211; I was REALLY good about this early in 2009. I had specific types of posts I did on certain days of the week. For example, Monday was &#8220;RSS Recommendations&#8221;, Wednesday was &#8220;Web Wanderings&#8221;, Thursday was &#8220;Tech Tips&#8221;, etc. I found that with this type of schedule it helped me figure out what I wanted to post ABOUT&#8230;but the issue was when I couldn&#8217;t think of a &#8220;Web Wandering&#8221;, for example. My goal now is to use the content schedule as a guide, but I will allow myself to post outside of that schedule if the content requires it.
 
-**Improve &#8220;calls to action&#8221; in my posts** &#8211; Nobody does this better than Matt at <a href="http://lifewithoutpants.com" target="_blank">Life Without Pants</a>. His posts ALWAYS engage his user base, and the dude not only gets a LOT of comments, he sparks really interesting DISCUSSIONS in them. One of the main recipes for his success is the concept of &#8220;call to action&#8221;. He doesn&#8217;t just post stuff&#8230;his posts are springboards for conversation. I am going to try to make a point of including at least one &#8220;call to action&#8221; in each post. Actually, I should do one better &#8211; I should include ONE, and only ONE, &#8220;call to action&#8221; in each post&#8230;and put it at the end.
+**Improve &#8220;calls to action&#8221; in my posts** &#8211; Nobody does this better than Matt at <a href="https://lifewithoutpants.com" target="_blank">Life Without Pants</a>. His posts ALWAYS engage his user base, and the dude not only gets a LOT of comments, he sparks really interesting DISCUSSIONS in them. One of the main recipes for his success is the concept of &#8220;call to action&#8221;. He doesn&#8217;t just post stuff&#8230;his posts are springboards for conversation. I am going to try to make a point of including at least one &#8220;call to action&#8221; in each post. Actually, I should do one better &#8211; I should include ONE, and only ONE, &#8220;call to action&#8221; in each post&#8230;and put it at the end.
 
 **Include images in each and every post** &#8211; Everyone loves pretty pictures. I&#8217;m also going to make a concerted effort to ensure that every post has an associated thumbnail graphic for Thesis to use in archive type pages. My hope is that not only will pictures make my posts &#8220;stand out&#8221; in an RSS reader, but the thumbnails will help when people are poking around on my category pages, etc.
 

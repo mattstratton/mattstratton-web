@@ -14,4 +14,4 @@ categories:
 
 SlashChick writes _&#8220;In an interesting twist on political correctness, L.A. County has banned the use of the terms &#8216;Master/Slave&#8217; (commonly used to denote hard drive arrangements.) According to Snopes.com, &#8216;someone within the County bureaucracy&#8230; had taken offense at &#8220;master/slave&#8221; references and complained to the board.&#8217; L.A. County now requires that vendors working with the county remove all &#8216;master/slave&#8217; references. Incredible._
 
- [1]: http://www.snopes.com/inboxer/outrage/master.asp
+ [1]: https://www.snopes.com/inboxer/outrage/master.asp

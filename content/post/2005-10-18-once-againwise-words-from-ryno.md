@@ -38,13 +38,13 @@ By [Ryne Sandberg][2], Yahoo! Sports
             <table class="yspwhitebg" border="0" cellpadding="2" cellspacing="0" width="100%">
               <tr>
                 <td>
-                  <a href="http://sports.yahoo.com/mlb/expertsarchive?author=Ryne+Sandberg"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/sp/cn/headshots/rynesandberg4.jpg" alt="Ryne Sandberg" title="Ryne Sandberg" border="0" height="70" width="70" /></a>
+                  <a href="https://sports.yahoo.com/mlb/expertsarchive?author=Ryne+Sandberg"><img src="https://us.i1.yimg.com/us.yimg.com/i/us/sp/cn/headshots/rynesandberg4.jpg" alt="Ryne Sandberg" title="Ryne Sandberg" border="0" height="70" width="70" /></a>
                 </td>
               </tr>
               
               <tr>
                 <td>
-                  <a href="http://sports.yahoo.com/mlb/news?slug=rs-whitesox101705&prov=yhoo&type=lgns"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/sp/p/yse_lo_70x24_2.gif" alt="Yahoo! Sports Exclusive" title="Yahoo! Sports Exclusive" border="0" height="24" width="70" /></a>
+                  <a href="https://sports.yahoo.com/mlb/news?slug=rs-whitesox101705&prov=yhoo&type=lgns"><img src="https://us.i1.yimg.com/us.yimg.com/i/us/sp/p/yse_lo_70x24_2.gif" alt="Yahoo! Sports Exclusive" title="Yahoo! Sports Exclusive" border="0" height="24" width="70" /></a>
                 </td>
               </tr>
             </table>
@@ -68,7 +68,7 @@ The White Sox play an NL-type of ball that I love. They pitch well, they have re
 <table align="right" border="0" cellpadding="1">
   <tr>
     <td>
-      if (window.yzq_a == null) document.write(&#8220;&#8221;); if (window.yzq_a) { yzq_a(&#8216;p&#8217;, &#8216;P=KQg8_9htfvFyUXqBQae7RAHQqpRcEkNVEC0ABNca&T=13rlh2ros%2fX%3d1129648173%2fE%3d96921932%2fR%3dsports%2fK%3d5%2fV%3d1.1%2fW%3d8%2fY%3dYAHOO%2fF%3d3411535242%2fS%3d1%2fJ%3d52776DD8&#8217;); yzq_a(&#8216;a&#8217;, &#8216;&U=139akq8v0%2fN%3dDcIfCthtfYU-%2fC%3d361100.7384548.8280218.1414694%2fD%3dLREC%2fB%3d2964050&#8217;); } <img width="1" height="1" alt="" src="http://bc.us.yahoo.com/b?P=KQg8_9htfvFyUXqBQae7RAHQqpRcEkNVEC0ABNca&T=140j45g8i%2fX%3d1129648173%2fE%3d96921932%2fR%3dsports%2fK%3d5%2fV%3d2.1%2fW%3d8%2fY%3dYAHOO%2fF%3d1576554259%2fQ%3d-1%2fS%3d1%2fJ%3d52776DD8&U=139akq8v0%2fN%3dDcIfCthtfYU-%2fC%3d361100.7384548.8280218.1414694%2fD%3dLREC%2fB%3d2964050" />
+      if (window.yzq_a == null) document.write(&#8220;&#8221;); if (window.yzq_a) { yzq_a(&#8216;p&#8217;, &#8216;P=KQg8_9htfvFyUXqBQae7RAHQqpRcEkNVEC0ABNca&T=13rlh2ros%2fX%3d1129648173%2fE%3d96921932%2fR%3dsports%2fK%3d5%2fV%3d1.1%2fW%3d8%2fY%3dYAHOO%2fF%3d3411535242%2fS%3d1%2fJ%3d52776DD8&#8217;); yzq_a(&#8216;a&#8217;, &#8216;&U=139akq8v0%2fN%3dDcIfCthtfYU-%2fC%3d361100.7384548.8280218.1414694%2fD%3dLREC%2fB%3d2964050&#8217;); } <img width="1" height="1" alt="" src="https://bc.us.yahoo.com/b?P=KQg8_9htfvFyUXqBQae7RAHQqpRcEkNVEC0ABNca&T=140j45g8i%2fX%3d1129648173%2fE%3d96921932%2fR%3dsports%2fK%3d5%2fV%3d2.1%2fW%3d8%2fY%3dYAHOO%2fF%3d1576554259%2fQ%3d-1%2fS%3d1%2fJ%3d52776DD8&U=139akq8v0%2fN%3dDcIfCthtfYU-%2fC%3d361100.7384548.8280218.1414694%2fD%3dLREC%2fB%3d2964050" />
     </td>
   </tr>
 </table>
@@ -99,12 +99,12 @@ _Longtime Chicago Cub Ryne Sandberg was inducted into the Baseball Hall of Fame 
 
 _Send Ryne a question or comment for potential use in a future column or webcast._
 
- [1]: http://sports.yahoo.com/mlb/news?slug=rs-whitesox101705&prov=yhoo&type=lgns
- [2]: http://sports.yahoo.com/mlb/expertsarchive?author=Ryne+Sandberg
- [3]: http://sports.yahoo.com/mlb/teams/chc/
- [4]: http://sports.yahoo.com/mlb/teams/chw/
- [5]: http://sports.yahoo.com/mlb/players/5908/
- [6]: http://sports.yahoo.com/mlb/players/6161/
- [7]: http://sports.yahoo.com/mlb/players/5889/
- [8]: http://sports.yahoo.com/mlb/players/6489/
- [9]: http://sports.yahoo.com/mlb/players/7510/
+ [1]: https://sports.yahoo.com/mlb/news?slug=rs-whitesox101705&prov=yhoo&type=lgns
+ [2]: https://sports.yahoo.com/mlb/expertsarchive?author=Ryne+Sandberg
+ [3]: https://sports.yahoo.com/mlb/teams/chc/
+ [4]: https://sports.yahoo.com/mlb/teams/chw/
+ [5]: https://sports.yahoo.com/mlb/players/5908/
+ [6]: https://sports.yahoo.com/mlb/players/6161/
+ [7]: https://sports.yahoo.com/mlb/players/5889/
+ [8]: https://sports.yahoo.com/mlb/players/6489/
+ [9]: https://sports.yahoo.com/mlb/players/7510/

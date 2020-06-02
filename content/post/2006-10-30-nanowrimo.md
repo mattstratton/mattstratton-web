@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<img src="http://static.flickr.com/121/283697823_e6cd486f13_o.gif" width="120" height="240" align="right" />So after hearing people like and talk about it all the time, I decided I would sign up for the [National Novel Writing Month][1] challenge.
+<img src="https://static.flickr.com/121/283697823_e6cd486f13_o.gif" width="120" height="240" align="right" />So after hearing people like and talk about it all the time, I decided I would sign up for the [National Novel Writing Month][1] challenge.
 
 That&#8217;s right.
 
@@ -30,4 +30,4 @@ Not so good at finishing them.
 
 Please, help keep me honest, guys.
 
- [1]: http://www.nanowrimo.org
+ [1]: https://www.nanowrimo.org

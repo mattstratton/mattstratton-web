@@ -32,4 +32,4 @@ That&#8217;s a tough one. Probably if you combine my last three trips to Vegas i
 
 m.
 
- [1]: http://www.dancingwithgaia.com
+ [1]: https://www.dancingwithgaia.com

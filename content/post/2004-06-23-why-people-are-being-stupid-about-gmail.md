@@ -14,7 +14,7 @@ tags:
   - Email
 
 ---
-So I&#8217;ve seen a lot of posts on discussion boards and LJ, as well as <a href="http://www.gmail-is-too-creepy.com/" target="_blank">websites</a>, in which people are freaking out about how &#8220;evil&#8221; <a href="http://www.gmail.com" target="_blank">gmail</a> is, and how Google is doing all these things wrong and how nobody should use it in the interests of protecting privacy.
+So I&#8217;ve seen a lot of posts on discussion boards and LJ, as well as <a href="https://www.gmail-is-too-creepy.com/" target="_blank">websites</a>, in which people are freaking out about how &#8220;evil&#8221; <a href="https://www.gmail.com" target="_blank">gmail</a> is, and how Google is doing all these things wrong and how nobody should use it in the interests of protecting privacy.
 
 And I&#8217;ve had about enough of this alarmist attitude that mostly comes from ignorance.
 
@@ -40,5 +40,5 @@ I&#8217;m not saying you should use Gmail. Do what you want. But please, be educ
 
 [![][1]][2] Living Colour &#8211; Back In Black
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

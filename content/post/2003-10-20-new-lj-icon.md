@@ -18,5 +18,5 @@ _Hopisiah the Kanga-Jew knows history because his family lived it! Hopsiah lives
 
 This website is funnier than H*R.
 
- [1]: http://objective.jesussave.us/kidz.html
- [2]: http://objective.jesussave.us/kangaroo.html
+ [1]: https://objective.jesussave.us/kidz.html
+ [2]: https://objective.jesussave.us/kangaroo.html

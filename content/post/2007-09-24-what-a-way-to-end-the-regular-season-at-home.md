@@ -33,6 +33,6 @@ Almost got a foul ball (it landed on the walkway about 8 feet behind me&#8230;wh
 
 And possibly the funniest thing I&#8217;ve ever seen in my life&#8230;the entire park started doing the &#8220;Tomahawk Chop&#8221; when the scoreboard posted that the Braves had pulled ahead of Milwaukee:
 
-[<img title="Cubs fans doing the tomahawk chop" src="http://static.flickr.com/1203/1433033022_81bca333ee.jpg" alt="Cubs fans doing the tomahawk chop" width="500" height="400" />][1]
+[<img title="Cubs fans doing the tomahawk chop" src="https://static.flickr.com/1203/1433033022_81bca333ee.jpg" alt="Cubs fans doing the tomahawk chop" width="500" height="400" />][1]
 
- [1]: http://www.flickr.com/photo.gne?id=1433033022 "Cubs fans doing the tomahawk chop"
+ [1]: https://www.flickr.com/photo.gne?id=1433033022 "Cubs fans doing the tomahawk chop"

@@ -22,4 +22,4 @@ _I once had a fork. It looked like a spoon, so I called it a spoon. Was I wrong?
 
 _If you sell cereal and milk separately, I will bid! Otherwse, it will get soggy._
 
- [1]: http://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedbackMemberLeft&memberid=andy46477&items=25&page=1&frompage=-1&iid=-1&de=off
+ [1]: https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedbackMemberLeft&memberid=andy46477&items=25&page=1&frompage=-1&iid=-1&de=off

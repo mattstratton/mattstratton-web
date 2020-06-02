@@ -22,4 +22,4 @@ categories:
 
 &#8220;Great concept and modernization of why we guys can&#8217;t impress the ladies, no matter how much we lie about ourselves.&#8221;
 
- [1]: http://www.triggerstreet.com
+ [1]: https://www.triggerstreet.com

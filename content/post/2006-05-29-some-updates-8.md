@@ -20,5 +20,5 @@ Based upon my now accurate tracking, though, I have lost five pounds since Frida
 
 Fun!
 
- [1]: http://www.calorieking.com/blogs/?member=mattstratton
- [2]: http://www.gmap-pedometer.com/
+ [1]: https://www.calorieking.com/blogs/?member=mattstratton
+ [2]: https://www.gmap-pedometer.com/

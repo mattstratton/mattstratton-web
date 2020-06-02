@@ -16,4 +16,4 @@ does a monster job of [deconstructing the Justice League pilot][1].
 
 Run, don&#8217;t walk. Your humor gland will thank me.
 
- [1]: http://www.livejournal.com/users/tdj/496391.html
+ [1]: https://www.livejournal.com/users/tdj/496391.html

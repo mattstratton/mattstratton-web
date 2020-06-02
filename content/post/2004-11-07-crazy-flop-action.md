@@ -16,4 +16,4 @@ dealt this flop tonight.
 
 As you can imagine, there wasn&#8217;t much action after that came up. Unless &#8220;lots of folding&#8221; counts as action.
 
- [1]: http://www.textamerica.com/user.images.x/10/IMG_402310/_1106/T40411062112530.jpg
+ [1]: https://www.textamerica.com/user.images.x/10/IMG_402310/_1106/T40411062112530.jpg

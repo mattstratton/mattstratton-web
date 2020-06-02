@@ -12,6 +12,6 @@ categories:
 ---
 Anyone know why I would be getting this weird grey bar at the top of my Firefox? This is in Windows.
 
-[<img width="600" height="54" src="http://farm3.static.flickr.com/2005/2471700218_4c66b5b905_b.jpg" alt="" />][1]
+[<img width="600" height="54" src="https://farm3.static.flickr.com/2005/2471700218_4c66b5b905_b.jpg" alt="" />][1]
 
- [1]: http://farm3.static.flickr.com/2005/2471700218_4c66b5b905_b.jpg
+ [1]: https://farm3.static.flickr.com/2005/2471700218_4c66b5b905_b.jpg

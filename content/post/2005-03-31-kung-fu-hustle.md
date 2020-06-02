@@ -12,4 +12,4 @@ categories:
 ---
 &#8230;was awesome.
 
-If you&#8217;re in Chicago, you can try to get free passes to the Wednesdsay, April 6 screening at <http://filmforce.ign.com/articles/594/594445p1.html>
+If you&#8217;re in Chicago, you can try to get free passes to the Wednesdsay, April 6 screening at <https://filmforce.ign.com/articles/594/594445p1.html>

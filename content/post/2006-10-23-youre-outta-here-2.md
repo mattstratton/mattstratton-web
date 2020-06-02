@@ -16,4 +16,4 @@ categories:
 
 This says everything about the Yankee mentality that we&#8217;re all thinking. Well, all of us except .
 
- [1]: http://www.theonion.com/content/node/53979
+ [1]: https://www.theonion.com/content/node/53979

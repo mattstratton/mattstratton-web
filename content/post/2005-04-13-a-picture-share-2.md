@@ -11,5 +11,5 @@ categories:
 
 ---
 <div class="flickrEmailPost">
-  <a title="A Picture Share!" href="http://www.flickr.com/photos/mugsy/9351640/"><img class="flickrEmailImage" src="http://photos6.flickr.com/9351640_1b1dff8d29_m.jpg" alt="A Picture Share!" /></a>This is the painting tracy did for me.
+  <a title="A Picture Share!" href="https://www.flickr.com/photos/mugsy/9351640/"><img class="flickrEmailImage" src="https://photos6.flickr.com/9351640_1b1dff8d29_m.jpg" alt="A Picture Share!" /></a>This is the painting tracy did for me.
 </div>

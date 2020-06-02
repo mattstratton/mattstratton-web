@@ -14,4 +14,4 @@ And I thought a GTF hat would cheer me up. But I don&#8217;t think it turned out
 
 ![][1]
 
- [1]: http://www.windyhop.org/images/pC200016.JPG
+ [1]: https://www.windyhop.org/images/pC200016.JPG

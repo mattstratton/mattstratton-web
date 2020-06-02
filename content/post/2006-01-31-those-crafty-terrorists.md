@@ -20,7 +20,7 @@ Schneier&#8217;s stuff is generally pretty good. His [evaluation][3] of the whol
 
 Plus, sometimes he blogs about [squid][4].
 
- [1]: http://www.schneier.com/index.html
- [2]: http://www.schneier.com/blog/archives/2006/01/wireless_dead_d.html
- [3]: http://www.schneier.com/blog/archives/2005/12/nsa_and_bushs_i.html
- [4]: http://www.schneier.com/blog/archives/2006/01/friday_squid_bl_2.html
+ [1]: https://www.schneier.com/index.html
+ [2]: https://www.schneier.com/blog/archives/2006/01/wireless_dead_d.html
+ [3]: https://www.schneier.com/blog/archives/2005/12/nsa_and_bushs_i.html
+ [4]: https://www.schneier.com/blog/archives/2006/01/friday_squid_bl_2.html

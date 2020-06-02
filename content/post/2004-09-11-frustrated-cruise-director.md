@@ -24,5 +24,5 @@ I&#8217;m sure it will all work out though.
 
 [![][1]][2] Stillwater &#8211; Fever Dog</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

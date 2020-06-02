@@ -12,7 +12,7 @@ categories:
 ---
 Found out about this thanks to
 
-One of my favorite short stories when I was younger, has been made into a short film.   [ <img src="http://static.flickr.com/52/140968147_35e2fa2f1c.jpg?v=0" align="right" border="1" height="185" hspace="2" vspace="2" width="225" />They are made out of meat.][1]
+One of my favorite short stories when I was younger, has been made into a short film.   [ <img src="https://static.flickr.com/52/140968147_35e2fa2f1c.jpg?v=0" align="right" border="1" height="185" hspace="2" vspace="2" width="225" />They are made out of meat.][1]
   
 
 
@@ -24,4 +24,4 @@ I first read this story when it appeared in _OMNI_. I think I was either in juni
 
 I was a nerd then, too.
 
- [1]: http://www.youtube.com/watch?v=V-NAvPzdjj0
+ [1]: https://www.youtube.com/watch?v=V-NAvPzdjj0

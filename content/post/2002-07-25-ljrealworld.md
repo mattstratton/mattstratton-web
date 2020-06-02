@@ -14,4 +14,4 @@ You&#8217;re welcome.
 
 m.
 
- [1]: http://www.livejournal.com/support/faqbrowse.bml?faqid=76
+ [1]: https://www.livejournal.com/support/faqbrowse.bml?faqid=76

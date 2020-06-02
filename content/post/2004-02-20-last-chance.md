@@ -18,9 +18,9 @@ Our first movie was a swing dancing mockumentary entitled [_Dancing With Gaia_][
 
 You can read more in the [posts about my movies][6]. Feel free to ask more questions and I&#8217;ll answer them
 
- [1]: http://dancingwithgaia.com
- [2]: http://dancingwithgaia.com/purchase.htm
- [3]: http://mugsy1274.livejournal.com/205112.html
- [4]: http://gravytrainfilms.com
- [5]: http://www.triggerstreet.com
- [6]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all
+ [1]: https://dancingwithgaia.com
+ [2]: https://dancingwithgaia.com/purchase.htm
+ [3]: https://mugsy1274.livejournal.com/205112.html
+ [4]: https://gravytrainfilms.com
+ [5]: https://www.triggerstreet.com
+ [6]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all

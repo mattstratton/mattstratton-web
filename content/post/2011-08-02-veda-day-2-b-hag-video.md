@@ -13,7 +13,7 @@ categories:
   - Vlogs
 
 ---
-In today&#8217;s <a href="http://weblogwevlog.com/" target="_blank">VEDA </a> video, I discuss my B-HAG (Big, Hairy, Audacious Goal). It actually isn&#8217;t that big OR audacious, and it&#8217;s also fairly geeky. Consider yourself warned.
+In today&#8217;s <a href="https://weblogwevlog.com/" target="_blank">VEDA </a> video, I discuss my B-HAG (Big, Hairy, Audacious Goal). It actually isn&#8217;t that big OR audacious, and it&#8217;s also fairly geeky. Consider yourself warned.
 
 
 

@@ -10,6 +10,6 @@ categories:
 ---
 So we have forums at [GTF][1] now&#8230;
 
-Check &#8217;em out at <http://forums.gravytrainfilms.com>.
+Check &#8217;em out at <https://forums.gravytrainfilms.com>.
 
- [1]: http://www.gravytrainfilms.com
+ [1]: https://www.gravytrainfilms.com

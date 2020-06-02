@@ -14,4 +14,4 @@ Special for :
 
 ![][1]
 
- [1]: http://bestweekever.blogs.com/photos/uncategorized/rachaelraycollandersmall.jpg
+ [1]: https://bestweekever.blogs.com/photos/uncategorized/rachaelraycollandersmall.jpg

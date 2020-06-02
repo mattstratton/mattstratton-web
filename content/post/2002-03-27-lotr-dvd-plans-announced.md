@@ -32,5 +32,5 @@ Alrighty, all you hobbits and elves out there, here it is. What is likely the mo
                         
                         Last but not least, New Line is also planning on release a special limited edition gift set of the 4-disc set, with two bookend statuettes by sculptor Sideshow Weta, the National Geographic &#8220;Beyond The Movie&#8221; DVD, and several collectible Decipher game cards. There were also rumors floating around that after all three films are done and released, a fifth mega-box set of all three with possible additional material may be released, which would be sometime in 2004. Stay tuned for more on final specs for the 4-disc set, and in the meantime, check out four [menu screens][2] for the 2-disc sets released by New Line, and a blowup of the box art. Enjoy!
 
- [1]: http://www.dvdfile.com/software/dvd-video/index.html
- [2]: http://www.dvdfile.com/interactive/drive_in/clips/lordoftherings/fellowshipofthering/gallery.html
+ [1]: https://www.dvdfile.com/software/dvd-video/index.html
+ [2]: https://www.dvdfile.com/interactive/drive_in/clips/lordoftherings/fellowshipofthering/gallery.html

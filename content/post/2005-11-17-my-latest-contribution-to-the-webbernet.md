@@ -16,4 +16,4 @@ I&#8217;ve started a new blog detailing my lunchtime adventures. It started beca
 
 </b>You can also add to your Friends list to get updates.
 
- [1]: http://stcobb.blogspot.com
+ [1]: https://stcobb.blogspot.com

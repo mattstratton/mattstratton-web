@@ -14,4 +14,4 @@ Figured we&#8217;d see this link in &#8216;s LJ sooner or later:
 
 **<u>Ten Best Flickr Mashups</u>**
 
-<span class="xj_itms"><a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Pavement &#8211; Flood Victim</span>
+<span class="xj_itms"><a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Pavement &#8211; Flood Victim</span>

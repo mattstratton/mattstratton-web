@@ -19,7 +19,7 @@ Because, like , I am bored:
         <tr>
           <td height="30">
             <div align="center">
-              <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://www.quizyourfriends.com/takequiz.php?quizname=060131123729-289422" target="_blank"><br /><strong><font size="2">Take My Quiz<br />&#8211; on &#8211;<br />QuizYourFriends.com!</font></strong></p> 
+              <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="https://www.quizyourfriends.com/takequiz.php?quizname=060131123729-289422" target="_blank"><br /><strong><font size="2">Take My Quiz<br />&#8211; on &#8211;<br />QuizYourFriends.com!</font></strong></p> 
               
               <p>
                 </a></font></div> </td> </tr> </table> </td> </tr> </table> 
@@ -28,5 +28,5 @@ Because, like , I am bored:
                 </p>
                 
                 <p>
-                  <span class="xj_itms"><a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Sleater-Kinney &#8211; Oh!</span>
+                  <span class="xj_itms"><a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Sleater-Kinney &#8211; Oh!</span>
                 </p>

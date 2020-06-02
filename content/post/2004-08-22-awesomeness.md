@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<a href="http://www.apple.com/trailers/paramount/team_america/" target="_blank">Finally&#8230; the movie that Thunderbirds *should* have been.</a>
+<a href="https://www.apple.com/trailers/paramount/team_america/" target="_blank">Finally&#8230; the movie that Thunderbirds *should* have been.</a>
 
 Dude, I can&#8217;t wait.
 

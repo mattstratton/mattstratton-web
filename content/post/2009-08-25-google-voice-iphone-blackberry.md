@@ -16,7 +16,7 @@ tags:
   - iphone
 
 ---
-<a href="http://google.com/voice" target="_blank">Google Voice</a>. It&#8217;s here, it&#8217;s <a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre#.22Free_as_in_beer.22_vs_.22Free_as_in_speech.22" target="_blank">free like beer</a>, get used to it.
+<a href="https://google.com/voice" target="_blank">Google Voice</a>. It&#8217;s here, it&#8217;s <a href="https://en.wikipedia.org/wiki/Gratis_versus_Libre#.22Free_as_in_beer.22_vs_.22Free_as_in_speech.22" target="_blank">free like beer</a>, get used to it.
 
 I&#8217;ve been using Google Voice (née GrandCentral) for several years, but I have to say, until I was able to start using the service with an app on a smartphone, it really was a difficult adoption. The main issue with the app-less GV experience has to do with outbound calls &#8211; unless you go through the web interface, when you call someone, your caller ID will show the number of your device. **If you&#8217;re attempting to get your friends and co-workers to only call you on you GV number, it&#8217;s essential to have your caller ID represent your GV number**. It&#8217;s just the way that it is.
 
@@ -24,7 +24,7 @@ This is where the apps come in. Installing a Google Voice app on your smartphone
 
 Users of BlackBerry or Android smartphones have it the best of all handsets when it comes to Google Voice. The Goog has created free apps for both platforms for accessing and using GV. Prior to the official apps, there were third party (and non-free) options, but they were not quite as elegant (in my opinion) as the Google apps. As I do not have access to an Android smartphone, I can only review the BlackBerry version here.
 
-**If you are an iPhone user, you&#8217;re kind of out of luck.** There was a third-party Google Voice app available called <a href="http://www.seankovacs.com/index.php/gv-mobile/" target="_blank">GV Mobile</a>, but Apple recently pulled it from the app store. If you are like me, and downloaded the app before this occurred, you can still use it. Or you could <a href="http://en.wikipedia.org/wiki/Jailbreak_%28iPhone_OS%29" target="_blank">jailbreak</a> your iPhone and download GV Mobile for free from <a href="http://cydia.saurik.com/" target="_blank">Cydia</a>. There is currently no official Google provided GV app for the iPhone, because Apple has apparently denied this app. Or, as they say, are &#8220;still reviewing it&#8221;. Still, I am going to include this app in the shoot-out as I think it is important to see the differences between this app and the Google version on BlackBerry.
+**If you are an iPhone user, you&#8217;re kind of out of luck.** There was a third-party Google Voice app available called <a href="https://www.seankovacs.com/index.php/gv-mobile/" target="_blank">GV Mobile</a>, but Apple recently pulled it from the app store. If you are like me, and downloaded the app before this occurred, you can still use it. Or you could <a href="https://en.wikipedia.org/wiki/Jailbreak_%28iPhone_OS%29" target="_blank">jailbreak</a> your iPhone and download GV Mobile for free from <a href="https://cydia.saurik.com/" target="_blank">Cydia</a>. There is currently no official Google provided GV app for the iPhone, because Apple has apparently denied this app. Or, as they say, are &#8220;still reviewing it&#8221;. Still, I am going to include this app in the shoot-out as I think it is important to see the differences between this app and the Google version on BlackBerry.
 
 ## **Google Voice app (BlackBerry)**
 
@@ -76,7 +76,7 @@ Using the Google Voice app on the BlackBerry is quite simple. There&#8217;s a st
   </div>
   
   <p>
-    Overall, the app is super well done and has been very stable for me. There are some minor annoyances &#8211; you can only dial from the app or Contacts&#8230;you cannot dial from the regular BlackBerry call log, for example. Overall, though, it&#8217;s a small price to pay for a very well done app. <a href="http://m.google.com/voice" target="_blank"><strong>Get the Google Voice app for your BlackBerry</strong></a>
+    Overall, the app is super well done and has been very stable for me. There are some minor annoyances &#8211; you can only dial from the app or Contacts&#8230;you cannot dial from the regular BlackBerry call log, for example. Overall, though, it&#8217;s a small price to pay for a very well done app. <a href="https://m.google.com/voice" target="_blank"><strong>Get the Google Voice app for your BlackBerry</strong></a>
   </p>
   
   <h2>
@@ -152,7 +152,7 @@ Using the Google Voice app on the BlackBerry is quite simple. There&#8217;s a st
   </h2>
   
   <p>
-    Without question, the Google Voice experience is vastly superior on the BlackBerry (and, I assume, Android) than on the iPhone. This is not necessarily due to any inherent limitation of the iPhone device or platform, but rather, the specifics of the applications available (or not available, as the case may be). There ARE workarounds &#8211; an option is to use <a href="http://stefantribble.wordpress.com/2009/08/07/google-voice-with-your-iphone/" target="_blank">a calling card application on the iPhone such as CardCaller to dial your GV calls</a>, but this is also less than ideal &#8211; the app cannot dial a pound key (thanks to Apple limitations), so it is not very smooth or transparent. One hopes that eventually Apple will approve the Google app &#8211; or at least, in the meantime, Google improves the Google Voice webpage to be as awesomely HTML5-tastic as the Gmail or Google Reader pages are on the iPhone. This won&#8217;t help with ease of dialing, but it will improve the experience.
+    Without question, the Google Voice experience is vastly superior on the BlackBerry (and, I assume, Android) than on the iPhone. This is not necessarily due to any inherent limitation of the iPhone device or platform, but rather, the specifics of the applications available (or not available, as the case may be). There ARE workarounds &#8211; an option is to use <a href="https://stefantribble.wordpress.com/2009/08/07/google-voice-with-your-iphone/" target="_blank">a calling card application on the iPhone such as CardCaller to dial your GV calls</a>, but this is also less than ideal &#8211; the app cannot dial a pound key (thanks to Apple limitations), so it is not very smooth or transparent. One hopes that eventually Apple will approve the Google app &#8211; or at least, in the meantime, Google improves the Google Voice webpage to be as awesomely HTML5-tastic as the Gmail or Google Reader pages are on the iPhone. This won&#8217;t help with ease of dialing, but it will improve the experience.
   </p>
   
   <p>

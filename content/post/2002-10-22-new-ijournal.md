@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-Yay! There&#8217;s a new version of <a HREF="http://planetcryo.com/osx/LiveJournal.html" target="_new">iJournal</a> out and it fixes the iTunes 3.0 music detect bug!
+Yay! There&#8217;s a new version of <a HREF="https://planetcryo.com/osx/LiveJournal.html" target="_new">iJournal</a> out and it fixes the iTunes 3.0 music detect bug!
 
 This makes me happy.
 

@@ -40,6 +40,6 @@ This disgusts me beyond belief. Has anyone seen what [Moby][3] has to say on thi
 
 m.
 
- [1]: http://www.cnn.com/2003/US/Northeast/02/28/peta.holocaust/index.html
- [2]: http://www.masskilling.com
- [3]: http://www.moby.com
+ [1]: https://www.cnn.com/2003/US/Northeast/02/28/peta.holocaust/index.html
+ [2]: https://www.masskilling.com
+ [3]: https://www.moby.com

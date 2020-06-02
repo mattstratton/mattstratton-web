@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/phule/437767310/" title="photo sharing"><img src="http://farm1.static.flickr.com/149/437767310_0babac4b23_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/phule/437767310/">500 W Monroe (2)</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/phule/">phule</a>. </span>
+  <a href="https://www.flickr.com/photos/phule/437767310/" title="photo sharing"><img src="https://farm1.static.flickr.com/149/437767310_0babac4b23_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/phule/437767310/">500 W Monroe (2)</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/phule/">phule</a>. </span>
 </div>
 
 There&#8217;s a big fire in downtown Chicago today &#8211; [not a whole lot of information yet][1], but thanks to Flickr, I was able to see some pictures.
@@ -22,4 +22,4 @@ I worked at 500 W. Monroe for several years, and my friend Jeff works there now.
 **Fat Johnny:** si  
 **Fat Johnny:** we came out of the building, and Jeff says &#8220;Gotta get back to work. Got some fires to put out&#8230;.&#8221;
 
- [1]: http://www.chicagotribune.com/news/local/chi-070328highrise-fire,0,5155599.story?coll=chi-newsbreaking-hed
+ [1]: https://www.chicagotribune.com/news/local/chi-070328highrise-fire,0,5155599.story?coll=chi-newsbreaking-hed

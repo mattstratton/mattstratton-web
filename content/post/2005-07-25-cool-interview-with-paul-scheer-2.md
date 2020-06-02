@@ -16,5 +16,5 @@ I recommend checking it out. I was fascinated. Especially you BWE fans &#8211; t
 
 _Basically the night before they give you this eight to fifteen page outline. Here are a list of topics and questions. Such as Britney Spears is having a baby and there are ten questions on that. Do you think Britney Spears will be a good mom? What mothering advice would you give Britney Spears? You go in and you know what you are going to talk about. I get it that night, write down stuff, and riff when I’m in there. The questions are pre-written and I think a lot of us write our responses beforehand because you have takes on it. You are basically creating a standup comedy set for that next bit. Here are the specifics now go in and make jokes of these ideas. The writers of _Best Week Ever_ are there to craft the piece, to have an angle. So it’s not us randomly talking about things, they have a point of view._
 
- [1]: http://www.thecareercookbook.com/profile.php?profile_id=16&PHPSESSID=e005a3c02e68b583a8bdb7ce153ad1f1
- [2]: http://bestweekever.vh1.com/
+ [1]: https://www.thecareercookbook.com/profile.php?profile_id=16&PHPSESSID=e005a3c02e68b583a8bdb7ce153ad1f1
+ [2]: https://bestweekever.vh1.com/

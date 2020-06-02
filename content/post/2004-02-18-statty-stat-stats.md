@@ -26,7 +26,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/rollick/"><font face="Verdana" size="1" color="#0033CC">rollick</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/rollick/"><font face="Verdana" size="1" color="#0033CC">rollick</font></a></b>
           </td>
         </tr>
         
@@ -36,7 +36,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/zerbie/"><font face="Verdana" size="1" color="#0033CC">zerbie</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/zerbie/"><font face="Verdana" size="1" color="#0033CC">zerbie</font></a></b>
           </td>
         </tr>
         
@@ -46,7 +46,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/rollick/"><font face="Verdana" size="1" color="#0033CC">rollick</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/rollick/"><font face="Verdana" size="1" color="#0033CC">rollick</font></a></b>
           </td>
         </tr>
         
@@ -56,7 +56,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/enoelie/"><font face="Verdana" size="1" color="#0033CC">enoelie</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/enoelie/"><font face="Verdana" size="1" color="#0033CC">enoelie</font></a></b>
           </td>
         </tr>
         
@@ -66,7 +66,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/nerdcorefever/"><font face="Verdana" size="1" color="#0033CC">nerdcorefever</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/nerdcorefever/"><font face="Verdana" size="1" color="#0033CC">nerdcorefever</font></a></b>
           </td>
         </tr>
         
@@ -76,7 +76,7 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/justholly/"><font face="Verdana" size="1" color="#0033CC">justholly</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/justholly/"><font face="Verdana" size="1" color="#0033CC">justholly</font></a></b>
           </td>
         </tr>
         
@@ -86,13 +86,13 @@ categories:
           </td>
           
           <td align="left" STYLE="200px">
-            <b><a target="_new" href="http://www.livejournal.com/users/misterctodd/"><font face="Verdana" size="1" color="#0033CC">misterctodd</font></a></b>
+            <b><a target="_new" href="https://www.livejournal.com/users/misterctodd/"><font face="Verdana" size="1" color="#0033CC">misterctodd</font></a></b>
           </td>
         </tr>
         
         <tr>
           <td ALIGN="center" COLSPAN="2" STYLE="center;">
-            <b><a target="_new" HREF="http://www.ljmatch.com/index.php?r=oJ1gw3m8jsVHrqT6S+0O+katz5UHjvDN&goto=stats_list"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">What Are YOUR LiveJournal Friend Stats?</font></a></b><br /> <br /> <font FACE="Verdana" SIZE="1" COLOR="#000000">(Beta &#8211; May be slow for those with large friends lists)</font>
+            <b><a target="_new" HREF="https://www.ljmatch.com/index.php?r=oJ1gw3m8jsVHrqT6S+0O+katz5UHjvDN&goto=stats_list"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">What Are YOUR LiveJournal Friend Stats?</font></a></b><br /> <br /> <font FACE="Verdana" SIZE="1" COLOR="#000000">(Beta &#8211; May be slow for those with large friends lists)</font>
           </td>
         </tr>
       </table></tr>

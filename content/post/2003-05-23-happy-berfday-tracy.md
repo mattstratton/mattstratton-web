@@ -17,5 +17,5 @@ Today is my friend Tracy&#8217;s berfday&#8230;all of you with [Windyhop][1] acc
 
 m.
 
- [1]: http://windyhop.org
- [2]: http://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=008663
+ [1]: https://windyhop.org
+ [2]: https://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=008663

@@ -14,4 +14,4 @@ _Inventing: Music_ will be screening at the [REEL Chicago Film Festival][1] on S
 
 Admission is like 6 bucks. Hope you can make it if you&#8217;re around!
 
- [1]: http://www.projectchicago.com
+ [1]: https://www.projectchicago.com

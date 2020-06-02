@@ -14,4 +14,4 @@ Hey, it&#8217;s &#8216;s birthday.
 
 Everyone, [wish him a happy one][1], and show him your boobs. He likes that.
 
- [1]: http://www.livejournal.com/users/nandoasti/95412.html?mode=reply
+ [1]: https://www.livejournal.com/users/nandoasti/95412.html?mode=reply

@@ -14,6 +14,6 @@ tags:
 ---
 &#8230;but Marcelo was once again right.
 
-He recommended <a href="http://etymotic.com/ephp/er6i.aspx" target="_blank">these earbuds</a> for a while ago. I picked up a pair of <a href="http://etymotic.com/ephp/er6.aspx" target="_blank">these</a> (slightly different), and they are AMAZINGLY AWESOME AND I WANT TO HAVE SEX WITH THEM.
+He recommended <a href="https://etymotic.com/ephp/er6i.aspx" target="_blank">these earbuds</a> for a while ago. I picked up a pair of <a href="https://etymotic.com/ephp/er6.aspx" target="_blank">these</a> (slightly different), and they are AMAZINGLY AWESOME AND I WANT TO HAVE SEX WITH THEM.
 
 That is all.

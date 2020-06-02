@@ -31,4 +31,4 @@ Tracy and I choreographed the first minute of our piece tonight (well, **she** c
 
 m.
 
- [1]: http://lindyhop.tripod.com
+ [1]: https://lindyhop.tripod.com

@@ -24,4 +24,4 @@ And I just can&#8217;t go without sharing this:
 
 ![][1]
 
- [1]: http://img.photobucket.com/albums/v417/marisanofx/whitesoxfans5jg.png
+ [1]: https://img.photobucket.com/albums/v417/marisanofx/whitesoxfans5jg.png

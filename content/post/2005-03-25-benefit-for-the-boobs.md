@@ -14,5 +14,5 @@ I won&#8217;t be able to make it, but if you support breasts, go check out this 
 
 ![][2]
 
- [1]: http://dailykitty.blogspot.com
- [2]: http://photos8.flickr.com/7390719_4bdc39c092.jpg
+ [1]: https://dailykitty.blogspot.com
+ [2]: https://photos8.flickr.com/7390719_4bdc39c092.jpg

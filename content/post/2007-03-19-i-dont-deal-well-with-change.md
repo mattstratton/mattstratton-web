@@ -18,4 +18,4 @@ I&#8217;ve been going to the Atrium for lunch for about eight years. Hell, when 
 
 It&#8217;s going to be sad to see it go. I think we&#8217;re pretty much planning on going there almost every day this week and next. And you&#8217;d better believe we will be having lunch there on Friday, March 30.
 
- [1]: http://www.yelp.com/biz/Y8vrmfbcKJ-oZDHq_yDSvg?hrid=OpEtJCjDAXqSJ_QZYnTwEw
+ [1]: https://www.yelp.com/biz/Y8vrmfbcKJ-oZDHq_yDSvg?hrid=OpEtJCjDAXqSJ_QZYnTwEw

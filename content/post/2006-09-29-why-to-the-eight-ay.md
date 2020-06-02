@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/d-rod/49510281/" title="photo sharing"><img src="http://static.flickr.com/31/49510281_ad6718d5b8_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/d-rod/49510281/">112_1300</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/d-rod/">D-Rod</a>. </span>
+  <a href="https://www.flickr.com/photos/d-rod/49510281/" title="photo sharing"><img src="https://static.flickr.com/31/49510281_ad6718d5b8_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/d-rod/49510281/">112_1300</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/d-rod/">D-Rod</a>. </span>
 </div>
 
 Busy weekend coming up.
@@ -28,9 +28,9 @@ Monday I will be working out of Tom and Kim&#8217;s house, and then winging back
 
 Then I will pass out from exhaustion.
 
- [1]: http://flickr.com/photos/mugsy/tags/beeyachski
- [2]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=77697
- [3]: http://www.yehoodi.com/y8a/
- [4]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=77713
- [5]: http://flickr.com/photos/mugsy/tags/colin
- [6]: http://mugsy1274.livejournal.com/539505.html
+ [1]: https://flickr.com/photos/mugsy/tags/beeyachski
+ [2]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=77697
+ [3]: https://www.yehoodi.com/y8a/
+ [4]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=77713
+ [5]: https://flickr.com/photos/mugsy/tags/colin
+ [6]: https://mugsy1274.livejournal.com/539505.html

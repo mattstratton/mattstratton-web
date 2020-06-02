@@ -18,5 +18,5 @@ It&#8217;s a pseudo dating/networking/making fun of Larry Kang website.
 
 m.
 
- [1]: http://www.friendster.com
- [2]: http://www.friendster.com/join.jsp?invite=135003
+ [1]: https://www.friendster.com
+ [2]: https://www.friendster.com/join.jsp?invite=135003

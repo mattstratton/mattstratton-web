@@ -14,7 +14,7 @@ As asked by :
 
 _1. For serious, what&#8217;s the deal with &#8220;for serious&#8221;? Seriously._
   
-I think I picked it up from <a href="http://www.davephotos.com" title="Lippy" target="_blank">Lippy</a>, who I think bastardized it from <a href="http://www.homestarrunner.com" title="h*r" target="_blank">Homestar</a>.
+I think I picked it up from <a href="https://www.davephotos.com" title="Lippy" target="_blank">Lippy</a>, who I think bastardized it from <a href="https://www.homestarrunner.com" title="h*r" target="_blank">Homestar</a>.
 
 _2. What&#8217;s a decision you&#8217;ve made that didn&#8217;t seem like a big deal at the time but turned out to be largely influential in your life?_
   

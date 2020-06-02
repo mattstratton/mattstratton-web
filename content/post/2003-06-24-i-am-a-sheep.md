@@ -63,7 +63,7 @@ categories:
   
   <tr>
     <td align="center" colspan="2">
-      <font size="-1"><a href="http://www.deskslave.org/">Created by Quill</a></font>
+      <font size="-1"><a href="https://www.deskslave.org/">Created by Quill</a></font>
     </td>
   </tr>
 </table>

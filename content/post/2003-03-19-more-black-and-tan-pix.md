@@ -28,7 +28,7 @@ and Jill finals**
   
 **Noah and Evin present a &#8220;Windy&#8221; award**
 
- [1]: http://www.windyhop.com/images/photos/unapproved/J&M-2003319125857.jpg
- [2]: http://www.windyhop.com/images/photos/unapproved/Wheel-200331912591.jpg
- [3]: http://www.windyhop.com/images/photos/unapproved/T&E2-200331913458.jpg
- [4]: http://www.windyhop.com/images/photos/unapproved/Fault-200331913455.jpg
+ [1]: https://www.windyhop.com/images/photos/unapproved/J&M-2003319125857.jpg
+ [2]: https://www.windyhop.com/images/photos/unapproved/Wheel-200331912591.jpg
+ [3]: https://www.windyhop.com/images/photos/unapproved/T&E2-200331913458.jpg
+ [4]: https://www.windyhop.com/images/photos/unapproved/Fault-200331913455.jpg

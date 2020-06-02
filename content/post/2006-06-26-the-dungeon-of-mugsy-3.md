@@ -30,4 +30,4 @@ Got this from
   </p>
   
   <p>
-    <a href="http://thesurrealist.co.uk/dungeon?user=mugsy1274">Explore the Dungeon of Mugsy1274</a> and try to beat this score,<br />or enter your username to generate and explore your own dungeon&#8230;</div>
+    <a href="https://thesurrealist.co.uk/dungeon?user=mugsy1274">Explore the Dungeon of Mugsy1274</a> and try to beat this score,<br />or enter your username to generate and explore your own dungeon&#8230;</div>

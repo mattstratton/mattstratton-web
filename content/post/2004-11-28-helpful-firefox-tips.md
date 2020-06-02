@@ -18,7 +18,7 @@ So here you go. If you want to get Firefox working as teh awesome, follow these 
 
 **Installing Firefox**
   
-First step is to actually get the program on your computer. You can download the installer at <http://www.mozilla.org/firefox>. Once you have downloaded it, run the installer program. If you seriously can&#8217;t do this, please return your computer to Sam&#8217;s Club.
+First step is to actually get the program on your computer. You can download the installer at <https://www.mozilla.org/firefox>. Once you have downloaded it, run the installer program. If you seriously can&#8217;t do this, please return your computer to Sam&#8217;s Club.
 
 **Configuring Firefox**
   
@@ -47,7 +47,7 @@ So here you go. If you want to get Firefox working as teh awesome, follow these 
 
 **Installing Firefox**
   
-First step is to actually get the program on your computer. You can download the installer at <http://www.mozilla.org/firefox>. Once you have downloaded it, run the installer program. If you seriously can&#8217;t do this, please return your computer to Sam&#8217;s Club.
+First step is to actually get the program on your computer. You can download the installer at <https://www.mozilla.org/firefox>. Once you have downloaded it, run the installer program. If you seriously can&#8217;t do this, please return your computer to Sam&#8217;s Club.
 
 **Configuring Firefox**
   
@@ -91,31 +91,31 @@ Here are some Greasemonkey scripts I like:
 
 4) **Customize your search bar.** See that little text box with the Google &#8220;G&#8221; in the upper right corner? Let&#8217;s you search Google immediately. Cool. But what&#8217;s cooler? Click on the G and see the other things you can search. And you can add more as well. I have added the IMDB. Essential!
 
-5) **Bookmark keywords.** A simple thing, but useful. If you get the properties on a bookmark, you can assign it a keyword. For example, when I type in &#8220;lj&#8221; into the address bar of my Firefox, it takes me to [http://mugsy1274.livejournal.com/friends][24]{.linkification-ext}. A boon for the lazy!
+5) **Bookmark keywords.** A simple thing, but useful. If you get the properties on a bookmark, you can assign it a keyword. For example, when I type in &#8220;lj&#8221; into the address bar of my Firefox, it takes me to [https://mugsy1274.livejournal.com/friends][24]{.linkification-ext}. A boon for the lazy!
 
 Please comment on this post with any cool Firefox tips you might have. I will add to this as I think of it. Feel free to point your friends over here who want to try Firefox the Mugsy way.
 
- [1]: http://adblockplus.org/
- [2]: http://jgillick.nettripper.com/switchproxy/
- [3]: http://forecastfox.mozdev.org/
- [4]: http://extensions.roachfiend.com/index.php
- [5]: http://piro.sakura.ne.jp/xul/_popupalt.html.en
- [6]: http://deepestsender.mozdev.org/
- [7]: http://www.livejournal.com
- [8]: http://del.icio.us/help/firefox/extension
- [9]: http://www.heygom.com/extensions/archives/swifttabs/index.html
- [10]: http://ietab.mozdev.org/
- [11]: http://fasterfox.mozdev.org/
- [12]: http://www.google.com/tools/firefox/browsersync/
- [13]: http://greasemonkey.mozdev.org/
- [14]: http://userscripts.org/scripts/show/3299
- [15]: http://userscripts.org/scripts/show/4716
- [16]: http://userscripts.org/scripts/show/3316
- [17]: http://userscripts.org/scripts/show/1667
- [18]: http://userscripts.org/scripts/show/1348
- [19]: http://userscripts.org/scripts/show/1287
- [20]: http://userscripts.org/scripts/show/1704
- [21]: http://userscripts.org/scripts/show/4811
- [22]: http://userscripts.org/scripts/show/3992
- [23]: http://userscripts.org/scripts/show/6178
- [24]: http://mugsy1274.livejournal.com/friends "Linkification: http://mugsy1274.livejournal.com/friends"
+ [1]: https://adblockplus.org/
+ [2]: https://jgillick.nettripper.com/switchproxy/
+ [3]: https://forecastfox.mozdev.org/
+ [4]: https://extensions.roachfiend.com/index.php
+ [5]: https://piro.sakura.ne.jp/xul/_popupalt.html.en
+ [6]: https://deepestsender.mozdev.org/
+ [7]: https://www.livejournal.com
+ [8]: https://del.icio.us/help/firefox/extension
+ [9]: https://www.heygom.com/extensions/archives/swifttabs/index.html
+ [10]: https://ietab.mozdev.org/
+ [11]: https://fasterfox.mozdev.org/
+ [12]: https://www.google.com/tools/firefox/browsersync/
+ [13]: https://greasemonkey.mozdev.org/
+ [14]: https://userscripts.org/scripts/show/3299
+ [15]: https://userscripts.org/scripts/show/4716
+ [16]: https://userscripts.org/scripts/show/3316
+ [17]: https://userscripts.org/scripts/show/1667
+ [18]: https://userscripts.org/scripts/show/1348
+ [19]: https://userscripts.org/scripts/show/1287
+ [20]: https://userscripts.org/scripts/show/1704
+ [21]: https://userscripts.org/scripts/show/4811
+ [22]: https://userscripts.org/scripts/show/3992
+ [23]: https://userscripts.org/scripts/show/6178
+ [24]: https://mugsy1274.livejournal.com/friends "Linkification: https://mugsy1274.livejournal.com/friends"

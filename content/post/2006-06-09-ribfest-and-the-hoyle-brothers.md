@@ -24,30 +24,30 @@ Music schedule:
 
 **Saturday &#8211; South Stage  
 (Lincon/Irving Park Rd)  
-** Noon&nbsp; <a href="http://www.myspace.com/trioinstereo" target="_blank">Trio in Stereo</a>  
-1:15&nbsp; <a href="http://www.madhornetafterhour.com/" target="_blank">Mad Hornet After Hour<br /></a>3:00&nbsp; Cracklin&#8217; Moth  
-5:00&nbsp; <a href="http://www.detholz.com/" target="_blank">Detholz!<br /></a>7:00&nbsp; <a href="http://www.the-changes.com/" target="_blank">The Changes<br /></a>9:00&nbsp; <a href="http://www.frenchkicks.com/" target="_blank">French Kicks</a>
+** Noon&nbsp; <a href="https://www.myspace.com/trioinstereo" target="_blank">Trio in Stereo</a>  
+1:15&nbsp; <a href="https://www.madhornetafterhour.com/" target="_blank">Mad Hornet After Hour<br /></a>3:00&nbsp; Cracklin&#8217; Moth  
+5:00&nbsp; <a href="https://www.detholz.com/" target="_blank">Detholz!<br /></a>7:00&nbsp; <a href="https://www.the-changes.com/" target="_blank">The Changes<br /></a>9:00&nbsp; <a href="https://www.frenchkicks.com/" target="_blank">French Kicks</a>
 
 **Saturday &#8211; North Stage  
 (Lincoln/Warner Ave)  
-** Noon <a href="http://www.hoylebrothers.com/" target="_blank">The Hoyle Brothers<br /></a>2:00&nbsp; <a href="http://www.outlawfamilyband.com/" target="_blank">Outlaw Family Band</a>  
-4:00&nbsp; <a href="http://www.yellowhammers.com/" target="_blank">Yellowhammers<br /></a>6:00&nbsp; <a href="http://www.healthywhitebaby.net/" target="_blank">Healthy White Baby<br /></a>8:00&nbsp; <a href="http://www.bobbybarejr.com" target="_blank">Bobby Bare, Jr.</a>
+** Noon <a href="https://www.hoylebrothers.com/" target="_blank">The Hoyle Brothers<br /></a>2:00&nbsp; <a href="https://www.outlawfamilyband.com/" target="_blank">Outlaw Family Band</a>  
+4:00&nbsp; <a href="https://www.yellowhammers.com/" target="_blank">Yellowhammers<br /></a>6:00&nbsp; <a href="https://www.healthywhitebaby.net/" target="_blank">Healthy White Baby<br /></a>8:00&nbsp; <a href="https://www.bobbybarejr.com" target="_blank">Bobby Bare, Jr.</a>
 
 **Sunday &#8211; South Stage  
 (Lincoln/Irving Park Rd)  
 ** 1:00&nbsp;The New Fuse  
-3:00&nbsp;<a href="http://www.canastamusic.com/" target="_blank">Canasta<br /></a>5:00 <a href="http://www.parisdelane.com/" target="_blank">Paris Delane&#8217;s Tye Dye Sky</a>  
-7:00&nbsp;<a href="http://www.the-ms.com/" target="_blank">The M&#8217;s</a>
+3:00&nbsp;<a href="https://www.canastamusic.com/" target="_blank">Canasta<br /></a>5:00 <a href="https://www.parisdelane.com/" target="_blank">Paris Delane&#8217;s Tye Dye Sky</a>  
+7:00&nbsp;<a href="https://www.the-ms.com/" target="_blank">The M&#8217;s</a>
   
 **Sunday &#8211; North Stage  
 (Lincoln/Warner Ave)  
-** Noon&nbsp;<a href="http://www.nycomusic.com/" target="_blank">NYCO</a>  
-2:00&nbsp;<a href="http://www.paperairplanepilots.com/" target="_blank">Paper Airplane Pilots</a>  
-4:00&nbsp;<a href="http://www.catfishhaven.com/" target="_blank">Catfish Haven<br /></a>6:00&nbsp;<a href="http://www.manishevitz.com/" target="_blank">Manishevitz<br /></a>
+** Noon&nbsp;<a href="https://www.nycomusic.com/" target="_blank">NYCO</a>  
+2:00&nbsp;<a href="https://www.paperairplanepilots.com/" target="_blank">Paper Airplane Pilots</a>  
+4:00&nbsp;<a href="https://www.catfishhaven.com/" target="_blank">Catfish Haven<br /></a>6:00&nbsp;<a href="https://www.manishevitz.com/" target="_blank">Manishevitz<br /></a>
 
 More details:
   
-<http://www.ribfest-chicago.com>
+<https://www.ribfest-chicago.com>
 
 Participating Restaurants include:
   

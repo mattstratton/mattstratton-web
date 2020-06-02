@@ -18,10 +18,10 @@ Here are some pictures!
 
 ![][1]
 
-[<img src="http://pics.livejournal.com/mugsy1274/pic/0000zb0x/s320x240" width="320" height="240" />][2]
+[<img src="https://pics.livejournal.com/mugsy1274/pic/0000zb0x/s320x240" width="320" height="240" />][2]
 
 ![][3]
 
- [1]: http://windyhop.org/forum/attach.aspx?a=62
- [2]: http://pics.livejournal.com/mugsy1274/pic/0000zb0x/
- [3]: http://windyhop.org/Photos/Picture.aspx?w=400&h=400&m=False&f=False&url=%2fdata%2fWindyhop%2fPhotos%2f2006%2f04%2f1a622ac7-3cc1-89e4-da31-b040d9f6a098.jpg
+ [1]: https://windyhop.org/forum/attach.aspx?a=62
+ [2]: https://pics.livejournal.com/mugsy1274/pic/0000zb0x/
+ [3]: https://windyhop.org/Photos/Picture.aspx?w=400&h=400&m=False&f=False&url=%2fdata%2fWindyhop%2fPhotos%2f2006%2f04%2f1a622ac7-3cc1-89e4-da31-b040d9f6a098.jpg

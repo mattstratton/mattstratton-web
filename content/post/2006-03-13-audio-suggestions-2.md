@@ -20,4 +20,4 @@ Carrie&#8217;s computer will be in our guest room, and mine will be in the offic
 
 Thoughts? Suggestions?
 
- [1]: http://www.slimdevices.com/
+ [1]: https://www.slimdevices.com/

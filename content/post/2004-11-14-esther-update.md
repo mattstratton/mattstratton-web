@@ -21,7 +21,7 @@ Via [Best Week Ever][1]:
 </p>
 
 <p class="MsoNormal" style="margin:0;">
-  <span style="font-family:Arial;"><a href="http://fredgraver.typepad.com/photos/uncategorized/madonna_4.jpg"><img title="Madonna_4" alt="Madonna_4" src="http://bestweekever.vh1.com/images/madonna_4.jpg" style="margin:0 5px 5px 0;" border="0" height="156" width="100" /></a></span>
+  <span style="font-family:Arial;"><a href="https://fredgraver.typepad.com/photos/uncategorized/madonna_4.jpg"><img title="Madonna_4" alt="Madonna_4" src="https://bestweekever.vh1.com/images/madonna_4.jpg" style="margin:0 5px 5px 0;" border="0" height="156" width="100" /></a></span>
 </p>
 
 <p class="MsoNormal" style="margin:0;">
@@ -36,4 +36,4 @@ Via [Best Week Ever][1]:
   <span style="font-family:Arial;">So basically, I got Bar Mitzvah’d for nothing. Thanks Madonna.</span>
 </p>
 
- [1]: http://bestweekever.vh1.com/2004/11/the_jewish_week.html
+ [1]: https://bestweekever.vh1.com/2004/11/the_jewish_week.html

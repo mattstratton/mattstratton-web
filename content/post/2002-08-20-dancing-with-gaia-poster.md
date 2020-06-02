@@ -14,5 +14,5 @@ categories:
 
 ![][2]
 
- [1]: http://www.dancingwithgaia.com
- [2]: http://www.dancingwithgaia.com/images/dwg-poster.jpg
+ [1]: https://www.dancingwithgaia.com
+ [2]: https://www.dancingwithgaia.com/images/dwg-poster.jpg

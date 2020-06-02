@@ -12,4 +12,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://dancingwithgaia.com/images/dwgdvdbox.jpg
+ [1]: https://dancingwithgaia.com/images/dwgdvdbox.jpg

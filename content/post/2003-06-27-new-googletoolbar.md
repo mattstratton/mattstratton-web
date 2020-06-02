@@ -18,5 +18,5 @@ Which is the coolest thing ever, regardless. They just made it a ton better.
 
 m.
 
- [1]: http://chris.pirillo.com/secret/
- [2]: http://toolbar.google.com/index-beta.php
+ [1]: https://chris.pirillo.com/secret/
+ [2]: https://toolbar.google.com/index-beta.php

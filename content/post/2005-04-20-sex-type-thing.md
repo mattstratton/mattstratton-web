@@ -20,7 +20,7 @@ I am only posting the results of this quiz because of the irony of the &#8220;ro
           <tr bgColor="#003366">
             <td vAlign="center" align="middle" colSpan="2">
               <div style="font-weight:bold;color:#ffffff;" align="center">
-                <a href="http://www.blogquiz.net/quizzes/LiveJournal-Memes/581/what-sexual-things-do-youre-friends-think-about-you">what sexual things do you&#8217;re friends think about you?</a>
+                <a href="https://www.blogquiz.net/quizzes/LiveJournal-Memes/581/what-sexual-things-do-youre-friends-think-about-you">what sexual things do you&#8217;re friends think about you?</a>
               </div>
             </td>
           </tr>
@@ -162,7 +162,7 @@ I am only posting the results of this quiz because of the irony of the &#8220;ro
           <tr bgColor="#003366">
             <td vAlign="center" align="middle" colSpan="2">
               <div style="color:#ffffff;" align="center">
-                Quiz created by Molly at <strong><a href="http://www.blogquiz.net/">Blog Quiz</a></strong>
+                Quiz created by Molly at <strong><a href="https://www.blogquiz.net/">Blog Quiz</a></strong>
               </div>
             </td>
           </tr>
@@ -172,4 +172,4 @@ I am only posting the results of this quiz because of the irony of the &#8220;ro
   </table>
   
   <p>
-    <a href="http://www.blogquiz.net/">LiveJournal Memes</a> at <a href="http://www.blogquiz.net/">Blog Quiz</a> </div>
+    <a href="https://www.blogquiz.net/">LiveJournal Memes</a> at <a href="https://www.blogquiz.net/">Blog Quiz</a> </div>

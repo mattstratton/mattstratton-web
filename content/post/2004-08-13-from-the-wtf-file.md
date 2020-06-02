@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<a href="http://shop.wnd.com/store/item.asp?ITEM_ID=1617" target="_blank">Help! Mom! There Are Liberals Under My Bed: A Small Lesson in Conservatism</a>
+<a href="https://shop.wnd.com/store/item.asp?ITEM_ID=1617" target="_blank">Help! Mom! There Are Liberals Under My Bed: A Small Lesson in Conservatism</a>
 
 By Katharine DeBrecht
 

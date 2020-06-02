@@ -12,7 +12,7 @@ tags:
   - Trapper
 
 ---
-**<font size="2"><font color="#16569e">Mugsy:</font></font>** <font size="2">this would be neat if it wasn&#8217;t so ugly &#8211; <a href="http://www.thinkgeek.com/electronics/cameras/7edc/">http://www.thinkgeek.com/electronics/cameras/7edc/</a></font>
+**<font size="2"><font color="#16569e">Mugsy:</font></font>** <font size="2">this would be neat if it wasn&#8217;t so ugly &#8211; <a href="https://www.thinkgeek.com/electronics/cameras/7edc/">https://www.thinkgeek.com/electronics/cameras/7edc/</a></font>
   
 **<font size="2"><font color="#a82f2f">Trapper:</font></font>** <font size="2"><font color="#000000"><font face="arial">i dunno, its curvy</font></font></font>
   

@@ -30,4 +30,4 @@ It was amazing. My buy in for the night was sixty bucks, so I cleared a $335 pro
 
 Wow. That was fun.
 
- [1]: http://www.livejournal.com/users/mugsy1274/126414.html#cutid1
+ [1]: https://www.livejournal.com/users/mugsy1274/126414.html#cutid1

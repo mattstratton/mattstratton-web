@@ -157,7 +157,7 @@ Of course I&#8217;m the most interesting&#8230;
   
   <tr>
     <td bgcolor="#FFCC33" align="center">
-      <font color="#000000">Username:</font> <br /> <font color="#000000" size="-1"><i> Popular interests created by <a href="http://livejournal.com/users/_imran_">_imran_</a></i></font>
+      <font color="#000000">Username:</font> <br /> <font color="#000000" size="-1"><i> Popular interests created by <a href="https://livejournal.com/users/_imran_">_imran_</a></i></font>
     </td>
   </tr>
 </table>

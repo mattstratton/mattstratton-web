@@ -12,8 +12,8 @@ categories:
 ---
 Strangest Flash game ever:
 
-http://www.pieinacan.us/crash.swf
+https://www.pieinacan.us/crash.swf
 
 ![][1]
 
- [1]: http://static.flickr.com/26/52303313_420e516418.jpg?v=0
+ [1]: https://static.flickr.com/26/52303313_420e516418.jpg?v=0

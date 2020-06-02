@@ -18,8 +18,8 @@ If the virus gets installed on your computer, it attempts to disable your AV sof
 
 This virus scans your local drives (as well as network shares) for, among other things, Word and Excel files, which it then corrupts. I recommend backing up any really important files (financial records, etc) to removeable media (such as CD-R) before tomorrow.
 
-You can download a scanner for this particular piece of malware from <u>**<http://www.f-secure.com/v-descs/nyxem_e.shtml>**</u>. Makesure that you also download <u>**<http://download.f-secure.com/latest/latest.zip>**</u> and save that zip file into the same location as the scanner.
+You can download a scanner for this particular piece of malware from <u>**<https://www.f-secure.com/v-descs/nyxem_e.shtml>**</u>. Makesure that you also download <u>**<https://download.f-secure.com/latest/latest.zip>**</u> and save that zip file into the same location as the scanner.
 
 Good night, and good luck.
 
- [1]: http://www.cnn.com/2006/TECH/internet/01/31/kamasutraworm/index.html
+ [1]: https://www.cnn.com/2006/TECH/internet/01/31/kamasutraworm/index.html

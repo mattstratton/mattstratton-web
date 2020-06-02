@@ -14,5 +14,5 @@ As you may recall, the [IMDb][1] rejected my previous headshot submission.
 
 So I need your help picking which one to [submit next][2] (you can click on a thumbnail to see it bigger and stuff)
 
- [1]: http://imdb.com/
- [2]: http://imdb.com/name/nm1595334
+ [1]: https://imdb.com/
+ [2]: https://imdb.com/name/nm1595334

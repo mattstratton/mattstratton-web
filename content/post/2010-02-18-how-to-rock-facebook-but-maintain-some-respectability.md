@@ -7,7 +7,7 @@ url: /the-internets/how-to-rock-facebook-but-maintain-some-respectability
 aktt_notify_twitter:
   - no
 DiggUrl:
-  - http://digg.com/security/How_to_rock_Facebook_but_maintain_some_respectability
+  - https://digg.com/security/How_to_rock_Facebook_but_maintain_some_respectability
 digg:
   - 1
 description: "So you've given in to the peer pressure and signed up with Facebook. You've hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play Scrabulous Lexulous.It's great. Everyone is on the Fizzy Bizzy. But how can you control WHO can see WHAT in your Facebook profile? "
@@ -31,11 +31,11 @@ tags:
 ---
 _(Originally posted on 1/30/2009 &#8211; updated for the latest Facebook settings)_
 
-So you&#8217;ve given in to the peer pressure and signed up with Facebook. You&#8217;ve hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play <span style="text-decoration: line-through;"><a class="zem_slink" title="Scrabulous" rel="homepage" href="http://www.scrabulous.com">Scrabulous</a></span> Lexulous.It&#8217;s great. Everyone is on the Fizzy Bizzy.
+So you&#8217;ve given in to the peer pressure and signed up with Facebook. You&#8217;ve hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play <span style="text-decoration: line-through;"><a class="zem_slink" title="Scrabulous" rel="homepage" href="https://www.scrabulous.com">Scrabulous</a></span> Lexulous.It&#8217;s great. Everyone is on the Fizzy Bizzy.
 
 But then, you realize&#8230;
 
-<img class="alignright" title="lock" src="http://cdn.mattstratton.com/wp-content/uploads/privacy-icon.jpg" alt="" width="240" height="240" />EVERYONE is on the Fizzy Bizzy. Including your boss. Including your business partners. Including your mom. And they all now can see the Wall posts in which you refer to Gov. Blagojevich as &#8220;that douchebag with the piece&#8221;.You have three options:
+<img class="alignright" title="lock" src="https://cdn.mattstratton.com/wp-content/uploads/privacy-icon.jpg" alt="" width="240" height="240" />EVERYONE is on the Fizzy Bizzy. Including your boss. Including your business partners. Including your mom. And they all now can see the Wall posts in which you refer to Gov. Blagojevich as &#8220;that douchebag with the piece&#8221;.You have three options:
 
 1) **Delete your Facebook account and never use the Internets again.** This is less than ideal, as you will find yourself completely cut out of modern society and will have no idea what your friends consider the 25 most interesting bits of trivia about themselves.
 
@@ -136,7 +136,7 @@ So we&#8217;ll do it the other way. In the &#8220;Make this visible to&#8221; dr
   
   <p style="text-align: center;">
     <p>
-      Once you&#8217;ve done it for that setting, you can continue to set up all the different restrictions you would like. Don&#8217;t forget to visit all of the other settings on the <a href="http://www.facebook.com/?ref=logo#!/settings/?tab=privacy" target="_blank">Privacy</a> page. You can change the settings on the &#8220;Contact Information&#8221; the same way we did for &#8220;Profile Information&#8221;.
+      Once you&#8217;ve done it for that setting, you can continue to set up all the different restrictions you would like. Don&#8217;t forget to visit all of the other settings on the <a href="https://www.facebook.com/?ref=logo#!/settings/?tab=privacy" target="_blank">Privacy</a> page. You can change the settings on the &#8220;Contact Information&#8221; the same way we did for &#8220;Profile Information&#8221;.
     </p>
     
     <h2>
@@ -216,7 +216,7 @@ So we&#8217;ll do it the other way. In the &#8220;Make this visible to&#8221; dr
     </p>
     
     <p>
-      Privacy photo courtesy of <a href="http://www.flickr.com/photos/nitot/" target="_blank">nitot</a> via Creative Commons
+      Privacy photo courtesy of <a href="https://www.flickr.com/photos/nitot/" target="_blank">nitot</a> via Creative Commons
     </p>
     
     <h6 class="zemanta-related-title" style="font-size: 1em;">
@@ -225,19 +225,19 @@ So we&#8217;ll do it the other way. In the &#8220;Make this visible to&#8221; dr
     
     <ul class="zemanta-article-ul">
       <li class="zemanta-article-ul-li">
-        <a href="http://www.socialmediatoday.com/SMC/168777">Protecting Your Child in Facebook &#8211; Photos</a> (socialmediatoday.com)
+        <a href="https://www.socialmediatoday.com/SMC/168777">Protecting Your Child in Facebook &#8211; Photos</a> (socialmediatoday.com)
       </li>
       <li class="zemanta-article-ul-li">
-        <a href="http://mashable.com/2010/02/17/facebook-apps-privacy/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+Mashable+%2528Mashable%2529">Facebook Launches New Privacy Settings for Facebook Apps</a> (mashable.com)
+        <a href="https://mashable.com/2010/02/17/facebook-apps-privacy/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+Mashable+%2528Mashable%2529">Facebook Launches New Privacy Settings for Facebook Apps</a> (mashable.com)
       </li>
       <li class="zemanta-article-ul-li">
-        <a href="http://www.marketingpilgrim.com/2010/02/facebook-offers-more-control-over-information-shared-through-apps.html">Facebook Offers More Control Over Information Shared Through Apps</a> (marketingpilgrim.com)
+        <a href="https://www.marketingpilgrim.com/2010/02/facebook-offers-more-control-over-information-shared-through-apps.html">Facebook Offers More Control Over Information Shared Through Apps</a> (marketingpilgrim.com)
       </li>
       <li class="zemanta-article-ul-li">
-        <a href="http://blog.thoughtpick.com/2010/02/10-tips-to-ensure-that-youre-not-a-social-media-sucker.html">10 Tips to Ensure That You&#8217;re NOT A Social Media Sucker!</a> (thoughtpick.com)
+        <a href="https://blog.thoughtpick.com/2010/02/10-tips-to-ensure-that-youre-not-a-social-media-sucker.html">10 Tips to Ensure That You&#8217;re NOT A Social Media Sucker!</a> (thoughtpick.com)
       </li>
     </ul>
     
     <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-      <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/20554449-ead3-4e15-a497-99944d2ba0fe/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=20554449-ead3-4e15-a497-99944d2ba0fe" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
+      <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/20554449-ead3-4e15-a497-99944d2ba0fe/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=20554449-ead3-4e15-a497-99944d2ba0fe" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
     </div>

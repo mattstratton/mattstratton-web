@@ -16,7 +16,7 @@ tags:
 ---
 x-post from my friend Jolene&#8217;s blog:
 
-> <img src="http://photos1.blogger.com/blogger/5938/3262/320/FBlogo.1.jpg" alt="" align="right" />
+> <img src="https://photos1.blogger.com/blogger/5938/3262/320/FBlogo.1.jpg" alt="" align="right" />
   
 > On Sunday, August 27th, The [Flying Buttresses][1] and Playmation will host an Improv Open House, a free-for-all where you can get on stage and show [us][2] your stage genius. You can see what we do when we practice our games and scenes and you can join right in. Think of it as an interactive &#8220;Making Of&#8230;&#8221; video. Imagine if you were able to just jump right into the TV when watching _[The Making of the Superbowl Shuffle][3]_. Wow! What a thrill to be right along side those masters of their craft as they danced their way to immeasurable humiliation in the midst of one of football&#8217;s most memorable seasons. Finally, here is your chance to do just that&#8230;Tom is the Walter Payton of improv after all.
 > 
@@ -38,6 +38,6 @@ x-post from my friend Jolene&#8217;s blog:
 
 I&#8217;m totally going to be there. I&#8217;ve coached the FlyButts a few times in the past, and have also worked with Playmation. Should be a good time for you local Chicago folks.
 
- [1]: http://www.weirdrichard.com/archi.htm
- [2]: http://flyingbuttresses.net/
- [3]: http://www.mpihomevideo.com/?p=25467&pid=1662&pcid=&ccid=
+ [1]: https://www.weirdrichard.com/archi.htm
+ [2]: https://flyingbuttresses.net/
+ [3]: https://www.mpihomevideo.com/?p=25467&pid=1662&pcid=&ccid=

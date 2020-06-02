@@ -16,6 +16,6 @@ If you feel like donating money to this cause (which is a worthy one), you can d
 
 Even if you don&#8217;t want to donate, I encourage anyone in the Chicago area who either has a dog, or likes dogs, to come join us on May 5 for the event. It&#8217;s a LOT of fun.
 
- [1]: http://www.barkinthepark.org/
- [2]: http://www.anticruelty.org/
- [3]: http://www.firstgiving.com/strattonfamily
+ [1]: https://www.barkinthepark.org/
+ [2]: https://www.anticruelty.org/
+ [3]: https://www.firstgiving.com/strattonfamily

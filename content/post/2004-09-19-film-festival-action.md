@@ -20,5 +20,5 @@ Afterwards, a bunch of us went to My Pi for pizza and beers, and then Dallas hea
 
 [![][1]][2] Colin Hay &#8211; It&#8217;s A Mistake (new recording)</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

@@ -26,7 +26,7 @@ But here are some picture pages.
 
 ![][4]
 
- [1]: http://photos4.flickr.com/8401594_b5f8049c86.jpg
- [2]: http://photos4.flickr.com/8401849_a2a25cb0bd.jpg
- [3]: http://photos4.flickr.com/8401493_a8bae34472.jpg
- [4]: http://photos5.flickr.com/8401627_212e452d90.jpg
+ [1]: https://photos4.flickr.com/8401594_b5f8049c86.jpg
+ [2]: https://photos4.flickr.com/8401849_a2a25cb0bd.jpg
+ [3]: https://photos4.flickr.com/8401493_a8bae34472.jpg
+ [4]: https://photos5.flickr.com/8401627_212e452d90.jpg

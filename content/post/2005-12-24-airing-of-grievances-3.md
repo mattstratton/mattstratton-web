@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-In the spirit of <a href="http://en.wikipedia.org/wiki/Festivus" target="_blank">Festivus</a> (belated), I am inventing a new meme. Here are some anonymous Grievances towards people on my friends list. See if you can match them up!
+In the spirit of <a href="https://en.wikipedia.org/wiki/Festivus" target="_blank">Festivus</a> (belated), I am inventing a new meme. Here are some anonymous Grievances towards people on my friends list. See if you can match them up!
 
 1 You&#8217;re really too cute to be younger than my sister.
   

@@ -22,7 +22,7 @@ Here&#8217;s how it will work &#8211; just copy the twelve questions from the fa
 
 > 1. Are you a regular reader of Good Old Rock, or is this your first time here?
 > 
-> 2. Do you subscribe to the <a href="/feed" target="_blank">Good Old Rock RSS feed</a>? (as in, do you read this blog in something like Google Reader, Netvibes, or on the <a href="http://mstrattonblog.livejournal.com/" target="_blank">LiveJournal page</a>?)
+> 2. Do you subscribe to the <a href="/feed" target="_blank">Good Old Rock RSS feed</a>? (as in, do you read this blog in something like Google Reader, Netvibes, or on the <a href="https://mstrattonblog.livejournal.com/" target="_blank">LiveJournal page</a>?)
 > 
 > 3. How often do you visit Good Old Rock? How do you get here? (Twitter links, Facebook posts, bookmark, etc)
 > 
@@ -32,7 +32,7 @@ Here&#8217;s how it will work &#8211; just copy the twelve questions from the fa
 > 
 > 6. Likewise, what is your least favorite? Why?
 > 
-> 7. Do you follow me on <a href="http://twitter.com/mattstratton" target="_blank">Twitter</a>? Are we <a href="http://www.facebook.com/profile.php?id=500557137" target="_blank">friends on Facebook</a>?
+> 7. Do you follow me on <a href="https://twitter.com/mattstratton" target="_blank">Twitter</a>? Are we <a href="https://www.facebook.com/profile.php?id=500557137" target="_blank">friends on Facebook</a>?
 > 
 > 8. What is your favorite kind of muffin?
 > 
@@ -44,4 +44,4 @@ Here&#8217;s how it will work &#8211; just copy the twelve questions from the fa
 > 
 > 12. Do you comment on posts? If not, why not? What could I do to make you more likely to comment?
 
-That&#8217;s it! Comments will be open until the evening of May 7, 2009. At that point, I will take all the commenters, and assign each of them a number. I will pull a random number using <a href="http://www.random.org/integers/" target="_blank">Random.org</a>, and that person will be the recipient of a $25 Amazon.com gift certificate, which will be emailed to the email address used to leave the comment. Don&#8217;t worry &#8211; I will not do anything nefarious with your email addresses. This contest is open to everyone except for members of my immediate family. Thanks!
+That&#8217;s it! Comments will be open until the evening of May 7, 2009. At that point, I will take all the commenters, and assign each of them a number. I will pull a random number using <a href="https://www.random.org/integers/" target="_blank">Random.org</a>, and that person will be the recipient of a $25 Amazon.com gift certificate, which will be emailed to the email address used to leave the comment. Don&#8217;t worry &#8211; I will not do anything nefarious with your email addresses. This contest is open to everyone except for members of my immediate family. Thanks!

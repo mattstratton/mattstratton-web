@@ -48,7 +48,7 @@ The process is pretty straightforward. Log onto your <a href="https://www.google
 
 [<img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="two-step" src="/wp-content/uploads/two-step_thumb.png" border="0" alt="two-step" width="454" height="174" />][1]
 
-This will then walk you through a step-by-step wizard to configure this setting. As <a href="http://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html" target="_blank">Google points out</a>, make sure you have time allocated to do this (and don’t try doing it on the train over your aircard – make sure you’ve got a good connection through the whole process), and also ensure you have your mobile phone with you. You can either use text messaging for this or an app on your iPhone, Android device, or Blackberry.
+This will then walk you through a step-by-step wizard to configure this setting. As <a href="https://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html" target="_blank">Google points out</a>, make sure you have time allocated to do this (and don’t try doing it on the train over your aircard – make sure you’ve got a good connection through the whole process), and also ensure you have your mobile phone with you. You can either use text messaging for this or an app on your iPhone, Android device, or Blackberry.
 
 ## What does this change?
 

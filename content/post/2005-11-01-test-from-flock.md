@@ -12,4 +12,4 @@ categories:
 ---
 Test post from [Flock][1].
 
- [1]: http://www.flock.com
+ [1]: https://www.flock.com

@@ -18,11 +18,11 @@ About a year and a half ago, my wife and I decided that we were making far too m
 
 Needless to say, our tab-insertion has not been exactly successful as of yet. Late last summer, the decision was made to consult some specialists. You know, call in the big guns &#8211; get modern science involved to solve our problems. That&#8217;s how we roll in the Stratton household &#8211; why try to do something yourself when you can pay someone else to figure it out for you?
 
-I&#8217;m not going to go into all the nitty-gritty details &#8211; suffice it to say that I know what <a href="http://en.wikipedia.org/wiki/Clomid" target="_blank">Clomid</a> is (even though I did have to use Google to figure out how to spell it), and I&#8217;ve stuck more needles in my wife than Sid ever did Nancy. And yes, Carrie and I did have the &#8220;we&#8217;re so mad at each other we&#8217;re not even speaking, but dammit, we have to have sex&#8221; situation at least once. These are good times, people. The times that never make it into a photo album or scrapbook.
+I&#8217;m not going to go into all the nitty-gritty details &#8211; suffice it to say that I know what <a href="https://en.wikipedia.org/wiki/Clomid" target="_blank">Clomid</a> is (even though I did have to use Google to figure out how to spell it), and I&#8217;ve stuck more needles in my wife than Sid ever did Nancy. And yes, Carrie and I did have the &#8220;we&#8217;re so mad at each other we&#8217;re not even speaking, but dammit, we have to have sex&#8221; situation at least once. These are good times, people. The times that never make it into a photo album or scrapbook.
 
 The good news is, we have had a lot of tests done. The good news is, we know exactly why we&#8217;re not getting pregnant. The reason?
 
-&#8220;<a href="http://en.wikipedia.org/wiki/Infertility#Unexplained_infertility" target="_blank">Unexplained infertility</a>&#8220;.
+&#8220;<a href="https://en.wikipedia.org/wiki/Infertility#Unexplained_infertility" target="_blank">Unexplained infertility</a>&#8220;.
 
 Yup. On paper, there&#8217;s no reason that we shouldn&#8217;t be pumping kids out like a unicorn expels glitter from its hindquarters. We just aren&#8217;t. Science and medicine have let us down in the diagnostic arena.
 

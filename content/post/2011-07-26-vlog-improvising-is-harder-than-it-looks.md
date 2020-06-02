@@ -15,4 +15,4 @@ categories:
   - Vlogs
 
 ---
-I&#8217;m doing this thing called <a href="http://weblogwevlog.com/2011/07/veda-2011/" target="_blank">VEDA </a>(Video Every Day in August) and thought it was a good idea to practice vlogging.
+I&#8217;m doing this thing called <a href="https://weblogwevlog.com/2011/07/veda-2011/" target="_blank">VEDA </a>(Video Every Day in August) and thought it was a good idea to practice vlogging.

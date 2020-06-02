@@ -28,7 +28,7 @@ Lest you think me a bad person, I set this up so you&#8217;re the only one who c
 
 m.
 
- [1]: http://www.livejournal.com/talkread.bml?journal=mugsy1274&itemid=30902
- [2]: http://www.windyhop.org/images/photos/unapproved/123-2364_IMG-200262316247.JPG
- [3]: http://www.windyhop.org/images/photos/unapproved/helena-dally-200152113349.jpg
- [4]: http://www.windyhop.org/images/photos/unapproved/Evin_Noel_Wedding_9-200110253152.jpg
+ [1]: https://www.livejournal.com/talkread.bml?journal=mugsy1274&itemid=30902
+ [2]: https://www.windyhop.org/images/photos/unapproved/123-2364_IMG-200262316247.JPG
+ [3]: https://www.windyhop.org/images/photos/unapproved/helena-dally-200152113349.jpg
+ [4]: https://www.windyhop.org/images/photos/unapproved/Evin_Noel_Wedding_9-200110253152.jpg

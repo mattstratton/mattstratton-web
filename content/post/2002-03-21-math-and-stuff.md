@@ -68,4 +68,4 @@ Fermat&#8217;s Last Theorem, which for centuries stumped the best mathematical m
 
 Such an arcane math reference would be lost on most, but a few of the more well-read Mudders caught the inside joke.
 
-For more a more complete guide to math references in &#8220;The Simpsons,&#8221; check out the Web site: http://homepage.smc.edu/nestler_andrew/SimpsonsMath.htm.
+For more a more complete guide to math references in &#8220;The Simpsons,&#8221; check out the Web site: https://homepage.smc.edu/nestler_andrew/SimpsonsMath.htm.

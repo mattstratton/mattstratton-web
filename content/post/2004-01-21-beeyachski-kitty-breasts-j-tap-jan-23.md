@@ -22,7 +22,7 @@ Friday Night Jan 23rd, 10:00 PM &#8211; 2AM
   
 325 N. Jefferson St. (West Loop &#8211; Near Jefferson and Fulton)
   
-Link to info about the Bar &#8211; <a href="http://www.jeffersontap.com" target="_new">http://www.jeffersontap.com</a>
+Link to info about the Bar &#8211; <a href="https://www.jeffersontap.com" target="_new">https://www.jeffersontap.com</a>
 
 The bar has free parking in a lot two blocks south!
 
@@ -30,4 +30,4 @@ Tons of great entertainment for only $5 bucks!!!
 
 -Party Tom Beeyachski
 
- [1]: http://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279&s_tafId=1111&s_oo=pSCZlJywtviPLhYs3lnipg..
+ [1]: https://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279&s_tafId=1111&s_oo=pSCZlJywtviPLhYs3lnipg..

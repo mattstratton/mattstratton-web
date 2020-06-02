@@ -14,7 +14,7 @@ tags:
   - Shana
 
 ---
-From a conversation I had with <span style="white-space: nowrap;"><a href="http://shanabanana.livejournal.com/"><strong>shanabanana</strong></a></span>::
+From a conversation I had with <span style="white-space: nowrap;"><a href="https://shanabanana.livejournal.com/"><strong>shanabanana</strong></a></span>::
 
 &#8220;Anyone who drops my name most assuredly does NOT know me.&#8221;
 

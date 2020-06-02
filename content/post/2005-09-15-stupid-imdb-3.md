@@ -14,7 +14,7 @@ Just for kicks, I submitted a picture of myself for my [IMDb page][1], but they 
 
 Here was the the picture:
 
-[<img src="http://static.flickr.com/28/43563418_cbaec80f32_m.jpg" alt="Proposed IMDB picture" height="240" width="179" />][2]
+[<img src="https://static.flickr.com/28/43563418_cbaec80f32_m.jpg" alt="Proposed IMDB picture" height="240" width="179" />][2]
 
 The reason for rejection:
 
@@ -38,5 +38,5 @@ level too high)</i>
 
 Any suggestions for another photo to submit? Since I already paid for it, I need to put something up there.
 
- [1]: http://www.imdb.com/name/nm1595334/
- [2]: http://www.flickr.com/photos/mugsy/43563418/ "Photo Sharing"
+ [1]: https://www.imdb.com/name/nm1595334/
+ [2]: https://www.flickr.com/photos/mugsy/43563418/ "Photo Sharing"

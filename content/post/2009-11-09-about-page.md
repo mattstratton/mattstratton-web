@@ -21,7 +21,7 @@ It&#8217;s pretty basic right now, as you can see.
   <a href="/wp-content/uploads/2009/11/about-page.png"><img class="aligncenter size-medium wp-image-5622" title="about-page" src="/wp-content/uploads/2009/11/about-page-300x175.png" alt="about-page" width="300" height="175" srcset="/wp-content/uploads/2009/11/about-page-300x175.png 300w, /wp-content/uploads/2009/11/about-page.png 584w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 </p>
 
-Pretty sparse, right? And it certainly doesn&#8217;t tell you anything about me. Matt Cheuvront over at <a href="http://www.lifewithoutpants.com" target="_blank">Life Without Pants</a> has <a href="http://www.lifewithoutpants.com/blog-insight/what-does-your-about-page-say-about-you/" target="_blank">a GREAT post about improving your About page</a>&#8230;and WHY you should put in the effort. Inspired by this, I am moving on with the process of making a truly rockin&#8217; About page. But I need some help in figuring out exactly what direction to go.
+Pretty sparse, right? And it certainly doesn&#8217;t tell you anything about me. Matt Cheuvront over at <a href="https://www.lifewithoutpants.com" target="_blank">Life Without Pants</a> has <a href="https://www.lifewithoutpants.com/blog-insight/what-does-your-about-page-say-about-you/" target="_blank">a GREAT post about improving your About page</a>&#8230;and WHY you should put in the effort. Inspired by this, I am moving on with the process of making a truly rockin&#8217; About page. But I need some help in figuring out exactly what direction to go.
 
 ### What more do you want to know?
 

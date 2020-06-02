@@ -14,5 +14,5 @@ sent me this a while ago, but I lost the link. Thanks to [/.][1], I have found i
 
 **[The Apple Product Cycle][2]**
 
- [1]: http://slashdot.org
- [2]: http://www.misterbg.org/AppleProductCycle/
+ [1]: https://slashdot.org
+ [2]: https://www.misterbg.org/AppleProductCycle/

@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/228783370/" title="photo sharing"><img src="http://static.flickr.com/59/228783370_b834bfbe7f_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/228783370/">Miles and Ella</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/228783370/" title="photo sharing"><img src="https://static.flickr.com/59/228783370_b834bfbe7f_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/228783370/">Miles and Ella</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 I took Monday off of work to go to Six Flags Great America with Carrie. Now, I&#8217;m generally not a big fan of Six Flags &#8211; I got spoiled a few years ago by going to the Anderson Consulting Company Picnic with Jay and Clint &#8211; they basically rent out the whole park for their employees, so you can just walk onto any ride. After doing that a few times, you really lose interest in going there to wait in line.

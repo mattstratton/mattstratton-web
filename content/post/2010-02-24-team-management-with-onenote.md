@@ -21,7 +21,7 @@ tags:
 ---
 <div class="zemanta-img" style="margin: 1em; display: block;">
   <div style="width: 164px" class="wp-caption alignright">
-    <a href="http://en.wikipedia.org/wiki/Image:1note2007.PNG"><img class=" " title="Microsoft OneNote" src="http://upload.wikimedia.org/wikipedia/en/8/8f/1note2007.PNG" alt="Microsoft OneNote" width="154" height="154" /></a>
+    <a href="https://en.wikipedia.org/wiki/Image:1note2007.PNG"><img class=" " title="Microsoft OneNote" src="https://upload.wikimedia.org/wikipedia/en/8/8f/1note2007.PNG" alt="Microsoft OneNote" width="154" height="154" /></a>
     
     <p class="wp-caption-text">
       Image via Wikipedia
@@ -29,9 +29,9 @@ tags:
   </div>
 </div>
 
-I&#8217;ve blogged before about time management, especially my fascination with strategies/systems like <a class="zem_slink" title="Getting Things Done" rel="wikipedia" href="http://en.wikipedia.org/wiki/Getting_Things_Done">Getting Things Done</a>. The trick is, a lot of that stuff is geared towards _individual_ time management&#8230;but what happens when you manage a team of people and need to keep track of what they are working on?
+I&#8217;ve blogged before about time management, especially my fascination with strategies/systems like <a class="zem_slink" title="Getting Things Done" rel="wikipedia" href="https://en.wikipedia.org/wiki/Getting_Things_Done">Getting Things Done</a>. The trick is, a lot of that stuff is geared towards _individual_ time management&#8230;but what happens when you manage a team of people and need to keep track of what they are working on?
 
-I&#8217;ve devised a system for tracking this using a combination of Microsoft <a class="zem_slink" title="Microsoft OneNote" rel="homepage" href="http://office.microsoft.com/en-us/onenote/FX100487701033.aspx">OneNote</a> and Outlook. Bear in mind that I just invented this today, so a) it&#8217;s not really a proven system _yet_, and b) I&#8217;m VERY open to feedback and suggestions for how it can be improved.
+I&#8217;ve devised a system for tracking this using a combination of Microsoft <a class="zem_slink" title="Microsoft OneNote" rel="homepage" href="https://office.microsoft.com/en-us/onenote/FX100487701033.aspx">OneNote</a> and Outlook. Bear in mind that I just invented this today, so a) it&#8217;s not really a proven system _yet_, and b) I&#8217;m VERY open to feedback and suggestions for how it can be improved.
 
 ## The Problem
 
@@ -67,7 +67,7 @@ So what&#8217;s the problem with this? It&#8217;s ephemeral. It doesn&#8217;t la
 
 ### Solution 3 &#8211; Electronic List
 
-My solution for this uses Microsoft OneNote and Outlook (the Outlook part is a &#8220;nice to have&#8221;, which I&#8217;ll get into when I describe the solution in depth below). Fundamentally, I have a bucket in my list software for every team member, and then a bucket for each team member as &#8220;archive&#8221;. When a task/project is completed, it&#8217;s moved to the archive bucket. There&#8217;s nothing &#8220;magic&#8221; about using OneNote for this &#8211; you could use another note system like <a class="zem_slink" title="Evernote" rel="homepage" href="http://www.evernote.com/">Evernote</a>, or even just track it in Excel with multiple tabs.
+My solution for this uses Microsoft OneNote and Outlook (the Outlook part is a &#8220;nice to have&#8221;, which I&#8217;ll get into when I describe the solution in depth below). Fundamentally, I have a bucket in my list software for every team member, and then a bucket for each team member as &#8220;archive&#8221;. When a task/project is completed, it&#8217;s moved to the archive bucket. There&#8217;s nothing &#8220;magic&#8221; about using OneNote for this &#8211; you could use another note system like <a class="zem_slink" title="Evernote" rel="homepage" href="https://www.evernote.com/">Evernote</a>, or even just track it in Excel with multiple tabs.
 
 The beauty of this system is that everything is captured, and it has an archive. Additionally, since it&#8217;s electronic, you can edit the information (in a paper/whiteboard system, it&#8217;s a lot harder to make changes to it after the fact without being destructive). You also can include a lot more rich content, such as links to documents or diagrams, etc.
 
@@ -120,5 +120,5 @@ I also haven&#8217;t really looked into the tagging features in OneNote; by tagg
 As I mentioned before, this is a work in progress. It&#8217;s NOT a complete solution yet, but I&#8217;ll keep revisiting it and revamping it&#8230;and posting as I polish it. But now I really need feedback from my readers on how I could be doing it better. I&#8217;m not necessarily looking for OneNote specific tweaks (although I&#8217;d love any you have), but more about _how_ to organize this information in a useful way. **Do you manage a team of people? What are you systems for keeping track of resources and task-followups?**
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/29771d90-8072-4a78-b3d4-fd33432e71d2/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=29771d90-8072-4a78-b3d4-fd33432e71d2" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/29771d90-8072-4a78-b3d4-fd33432e71d2/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=29771d90-8072-4a78-b3d4-fd33432e71d2" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
 </div>

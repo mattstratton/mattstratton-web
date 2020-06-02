@@ -20,4 +20,4 @@ Via [Pajiba][1]:
 
 I&#8217;ve heard buzzes and whispers about &#8220;Ripper&#8221; before, but this seems to be a little more than just wishful thinking.
 
- [1]: http://www.pajiba.com/a-brief-history-of-pajiba.htm
+ [1]: https://www.pajiba.com/a-brief-history-of-pajiba.htm

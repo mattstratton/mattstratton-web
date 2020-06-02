@@ -18,4 +18,4 @@ The [online store][1] for _Dancing With Gaia_ is now available. So if you are so
 
 Marcelo &#8211; I saw your Yehoodi post. Totally, I&#8217;d love to see your stuff and do some swappin&#8217;. We&#8217;ll talk.
 
- [1]: http://www.dancingwithgaia.com/purchase
+ [1]: https://www.dancingwithgaia.com/purchase

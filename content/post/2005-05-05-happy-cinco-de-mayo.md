@@ -13,7 +13,7 @@ categories:
 <span class="postbody">I plan to celebrate by listening to lots of Liz Phair.</p> 
 
 <p>
-  <img src="http://www.fazed.com/files/1/3/liz%20phair.jpg" />
+  <img src="https://www.fazed.com/files/1/3/liz%20phair.jpg" />
 </p>
 
 <p>

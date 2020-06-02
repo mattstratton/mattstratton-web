@@ -14,6 +14,6 @@ Anyone played with [**this**][1]?
 
 If you want to check out my page, you can find it here:
 
-<http://www.audioscrobbler.com/user/mugsy1274/>
+<https://www.audioscrobbler.com/user/mugsy1274/>
 
- [1]: http://www.audioscrobbler.com/
+ [1]: https://www.audioscrobbler.com/

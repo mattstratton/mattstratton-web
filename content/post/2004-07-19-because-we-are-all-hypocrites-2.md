@@ -52,5 +52,5 @@ What Bill Clinton did in the 1960s is of vital national interest, but what Bush 
 
 [![][1]][2] Screaming Blue Messiahs &#8211; I Wanna Be A Flintstone</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

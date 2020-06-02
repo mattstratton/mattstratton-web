@@ -10,7 +10,7 @@ categories:
   - Dating
 
 ---
-I posted this as a reply to something <span class="ljuser"><a href="http://belcanto88.livejournal.com/"><strong>belcanto88</strong></a></span> said, but I felt like putting it into its own entry.
+I posted this as a reply to something <span class="ljuser"><a href="https://belcanto88.livejournal.com/"><strong>belcanto88</strong></a></span> said, but I felt like putting it into its own entry.
 
 [Ferret Girl][1] was in the city for her friend&#8217;s show, and wanted to get together. So she ended up stopping by and hanging out having beers in the yard with me, Tracy, Brian, and Kevin. After everyone went to bed we sat around talking about improv theory for another hour or two.
 
@@ -18,4 +18,4 @@ Then she went home. I never quite know how to play it with her, because she&#821
 
 If that makes sense.
 
- [1]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Ferretgirl&filter=all
+ [1]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=Ferretgirl&filter=all

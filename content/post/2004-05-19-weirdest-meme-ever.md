@@ -16,5 +16,5 @@ In HTML tag brackets, type font color=name, but instead of name, write your user
 
 [![][1]][2] Trapper Markelz, Kevin Poulsen, and Brian Crane &#8211; Infared (Rough Mix)</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

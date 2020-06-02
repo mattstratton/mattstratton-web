@@ -26,4 +26,4 @@ via [Wise Bread][1]:
 > 
 > Scout&#8217;s package just came via DHL today. He&#8217;s not the biggest fan of rawhide these days, but those of you with pooches should know that this is a darn good deal.
 
- [1]: http://www.wisebread.com/give-a-dog-six-bones-free
+ [1]: https://www.wisebread.com/give-a-dog-six-bones-free

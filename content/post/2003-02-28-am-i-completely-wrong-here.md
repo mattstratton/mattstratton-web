@@ -16,4 +16,4 @@ Is it just me, or is the term &#8220;Spring Break&#8221; something that stops be
 
 m.
 
- [1]: http://www.livejournal.com/talkpost.bml?journal=ask_me_anything&itemid=330703
+ [1]: https://www.livejournal.com/talkpost.bml?journal=ask_me_anything&itemid=330703

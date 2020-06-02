@@ -16,4 +16,4 @@ I had been freaking out since our _Avenue Q_ tickets had not arrived. But they j
 
 Almost there&#8230;
 
-<span class="xj_itms"><a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>FOX Broadcasting Company &#8211; Brian Sings and Swings</span>
+<span class="xj_itms"><a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>FOX Broadcasting Company &#8211; Brian Sings and Swings</span>

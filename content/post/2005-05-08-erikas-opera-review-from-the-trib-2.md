@@ -95,4 +95,4 @@ Since it&#8217;s a registration-required article, I figured I would post up this
     <p>
       <span><a class="linkification-ext" title="Linkification: javascript:DeCryptX('0j0v1p2p3u3k1f3l0n3C3w1s2k2d2w0n0e312e3r3p')" href="javascript:DeCryptX('0j0v1p2p3u3k1f3l0n3C3w1s2k2d2w0n0e312e3r3p')">jvonrhein [at] tribune [dot] com</a></span></div> </div>
 
- [1]: http://www.chicagotribune.com/features/chi-0505050419may06,1,6765994.story?ctrack=2&cset=true
+ [1]: https://www.chicagotribune.com/features/chi-0505050419may06,1,6765994.story?ctrack=2&cset=true

@@ -29,5 +29,5 @@ Overall, should be a nice weekend.
 
 m.
 
- [1]: http://swingfeline.livejournal.com/
- [2]: http://nandoasti.livejournal.com/
+ [1]: https://swingfeline.livejournal.com/
+ [2]: https://nandoasti.livejournal.com/

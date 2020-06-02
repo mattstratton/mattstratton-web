@@ -16,4 +16,4 @@ Last night I got _A Confederacy of Dunces_ (since is always raving about it) and
 
 I really enjoyed the audiobook of _My Life_ &#8211; Bill Clinton was a wonderful reader, and his book is really folksy and entertaining. And, of course, _America The Audiobook_ was the best one I&#8217;ve gotten yet.
 
- [1]: http://www.audible.com
+ [1]: https://www.audible.com

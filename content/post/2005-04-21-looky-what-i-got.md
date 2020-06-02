@@ -11,7 +11,7 @@ categories:
 
 ---
 <div class="flickrEmailPost">
-  <a href="http://www.flickr.com/photos/mugsy/10280940/" title="A Picture Share!"><img src="http://photos5.flickr.com/10280940_4c4b514a30_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> </p>
+  <a href="https://www.flickr.com/photos/mugsy/10280940/" title="A Picture Share!"><img src="https://photos5.flickr.com/10280940_4c4b514a30_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> </p>
 </div>
 
 Here&#8217;s hoping Nomah is better by then!

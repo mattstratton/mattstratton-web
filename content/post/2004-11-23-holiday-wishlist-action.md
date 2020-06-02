@@ -60,4 +60,4 @@ Chicago, IL 60657
 
 And now I&#8217;m off to try to grant some wishes!
 
- [1]: http://www.amazon.com/gp/registry/8BAD14RUPEY4
+ [1]: https://www.amazon.com/gp/registry/8BAD14RUPEY4

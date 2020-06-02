@@ -10,5 +10,5 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=MThEoxSWURA  
+https://www.youtube.com/watch?v=MThEoxSWURA  
 Thanks to for pointing this out. It is quite frankly, super-duper awesome.

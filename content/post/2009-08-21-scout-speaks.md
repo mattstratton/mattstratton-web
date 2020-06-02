@@ -18,4 +18,4 @@ After an entire week of talking ABOUT Scout&#8230;I thought it was time for Scou
 
 
 
-Please <a href="http://bit.ly/7lLK5" target="_blank"><strong>vote for Scout</strong></a> in the Cutest Dog Contest! You can vote once per day.
+Please <a href="https://bit.ly/7lLK5" target="_blank"><strong>vote for Scout</strong></a> in the Cutest Dog Contest! You can vote once per day.

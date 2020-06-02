@@ -14,7 +14,7 @@ tags:
 ---
 We all know that I get cranky online when I&#8217;m sick, but I think this guy is just being a doofus.
 
-<http://www.yehoodi.com/phpBB2/viewtopic.php?p=717608#717608>
+<https://www.yehoodi.com/phpBB2/viewtopic.php?p=717608#717608>
 
 (doofus part is in bold)
 

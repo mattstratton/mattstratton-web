@@ -22,7 +22,7 @@ On Friday, I worked out of Carrie&#8217;s house and did laundry &#8211; I talked
 
 After the show, Carrie went home, but the rest of us hit a couple bars for some cocktails. We ended up at Tracy and Brian&#8217;s house, where we played poker until 3:30 AM. Mark ended up winning, although it got down to heads up between the two of us, and I made some stupid bets, ending up losing on Big Slick. Oh well. These things happen.
   
-<img src="http://images.amazon.com/images/P/0785263268.01._BO2,204,203,200_PIsitb-dp-500-arrow,TopRight,45,-64_AA240_SH20_SCLZZZZZZZ_.jpg" alt="" align="left" />
+<img src="https://images.amazon.com/images/P/0785263268.01._BO2,204,203,200_PIsitb-dp-500-arrow,TopRight,45,-64_AA240_SH20_SCLZZZZZZZ_.jpg" alt="" align="left" />
   
 On Saturday, Zoe and I met her sister and Carrie at Orange for brunch. A delightful meal of frooshi (&#8220;fruit sushi) and other brunchy things. Later on, I finally got to visit the Lincoln Park location of Hemas Kitchen, which was just as good as the tiny and crowded version further north.
 
@@ -32,9 +32,9 @@ Sunday morning I walked [Scout][3]. I spent most of Sunday reading _[Total Money
 
 The end.
 
- [1]: http://www.iochicago.net/
- [2]: http://www.imdb.com/name/nm0273946
- [3]: http://flickr.com/photos/mugsy/tags/scout/
- [4]: http://www.amazon.com/gp/product/0785263268
- [5]: http://www.daveramsey.com/
- [6]: http://www.daveramsey.com/media/audio/podcast/podcast.xml
+ [1]: https://www.iochicago.net/
+ [2]: https://www.imdb.com/name/nm0273946
+ [3]: https://flickr.com/photos/mugsy/tags/scout/
+ [4]: https://www.amazon.com/gp/product/0785263268
+ [5]: https://www.daveramsey.com/
+ [6]: https://www.daveramsey.com/media/audio/podcast/podcast.xml

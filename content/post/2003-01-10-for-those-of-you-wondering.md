@@ -14,4 +14,4 @@ categories:
 
 m.
 
- [1]: http://www.livejournal.com/talkread.bml?journal=lj_maintenance&itemid=54045&nc=333
+ [1]: https://www.livejournal.com/talkread.bml?journal=lj_maintenance&itemid=54045&nc=333

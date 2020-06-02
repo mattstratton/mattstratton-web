@@ -8,7 +8,7 @@ categories:
   - Personal
 
 ---
-If you feel like keeping track of my riding, you can do so super easily by visiting my bike journal at <a href="http://www.bikejournal.com/journal_public.asp?rname=mattstratton" target="_blank">http://www.bikejournal.com/journal_public.asp?rname=mattstratton</a>.
+If you feel like keeping track of my riding, you can do so super easily by visiting my bike journal at <a href="https://www.bikejournal.com/journal_public.asp?rname=mattstratton" target="_blank">https://www.bikejournal.com/journal_public.asp?rname=mattstratton</a>.
 
 Today&#8217;s ride home sucked ass, by the way. Super windy along the lake, and rainy to boot. I learned the following things about riding in the rain:
 

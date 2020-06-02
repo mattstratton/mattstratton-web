@@ -16,6 +16,6 @@ categories:
    
 or [write about it on the open travel guide][3]
 
- [1]: http://www.world66.com/myworld66/visitedStates/colormap?visited=CACOCTDCFLGAILINIAKSKYLAMDMAMIMNMONVNJNMNYOHOKPATNTXVAWI
- [2]: http://www.world66.com/myworld66/visitedStates
- [3]: http://www.world66.com
+ [1]: https://www.world66.com/myworld66/visitedStates/colormap?visited=CACOCTDCFLGAILINIAKSKYLAMDMAMIMNMONVNJNMNYOHOKPATNTXVAWI
+ [2]: https://www.world66.com/myworld66/visitedStates
+ [3]: https://www.world66.com

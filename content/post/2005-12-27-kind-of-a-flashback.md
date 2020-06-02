@@ -16,7 +16,7 @@ And it reminded me that and I are pretty sure that I&#8217;ve been quoted on it&
 
 This post:
 
-<http://www.overheardinnewyork.com/archives/001131.html>
+<https://www.overheardinnewyork.com/archives/001131.html>
 
 _Guy: I don&#8217;t want to live in a building that undulates!
   

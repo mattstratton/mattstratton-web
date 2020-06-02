@@ -24,9 +24,9 @@ tags:
   - Tina Fey
 
 ---
-### Five Reasons It Would Be Cool If I Were Married To <a href="http://en.wikipedia.org/wiki/Liz_Lemon" target="_blank">Liz Lemon</a>
+### Five Reasons It Would Be Cool If I Were Married To <a href="https://en.wikipedia.org/wiki/Liz_Lemon" target="_blank">Liz Lemon</a>
 
-<a href="http://en.wikipedia.org/wiki/Liz_Lemon" target="_blank"></a>1. She uses &#8220;nerds!&#8221; as a curse word
+<a href="https://en.wikipedia.org/wiki/Liz_Lemon" target="_blank"></a>1. She uses &#8220;nerds!&#8221; as a curse word
   
 2. The word &#8220;tauntaun&#8221; would come up a lot more frequently
   
@@ -49,5 +49,5 @@ tags:
 6. Five words: Jenna Maroney at my house
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/0aa40208-a5fe-4cfb-90c3-d89f2ae17450/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=0aa40208-a5fe-4cfb-90c3-d89f2ae17450" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/0aa40208-a5fe-4cfb-90c3-d89f2ae17450/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=0aa40208-a5fe-4cfb-90c3-d89f2ae17450" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>

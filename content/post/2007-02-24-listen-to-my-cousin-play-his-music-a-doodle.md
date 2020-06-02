@@ -12,7 +12,7 @@ categories:
 ---
 My cousin David (who is currently attending Oberlin) is some kind of magical violin genius. Anyway, I just got this email from my aunt, so if you dig on the stringy strings, you might want to check this out.
 
-_Through this coming Friday, you can hear David performing Sarasate’s Zigeunerweisen via the Internet. There is a weekly Danish radio program called “Folk & Musik” that airs every Saturday morning, and you can always hear the latest broadcast at: <a href="http://www.dr.dk/P2/folkogmusik/20051130134023.htm" target="_blank">http://www.dr.dk/P2/folkogmusik/20051130134023.htm</a> by selecting ”Senest Folk & Musik” (under the section called “Lyt til P2” at the right).</p> 
+_Through this coming Friday, you can hear David performing Sarasate’s Zigeunerweisen via the Internet. There is a weekly Danish radio program called “Folk & Musik” that airs every Saturday morning, and you can always hear the latest broadcast at: <a href="https://www.dr.dk/P2/folkogmusik/20051130134023.htm" target="_blank">https://www.dr.dk/P2/folkogmusik/20051130134023.htm</a> by selecting ”Senest Folk & Musik” (under the section called “Lyt til P2” at the right).</p> 
 
 This broadcast is from a concert of the finalist from a competition here in Denmark. The program today included half of the finalists &#8211; David is the second of the four to perform.
 

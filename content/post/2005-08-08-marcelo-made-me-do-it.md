@@ -34,7 +34,7 @@ categories:
       </p>
       
       <p>
-        You probably loved <i>the Office</i>. If you don&#8217;t know what I&#8217;m<br /> talking about, check it out here: <a href="http://www.bbc.co.uk/comedy/theoffice/">http://www.bbc.co.uk/comedy/theoffice/</a>.
+        You probably loved <i>the Office</i>. If you don&#8217;t know what I&#8217;m<br /> talking about, check it out here: <a href="https://www.bbc.co.uk/comedy/theoffice/">https://www.bbc.co.uk/comedy/theoffice/</a>.
       </p>
       
       <p>
@@ -42,14 +42,14 @@ categories:
       </p>
       
       <p>
-        AND FINALLY &#8212; after you rate my test with a sweet, sweet &#8216;5&#8217; &#8212; <i>you must take this test next</i>: <a href="http://www.okcupid.com/tests/take?testid=6936188936100731841"><b>The Genghis Khan Genetic Fitness Test</b></a>. It&#8217;s not mine, but it rocks.
+        AND FINALLY &#8212; after you rate my test with a sweet, sweet &#8216;5&#8217; &#8212; <i>you must take this test next</i>: <a href="https://www.okcupid.com/tests/take?testid=6936188936100731841"><b>The Genghis Khan Genetic Fitness Test</b></a>. It&#8217;s not mine, but it rocks.
       </p>
     </td>
   </tr>
   
   <tr>
     <td align="center">
-      <img src="http://is2.okcupid.com/users/116/944/11694560292031626201/mt1121288929.gif" />
+      <img src="https://is2.okcupid.com/users/116/944/11694560292031626201/mt1121288929.gif" />
     </td>
   </tr>
 </table>
@@ -70,11 +70,11 @@ categories:
               <table bgcolor="black" border="0" cellpadding="0" cellspacing="1">
                 <tr>
                   <td bgcolor="#b2cfff" height="20" width="108">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                   
                   <td bgcolor="white" width="42">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                 </tr>
               </table>
@@ -90,11 +90,11 @@ categories:
               <table bgcolor="black" border="0" cellpadding="0" cellspacing="1">
                 <tr>
                   <td bgcolor="#b2cfff" height="20" width="1">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                   
                   <td bgcolor="white" width="149">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                 </tr>
               </table>
@@ -110,11 +110,11 @@ categories:
               <table bgcolor="black" border="0" cellpadding="0" cellspacing="1">
                 <tr>
                   <td bgcolor="#b2cfff" height="20" width="1">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                   
                   <td bgcolor="white" width="149">
-                    <a href="http://www.okcupid.com"><img src="http://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
+                    <a href="https://www.okcupid.com"><img src="https://is3.okcupid.com/graphics/0.gif" alt="free online dating" border="0" /></a>
                   </td>
                 </tr>
               </table>
@@ -133,7 +133,7 @@ categories:
         <table cellpadding="20">
           <tr>
             <td>
-              Link: <a href='http://www.okcupid.com/tests/take?testid=17565214125862764376'>The 3 Variable Funny Test</a> written by <a href='http://www.okcupid.com/profile?tuid=11694560292031626201'>jason_bateman</a> on <a href='http://www.okcupid.com'>Ok Cupid</a>
+              Link: <a href='https://www.okcupid.com/tests/take?testid=17565214125862764376'>The 3 Variable Funny Test</a> written by <a href='https://www.okcupid.com/profile?tuid=11694560292031626201'>jason_bateman</a> on <a href='https://www.okcupid.com'>Ok Cupid</a>
             </td>
           </tr>
         </table>

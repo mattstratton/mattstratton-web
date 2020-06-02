@@ -22,5 +22,5 @@ Just read this on [Yelp Talk][1]&#8230;
 
 Might be kind of cool to check out. Although our Saturday is pretty full&#8230;
 
- [1]: http://www.yelp.com/topic/wE0MOY6ixRpiDQOYL3lb4A
- [2]: http://www.joanphilocasting.com
+ [1]: https://www.yelp.com/topic/wE0MOY6ixRpiDQOYL3lb4A
+ [2]: https://www.joanphilocasting.com

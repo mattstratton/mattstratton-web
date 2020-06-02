@@ -20,4 +20,4 @@ Anyway, chances are I will not be online much over the next week, so I&#8217;ll 
 
 m.
 
- [1]: http://www.livejournal.com/talkread.bml?journal=mugsycruz&itemid=87492#cutid1
+ [1]: https://www.livejournal.com/talkread.bml?journal=mugsycruz&itemid=87492#cutid1

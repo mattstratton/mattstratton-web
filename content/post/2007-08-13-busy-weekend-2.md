@@ -38,5 +38,5 @@ On Sunday we went to church in the morning, and then drove out to Yorktown to se
 
 Good weekend. I liked it.
 
- [1]: http://lordjulius.livejournal.com/
- [2]: http://www.reedscanoetrips.com/
+ [1]: https://lordjulius.livejournal.com/
+ [2]: https://www.reedscanoetrips.com/

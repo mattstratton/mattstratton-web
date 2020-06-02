@@ -18,8 +18,8 @@ Wish me luck! If all goes according to plan, I&#8217;ll be an MCSA a week from t
 
 For those of you playing at home&#8230;I earned my Windows NT MCSE in 1998, and my CCNA in 1999.
 
- [1]: http://mugsy1274.livejournal.com/163663.html
- [2]: http://www.microsoft.com/traincert/mcp/mcsa/requirements.asp
- [3]: http://www.microsoft.com/traincert/exams/70-218.asp
- [4]: http://www.microsoft.com/traincert/exams/70-215.asp
- [5]: http://www.microsoft.com/traincert/exams/70-244.asp
+ [1]: https://mugsy1274.livejournal.com/163663.html
+ [2]: https://www.microsoft.com/traincert/mcp/mcsa/requirements.asp
+ [3]: https://www.microsoft.com/traincert/exams/70-218.asp
+ [4]: https://www.microsoft.com/traincert/exams/70-215.asp
+ [5]: https://www.microsoft.com/traincert/exams/70-244.asp

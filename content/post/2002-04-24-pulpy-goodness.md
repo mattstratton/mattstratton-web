@@ -12,11 +12,11 @@ categories:
   <tr>
     <td>
       <div align="center">
-        <a href="http://www.pyrrha.org/pulp"><img border="0" align="CENTER" width="300" height="107" src="http://www.pyrrha.org/pulp/char/wolfbanner.jpg" alt="What Pulp Fiction Character Are You?" /></a> .
+        <a href="https://www.pyrrha.org/pulp"><img border="0" align="CENTER" width="300" height="107" src="https://www.pyrrha.org/pulp/char/wolfbanner.jpg" alt="What Pulp Fiction Character Are You?" /></a> .
       </div>
       
       <p>
-        Take the <a href="http://www.pyrrha.org/pulp">What Pulp Fiction Character Are You?</a> quiz.
+        Take the <a href="https://www.pyrrha.org/pulp">What Pulp Fiction Character Are You?</a> quiz.
       </p>
     </td>
   </tr>

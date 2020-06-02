@@ -48,5 +48,5 @@ Don&#8217;t have much time to read? Just catch up with [<u>Book-A-Minute</u>][1]
 
 The <u>[one for the _Sweet Valley High_ series][2]</u> was good too.
 
- [1]: http://rinkworks.com/bookaminute/
- [2]: http://rinkworks.com/bookaminute/b/pascal.svh.shtml
+ [1]: https://rinkworks.com/bookaminute/
+ [2]: https://rinkworks.com/bookaminute/b/pascal.svh.shtml

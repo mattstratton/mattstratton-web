@@ -13,7 +13,7 @@ categories:
 <table style="text-align:left;width:500px;" bgcolor="#ddddff" border="1" cellpadding="2" cellspacing="0">
   <tr align="center">
     <td style="vertical-align:top;">
-      <span style="font-weight:bold;"><font size="+1"><a href="http://www.livejournal.com/users/mugsy1274"><img src="http://stat.livejournal.com/img/userinfo.gif" border="0" />mugsy1274</a>&#8216;s <a href="http://euthanize.us/memes/lj-slut-meme/">LiveJournal Slut Stats</a></font></span><br /> The below percentages indicate what <a href="http://www.livejournal.com/users/mugsy1274"><img src="http://stat.livejournal.com/img/userinfo.gif" border="0" />mugsy1274</a> has done with the 100 people on his friends list!
+      <span style="font-weight:bold;"><font size="+1"><a href="https://www.livejournal.com/users/mugsy1274"><img src="https://stat.livejournal.com/img/userinfo.gif" border="0" />mugsy1274</a>&#8216;s <a href="https://euthanize.us/memes/lj-slut-meme/">LiveJournal Slut Stats</a></font></span><br /> The below percentages indicate what <a href="https://www.livejournal.com/users/mugsy1274"><img src="https://stat.livejournal.com/img/userinfo.gif" border="0" />mugsy1274</a> has done with the 100 people on his friends list!
     </td>
   </tr>
   
@@ -245,7 +245,7 @@ categories:
   
   <tr align="center">
     <td style="vertical-align:top;">
-      <a href="http://euthanize.us/memes/lj-slut-meme/"><big>What are your LiveJournal Slut Stats?</big></a><br />Sponsored via <a href="http://adultfriendfinder.com/go/p47465c"><span style="font-weight:bold;">Adult Friend Finder</span></a>. Keep this meme and others like it checking it out or getting <a href="http://adultfriendfinder.com/go/p47465c"><span style="font-weight:bold;">free account</span></a>! You may <a href="http://adultfriendfinder.com/go/p47465c">meet the match of your dreams!</a>
+      <a href="https://euthanize.us/memes/lj-slut-meme/"><big>What are your LiveJournal Slut Stats?</big></a><br />Sponsored via <a href="https://adultfriendfinder.com/go/p47465c"><span style="font-weight:bold;">Adult Friend Finder</span></a>. Keep this meme and others like it checking it out or getting <a href="https://adultfriendfinder.com/go/p47465c"><span style="font-weight:bold;">free account</span></a>! You may <a href="https://adultfriendfinder.com/go/p47465c">meet the match of your dreams!</a>
     </td>
   </tr>
 </table>

@@ -92,23 +92,23 @@ tags:
   
 37.~Is [**shanabanana**][13] the sexiest person alive? Yup. How&#8217;d you know?
 
- [1]: http://mike.mm1swebcreations.com/lj/ljFriendsQuiz/
- [2]: http://www.livejournal.com/users/mteson/
- [3]: http://www.livejournal.com/users/e1i/
- [4]: http://www.livejournal.com/users/fricki/
- [5]: http://www.livejournal.com/users/lagoedde23/
- [6]: http://www.livejournal.com/users/artemitis/
- [7]: http://www.livejournal.com/users/momarkelz/
- [8]: http://www.livejournal.com/users/fashionarcade/
- [9]: http://www.livejournal.com/users/cmora77_03/
- [10]: http://www.livejournal.com/users/swingfeline/
- [11]: http://www.livejournal.com/users/hepkitten65000/
- [12]: http://www.livejournal.com/users/liv_e_uh/
- [13]: http://www.livejournal.com/users/shanabanana/
- [14]: http://www.livejournal.com/users/tjmweb/
- [15]: http://www.livejournal.com/users/beckto/
- [16]: http://www.livejournal.com/users/tavist/
- [17]: http://www.livejournal.com/users/atalanta74/
- [18]: http://www.livejournal.com/users/netski55/
- [19]: http://www.livejournal.com/users/theprotagonist5/
- [20]: http://www.livejournal.com/users/darlyn/
+ [1]: https://mike.mm1swebcreations.com/lj/ljFriendsQuiz/
+ [2]: https://www.livejournal.com/users/mteson/
+ [3]: https://www.livejournal.com/users/e1i/
+ [4]: https://www.livejournal.com/users/fricki/
+ [5]: https://www.livejournal.com/users/lagoedde23/
+ [6]: https://www.livejournal.com/users/artemitis/
+ [7]: https://www.livejournal.com/users/momarkelz/
+ [8]: https://www.livejournal.com/users/fashionarcade/
+ [9]: https://www.livejournal.com/users/cmora77_03/
+ [10]: https://www.livejournal.com/users/swingfeline/
+ [11]: https://www.livejournal.com/users/hepkitten65000/
+ [12]: https://www.livejournal.com/users/liv_e_uh/
+ [13]: https://www.livejournal.com/users/shanabanana/
+ [14]: https://www.livejournal.com/users/tjmweb/
+ [15]: https://www.livejournal.com/users/beckto/
+ [16]: https://www.livejournal.com/users/tavist/
+ [17]: https://www.livejournal.com/users/atalanta74/
+ [18]: https://www.livejournal.com/users/netski55/
+ [19]: https://www.livejournal.com/users/theprotagonist5/
+ [20]: https://www.livejournal.com/users/darlyn/

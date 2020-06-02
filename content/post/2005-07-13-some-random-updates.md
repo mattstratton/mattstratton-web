@@ -18,4 +18,4 @@ Monday night, right before bed, I stepped on a belt which I had tossed on the fl
 
 Tomorrow I am winging off to Raleigh to celebrate Holly&#8217;s birthday on Saturday. And to hopefully wow all those folk with my magical bbq ribs. Good times!
 
- [1]: http://flyingbuttresses.net/
+ [1]: https://flyingbuttresses.net/

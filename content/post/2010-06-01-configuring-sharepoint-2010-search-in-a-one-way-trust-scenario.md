@@ -22,7 +22,7 @@ tags:
   - SharePoint Search
 
 ---
-Let me just start out by saying that I think that <a class="zem_slink" title="Microsoft SharePoint" rel="wikipedia" href="http://en.wikipedia.org/wiki/Microsoft_SharePoint">SharePoint</a> 2010 is pretty darn awesome. The user experience is three billion times better than previous versions, and the list of amazing features is miles long.
+Let me just start out by saying that I think that <a class="zem_slink" title="Microsoft SharePoint" rel="wikipedia" href="https://en.wikipedia.org/wiki/Microsoft_SharePoint">SharePoint</a> 2010 is pretty darn awesome. The user experience is three billion times better than previous versions, and the list of amazing features is miles long.
 
 That being said, I&#8217;m starting to think that Microsoft didn&#8217;t really do a lot of testing of this product in a multi-domain, one-way trust scenario. Let us assume the scenario below:
 
@@ -42,11 +42,11 @@ After configuring SharePoint Search and successfully crawling some content sourc
 
 ### For Admin Eyes Only!
 
-After spending hours trying to debug this (going so far as to even completely delete the Search Service application and recreate it), I came across <a href="http://social.technet.microsoft.com/Forums/en-US/sharepoint2010setup/thread/fe9e2e61-b3ec-4850-a1df-d2419314f846" target="_blank">this post</a> on MSDN:
+After spending hours trying to debug this (going so far as to even completely delete the Search Service application and recreate it), I came across <a href="https://social.technet.microsoft.com/Forums/en-US/sharepoint2010setup/thread/fe9e2e61-b3ec-4850-a1df-d2419314f846" target="_blank">this post</a> on MSDN:
 
 [<img class="alignnone size-full wp-image-6029" title="msdn" src="/wp-content/uploads/msdn.png" alt="" width="350" height="88" />][1]
 
-At first, I thought this didn&#8217;t apply to me, as I was connecting at ACCOUNT\USER, who was a farm admin as well as a site collection admin. But then I came across <a href="http://social.technet.microsoft.com/Forums/en-US/sharepoint2010setup/thread/fb211700-1613-4d0f-b8e1-6b6a4a93e770/" target="_blank">another post</a>:
+At first, I thought this didn&#8217;t apply to me, as I was connecting at ACCOUNT\USER, who was a farm admin as well as a site collection admin. But then I came across <a href="https://social.technet.microsoft.com/Forums/en-US/sharepoint2010setup/thread/fb211700-1613-4d0f-b8e1-6b6a4a93e770/" target="_blank">another post</a>:
 
 [<img class="alignnone size-full wp-image-6030" title="msdn2" src="/wp-content/uploads/msdn2.png" alt="" width="504" height="90" />][2]
 
@@ -62,14 +62,14 @@ That being said, when I went to register the ACCOUNT account as a managed accoun
 
 ### PowerShell to the rescue!
 
-The GUI wasn&#8217;t going to let me add this managed account&#8230;but would PowerShell save the day? Turns out that yes, yes it would. Following the insight from Bill Baer&#8217;s <a href="http://blogs.technet.com/b/wbaer/archive/2010/04/11/managed-accounts.aspx" target="_blank">blog post</a>, I was able to add an ACCOUNT service account using PowerShell&#8230;which I could then select as the app pool identity for the Search query component. And after doing so&#8230;voila! Search results worked like a charm.
+The GUI wasn&#8217;t going to let me add this managed account&#8230;but would PowerShell save the day? Turns out that yes, yes it would. Following the insight from Bill Baer&#8217;s <a href="https://blogs.technet.com/b/wbaer/archive/2010/04/11/managed-accounts.aspx" target="_blank">blog post</a>, I was able to add an ACCOUNT service account using PowerShell&#8230;which I could then select as the app pool identity for the Search query component. And after doing so&#8230;voila! Search results worked like a charm.
 
 ### Where do we go from here?
 
 This is just one of the several issues I&#8217;ve encountered in our one-way trust scenario with SharePoint 2010. The maddening thing is that all of these issues worked FINE in MOSS 2007&#8230;but it seems that with all of the infrastructure changes that happened with 2010&#8230;a lot of this stuff got lost along the way.
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/5ef78aad-7a56-4af4-b2fa-7840874b2c34/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=5ef78aad-7a56-4af4-b2fa-7840874b2c34" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/5ef78aad-7a56-4af4-b2fa-7840874b2c34/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=5ef78aad-7a56-4af4-b2fa-7840874b2c34" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
 </div>
 
  [1]: /wp-content/uploads/msdn.png

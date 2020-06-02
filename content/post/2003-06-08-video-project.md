@@ -26,5 +26,5 @@ He also found a bunch of other stuff that we might just cut together into highli
 
 m.
 
- [1]: http://www.livejournal.com/users/mugsy1274/137566.html
- [2]: http://www.jasonwyckoff.com/
+ [1]: https://www.livejournal.com/users/mugsy1274/137566.html
+ [2]: https://www.jasonwyckoff.com/

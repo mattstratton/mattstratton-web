@@ -31,5 +31,5 @@ Oh well. If you want to see my rides, check them out below (I have f-locked this
 [Ride to Work This Morning][3]
 
  [1]: https://buy.garmin.com/shop/shop.do?pID=6400
- [2]: http://trail.motionbased.com/trail/invitation/dashboard.mb?episodePk.pkValue=4155716
- [3]: http://trail.motionbased.com/trail/invitation/dashboard.mb?episodePk.pkValue=4185470
+ [2]: https://trail.motionbased.com/trail/invitation/dashboard.mb?episodePk.pkValue=4155716
+ [3]: https://trail.motionbased.com/trail/invitation/dashboard.mb?episodePk.pkValue=4185470

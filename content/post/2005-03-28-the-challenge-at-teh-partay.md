@@ -17,7 +17,7 @@ categories:
 </p>
 
 <p>
-  The game will be played at <a href="http://www.yehoodi.com/phpBB2/viewtopic.php?t=71265">Teh Partay</a>, with both a team score ( & &nbsp;vs. &nbsp;& ) and individual rankings as well. Losing team buys winning team dinner at C&O Trattoria on Sunday.
+  The game will be played at <a href="https://www.yehoodi.com/phpBB2/viewtopic.php?t=71265">Teh Partay</a>, with both a team score ( & &nbsp;vs. &nbsp;& ) and individual rankings as well. Losing team buys winning team dinner at C&O Trattoria on Sunday.
 </p>
 
 <p>

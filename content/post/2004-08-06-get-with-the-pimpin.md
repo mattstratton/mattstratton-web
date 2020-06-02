@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-Today owns my ass, because she has a <a href="http://www.journalinglife.com/jl-type-online.html" target="_blank">neat article</a> online.
+Today owns my ass, because she has a <a href="https://www.journalinglife.com/jl-type-online.html" target="_blank">neat article</a> online.
 
 Do you? Of course you don&#8217;t. So she owns YOUR ass too.

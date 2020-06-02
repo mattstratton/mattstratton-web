@@ -28,4 +28,4 @@ Edited to fix mis-spelling of &#8220;lavender&#8221; as pointed out by <strike>T
 
 Edited to fix mis-spelling of &#8220;cabaret&#8221; as pointed out by <strike>Teh Intarwebs Secret Service</strike> Trollop.
 
- [1]: http://www.chicagoist.com/archives/2005/11/30/interview_michelle_toots_lamour_burlesque_dancer_lavender_cabaret.php
+ [1]: https://www.chicagoist.com/archives/2005/11/30/interview_michelle_toots_lamour_burlesque_dancer_lavender_cabaret.php

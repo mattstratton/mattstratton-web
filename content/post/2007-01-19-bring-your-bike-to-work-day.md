@@ -16,4 +16,4 @@ It was 25°F and clear, although it &#8220;feels like&#8221; 14°F.
 
 It wasn&#8217;t really too bad &#8211; the cold wasn&#8217;t the problem; it was the &#8220;not having ridden to work in several months&#8221; that was the problem.
 
- [1]: http://www.chicagoist.com/archives/2007/01/16/take_your_bike_to_work_day.php
+ [1]: https://www.chicagoist.com/archives/2007/01/16/take_your_bike_to_work_day.php

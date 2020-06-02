@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-1. Go to http://www.careercruising.com/
+1. Go to https://www.careercruising.com/
   
 2. Put in Username: nycareers and Password: landmark.
   

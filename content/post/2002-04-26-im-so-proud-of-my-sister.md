@@ -50,6 +50,6 @@ B\***\****will continue checking the photos on the Locks of Love Web site, looki
 
 Copyright © 2002, The [Chicago Tribune][3]
 
- [1]: http://chicagosports.chicagotribune.com/sports/highschool/cs-020425prepgtrack.story?coll=cs%2Dhighschool%2Dheadlines
- [2]: http://www.locksoflove.org/
- [3]: http://www.chicagotribune.com/
+ [1]: https://chicagosports.chicagotribune.com/sports/highschool/cs-020425prepgtrack.story?coll=cs%2Dhighschool%2Dheadlines
+ [2]: https://www.locksoflove.org/
+ [3]: https://www.chicagotribune.com/

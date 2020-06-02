@@ -42,6 +42,6 @@ terribly thrilling jumping out._
 
 So that&#8217;s the latest update in the wacky world of Craigslist. I also got a reply from a 22 year old girl, immediately followed by a reply from a 40 year old. So I seem to appeal to all generations.
 
- [1]: http://photos25.flickr.com/37460910_bedd3fa6ad.jpg?v=0
- [2]: http://photos27.flickr.com/37460906_8a6af8b9d7.jpg?v=0
- [3]: http://photos26.flickr.com/37460895_1a6ace02de.jpg?v=0
+ [1]: https://photos25.flickr.com/37460910_bedd3fa6ad.jpg?v=0
+ [2]: https://photos27.flickr.com/37460906_8a6af8b9d7.jpg?v=0
+ [3]: https://photos26.flickr.com/37460895_1a6ace02de.jpg?v=0

@@ -22,7 +22,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="400" alt="547" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>547</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="400" alt="547" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>547</b>
     </td>
   </tr>
   
@@ -35,7 +35,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="335" alt="197" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>197</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="335" alt="197" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>197</b>
     </td>
   </tr>
   
@@ -48,7 +48,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="305" alt="122" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>122</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="305" alt="122" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>122</b>
     </td>
   </tr>
   
@@ -61,7 +61,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="302" alt="116" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>116</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="302" alt="116" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>116</b>
     </td>
   </tr>
   
@@ -74,7 +74,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="280" alt="83" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>83</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="280" alt="83" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>83</b>
     </td>
   </tr>
   
@@ -87,7 +87,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="277" alt="79" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>79</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="277" alt="79" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>79</b>
     </td>
   </tr>
   
@@ -100,7 +100,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="273" alt="74" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>74</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="273" alt="74" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>74</b>
     </td>
   </tr>
   
@@ -113,7 +113,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="268" alt="68" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>68</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="268" alt="68" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>68</b>
     </td>
   </tr>
   
@@ -126,7 +126,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="265" alt="65" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>65</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="265" alt="65" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>65</b>
     </td>
   </tr>
   
@@ -139,7 +139,7 @@ categories:
     </td>
     
     <td>
-      <img src="http://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="http://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="254" alt="55" /><img src="http://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>55</b>
+      <img src="https://stat.livejournal.com/img/poll/leftbar.gif" align="absmiddle" height="14" width="7" /><img src="https://stat.livejournal.com/img/poll/mainbar.gif" align="absmiddle" height="14" width="254" alt="55" /><img src="https://stat.livejournal.com/img/poll/rightbar.gif" align="absmiddle" height="14" width="7" /> <b>55</b>
     </td>
   </tr>
 </table>

@@ -61,6 +61,6 @@ categories:
                   
                   <tr>
                     <td bgcolor="red" align="center">
-                      <a href='http://www.snoglondon.com' title='sponsor'></a>
+                      <a href='https://www.snoglondon.com' title='sponsor'></a>
                     </td>
                   </tr></table> </td> </tr> </table> </td> </tr> </table>

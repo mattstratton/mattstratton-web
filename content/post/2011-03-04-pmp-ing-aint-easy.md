@@ -51,7 +51,7 @@ Having worked in technology for over 15 years, I fully understand and appreciate
 
 # If anyone deserves a title, it&#8217;s a CCIE
 
-One of the most prestigious IT certifications around is CCIE &#8211; <a href="http://en.wikipedia.org/wiki/CCIE#Cisco_Certified_Internetwork_Expert_.28CCIE.29" target="_blank">Cisco Certified Internetwork Expert</a>. Often called &#8220;the doctorate of networking&#8221; this is the big Kahuna of IT certs. The prerequisite exam itself is 100 tough networking questions&#8230;but that only opens the door for the real test &#8211; a grueling 8 hour lab exam. There are only just over 25,000 CCIE&#8217;s in the world, and it&#8217;s regarded as the highest salaried IT certification.
+One of the most prestigious IT certifications around is CCIE &#8211; <a href="https://en.wikipedia.org/wiki/CCIE#Cisco_Certified_Internetwork_Expert_.28CCIE.29" target="_blank">Cisco Certified Internetwork Expert</a>. Often called &#8220;the doctorate of networking&#8221; this is the big Kahuna of IT certs. The prerequisite exam itself is 100 tough networking questions&#8230;but that only opens the door for the real test &#8211; a grueling 8 hour lab exam. There are only just over 25,000 CCIE&#8217;s in the world, and it&#8217;s regarded as the highest salaried IT certification.
 
 Yet, none of the CCIE&#8217;s I know append their title to their name on LinkedIn, or in email signatures (this is a departure from about ten years ago, when CCIE&#8217;s often DID put not only their certification in their email signature, but their actually CCIE number &#8211; this meant something when there were only a couple thousand CCIE&#8217;s worldwide).
 

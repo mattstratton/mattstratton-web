@@ -16,7 +16,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/160388888/"><img style="border:solid 2px #000000;" src="http://static.flickr.com/51/160388888_c45493c6c7_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/160388888/">Stacey</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/160388888/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/51/160388888_c45493c6c7_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/160388888/">Stacey</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Incidentally, this picture was from our camping trip a while ago. I like it.
@@ -27,4 +27,4 @@ I&#8217;m rarely a fan of Mario Cantone, but his rendition of the joke as told b
 
 Sarah Silverman stole the entire show, however.
 
- [1]: http://www.imdb.com/title/tt0436078/
+ [1]: https://www.imdb.com/title/tt0436078/

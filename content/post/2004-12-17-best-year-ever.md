@@ -11,7 +11,7 @@ categories:
 
 ---
 <p class="ljsyndicationlink">
-  <a href="http://bestweekever.vh1.com/2004/12/best_year_ever.html">http://bestweekever.vh1.com/2004/12/best_year_ever.html</a>
+  <a href="https://bestweekever.vh1.com/2004/12/best_year_ever.html">https://bestweekever.vh1.com/2004/12/best_year_ever.html</a>
 </p>
 
 Be sure to tune into **Best Year Ever** TONIGHT at 11 ET (on VH1) to find out who had the Best Year Ever.
@@ -26,5 +26,5 @@ In the meantime, go to the [**Best Year Ever page**][1] and check out the video 
 
 ![][2]
 
- [1]: http://www.vh1.com/shows/dyn/best_of_best_week_ever/85049/episode.jhtml
- [2]: http://fredgraver.typepad.com/photos/uncategorized/william_hung.jpg
+ [1]: https://www.vh1.com/shows/dyn/best_of_best_week_ever/85049/episode.jhtml
+ [2]: https://fredgraver.typepad.com/photos/uncategorized/william_hung.jpg

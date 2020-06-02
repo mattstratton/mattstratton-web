@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-Courtesy of <a href="http://www.homestarrunner.com/sbemail104.html" target="_blank">this week&#8217;s Strong Bad Email</a>&#8230;
+Courtesy of <a href="https://www.homestarrunner.com/sbemail104.html" target="_blank">this week&#8217;s Strong Bad Email</a>&#8230;
 
 &#8230;a new icon for :

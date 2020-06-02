@@ -80,5 +80,5 @@ But it&#8217;s really, really weird.
 
 **Edited to correct the timeline of the CSDS/Calendar/SHC merger**
 
- [1]: http://www.windyhop.org
- [2]: http://windyhop.org/forum/default.aspx?f=34&m=240594&p=1
+ [1]: https://www.windyhop.org
+ [2]: https://windyhop.org/forum/default.aspx?f=34&m=240594&p=1

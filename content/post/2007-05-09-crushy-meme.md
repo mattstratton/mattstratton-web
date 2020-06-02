@@ -13,7 +13,7 @@ categories:
 Via 
 
 <div class="ljuser">
-  <a href="http://iansmomesq.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://iansmomesq.livejournal.com/"><b>iansmomesq</b></a>
+  <a href="https://iansmomesq.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://iansmomesq.livejournal.com/"><b>iansmomesq</b></a>
 </div>
 
 &nbsp;
@@ -34,11 +34,11 @@ Via
 ![][3]
 
 4. Sarah Silverman &#8211; she&#8217;s raunchy and Jewish. Enough said. Although my first crush developed when she was on _Greg the Bunny_.  
-<img width="150" height="146" alt="" src="http://img.buzznet.com/assets/users9/tony/temp/gallery-msg-113424364924-2.jpg" />
+<img width="150" height="146" alt="" src="https://img.buzznet.com/assets/users9/tony/temp/gallery-msg-113424364924-2.jpg" />
 
 5. Alexis Bledel &#8211; no, it&#8217;s not a &#8220;Rory&#8221; thing. I just think she was totally hot in _Sin City_.  
-<img width="200" height="170" alt="" src="http://i48.photobucket.com/albums/f206/Ferhatt/alexis_bledel_5.jpg" />
+<img width="200" height="170" alt="" src="https://i48.photobucket.com/albums/f206/Ferhatt/alexis_bledel_5.jpg" />
 
- [1]: http://www.arjanwrites.com/arjanwrites/images/arjanwrites_liz_phair.jpg
- [2]: http://beggingthequestion.com/uploaded_images/posey-752363.jpg
- [3]: http://www.tvsquad.com/media/2006/05/christa.jpg
+ [1]: https://www.arjanwrites.com/arjanwrites/images/arjanwrites_liz_phair.jpg
+ [2]: https://beggingthequestion.com/uploaded_images/posey-752363.jpg
+ [3]: https://www.tvsquad.com/media/2006/05/christa.jpg

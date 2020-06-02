@@ -70,7 +70,7 @@ Here are the ultrasound pictures. I had to give them the &#8220;Perez Hilton&#82
   </p>
   
   <p style="text-align: center;">
-    <a title="Baby B cake by Matt Stratton, on Flickr" href="http://www.flickr.com/photos/mugsy/3853625343/"><img class="aligncenter" src="http://farm4.static.flickr.com/3426/3853625343_ffd1038aa2.jpg" alt="Baby B cake" width="500" height="333" /></a>
+    <a title="Baby B cake by Matt Stratton, on Flickr" href="https://www.flickr.com/photos/mugsy/3853625343/"><img class="aligncenter" src="https://farm4.static.flickr.com/3426/3853625343_ffd1038aa2.jpg" alt="Baby B cake" width="500" height="333" /></a>
   </p>
   
   <p style="text-align: left;">

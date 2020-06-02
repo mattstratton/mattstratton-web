@@ -14,4 +14,4 @@ categories:
 
 EOM
 
- [1]: http://www.homestarrunner.com/halloween2002.html
+ [1]: https://www.homestarrunner.com/halloween2002.html

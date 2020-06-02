@@ -16,4 +16,4 @@ Any of you on iChat that I can try it out with? I&#8217;m MugsyMalone74.
 
 _Update &#8211; apparently it should also work if you are on Windows AIM 5.5._
 
- [1]: http://www.apple.com/isight
+ [1]: https://www.apple.com/isight

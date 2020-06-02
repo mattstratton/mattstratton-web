@@ -39,6 +39,6 @@ If I&#8217;d rather have a bit of a shorter permalink, I would click &#8220;edit
 
 Basically, think about the ways in which someone might search for the post &#8211; that&#8217;s what you want the permalink to be. If you post was about cranberry sauce recipes, you wouldn&#8217;t want the permalink to be &#8220;Shane&#8217;s Super Awesome Cranberry Sauce Recipe&#8221; &#8211; even though that would be a great title for the post. The permalink should be &#8220;cranberry-sauce-recipe&#8221;. Dig?
 
-There are several other things to bear in mind when it comes to SEO and WordPress. There&#8217;s a great plugin called <a href="http://wordpress.org/extend/plugins/all-in-one-seo-pack/" target="_blank">&#8220;All in One SEO Pack&#8221;</a> which can help a lot. Unfortunately, the latest version of the plugin is not currently working on my installation. Once I get it working again, however, I&#8217;ll post a follow-up blog that dives into the advantages and tricks of using that plugin.
+There are several other things to bear in mind when it comes to SEO and WordPress. There&#8217;s a great plugin called <a href="https://wordpress.org/extend/plugins/all-in-one-seo-pack/" target="_blank">&#8220;All in One SEO Pack&#8221;</a> which can help a lot. Unfortunately, the latest version of the plugin is not currently working on my installation. Once I get it working again, however, I&#8217;ll post a follow-up blog that dives into the advantages and tricks of using that plugin.
 
 What SEO tricks and tips do you have for WordPress? Share them in the comments!

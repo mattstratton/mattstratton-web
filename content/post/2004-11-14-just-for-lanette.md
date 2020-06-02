@@ -12,4 +12,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://www.birdhouse.org/words/june/weiner.jpg
+ [1]: https://www.birdhouse.org/words/june/weiner.jpg

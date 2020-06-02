@@ -24,4 +24,4 @@ It also made me really kind of think about how I feel about Ron Santo. I get ann
 
 Hey hey, Ronnie. You&#8217;re a strong man, and one day, we&#8217;ll see you in the Hall of Fame. But until then, I&#8217;m happy just seeing Number 10 flying over left field.
 
- [1]: http://www.thisoldcub.com/
+ [1]: https://www.thisoldcub.com/

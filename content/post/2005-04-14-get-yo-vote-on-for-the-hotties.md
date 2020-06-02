@@ -18,7 +18,7 @@ _
   
 OK, so T. is officially up on the Maxim Hometown Hotties page this week.</p> 
 
-In order to move up to the semi-finals, she needs lots of votes from different people. So if you have a moment, could you all hit the following link and vote for T. &#8211; **http://www.maximonline.com/hotties/voting/**
+In order to move up to the semi-finals, she needs lots of votes from different people. So if you have a moment, could you all hit the following link and vote for T. &#8211; **https://www.maximonline.com/hotties/voting/**
 
 T. is Tera from Linden.
 

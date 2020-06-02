@@ -13,7 +13,7 @@ categories:
   - Personal
 
 ---
-[<img class="alignright" src="http://farm1.static.flickr.com/94/234370226_4821dd2103.jpg" alt="Going to College..." width="244" height="350" />][1]It&#8217;s been said before that history repeats itself. I&#8217;m going to prove that. Instead of coming up with some new, awesome content this morning, we&#8217;ll take a walk down memory lane and look back to some old-school blog posts of mine &#8211; one from each November going back as far as my blog goes. Enjoy the trip, and keep your hands and feet inside the web browser at all times. _(Oh, and don&#8217;t forget to <a href="http://www.sam-e.com/job/profile/195" target="_blank">vote for Doniree</a>! Vote every day until Nov 6, 2009!)_
+[<img class="alignright" src="https://farm1.static.flickr.com/94/234370226_4821dd2103.jpg" alt="Going to College..." width="244" height="350" />][1]It&#8217;s been said before that history repeats itself. I&#8217;m going to prove that. Instead of coming up with some new, awesome content this morning, we&#8217;ll take a walk down memory lane and look back to some old-school blog posts of mine &#8211; one from each November going back as far as my blog goes. Enjoy the trip, and keep your hands and feet inside the web browser at all times. _(Oh, and don&#8217;t forget to <a href="https://www.sam-e.com/job/profile/195" target="_blank">vote for Doniree</a>! Vote every day until Nov 6, 2009!)_
 
 2008 &#8211; [**I expected this to happen, just not so quickly**][2]: Shortly after moving the suburbs, I went through a point when I felt completely disconnected from my friends. The good news is, looking back a year later, I can see I was totally over-reacting. My relationships with my city pals are just as good as they were before we moved &#8211; they&#8217;re different, don&#8217;t get me wrong, but they&#8217;re still strong. Lesson to be learned? Don&#8217;t be such a whiner.
 
@@ -31,7 +31,7 @@ categories:
 
 And that&#8217;s as far back as my blog goes. Seven years worth of Novembers&#8230;and I have to say, things are sure looking up!
 
- [1]: http://www.flickr.com/photos/mugsy/234370226/ "Going to College... by Matt Stratton, on Flickr"
+ [1]: https://www.flickr.com/photos/mugsy/234370226/ "Going to College... by Matt Stratton, on Flickr"
  [2]: /2008/11/23/i-expected-this-to-happen-just-not-so-quickly/
  [3]: /2007/11/10/ebay-annoyances/
  [4]: /2006/11/08/gilmore-girls-downgrade/

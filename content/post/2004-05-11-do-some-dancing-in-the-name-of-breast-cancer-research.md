@@ -16,7 +16,7 @@ tags:
   - Tessa
 
 ---
-This Friday, my good friends <a href="http://dailykitty.blogspot.com/" target="_blank">Kitty</a> and Tessa are hosting a kick ass benefit for the <a href="http://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_blank">Avon Walk for Breast Cancer</a> at the Jefferson Tap, featuring Lesley Byers and the Jazz Cats.
+This Friday, my good friends <a href="https://dailykitty.blogspot.com/" target="_blank">Kitty</a> and Tessa are hosting a kick ass benefit for the <a href="https://www.avonwalk.org/site/TR?pg=personal&fr_id=1041&px=1252279" target="_blank">Avon Walk for Breast Cancer</a> at the Jefferson Tap, featuring Lesley Byers and the Jazz Cats.
 
 _**Under the Wire Fundraising Benefit**_
 

@@ -12,4 +12,4 @@ categories:
 ---
 Quick picture of the organizers of this year&#8217;s Black and Tan Fantasy&#8230;
 
-<img src="http://www.windyhop.com/images/goofygroup.jpg" width="640" height="480" alt="nutty.people" />
+<img src="https://www.windyhop.com/images/goofygroup.jpg" width="640" height="480" alt="nutty.people" />

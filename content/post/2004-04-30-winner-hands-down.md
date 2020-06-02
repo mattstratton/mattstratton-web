@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-<a href="http://www.jesus-action-figure.com/cantseeit.html" target="_blank">This</a> is the best video game I have ever played.
+<a href="https://www.jesus-action-figure.com/cantseeit.html" target="_blank">This</a> is the best video game I have ever played.
 
 I&#8217;m soooo tempted to post it on Windyhop just to bait keepa :)

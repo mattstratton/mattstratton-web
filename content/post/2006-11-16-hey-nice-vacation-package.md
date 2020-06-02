@@ -20,4 +20,4 @@ So I ask you, dear readers &#8211; what are your suggestions? To put some parame
 
 Thoughts? Suggestions? Tips and tricks?
 
- [1]: http://www.yehoodi.com/phpBB2/viewtopic.php?t=78505
+ [1]: https://www.yehoodi.com/phpBB2/viewtopic.php?t=78505

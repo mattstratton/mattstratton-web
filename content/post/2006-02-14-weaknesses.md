@@ -12,4 +12,4 @@ categories:
 ---
 This one&#8217;s a little rougher&#8230;
 
-<http://kevan.org/nohari?name=Mugsy>
+<https://kevan.org/nohari?name=Mugsy>

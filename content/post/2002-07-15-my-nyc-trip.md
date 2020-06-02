@@ -46,5 +46,5 @@ Sigh.
 
 m.
 
- [1]: http://www.illclan.com/
- [2]: http://www.ucbtheater.com
+ [1]: https://www.illclan.com/
+ [2]: https://www.ucbtheater.com

@@ -16,5 +16,5 @@ categories:
 
 ![][2]
 
- [1]: http://chicago.cubs.mlb.com/images/2003/09/27/U35T4a3k.jpg
- [2]: http://chicago.cubs.mlb.com/mlb/photo/photogallery/season_2003/0927_cubs/03.jpg
+ [1]: https://chicago.cubs.mlb.com/images/2003/09/27/U35T4a3k.jpg
+ [2]: https://chicago.cubs.mlb.com/mlb/photo/photogallery/season_2003/0927_cubs/03.jpg

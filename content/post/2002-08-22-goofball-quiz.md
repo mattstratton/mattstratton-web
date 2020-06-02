@@ -10,9 +10,9 @@ categories:
 ---
 I really hate these, but I really love Kevin Smith.
 
-<img src="http://members.aol.com/jennablue/images/chasingamy.jpg" border="0" /></img></a> 
+<img src="https://members.aol.com/jennablue/images/chasingamy.jpg" border="0" /></img></a> 
 
 [Which Kevin Smith Movie Are You?][1] by [jennablue!][2]
 
- [1]: http://jennabluequizzes.tripod.com/kevinsmithmoviequiz.html
- [2]: http://www.livejournal.com/users/jennablue
+ [1]: https://jennabluequizzes.tripod.com/kevinsmithmoviequiz.html
+ [2]: https://www.livejournal.com/users/jennablue

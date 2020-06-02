@@ -14,4 +14,4 @@ Add that to your Friends list, and see my blog show up on your Friends list!
 
 m.
 
- [1]: http://www.livejournal.com/users/mugsy_feed/
+ [1]: https://www.livejournal.com/users/mugsy_feed/

@@ -14,7 +14,7 @@ Fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuckkkkkkkkkkk
 
 I appreciate the concern, but y&#8217;all all ruining my joke&#8230;
 
-Trapper: a very sad journal http://www.livejournal.com/users/dlocke/
+Trapper: a very sad journal https://www.livejournal.com/users/dlocke/
   
 Mugsy: eep
   

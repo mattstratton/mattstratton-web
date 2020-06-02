@@ -18,7 +18,7 @@ tags:
   - photoshop
 
 ---
-A while ago, my good pal Marcelo asked me for some basic tips on getting started with <a href="http://www.amazon.com/gp/product/B0018VH8S2?ie=UTF8&tag=straigeyefort-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0018VH8S2" target="_blank">Adobe Photoshop Lightroom</a>. I wrote them up for him, and have since found myself sending those same tips to several other friends who are just getting started with Lightroom. In the interests of helping out the Internet at large, I&#8217;m going to simply take what I sent to Marcelo and put it into blog post form. I&#8217;ll likely be coming back and tweaking this post in the future.
+A while ago, my good pal Marcelo asked me for some basic tips on getting started with <a href="https://www.amazon.com/gp/product/B0018VH8S2?ie=UTF8&tag=straigeyefort-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0018VH8S2" target="_blank">Adobe Photoshop Lightroom</a>. I wrote them up for him, and have since found myself sending those same tips to several other friends who are just getting started with Lightroom. In the interests of helping out the Internet at large, I&#8217;m going to simply take what I sent to Marcelo and put it into blog post form. I&#8217;ll likely be coming back and tweaking this post in the future.
 
 ## Import Photos
 
@@ -92,10 +92,10 @@ Next to him is the redeye tool. Works really well.
 
 The rectangle to the right of the red eye is used for applying gradiated filters. I&#8217;m not an expert in this in Lightroom, but I do it all the time in Adobe Camera Raw in CS4. It’s good when you want to expose differently for the sky than the ground, etc.
 
-The brush is the adjustment brush tool. He’s a tricky pickle to work with. I highly recommend <a href="http://tv.adobe.com/#vi+f1512v1392" target="_blank">this tutorial</a> for getting a great explanation of the adjustment brush. It&#8217;s a powerful tool and one well worth learning about.
+The brush is the adjustment brush tool. He’s a tricky pickle to work with. I highly recommend <a href="https://tv.adobe.com/#vi+f1512v1392" target="_blank">this tutorial</a> for getting a great explanation of the adjustment brush. It&#8217;s a powerful tool and one well worth learning about.
 
 <div style="margin-top: 10px; height: 15px;" class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/ae8c0c5a-b880-441c-adb7-056a40f69911/" title="Reblog this post [with Zemanta]"><img style="border: medium none ; float: right;" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_c.png?x-id=ae8c0c5a-b880-441c-adb7-056a40f69911" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" href="https://reblog.zemanta.com/zemified/ae8c0c5a-b880-441c-adb7-056a40f69911/" title="Reblog this post [with Zemanta]"><img style="border: medium none ; float: right;" class="zemanta-pixie-img" src="https://img.zemanta.com/reblog_c.png?x-id=ae8c0c5a-b880-441c-adb7-056a40f69911" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>
 
  [1]: /wp-content/uploads/newcoll.png

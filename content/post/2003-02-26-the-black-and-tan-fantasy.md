@@ -74,6 +74,6 @@ Be like a star and walk into any Black and Tan event all weekend. The All-Access
 
 [Windyhop][3] has been here to offer many valuable services to the swing communities of Chicagoland, the United States, and ultimately the world! With a user base that has touched every continent except Antarctica, we are proud to offer not only the Hepsters Lounge, but also a detailed photo gallery, swing-related news articles, event calendars, detailed information on classes and instructors, as well as the skinny on workshops and dance camps worldwide. Now, in our effort to bring to you Windyhop 2.0, we need YOUR help to maximize Windyhop&#8217;s true potential. Help us provide Windyhop to you by attending the Black and Tan Fantasy Windyhop fundraiser event!</p>
 
- [1]: http://windyhop.org/blackandtan
- [2]: http://www.lesleybyers.com/
- [3]: http://www.windyhop.org
+ [1]: https://windyhop.org/blackandtan
+ [2]: https://www.lesleybyers.com/
+ [3]: https://www.windyhop.org

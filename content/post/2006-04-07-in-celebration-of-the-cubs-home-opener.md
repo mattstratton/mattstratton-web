@@ -14,4 +14,4 @@ categories:
 
 I love baseball. I love that it&#8217;s back. Nothing can go wrong when you&#8217;re watching the Cubs.
 
- [1]: http://politicalhumor.about.com/library/graphics/moran.jpg
+ [1]: https://politicalhumor.about.com/library/graphics/moran.jpg

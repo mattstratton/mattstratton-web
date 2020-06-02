@@ -16,4 +16,4 @@ is in the finals for a Jive Junction award.
 
 Go [here][1] and vote for him.
 
- [1]: http://www.jivejunction.com/forum/viewtopic.php?t=2403
+ [1]: https://www.jivejunction.com/forum/viewtopic.php?t=2403

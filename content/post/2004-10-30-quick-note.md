@@ -28,4 +28,4 @@ We won Best Costume at the party. That&#8217;s because we rule. Photos to come l
 
 Oh, and [Kim][1] looked hot.
 
- [1]: http://swingdoc.livejournal.com/
+ [1]: https://swingdoc.livejournal.com/

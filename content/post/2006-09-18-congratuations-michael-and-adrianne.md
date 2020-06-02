@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/245816850/" title="photo sharing"><img src="http://static.flickr.com/90/245816850_8179779234_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/245816850/">Happy Mike</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/245816850/" title="photo sharing"><img src="https://static.flickr.com/90/245816850_8179779234_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/245816850/">Happy Mike</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Yesterday, two pretty awesome people got married. 
@@ -32,4 +32,4 @@ And, as always, I was honored to be invited to share in a life-changing event su
 
 Thank you, Michael and Adrianne, for letting me be a part of such a special day in your new lives.
 
-More photos can be found here &#8211; <http://flickr.com/groups/michaelandadrianne/>
+More photos can be found here &#8211; <https://flickr.com/groups/michaelandadrianne/>

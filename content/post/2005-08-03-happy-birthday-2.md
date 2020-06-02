@@ -19,4 +19,4 @@ Happy birthday to  [Marcelo][1]&#8216;s dad.
 
 Just saying.
 
- [1]: http://mteson.livejournal.com
+ [1]: https://mteson.livejournal.com

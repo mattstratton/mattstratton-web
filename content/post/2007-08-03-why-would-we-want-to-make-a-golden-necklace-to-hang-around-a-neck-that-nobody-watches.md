@@ -8,9 +8,9 @@ categories:
   - Hilarity
 
 ---
-<http://www.clarkandmichael.com>
+<https://www.clarkandmichael.com>
 
-Thanks,[<img style="border:0 none;vertical-align:bottom;" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" width="17" height="17" />][1][**gravytation**][2].
+Thanks,[<img style="border:0 none;vertical-align:bottom;" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" width="17" height="17" />][1][**gravytation**][2].
 
- [1]: http://gravytation.livejournal.com/profile
- [2]: http://gravytation.livejournal.com/
+ [1]: https://gravytation.livejournal.com/profile
+ [2]: https://gravytation.livejournal.com/

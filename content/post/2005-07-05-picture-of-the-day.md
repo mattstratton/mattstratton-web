@@ -12,4 +12,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://bestweekever.blogs.com/photos/uncategorized/white_ho.JPG
+ [1]: https://bestweekever.blogs.com/photos/uncategorized/white_ho.JPG

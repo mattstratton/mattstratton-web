@@ -14,6 +14,6 @@ Through some kind of internet magic, I somehow was able to buy two tickets to th
 
 Here is where they are:
 
-[<img width="170" height="128" border="0" alt="" src="http://pics.livejournal.com/mattstratton/pic/00018yhx" />][1]
+[<img width="170" height="128" border="0" alt="" src="https://pics.livejournal.com/mattstratton/pic/00018yhx" />][1]
 
- [1]: http://pics.livejournal.com/mattstratton/pic/00018yhx/
+ [1]: https://pics.livejournal.com/mattstratton/pic/00018yhx/

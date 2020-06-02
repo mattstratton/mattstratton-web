@@ -36,4 +36,4 @@ As you may recall, last week [I posted about Carrie&#8217;s cousin][1] who is ha
 
 Thanks to everyone for keeping them in your thoughts, and let&#8217;s keep up the positive energy!
 
- [1]: http://mattstratton.livejournal.com/594108.html
+ [1]: https://mattstratton.livejournal.com/594108.html

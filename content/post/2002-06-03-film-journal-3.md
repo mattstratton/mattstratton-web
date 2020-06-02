@@ -16,4 +16,4 @@ They&#8217;re &#8220;friends only&#8221; at this point. Later I&#8217;ll make th
 
 m.
 
- [1]: http://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all
+ [1]: https://www.livejournal.com/tools/memories.bml?user=mugsy1274&keyword=film&filter=all

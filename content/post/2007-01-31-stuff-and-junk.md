@@ -13,13 +13,13 @@ categories:
 First of all, thanks to all of you (that means you, 
 
 <div class="ljuser">
-  <a href="http://krisdance.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://krisdance.livejournal.com/"><b>krisdance</b></a>
+  <a href="https://krisdance.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://krisdance.livejournal.com/"><b>krisdance</b></a>
 </div>
 
 &nbsp;and 
 
 <div class="ljuser">
-  <a href="http://tavist.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://tavist.livejournal.com/"><b>tavist</b></a>
+  <a href="https://tavist.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://tavist.livejournal.com/"><b>tavist</b></a>
 </div>
 
 ) who provided excellent advice on wedding registries in my last post. That was pretty neat and helpful.
@@ -32,5 +32,5 @@ Our big challenge right now is the second half of the honeymoon &#8211; the firs
 
 In other news, on Saturday we will be joining a whole host of awesome swing dancing friends for the Swingers Ball out at the Willowbrook Ballroom. It&#8217;s total prom action &#8211; I&#8217;m wearing my tux, Carrie bought a new dress, and we&#8217;re joining up with a crew in a rented limo to get there. Fun!
 
- [1]: http://honeymoonincostarica.com
- [2]: http://en.wikipedia.org/wiki/Guanacaste_Province
+ [1]: https://honeymoonincostarica.com
+ [2]: https://en.wikipedia.org/wiki/Guanacaste_Province

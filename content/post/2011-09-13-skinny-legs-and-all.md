@@ -19,7 +19,7 @@ tags:
   - books
 
 ---
-Today, for <a href = "http://www.purekatherine.com/beds/">, the topic is &#8220;a fictional book.&#8221; One of my favorite books is _Skinny Legs And All_ by Tom Robbins.
+Today, for <a href = "https://www.purekatherine.com/beds/">, the topic is &#8220;a fictional book.&#8221; One of my favorite books is _Skinny Legs And All_ by Tom Robbins.
 
 I find myself re-reading this book at least once a year. Besides being absurd and witty, as most Robbins books are, the insights into the very nature of &#8220;art&#8221; have been incredibly influential to me in my writing and my filmmaking. It has colored my evaluations of the self-discovery process as well as made sure I never look at a can of beans the same way again. 
 

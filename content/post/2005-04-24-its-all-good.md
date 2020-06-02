@@ -18,4 +18,4 @@ So despite being blown off by Cocker Spaniel, I found an even hotter chick to ta
 
 I definitely made the wrong move on Friday night. Prom Girl was the way to go. It&#8217;s okay though. I emailed a mutual friend to get her contact info (ostensibly because we&#8217;re both going to be in NYC for the Cubs/Yanks series).
 
- [1]: http://nuprinz.livejournal.com/
+ [1]: https://nuprinz.livejournal.com/

@@ -13,7 +13,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/d-rod/69991845/"><img style="border:solid 2px #000000;" src="http://static.flickr.com/35/69991845_009dacc2c1_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/d-rod/69991845/">123_2357</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/d-rod/">D-Rod</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/d-rod/69991845/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/35/69991845_009dacc2c1_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/d-rod/69991845/">123_2357</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/d-rod/">D-Rod</a>. </span>
 </div>
 
 What did I do last night? I got really really drunk in Manhattan to celebrate my birthday (along with some other December b-day pals). For some reason (after about the fifth Beam and Coke) I decided I should wear Cindy&#8217;s tiara.

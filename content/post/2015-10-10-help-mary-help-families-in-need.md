@@ -29,4 +29,4 @@ Mary takes 100% of the donated money and purchases things like clothes and house
 Again, any bit of generosity is greatly appreciated. Even if it’s just $5, everything counts!
 
  [1]: /life-in-general/help-families-christmas "My friend Mary needs YOUR help to brighten the holidays for three Chicago families"
- [2]: http://wreckfulabandon.blogspot.com/2015/09/adopt-family.html
+ [2]: https://wreckfulabandon.blogspot.com/2015/09/adopt-family.html

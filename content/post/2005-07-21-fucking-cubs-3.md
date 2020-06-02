@@ -24,6 +24,6 @@ The Reds go on to score FOUR MORE RUNS that inning.
 
 Despite the solo homer by Aram in the top of the 9th, they Cubs end up splitting the series with the Reds.
 
-With the GODDAMN REDS (sorry, <a href="http://vsb.livejournal.com/" target="_blank">Beth</a>, but seriously now).
+With the GODDAMN REDS (sorry, <a href="https://vsb.livejournal.com/" target="_blank">Beth</a>, but seriously now).
 
 Fucking Cubs.

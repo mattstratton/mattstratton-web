@@ -20,4 +20,4 @@ categories:
 
 Doug Hillman is also a local swing dancer here in Chicago, and is currently whipping my ass in fantasy baseball.
 
- [1]: http://news.com.com/For+victims%2C+news+about+home+can+come+online/2100-1032_3-5849290.html?tag=nefd.top
+ [1]: https://news.com.com/For+victims%2C+news+about+home+can+come+online/2100-1032_3-5849290.html?tag=nefd.top

@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-Now that some of you have seen the <a href="http://dancingwithgaia.com" target="_blank">movie</a>, I thought I&#8217;d bring this quiz back:
+Now that some of you have seen the <a href="https://dancingwithgaia.com" target="_blank">movie</a>, I thought I&#8217;d bring this quiz back:
 
-<a href="http://quizilla.com/users/mugsy1274/quizzes/Which%20Dancing%20With%20Gaia%20Character%20Are%20You%3F" target="_blank">Which Dancing With Gaia character are you?</a>
+<a href="https://quizilla.com/users/mugsy1274/quizzes/Which%20Dancing%20With%20Gaia%20Character%20Are%20You%3F" target="_blank">Which Dancing With Gaia character are you?</a>

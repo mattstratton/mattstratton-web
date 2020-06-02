@@ -12,7 +12,7 @@ categories:
 ---
 Especially for and &#8230;
 
-<a href="http://www-2.cs.cmu.edu/~jsprouse/nomad_files.html" target="_blank">The Nomad Files</a>
+<a href="https://www-2.cs.cmu.edu/~jsprouse/nomad_files.html" target="_blank">The Nomad Files</a>
 
 Found this on Jake&#8217;s homepage. It&#8217;s a list of emails received at the &#8220;robots.com&#8221; email domain of Nomadic Technologies.
 

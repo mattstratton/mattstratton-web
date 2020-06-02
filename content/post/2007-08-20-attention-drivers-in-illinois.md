@@ -43,5 +43,5 @@ Not that anyone who reads my blog is the kind of jerk driver who tries to kill m
     </p>
     
     <p>
-      ETA &#8211; someone on Yelp just sent me a link to a whole site outlining the City&#8217;s plans for restructuring bike infrastructure. Neat stuff &#8211; <a href="http://www.bike2015plan.org/chapter1/chap1_obj3.html">http://www.bike2015plan.org/chapter1/chap1_obj3.html</a>. Too bad we&#8217;ll probably be living in the suburbs by the time this all goes through.
+      ETA &#8211; someone on Yelp just sent me a link to a whole site outlining the City&#8217;s plans for restructuring bike infrastructure. Neat stuff &#8211; <a href="https://www.bike2015plan.org/chapter1/chap1_obj3.html">https://www.bike2015plan.org/chapter1/chap1_obj3.html</a>. Too bad we&#8217;ll probably be living in the suburbs by the time this all goes through.
     </p>

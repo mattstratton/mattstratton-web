@@ -16,7 +16,7 @@ So our new furniture just arrived&#8230;it&#8217;s pretty spiffy. Check it out:
 
 [![][3]][4]
 
- [1]: http://farm2.static.flickr.com/1363/1322677412_da74f6055a.jpg
- [2]: http://www.flickr.com/photos/mugsy/1322677412/
- [3]: http://farm2.static.flickr.com/1184/1321784697_e995818834.jpg
- [4]: http://www.flickr.com/photos/mugsy/1321784697/
+ [1]: https://farm2.static.flickr.com/1363/1322677412_da74f6055a.jpg
+ [2]: https://www.flickr.com/photos/mugsy/1322677412/
+ [3]: https://farm2.static.flickr.com/1184/1321784697_e995818834.jpg
+ [4]: https://www.flickr.com/photos/mugsy/1321784697/

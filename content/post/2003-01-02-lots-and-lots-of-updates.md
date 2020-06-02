@@ -24,5 +24,5 @@ Tuesday was the big party. Got the place all cleaned up and lots of food prepare
 
 Yesterday was cleanup day and watch movies. We sat around watching _State and Main_ and _Hackers_, and then played Trivial Pursuit. Jayno and I came from behind and won the game. It was fun.
 
- [1]: http://www.dancingwithgaia.com
- [2]: http://www.ctodd.org
+ [1]: https://www.dancingwithgaia.com
+ [2]: https://www.ctodd.org

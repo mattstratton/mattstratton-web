@@ -16,6 +16,6 @@ Not a very good business, since I don&#8217;t get paid, but it&#8217;s not too h
 
 So far I&#8217;ve done them for [jodiemim][1], [rachakate][2], and [shanabanana][3].
 
- [1]: http://www.livejournal.com/talkpost.bml?journal=jodiemim&itemid=11572
- [2]: http://www.livejournal.com/talkpost.bml?journal=rachakate&itemid=102748
- [3]: http://www.livejournal.com/talkread.bml?journal=shanabanana&itemid=22213
+ [1]: https://www.livejournal.com/talkpost.bml?journal=jodiemim&itemid=11572
+ [2]: https://www.livejournal.com/talkpost.bml?journal=rachakate&itemid=102748
+ [3]: https://www.livejournal.com/talkread.bml?journal=shanabanana&itemid=22213

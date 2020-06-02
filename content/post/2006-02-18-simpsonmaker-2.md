@@ -16,8 +16,8 @@ Courtesy of
 
 This is me&#8230;if I lived in Springfield:
 
-<img src="http://static.flickr.com/30/101081590_ac637d7eb2_o.jpg" width="249" height="263" />
+<img src="https://static.flickr.com/30/101081590_ac637d7eb2_o.jpg" width="249" height="263" />
 
-<span class="xj_itms"><a href="http://www.itunes.com"><img src="http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Frou Frou &#8211; Must Be Dreaming</span>
+<span class="xj_itms"><a href="https://www.itunes.com"><img src="https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif" border="0" /></a>Frou Frou &#8211; Must Be Dreaming</span>
 
- [1]: http://www.devilducky.com/media/41026/
+ [1]: https://www.devilducky.com/media/41026/

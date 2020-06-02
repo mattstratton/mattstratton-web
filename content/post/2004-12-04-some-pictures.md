@@ -38,9 +38,9 @@ Courtesy of Kimmers&#8230;
 
 More pictures to come later.
 
- [1]: http://pics.livejournal.com/mugsy1274/pic/000082fd
- [2]: http://pics.livejournal.com/mugsy1274/pic/00002q37
- [3]: http://pics.livejournal.com/mugsy1274/pic/00003146
- [4]: http://pics.livejournal.com/mugsy1274/pic/00004dpg/s640x480
- [5]: http://pics.livejournal.com/mugsy1274/pic/0000581f
- [6]: http://pics.livejournal.com/mugsy1274/pic/00006wty
+ [1]: https://pics.livejournal.com/mugsy1274/pic/000082fd
+ [2]: https://pics.livejournal.com/mugsy1274/pic/00002q37
+ [3]: https://pics.livejournal.com/mugsy1274/pic/00003146
+ [4]: https://pics.livejournal.com/mugsy1274/pic/00004dpg/s640x480
+ [5]: https://pics.livejournal.com/mugsy1274/pic/0000581f
+ [6]: https://pics.livejournal.com/mugsy1274/pic/00006wty

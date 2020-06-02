@@ -27,5 +27,5 @@ This was the conversation today at lunch. Jeff and I were talking about using [G
   
 **Fat Johnny:** I write it on the calendar.
 
- [1]: http://www.google.com/calendar
- [2]: http://en.wikipedia.org/wiki/High_availability
+ [1]: https://www.google.com/calendar
+ [2]: https://en.wikipedia.org/wiki/High_availability

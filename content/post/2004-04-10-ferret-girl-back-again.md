@@ -22,4 +22,4 @@ But she&#8217;s really cute. And I always have fun with her.
 
 We shall see.
 
- [1]: http://www.livejournal.com/users/mugsy1274/115673.html
+ [1]: https://www.livejournal.com/users/mugsy1274/115673.html

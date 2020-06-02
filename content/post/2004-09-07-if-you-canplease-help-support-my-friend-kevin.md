@@ -10,13 +10,13 @@ categories:
   - Personal
 
 ---
-As some of you know, for many years I have wanted to attempt to run a marathon. In the past, I&#8217;ve had a few setbacks with injuries which left me unable to train for one. This year, despite a rather hectic work schedule, things have fallen into place to allow me to commit to a training schedule, and I am signed up to run the 2004 LaSalle Bank Chicago Marathon. (<http://www.chicagomarathon.com>)
+As some of you know, for many years I have wanted to attempt to run a marathon. In the past, I&#8217;ve had a few setbacks with injuries which left me unable to train for one. This year, despite a rather hectic work schedule, things have fallen into place to allow me to commit to a training schedule, and I am signed up to run the 2004 LaSalle Bank Chicago Marathon. (<https://www.chicagomarathon.com>)
 
 I began my training in June, and I am currently in my 12th week of training. As I mentioned, my work schedule over the last few months has been extremely busy. Unfortunately, these late nights and weekends spent at the office meant that I was not able to sign up for any kind of a group &#8220;training team&#8221;. Committing to being somewhere at a certain time was just not an option for me. So instead I committed to training on my own. This has proven to be extremely difficult at times.
 
 I have never been a distance runner. I ran sprints in high school, and to me, a &#8220;long distance run&#8221; was about five miles. Now I was faced with the challenge of completing training runs night after night all on my own. I had noboby to run with me and help me keep pace, nobody to encourage me to keep going on days/nights when I just felt like giving up. It was becoming quite a mental challenge as well as a physical challenge. I decided that if I was going to continue on with this training and commit to running the marathon, then I needed some more motivation. This started my mind thinking&#8230;
 
-I knew that there were many charities that used the marathon as a source of fundraising. I looked into the possibility of joining one of these charity teams. I hoped that this would give me the extra motivation needed to continue pushing myself at those times when it would be so very easy to quit. I decided that if I was going to join a charity team, then I wanted it to be something local. While organizations like the Red Cross are very well respected, they also get much more exposure than the many smaller local places that also need help. So I looked around and made a few phone calls, and after a bit of confusion (it&#8217;s a long story), I finally became a member of the charity fundraising running team for the St. Coletta&#8217;s of Illinois Foundation. (<http://www.stcolettail.org>) I will now be running the 26.2 miles on behalf of developmentally disabled children and adults.
+I knew that there were many charities that used the marathon as a source of fundraising. I looked into the possibility of joining one of these charity teams. I hoped that this would give me the extra motivation needed to continue pushing myself at those times when it would be so very easy to quit. I decided that if I was going to join a charity team, then I wanted it to be something local. While organizations like the Red Cross are very well respected, they also get much more exposure than the many smaller local places that also need help. So I looked around and made a few phone calls, and after a bit of confusion (it&#8217;s a long story), I finally became a member of the charity fundraising running team for the St. Coletta&#8217;s of Illinois Foundation. (<https://www.stcolettail.org>) I will now be running the 26.2 miles on behalf of developmentally disabled children and adults.
 
 The St. Coletta&#8217;s of Illinois Foundation is located in the southwest suburb of Tinley Park. They are a non-profit organization which provides support and funding for over 400 special needs individuals in the areas of residential care, educational programs, medical care, religious and pastoral care, vocational services and specialized facilities. Just taking a few minutes to look around their website showed me that they were an admirable foundation which was providing some very valuable services to people who needed it. I took some time and called them and spoke with their representative who was heading up their marathon running team. She answered all of my questions, and by the end of the call, I had signed up to join their team.
 
@@ -28,7 +28,7 @@ So the purpose of this letter is two-fold:
 
 For those of you who would like to donate/sponsor, please either talk to me in person to get a pledge form, or just follow these steps:
   
-1. Download the pledge form in MS Word format from: http://www.stcolettail.org/pledge-form.doc
+1. Download the pledge form in MS Word format from: https://www.stcolettail.org/pledge-form.doc
   
 2. Print out the pledge form
   

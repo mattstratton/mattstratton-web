@@ -34,5 +34,5 @@ categories:
   <br />Username:</p> 
   
   <p>
-    <a href="http://www.go-quiz.com/cocktail/cocktail.php">Personality cocktail</a><br />From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+    <a href="https://www.go-quiz.com/cocktail/cocktail.php">Personality cocktail</a><br />From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
   </p>

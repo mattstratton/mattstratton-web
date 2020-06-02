@@ -12,7 +12,7 @@ categories:
 ---
 Ok, at the request of , I took The Spark&#8217;s Gay Test.
 
-<img src=&#8221;http://test.thespark.com/gaytest/graphics/title.gif&#8221; alt=&#8221;How Gay Am I?&#8221;?
+<img src=&#8221;https://test.thespark.com/gaytest/graphics/title.gif&#8221; alt=&#8221;How Gay Am I?&#8221;?
 
 <table>
   <tr>

@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-[<img width="400" border="1" align="right" src="http://www.action-squad.com/publicData/Rev.%20Dave/IndieValentines/portishead.jpg" alt="" />][1]
+[<img width="400" border="1" align="right" src="https://www.action-squad.com/publicData/Rev.%20Dave/IndieValentines/portishead.jpg" alt="" />][1]
 
 Carrie and I had a pretty uneventful Valentine&#8217;s Day. Our original plan was to take a cooking class together at the Chopping Block. However, we procrastinated too long, and they were full up.
 
@@ -22,5 +22,5 @@ Oh, and I got her a nice necklace, which I had given to her on Saturday. And we 
 
 (Indie-rock Valentine courtesy of the good people at [Action-Squad.com][2])
 
- [1]: http://www.action-squad.com/?p=2023
- [2]: http://www.action-squad.com
+ [1]: https://www.action-squad.com/?p=2023
+ [2]: https://www.action-squad.com

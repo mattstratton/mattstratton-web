@@ -16,7 +16,7 @@ categories:
   <table border="1" bgcolor="#ffffff" cellspacing="0" cellpadding="2">
     <tr>
       <td colspan="2" align="center" bgcolor='ffffff'>
-        <a href='http://www.kwiz.biz/showquiz.php?quizid=7967' target='_new'><font color="000000"><b>LJ friend stats</b></a></font></td> </tr> 
+        <a href='https://www.kwiz.biz/showquiz.php?quizid=7967' target='_new'><font color="000000"><b>LJ friend stats</b></a></font></td> </tr> 
         
         <tr>
           <td>
@@ -176,12 +176,12 @@ categories:
                                 
                                 <tr>
                                   <td colspan="2" align="center">
-                                    <font size="-1"><b>This <a href="http://www.kwiz.biz/"><font color="black">Quiz</font></a> by <a href='http://www.kwiz.biz/userprofile.php?userid=323'><font color="#000000">waywardpixie</font></a> &#8211; Taken 33309 Times.<br /> </font></a></b></font>
+                                    <font size="-1"><b>This <a href="https://www.kwiz.biz/"><font color="black">Quiz</font></a> by <a href='https://www.kwiz.biz/userprofile.php?userid=323'><font color="#000000">waywardpixie</font></a> &#8211; Taken 33309 Times.<br /> </font></a></b></font>
                                   </td>
                                 </tr></table> 
                                 
                                 <p>
-                                  <font>New &#8211; COOL Dating Tips and <a href='http://www.datingtips.ws/'>Romance Advice!</a></font></div> 
+                                  <font>New &#8211; COOL Dating Tips and <a href='https://www.datingtips.ws/'>Romance Advice!</a></font></div> 
                                   
                                   <p>
                                     I mean, I knew Lanette had a crush on me, it&#8217;s pretty obvious. Finally we have concrete proof!

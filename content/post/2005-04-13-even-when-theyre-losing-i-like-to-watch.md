@@ -11,7 +11,7 @@ categories:
 
 ---
 <div class="flickrEmailPost">
-  <a href="http://www.flickr.com/photos/mugsy/9324713/" title="A Picture Share!"><img src="http://photos6.flickr.com/9324713_7d3a56c20a_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> 
+  <a href="https://www.flickr.com/photos/mugsy/9324713/" title="A Picture Share!"><img src="https://photos6.flickr.com/9324713_7d3a56c20a_m.jpg" alt="A Picture Share!" class="flickrEmailImage" /></a> 
   
   <p>
     This is what rules about having a second monitor at work.

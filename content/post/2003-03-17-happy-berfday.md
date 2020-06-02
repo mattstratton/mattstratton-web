@@ -19,4 +19,4 @@ Happy berfday to the wonderfullest hot doc I know, [Kim][1]!
 
 m.
 
- [1]: http://swingdoc.livejournal.com/
+ [1]: https://swingdoc.livejournal.com/

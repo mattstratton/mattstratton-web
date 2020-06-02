@@ -12,4 +12,4 @@ categories:
 ---
 Geraldo and Sheppard Smith reporting from the ground. Hannity tries to spin it, but Shep and Geraldo will have none of it.
 
-<a href="http://www.crooksandliars.com/2005/09/02.html#a4763" target="_blank">View video here.</a>
+<a href="https://www.crooksandliars.com/2005/09/02.html#a4763" target="_blank">View video here.</a>

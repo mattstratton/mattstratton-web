@@ -11,7 +11,7 @@ categories:
   - Vlogs
 
 ---
-The <a href="http://www.weblogwevlog.com" target="_blank">VEDA</a> prompt for today was &#8220;Do you like to travel?&#8221; I decided to illustrate this with some fun photos from trips Up North and to Costa Rica.
+The <a href="https://www.weblogwevlog.com" target="_blank">VEDA</a> prompt for today was &#8220;Do you like to travel?&#8221; I decided to illustrate this with some fun photos from trips Up North and to Costa Rica.
 
 
 

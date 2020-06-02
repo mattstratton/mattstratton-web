@@ -26,7 +26,7 @@ The other cool stuff? We want to give you as many ways as we can to [do more stu
 
 **Enjoy!**
 
- [1]: http://www.flickr.com/photos/mugsy/
- [2]: http://www.flickr.com/account/printing/setup/
- [3]: http://www.flickr.com/account/printing/
- [4]: http://www.flickr.com/do/more/
+ [1]: https://www.flickr.com/photos/mugsy/
+ [2]: https://www.flickr.com/account/printing/setup/
+ [3]: https://www.flickr.com/account/printing/
+ [4]: https://www.flickr.com/do/more/

@@ -12,4 +12,4 @@ categories:
 ---
 I needed a good chuckle.
 
-<a href="http://www.marryanamerican.ca/" target="_blank">http://www.marryanamerican.ca/</a>
+<a href="https://www.marryanamerican.ca/" target="_blank">https://www.marryanamerican.ca/</a>

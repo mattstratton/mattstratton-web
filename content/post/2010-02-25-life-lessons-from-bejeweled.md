@@ -18,7 +18,7 @@ categories:
   - Personal
 
 ---
-[][1]The game <a class="zem_slink" title="Bejeweled" rel="wikipedia" href="http://en.wikipedia.org/wiki/Bejeweled">Bejeweled</a> is deceptively simple and VERY addicting. It is the single app on my iPhone that probably gets the most use, second only to my email inbox and calendar. Easy to learn, but tough to get good at, I&#8217;ve discovered that there are lessons in life that can be learned from playing this game.
+[][1]The game <a class="zem_slink" title="Bejeweled" rel="wikipedia" href="https://en.wikipedia.org/wiki/Bejeweled">Bejeweled</a> is deceptively simple and VERY addicting. It is the single app on my iPhone that probably gets the most use, second only to my email inbox and calendar. Easy to learn, but tough to get good at, I&#8217;ve discovered that there are lessons in life that can be learned from playing this game.
 
 ## Focus on what&#8217;s in front of you
 
@@ -47,7 +47,7 @@ When I first came up with the idea for this post, it was intended as a joke &#82
 Unless you are a professional Bejeweled player. In which case, I have nothing to teach you.
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/ecac183a-62c9-4144-8299-d22a18a8d684/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=ecac183a-62c9-4144-8299-d22a18a8d684" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/ecac183a-62c9-4144-8299-d22a18a8d684/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=ecac183a-62c9-4144-8299-d22a18a8d684" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script pretty-attribution"></span>
 </div>
 
- [1]: http://www.flickr.com/photos/mkeefe/3409711930/
+ [1]: https://www.flickr.com/photos/mkeefe/3409711930/

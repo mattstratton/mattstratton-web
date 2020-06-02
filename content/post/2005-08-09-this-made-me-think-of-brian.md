@@ -22,4 +22,4 @@ categories:
   On the topic of Small Wonder: <span class="copy"><i>Fuck you, buddy! This idea is so apeshit, bananas insane—and fetishistically weird—that reading it now I want to max-out my credit cards, declare bankruptcy, and move to Detroit where I would take up residency in a dumpster, drink Thunderbird all day, and yell out “Small Wonder!” to passing strangers until my premature death at the hands of full-blown something or other.</i> </span>
 </p>
 
- [1]: http://www.thephatphree.com/features.asp?SectionID=3&StoryID=1206&LayoutType=1
+ [1]: https://www.thephatphree.com/features.asp?SectionID=3&StoryID=1206&LayoutType=1

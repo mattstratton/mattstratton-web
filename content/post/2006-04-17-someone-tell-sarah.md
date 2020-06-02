@@ -18,4 +18,4 @@ I tried to post a reply to Sarah&#8217;s question, but she only allows Friends t
 
 It&#8217;s a reply to [this post][1].
 
- [1]: http://bluechicago1974.livejournal.com/18321.html
+ [1]: https://bluechicago1974.livejournal.com/18321.html

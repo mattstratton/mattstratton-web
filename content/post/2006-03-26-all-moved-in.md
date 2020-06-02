@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/118115831/" title="photo sharing"><img src="http://static.flickr.com/35/118115831_f43f48c201_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/118115831/">The Kitchen</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/118115831/" title="photo sharing"><img src="https://static.flickr.com/35/118115831_f43f48c201_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/118115831/">The Kitchen</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 Moving day was a huge success!
@@ -30,5 +30,5 @@ The end.
 
 Some more pictures from our new apartment can be seen [here][2].
 
- [1]: http://www.ablemove.com
- [2]: http://www.flickr.com/photos/mugsy/tags/movingday/
+ [1]: https://www.ablemove.com
+ [2]: https://www.flickr.com/photos/mugsy/tags/movingday/

@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-<http://www.livejournal.com/singles/>
+<https://www.livejournal.com/singles/>
 
 No matches&#8230;guess everyone in Chicago is fixed up :)
 

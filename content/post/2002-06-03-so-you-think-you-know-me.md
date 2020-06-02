@@ -16,4 +16,4 @@ Let&#8217;s see how well you REALLY know me&#8230;
 
 m.
 
- [1]: http://www.stumpyourfriends.com/stump2.cgi?90453016352002
+ [1]: https://www.stumpyourfriends.com/stump2.cgi?90453016352002

@@ -54,4 +54,4 @@ Specter said on CBS that he had only been trying to point out that Republicans, 
 
 &#8211; REUTERS
 
- [1]: http://www.nzherald.co.nz/storydisplay.cfm?storyID=3608130&thesection=news&thesubsection=world
+ [1]: https://www.nzherald.co.nz/storydisplay.cfm?storyID=3608130&thesection=news&thesubsection=world

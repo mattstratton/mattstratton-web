@@ -33,11 +33,11 @@ So any of you who are in town, please attend. And I know some of you are even co
 </p>
 
 <p>
-  <a href="http://ihouse.uchicago.edu/">International House</a><br /> <a href="http://maps.yahoo.com/py/maps.py?Pyt=Tmap&addr=1414%20East%2059th%20St.&csz=60637&Get+Map=Get+Map"> 1414 East 59th St., University of Chicago</a>
+  <a href="https://ihouse.uchicago.edu/">International House</a><br /> <a href="https://maps.yahoo.com/py/maps.py?Pyt=Tmap&addr=1414%20East%2059th%20St.&csz=60637&Get+Map=Get+Map"> 1414 East 59th St., University of Chicago</a>
 </p>
 
 <p>
-  <a href="http://lesleybyers.com/">Lesley Byers and the Jazz Cats</a>
+  <a href="https://lesleybyers.com/">Lesley Byers and the Jazz Cats</a>
 </p>
 
 <p>
@@ -48,5 +48,5 @@ So any of you who are in town, please attend. And I know some of you are even co
   Doors Open 8pm • $25 cover<br /> Buy your tickets <a href="https://www.paypal.com/xclick/business=buy%40windyhop.org&item_name=Black+And+Tan&amount=25.00&no_shipping=1&undefined_quantity=1&&no_note=1" target="_new">online</a> </font></font>
 </p>
 
- [1]: http://windyhop.org
- [2]: http://windyhop.org/batf/
+ [1]: https://windyhop.org
+ [2]: https://windyhop.org/batf/

@@ -24,4 +24,4 @@ This is a good thing.
 
 **By the way &#8211; Carrie reads my journal, so please keep in mind that she&#8217;ll see any comments you make, okay?**
 
- [1]: http://www.livejournal.com/userinfo.bml?user=sunshine78&mode=full
+ [1]: https://www.livejournal.com/userinfo.bml?user=sunshine78&mode=full

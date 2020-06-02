@@ -12,9 +12,9 @@ categories:
 ---
 From the Chicago Tribune:
 
-[<img class="alignright" style="border: none;" title="the best online casino is party" src="http://www.pokersatire.com/images/party-poker.jpg" alt="online casino" width="90" height="90" />][1]
+[<img class="alignright" style="border: none;" title="the best online casino is party" src="https://www.pokersatire.com/images/party-poker.jpg" alt="online casino" width="90" height="90" />][1]
 
-<span><strong><a href="http://www.chicagotribune.com/news/local/chi-0412190489dec19,1,4935612.story?coll=chi-news-hed"><span>Poker players, police seeing who will blink first</span></a></strong></span>
+<span><strong><a href="https://www.chicagotribune.com/news/local/chi-0412190489dec19,1,4935612.story?coll=chi-news-hed"><span>Poker players, police seeing who will blink first</span></a></strong></span>
 
 <span>By John Bebow<br /> </span> <span>Tribune staff reporter<br /> </span> <span>Published December 19, 2004</span>
 
@@ -78,6 +78,6 @@ Police attention &#8220;is certainly not going to stop us from playing, but we a
 
 As police seized the cards, cash, and a handful of chips as evidence, Sarrett&#8217;s crowd noticed &#8220;Bobby&#8217;s&#8221; wasted pair of queens. The bust was over by midnight. When the cops left, the players pulled fresh $20 bills from their wallets, stacked more chips, cut a fresh deck, and played almost until dawn.
 
- <span><span>Copyright © 2004, <a href="http://www.chicagotribune.com/">Chicago Tribune</a></span> </span>
+ <span><span>Copyright © 2004, <a href="https://www.chicagotribune.com/">Chicago Tribune</a></span> </span>
 
- [1]: http://www.partycasino.com/
+ [1]: https://www.partycasino.com/

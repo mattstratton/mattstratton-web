@@ -20,4 +20,4 @@ Well, there&#8217;s a [new Strong Bad Email][1] today. And it uses the word &#82
 
 Sweet.
 
- [1]: http://homestarrunner.com/sbemail140.html
+ [1]: https://homestarrunner.com/sbemail140.html

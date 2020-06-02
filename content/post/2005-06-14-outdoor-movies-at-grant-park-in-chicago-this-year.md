@@ -70,4 +70,4 @@ George Lucas created a cultural phenomenon and iconoclastic characters in what w
   
 1977 (121 minutes)
 
- [1]: http://egov.cityofchicago.org/city/webportal/portalContentItemAction.do?BV_SessionID=@@@@0365252675.1118775115@@@@&BV_EngineID=cccfaddelflmddicefecelldffhdfgn.0&contentOID=536924981&contenTypeName=COC_EDITORIAL&topChannelName=HomePage
+ [1]: https://egov.cityofchicago.org/city/webportal/portalContentItemAction.do?BV_SessionID=@@@@0365252675.1118775115@@@@&BV_EngineID=cccfaddelflmddicefecelldffhdfgn.0&contentOID=536924981&contenTypeName=COC_EDITORIAL&topChannelName=HomePage

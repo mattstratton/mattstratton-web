@@ -22,4 +22,4 @@ My Popularity score is 0. Even the Internet knows I&#8217;m a loser.
 
 m.
 
- [1]: http://slashdot.org
+ [1]: https://slashdot.org

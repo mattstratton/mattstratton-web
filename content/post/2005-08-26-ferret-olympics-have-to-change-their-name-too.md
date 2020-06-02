@@ -12,7 +12,7 @@ categories:
 ---
 Not only has Improv Olympic had to rename itself to IO due to pressure from the US Olympic Committee, but apparently even the ferrets are not immune.
 
-<a href="http://news.yahoo.com/s/ap/ferret_olympics" target="_blank">USOC Forces &#8216;Ferret Olympics&#8217; Name Change</a>
+<a href="https://news.yahoo.com/s/ap/ferret_olympics" target="_blank">USOC Forces &#8216;Ferret Olympics&#8217; Name Change</a>
 
 EUGENE, Ore. &#8211; After nine years of slippery, slinky competition, the Ferret Olympics is being forced to change its name — the U.S. Olympic Committee has threatened to sue.
   

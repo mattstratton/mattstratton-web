@@ -14,4 +14,4 @@ Saw this sign taped up at the corner of Sheffield and Wellington on Friday:
 
 ![][1]
 
- [1]: http://photos6.flickr.com/7151673_2720b9c80d.jpg
+ [1]: https://photos6.flickr.com/7151673_2720b9c80d.jpg

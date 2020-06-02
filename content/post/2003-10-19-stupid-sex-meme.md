@@ -19,7 +19,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/punkinpea/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">punkinpea</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/punkinpea/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">punkinpea</font></a></b>
                 </td>
                 				
                 
@@ -61,7 +61,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/divadrummer/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">divadrummer</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/divadrummer/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">divadrummer</font></a></b>
                 </td>
                 				
                 
@@ -103,7 +103,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/theda/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">theda</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/theda/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">theda</font></a></b>
                 </td>
                 				
                 
@@ -145,7 +145,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/cygnoir/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">cygnoir</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/cygnoir/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">cygnoir</font></a></b>
                 </td>
                 				
                 
@@ -229,7 +229,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/enoelie/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">enoelie</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/enoelie/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">enoelie</font></a></b>
                 </td>
                 				
                 
@@ -271,7 +271,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/kathy_skadoo/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">kathy_skadoo</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/kathy_skadoo/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">kathy_skadoo</font></a></b>
                 </td>
                 				
                 
@@ -313,7 +313,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/heavymetalsushi/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">heavymetalsushi</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/heavymetalsushi/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">heavymetalsushi</font></a></b>
                 </td>
                 				
                 
@@ -355,7 +355,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/ashen_phoenix/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">ashen_phoenix</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/ashen_phoenix/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">ashen_phoenix</font></a></b>
                 </td>
                 				
                 
@@ -397,7 +397,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/divajess/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">divajess</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/divajess/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">divajess</font></a></b>
                 </td>
                 				
                 
@@ -439,7 +439,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/artemitis/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">artemitis</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/artemitis/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">artemitis</font></a></b>
                 </td>
                 				
                 
@@ -481,7 +481,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/rollick/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">rollick</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/rollick/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">rollick</font></a></b>
                 </td>
                 				
                 
@@ -523,7 +523,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/pigri/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">pigri</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/pigri/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">pigri</font></a></b>
                 </td>
                 				
                 
@@ -565,7 +565,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/jkatj/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">jkatj</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/jkatj/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">jkatj</font></a></b>
                 </td>
                 				
                 
@@ -649,7 +649,7 @@ categories:
             <table border="0" CELLSPACING="0" CELLPADDING="0" STYLE="0px">
               <tr>
                 <td STYLE="140px">
-                  <b><a target="_new" HREF="http://www.livejournal.com/users/themonkey/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">themonkey</font></a></b>
+                  <b><a target="_new" HREF="https://www.livejournal.com/users/themonkey/"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">themonkey</font></a></b>
                 </td>
                 				
                 
@@ -688,7 +688,7 @@ categories:
         
         <tr>
           <td colspan="6" ALIGN="center" BGCOLOR="#FFFFFF" STYLE="center">
-            <b><a target="_new" HREF="http://www.ljmatch.com/index.php?r=oJ1gw3m8jsVHrqT6S+0O+katz5UHjvDN&goto=sextest_list"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">&lt;u>How sexually compatible with me are you?<br />Take the NEW sexual compatibility quiz at LJMatch!&lt;/u></font></a></b>
+            <b><a target="_new" HREF="https://www.ljmatch.com/index.php?r=oJ1gw3m8jsVHrqT6S+0O+katz5UHjvDN&goto=sextest_list"><font FACE="Verdana" SIZE="1" COLOR="#0033CC">&lt;u>How sexually compatible with me are you?<br />Take the NEW sexual compatibility quiz at LJMatch!&lt;/u></font></a></b>
           </td>
         </tr>
         

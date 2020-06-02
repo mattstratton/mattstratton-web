@@ -20,4 +20,4 @@ This means I&#8217;ll have to give up pastrami for the next 6-8 weeks.
 
 Bastards.
 
- [1]: http://www.perrysdeli.com/
+ [1]: https://www.perrysdeli.com/

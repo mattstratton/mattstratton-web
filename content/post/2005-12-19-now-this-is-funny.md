@@ -12,4 +12,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://www.flashasylum.com/db/files/Comics/Rob/yourmom.jpg
+ [1]: https://www.flashasylum.com/db/files/Comics/Rob/yourmom.jpg

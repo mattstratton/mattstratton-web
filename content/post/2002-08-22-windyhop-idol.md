@@ -58,4 +58,4 @@ As assurance of your proper performance it is requested by the Party of the firs
 
 Failure to comply by the party of the second part will rendered the above-referenced contract null and void.
 
- [1]: http://www.windyhop.org/ubb/ubb2/Forum10/HTML/006313.html
+ [1]: https://www.windyhop.org/ubb/ubb2/Forum10/HTML/006313.html

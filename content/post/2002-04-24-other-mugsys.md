@@ -22,5 +22,5 @@ which comes from [Wright Flyer Online][2] webpage.
 
 m.
 
- [1]: http://www.windyhop.org/ubb/smilies/mugsybio.jpg
- [2]: http://quest.arc.nasa.gov/aero/wright/team/mugsy.html
+ [1]: https://www.windyhop.org/ubb/smilies/mugsybio.jpg
+ [2]: https://quest.arc.nasa.gov/aero/wright/team/mugsy.html

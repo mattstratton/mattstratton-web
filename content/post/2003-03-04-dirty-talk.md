@@ -18,4 +18,4 @@ So anyway&#8230;when someone claims that they&#8217;d rather give than receive, 
 
 m.
 
- [1]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com

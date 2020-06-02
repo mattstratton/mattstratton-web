@@ -24,5 +24,5 @@ For those of you who are still on IE&#8230;try the **5 Days With Firefox Challen
 
 Yes, Trapper, I know that sometimes you have to use IE in a corporate setting&#8230;blah blah blah. That&#8217;s why I have IE on my work laptop, but I only use it for our intranet stuff. Firefox is for outside browsing.
 
- [1]: http://www.mozilla.org/products/firefox/
- [2]: http://www.mozilla.org/firefox
+ [1]: https://www.mozilla.org/products/firefox/
+ [2]: https://www.mozilla.org/firefox

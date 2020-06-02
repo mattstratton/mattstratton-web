@@ -15,7 +15,7 @@ tags:
   - TXJess
 
 ---
-<img class="alignright size-medium wp-image-5167" style="margin: 3px 5px;" title="txjessgor" src="/wp-content/uploads/2009/04/txjessgor-256x300.jpg" alt="txjessgor" width="179" height="210" srcset="/wp-content/uploads/2009/04/txjessgor-256x300.jpg 256w, /wp-content/uploads/2009/04/txjessgor.jpg 427w" sizes="(max-width: 179px) 100vw, 179px" />It&#8217;s no secret that we here at Good Old Rock love tech. So it&#8217;s only natural that we keep a close eye on other tech bloggers. One of our favorites is our dear friend, **Jessica Fritsche**, who is one of the geekiest girls to roll in the tech blogosphere. In addition to her two blogs, <a href="http://jessicafritsche.com/" target="_blank"><strong>jessica fritsche (dot) com</strong></a> and <a href="http://dailytechdiva.com" target="_blank"><strong>Daily Tech Diva</strong></a>, Jess is an associate editor for <a href="http://sonewpublishing.com/" target="_blank"><strong>So New Publishing</strong></a>, and has a Top Secret vlogging project in development.
+<img class="alignright size-medium wp-image-5167" style="margin: 3px 5px;" title="txjessgor" src="/wp-content/uploads/2009/04/txjessgor-256x300.jpg" alt="txjessgor" width="179" height="210" srcset="/wp-content/uploads/2009/04/txjessgor-256x300.jpg 256w, /wp-content/uploads/2009/04/txjessgor.jpg 427w" sizes="(max-width: 179px) 100vw, 179px" />It&#8217;s no secret that we here at Good Old Rock love tech. So it&#8217;s only natural that we keep a close eye on other tech bloggers. One of our favorites is our dear friend, **Jessica Fritsche**, who is one of the geekiest girls to roll in the tech blogosphere. In addition to her two blogs, <a href="https://jessicafritsche.com/" target="_blank"><strong>jessica fritsche (dot) com</strong></a> and <a href="https://dailytechdiva.com" target="_blank"><strong>Daily Tech Diva</strong></a>, Jess is an associate editor for <a href="https://sonewpublishing.com/" target="_blank"><strong>So New Publishing</strong></a>, and has a Top Secret vlogging project in development.
 
 **You definitely rate highly on geek quotient. What is your earliest technology-related memory?**
 
@@ -44,13 +44,13 @@ tags:
 **Who&#8217;s your favorite celebrity blogger?** 
 
 <p style="padding-left: 30px;">
-  <a href="http://wilwheaton.net/" target="_blank">Wil Wheaton</a>.
+  <a href="https://wilwheaton.net/" target="_blank">Wil Wheaton</a>.
 </p>
 
 **President Obama passes an RSS Conservation Act which restricts all feed readers to no more than five feeds. Which make the cut for you?** 
 
 <p style="padding-left: 30px;">
-  <a href="http://www.lifehacker.com" target="_blank">Lifehacker</a>, <a href="http://icanhascheezburger.com/" target="_blank">I Can Has Cheezburger</a>, <a href="http://www.slashfood.com/" target="_blank">Slashfood</a>, <a href="http://gizmodo.com/" target="_blank">Gizmodo</a>, and <a href="http://craftzine.com/" target="_blank">CRAFT Magazine</a>.
+  <a href="https://www.lifehacker.com" target="_blank">Lifehacker</a>, <a href="https://icanhascheezburger.com/" target="_blank">I Can Has Cheezburger</a>, <a href="https://www.slashfood.com/" target="_blank">Slashfood</a>, <a href="https://gizmodo.com/" target="_blank">Gizmodo</a>, and <a href="https://craftzine.com/" target="_blank">CRAFT Magazine</a>.
 </p>
 
 **Who&#8217;s nerdier &#8211; you or your husband?** 
@@ -74,7 +74,7 @@ tags:
 **What website is your guilty pleasure?** 
 
 <p style="padding-left: 30px;">
-  <a href="http://smartbitchestrashybooks.com" target="_blank">Smart Bitches, Trashy Books</a>.  Their romance novel reviews are hilarious, even though I don&#8217;t usually read what they are reviewing&#8230;my taste runs towards more mainstream fiction or sci-fi than steamy romance novels, though I have found and enjoyed some books on there that they have reviewed.  My favorite feature is when they make fun of the ridiculous romance novel covers.  Fabio is totally asking for it.
+  <a href="https://smartbitchestrashybooks.com" target="_blank">Smart Bitches, Trashy Books</a>.  Their romance novel reviews are hilarious, even though I don&#8217;t usually read what they are reviewing&#8230;my taste runs towards more mainstream fiction or sci-fi than steamy romance novels, though I have found and enjoyed some books on there that they have reviewed.  My favorite feature is when they make fun of the ridiculous romance novel covers.  Fabio is totally asking for it.
 </p>
 
 **What do you think is going to be the next major change in internet-related technology?** 
@@ -86,7 +86,7 @@ tags:
 **Please explain, briefly, the whole &#8220;Dawne-With-An-E&#8221; debacle. Follow-up question: How awesome is that?** 
 
 <p style="padding-left: 30px;">
-  Briefly? Hah, I will try!  In 2005, I blogged about my favorite childrens&#8217; TV shows growing up, one of which was Kids Incorporated (a cheesy show on the Disney Channel featuring children horribly mutilating the pop hits of the 80s and 90s).  I wrote about it fondly but with my usual snark, and that garnered me a comment from the BIGGEST KIDS INC. FAN EVAR.  She told me I should be shot for not getting the facts about the show straight.  I followed her (vulgar) return email address back to her site, where she had erected a page in my honor and called me all sorts of names.  This turned into an Internet battle the likes of which have never seen before, pitting this crazy chick against me and <a href="http://www.yehoodi.com/phpBB2/viewtopic.php?t=73699" target="_blank">an entire army of swing dancers plotting her demise on Yehoodi</a>.  How awesome is that?  Very, very awesome.  You cannot MAKE that kind of stuff up.
+  Briefly? Hah, I will try!  In 2005, I blogged about my favorite childrens&#8217; TV shows growing up, one of which was Kids Incorporated (a cheesy show on the Disney Channel featuring children horribly mutilating the pop hits of the 80s and 90s).  I wrote about it fondly but with my usual snark, and that garnered me a comment from the BIGGEST KIDS INC. FAN EVAR.  She told me I should be shot for not getting the facts about the show straight.  I followed her (vulgar) return email address back to her site, where she had erected a page in my honor and called me all sorts of names.  This turned into an Internet battle the likes of which have never seen before, pitting this crazy chick against me and <a href="https://www.yehoodi.com/phpBB2/viewtopic.php?t=73699" target="_blank">an entire army of swing dancers plotting her demise on Yehoodi</a>.  How awesome is that?  Very, very awesome.  You cannot MAKE that kind of stuff up.
 </p>
 
 <p style="padding-left: 30px;">
@@ -115,4 +115,4 @@ tags:
   <strong> </strong>Boff &#8211; Sergey Brin, Marry &#8211; Steve Jobs, Kill &#8211; Robert Scoble.
 </p>
 
-_Jessica Fritsche is a tech blogger and writer living in Dallas, Texas. You can check Jess out online at <a href="http://jessicafritsche.com/" target="_blank">jessica fritsche (dot) com</a>, Paper Graffiti, and <a href="http://dailytechdiva.com" target="_blank">Daily Tech Diva</a>_.
+_Jessica Fritsche is a tech blogger and writer living in Dallas, Texas. You can check Jess out online at <a href="https://jessicafritsche.com/" target="_blank">jessica fritsche (dot) com</a>, Paper Graffiti, and <a href="https://dailytechdiva.com" target="_blank">Daily Tech Diva</a>_.

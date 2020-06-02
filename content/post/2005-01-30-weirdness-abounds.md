@@ -18,4 +18,4 @@ First things first &#8211; she&#8217;s really cute. And secondly, in person, she
 
 I&#8217;m intrigued to see where this lands. When we left the bar tonight she made some comment about calling tomorrow to go for brunch or something. Yeah. Like any of us are getting up that early. But still. Man.
 
- [1]: http://mugsy1274.livejournal.com/320429.html
+ [1]: https://mugsy1274.livejournal.com/320429.html

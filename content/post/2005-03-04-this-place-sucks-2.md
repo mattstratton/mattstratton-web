@@ -14,4 +14,4 @@ categories:
 
 Hilarious mashup of _Office Space_ and the Superfriends.
 
- [1]: http://www.script-o-rama.com/blog/officespacedrew.jpg
+ [1]: https://www.script-o-rama.com/blog/officespacedrew.jpg

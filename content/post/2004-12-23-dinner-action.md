@@ -24,4 +24,4 @@ Melissa really liked the food. She commented on it several times. And she liked 
 
 I&#8217;m working from home today, which means I&#8217;m doing nothing. Oh, and Happy Festivus, you bastards.
 
- [1]: http://www.livejournal.com/users/mugsy1274/68754.html
+ [1]: https://www.livejournal.com/users/mugsy1274/68754.html

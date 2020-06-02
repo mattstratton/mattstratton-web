@@ -20,4 +20,4 @@ categories:
 
 &#8220;Telephones don&#8217;t carry anything above 3.5 kHz&#8230;but most people would describe a telephone as lacking bass notes, not high ones.&#8221;
 
-(via <a href="http://www.fuzzyco.com" target="_blank">FuzzyCo</a>)
+(via <a href="https://www.fuzzyco.com" target="_blank">FuzzyCo</a>)

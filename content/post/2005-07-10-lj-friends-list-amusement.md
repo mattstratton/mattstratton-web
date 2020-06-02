@@ -14,4 +14,4 @@ This kind of amused me:
 
 ![][1]
 
- [1]: http://photos23.flickr.com/25052465_3a7e667e73.jpg
+ [1]: https://photos23.flickr.com/25052465_3a7e667e73.jpg

@@ -14,7 +14,7 @@ categories:
 ---
 So I know you are down with .
 
-But there&#8217;s also a thread on <a href="http://www.windyhop.org" target="_blank">Windyhop</a> called <a href="http://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=002886" target="_blank">&#8220;The Geek World&#8221;</a>.
+But there&#8217;s also a thread on <a href="https://www.windyhop.org" target="_blank">Windyhop</a> called <a href="https://windyhop.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=10;t=002886" target="_blank">&#8220;The Geek World&#8221;</a>.
 
 I am posted some of the best conversations from that thread here. The ones that are the funniest as well as the ones that you don&#8217;t have to be a Windyhopper to &#8220;get&#8221;.
 

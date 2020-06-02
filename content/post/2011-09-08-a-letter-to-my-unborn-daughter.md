@@ -5,13 +5,13 @@ layout: post
 date: 2011-09-09T02:29:35+00:00
 url: /life-in-general/a-letter-to-my-unborn-daughter
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/carrie-baby.png
+  - https://cdn.mattstratton.com/wp-content/uploads/carrie-baby.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/carrie-babytn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/carrie-babytn.png
 description: September 9th is the due date of my unborn baby girl (who is currently nameless). My wife sent me a link to a list of 50 Rules for Dads of Daughters. Besides make me almost tear up at work, it got me to thinking. This is a letter to my little baby girl, on the day before she is supposed to be born.
 thesis_keywords:
   - baby daughter
@@ -21,7 +21,7 @@ categories:
   - Personal
 
 ---
-_Tomorrow (September 9th) is the due date of my unborn baby girl (who is currently nameless). Today my wife sent me a link to a list of <a href="http://www.fromdatestodiapers.com/50-rules-for-dads-of-daughters" target="_blank">50 Rules for Dads of Daughters</a>. Besides make me almost tear up at work, it got me to thinking. So here is a letter to my little baby girl, on the day before she is supposed to be born._
+_Tomorrow (September 9th) is the due date of my unborn baby girl (who is currently nameless). Today my wife sent me a link to a list of <a href="https://www.fromdatestodiapers.com/50-rules-for-dads-of-daughters" target="_blank">50 Rules for Dads of Daughters</a>. Besides make me almost tear up at work, it got me to thinking. So here is a letter to my little baby girl, on the day before she is supposed to be born._
 
 Dear Baby Girl Stratton,
 

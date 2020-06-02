@@ -16,5 +16,5 @@ From the [column][1] of [Mark Millar][2], comic book writer:
 
 &#8220;Thanks a lot, Morpheus, you big, fucking twat.&#8221;
 
- [1]: http://www.comicbookresources.com/columns/archive.cgi?column=thecolumn
- [2]: http://www.millarworld.biz/
+ [1]: https://www.comicbookresources.com/columns/archive.cgi?column=thecolumn
+ [2]: https://www.millarworld.biz/

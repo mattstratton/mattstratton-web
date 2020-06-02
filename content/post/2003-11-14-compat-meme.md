@@ -11,7 +11,7 @@ categories:
 
 ---
 <div align='center'>
-  <img src='http://sminds.com/sm.gif' /> <br /> <br /> 
+  <img src='https://sminds.com/sm.gif' /> <br /> <br /> 
   
   <table border='0' cellpadding='0' cellspacing='0'>
     <tr>
@@ -198,4 +198,4 @@ categories:
   </table>
   
   <p>
-    <a href='http://similarminds.com/search/index.php?r=5790'>How compatible are you with me?</a></div>
+    <a href='https://similarminds.com/search/index.php?r=5790'>How compatible are you with me?</a></div>

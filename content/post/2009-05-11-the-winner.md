@@ -22,4 +22,4 @@ And then, using Random.org, a random number between 1 and 17 was selected:
   <img class="aligncenter size-full wp-image-5211" title="contest-result1" src="/wp-content/uploads/2009/05/contest-result1.jpg" alt="contest-result1" width="515" height="248" srcset="/wp-content/uploads/2009/05/contest-result1.jpg 572w, /wp-content/uploads/2009/05/contest-result1-300x144.jpg 300w" sizes="(max-width: 515px) 100vw, 515px" />
 </p>
 
-So congratulations to **Ari**, of <a href="http://curiousillusion.wordpress.com/" target="_blank">Curious Illusion</a>, as the winner of the first-ever Good Old Rock contest! Your Amazon.com gift certificate will be emailed to you. Thanks to everyone who participated!
+So congratulations to **Ari**, of <a href="https://curiousillusion.wordpress.com/" target="_blank">Curious Illusion</a>, as the winner of the first-ever Good Old Rock contest! Your Amazon.com gift certificate will be emailed to you. Thanks to everyone who participated!

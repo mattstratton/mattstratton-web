@@ -12,7 +12,7 @@ categories:
   - Personal
 
 ---
-<img class="alignright size-medium wp-image-6190" title="Marty-McFly-Back-To-The-Future" src="/wp-content/uploads/Marty-McFly-Back-To-The-Future-176x300.gif" alt="" width="176" height="300" srcset="/wp-content/uploads/Marty-McFly-Back-To-The-Future-176x300.gif 176w, /wp-content/uploads/Marty-McFly-Back-To-The-Future.gif 186w" sizes="(max-width: 176px) 100vw, 176px" />A few years ago, my friend <a href="http://www.trappermarkelz.com/" target="_blank">Trapper</a> introduced me to a pretty cool service called <a href="http://futureme.org" target="_blank">FutureMe</a>. Basically, it allows you to schedule emails to be sent to yourself at a future date. Trapper used this service to send himself emails on his birthday every year, which I thought was a pretty cool idea&#8230;so I started doing it myself.
+<img class="alignright size-medium wp-image-6190" title="Marty-McFly-Back-To-The-Future" src="/wp-content/uploads/Marty-McFly-Back-To-The-Future-176x300.gif" alt="" width="176" height="300" srcset="/wp-content/uploads/Marty-McFly-Back-To-The-Future-176x300.gif 176w, /wp-content/uploads/Marty-McFly-Back-To-The-Future.gif 186w" sizes="(max-width: 176px) 100vw, 176px" />A few years ago, my friend <a href="https://www.trappermarkelz.com/" target="_blank">Trapper</a> introduced me to a pretty cool service called <a href="https://futureme.org" target="_blank">FutureMe</a>. Basically, it allows you to schedule emails to be sent to yourself at a future date. Trapper used this service to send himself emails on his birthday every year, which I thought was a pretty cool idea&#8230;so I started doing it myself.
 
 Yesterday, I received the letter I sent to myself one year ago on my 35th birthday. Here it is:
 

@@ -14,4 +14,4 @@ If you care, I created a feed to let you know when I upload new pictures to my [
 
 Just add to your friends list. Hot.
 
- [1]: http://www.flickr.com/photos/mugsy/
+ [1]: https://www.flickr.com/photos/mugsy/

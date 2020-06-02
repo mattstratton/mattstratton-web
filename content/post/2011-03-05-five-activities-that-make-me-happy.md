@@ -21,7 +21,7 @@ tags:
   - meyouhealth
 
 ---
-Today&#8217;s <a href="https://challenge.meyouhealth.com/signup" target="_blank">Daily Challenge</a> from <a href="http://meyouhealth.com" target="_blank">MeYouHealth</a> is to:
+Today&#8217;s <a href="https://challenge.meyouhealth.com/signup" target="_blank">Daily Challenge</a> from <a href="https://meyouhealth.com" target="_blank">MeYouHealth</a> is to:
 
 ## <a href="https://challenge.meyouhealth.com/2011/3/5/write-down-5-activities-that-make-you-happy" target="_blank">Write down 5 activities that make you happy.</a>
 

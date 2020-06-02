@@ -14,4 +14,4 @@ categories:
 
 The article was written by my mom&#8217;s cousin Irv, who is a professor at Northwestern. It&#8217;s an interesting read.
 
- [1]: http://www.chicagotribune.com/news/opinion/chi-oped0906boxsep06,0,5614356.story
+ [1]: https://www.chicagotribune.com/news/opinion/chi-oped0906boxsep06,0,5614356.story

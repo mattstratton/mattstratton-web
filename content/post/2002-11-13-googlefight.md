@@ -22,4 +22,4 @@ homestar runner (5,450 results) versus **strong bad** (3,140,000 results)
 
 **good** (99,700,000 results) versus awesome (4,350,000 results)
 
- [1]: http://www.googlefight.com
+ [1]: https://www.googlefight.com

@@ -14,4 +14,4 @@ This is especially for and . And probably everyone else.
 
 [**Napoleon Dynamite Soundboard**][1]
 
- [1]: http://www.albinoblacksheep.com/flash/ndsound.php
+ [1]: https://www.albinoblacksheep.com/flash/ndsound.php

@@ -12,4 +12,4 @@ categories:
 ---
 ![][1]
 
- [1]: http://members.optusnet.com.au/~darrenk/mypic96.jpg
+ [1]: https://members.optusnet.com.au/~darrenk/mypic96.jpg

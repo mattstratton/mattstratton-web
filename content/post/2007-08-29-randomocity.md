@@ -23,17 +23,17 @@ I am trying not to get my hopes up TOO high for the Cubs &#8211; there&#8217;s s
 September is shaping up to be a bit of a busy month; we&#8217;re taking Carrie&#8217;s mom to Ravinia for a folk music thing one weekend, and then there&#8217;s the &#8220;group&#8221; campout at the end of the month (if I get around to booking the site, and if Lippy gets around to telling me if he and Julia are going to join us). October is also filling up &#8211; one weekend is the &#8220;guy campout&#8221; with my friends Jason, Dan, Dan, and Clint &#8211; it&#8217;s a tradition going back to 1993, and I&#8217;ve only missed it about three times (actually, I think I only missed ONE of the campouts, but there were two years, I think, that it didn&#8217;t happen at all). And then we&#8217;re going to NYC to see 
 
 <div class="ljuser">
-  <a href="http://swingfeline.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://swingfeline.livejournal.com/"><b>swingfeline</b></a>
+  <a href="https://swingfeline.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://swingfeline.livejournal.com/"><b>swingfeline</b></a>
 </div>
 
 &nbsp;and 
 
 <div class="ljuser">
-  <a href="http://tigerworm.livejournal.com/profile"><img width="17" height="17" src="http://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="http://tigerworm.livejournal.com/"><b>tigerworm</b></a>
+  <a href="https://tigerworm.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://tigerworm.livejournal.com/"><b>tigerworm</b></a>
 </div>
 
 &nbsp;revel in their nuptial bliss.
 
- [1]: http://lakesideknitter.blogspot.com/
- [2]: http://www.action-squad.com/
- [3]: http://lakesideknitter.blogspot.com/2007/08/more-puppy-pics.html
+ [1]: https://lakesideknitter.blogspot.com/
+ [2]: https://www.action-squad.com/
+ [3]: https://lakesideknitter.blogspot.com/2007/08/more-puppy-pics.html

@@ -8,20 +8,20 @@ description:
   - |
     I'm pretty much in love with the service known as ifttt - "if this, then that". It's kind of like a scripting language for the Internet.
 thesis_post_image:
-  - http://cdn.mattstratton.com/wp-content/uploads/ifttt.png
+  - https://cdn.mattstratton.com/wp-content/uploads/ifttt.png
 thesis_post_image_horizontal:
   - center
 thesis_post_image_vertical:
   - before-post
 thesis_thumb:
-  - http://cdn.mattstratton.com/wp-content/uploads/ifttt-tn.png
+  - https://cdn.mattstratton.com/wp-content/uploads/ifttt-tn.png
 dsq_thread_id:
   - 448961934
 categories:
   - Tech
 
 ---
-I&#8217;m pretty much in love with the service known as <a href="http://ifttt.com" target="_blank">ifttt</a> &#8211; &#8220;if this, then that&#8221;. It&#8217;s kind of like a scripting language for the Internet.
+I&#8217;m pretty much in love with the service known as <a href="https://ifttt.com" target="_blank">ifttt</a> &#8211; &#8220;if this, then that&#8221;. It&#8217;s kind of like a scripting language for the Internet.
 
 For example, if all goes according to plan, just by virtue of creating a new post in WordPress, the link will be auto-shared to my Facebook fan page.
 

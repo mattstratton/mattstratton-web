@@ -10,7 +10,7 @@ categories:
   - Personal
 
 ---
-There&#8217;s a pretty large vulnerablity in almost all versions of Windows that is <a href="http://isc.sans.org/diary.html?date=2003-08-11" target="_blank">being exploited</a> currently.
+There&#8217;s a pretty large vulnerablity in almost all versions of Windows that is <a href="https://isc.sans.org/diary.html?date=2003-08-11" target="_blank">being exploited</a> currently.
 
 One of the symptoms will be a dialog box reading:
 
@@ -54,8 +54,8 @@ Another great tool is the Microsoft Baseline Security Analyzer. This tool will s
 
 m.
 
- [1]: http://windowsupdate.microsoft.com
- [2]: http://www.linksys.com/Products/product.asp?grid=34&scid=29&prid=20
- [3]: http://download.com.com/3000-2092-10217783.html?tag=lst-0-1
- [4]: http://www.microsoft.com/WindowsXP/home/using/howto/homenet/icf.asp
+ [1]: https://windowsupdate.microsoft.com
+ [2]: https://www.linksys.com/Products/product.asp?grid=34&scid=29&prid=20
+ [3]: https://download.com.com/3000-2092-10217783.html?tag=lst-0-1
+ [4]: https://www.microsoft.com/WindowsXP/home/using/howto/homenet/icf.asp
  [5]: https://grc.com/x/ne.dll?bh0bkyd2

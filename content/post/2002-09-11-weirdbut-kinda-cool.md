@@ -18,6 +18,6 @@ Heheh.
 
 m.
 
- [1]: http://www.fuzzyco.com
- [2]: http://www.dancingwithgaia.com
- [3]: http://fuzzyco.com/personal/movie.html
+ [1]: https://www.fuzzyco.com
+ [2]: https://www.dancingwithgaia.com
+ [3]: https://fuzzyco.com/personal/movie.html

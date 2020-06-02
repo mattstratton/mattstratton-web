@@ -21,7 +21,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#paranoid">Paranoid</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#paranoid">Paranoid</a>:</font>
     </td>
     
     <td>
@@ -31,7 +31,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#schizoid">Schizoid</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#schizoid">Schizoid</a>:</font>
     </td>
     
     <td>
@@ -41,7 +41,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#schizotypal">Schizotypal</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#schizotypal">Schizotypal</a>:</font>
     </td>
     
     <td>
@@ -51,7 +51,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#antisocial">Antisocial</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#antisocial">Antisocial</a>:</font>
     </td>
     
     <td>
@@ -61,7 +61,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#borderline">Borderline</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#borderline">Borderline</a>:</font>
     </td>
     
     <td>
@@ -71,7 +71,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#histrionic">Histrionic</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#histrionic">Histrionic</a>:</font>
     </td>
     
     <td>
@@ -81,7 +81,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#narcissistic">Narcissistic</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#narcissistic">Narcissistic</a>:</font>
     </td>
     
     <td>
@@ -91,7 +91,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#avoidant">Avoidant</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#avoidant">Avoidant</a>:</font>
     </td>
     
     <td>
@@ -101,7 +101,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#dependent">Dependent</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#dependent">Dependent</a>:</font>
     </td>
     
     <td>
@@ -111,7 +111,7 @@ categories:
   
   <tr>
     <td>
-      <font face="arial" size="-1"><a href="http://www.4degreez.com/misc/disorder_information2.html#obsessive">Obsessive-Compulsive</a>:</font>
+      <font face="arial" size="-1"><a href="https://www.4degreez.com/misc/disorder_information2.html#obsessive">Obsessive-Compulsive</a>:</font>
     </td>
     
     <td>
@@ -121,7 +121,7 @@ categories:
   
   <tr>
     <td colspan="2" align="center">
-      <font color="#000000" face="arial" size="-1"><br />&#8212; <a href="http://www.4degreez.com/misc/personality_disorder_test.mv">Click Here To Take The Test</a> &#8212;</font>
+      <font color="#000000" face="arial" size="-1"><br />&#8212; <a href="https://www.4degreez.com/misc/personality_disorder_test.mv">Click Here To Take The Test</a> &#8212;</font>
     </td>
   </tr>
 </table>

@@ -16,5 +16,5 @@ Fun stuff! I highly recommend checking it out.
 
 m.
 
- [1]: http://forums.fark.com/cgi/fark/comments.pl?IDLink=316851
- [2]: http://www.wilwheaton.net
+ [1]: https://forums.fark.com/cgi/fark/comments.pl?IDLink=316851
+ [2]: https://www.wilwheaton.net

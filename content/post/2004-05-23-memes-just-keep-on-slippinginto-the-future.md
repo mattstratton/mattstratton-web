@@ -26,7 +26,7 @@ categories:
           <font>MUGSY1274 CONTAINS<br />EXPLICIT LYRICS</td> </tr> </table> 
           
           <p>
-            Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+            Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
           </p>
           
           <table border="1" cellspacing="0" width="250px">
@@ -44,7 +44,7 @@ categories:
           </table>
           
           <p>
-            Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+            Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
           </p>
           
           <table border="1" cellspacing="0" width="250px">
@@ -62,7 +62,7 @@ categories:
           </table>
           
           <p>
-            Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+            Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
           </p>
           
           <table border="1" cellspacing="0">
@@ -81,7 +81,7 @@ categories:
                     <font>SWINGFELINE CONTAINS<br />EXPLICIT LYRICS</td> </tr> </table> 
                     
                     <p>
-                      Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+                      Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
                     </p>
                     
                     <table border="5" cellspacing="0" cellpadding="12" width="300px">
@@ -96,7 +96,7 @@ categories:
                           <font>IN THE INTEREST OF SAFETY IT IS ADVISABLE TO KEEP SWINGDOC AWAY FROM FIRE AND FLAMES.</td> </tr> </table> 
                           
                           <p>
-                            Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+                            Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
                           </p>
                           
                           <table border="5" cellspacing="0" cellpadding="12" width="300px">
@@ -111,5 +111,5 @@ categories:
                                 <font>nandoasti is a radioactive squirrel!!</td> </tr> </table> 
                                 
                                 <p>
-                                  Username:<br /> From <a href="http://www.go-quiz.com">Go-Quiz.com</a>
+                                  Username:<br /> From <a href="https://www.go-quiz.com">Go-Quiz.com</a>
                                 </p>

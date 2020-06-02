@@ -15,4 +15,4 @@ categories:
 ---
 For your viewing pleasure&#8230;the end-of-the-year video my company, [Apartments.com][1], created for our annual meeting. Watch carefully and you might spot me at the end.
 
- [1]: http://Apartments.com
+ [1]: https://Apartments.com

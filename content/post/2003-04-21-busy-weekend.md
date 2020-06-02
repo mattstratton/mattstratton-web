@@ -37,6 +37,6 @@ Last night Dallas and I did some more writing, and he sent out the emails to the
 
 m.
 
- [1]: http://www.dancingwithgaia.com
- [2]: http://dailykitty.blogspot.com/
- [3]: http://www.cornservatory.org
+ [1]: https://www.dancingwithgaia.com
+ [2]: https://dailykitty.blogspot.com/
+ [3]: https://www.cornservatory.org

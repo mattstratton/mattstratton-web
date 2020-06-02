@@ -40,5 +40,5 @@ Of course, if you a) don&#8217;t open attachements from email EVER or b) run upd
 
 [![][1]][2] Oleander &#8211; Boys Don&#8217;t Cry</span>
 
- [1]: http://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
- [2]: http://www.itunes.com
+ [1]: https://ax.phobos.apple.com.edgesuite.net/images/iTunes.gif
+ [2]: https://www.itunes.com

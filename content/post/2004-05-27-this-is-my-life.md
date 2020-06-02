@@ -14,4 +14,4 @@ Thanks,
 
 ![][1]
 
- [1]: http://www.somethingpositive.net/arch/sp10092003.gif
+ [1]: https://www.somethingpositive.net/arch/sp10092003.gif

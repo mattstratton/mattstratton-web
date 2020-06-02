@@ -162,5 +162,5 @@ categories:
                       </table>
                       
                       <p>
-                        <a href="http://www.thatsurveysite.net/take.php?id=eay">TAKE THE TEST</a><br /> <font size="1">brought to you by <a href="http://www.thatsurveysite.net">thatsurveysite</a></font>
+                        <a href="https://www.thatsurveysite.net/take.php?id=eay">TAKE THE TEST</a><br /> <font size="1">brought to you by <a href="https://www.thatsurveysite.net">thatsurveysite</a></font>
                       </p></div>

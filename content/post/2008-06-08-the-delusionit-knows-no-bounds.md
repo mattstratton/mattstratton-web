@@ -16,6 +16,6 @@ It would take too long to type the backstory of Dawn-with-an-E on my BlackBerry,
 
 That being said&#8230;the mother of all Dawne posts occured today.
 
-Behold &#8211; http://kidsincforever.com/Community/node/91
+Behold &#8211; https://kidsincforever.com/Community/node/91
 
 This post makes me happy in ways that should be illegal if twenty-two states. And Puerto Rico.

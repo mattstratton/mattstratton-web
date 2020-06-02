@@ -13,7 +13,7 @@ categories:
 <table border="0" style="border:1px black solid;">
   <tr>
     <th>
-      <a href="http://www.corknut.org/toys/12days/">My LiveJournal 12 Days</a>
+      <a href="https://www.corknut.org/toys/12days/">My LiveJournal 12 Days</a>
     </th>
   </tr>
   
@@ -25,43 +25,43 @@ categories:
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>12</b> <a href="http://www.livejournal.com/users/belcanto88">belcanto88</a>s a-twirling.
+      <b>12</b> <a href="https://www.livejournal.com/users/belcanto88">belcanto88</a>s a-twirling.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>11</b> <a href="http://www.livejournal.com/users/divajess">divajess</a>s a-piping.
+      <b>11</b> <a href="https://www.livejournal.com/users/divajess">divajess</a>s a-piping.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>10</b> <a href="http://www.livejournal.com/users/enoelie">enoelie</a>s a-yodeling.
+      <b>10</b> <a href="https://www.livejournal.com/users/enoelie">enoelie</a>s a-yodeling.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>9</b> <a href="http://www.livejournal.com/users/heavymetalsushi">heavymetalsushi</a>s a-clucking.
+      <b>9</b> <a href="https://www.livejournal.com/users/heavymetalsushi">heavymetalsushi</a>s a-clucking.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>8</b> <a href="http://www.livejournal.com/users/joylewis">joylewis</a>s a-giggling.
+      <b>8</b> <a href="https://www.livejournal.com/users/joylewis">joylewis</a>s a-giggling.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>7</b> <a href="http://www.livejournal.com/users/kathy_skadoo">kathy_skadoo</a>s a-yelling.
+      <b>7</b> <a href="https://www.livejournal.com/users/kathy_skadoo">kathy_skadoo</a>s a-yelling.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>6</b> <a href="http://www.livejournal.com/users/lagoedde23">lagoedde23</a>s a-spamming.
+      <b>6</b> <a href="https://www.livejournal.com/users/lagoedde23">lagoedde23</a>s a-spamming.
     </td>
   </tr>
   
@@ -73,25 +73,25 @@ categories:
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>4</b> milking <a href="http://www.livejournal.com/users/nandoasti">nandoasti</a>s.
+      <b>4</b> milking <a href="https://www.livejournal.com/users/nandoasti">nandoasti</a>s.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>3</b> Indonesian <a href="http://www.livejournal.com/users/shanabanana">shanabanana</a>s.
+      <b>3</b> Indonesian <a href="https://www.livejournal.com/users/shanabanana">shanabanana</a>s.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      <b>2</b> pig <a href="http://www.livejournal.com/users/starrynytes4me">starrynytes4me</a>s.
+      <b>2</b> pig <a href="https://www.livejournal.com/users/starrynytes4me">starrynytes4me</a>s.
     </td>
   </tr>
   
   <tr>
     <td style="border-bottom:1px green solid;">
-      And a <a href="http://www.livejournal.com/users/swingdoc">swingdoc</a> in a papaya tree.
+      And a <a href="https://www.livejournal.com/users/swingdoc">swingdoc</a> in a papaya tree.
     </td>
   </tr></td> </tr> 
   
@@ -103,7 +103,7 @@ categories:
   
   <tr>
     <td style="font-size:xx-small;text-align:center;">
-      Another fun meme brought to you by <a href="http://www.livejournal.com/users/rfreebern/"><b>rfreebern</b></a>.
+      Another fun meme brought to you by <a href="https://www.livejournal.com/users/rfreebern/"><b>rfreebern</b></a>.
     </td>
   </tr>
 </table>

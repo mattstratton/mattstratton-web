@@ -16,4 +16,4 @@ It was a nice day. My mom made lasagna, and Darlyn brought a yummy cobbler. I go
 
 Afterwards, we met Brian and Tracy to see Lemony Snicket. A bunch of other folks were a-pposed to meet up with us (which is why we changed the time to go in the evening instead of earlier in the day), but they all cancelled I guess. Either way, it was a fun xmasukah.
 
- [1]: http://darlyn.net
+ [1]: https://darlyn.net

@@ -10,4 +10,4 @@ categories:
   - Personal
 
 ---
-<a href="http://dailykitty.blogspot.com" title="Kitty" target="_blank">Kitty</a> just sent me some pictures from the party on Saturday night.
+<a href="https://dailykitty.blogspot.com" title="Kitty" target="_blank">Kitty</a> just sent me some pictures from the party on Saturday night.

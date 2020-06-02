@@ -18,4 +18,4 @@ Anyway, her name is Kelly&#8230;and she looks \*exactly\* like [**Kelly Belmont*
 
 That was kind of weird. Not bad, because she&#8217;s very cute, but it&#8217;s kind of hard to be on a date with a girl who completely reminds you of your lesbian friend.
 
- [1]: http://www.imdb.com/name/nm1578008/
+ [1]: https://www.imdb.com/name/nm1578008/

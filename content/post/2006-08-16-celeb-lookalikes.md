@@ -14,4 +14,4 @@ Courtesy of :
 
 I&#8217;ve played with this before, but the collage thing is new&#8230;
 
-<a href='http://www.myheritage.com/FP/Company/celebrity-collage.php' title='Click here to create your own Celebrity Collage' target='_blank'></a>
+<a href='https://www.myheritage.com/FP/Company/celebrity-collage.php' title='Click here to create your own Celebrity Collage' target='_blank'></a>

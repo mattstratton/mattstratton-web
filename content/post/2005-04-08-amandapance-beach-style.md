@@ -13,5 +13,5 @@ tags:
 
 ---
 <div class="flickrEmailPost">
-  <a title="A Picture Share!" href="http://www.flickr.com/photos/mugsy/8807834/"><img class="flickrEmailImage" src="http://photos8.flickr.com/8807834_ee8907809c_m.jpg" alt="A Picture Share!" /></a>
+  <a title="A Picture Share!" href="https://www.flickr.com/photos/mugsy/8807834/"><img class="flickrEmailImage" src="https://photos8.flickr.com/8807834_ee8907809c_m.jpg" alt="A Picture Share!" /></a>
 </div>

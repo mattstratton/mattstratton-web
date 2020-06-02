@@ -16,7 +16,7 @@ tags:
   - Vegas
 
 ---
-I&#8217;m currently in Las Vegas for a combination of conferences &#8211; starting with <a href="http://www.blogworldexpo.com" target="_blank">BlogWorld Expo</a> this weekend and then the <a href="http://mssharepointconference.com" target="_blank">Microsoft SharePoint Conference</a> starting on Monday.
+I&#8217;m currently in Las Vegas for a combination of conferences &#8211; starting with <a href="https://www.blogworldexpo.com" target="_blank">BlogWorld Expo</a> this weekend and then the <a href="https://mssharepointconference.com" target="_blank">Microsoft SharePoint Conference</a> starting on Monday.
 
 Initially, I was only going to come for the SharePoint Conference &#8211; I booked this last spring, and Carrie and I both thought it would be a cool idea to extend the sweet conference rate on the hotel room for the weekend prior, and have a fun little weekend getaway.
 
@@ -29,7 +29,7 @@ I arrived yesterday around noon, and checked into my room at THEHotel. Here&#821
 <p align="center">
 </p>
 
-Before meeting up with my pal <a href="http://twitter.com/freeandflawed" target="_blank">Jenn</a> (of <a href="http://freeandflawed.com" target="_blank">Free and Flawed</a>), I played a little blackjack at Mandalay Bay and won a quick fifty bucks. After meeting up with Jenn at her hotel, we hit the convention center and picked up our registrations for the expo. We walked the floor for a bit, picked up some swag, and I talked data center nerdology with a cat from ServerBeach. Oh, and the folks at BlogCatalog gave me a really nice t-shirt.
+Before meeting up with my pal <a href="https://twitter.com/freeandflawed" target="_blank">Jenn</a> (of <a href="https://freeandflawed.com" target="_blank">Free and Flawed</a>), I played a little blackjack at Mandalay Bay and won a quick fifty bucks. After meeting up with Jenn at her hotel, we hit the convention center and picked up our registrations for the expo. We walked the floor for a bit, picked up some swag, and I talked data center nerdology with a cat from ServerBeach. Oh, and the folks at BlogCatalog gave me a really nice t-shirt.
 
 Jenn has NEVER been to Vegas before, so since we had a little time to kill before the parties that night, we took the monorail (which I&#8217;ve never been on before, despite my many, many, MANY visits to this town) to the Strip and I gave her the Matt Stratton tour (which consists mostly of &#8220;there&#8217;s the hotel where my friend Tom dressed like Elvis and we met three Danish au pairs&#8221; and &#8220;there&#8217;s the hotel we stayed at when my friend Tom convinced us that we could walk down the Strip at 3 AM in January without any coats&#8221;. Are you sensing a trend here?) We had a quick bite to eat at the Planet Hollywood tiki bar restaurant (half price apps during happy hour):
 
@@ -53,8 +53,8 @@ Needless to say, for the rest of the week I plan on taking cabs to and from my h
 
 After a quick video chat with my wife (and Scout!) I headed down to JET at the Mirage for the Opening Night party for BlogWorld. It might come as a surprise to you, but I&#8217;m not the most extroverted person in the world. I do VERY poorly at networking events like this when I don&#8217;t know anyone. But I had made it my mission to make sure I talked to someone BESIDES Jenn all night.
 
-Eventually, I actually DID succeed at this. I met a bunch of cool new folks, including <a href="http://twitter.com/dan360man" target="_blank">@dan360man</a> and <a href="http://twitter.com/Krynsky" target="_blank">@Krynsky</a>, and the night finished up at a small bar in the Wynn, where we had quite the geeky conversation about topics including Agile, how IT can become a &#8220;partner&#8221; for the business, SharePoint vs Drupal, and whether or not those hot girls walking around the lobby were, indeed, prostitutes.
+Eventually, I actually DID succeed at this. I met a bunch of cool new folks, including <a href="https://twitter.com/dan360man" target="_blank">@dan360man</a> and <a href="https://twitter.com/Krynsky" target="_blank">@Krynsky</a>, and the night finished up at a small bar in the Wynn, where we had quite the geeky conversation about topics including Agile, how IT can become a &#8220;partner&#8221; for the business, SharePoint vs Drupal, and whether or not those hot girls walking around the lobby were, indeed, prostitutes.
 
 Today I&#8217;m planning to play a little cards this morning, and then spend the afternoon at the remarkable pools here at Mandalay Bay. I&#8217;m also keeping my eyes peeled for celebrity sightings, as tonight at my hotel, Justin Timberlake is having some kind of big charity event, so I&#8217;m hoping to see someone famous.
 
-Besides <a href="http://www.sharepointjoel.com" target="_blank">Joel Oleson</a>.
+Besides <a href="https://www.sharepointjoel.com" target="_blank">Joel Oleson</a>.

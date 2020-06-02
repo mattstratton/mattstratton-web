@@ -6,7 +6,7 @@ date: 2007-09-07T15:51:00+00:00
 url: /hilarity/awesomely-hilarious-office-song
 enclosure:
   - |
-    http://www.sweetdiss.com/dunder.mp3
+    https://www.sweetdiss.com/dunder.mp3
     5240960
     audio/mpeg
 dsq_thread_id:
@@ -30,5 +30,5 @@ tags:
 > You&#8217;ll say &#8220;Hello, Dunder Mifflin, this is Pam.&#8221;</p>
 It&#8217;s a hilarious song, but it&#8217;s also super catchy. [These guys][2] rule.
 
- [1]: http://www.sweetdiss.com/dunder.mp3
- [2]: http://www.sweetdiss.com/
+ [1]: https://www.sweetdiss.com/dunder.mp3
+ [2]: https://www.sweetdiss.com/

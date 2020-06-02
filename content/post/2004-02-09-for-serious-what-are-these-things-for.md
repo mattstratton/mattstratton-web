@@ -10,6 +10,6 @@ categories:
   - Personal
 
 ---
-<a href="http://www.livejournal.com/community/computergeeks/239800.html" target="_new">This post</a> got me to thinking&#8230;are online petitions actually effective? Why do people think they work?
+<a href="https://www.livejournal.com/community/computergeeks/239800.html" target="_new">This post</a> got me to thinking&#8230;are online petitions actually effective? Why do people think they work?
 
 Please post your experiences with these things. If nothing else, it should be amusing. At best, it will be educational.

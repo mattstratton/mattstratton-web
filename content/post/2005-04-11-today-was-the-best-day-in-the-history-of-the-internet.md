@@ -28,4 +28,4 @@ As you can plainly see, we&#8217;ve progressed from &#8220;lawsuit threats&#8221
 
 My dad actually called me last night to say &#8220;some crazy guy phoned the house here. He called me a &#8216;candy ass&#8217; and then hung up.&#8221; I replied to him, &#8220;oh yeah, that&#8217;s this guy representing the Ultimate Warrior. He pretty much has an airtight legal case against us, which is why he&#8217;s spending his Sunday night calling you, my father.&#8221; My dad doesn&#8217;t understand the Internet as well as I do.</i>
 
- [1]: http://www.somethingawful.com/articles.php?a=2790
+ [1]: https://www.somethingawful.com/articles.php?a=2790

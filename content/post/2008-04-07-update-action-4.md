@@ -23,4 +23,4 @@ FINALLY, <span style="font-style:italic;">Battlestar Galactica</span> is back on
 
 Other than that, not a lot to report. So happy that the weather is finally turning around; going to be time to start biking again I think.
 
- [1]: http://www.realtor.com/realestate/winfield-il-60190-1096228208/
+ [1]: https://www.realtor.com/realestate/winfield-il-60190-1096228208/

@@ -12,8 +12,8 @@ categories:
 ---
 ![][1]
 
-The DVD of _Inventing: Films_, the collection that includes both _Inventing: Music_ and _Inventing: Stephen_ has been finished and is available for purchase at http://www.inventingfilms.com/purchase.
+The DVD of _Inventing: Films_, the collection that includes both _Inventing: Music_ and _Inventing: Stephen_ has been finished and is available for purchase at https://www.inventingfilms.com/purchase.
 
 Thanks to for the excellent cover design. And thanks to for being an awesome extra.
 
- [1]: http://www.customflix.com/Img/T20/T55/T13/CroppedSmallFullCoverDVDImage.jpg
+ [1]: https://www.customflix.com/Img/T20/T55/T13/CroppedSmallFullCoverDVDImage.jpg

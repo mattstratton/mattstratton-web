@@ -17,7 +17,7 @@ tags:
 
 ---
 <div style="width: 276px" class="wp-caption alignright">
-  <a title="Carrie - 29 weeks by Matt Stratton, on Flickr" href="http://www.flickr.com/photos/mugsy/4110299067/"><img class=" " src="http://farm3.static.flickr.com/2670/4110299067_4e1dd017a8.jpg" alt="Carrie - 29 weeks" width="266" height="400" /></a>
+  <a title="Carrie - 29 weeks by Matt Stratton, on Flickr" href="https://www.flickr.com/photos/mugsy/4110299067/"><img class=" " src="https://farm3.static.flickr.com/2670/4110299067_4e1dd017a8.jpg" alt="Carrie - 29 weeks" width="266" height="400" /></a>
   
   <p class="wp-caption-text">
     Carrie at 29 weeks. Which was last week, for the record.
@@ -37,7 +37,7 @@ So we&#8217;re now thinking that the boys will be making an appearance sometime 
 (This is the kind of blog post you get when I don&#8217;t have anything actually concrete to write about. Stream of consciousness is a weird hat for me to wear)
 
 <div style="width: 276px" class="wp-caption alignleft">
-  <a title="Carrie - 27 weeks by Matt Stratton, on Flickr" href="http://www.flickr.com/photos/mugsy/4110294495/"><img src="http://farm3.static.flickr.com/2621/4110294495_9c1b748743.jpg" alt="Carrie - 27 weeks" width="266" height="400" /></a>
+  <a title="Carrie - 27 weeks by Matt Stratton, on Flickr" href="https://www.flickr.com/photos/mugsy/4110294495/"><img src="https://farm3.static.flickr.com/2621/4110294495_9c1b748743.jpg" alt="Carrie - 27 weeks" width="266" height="400" /></a>
   
   <p class="wp-caption-text">
     Carrie at 27 weeks. Notice the awesome sign.

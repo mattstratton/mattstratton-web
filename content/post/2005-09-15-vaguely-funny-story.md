@@ -22,4 +22,4 @@ Just funny is all.
 
 ![][1]
 
- [1]: http://static.flickr.com/25/43542261_d055210051_o.jpg
+ [1]: https://static.flickr.com/25/43542261_d055210051_o.jpg

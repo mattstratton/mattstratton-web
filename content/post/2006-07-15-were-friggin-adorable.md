@@ -9,7 +9,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/189697450/" title="photo sharing"><img src="http://static.flickr.com/53/189697450_b4eb83a734_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/189697450/">Matt and Carrie</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/189697450/" title="photo sharing"><img src="https://static.flickr.com/53/189697450_b4eb83a734_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/189697450/">Matt and Carrie</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 Finally back home from an awesome week up in Northern Michigan. I&#8217;ll post a major recap later, but for now, enjoy the 200 or so new pictures I have up on my [Flickr][1] (that was cut down from over 500, by the way).
@@ -22,8 +22,8 @@ Finally back home from an awesome week up in Northern Michigan. I&#8217;ll post 
 
 [Butterfilies][5]
 
- [1]: http://flickr.com/photos/mugsy/
- [2]: http://flickr.com/photos/mugsy/tags/sunset/
- [3]: http://flickr.com/photos/mugsy/sets/72157594199755247/
- [4]: http://flickr.com/photos/mugsy/tags/footloose/
- [5]: http://flickr.com/photos/mugsy/tags/butterflies/
+ [1]: https://flickr.com/photos/mugsy/
+ [2]: https://flickr.com/photos/mugsy/tags/sunset/
+ [3]: https://flickr.com/photos/mugsy/sets/72157594199755247/
+ [4]: https://flickr.com/photos/mugsy/tags/footloose/
+ [5]: https://flickr.com/photos/mugsy/tags/butterflies/

@@ -30,4 +30,4 @@ Had Mexican food after Dance Chicago, and then watched a heavily edited TBS vers
 
 m.
 
- [1]: http://www.dancingwithgaia.com
+ [1]: https://www.dancingwithgaia.com

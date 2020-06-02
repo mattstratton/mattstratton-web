@@ -8,4 +8,4 @@ categories:
   - Personal
 
 ---
-http://zoomazooma.com/timClips/TH_reeltruth1.html
+https://zoomazooma.com/timClips/TH_reeltruth1.html

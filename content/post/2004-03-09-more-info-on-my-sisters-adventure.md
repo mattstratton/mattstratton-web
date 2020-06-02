@@ -22,4 +22,4 @@ So I posted [yesterday][1] about my sister&#8217;s desire to go do some stuff fo
   Just click the Donate button at the bottom to send it via Paypal. Or just paypal the money to <i><a href="javascript:DeCryptX('2o0a3w1u2B2i1s0a2x1z1u2t0a3l2p0f2k1m1n2u0.1d3r1n')">matt [at] gravytrainfilms [dot] com</a></i>.
 </p>
 
- [1]: http://mugsy1274.livejournal.com/212547.html
+ [1]: https://mugsy1274.livejournal.com/212547.html

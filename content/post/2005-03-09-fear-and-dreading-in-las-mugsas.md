@@ -33,5 +33,5 @@ Here is what I am dreading:
 
 So as you can see, there are many more exciteds than dreads. Saturday is just going to be a pain, but hopefully it will all be worth it!
 
- [1]: http://swingfeline.livejournal.com/
- [2]: http://kathy-skadoo.livejournal.com/
+ [1]: https://swingfeline.livejournal.com/
+ [2]: https://kathy-skadoo.livejournal.com/

@@ -196,4 +196,4 @@ Some new pants at Old Navy over Christmastime.
   
 &#8220;Save money, dumbass.&#8221;
 
- [1]: http://www.yehoodi.com
+ [1]: https://www.yehoodi.com

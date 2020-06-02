@@ -22,8 +22,8 @@ tags:
   
 ![][5]
 
- [1]: http://www.everypicture.com/shop/books/857a8bc6b1859daee5315d63db9aa982/eat.jpg
- [2]: http://www.bbc.co.uk/health/images/300/man_sleeping.jpg
- [3]: http://www.ivritype.com/eeuro96/belgrade/bg.ari.at.work.jpeg
- [4]: http://stuff.ratjed.com/consume.jpg
- [5]: http://www.writerdirector.com/_images/die-dot-com-poster.jpg
+ [1]: https://www.everypicture.com/shop/books/857a8bc6b1859daee5315d63db9aa982/eat.jpg
+ [2]: https://www.bbc.co.uk/health/images/300/man_sleeping.jpg
+ [3]: https://www.ivritype.com/eeuro96/belgrade/bg.ari.at.work.jpeg
+ [4]: https://stuff.ratjed.com/consume.jpg
+ [5]: https://www.writerdirector.com/_images/die-dot-com-poster.jpg

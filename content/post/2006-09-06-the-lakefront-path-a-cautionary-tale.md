@@ -18,5 +18,5 @@ The story itself almost belongs in &#8220;The Week In Stupid&#8221;, but the com
 
 [read more][1] | [digg story][2]
 
- [1]: http://www.chicagoist.com/archives/2006/09/06/the_lakefront_path_a_cautionary_tale.php
- [2]: http://digg.com/other_sports/The_Lakefront_Path_A_Cautionary_Tale
+ [1]: https://www.chicagoist.com/archives/2006/09/06/the_lakefront_path_a_cautionary_tale.php
+ [2]: https://digg.com/other_sports/The_Lakefront_Path_A_Cautionary_Tale

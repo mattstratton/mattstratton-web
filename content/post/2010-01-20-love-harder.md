@@ -22,11 +22,11 @@ _
 
 ## Our Plea
 
-Our friend [brandy][1] is a brilliant writer, a wonderful teacher, and a generous friend.  And she is in love with a man who has just been diagnosed with <a class="zem_slink" title="Multiple myeloma" rel="wikipedia" href="http://en.wikipedia.org/wiki/Multiple_myeloma">multiple myeloma</a>.
+Our friend [brandy][1] is a brilliant writer, a wonderful teacher, and a generous friend.  And she is in love with a man who has just been diagnosed with <a class="zem_slink" title="Multiple myeloma" rel="wikipedia" href="https://en.wikipedia.org/wiki/Multiple_myeloma">multiple myeloma</a>.
 
 We are raising money for the Multiple Myeloma Research Fund in his name.  For the price of a cinnamon dolce latte, half-caf, hold the whip, you can be part of an effort to cure a disease that affects approximately 750,000 people worldwide.
 
-[http://www.loveharder.org][2]
+[https://www.loveharder.org][2]
 
 Every dollar brings us a dollar closer to a cure.  And every donation brings a sliver of hope to a girl who needs all the hope she can get.
 
@@ -40,7 +40,7 @@ Every dollar brings us a dollar closer to a cure.  And every donation brings a 
 
 ## Where Your Money Goes
 
-  * The American Institute of Philanthropy recently named The <a class="zem_slink" title="Multiple Myeloma Research Foundation" rel="wikipedia" href="http://en.wikipedia.org/wiki/Multiple_Myeloma_Research_Foundation">Multiple Myeloma Research Foundation</a> **one of the best organizations** to give to in terms of their accountability and use of resources.
+  * The American Institute of Philanthropy recently named The <a class="zem_slink" title="Multiple Myeloma Research Foundation" rel="wikipedia" href="https://en.wikipedia.org/wiki/Multiple_Myeloma_Research_Foundation">Multiple Myeloma Research Foundation</a> **one of the best organizations** to give to in terms of their accountability and use of resources.
   * By working closely with researchers, clinicians and partners in the biotech and pharmaceutical industry, the MMRF has helped bring multiple myeloma patients four new treatments that are **extending lives around the globe**.
   * The MMRF has advanced twenty Phase I and Phase II clinical trials. They need your support to advance these clinical research programs and accelerate the development of **better, more effective treatments**.
   * The MMRF’s Multiple Myeloma Genomics Initiative recently became **the first to sequence the multiple myeloma whole genome** in its entirety.
@@ -57,20 +57,20 @@ Without further ado, I bring you this musical number presented from California, 
 
 
 
-**DONATE**: [http://www.loveharder.org][2]
+**DONATE**: [https://www.loveharder.org][2]
   
 **CONTACT**: [theloveharderfund [at] gmail [dot] com][5]
   
-**FACEBOOK**: [http://facebook.loveharder.org][3]
+**FACEBOOK**: [https://facebook.loveharder.org][3]
   
-**MORE** **INFO**: [http://www.themmrf.org][3]
+**MORE** **INFO**: [https://www.themmrf.org][3]
 
 <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/72cbc411-7375-45ad-afc2-368582785c3d/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_c.png?x-id=72cbc411-7375-45ad-afc2-368582785c3d" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
+  <a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="https://reblog.zemanta.com/zemified/72cbc411-7375-45ad-afc2-368582785c3d/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="https://img.zemanta.com/reblog_c.png?x-id=72cbc411-7375-45ad-afc2-368582785c3d" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"></span>
 </div>
 
- [1]: http://brainyjane22.wordpress.com/
- [2]: http://www.loveharder.org/
- [3]: http://facebook.loveharder.org/
- [4]: http://doniree.com/2009/12/28/a-late-christmas-wish/
+ [1]: https://brainyjane22.wordpress.com/
+ [2]: https://www.loveharder.org/
+ [3]: https://facebook.loveharder.org/
+ [4]: https://doniree.com/2009/12/28/a-late-christmas-wish/
  [5]: javascript:DeCryptX('1u2j2g3o1p3y0e1i0a2t3g3h2t3i1v1o2f2B1h1n1b1j2n311d1p3p')

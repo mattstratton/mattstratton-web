@@ -13,7 +13,7 @@ tags:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a title="photo sharing" href="http://www.flickr.com/photos/mugsy/72331527/"><img style="border:solid 2px #000000;" src="http://static.flickr.com/28/72331527_e3d4e7e554_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/72331527/">Lippy</a><br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/72331527/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/28/72331527_e3d4e7e554_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/72331527/">Lippy</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
 </div>
 
 So tonight (well, I guess it&#8217;s &#8220;last night&#8221;, since it is now Sunday morning), I met up with some great friends at Suite to celebrate my birthday.

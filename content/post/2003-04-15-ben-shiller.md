@@ -32,4 +32,4 @@ So now I&#8217;m pro-piracy. First, piracy is too cool-sounding to oppose. And t
 
 I&#8217;ll still rent DVDs and see movies in theaters. But I&#8217;ll download them too. And after watching that PSA, I&#8217;m especially going to steal Affleck flicks. As soon as he makes one worth stealing.
 
- [1]: http://www.ew.com
+ [1]: https://www.ew.com

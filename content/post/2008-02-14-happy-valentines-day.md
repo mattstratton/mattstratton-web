@@ -13,5 +13,5 @@ categories:
 Courtesy of the good folks at [Action Squad][1].  
 ![][2]
 
- [1]: http://www.action-squad.com/?p=2447
- [2]: http://www.action-squad.com/publicData/Rev.%20Dave/IndieValentines/HipsterValentines_08/valentine_oates.png
+ [1]: https://www.action-squad.com/?p=2447
+ [2]: https://www.action-squad.com/publicData/Rev.%20Dave/IndieValentines/HipsterValentines_08/valentine_oates.png

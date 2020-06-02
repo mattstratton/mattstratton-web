@@ -15,4 +15,4 @@ categories:
   3. Carrie and I joined an awesome new gym. Had a good workout last night and looking forward to another good one tomorrow.
   4. There is no #4. What, three awesome things aren&#8217;t enough for you?
 
- [1]: http://www.flickr.com/photos/mugsy/sets/72157602214818160/
+ [1]: https://www.flickr.com/photos/mugsy/sets/72157602214818160/

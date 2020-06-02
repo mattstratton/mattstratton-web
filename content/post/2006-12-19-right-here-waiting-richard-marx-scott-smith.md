@@ -10,11 +10,11 @@ categories:
   - Personal
 
 ---
-http://www.youtube.com/watch?v=i26qpuqjAsA  
+https://www.youtube.com/watch?v=i26qpuqjAsA  
 In case you missed all the brouhaha&#8230;Scott Smith of Chicagoist had a [bit of an online feud with Richard Marx][1].
 
 Never one to let a good joke die, Scott recently did a live reading of the Richard Marx letters at Schaudenfrude&#8217;s rent party.
 
 Enjoy.
 
- [1]: http://www.chicagoist.com/archives/2006/10/11/richard_marx_wants_you_to_know_chicagoist_is_wrong.php
+ [1]: https://www.chicagoist.com/archives/2006/10/11/richard_marx_wants_you_to_know_chicagoist_is_wrong.php

@@ -39,4 +39,4 @@ Wedding stuff is coming along. Still a few invitations outstanding, but we&#8217
 
 As we come into the last few weeks of this wedding thing, it&#8217;s definitely getting somewhat stressful. Mostly just because of all the &#8220;little things&#8221; that still have to be done. Also, since our wedding party is so friggin&#8217; ginormous, there&#8217;s a lot of people to &#8220;wrangle&#8221; &#8211; so I do want to thank those folks who have stepped up and made my life easier in this regard. It&#8217;s definitely a weird place to be &#8211; supposedly this is a big, special event for you and your soon to be wife, but it seems that you spend most of your time trying to make other people&#8217;s lives easier and not offend them. At the end of the day, however, it always works out.
 
- [1]: http://scrapplequeen.livejournal.com/
+ [1]: https://scrapplequeen.livejournal.com/

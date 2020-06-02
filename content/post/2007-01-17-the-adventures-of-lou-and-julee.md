@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/louisparks/360377990/" title="photo sharing"><img src="http://farm1.static.flickr.com/163/360377990_926ee092c2_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/louisparks/360377990/">"Lounging" after sight seeing all day</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/louisparks/">louisparks</a>. </span>
+  <a href="https://www.flickr.com/photos/louisparks/360377990/" title="photo sharing"><img src="https://farm1.static.flickr.com/163/360377990_926ee092c2_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/louisparks/360377990/">"Lounging" after sight seeing all day</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/louisparks/">louisparks</a>. </span>
 </div>
 
 For those of you who don&#8217;t know, my friends Lou and Julee just kicked off an around-the-world trip. They have posted their first updates on [Lou&#8217;s blog][1], and it&#8217;s really funny (and interesting). My favorite:
@@ -23,4 +23,4 @@ I highly recommend you guys keep an eye on Loupy.com. I think that the two of th
 
 [Loupy.com][1]
 
- [1]: http://www.loupy.com
+ [1]: https://www.loupy.com

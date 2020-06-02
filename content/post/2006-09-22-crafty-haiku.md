@@ -11,7 +11,7 @@ categories:
 
 ---
 <div style="float:right;margin-left:10px;margin-bottom:10px;">
-  <a href="http://www.flickr.com/photos/mugsy/196440022/" title="photo sharing"><img src="http://static.flickr.com/61/196440022_f5afc9711c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="http://www.flickr.com/photos/mugsy/196440022/">Angie</a> <br /> Originally uploaded by <a href="http://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+  <a href="https://www.flickr.com/photos/mugsy/196440022/" title="photo sharing"><img src="https://static.flickr.com/61/196440022_f5afc9711c_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/196440022/">Angie</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
 </div>
 
 For all of you clever folks out there, our friend [Angie][1] is rocking out with [some kind of haiku contest][2] to win yarn or something.
@@ -22,7 +22,7 @@ For all of you clever folks out there, our friend [Angie][1] is rocking out with
 
 So if you&#8217;re feeling especially creative and saucy, cruise over to her blog and [post some haiku][4].
 
- [1]: http://lakesideknitter.blogspot.com/
- [2]: http://lakesideknitter.blogspot.com/2006/09/call-for-help.html
- [3]: http://www.januaryone.com/archives/2006/09/haiku_bless_you.php#comments
- [4]: http://www.blogger.com/comment.g?blogID=26954863&postID=115887926135300579
+ [1]: https://lakesideknitter.blogspot.com/
+ [2]: https://lakesideknitter.blogspot.com/2006/09/call-for-help.html
+ [3]: https://www.januaryone.com/archives/2006/09/haiku_bless_you.php#comments
+ [4]: https://www.blogger.com/comment.g?blogID=26954863&postID=115887926135300579

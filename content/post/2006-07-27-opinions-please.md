@@ -18,9 +18,9 @@ tags:
 ---
 So I have a couple photos with some pretty bad shadowing, and was trying to fix them up today. Unfortunately, I decided to do this on my work laptop, which isn&#8217;t necessarily the best tool for this kind of thing. Anyway, I&#8217;m wondering if you all can take a gander and tell me if you think they look okay.
 
-[<img src="http://static.flickr.com/59/190802966_8c7f0735d9.jpg" alt="Carrie and Matt" width="500" height="375" />][1]
+[<img src="https://static.flickr.com/59/190802966_8c7f0735d9.jpg" alt="Carrie and Matt" width="500" height="375" />][1]
 
-[<img src="http://static.flickr.com/55/190803280_ced7bfd54b.jpg" alt="Chris and Carrie" width="500" height="371" />][2]
+[<img src="https://static.flickr.com/55/190803280_ced7bfd54b.jpg" alt="Chris and Carrie" width="500" height="371" />][2]
 
 The problem was that the faces under the hats were in deep shadow, and very very dark. I used a [Photojojo trick][3] on them, and I think it worked okay, but I&#8217;m not sure if I was subtle enough.
 
@@ -90,6 +90,6 @@ If you&#8217;re wondering, the same setup was used for both shots (although I ob
 
 Thoughts?
 
- [1]: http://www.flickr.com/photos/mugsy/190802966/ "Photo Sharing"
- [2]: http://www.flickr.com/photos/mugsy/190803280/ "Photo Sharing"
- [3]: http://www.photojojo.com/content/tutorials/five-minute-photo-fix/
+ [1]: https://www.flickr.com/photos/mugsy/190802966/ "Photo Sharing"
+ [2]: https://www.flickr.com/photos/mugsy/190803280/ "Photo Sharing"
+ [3]: https://www.photojojo.com/content/tutorials/five-minute-photo-fix/

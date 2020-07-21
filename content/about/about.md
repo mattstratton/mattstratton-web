@@ -3,7 +3,7 @@ title: About
 date: 2009-01-07T10:56:11+00:00
 
 ---
-<img class="alignright" alt="Matt Stratton" src="https://on.notist.cloud/headshots/hs-mattstratton-large-c29b704b9ab97e0e.png" />
+<img class="alignright" alt="Matt Stratton" src="https://on.notist.cloud/headshots/hs-mattstratton-cdcb31bbd6e8fd1c.png" />
 
 # About Matt Stratton
 

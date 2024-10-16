@@ -233,7 +233,7 @@ params:
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
           - Responsible for building strategic relationships with executives and key leaders to promote and sell Red Hat's portfolio of emerging tech products, including cloud, PaaS (OpenShift powered by Kubernetes and Docker), mobile, application development, application and service hosting, business rules management, business process management, content aggregation, data federation, and service integration on-prem or in the cloud.
@@ -265,19 +265,21 @@ params:
           enable: false
 
       - job: "Managing Consultant"
-        company: "PagerDuty"
-        companyUrl: "https://pagerduty.com"
-        date: "2017 - 2020"
+        company: "10th Magnitude"
+        # companyUrl: "https://pagerduty.com"
+        date: "2013 - 2014"
         info:
           enable: false
         content: |
-          - Spoke at industry events worldwide on the topics of DevOps, HumanOps, and others to drive PagerDuty’s values and principles to the larger community
-          - Authored open-sourced Ops Guides for sharing practices around Incident Response, Operational Reviews, and more
-          - Focused on results-oriented metrics and measurement of the effectiveness of the Community and Advocacy team
-          - Met with senior IT leadership at PagerDuty customers and prospects to help share knowledge of good practices around digital transformation and DevOps
-          - Created and maintained the PagerDuty “Breakathon” event, including infrastructure development, content creation, and event management
-          - Mentored other members of the Community team on event speaking, industry practices, and content creation
-          - Worked closely with other groups in the PagerDuty organization, including Product, Marketing, and Sales, to provide a voice of the community
+          Led the 10th Magnitude practice for Infrastructure as a Service (IaaS), Infrastructure Automation, and DevOps consulting engagements. Work with clients to leverage cutting-edge optimization techniques, tools, and concepts to streamline delivery, eliminate waste, and increase velocity. 
+
+      # - job: "Director, Technology Operations"
+      #   company: "Apartments.com"
+      #   # companyUrl: "https://pagerduty.com"
+      #   date: "2007 - 2013"
+      #   info:
+      #     enable: false
+      #   content: ""
 
   # Education
   education:

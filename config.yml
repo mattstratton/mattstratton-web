@@ -148,7 +148,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Matty-Stratton-CV-2024.pdf"
       download: true
       newPage: false
     socialLinks:

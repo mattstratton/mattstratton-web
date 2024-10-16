@@ -1,3 +1,3 @@
 hugo version
-hugo --theme=mattstrattondotcom --buildDrafts=false --baseURL="$URL"
+hugo --theme=hugo-profile --buildDrafts=false --baseURL="$URL"
 

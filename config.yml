@@ -335,6 +335,10 @@ params:
         content: pagerduty.com
         url: https://www.pagerduty.com/blog/four-agreements-incident-response/
         image: /img/publications/four-agreements.png
+      - title: A Brief DevOps History - Databases to Infinity and Beyond
+        content: The New Stack
+        url: https://thenewstack.io/a-brief-devops-history-databases-to-infinity-and-beyond/
+        image: /img/publications/database-history.jpg
       # - title: Hugo Profile
       #   content: Developed a theme and getting 1K+ downloads per month.
       #   url: "https://github.com/gurusabarish/hugo-profile"
@@ -347,8 +351,8 @@ params:
 
   # projects
   projects:
-    enable: false
-    # title: "Custom Name"
+    enable: true
+    title: "Public Speaking"
     items:
       # - title: Hugo Profile
       #   content: A highly customizable and mobile first Hugo template for personal portfolio and blog.

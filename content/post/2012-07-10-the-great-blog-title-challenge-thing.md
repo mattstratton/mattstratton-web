@@ -13,7 +13,6 @@ tags:
   - blogging
 
 ---
-[<img src="/wp-content/uploads/20120710-215011.jpg" alt="20120710-215011.jpg" class="alignnone size-full" />][1]
 
 EFFECTIVE IMMEDIATELY AND UNTIL 10 PM CST ON JULY 11, 2012:
 
@@ -22,5 +21,3 @@ I am committing to writing a blog post for every suggested post title tweeted wi
 I reserve the right to slightly edit the titles for NSFW words, SEO reasons, or general grammar fixes. 
 
 READY&#8230;STEADY&#8230;GO!
-
- [1]: /wp-content/uploads/20120710-215011.jpg

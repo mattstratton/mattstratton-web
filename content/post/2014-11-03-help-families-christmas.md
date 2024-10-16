@@ -18,7 +18,7 @@ categories:
 image: /wp-content/uploads/mary-presents.png
 
 ---
-<img class="aligncenter size-full wp-image-6962" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" />
+<!-- <img class="aligncenter size-full wp-image-6962" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 
 My roommate, <a href="https://twitter.com/marywallyall" target="_blank">Mary</a>, has &#8220;adopted&#8221; not one, not two, but THREE families in need this Christmas. Last year she adopted a family of six, and had such an amazing experience she decided to up it by a factor of three.
 

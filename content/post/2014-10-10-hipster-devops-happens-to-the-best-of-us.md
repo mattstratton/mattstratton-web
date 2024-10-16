@@ -11,7 +11,7 @@ categories:
   - DevOps
 
 ---
-<img class="aligncenter size-full wp-image-6940" src="/wp-content/uploads/hipsterdevops2.png" alt="hipsterdevops2" width="550" height="218" srcset="/wp-content/uploads/hipsterdevops2.png 550w, /wp-content/uploads/hipsterdevops2-300x118.png 300w" sizes="(max-width: 550px) 100vw, 550px" />
+<!-- <img class="aligncenter size-full wp-image-6940" src="/wp-content/uploads/hipsterdevops2.png" alt="hipsterdevops2" width="550" height="218" srcset="/wp-content/uploads/hipsterdevops2.png 550w, /wp-content/uploads/hipsterdevops2-300x118.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 
 At the recent <a href="https://devopsdays.org/events/2014-chicago" target="_blank">DevOpsDays Chicago</a> event, <a href="https://bridgetkromhout.com/" target="_blank">Bridget Kromhout</a> pointed out that <a href="https://devopsdays.org/events/2014-chicago/proposals/How%20Much%20Is%20That%20DevOps%20In%20The%20Window/" target="_blank">there is no &#8220;pink-haired, exciting, thought-leadership conspiracy of hipster DevOps&#8221;</a> &#8211; that we are all in this together. This resonated with me on a personal level, as I&#8217;ve gone through my own journey through this thing we call DevOps. I&#8217;ve got a couple thoughts on the matter that I wanted to jot down before I forget. Also, this is an exercise to see if I can remember my blog login password. Which I seem to have been able to do. So yay me.
 

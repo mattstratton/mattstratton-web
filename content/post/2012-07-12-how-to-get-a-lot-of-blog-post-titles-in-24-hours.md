@@ -17,7 +17,7 @@ tags:
   - Twitter
 
 ---
-<img class="alignnone size-full wp-image-6883" title="24hours" src="/wp-content/uploads/24hours.png" alt="" width="550" height="319" srcset="/wp-content/uploads/24hours.png 550w, /wp-content/uploads/24hours-300x174.png 300w" sizes="(max-width: 550px) 100vw, 550px" />
+<!-- <img class="alignnone size-full wp-image-6883" title="24hours" src="/wp-content/uploads/24hours.png" alt="" width="550" height="319" srcset="/wp-content/uploads/24hours.png 550w, /wp-content/uploads/24hours-300x174.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 
 As you may recall, I am <a title="The Great Blog Title Challenge Thing" href="/meta/the-great-blog-title-challenge-thing" target="_blank">embarking on an experiment</a> to crowd-source blog titles. I asked Twitter to suggest titles for blog posts using the hashtag #mattblog, and committed to writing a post for every title.
 

@@ -11,7 +11,7 @@ categories:
   - Tech
 
 ---
-<img class="alignnone wp-image-7001" src="/wp-content/uploads/pdocast-300x148.png" alt="pdocast" width="550" height="272" srcset="/wp-content/uploads/pdocast-300x148.png 300w, /wp-content/uploads/pdocast-1024x506.png 1024w, /wp-content/uploads/pdocast.png 1280w" sizes="(max-width: 550px) 100vw, 550px" />
+<!-- <img class="alignnone wp-image-7001" src="/wp-content/uploads/pdocast-300x148.png" alt="pdocast" width="550" height="272" srcset="/wp-content/uploads/pdocast-300x148.png 300w, /wp-content/uploads/pdocast-1024x506.png 1024w, /wp-content/uploads/pdocast.png 1280w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 
 I&#8217;ve been talking lately to a few folks, specifically Jason Hand, about &#8220;how to do a podcast&#8221;. For those of you who don&#8217;t know, I am the co-host and creator of the <a href="https://arresteddevops.com" target="_blank">Arrested DevOps </a>podcast, and have been doing this for a little over a year and a half. So, similar to my post about [&#8220;what is DevOps anyway?&#8221;][1], I thought it was just as easy to write up a blog post explaining how we do things at ADO, and some tips I&#8217;ve learned along the way.
 

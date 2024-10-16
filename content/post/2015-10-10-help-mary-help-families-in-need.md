@@ -16,7 +16,7 @@ categories:
   - Personal
 
 ---
-<img class="alignnone wp-image-6962 size-full" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" />
+<!-- <img class="alignnone wp-image-6962 size-full" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 
 As you may [recall from last year][1], my roommate Mary &#8220;adopts&#8221; families in need every holiday season (you can read all the history [here][2]). Anyway, this year she has adopted two families, and your donations help h
 

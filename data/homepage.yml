@@ -1,8 +1,12 @@
+# page title
+head:
+  title: "Matty Stratton"
+  description: "blah blah blah matty"
 # showcase
 showcase:
   enable: true
   title: "Hello, I’m Matty."
-  subtitle: "This is my title"
+  subtitle: "Experienced DevRel Leader"
   description: >
     This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href="https://adritian-demo.vercel.app/">as a demo site</a> or <a target='_blank' href="https://www.adrianmoreno.info">a real one</a>.<br>You can find this content to edit in the theme.yaml file.
   image:
@@ -53,23 +57,21 @@ about:
   title: "Who am I?"
   content: >
     <p class="lead">
-      Here you can add some information about you. A small excerpt that describes 
-      your experience, for example.   
+      I am an experienced DevRel leader, a well-known member of the DevOps community, founder and co-host of the popular <a href = "https://www.arresteddevops.com/" target = "_blank">Arrested DevOps podcast</a>, and a global organizer of the <a href = "https://www.devopsdays.org/" target = "_blank">DevOpsDays</a> set of conferences..   
       </p>
       <p class="lead">
-      You explain something about your academic/study background, as well as your
-      preferred areas of work. Think of this area as context-setting for the experience
-      that you will describe below. Why did you change jobs? What drove you to take a 
-      new gig? Even if you are not looking for a job, it's a good way to hint about
-      what kind of projects you are interested in.
+      I have over 20 years of experience in IT operations and am a sought-after speaker internationally, presenting at Agile, DevOps, and cloud engineering focused events worldwide. Demonstrating my keen insight into the changing landscape of technology, I recently changed my license plate from <code>DEVOPS</code> to <code>KUBECTL</code>.
+    </p>
+    <p class="lead">
+    I live in Chicago and have three awesome kids and two Australian Shepherds, whom I loves just a little bit more than I loves Diet Coke.
     </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/mattstratton/"
   image:
-    x: "images/who-am-i/user-picture.png"
-    _2x: "images/who-am-i/user-picture@2x.png"
+    x: "images/who-am-i/matty-picture.png"
+    _2x: "images/who-am-i/matty-picture@2x.png"
 
 # education
 education:
@@ -97,38 +99,38 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/Matty-Stratton-CV-2024.pdf"
 
 # Client & Work
 client_and_work:
   title: "Clients & Works"
-  enable: true
+  enable: false
   
 # testimonial
 testimonial:
-  enable: false
+  enable: true
   title: "Testimonials"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Stuart Clark"
+      position: "AWS, Senior Developer Advocate"
+      content: "Matty's unwavering commitment to developers and the tech community is evident in everything he does. Matty has a kind and innovative approach to DevRel. He consistently brings fresh, creative ideas to the table that not only engage developers but also help drive meaningful connections between them and the methodologies and tools they use. His initiatives have a way of sparking excitement and fostering a sense of belonging within the developer community.."
       image:
-        x: "images/testimonials/daniel-jordan.jpg"
-        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+        x: "images/testimonials/stuart.png"
+        _2x: "images/testimonials/stuart@2x.png"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Jeff Meisel"
+      position: "Aiven, Senior Director of Revenue Marketing"
+      content: "As a DevOps industry veteran (with leadership roles at RedHat, PagerDuty, and Chef to name a few), Matty is skilled in a number of domains including solution architecture, community development, and business transformation. I saw first-hand at Aiven how he applied those skills to scale our organization as we built a dual-funnel across PLG and the Enterprise (SLG) sales motions. In the past 12 months specifically, Matty took on the Growth Marketing function in addition to DevRel, and was the principal leader at the company responsible for driving >100% goal attainment in active users (a KPI that was accountable to the Board of Directors). If you are looking for a team-first DevRel leader, with the technical and business chops to drive user adoption within both a PLG and SLG organization, and who happens to be incredibly fun to work with — Matty is your guy!"
       image:
-        x: "images/testimonials/jonathan-peters.jpg"
-        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+        x: "images/testimonials/jeff.png"
+        _2x: "images/testimonials/jeff@2x.png"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Julian Dunn"
+      position: "Product management leader, investor, advisor"
+      content: "Matt is a capable, personable, and knowledgeable speaker & advocate for modern IT practices, drawing on his own personal experiences at a variety of firms large and small. If you are looking for an evangelist (or dare I say it: thought leader) about digital transformation, devops, or modern product delivery, Matt is your guy."
       image:
-        x: "images/testimonials/antonio-willis.jpg"
-        _2x: "images/testimonials/antonio-willis@2x.jpg"
+        x: "images/testimonials/julian.png"
+        _2x: "images/testimonials/julian@2x.png"
 
 # contact
 contact:

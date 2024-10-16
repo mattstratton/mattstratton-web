@@ -14,6 +14,8 @@ paginate = 12
 # you can specify disqus_identifier, disqus_title, and disqus_url in the
 # front matter of specific content.
 disqusShortname = "mattstratton"
+[markup.goldmark.renderer]
+unsafe= true
 
 [permalinks]
 	page = "/:filename/"
@@ -49,8 +51,8 @@ disqusShortname = "mattstratton"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experience"
+  URL = "/experience"
   weight = 3
  
  [[menu.header]]

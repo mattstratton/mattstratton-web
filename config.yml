@@ -194,7 +194,7 @@ params:
       - job: "Director, Developer Relations and Growth"
         company: "Aiven"
         companyUrl: "https://aiven.io"
-        date: "2022 - 20224"
+        date: "2022 - 2024"
         featuredLink:
           enable: false
           name: "View the project"

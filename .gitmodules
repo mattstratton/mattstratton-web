@@ -1,0 +1,3 @@
+[submodule "themes/adritian-free-hugo-theme"]
+	path = themes/adritian-free-hugo-theme
+	url = https://github.com/mattstratton/adritian-free-hugo-theme

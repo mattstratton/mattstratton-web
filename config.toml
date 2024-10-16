@@ -2,7 +2,7 @@
 baseurl = "https://www.mattstratton.com/"
 languageCode = "en-us"
 title = "Matty Stratton"
-theme = "mattstrattondotcom"
+theme = "adritian-free-hugo-theme"
 
 googleAnalytics = "UA-7327719-1"
 
@@ -14,6 +14,8 @@ paginate = 12
 # you can specify disqus_identifier, disqus_title, and disqus_url in the
 # front matter of specific content.
 disqusShortname = "mattstratton"
+[markup.goldmark.renderer]
+unsafe= true
 
 [permalinks]
 	page = "/:filename/"
@@ -21,32 +23,115 @@ disqusShortname = "mattstratton"
     speaking = "/:filename/"
     resume = "/:filename/"
 
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+  # navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "/experience"
+  weight = 3
+ 
+ [[menu.header]]
+  name = "Speaking"
+  URL = "https://speaking.mattstratton.com"
+  weight = 4
+
+#  [[menu.header]]
+#  name = "Experience"
+#  URL = "#experience"
+#  weight = 4
+
+  [[menu.header]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 5
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
 # The theme supports menus with up to one submenu per menu item
 # The menu name must be "Main"
 # SectionPagesMenu = "Main"
 # About section of menu
-[[Menu.Main]]
-    name = "About"
-    identifier = "about"
-    url = "/about"
+# [[Menu.Main]]
+#     name = "About"
+#     identifier = "about"
+#     url = "/about"
 
-[[Menu.Main]]
-    name = "Speaking"
-    identifier = "speaking"
-    url = "https://speaking.mattstratton.com"
+# [[Menu.Main]]
+#     name = "Speaking"
+#     identifier = "speaking"
+#     url = "https://speaking.mattstratton.com"
 
-[[Menu.Main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/post"
+# [[Menu.Main]]
+#     name = "Blog"
+#     identifier = "blog"
+#     url = "/post"
 # [[Menu.Main]]
 #     name = "Contact"
 #     identifier = "contact"
 #     url = "/contact"
 
 [params]
-    copyright_notice = "Copyright &#169; 2001-2020 [Matt Stratton](https://www.mattstratton.com)"
+    copyright_notice = "Copyright &#169; 2001-2024 [Matt Stratton](https://www.mattstratton.com)"
+    sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
+    homepageExperienceCount = 6
+
+    [params.google_analytics]
+      code = "UA-7327719-1"
+      enabled = true
+    [params.logo]
+      text1 = "Matty"
+      text2 = "Stratton"
+
+    [params.footer]
+      copyright = "Copyright &#169; 2001-2024 [Matt Stratton](https://www.mattstratton.com)"
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"
 
   [params.social]
     github = "mattstratton"

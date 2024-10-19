@@ -273,13 +273,14 @@ params:
         content: |
           Led the 10th Magnitude practice for Infrastructure as a Service (IaaS), Infrastructure Automation, and DevOps consulting engagements. Work with clients to leverage cutting-edge optimization techniques, tools, and concepts to streamline delivery, eliminate waste, and increase velocity. 
 
-      # - job: "Director, Technology Operations"
-      #   company: "Apartments.com"
-      #   # companyUrl: "https://pagerduty.com"
-      #   date: "2007 - 2013"
-      #   info:
-      #     enable: false
-      #   content: ""
+      - job: "Director, Technology Operations"
+        company: "Apartments.com"
+        company_slug: "apartments"
+        # companyUrl: "https://pagerduty.com"
+        date: "2007 - 2013"
+        info:
+          enable: false
+        content: ""
 
   # Education
   education:

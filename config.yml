@@ -325,10 +325,11 @@ params:
     #       enable: true
     #       url: "https://example.com"
 
-  # Achievements
-  achievements:
+  # Publications
+  publications:
     enable: true
     title: "Publications"
+    content: "A selection of some of my published work."
     items:
       - title: Organizational Patterns - A Developer Portal
         content: pulumi.com
@@ -352,9 +353,36 @@ params:
       #   content: Contributed to a open source project.
       #   url: https://example.com
 
+  # Speaking
+  speaking:
+    enable: true
+    title: "Public speaking"
+    content: "A few of my favorite talks. Full list of all my conference talks can be found at [speaking.mattstratton.com](https://speaking.mattstratton.com)."
+    items:
+      - title: Zero Trust is for Networks, Not Your Teams
+        content: GOTO Chicago 2023 
+        url: https://speaking.mattstratton.com/tMd2Ny/zero-trust-is-for-networks-not-your-teams
+        image: /img/speaking/goto-chicago-2023.jpg
+      - title: Where Do We Go From Here? The Next Level of DevRel Value
+        content: DevRelCon Prague 2022
+        url: https://speaking.mattstratton.com/c7HCQ7/where-do-we-go-from-here-the-next-level-of-devrel-value
+        image: /img/speaking/devrelcon-2022.jpg
+      - title: Charting Your Own Course Through the Cloud Native Landscape
+        content: KubeCon Europe 2022
+        url: https://speaking.mattstratton.com/ajYcGf/charting-your-own-course-through-the-cloud-native-landscape
+        image: /img/speaking/kubecon-2022.png
+      - title: Avengers Assemble - The Thanos Incident
+        content: All Things Open 2019
+        url: https://speaking.mattstratton.com/6SPcBa/avengers-assemble-the-thanos-incident
+        image: /img/speaking/ato-2019.png
+      - title: Fight, Flight, or Freeze — Releasing Organizational Trauma
+        content: Monitorama 2019
+        url: https://speaking.mattstratton.com/kF4x1U/fight-flight-or-freeze-releasing-organizational-trauma#swviGt8
+        image: /img/speaking/monitorama-2019.png
+
   # projects
   projects:
-    enable: true
+    enable: false
     title: "Public Speaking"
     items:
       # - title: Hugo Profile

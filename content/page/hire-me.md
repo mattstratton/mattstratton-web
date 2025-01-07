@@ -9,7 +9,7 @@ Hi, I’m **Matty Stratton**—a seasoned leader in Developer Relations with a p
 
 ## Why Hire Me?
 
-I bring over 15 years of hands-on experience in Developer Relations, community building, and leadership. Here’s what I can offer to your organization:
+I bring over [15 years of hands-on experience](/Matty-Stratton-CV-2025.pdf) in Developer Relations, community building, and leadership. Here’s what I can offer to your organization:
 
 ### Strategic Leadership in Developer Relations
 

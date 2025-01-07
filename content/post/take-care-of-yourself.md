@@ -1,6 +1,7 @@
 +++
 title = "Take Care of Yourself"
 date = 2020-06-02T08:30:40-05:00
+author = "Matt Stratton"
 +++
 *For context, this refers to a depressive episode due to factors unrelated to current events (well, unrelated, but I’m sure that anxiety/anger about the current events exacerbated things). I don’t know if this will help anyone, but I wanted to share.*
 

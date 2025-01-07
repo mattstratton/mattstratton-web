@@ -3,6 +3,7 @@ date = "2017-01-20T13:35:31-06:00"
 title = "Getting Started with Chef"
 description = "Chef is super cool. The point of this post is to walk you through the basics of getting started solving a problem with Chef."
 image = "/post/getting-started-with-chef/banner.jpg"
+author = "Matt Stratton"
 
 +++
 

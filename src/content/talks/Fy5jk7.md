@@ -1,0 +1,34 @@
+---
+notistId: Fy5jk7
+title: What Got You Here Won’t Get You There
+notistSlug: what-got-you-here-wont-get-you-there
+presentedOn: 2021-01-27T18:00:00
+publishedOn: 2021-01-27T16:00:00
+timezone: GMT
+event: 7rsBH3
+abstractHtml: |
+  <p>Startups aren’t the only disruptors that your organization faces. Constantly changing environments and unexpected events such as COVID-19 make it clear that every organization needs to be resilient so they can deliver software faster while providing even more value to customers. In order to express the resilience of the socio-technical system that is your organization, you need to look beyond software development practices alone.</p>
+  <p>In this talk, we will investigate how global economies have been disrupted in the past, and draw a parallel to the same disruption that containers and cloud now present to modern technology organizations. We will look at the ways that we need to retrain, retool, and rethink to grow stronger and be more effective, and investigate the five elements needed for a true transformation.</p>
+slideSource: images
+slidesPdf: null
+slideImageCount: 69
+video: null
+resources:
+  - title: 5 elements of successful digital transformation
+    url: https://www.redhat.com/en/resources/5-elements-successful-digital-transformation
+  - title: Avoiding digital transformation failures in government
+    url: https://www.redhat.com/en/resources/digital-transformation-avoiding-failures-in-government-overview
+  - title: Resilience is a Verb
+    url: https://beta.irgc.org/wp-content/uploads/2018/12/Woods-for-IRGC-Resilience-Guide-Vol-2-2018.pdf
+  - title: DevOps Party Games
+    url: https://devopspartygames.com
+  - title: Matt Stratton on LinkedIn
+    url: https://linkedin.com/in/mattstratton/
+  - title: Matt Stratton on Twitter
+    url: https://twitter.com/mattstratton
+  - title: Arrested DevOps Podcast
+    url: https://www.arresteddevops.com
+  - title: Value Stream Mapping
+    url: https://www.youtube.com/watch?v=j6BszAWckFw
+thumbnail: /thumbnails/Fy5jk7.png
+---

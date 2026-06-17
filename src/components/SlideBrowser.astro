@@ -1,0 +1,129 @@
+---
+// In-page slide browser. Images are build-time WebP at /slides/{id}/{n}.webp.
+// Works with ZERO JavaScript via CSS scroll-snap (scroll/swipe through slides);
+// JS only *enhances* with prev/next buttons, a counter, keyboard nav, and fullscreen.
+interface Props {
+  id: string;
+  slideCount: number;
+  title: string;
+  slidesPdf?: string | null;
+}
+const { id, slideCount, title, slidesPdf } = Astro.props;
+const slides = Array.from({ length: slideCount }, (_, i) => i + 1);
+---
+
+<figure class="slide-browser my-8" data-slide-browser data-count={slideCount}>
+  <div class="flex items-center justify-between gap-3 pb-2">
+    <figcaption class="label normal-case tracking-normal text-ink">
+      Slides<span data-counter class="hidden text-ink-soft"> · <span data-current aria-live="polite">1</span> / {slideCount}</span>
+    </figcaption>
+    <div class="flex items-center gap-2">
+      {slidesPdf && (
+        <a
+          href={slidesPdf}
+          download
+          class="rounded-full border border-ink px-3 py-1 text-sm transition hover:border-accent hover:text-accent"
+        >
+          Download PDF
+        </a>
+      )}
+      <button
+        type="button"
+        data-fullscreen
+        hidden
+        class="rounded-full border border-ink px-3 py-1 text-sm transition hover:border-accent hover:text-accent"
+        aria-label="View slides fullscreen"
+      >
+        Fullscreen
+      </button>
+    </div>
+  </div>
+
+  <div class="relative">
+    <div
+      data-track
+      class="flex snap-x snap-mandatory overflow-x-auto scroll-smooth rounded-lg border border-rule bg-ink/5 ring-1 ring-rule"
+      tabindex="0"
+      aria-label={`Slides for ${title}`}
+    >
+      {slides.map((n) => (
+        <img
+          src={`/slides/${id}/${n}.webp`}
+          alt={`${title} — slide ${n} of ${slideCount}`}
+          width="1500"
+          height="844"
+          loading={n === 1 ? 'eager' : 'lazy'}
+          decoding="async"
+          data-slide={n}
+          class="aspect-video w-full shrink-0 grow-0 basis-full snap-center object-contain"
+        />
+      ))}
+    </div>
+
+    <button
+      type="button"
+      data-prev
+      hidden
+      class="absolute top-1/2 left-2 -translate-y-1/2 rounded-full bg-panel/95 px-3 py-2 text-lg shadow ring-1 ring-rule hover:text-accent"
+      aria-label="Previous slide"
+    >‹</button>
+    <button
+      type="button"
+      data-next
+      hidden
+      class="absolute top-1/2 right-2 -translate-y-1/2 rounded-full bg-panel/95 px-3 py-2 text-lg shadow ring-1 ring-rule hover:text-accent"
+      aria-label="Next slide"
+    >›</button>
+  </div>
+</figure>
+
+<script>
+  // Progressive enhancement only — the scroll-snap track already works without this.
+  for (const root of document.querySelectorAll<HTMLElement>('[data-slide-browser]')) {
+    const track = root.querySelector<HTMLElement>('[data-track]');
+    if (!track) continue;
+    const count = Number(root.dataset.count || '0');
+    const slides = [...track.querySelectorAll<HTMLImageElement>('[data-slide]')];
+    const prev = root.querySelector<HTMLButtonElement>('[data-prev]');
+    const next = root.querySelector<HTMLButtonElement>('[data-next]');
+    const fs = root.querySelector<HTMLButtonElement>('[data-fullscreen]');
+    const counter = root.querySelector<HTMLElement>('[data-counter]');
+    const current = root.querySelector<HTMLElement>('[data-current]');
+
+    for (const el of [prev, next, fs, counter]) el?.removeAttribute('hidden');
+    counter?.classList.remove('hidden');
+
+    let index = 0;
+    const go = (i: number) => {
+      index = Math.max(0, Math.min(count - 1, i));
+      slides[index]?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    };
+
+    prev?.addEventListener('click', () => go(index - 1));
+    next?.addEventListener('click', () => go(index + 1));
+
+    // Keep the counter in sync with whichever slide is centered (scroll or swipe).
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            index = slides.indexOf(e.target as HTMLImageElement);
+            if (current) current.textContent = String(index + 1);
+          }
+        }
+      },
+      { root: track, threshold: 0.6 },
+    );
+    for (const s of slides) io.observe(s);
+
+    track.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(index + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(index - 1); }
+    });
+
+    fs?.addEventListener('click', () => {
+      if (document.fullscreenElement) document.exitFullscreen();
+      else track.requestFullscreen?.();
+    });
+  }
+</script>

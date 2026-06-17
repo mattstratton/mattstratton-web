@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import TalkCard from '../components/TalkCard.astro';
+
+const talks = (await getCollection('talks')).sort(
+  (a, b) => b.data.presentedOn.getTime() - a.data.presentedOn.getTime(),
+);
+const recent = talks.slice(0, 6);
+const years = talks.map((t) => t.data.presentedOn.getFullYear());
+const span = `${Math.min(...years)}—${Math.max(...years)}`;
+const videoCount = talks.filter((t) => t.data.video).length;
+
+const stats = [
+  { n: String(talks.length), l: 'talks' },
+  { n: span, l: 'years' },
+  { n: String(videoCount), l: 'on video' },
+];
+---
+
+<Base
+  title="Matty Stratton — Speaking"
+  description="Talks, slides, and video from Matty Stratton — developer advocate, DevOps community organizer, and conference speaker."
+>
+  <section class="border-b-2 border-ink pb-10">
+    <p class="label">Talks &amp; video</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance sm:text-7xl">
+      DevOps, teams, and<br />
+      <span class="text-accent">the human side of software.</span>
+    </h1>
+    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
+      Conference talks from Matty Stratton — developer advocate, DevOpsDays organizer, and co-host of
+      <a href="https://www.arresteddevops.com/" rel="noopener" class="text-ink underline decoration-rule underline-offset-2 hover:decoration-accent">Arrested DevOps</a>.
+      Fourteen years of sessions on culture, resilience, incident response, and getting more out of your
+      systems — with slides, video, and resources from each one.
+    </p>
+
+    <div class="mt-8 flex flex-wrap items-end gap-x-10 gap-y-4">
+      {stats.map((s) => (
+        <div>
+          <div class="font-display text-3xl font-semibold tabular-nums sm:text-4xl">{s.n}</div>
+          <div class="label mt-0.5">{s.l}</div>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-9 flex flex-wrap gap-3">
+      <a href="/talks" class="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition hover:bg-accent">
+        Browse the archive
+      </a>
+      <a href="/videos" class="rounded-full border border-ink px-5 py-2.5 text-sm font-medium transition hover:border-accent hover:text-accent">
+        Watch talks
+      </a>
+      <a href="/bio" class="rounded-full border border-ink px-5 py-2.5 text-sm font-medium transition hover:border-accent hover:text-accent">
+        Bio &amp; speaker kit
+      </a>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <div class="flex items-baseline justify-between">
+      <h2 class="font-display text-2xl font-semibold">Recent talks</h2>
+      <a href="/talks" class="label transition-colors hover:text-accent">All {talks.length} →</a>
+    </div>
+    <div class="mt-2">
+      {recent.map((talk) => <TalkCard talk={talk} />)}
+    </div>
+  </section>
+</Base>

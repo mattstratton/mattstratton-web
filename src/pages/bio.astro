@@ -1,0 +1,113 @@
+---
+import Base from '../layouts/Base.astro';
+import { role, pronouns, socials, bios, headshots } from '../data/bio';
+import headshotSizes from '../data/headshots.json';
+import { toFormats, plainFormats } from '../lib/bio-format';
+
+type SizeEntry = { label: string; src: string; w: number; h: number };
+type HeadshotData = { sizes: SizeEntry[]; original: SizeEntry };
+const sizeData = headshotSizes as Record<string, HeadshotData>;
+
+// Each bio gets Text / HTML / Markdown copy variants (Notist-style).
+const bioBlocks = [
+  { heading: 'One-liner', ...plainFormats(bios.oneLiner) },
+  { heading: 'Short (~50 words)', ...plainFormats(bios.short) },
+  { heading: 'Long (~150 words)', ...toFormats(bios.longHtml) },
+];
+---
+
+<Base
+  title="Bio & Speaker Kit — Matty Stratton"
+  description="Speaker bio, headshots, and links for Matty Stratton — ready to copy for event organizers."
+>
+  <header class="border-b-2 border-ink pb-6">
+    <p class="label">Speaker kit</p>
+    <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">Bio &amp; press</h1>
+    <p class="label mt-3 normal-case tracking-normal text-ink-soft">{role} · {pronouns}</p>
+    <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+      {socials.map((s) => (
+        <a href={s.url} rel="noopener" class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright">{s.label}</a>
+      ))}
+    </div>
+  </header>
+
+  <!-- Headshots — multiple sizes per photo, for publication -->
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-semibold">Headshots</h2>
+    <p class="label mt-1 normal-case tracking-normal text-ink-soft">Photos for publication — pick the size you need.</p>
+    {headshots.length > 0 ? (
+      <div class="mt-4 grid gap-6 sm:grid-cols-2">
+        {headshots.map((h) => {
+          const data = sizeData[h.name];
+          if (!data) return null;
+          const all = [...data.sizes, data.original];
+          return (
+            <figure class="flex gap-4">
+              <img
+                src={data.sizes[0]?.src ?? data.original.src}
+                alt={`Matty Stratton — ${h.label} headshot`}
+                width="120"
+                height={Math.round((data.original.h / data.original.w) * 120)}
+                loading="lazy"
+                decoding="async"
+                class="h-fit w-28 shrink-0 rounded-md object-cover ring-1 ring-rule"
+              />
+              <figcaption class="min-w-0">
+                <p class="font-display text-lg font-medium">{h.label}</p>
+                <ul class="mt-1 space-y-1 text-sm">
+                  {all.map((s) => (
+                    <li>
+                      <a href={s.src} download class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright">{s.label}</a>
+                    </li>
+                  ))}
+                </ul>
+              </figcaption>
+            </figure>
+          );
+        })}
+      </div>
+    ) : (
+      <p class="mt-2 rounded border border-dashed border-rule p-4 text-sm text-ink-soft">
+        Headshots coming soon — add files to <code>public/headshots/</code>, run <code>npm run headshots</code>,
+        and list them in <code>src/data/bio.ts</code>.
+      </p>
+    )}
+  </section>
+
+  <!-- Bios — copy as Text / HTML / Markdown (publication-ready) -->
+  <section class="mt-12 space-y-5">
+    <div class="flex items-baseline justify-between">
+      <h2 class="font-display text-2xl font-semibold">Bios</h2>
+      <span class="label">copy any format</span>
+    </div>
+
+    {bioBlocks.map((b) => (
+      <div class="rounded-lg border border-rule bg-panel/60 p-5" data-bio>
+        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-rule pb-3">
+          <h3 class="label">{b.heading}</h3>
+          <div class="flex gap-3 text-sm">
+            <button type="button" data-copy data-format="text" data-value={b.text} class="text-accent hover:text-accent-bright">Copy text</button>
+            <button type="button" data-copy data-format="html" data-value={b.html} class="text-accent hover:text-accent-bright">Copy HTML</button>
+            <button type="button" data-copy data-format="markdown" data-value={b.markdown} class="text-accent hover:text-accent-bright">Copy Markdown</button>
+          </div>
+        </div>
+        <div class="prose mt-3 max-w-none" set:html={b.html} />
+      </div>
+    ))}
+  </section>
+</Base>
+
+<script>
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('[data-copy]')) {
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(btn.dataset.value ?? '');
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => (btn.textContent = original), 1500);
+      } catch {
+        /* clipboard unavailable */
+      }
+    });
+  }
+</script>

@@ -1,0 +1,86 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string | null;
+}
+
+const { title, description, image } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = image ? new URL(image, Astro.site) : undefined;
+const path = Astro.url.pathname;
+const isActive = (p: string) => path === p || (p !== '/' && path.startsWith(p));
+
+const nav = [
+  { href: '/talks', label: 'Talks' },
+  { href: '/videos', label: 'Videos' },
+  { href: '/bio', label: 'Bio' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+  </head>
+  <body class="min-h-screen antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-panel focus:px-3 focus:py-2 focus:shadow"
+    >
+      Skip to content
+    </a>
+
+    <header class="border-b-2 border-ink">
+      <nav class="mx-auto flex max-w-5xl flex-wrap items-baseline justify-between gap-x-6 gap-y-2 px-5 py-5" aria-label="Primary">
+        <a href="/" class="group flex items-baseline gap-2">
+          <span class="font-display text-2xl font-semibold tracking-tight">Matty Stratton</span>
+          <span class="label hidden sm:inline">/ speaks</span>
+        </a>
+        <div class="flex items-center gap-5">
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              class:list={[
+                'label !text-[0.78rem] transition-colors hover:text-accent',
+                isActive(item.href) && 'text-accent underline decoration-accent-bright decoration-2 underline-offset-4',
+              ]}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="mx-auto max-w-5xl px-5 py-10">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t-2 border-ink">
+      <div class="mx-auto flex max-w-5xl flex-col gap-2 px-5 py-8 text-sm text-ink-soft">
+        <div class="flex flex-wrap gap-x-5 gap-y-1">
+          <a href="/talks" class="label transition-colors hover:text-accent">Talks</a>
+          <a href="/videos" class="label transition-colors hover:text-accent">Videos</a>
+          <a href="/bio" class="label transition-colors hover:text-accent">Bio</a>
+          <a href="https://mattstratton.com" rel="noopener" class="label transition-colors hover:text-accent">mattstratton.com</a>
+        </div>
+        <p class="mt-1">&copy; {new Date().getFullYear()} Matty Stratton.</p>
+      </div>
+    </footer>
+  </body>
+</html>

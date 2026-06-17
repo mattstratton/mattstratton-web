@@ -1,0 +1,23 @@
+# Netlify build config for the speaking site.
+#
+# The build is just `astro build` — slide images (WebP) and optimized PDFs are
+# generated LOCALLY pre-commit (npm run rasterize / npm run optimize) and committed,
+# so the deploy needs no external tools (no poppler, no Ghostscript). This keeps
+# the build host-agnostic and fast.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Slides + thumbnails are immutable per talk id; cache them hard.
+[[headers]]
+  for = "/slides/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/thumbnails/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

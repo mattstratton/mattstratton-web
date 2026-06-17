@@ -1,0 +1,33 @@
+{
+  "name": "mattstratton-speaking",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted speaking archive for speaking.mattstratton.com (replaces Notist)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "ingest": "tsx scripts/ingest.ts",
+    "optimize": "tsx scripts/optimize.ts",
+    "rasterize": "tsx scripts/rasterize.ts",
+    "headshots": "tsx scripts/headshots.ts"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/hanken-grotesk": "^5.2.8",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^4.3.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.0",
+    "yaml": "^2.9.0"
+  }
+}

@@ -8,7 +8,7 @@ interface Props {
 const { talk } = Astro.props;
 const d = talk.data;
 const event = d.event ? await getEntry(d.event) : null;
-const href = `/${d.notistId}/${d.notistSlug}`;
+const href = `/${d.notistId.toLowerCase()}/${d.notistSlug}`;
 const date = d.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
 const hasVideo = !!d.video;
 const hasSlides = d.slideSource !== 'none';

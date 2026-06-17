@@ -9,8 +9,12 @@ import slideCounts from '../../data/slide-counts.json';
 // every inbound link uses; the slug must match what Notist served.
 export async function getStaticPaths() {
   const talks = await getCollection('talks');
+  // Emit lowercase URL paths: Netlify force-301s mixed-case to lowercase, so the
+  // site's own routes/links/sitemap point at the canonical lowercase form (200).
+  // Only legacy mixed-case Notist inbound links take the (unavoidable) redirect.
+  // Asset paths keep the original-case notistId (files serve fine case-insensitively).
   return talks.map((talk) => ({
-    params: { id: talk.data.notistId, slug: talk.data.notistSlug },
+    params: { id: talk.data.notistId.toLowerCase(), slug: talk.data.notistSlug },
     props: { talk },
   }));
 }

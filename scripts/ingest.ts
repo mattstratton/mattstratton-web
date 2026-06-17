@@ -171,7 +171,9 @@ async function main() {
     const id = String(p.id).replace(/^pr_/, '');
     const selfUrl: string = p.links.self;
     const slug = selfUrl.replace(/\/+$/, '').split('/').pop()!;
-    redirects.push(`/${id} /${id}/${slug} 301`);
+    // Lowercase: Netlify normalizes mixed-case requests to lowercase before
+    // matching, and our canonical pages are emitted lowercase. Bare /{id} → page.
+    redirects.push(`/${id.toLowerCase()} /${id.toLowerCase()}/${slug} 301`);
     process.stdout.write(`• ${id} ${p.attributes.title.slice(0, 60)}\n`);
 
     const related: string = p.links.related; // https://noti.st/mattstratton/{id}.json

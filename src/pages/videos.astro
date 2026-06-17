@@ -17,7 +17,7 @@ const items = await Promise.all(
         ? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`
         : t.data.thumbnail;
     return {
-      href: `/${t.data.notistId}/${t.data.notistSlug}`,
+      href: `/${t.data.notistId.toLowerCase()}/${t.data.notistSlug}`,
       title: t.data.title,
       event: event?.data.name,
       year: t.data.presentedOn.getFullYear(),

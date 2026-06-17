@@ -49,7 +49,7 @@ const slides = Array.from({ length: slideCount }, (_, i) => i + 1);
       {slides.map((n) => (
         <img
           src={`/slides/${id}/${n}.webp`}
-          alt={`${title} — slide ${n} of ${slideCount}`}
+          alt={`${title}, slide ${n} of ${slideCount}`}
           width="1500"
           height="844"
           loading={n === 1 ? 'eager' : 'lazy'}

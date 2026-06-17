@@ -31,8 +31,11 @@ const hasSlides = d.slideSource !== 'none';
         class="h-full w-full object-cover grayscale-[0.15] transition duration-300 group-hover:grayscale-0"
       />
     ) : (
-      <div class="flex h-full w-full items-center justify-center font-display text-2xl text-ink/25" aria-hidden="true">
-        ❝❞
+      <div class="flex h-full w-full items-center justify-center text-ink/20" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-7 w-7">
+          <rect x="9" y="2.5" width="6" height="11" rx="3" />
+          <path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke-linecap="round" />
+        </svg>
       </div>
     )}
   </div>
@@ -47,13 +50,13 @@ const hasSlides = d.slideSource !== 'none';
     </p>
     <p class="mt-2 flex gap-2">
       {hasVideo && (
-        <span class="label inline-flex items-center gap-1 rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">
-          <span aria-hidden="true">▶</span> video
+        <span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">
+          video
         </span>
       )}
       {hasSlides && (
-        <span class="label inline-flex items-center gap-1 rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">
-          <span aria-hidden="true">▦</span> slides
+        <span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">
+          slides
         </span>
       )}
     </p>

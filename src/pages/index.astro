@@ -8,7 +8,7 @@ const talks = (await getCollection('talks')).sort(
 );
 const recent = talks.slice(0, 6);
 const years = talks.map((t) => t.data.presentedOn.getFullYear());
-const span = `${Math.min(...years)}—${Math.max(...years)}`;
+const span = `${Math.min(...years)}–${Math.max(...years)}`;
 const videoCount = talks.filter((t) => t.data.video).length;
 
 const stats = [
@@ -19,8 +19,8 @@ const stats = [
 ---
 
 <Base
-  title="Matty Stratton — Speaking"
-  description="Talks, slides, and video from Matty Stratton — developer advocate, DevOps community organizer, and conference speaker."
+  title="Matty Stratton · Speaking"
+  description="Every conference talk Matty Stratton has given since 2012. Slides, video, and the links he shared."
 >
   <section class="border-b-2 border-ink pb-10">
     <p class="label">Talks &amp; video</p>
@@ -29,10 +29,9 @@ const stats = [
       <span class="text-accent">the human side of software.</span>
     </h1>
     <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-      Conference talks from Matty Stratton — developer advocate, DevOpsDays organizer, and co-host of
-      <a href="https://www.arresteddevops.com/" rel="noopener" class="text-ink underline decoration-rule underline-offset-2 hover:decoration-accent">Arrested DevOps</a>.
-      Fourteen years of sessions on culture, resilience, incident response, and getting more out of your
-      systems — with slides, video, and resources from each one.
+      I've been giving conference talks since 2012. Mostly about DevOps, building and running teams,
+      incident response, and lately getting a lot more out of Postgres than people expect. This page is all
+      of them. Every talk, with the slides, the video when someone caught it, and the links I shared.
     </p>
 
     <div class="mt-8 flex flex-wrap items-end gap-x-10 gap-y-4">

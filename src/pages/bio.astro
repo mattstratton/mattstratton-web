@@ -17,8 +17,8 @@ const bioBlocks = [
 ---
 
 <Base
-  title="Bio & Speaker Kit — Matty Stratton"
-  description="Speaker bio, headshots, and links for Matty Stratton — ready to copy for event organizers."
+  title="Bio & Speaker Kit · Matty Stratton"
+  description="Speaker bio, headshots, and links for Matty Stratton. Ready for event organizers to grab and go."
 >
   <header class="border-b-2 border-ink pb-6">
     <p class="label">Speaker kit</p>
@@ -34,7 +34,7 @@ const bioBlocks = [
   <!-- Headshots — multiple sizes per photo, for publication -->
   <section class="mt-10">
     <h2 class="font-display text-2xl font-semibold">Headshots</h2>
-    <p class="label mt-1 normal-case tracking-normal text-ink-soft">Photos for publication — pick the size you need.</p>
+    <p class="label mt-1 normal-case tracking-normal text-ink-soft">Photos for publication. Grab whatever size you need.</p>
     {headshots.length > 0 ? (
       <div class="mt-4 grid gap-6 sm:grid-cols-2">
         {headshots.map((h) => {
@@ -45,7 +45,7 @@ const bioBlocks = [
             <figure class="flex gap-4">
               <img
                 src={data.sizes[0]?.src ?? data.original.src}
-                alt={`Matty Stratton — ${h.label} headshot`}
+                alt={`Matty Stratton, ${h.label} headshot`}
                 width="120"
                 height={Math.round((data.original.h / data.original.w) * 120)}
                 loading="lazy"
@@ -68,7 +68,7 @@ const bioBlocks = [
       </div>
     ) : (
       <p class="mt-2 rounded border border-dashed border-rule p-4 text-sm text-ink-soft">
-        Headshots coming soon — add files to <code>public/headshots/</code>, run <code>npm run headshots</code>,
+        No headshots yet. Add files to <code>public/headshots/</code>, run <code>npm run headshots</code>,
         and list them in <code>src/data/bio.ts</code>.
       </p>
     )}

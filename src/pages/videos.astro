@@ -28,14 +28,15 @@ const items = await Promise.all(
 ---
 
 <Base
-  title="Videos — Matty Stratton"
-  description={`Watch ${items.length} recorded talks from Matty Stratton.`}
+  title="Videos · Matty Stratton"
+  description={`${items.length} of Matty Stratton's talks that someone caught on video.`}
 >
   <header class="border-b-2 border-ink pb-6">
     <p class="label">Watch</p>
     <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">Talks on video</h1>
     <p class="mt-3 max-w-xl text-ink-soft">
-      {items.length} recorded talks. Click through to watch — the player loads only when you hit play.
+      {items.length} of these talks got recorded. Click one to watch. Nothing loads until you hit play, so
+      I'm not autoplaying anything at you.
     </p>
   </header>
 

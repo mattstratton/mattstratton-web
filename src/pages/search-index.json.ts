@@ -22,6 +22,7 @@ export const GET: APIRoute = async () => {
       const event = d.event ? await getEntry(d.event) : null;
       return {
         url: `/${d.notistId.toLowerCase()}/${d.notistSlug}`,
+        slug: d.notistSlug,
         title: d.title,
         abstract: d.abstractHtml ? stripHtml(d.abstractHtml) : '',
         eventName: event?.data.name ?? '',

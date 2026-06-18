@@ -1,0 +1,147 @@
+EVERYTHING'S A PRODUCT
+How To Apply Product Management Practices
+to Technology Services
+
+let me tell you a story...
+@mattstratton
+
+By Daniel Schwen - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=7429653
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+your it services can be products
+@mattstratton
+
+you have customers, right?
+@mattstratton
+
+if you don't know who your customers are, go ﬁgure it out
+@mattstratton
+
+we'll wait
+@mattstratton
+
+"My role is geared toward internal development rather than
+developing a product that we ship externally out to our customers. I
+set the direction of where we're going as a team and what initiatives
+we're going to take on to improve the lives of PagerDuty's
+developers."
+-- Marguerite des Trois Maisons, SRE Product Owner, PagerDuty
+@mattstratton
+
+some examples of things you can productize:
+•
+service requests
+•
+software delivery process
+•
+infrastructure as code
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+humor me, please
+@mattstratton
+
+emily's mom is
+watching to make
+sure you do
+@mattstratton
+
+at least half of our ideas are going
+to fail
+@mattstratton
+
+this is why roadmaps are bad
+and if you have one you should feel bad
+@mattstratton
+
+output vs outcome
+@mattstratton
+
+discovery
+•
+it's always happening
+•
+it's not just for your boss or for fancy-pants architects
+•
+it's not saying "yo, what are your requirements?"
+@mattstratton
+
+establish compelling value
+@mattstratton
+
+user experience over engineering
+@mattstratton
+
+The most important thing is to know
+what you can't know
+- Mark Andreessen
+@mattstratton
+
+test feasblity during discovery
+@mattstratton
+
+minimum viable prototype
+@mattstratton
+
+bad example of mvp
+•
+We are going to create an MVP of our Chef implementation.
+•
+We'll do this by installing the chef client on 10,000 nodes
+•
+Then we will write an MVP cookbook that simply checks to see
+if a ﬁle is there we are used to seeing
+@mattstratton
+
+know your business
+@mattstratton
+
+know your customer
+•
+why do they do what they do?
+•
+and what exactly do they do?
+@mattstratton
+
+keep gathering feedback
+@mattstratton
+
+always be doing discovery
+@mattstratton
+
+avoid analysis paralysis
+@mattstratton
+
+you're never going to be done
+@mattstratton
+
+and that's okay
+@mattstratton
+
+emily's mom will still love you
+@mattstratton
+
+she is rooting for you
+@mattstratton
+
+and so am i
+@mattstratton
+
+•
+twitter.com/mattstratton
+•
+github.com/mattstratton
+•
+arresteddevops.com
+•
+mattstratton.com/speaking
+•
+pagerduty.com/blog/employeespotlight-sre-product-owner

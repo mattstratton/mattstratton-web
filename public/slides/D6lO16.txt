@@ -1,0 +1,361 @@
+the journey from devops
+to cloud engineering
+Matt Stratton
+Staﬀ Developer Advocate, Pulumi
+
+let's start by
+looking back
+@mattstratton
+#serverlessdays
+
+@mattstratton
+#serverlessdays
+
+@mattstratton
+#serverlessdays
+
+@mattstratton
+#serverlessdays
+
+What is DevOps?
+DevOps is the union of people,
+process, and products to
+enable continuous delivery of
+value to our end users
+Donovan Brown
+@mattstratton
+#serverlessdays
+
+What is DevOps?
+Optimizing the human
+experience and performance
+of operating software with
+software and humans
+Andrew Clay Shafer
+@mattstratton
+#serverlessdays
+
+@mattstratton
+#serverlessdays
+
+CALMS
+@mattstratton
+#serverlessdays
+
+culture
+@mattstratton
+#serverlessdays
+
+You can't directly change
+culture. But you can change
+behavior, and behavior
+becomes culture
+-Lloyd Taylor, VP Infrastructure, Ngmoco
+@mattstratton
+#serverlessdays
+
+automation
+@mattstratton
+#serverlessdays
+
+Asking experts to do boring and
+repetitive, and yet technically
+demanding tasks is the most certain
+way of ensuring human error, short
+of sleep deprivation, or inebriation.
+- Continuous Delivery, Jez Humble and David
+Farley
+@mattstratton
+#serverlessdays
+
+lean
+@mattstratton
+#serverlessdays
+
+@mattstratton
+#serverlessdays
+
+measurement
+@mattstratton
+#serverlessdays
+
+sharing
+@mattstratton
+#serverlessdays
+
+but... what
+happened?
+@mattstratton
+#serverlessdays
+
+it's all about automation?
+@mattstratton
+#serverlessdays
+
+kubernetes will save us all
+@mattstratton
+#serverlessdays
+
+"culture is for yoghurt"
+@mattstratton
+#serverlessdays
+
+devops is being
+sold to you
+@mattstratton
+"You can't buy devops, but I can
+deﬁnitely sell it to you"
+- Matty Stratton, charismatic grifter
+#serverlessdays
+
+DevOps
+ServerlessDevOps
+BizDevOps
+DevOpsDevOps
+DevSecDBOpsOps
+DevSecOps
+@mattstratton
+#serverlessdays
+
+words are hard
+@mattstratton
+#serverlessdays
+
+don't worry
+I have more words for you
+@mattstratton
+#serverlessdays
+
+Cloud Engineering employs standard software engineering practices
+and tools across infrastructure, application development, and
+compliance teams to tame the complexity of the modern cloud.
+@mattstratton
+#serverlessdays
+
+Build
+Cloud
+Resources
+@mattstratton
+Deploy
+Infra
+Platforms
+#serverlessdays
+Manage
+Cloud
+Applications
+Policies
+
+build
+@mattstratton
+#serverlessdays
+
+Build
+★ Shared services platforms
+★ Reusable infrastructure
+components
+★ Apply existing
+frameworks and tools
+@mattstratton
+#serverlessdays
+
+build + calms
+@mattstratton
+#serverlessdays
+
+build culture
+@mattstratton
+#serverlessdays
+★ focus on
+diﬀerentiators
+★ common
+development
+experience
+★ drives empathy
+
+build automation
+@mattstratton
+#serverlessdays
+★ reusable
+components
+★ leverage ecosystems
+★ avoid bespoke
+implementation
+
+build lean
+@mattstratton
+#serverlessdays
+★ focus on value
+★ drive eﬃciency
+★ review for
+improvement
+
+build measurement
+@mattstratton
+#serverlessdays
+★ consistency breeds
+visibility
+
+build sharing
+@mattstratton
+#serverlessdays
+★ reusable
+components
+★ ecosystem
+promotes outside
+sharing
+★ learn from existing
+practices
+
+deploy
+@mattstratton
+#serverlessdays
+
+Deploy
+★ The same way, every time
+★ I mean, every time
+★ Quality and security
+checks
+★ Automate checklists!
+★ Infrastructure is part of
+the application
+@mattstratton
+#serverlessdays
+
+deploy + calms
+@mattstratton
+#serverlessdays
+
+deploy culture
+@mattstratton
+#serverlessdays
+★ "it doesn't count
+until it's in prod"
+★ iterative
+development
+★ enables continuous
+improvement
+
+deploy automation
+@mattstratton
+#serverlessdays
+★ CI/CD pipelines
+★ automated checks
+★ checklists are great!
+let's automate them
+
+deploy lean
+@mattstratton
+#serverlessdays
+★ enables fast
+feedback
+★ visibility into the
+supply chain
+★ identify bottlenecks
+
+deploy
+measurement
+@mattstratton
+#serverlessdays
+★ visibility again
+★ measure cycle time
+★ it's not just speed
+
+deploy sharing
+@mattstratton
+#serverlessdays
+★ look, more visibility
+★ common pipeline
+means less
+duplicate work
+★ everyone knows
+"what changed?"
+
+manage
+@mattstratton
+#serverlessdays
+
+Manage
+★
+★
+★
+★
+@mattstratton
+#serverlessdays
+Visibility
+Security is everyone's job
+Common "vocabulary"
+Controls and process that
+enable and enhance
+
+manage + calms
+@mattstratton
+#serverlessdays
+
+manage culture
+@mattstratton
+#serverlessdays
+★ collaboration
+enabled through
+common code
+★ guardrails enable
+conﬁdence
+★ increase common
+understanding
+across disciplines
+
+manage automation
+@mattstratton
+#serverlessdays
+★ computers can't lie
+★ trust of
+process/checks
+★ policy goes from
+vague to
+understandable
+
+manage lean
+@mattstratton
+#serverlessdays
+★ determine
+improvements for
+safety
+★ express value
+stream changes in
+code
+
+manage
+measurement
+@mattstratton
+#serverlessdays
+★ visibility into
+current policy
+★ view of current
+state of compliance
+★ identify when
+policy and value
+collide
+
+manage sharing
+@mattstratton
+#serverlessdays
+★ shared vocabulary
+★ utilize success
+patterns
+★ share learning
+
+let's take devops
+back
+@mattstratton
+#serverlessdays
+
+Thank
+You
+Twitter - @mattstratton
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+Podcast - ArrestedDevOps.com
+DevOps Party Games - devopspartygames.com
+CNCFaceOﬀ - cncfaceoﬀ.tv/readme
+@mattstratton
+#serverlessdays

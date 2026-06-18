@@ -1,0 +1,183 @@
+The Proactive
+Approach
+Data Driven Observability & Incident Response
+Matty Stratton & PJ Hagerty
+
+About Matty
+PagerDuty.com
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+About PJ
+Humio.com
+Logging,
+Monitoring,
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+DeÞnitions
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+DeÞnitions
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+DeÞnitions
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+DeÞnitions
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Feedback Loop
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Feedback Loop
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Feedback Loop
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+"[Observability is] not about logs, metrics, or traces, but about being
+data driven during debugging and using the feedback to iterate on and
+improve the product."
+Cindy Sridharan - Distributed Systems Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Observability
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Proactive Programming
+Proactive programming
+focuses on eliminating
+problems before they have
+a chance to appear
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Proactive Programming
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Proactive Programming
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Proactive Programming
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Proactive Programming
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+All of it Together
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+What is incident response?
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Any unplanned disruption or
+degradation of service that is
+actively affecting customers'
+ability to use the product.
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Don't litigate severity
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Incident Commander
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Not a resolver
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Highest Ranking
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Executive Swoop
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Notify stakeholders
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Sizing up
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Making decisions
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+This background is blue.
+
+Rally fast, disband faster
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Don't panic
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+At the end of the call
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Post-mortems
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+How do we do it?
+https://response.pagerduty.com
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com
+
+Questions?
+PJ Hagerty | @aspleenic | Humio.com
+Matty Stratton | @mattstratton | PagerDuty.com

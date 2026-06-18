@@ -119,6 +119,29 @@
     let deepLoading = false;
     let byUrl = new Map<string, SearchRecord>();
 
+    // Canonical talks: results show one entry per talk (notistSlug), not one per
+    // delivery. Each group rolls up its deliveries' badges, years, and a thumbnail.
+    interface TalkGroup {
+      slug: string;
+      title: string;
+      talkUrl: string;
+      count: number;
+      minYear: number;
+      maxYear: number;
+      years: Set<number>;
+      hasVideo: boolean;
+      hasSlides: boolean;
+      hasTranscript: boolean;
+      thumbnail: string | null;
+      eventName: string;
+      date: string;
+    }
+    let groups = new Map<string, TalkGroup>();
+
+    // Fuse score 0 = perfect, 1 = no match. Above this, a "hit" is a fuzzy match
+    // on a common word (junk) — drop it so the long tail of noise doesn't show.
+    const SCORE_CUTOFF = 0.8;
+
     const escapeHtml = (s: string) =>
       s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -141,6 +164,38 @@
         ],
       });
       byUrl = new Map(records.map((r) => [r.url, r]));
+      // Group deliveries into canonical talks. records arrive newest-first, so the
+      // first delivery seen per slug supplies the representative event/date/thumb.
+      groups = new Map();
+      for (const r of records) {
+        let g = groups.get(r.slug);
+        if (!g) {
+          g = {
+            slug: r.slug,
+            title: r.title,
+            talkUrl: `/talk/${r.slug}`,
+            count: 0,
+            minYear: r.year,
+            maxYear: r.year,
+            years: new Set(),
+            hasVideo: false,
+            hasSlides: false,
+            hasTranscript: false,
+            thumbnail: r.thumbnail,
+            eventName: r.eventName,
+            date: r.date,
+          };
+          groups.set(r.slug, g);
+        }
+        g.count++;
+        g.years.add(r.year);
+        g.minYear = Math.min(g.minYear, r.year);
+        g.maxYear = Math.max(g.maxYear, r.year);
+        g.hasVideo ||= r.hasVideo;
+        g.hasSlides ||= r.hasSlides;
+        g.hasTranscript ||= r.hasTranscript;
+        if (!g.thumbnail && r.thumbnail) g.thumbnail = r.thumbnail;
+      }
       // Populate year options from distinct years (descending).
       const years = [...new Set(records.map((r) => r.year))].sort((a, b) => b - a);
       for (const y of years) {
@@ -159,6 +214,7 @@
         const res = await fetch('/deep-index.json');
         const deep = (await res.json()) as DeepRecord[];
         deepFuse = new Fuse(deep, {
+          includeScore: true,
           threshold: 0.4,
           ignoreLocation: true,
           minMatchCharLength: 3,
@@ -173,31 +229,35 @@
       }
     }
 
-    function render(items: SearchRecord[], query: string) {
+    function render(items: TalkGroup[], query: string) {
       results!.innerHTML = items
-        .map((r) => {
-          const thumb = r.thumbnail
-            ? `<img src="${escapeHtml(r.thumbnail)}" alt="" width="320" height="180" loading="lazy" decoding="async" class="h-full w-full object-cover" />`
+        .map((g) => {
+          const thumb = g.thumbnail
+            ? `<img src="${escapeHtml(g.thumbnail)}" alt="" width="320" height="180" loading="lazy" decoding="async" class="h-full w-full object-cover" />`
             : micFallback;
           const badges = [
-            r.hasVideo
+            g.hasVideo
               ? `<span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">video</span>`
               : '',
-            r.hasSlides
+            g.hasSlides
               ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">slides</span>`
               : '',
-            r.hasTranscript
+            g.hasTranscript
               ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">transcript</span>`
               : '',
           ].join('');
-          const meta = [
-            r.eventName ? `<span class="text-ink">${escapeHtml(r.eventName)}</span>` : '',
-            `<span class="text-ink-soft">${r.eventName ? ' · ' : ''}${escapeHtml(r.date)}</span>`,
-          ].join('');
-          return `<li><a href="${escapeHtml(r.url)}" aria-label="${escapeHtml(r.title)}" class="group grid grid-cols-[4.5rem_1fr] items-start gap-3 border-b border-rule py-3 transition-colors hover:bg-paper">
+          const span = g.minYear === g.maxYear ? `${g.minYear}` : `${g.minYear}–${g.maxYear}`;
+          const meta =
+            g.count > 1
+              ? `<span class="text-ink">Delivered ${g.count} times</span><span class="text-ink-soft"> · ${span}</span>`
+              : [
+                  g.eventName ? `<span class="text-ink">${escapeHtml(g.eventName)}</span>` : '',
+                  `<span class="text-ink-soft">${g.eventName ? ' · ' : ''}${escapeHtml(g.date)}</span>`,
+                ].join('');
+          return `<li><a href="${escapeHtml(g.talkUrl)}" aria-label="${escapeHtml(g.title)}" class="group grid grid-cols-[4.5rem_1fr] items-start gap-3 border-b border-rule py-3 transition-colors hover:bg-paper">
             <div class="relative aspect-video overflow-hidden rounded-sm bg-ink/5 ring-1 ring-rule">${thumb}</div>
             <div class="min-w-0">
-              <h3 class="font-display text-base font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">${escapeHtml(r.title)}</h3>
+              <h3 class="font-display text-base font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">${escapeHtml(g.title)}</h3>
               <p class="label mt-1 normal-case tracking-normal">${meta}</p>
               ${badges ? `<p class="mt-1.5 flex gap-2">${badges}</p>` : ''}
             </div>
@@ -218,28 +278,48 @@
     function run() {
       if (!fuse) return;
       const q = input!.value.trim();
-      let items = q ? fuse.search(q).map((r) => r.item) : records.slice();
+      let items: TalkGroup[];
 
-      // Fold in talks whose transcript matches (ranked after title/abstract hits).
       if (q) {
+        // Best (lowest) Fuse score per delivery URL, across both indices. A talk's
+        // title match and its transcript/slide match compete on the same scale, so
+        // a strong deep hit can outrank a weak title hit (the bug we're fixing).
+        const scoreByUrl = new Map<string, number>();
+        const consider = (url: string, score: number | undefined) => {
+          if (score == null) return;
+          const prev = scoreByUrl.get(url);
+          if (prev == null || score < prev) scoreByUrl.set(url, score);
+        };
+        for (const h of fuse!.search(q)) consider(h.item.url, h.score);
         if (deepFuse) {
-          const seen = new Set(items.map((i) => i.url));
-          for (const hit of deepFuse.search(q)) {
-            const rec = byUrl.get(hit.item.url);
-            if (rec && !seen.has(rec.url)) {
-              items.push(rec);
-              seen.add(rec.url);
-            }
-          }
+          for (const h of deepFuse.search(q)) consider(h.item.url, h.score);
         } else {
           ensureDeepIndex(); // lazy first-query load; re-runs when ready
         }
+
+        // Collapse deliveries to the best score per canonical talk (notistSlug).
+        const scoreBySlug = new Map<string, number>();
+        for (const [url, score] of scoreByUrl) {
+          const slug = byUrl.get(url)?.slug;
+          if (!slug) continue;
+          const prev = scoreBySlug.get(slug);
+          if (prev == null || score < prev) scoreBySlug.set(slug, score);
+        }
+
+        items = [...scoreBySlug.entries()]
+          .filter(([, score]) => score <= SCORE_CUTOFF) // drop the fuzzy long tail
+          .sort((a, b) => a[1] - b[1]) // best match first
+          .map(([slug]) => groups.get(slug))
+          .filter((g): g is TalkGroup => Boolean(g));
+      } else {
+        // No query: every talk, newest first.
+        items = [...groups.values()].sort((a, b) => b.maxYear - a.maxYear);
       }
 
       const year = yearSelect!.value;
-      if (year) items = items.filter((r) => String(r.year) === year);
-      if (videoBox!.checked) items = items.filter((r) => r.hasVideo);
-      if (slidesBox!.checked) items = items.filter((r) => r.hasSlides);
+      if (year) items = items.filter((g) => g.years.has(Number(year)));
+      if (videoBox!.checked) items = items.filter((g) => g.hasVideo);
+      if (slidesBox!.checked) items = items.filter((g) => g.hasSlides);
 
       render(items, q);
     }

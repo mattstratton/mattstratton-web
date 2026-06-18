@@ -1,0 +1,90 @@
+Hot Takes, Myths, And Falsehoods
+Why Everyone Is Wrong About DevOps Except For Me
+@mattstratton
+
+Don't believe everything that you read on the internet
+@mattstratton
+
+@mattstratton
+
+"DevOps is more than just tools"
+@mattstratton
+
+FALSE
+• If it was more than just tools, why would we have
+so many of them?
+• Nobody cares about your culture
+• There are a LOT of tools on DevOps twitter
+@mattstratton
+
+"DevOps is more than just
+automation"
+@mattstratton
+
+FALSE
+• The "A" in CAMS is the only vowel
+• Vowels are more important than consonants
+• Therefore, automation is the most important
+@mattstratton
+
+"Kubernetes won't solve all your problems"
+@mattstratton
+
+FALSE
+• Kubernetes came from Google
+• Docker is boring and old
+• YAML shows your commitment to precision
+@mattstratton
+
+"If you DevOps, you still need testing"
+@mattstratton
+
+FALSE
+• Remove the human element and remove the
+human error
+• If your microservice only does one thing, it
+can't have an error. That would be an
+additional thing
+• QA people are annoying anyway
+@mattstratton
+
+"You can't buy DevOps"
+@mattstratton
+
+FALSE
+• You may not be able to buy it, but I can sell it
+to you
+• Seriously, I would love to sell you some
+devops
+• What will it take to get you in a devops
+today?
+@mattstratton
+
+"DevOps is not a title"
+@mattstratton
+
+FALSE
+• Nobody can tell you what titles to use in your
+organization
+• I suppose your HR people can
+• But what does HR know anyway?
+@mattstratton
+
+"You can do DevOps on Windows"
+@mattstratton
+
+FALSE
+• A key component of DevOps is a smug sense
+of self-satisfaction
+• Windows is all click-next, right?
+• Something something slashdot
+@mattstratton
+
+"Cats are more aligned with DevOps than dogs"
+@mattstratton
+
+FALSE
+@mattstratton
+
+Pagey Says....
+@mattstratton

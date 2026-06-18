@@ -1,0 +1,86 @@
+Charting your own course through
+the whatever what not landscape
+
+Draw a concept while learning it!
+Color Code
+Watch lightboard videos
+Take your time!
+
+Study bu ies!
+Watch guest speakers at m tups or conferences
+Audiob ks! Podcasts! Interviews!
+oo
+ee
+dd
+Use your own voice - talk to yourself!
+
+It's not just reading - write as we !
+B k clubs are fun! Join one.
+Reframe in your own words
+oo
+ll
+Use flashcards
+
+Write code while you're learning
+(if a licable)
+Learning can be a game!
+Don't forget your pace
+oo
+pp
+L k for hands-on resources/playgrounds online
+
+Unhelpful advice I
+received:
+"jUsT go cOntRibUte!"
+"you h into nodes but kubectl
+exec into pods - this ki ed me"
+rr
+ll
+ll
+ll
+ss
+"Everyone insisted it was rea y, rea y
+hard, and mostly just refe ing to their
+inability to explain it"
+
+Unhelpful advice I received:
+"Oh, this is always hard to learn"
+tt
+ll
+"No one is an expert in every
+one of the many moving
+pieces that make up
+Kubernetes"
+Hardest thing about learning K8s:
+"Networking. Frankly, I'm sti
+pre y convinced that networking
+is magic"
+
+Take time to find resources that work for you
+Build sustainable habits
+Be kind to yourself
+Find a mentor
+ee
+tt
+There is no ge ing around it, d p learning takes time
+
+mm
+tt
+nn
+mm
+cc
+Obsidian https://obsidian.md/
+Notion https://www.notion.so/
+Anki https://apps.ankiweb.net/
+4 Types of Learning Styles: How to A o odate a Diverse Group of Students
+https://www.rasmussen.edu/degrees/education/blog/types-of-learning-styles/
+The VARK Questio aire
+https://vark-learn.com/the-vark-questionnaire/
+Overview of VARK Learning Styles
+https://www.verywellmind.com/vark-learning-styles-2795156
+4 Types of Learning Styles: Explaining the VARK Model
+https://sphero.com/blogs/news/learning-styles-for-kids
+Ϟ Enlightning "How Do You Structure Learning For Technical Concepts?" https://via.vmw.com/Ehup
+Twi er thread on advice from co unity https://twitter.com/mattstratton/status/1521954012370817025
+
+bit.ly/ChartingYourCourseKubeCon

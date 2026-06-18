@@ -65,18 +65,20 @@ const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.l
   </header>
 
   <figure class="mt-8">
-    <svg
-      viewBox={`0 0 ${W} ${H}`}
-      class="h-auto w-full"
-      role="img"
-      aria-label={`World map showing ${points.length} venues where Matty Stratton has spoken.`}
-    >
+    <svg viewBox={`0 0 ${W} ${H}`} class="h-auto w-full" aria-hidden="true">
       <g fill="var(--color-panel, #e9e2d3)" stroke="var(--color-rule, #d8cfbd)" stroke-width="0.5">
         {countryPaths.map((d) => <path d={d} />)}
       </g>
+      {/*
+        The whole SVG is decorative (aria-hidden): screen readers get the
+        venue count above plus the full alphabetical list of the same links
+        below, so the map itself adds nothing for AT. Dots stay mouse-clickable
+        (tabindex=-1 keeps them out of the tab order — the list is the keyboard
+        path, so dots are a redundant pointer-only convenience, not a trap).
+      */}
       <g>
         {points.map((p) => (
-          <a href={p.href} aria-label={`${p.name}${p.location ? ` — ${p.location}` : ''}`}>
+          <a href={p.href} tabindex="-1">
             <circle
               cx={p.x}
               cy={p.y}

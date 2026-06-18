@@ -1,0 +1,109 @@
+---
+import { getCollection } from 'astro:content';
+import { geoNaturalEarth1, geoPath } from 'd3-geo';
+import { feature } from 'topojson-client';
+import Base from '../layouts/Base.astro';
+import world from '../assets/world-110m.json';
+
+// "Where I've spoken" — a static, fully-owned SVG dot-map. The world geometry is
+// committed (src/assets/world-110m.json, public-domain Natural Earth), projected
+// at BUILD time with d3-geo. No runtime/external dependency, no tile server: the
+// page ships as inline SVG that keeps working as long as static files do.
+const W = 1000;
+const H = 500;
+
+// TopoJSON → GeoJSON features, then project + path each country. The
+// topojson-client / d3-geo interop is loosely typed, so cast at the boundary.
+/* eslint-disable @typescript-eslint/no-explicit-any */
+const land = feature(world as any, (world as any).objects.countries) as any;
+const projection = geoNaturalEarth1().fitSize([W, H], land);
+const toPath = geoPath(projection);
+const countryPaths = (land.features as any[])
+  .map((f) => toPath(f))
+  .filter((d): d is string => Boolean(d));
+
+// Talk count per event, to size the dots.
+const talks = await getCollection('talks');
+const talkCount = new Map<string, number>();
+for (const t of talks) {
+  if (t.data.event) talkCount.set(t.data.event.id, (talkCount.get(t.data.event.id) ?? 0) + 1);
+}
+
+// Project each geocoded event to an [x, y] dot.
+const events = await getCollection('events');
+const points = events
+  .filter((e) => typeof e.data.latitude === 'number' && typeof e.data.longitude === 'number')
+  .map((e) => {
+    const xy = projection([e.data.longitude as number, e.data.latitude as number]);
+    if (!xy) return null;
+    const count = talkCount.get(e.id) ?? 0;
+    return {
+      x: xy[0],
+      y: xy[1],
+      r: 3 + Math.sqrt(count),
+      name: e.data.name,
+      location: e.data.location ?? '',
+      href: `/event/${e.data.notistEventId.toLowerCase()}`,
+    };
+  })
+  .filter((p): p is NonNullable<typeof p> => p !== null)
+  .sort((a, b) => b.y - a.y); // draw northern dots last so they sit on top
+
+// Alphabetized list for the accessible text fallback / index below the map.
+const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
+---
+
+<Base
+  title="Where I’ve spoken · Matty Stratton"
+  description={`A map of the ${points.length} venues where Matty Stratton has spoken.`}
+  image="/og/map.png"
+>
+  <header class="border-b-2 border-ink pb-6">
+    <p class="label">Around the world</p>
+    <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">Where I’ve spoken</h1>
+    <p class="label mt-3 normal-case tracking-normal text-ink-soft">{points.length} venues on the map</p>
+  </header>
+
+  <figure class="mt-8">
+    <svg
+      viewBox={`0 0 ${W} ${H}`}
+      class="h-auto w-full"
+      role="img"
+      aria-label={`World map showing ${points.length} venues where Matty Stratton has spoken.`}
+    >
+      <g fill="var(--color-panel, #e9e2d3)" stroke="var(--color-rule, #d8cfbd)" stroke-width="0.5">
+        {countryPaths.map((d) => <path d={d} />)}
+      </g>
+      <g>
+        {points.map((p) => (
+          <a href={p.href} aria-label={`${p.name}${p.location ? ` — ${p.location}` : ''}`}>
+            <circle
+              cx={p.x}
+              cy={p.y}
+              r={p.r}
+              class="fill-accent/60 transition-[fill] hover:fill-accent-bright"
+              stroke="var(--color-paper, #f5f1e8)"
+              stroke-width="0.75"
+            >
+              <title>{p.name}{p.location ? ` — ${p.location}` : ''}</title>
+            </circle>
+          </a>
+        ))}
+      </g>
+    </svg>
+  </figure>
+
+  <section class="mt-10 border-t border-rule pt-6">
+    <h2 class="label">Every place, alphabetically</h2>
+    <ul class="mt-4 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+      {list.map((p) => (
+        <li class="border-b border-rule/60 py-1.5">
+          <a href={p.href} class="group flex flex-wrap items-baseline gap-x-2">
+            <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{p.name}</span>
+            {p.location && <span class="label normal-case tracking-normal text-ink-soft">{p.location}</span>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import TalkCard from '../../components/TalkCard.astro';
 import { groupTalks } from '../../lib/talk-groups';
-import { allTags, tagBySlug, talkSlugsForTag } from '../../lib/tags';
+import { allTags, talkSlugsForTag } from '../../lib/tags';
 
 // One page per tag (topic or tech), listing the canonical talks that carry it.
 // Cards link to /talk/{slug} (the abstract), not a single delivery.

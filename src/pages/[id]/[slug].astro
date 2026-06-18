@@ -4,22 +4,26 @@ import Base from '../../layouts/Base.astro';
 import SlideBrowser from '../../components/SlideBrowser.astro';
 import VideoEmbed from '../../components/VideoEmbed.astro';
 import slideCounts from '../../data/slide-counts.json';
+import { groupTalks } from '../../lib/talk-groups';
 
 // URL parity with Notist: /{notistId}/{slug}. The id segment is the stable key
 // every inbound link uses; the slug must match what Notist served.
 export async function getStaticPaths() {
   const talks = await getCollection('talks');
+  const groups = groupTalks(talks);
   // Emit lowercase URL paths: Netlify force-301s mixed-case to lowercase, so the
   // site's own routes/links/sitemap point at the canonical lowercase form (200).
   // Only legacy mixed-case Notist inbound links take the (unavoidable) redirect.
   // Asset paths keep the original-case notistId (files serve fine case-insensitively).
   return talks.map((talk) => ({
     params: { id: talk.data.notistId.toLowerCase(), slug: talk.data.notistSlug },
-    props: { talk },
+    // siblingCount = how many times this same abstract was delivered, used to
+    // surface the canonical /talk/{slug} aggregation when there's more than one.
+    props: { talk, siblingCount: groups.get(talk.data.notistSlug)?.count ?? 1 },
   }));
 }
 
-const { talk } = Astro.props;
+const { talk, siblingCount } = Astro.props;
 const d = talk.data;
 
 const event = d.event ? await getEntry(d.event) : null;
@@ -68,6 +72,16 @@ const description = d.abstractHtml
         {event?.data.location && <span class="text-ink-soft"> · {event.data.location}</span>}
       </p>
     </header>
+
+    {siblingCount > 1 && (
+      <a
+        href={`/talk/${d.notistSlug}`}
+        class="group mt-6 flex items-center gap-2 rounded-sm bg-panel px-4 py-3 text-sm transition-colors hover:bg-ink/5"
+      >
+        <span class="text-ink-soft">Delivered {siblingCount} times.</span>
+        <span class="font-medium text-accent decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">See every delivery →</span>
+      </a>
+    )}
 
     {d.video && <VideoEmbed provider={d.video.provider} id={d.video.id} title={d.title} />}
 

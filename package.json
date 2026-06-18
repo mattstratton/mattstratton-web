@@ -14,7 +14,8 @@
     "rasterize": "tsx scripts/rasterize.ts",
     "transcripts": "tsx scripts/transcripts.ts",
     "slide-text": "tsx scripts/slide-text.ts",
-    "headshots": "tsx scripts/headshots.ts"
+    "headshots": "tsx scripts/headshots.ts",
+    "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

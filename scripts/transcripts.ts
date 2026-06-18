@@ -136,8 +136,9 @@ async function main() {
     const dest = resolve(OUT_DIR, `${talk.notistId}.txt`);
 
     // Existing transcript: keep it (manual-edit-safe), just refresh its word count.
+    // Spread the existing entry so the transcript-cleanup `cleaned` flag survives.
     if (existsSync(dest) && !FORCE) {
-      manifest[talk.notistId] = { words: wordCount(await readFile(dest, 'utf8')) };
+      manifest[talk.notistId] = { ...manifest[talk.notistId], words: wordCount(await readFile(dest, 'utf8')) };
       return;
     }
 
@@ -148,6 +149,7 @@ async function main() {
       return;
     }
     await writeFile(dest, text + '\n');
+    // Fresh raw fetch — intentionally does NOT carry over a stale `cleaned` flag.
     manifest[talk.notistId] = { words: wordCount(text) };
     fetched++;
     process.stdout.write(`  ${talk.notistId}: ${manifest[talk.notistId].words} words\n`);

@@ -12,7 +12,10 @@ const verbatimId = ({ entry }: { entry: string }) => entry.replace(/\.md$/, '');
 const talks = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/talks', generateId: verbatimId }),
   schema: z.object({
-    notistId: z.string(), // e.g. "w7YksW" — drives the URL
+    // Legacy Notist URL marker: present => /{notistId}/{slug}; absent (new talks)
+    // => /{year}/{slug} (see src/lib/talk-url.ts). Identity/asset key is the
+    // filename (talk.id), NOT this field.
+    notistId: z.string().optional(),
     title: z.string(),
     // NOT named `slug`: Astro's glob loader treats a `slug` field as the entry id,
     // and the same talk given at multiple events shares one Notist slug — which

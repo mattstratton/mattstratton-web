@@ -9,6 +9,7 @@ import slideCounts from '../../data/slide-counts.json';
 import { groupTalks, type Talk } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
+import { talkUrl } from '../../lib/talk-url';
 
 // Canonical talk pages: one per abstract (notistSlug), aggregating every
 // delivery. Per-delivery pages at /{id}/{slug} keep their own URLs untouched —
@@ -28,7 +29,7 @@ const deliveries = group.deliveries;
 // Slide count for a delivery: rasterizer manifest first, then ingest-recorded
 // image count, then none (same precedence as the delivery page).
 const slideCountOf = (t: Talk) =>
-  (slideCounts as Record<string, number>)[t.data.notistId] ?? t.data.slideImageCount ?? 0;
+  (slideCounts as Record<string, number>)[t.id] ?? t.data.slideImageCount ?? 0;
 
 // Pick the best available media across deliveries (newest-first wins).
 const videoDelivery = deliveries.find((t) => t.data.video) ?? null;
@@ -38,9 +39,10 @@ const abstractDelivery = deliveries.find((t) => t.data.abstractHtml) ?? null;
 // The OG card reuses the representative delivery's existing per-talk card.
 const rep = deliveries[0];
 
-// Transcript: prefer the featured video delivery's, else any delivery that has one.
-const transcriptId = videoDelivery?.data.notistId
-  ?? deliveries.find((t) => readTranscript(t.data.notistId))?.data.notistId
+// Transcript: prefer the featured video delivery's, else any delivery that has
+// one. Keyed by the entry id (talk.id), matching the asset path.
+const transcriptId = videoDelivery?.id
+  ?? deliveries.find((t) => readTranscript(t.id))?.id
   ?? null;
 const transcript = transcriptId ? readTranscript(transcriptId) : null;
 
@@ -79,7 +81,7 @@ const description = abstractDelivery?.data.abstractHtml
 <Base
   title={`${group.title} · Matty Stratton`}
   description={description}
-  image={`/og/talks/${rep.data.notistId.toLowerCase()}.png`}
+  image={`/og/talks/${rep.id.toLowerCase()}.png`}
   imageAlt={`${group.title} — Matty Stratton`}
 >
   <article class="mx-auto max-w-3xl">
@@ -103,7 +105,7 @@ const description = abstractDelivery?.data.abstractHtml
 
     {slideDelivery && (
       <SlideBrowser
-        id={slideDelivery.data.notistId}
+        id={slideDelivery.id}
         slideCount={slideCountOf(slideDelivery)}
         title={group.title}
         slidesPdf={slideDelivery.data.slidesPdf}
@@ -122,7 +124,7 @@ const description = abstractDelivery?.data.abstractHtml
         {rows.map(({ talk, event, slides, date }) => (
           <li class="border-b border-rule last:border-0">
             <a
-              href={`/${talk.data.notistId.toLowerCase()}/${talk.data.notistSlug}`}
+              href={talkUrl(talk)}
               class="group flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3 transition-colors hover:bg-panel"
             >
               <span class="font-display font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">

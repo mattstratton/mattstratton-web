@@ -2,16 +2,16 @@ import type { APIRoute } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import { renderOgCard } from '../../../lib/og-card';
 
-// One OG card per talk delivery, keyed by the lowercase notistId so the URL lines
-// up with the talk page route (src/pages/[id]/[slug].astro) and Base.astro's
-// computed image path.
+// One OG card per talk delivery, keyed by the lowercase entry id (talk.id) so the
+// URL lines up with the talk page route (src/pages/[id]/[slug].astro) and
+// Base.astro's computed image path. For legacy talks talk.id === notistId.
 export async function getStaticPaths() {
   const talks = await getCollection('talks');
   const paths = [] as Array<{ params: { id: string }; props: Record<string, unknown> }>;
   for (const talk of talks) {
     const event = talk.data.event ? await getEntry(talk.data.event) : null;
     paths.push({
-      params: { id: talk.data.notistId.toLowerCase() },
+      params: { id: talk.id.toLowerCase() },
       props: {
         title: talk.data.title,
         eventName: event?.data.name ?? null,

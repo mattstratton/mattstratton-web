@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import { talkUrl } from '../lib/talk-url';
 
 const talks = (await getCollection('talks'))
   .filter((t) => t.data.video)
@@ -17,7 +18,7 @@ const items = await Promise.all(
         ? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`
         : t.data.thumbnail;
     return {
-      href: `/${t.data.notistId.toLowerCase()}/${t.data.notistSlug}`,
+      href: talkUrl(t),
       title: t.data.title,
       event: event?.data.name,
       year: t.data.presentedOn.getFullYear(),

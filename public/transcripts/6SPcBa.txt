@@ -1,992 +1,111 @@
-[Music]
-so my name is Maddy Stratton for a
-second I thought there was something
-wrong with a slide the Wain overhead was
-like what was happened but no um so I'm
-a DevOps advocate at pager duty how many
-people here have heard of pager duty
-great awesome I mentioned pager duty so
-now I fulfilled my obligation to my
-employer uh-huh
-how many people here are currently on
-call or in an on-call rotation okay cool
-if you are currently on call right now
-you do not need to silence your devices
-we have empathy for you I am also a
-Marvel fan boy I like Batman that's
-about as far in DC as I go but I love
-Marvel and you can find me on twitter at
-matt stratton so a couple things to
-think about be advised this talk i say
-may contain spoilers i should say will
-contain spoilers for basically
-potentially almost anything in the
-Marvel Cinematic Universe but especially
-infinity war an end game so if you
-haven't seen those movies and you don't
-want to be spoiled I'm not gonna tell
-you to leave because I want you all to
-stay but you have been warned also I
-feel like this statute is expired on
-those things and you know you came to a
-talk called the Thanos incident I think
-you know what you're getting yourself
-into right so and yeah references will
-abound I I try to make my talks as
-inclusive as possible but everybody has
-opted in to hear a talk about the
-Avengers so let's kind of think about
-this like what happened we want to talk
-we're gonna sit here we're gonna talk
-about Incident Response and we're gonna
-talk about a specific incident and the
-incident is what we and what has been
-called the snap right this is when
-Thanos snapped his fingers wiped out
-half of life in the universe I don't
-know how many P once you've been on but
-this one seems like a pretty big one
-right so we're gonna step through a
-couple things so first of all we're
-going to consider what we're gonna
-create a post-mortem of the incident
-we're gonna think about what occurred
-right
-and our approach will be to address this
-in a blameless fashion so we're gonna
-talk about how we approach this in a
-blameless way we're gonna see why the
-Avengers
-spoiler alert upon spoiler alert are
-terrible at that
-and what we really want to understand
-what happened as well as the process the
-Avengers used so a lot of times when we
-do a post-mortem or a post Instant
-review we're gonna think about the
-specific technologies the specific
-things in our system but we also think
-about our process in this case we're
-gonna focus a lot more on the process
-because the Avengers don't use
-kubernetes and for purposes of this
-discussion the Avengers will refer not
-only to the team usually referred to as
-the Avengers but maybe other heroes
-within the Marvel Cinematic Universe who
-are generally not considered Avengers
-but maybe sometimes they are sometimes
-they aren't so bear with me you don't
-need to explain how wrong I am when I
-call Peter quill and Avenger
-alright so granted we're gonna talk
-about timelines right we're gonna
-construct a timeline this is the first
-thing we do when we are creating and
-we're working on a post-mortem and I
-actually want to make a quick statement
-here again just like I'm using the term
-Avengers to kind of encompass maybe some
-folks who are not technically considered
-Avengers there's a lot of different
-terms we use for in our post-incident
-reviews we might call them a post
-incident review we might call them a
-post mortem we might call it an
-after-action report we might call it a
-learning review for sake of simplicity
-I'm gonna continue to use the term
-post-mortem but substitute in whatever
-your organization uses so one of the
-first things we do when we want to do
-analysis on an incident as we need to
-construct a timeline so we're gonna go
-along this and granted when we talk
-about timelines in this case it gets a
-little squirrely because there's
-time-travel involved but that's not what
-I mean by timelines and generally
-speaking in the post-mortems you do in
-your organization you're not creating
-alternate timelines when you're having a
-problem with terraform mostly right
-maybe just branches so maybe feature
-branches or like timelines or some
-branching but that metaphor falls apart
-pretty quickly so the thing
-remember is when we create a timeline
-we're not really ready to start analysis
-at this point right and we want to avoid
-hindsight bias so we're gonna start our
-timeline at a point before the incident
-began and work our way forward instead
-of backward right so when you're
-creating a timeline you want to stick to
-the facts right we're again we're not
-starting analysis yet we're constructing
-a what happened so it should be
-fact-based it should be based upon data
-that we might have from maybe our
-monitoring systems maybe from the chats
-logs that occurred during our incident
-call we want to include key decisions
-and actions taken by responders so not
-only is it things we did but what were
-decisions what things happened and it
-doesn't mean every single thing that
-someone did but what we're kind of the
-key points and we want to avoid at this
-point evaluating what should or
-shouldn't have been done we're trying to
-get the information so that we can then
-do our analysis and again as I said we
-start our time late at a point before
-the incident began to avoid hindsight
-bias I'm gonna talk about biases and
-cognitive distortions in a little bit
-but a lot of times the incident usually
-began before responders were aware of it
-so what we want to do is we want to sort
-of start our timeline before we became
-aware of it as much as we understand
-because that helps eliminate that
-hindsight bias so what's the high level
-timeline of the thanos incident right
-we're gonna kind of step through and
-again this is the high level timeline
-going through the actual complete
-timeline would probably take the full 45
-minutes so if you wanted a recap of the
-entire Avengers MCU that's a different
-talk right so we kind of started Thanos
-gets the Power Stone in the space stone
-in various ways right that's a thing
-that happens then you got Thor and the
-guardians of the galaxy they decide to
-split up so this is a decision that was
-made Thor
-decides to go and get himself a
-replacement from the earlier and then
-the rest had to know where because
-they're gonna try to intercept Thanos so
-a decision was made at this
-point right and then however a thing
-happens Thanos gets the reality stone
-from the collector on nowhere that's and
-that is a thing that occurs in our
-timeline a decision an action is taken
-by responders dr. strange uses the time
-stone to view millions of possible
-futures this would be really useful like
-during a real instant wouldn't it but
-unfortunately we don't have this
-available to us and then Fano sacrifices
-Gamora under warm air to obtain the soul
-stone then we have several team members
-attempt to recover the Infinity Gauntlet
-from Thanos on Titan these are actions
-are taken by responders they're trying
-to at this point fundamentally restore
-service best way they know how
-Doctor Strange an action a decision is
-made by a responder he decides to
-exchange the time stone in exchange for
-Tony Stark's life sharee is now taking
-action to try to remove the mind stone
-from vision so that it can be destroyed
-we have various team members various
-responders are attempting to defend
-vision while their other team member is
-working to restore service so we're
-working together but actions are taken
-Thanos obtains the mind stone from
-vision for attacks Thanos but is unable
-to defeat him and then finally what we
-recognize is the actual incident what
-occurs is that oh snaps his finger
-wiping out half of all life no big deal
-right some additional items happened in
-here but we're not going to dig into all
-of it right now so now that we have a
-timeline we can start to analyze our
-incident by the way thanks to Ty Bob and
-Ryan kitchens from Netflix for both
-being influences on the idea of Groot
-cause analysis that was amazing timing
-but we're gonna dig into what we can
-learn from this now we've constructed
-our timeline so when we think about this
-in course of an incident that's
-occurring within our organization we
-start by creating that timeline and
-understanding of what happened and then
-we can begin our analysis here's the
-thing right systems are complex there's
-a lot going on
-and we just had a really funny slide
-that implied you know made a reference
-to the term root cause analysis this is
-probably going to be the last time you
-ever hear me endorse the word or the
-phrase root cause so here's the thing
-right there is no single root cause of
-failure in complex systems it's a
-combination of contributing factors
-right we always want to remind ourselves
-there is no root cause and our goal in
-analyzing the incident is not to
-identify this smoking gun this root
-cause this thing that is why it happened
-we want to understand the multiple
-factors that created an environment
-where this failure became possible so if
-you learn nothing else from this talk
-it's to maybe start using the term
-contributing factors when we think about
-this and the reason that root cause can
-be dangerous to think about is because
-we will identify a root cause we want to
-our brains want us to do that our bosses
-want us to do that and but then we stop
-we're like well it must have pinned this
-and I will tell you something so I
-usually tell when a lot of my talks when
-I talk about root cause and contributing
-factors I make the comment that the only
-root cause is the big bang in the case
-of the MCU that is actually literally
-true because that's when the Infinity
-stones were created and if there was no
-Big Bang there would be no infinity
-stone so therefore there's our root
-cause is that helpful for us to know
-absolutely not we want to think about
-what we're all the contributing factors
-that occurred that got us to this point
-that there was failure in our team's
-ability to provide incident response
-right so we're gonna take a little time
-to talk about being blameless how many
-people have heard about blameless
-post-mortems before the idea of
-blameless this great so we're gonna talk
-about why it's important but even more
-than that we're gonna talk about why
-it's hard and we're not just gonna sit
-down and say well we should do that but
-it's hard
-oh no we're actually talk about how to
-be able to counter these things right
-so when we think about this why does it
-matter right so first of all this
-impulse to blame really has this
-unintended effect of it creates this
-disabilities this situation where we
-don't share knowledge right
-a couple pithy quotes to think about
-number one right you can't fire your way
-to reliability and I always like to say
-that if people are afraid of being
-blamed for making mistakes that is not
-going to cause them to create fewer
-mistakes it actually causes them to
-become subject matter experts in hiding
-their mistakes people don't speak up in
-a culture of blame and then you have
-even less insight into things that are
-going on in your system and in your
-organization so the goal of the
-post-mortem right is to understand what
-systemic failures you know led to the
-incident and also let's identify actions
-that can help improve the resiliency of
-our systems you'll notice I didn't say
-identify actions that can prevent this
-from occurring again this is my little
-pro tip to you to start getting the word
-prevent out of your out of your language
-when you're working with your team's
-because you don't want your big bosses
-to hear the idea that you're trying to
-prevent things because guess what
-happens if it happens again I thought
-you said you were going to prevent it we
-might not be able to prevent them from
-occurring but we can mitigate the impact
-and we can create more resilient systems
-keep this in mind in today's systems
-they are always in some state of failure
-or degradation right dr. Richard Cooke
-has said right it's not the fact that
-you know we shouldn't sit there and say
-like it'sit's amazing that we have
-failures it's amazing that our systems
-work at all right so we're always going
-to have some type of degradation we want
-to build adaptive capacity into our
-systems and our systems include our
-technical systems as well as the people
-who operate and deploy them so that when
-these systemic things happen our systems
-and our people are able to adapt and
-minimize the impact of these failures
-and we want to stay focused on how
-a mistake was made not on who did it it
-does not fundamentally help us to know
-who did if you go back to the the idea
-is so Sidney Dekker wrote a great book
-called about human error and he talks
-about there's two different models of
-human error there's kind of the older
-model which is the idea that there are
-bad actors people who are bad at their
-job who are causing problems because of
-fundamental character flaws in them and
-then the newer way to think about it is
-again we're not thinking about bad
-actors we're thinking about what
-happened in the system where any
-reasonable person might have made the
-same mistake and what are the systemic
-factors that allowed that to happen so
-why is it hard right like we kind of at
-this point I mean whether you know
-DevOps is like 10 years old like John
-auspi wrote about blameless post-mortems
-like seven years ago like we get it that
-this matters so we should be able to
-just say let's all go be blameless now
-right we know that blaming sucks why is
-it hard so the first thing is that when
-we're trying to compensate for failure
-the human mind takes shortcuts and this
-is intuition this is usually an
-advantage this is our prefrontal cortex
-being able to make these intuitive leaps
-but these shortcuts can be damaging
-right and this is another thing to think
-about
-we are hardwired from millions of years
-of evolution to want to blame and this
-is why Jay Paul Reid says blamelessness
-is something you cannot achieve we
-should instead be blame aware we cannot
-change our neuropsychological evolution
-these are the tendencies that we have as
-human beings but when we're aware of
-them we're able to do something about it
-and the human mind optimizes for
-timeliness over accuracy when processing
-failure and this can lead to cognitive
-biases so let's take a minute to talk
-about what some of those cognitive
-biases are right so we're gonna go into
-them in depth here but if we're aware of
-these biases we can identify when they
-occur and we can work to move past them
-so they're basically fundamentally no
-pun intended fundamental attribution
-error
-confirmation bias hindsight bias and
-negativity bias there are a lot more
-cognitive distortions and more biases
-but these are the four that tend to lead
-us in a path of blame so listen about
-fundamental attribution error this is
-the tendency to believe that what people
-do reflects their character rather than
-their circumstances this describes that
-old view of human error that Dekker
-talks about which assigns responsibility
-to bad actors who are careless and
-incompetent ironically we tend to
-explain our actions our own actions by
-context not our personality unless we're
-one de Wanda takes it on herself so this
-is fundamental attribution error to
-herself that occurred after Civil War or
-during Civil War so how do you combat
-this fundamental attribution error we
-focus instead our analysis on
-situational causes rather than discrete
-actions that individuals took this can
-be really really challenging when
-working with more senior people in your
-organization who are not aware of the
-damaging things that blame can cause
-people at senior levels tend to want
-someone to fire they want someone to
-blame and that's because to get to a
-senior level you've probably been
-working in this industry for a long time
-and for a long time we've subscribed to
-the old view of human error so
-confirmation bias this is pretty
-pervasive and this is a tendency to
-favor information that reinforces our
-existing beliefs so when we're presented
-with ambiguous information which tracks
-cannot handle we tend to interpret in a
-way that supports our existing
-assumptions so when we combat that with
-that old view of human error it's
-dangerous for post-mortems because if we
-want to find a bad apple we will find
-one right if our eye our confirmation
-bias is that failure occurs because of
-human error we will find someone we will
-blame them for it right so Lindsey home
-would suggest that if we want to avoid
-combination by a confirmation bias you
-can appoint someone in your analysis to
-play devil's advocate to take these
-contrarian view points during
-investigation
-but you have to be cautious to not
-introduce negativity or combativeness
-when you're playing devil's advocate
-another way is to invite someone from
-another team to ask any and all
-questions that come to their mind
-because those of us that we've been
-supporting we've been working for a
-system for a long time we tend to find
-things that support what we believe
-based on our experience this is also why
-junior engineers are fantastic people to
-include in your post incident review
-because they will ask questions that
-those of us that have been doing this
-for a long time it would never occur to
-us to ask and we'll continue to go down
-the same path hindsight bias comes up a
-lot this is a memory distortion where we
-recall events to form a judgment so if
-we know the outcome it's really easy to
-see the event as having been predictable
-well of course we would should have seen
-this coming despite the fact that there
-was little or no objective basis for
-predicting it again most of our teams do
-not have the time stone we actually
-cannot tell the future an example is
-when a person who's analyzing the
-incident believes they knew it would
-happen like that right if someone had
-only involved me I could have told them
-that this scaling issue would have come
-up this was uh this should have been
-clear why was this not seen hindsight
-bias tends to also come up with folks at
-a more senior level which is why could
-this not have been seen this seems so
-obvious right and a way to avoid this is
-just like we talked about earlier start
-your analysis at the beginning before
-the incident and move forward we tend to
-want to move backwards we tend to say it
-started here now let's start to build
-our timeline backwards and that will
-lead us down the path of hindsight bias
-and then finally we talk about
-negativity bias this is the notion that
-things of a more negative nature have a
-greater effect on our mental state than
-those of neutral or even positive nature
-and research has shown that negative
-information disproportionately impacts a
-person impression of others right again
-this relates to the bad apple theory we
-tend to believe negative information we
-hear about people or that we witness
-versus is positive and people are more
-likely
-a tribute negative outcomes of the
-intentions of another person then
-neutral or positive the reality is
-things go right more often than they go
-wrong but we tend to focus and magnify
-on the importance of negative events so
-if we focus and exaggerate internalizing
-events as negative events and since as
-negative events
-that's demoralizing it can lead to
-burnout we want to reframe incidents as
-learning opportunities another way to
-think about this and this might be a
-stretch as incidents are a gift right
-incidents are a way of our systems
-telling us something we didn't know
-before you can also help counter
-negativity bias when you're doing your
-post incident analysis by not just
-focusing on what went wrong ask
-questions about what went right maybe
-even where did we get lucky those are
-important things and they're important
-factors so how do we avoid blame how do
-we practically deal with this stuff
-right so there's a couple really key
-ones ask what and how questions instead
-of who or why this is the slide when
-everybody says but what about the five
-why's and instead I would point you to
-an article John auspi wrote called the
-infinite house and I will give a link at
-the end of this presentation that's got
-all the resources all the articles I'm
-talking about but if we ask how
-questions instead of why this gets
-people to describe at least some of the
-conditions that allowed an event to take
-place Lindsey Homewood also clarify
-notes at how questions help clarify
-technical details and it distances
-people from the actions that they took
-when we asked why questions this tends
-to create a need for defensiveness right
-I have to explain my behavior why
-questions even if it's not in post
-incident review when I'm helping
-organizations change oftentimes the
-first thing is like well let me explain
-to you why we're doing things the way we
-did I'm like I believe you if you had
-all the information you had we're moving
-forward why questions tend to put people
-on their heels and make them feel like
-they have to justify their behavior
-because fundamentally that is what
-you're asking them to do we want to
-consider multiple and diverse
-perspectives so I talked about this a
-little bit about bringing in people from
-another team
-when you're doing your post incident
-analysis it's not just about the
-engineers who worked on that there may
-be your incident command or maybe the
-scribe maybe the comms person there are
-a lot of different people who were
-involved in the incident that may have
-different perspectives and asked
-questions that might not occur to you
-and here's the thing you want to ask
-yourself you know why a reasonable
-competent and decent person would have
-taken those actions right because what
-this is happening is because when we're
-analyzing failure we fall into victim
-villain and helplessness stories that
-propel emotions and attempt to justify
-our worst behavior so we can move by
-this bye-bye behind this body telling
-the rest of the story right consider
-your and others roles in the problem ask
-yourself if you don't understand you
-know what could be the factors that
-would lead a reasonable rational and
-decent person to take that action that
-caught that that related in the incident
-right this helps turn attention to the
-systemic factors that led to the
-incident and you know we want to
-abstract to an in specific responder so
-this one is hard right but I'm really
-really a big fan of this right so when
-we're inquiring about a human action we
-want to abstract to the in specific
-anyone could have made that same mistake
-so I am a big believer of not using
-names in post-mortems especially not in
-post-mortem documents you may be able to
-have a conversation about it now the
-problem with abstracting to an in
-specific responder where this gets
-actually really hard is when you want to
-say something positive right because but
-you need to keep with that so what this
-means we can still talk about roles but
-instead of talking about Ken I'm gonna
-say the senior sre and even when you get
-to an organization that is good at
-blamelessness you may feel like you can
-actually do this and this actually
-happened inside our organization we have
-some folks started you know brought up
-and said hey I noticed that someone's
-name was in this post mortem document I
-thought we don't do that
-and another responder said well actually
-we're really good at blamelessness at
-pager duty so we can get away with it
-and that person was not necessarily
-wrong but the reminder is while the
-people there right now
-might be good at that you are constantly
-bringing new people into the
-organization who have to learn by
-example the other reason and maybe this
-is purely selfish while maybe you might
-be able to use names in a conversation
-documents are searchable and the last
-thing you want is somebody searching
-post-incident reviews at the time of
-somebody's annual review and then who
-doesn't understand the concepts of
-blamelessness so and again contrast what
-you did not intend with what you did so
-even when you make your best effort to
-remain blameless it's possible that
-someone may still become defensive
-during a post-mortem meeting if they
-feel that they're being blamed so when
-this happens we want to work to restore
-mutual purpose and mutual respect so we
-can continue the conversation it's not
-productive to have people people feel
-defensive it's okay to feel defensive by
-the way and the way that we do this is
-reiterate that the goal is to understand
-systemic factors right people act out
-defensively when they when they feel
-that their character is being attacked
-so we can contrast this by saying I did
-not mean to imply that you're bad at
-your job contrasted with what you did
-intend which was I wanted to inquire I
-wanted to ask about what was the
-situation what was happening how did
-this happen
-right we're refocusing our question away
-from individual motivation because that
-implies blame also by abstracting to the
-in specific responder this encourages
-other responders to be more active in
-contributing suggestions as to what
-could have also contributed because we
-also generally don't want to blame our
-co-workers we like our co-workers so it
-could be challenging right so here's the
-thing right all practitioner actions are
-Gamble's right that is we don't we know
-again we don't have the time stone right
-there axe to take place in the face of
-uncertain outcomes and the person who
-said this is dr. Richard Cook of
-adaptive capacity labs now and another
-way to put that to bring this back is
-this comment here which is you never
-know you hope for the best and you make
-through with what you got and that was
-said by Nick Fury right so you can
-either listen to dr. cook or you can
-listen to fury they're both
-fundamentally saying the same thing we
-don't know what's going to happen so
-remember that that individual actions
-are always Gamble's based upon what we
-knew at the time so what can we learn
-what can we learn from the Avengers and
-how they responded to Thanos so one
-thing and I talked about this a little
-bit blame happens a lot on this team
-they love to blame Tony loves to blame
-Steve Rogers for almost everything
-somehow right this is always a challenge
-at the beginning of endgame right it was
-you weren't there you let me down it was
-about caps character it wasn't about why
-did this how did this happen it was
-about the individual right so we're
-gonna focus on the incident response
-process of the team again this is not
-about prevention and not to pick on Tony
-Stark but here's another place he kind
-of messes it up Tony is all about the
-idea of being able to prevent right he
-literally wants to build a suit of armor
-around the world to keep systems
-humanity from failing if we try to
-address our systemic issues this way
-which is if we just built enough
-technology we could have a hundred
-percent uptime you can't right and the
-thing is so weak and we can't prevent
-Thanos but we can learn how to get
-better at responding to incidents so we
-want to think about the idea of having
-an incident commander during an incident
-response process this is really critical
-right so when the Avengers work well
-together they generally have someone
-calling the shots right so we think
-about the Battle of New York cap was
-kind of in charge things work generally
-well and it does seem like cap tends to
-be the most likely person he takes that
-leadership role but B he's also a
-responder he's someone who fights the
-villains who fights the baddies right
-and that can be a problem because not to
-mix up our pop culture references but as
-Ron Swanson would say never half-ass two
-jobs whole last one
-job you can't be an incident commander
-and a responder at the same time and
-when we talk about we talk a little bit
-about what the incident commander does
-so the first thing to bear in mind is
-the incident command incident commander
-is a role it's not necessarily someone's
-job you may have people who have a title
-of incident manager or something like
-that but we're not talking about where
-you fall in the org chart we're actually
-talking about a role you take during an
-incident and it's the roll is called
-incident commander
-so incident commanders main role during
-an incident is to delegate and
-coordinate right so they are sitting
-there and helping get the right people
-the subject matter experts the folks who
-know how to help resolve that issue and
-restore service to enable them to do
-that and also to help collect
-information so they delegate and they
-coordinate right they're also a
-decision-maker and this sometimes gets a
-little bit tricky so the thing is nobody
-should take any action on an incident
-unless the incident commander has said
-so and this gets really really tricky
-when we go to the next part about being
-an incident commander which is they are
-the single source of truth on an
-incident call and the incident commander
-outranks everybody else on the call
-including the CEO now if you choose to
-take this on in your organization do not
-surprise your executives with this
-during an incident call that will not go
-terribly well but the reason this is
-really essential to Incident Response is
-to understand that for the purposes of
-incident resolution the incident
-commander is the head honcho and again
-they should not be an incident responder
-because there's too much going on they
-need to be able to look at the bigger
-picture and also having the incident
-commander freeze up our subject matter
-experts to be able to focus on their
-areas of domain knowledge and expertise
-right so who would be a great incident
-commander for the Avengers right so you
-might think that it's Fury right Nick
-Fury would be great incident commander
-he actually super isn't for a couple of
-reasons
-one is Nick Fury has a position of
-authority within the organization
-sometimes that could be hard a lot of
-times we want to make our incident
-commanders be managers and then that
-creates this weird power dynamic during
-the call where I don't know is this Matt
-the manager or Matt the incident
-commander and my relationship with the
-other responders is different one
-interesting thing we learned at page of
-duty because for a while we also felt
-like our incident commanders had to be
-very strong technically and we have
-since found that some of our best
-incident commanders come from our
-product organization or our customer
-success organization or a project
-management roles scrum masters people
-like that are really good at being
-incident commanders and the reason I
-bring this up is first of all if you are
-the incident commander and you discover
-you are the best person to respond to
-something in the incident you have to
-now delegate someone else to be the
-incident commander product owners are
-almost never the subject matter expert
-to login to a server and restart
-something they also tend to have really
-good delegation and communication skills
-and finally this is just a little bit of
-a selfish thing that comes up when your
-product owners carry a pager they
-suddenly care a little bit more about
-those resiliency stories or trying to
-push through the thing is at the end of
-the day you're gonna have a hard enough
-time finding people willing to be
-incident commander so you don't want to
-limit who can actually do that so
-actually Maria Hill would be a fantastic
-incident commander so she's got great
-skills at communication a delegation at
-decision-making and doesn't necessarily
-kind of have some of the challenges that
-Fury might have right so row tations
-being an on-call rotations row doesn't
-matter right so one of the problems with
-the Avengers is they are always on call
-right like they always might be called
-and here's the thing so if you're not
-part of a rotation that means you're
-never off call I have this conversation
-a lot with folks who are you know
-they're like oh don't put me in the
-on-call rotation you know I don't want
-to do that and do that I guess I got
-news for you if you're not part of a
-rota
-you're always on call the beautiful
-thing about being on call is you get to
-go off so being constantly on constantly
-needing to be a made available
-is a massive amount of stress and
-burnout potential and you want to
-escalate and ask for help so what are
-the things that we always kind of wonder
-when we watch the individual hero movies
-like the Winter Soldier where's
-everybody else
-right what was Tony Stark doing during
-the events of the Winter Soldier when a
-whole bunch of helicarriers were
-crashing around you know where was the
-rest of the team and for our teams that
-means again going back to our systems
-are complex we may think that this is
-localized within our particular domain
-but we need to have ways to call in
-resources from other areas that can help
-us out we don't need to try to do
-everything ourselves and this goes back
-to this idea of hero culture right and I
-always think back years and years ago
-there was this poster I saw on a
-software company I'm not gonna call them
-out and it said how does it feel to save
-the day every day not all heroes wear
-capes and as a sysadmin in the late 90s
-I loved that poster today I look at it I
-said I want to burn that thing right
-because hero culture again gets you Tony
-I have a plan he goes off on his own
-he's gonna save the day
-and that makes you feel good maybe right
-in the moment but this leads to burnout
-it also creates brittleness and your
-organization or team you have these
-single points of failure when you have
-folks that are always the ones that are
-saving the day and this is because team
-yeah that was gonna be more powerful if
-I could have said it teamwork makes the
-dream work right maybe you are the most
-senior person on your team maybe you're
-the one who actually wrote that function
-maybe you're the one who commits to
-kubernetes so you must know it better
-than everyone else you can't do this
-alone
-right diverse perspectives and
-experiences all contribute it's not just
-about the technical knowledge it's about
-the questions you might ask these things
-are all essential an incident response
-coming from all sorts of things that
-we've done and also an incident analysis
-so bringing in more folks into the
-conversation so when we think about
-sharing on call right and again this is
-sometimes a controversial statement how
-many people hear more
-identify as dev or software engineers in
-operation folks okay so if I tell you I
-think you should go on call you might
-have strong appeals about that right but
-here's a couple things to think about
-right so here's where the problems and
-thence you Carol is the only one who
-carries a pager right you know that's
-kind of a lot of stress and so the more
-folks that are on call the less the load
-for everyone we're distributing the work
-we're distributing the load and you need
-to have a consistent mechanism for
-bringing in your experts during incident
-response this is really key we need to
-have that ability because that's the
-thing you know captain Burroughs was the
-only one with a pager how do I get a
-hold of all of the Avengers on my team
-when they're the right person I don't
-know and the problem is they you might
-have problems that we don't cause like I
-don't know if pager duty works in space
-and as my coworker said yeah it probably
-does but the latency is gonna kill you
-right so you need to have some way I'm
-not telling you you have to buy pager
-duty but have some consistent way of
-knowing how to get a hold of
-organizational teams so what are the
-things that we have learned right so
-we've learned a couple things so one is
-this is all about trust
-right we can't work together without
-trust without trusting our colleagues
-without trusting our other teams without
-trusting our leadership to be able to
-feel that we are in a culture and an
-ability where we can speak up and we can
-contribute blame erodes trust and then
-if nothing else the most important thing
-you might learn is never ever put the
-Avengers on call for your software
-solution they are quite literally the
-worst at all of this so as I mentioned
-if you go to speaking Matt's frantic on
-these slides will be up there I also
-have a whole bunch of supporting links
-and articles that you might find
-interesting it's hopefully easy to
-remember you can also find me on Twitter
-at Matt Stratton
-it's just some acknowledgments I'd like
-to give so Jeremy Mesa and Karissa paths
-helped me come up with this idea at
-South California Linux Expo earlier in
-the year we had just seen Captain Marvel
-we're trying to explain DevOps to a
-couple random people we met at a hotel
-and we're trying to explain on call and
-this is what came up nelson i'm al
-harrington helped me kind of think about
-things a little
-more suraíh from pager duty gave me the
-ability to tweet and then Ryan kitchens
-from Netflix in addition to coming up
-with Groot cause analysis is also the
-one who tell you that I have the best
-hair out of any developer advocate so we
-got to love that so with that I think we
-have a few minutes if anybody has
-questions if not I'm happy to let
-everybody go and get some lunch earlier
-come find me during the hallway track
-I'd love to hear about what you're doing
-for incident response and incident
-analysis your organization thank you
-[Applause]
-[Music]
+So my name is Matt Stratton. For a second I thought there was something wrong with a slide — the main overhead was like what happened. But I'm a DevOps advocate at PagerDuty. How many people here have heard of PagerDuty? Great, awesome. I mentioned PagerDuty so now I fulfilled my obligation to my employer.
+
+How many people here are currently on call or in an on-call rotation? Okay, cool. If you are currently on call right now, you do not need to silence your devices. We have empathy for you. I am also a Marvel fanboy. I like Batman — that's about as far in DC as I go — but I love Marvel. And you can find me on Twitter at Matt Stratton.
+
+So a couple things to think about: be advised this talk will contain spoilers for basically potentially almost anything in the Marvel Cinematic Universe, but especially Infinity War and Endgame. So if you haven't seen those movies and you don't want to be spoiled, I'm not gonna tell you to leave because I want you all to stay, but you have been warned. Also I feel like the statute is expired on those things, and you came to a talk called the Thanos Incident — I think you know what you're getting yourself into, right? And yeah, references will abound. I try to make my talks as inclusive as possible, but everybody has opted in to hear a talk about the Avengers.
+
+So let's kind of think about this — what happened. We want to talk, we're gonna sit here and talk about Incident Response, and we're gonna talk about a specific incident. The incident is what has been called the Snap, right? This is when Thanos snapped his fingers and wiped out half of life in the universe. I don't know how many P1s you've been on, but this one seems like a pretty big one, right?
+
+So we're gonna step through a couple things. First of all, we're going to create a post-mortem of the incident. We're gonna think about what occurred, and our approach will be to address this in a blameless fashion. So we're gonna talk about how we approach this in a blameless way, we're gonna see why the Avengers — spoiler alert upon spoiler alert — are terrible at that, and what we really want to understand is what happened as well as the process the Avengers used.
+
+A lot of times when we do a post-mortem or a post-incident review, we're gonna think about the specific technologies, the specific things in our system, but we also think about our process. In this case we're gonna focus a lot more on the process because the Avengers don't use Kubernetes. And for purposes of this discussion, the Avengers will refer not only to the team usually referred to as the Avengers but maybe other heroes within the Marvel Cinematic Universe who are generally not considered Avengers but maybe sometimes they are, sometimes they aren't. So bear with me — you don't need to explain how wrong I am when I call Peter Quill an Avenger.
+
+Alright, so granted, we're gonna talk about timelines, right? We're gonna construct a timeline. This is the first thing we do when we are creating and working on a post-mortem. And I actually want to make a quick statement here — again, just like I'm using the term Avengers to encompass maybe some folks who are not technically considered Avengers, there's a lot of different terms we use for post-incident reviews. We might call them a post-incident review, we might call them a post-mortem, we might call it an after-action report, we might call it a learning review. For sake of simplicity, I'm gonna continue to use the term post-mortem, but substitute in whatever your organization uses.
+
+So one of the first things we do when we want to do analysis on an incident is we need to construct a timeline. And granted, when we talk about timelines in this case it gets a little squirrely because there's time travel involved, but that's not what I mean by timelines. Generally speaking, in the post-mortems you do in your organization, you're not creating alternate timelines when you're having a problem with Terraform. Mostly, right? Maybe just branches — like feature branches are like timelines, some branching — but that metaphor falls apart pretty quickly.
+
+The thing to remember is when we create a timeline, we're not really ready to start analysis at this point, and we want to avoid hindsight bias. So we're gonna start our timeline at a point before the incident began and work our way forward instead of backward. When you're creating a timeline, you want to stick to the facts. We're again not starting analysis yet, we're constructing a "what happened." So it should be fact-based, it should be based upon data that we might have from maybe our monitoring systems, maybe from the chat logs that occurred during our incident call. We want to include key decisions and actions taken by responders — so not only things we did but what were decisions, what things happened. It doesn't mean every single thing that someone did, but what were the key points. And we want to avoid at this point evaluating what should or shouldn't have been done. We're trying to get the information so that we can then do our analysis. And again, as I said, we start our timeline at a point before the incident began to avoid hindsight bias.
+
+I'm gonna talk about biases and cognitive distortions in a little bit, but a lot of times the incident usually began before responders were aware of it. So what we want to do is start our timeline before we became aware of it as much as we understand, because that helps eliminate hindsight bias.
+
+So what's the high-level timeline of the Thanos incident? We're gonna kind of step through, and again this is the high-level timeline — going through the actual complete timeline would probably take the full 45 minutes, so if you wanted a recap of the entire Avengers MCU that's a different talk.
+
+So we kind of started: Thanos gets the Power Stone and the Space Stone in various ways, right? That's a thing that happens. Then you got Thor and the Guardians of the Galaxy — they decide to split up. So this is a decision that was made. Thor decides to go and get himself a replacement axe, and then the rest head to Knowhere because they're gonna try to intercept Thanos. A decision was made at this point. And then however, a thing happens: Thanos gets the Reality Stone from the Collector on Knowhere. That is a thing that occurs in our timeline. A decision, an action is taken by responders: Doctor Strange uses the Time Stone to view millions of possible futures. This would be really useful during a real incident, wouldn't it? Unfortunately we don't have this available to us. And then Thanos sacrifices Gamora on Vormir to obtain the Soul Stone. Then we have several team members attempt to recover the Infinity Gauntlet from Thanos on Titan. These are actions taken by responders — they're trying to at this point fundamentally restore service the best way they know how. Doctor Strange — a decision is made by a responder — he decides to exchange the Time Stone in exchange for Tony Stark's life. Shuri is now taking action to try to remove the Mind Stone from Vision so that it can be destroyed. We have various team members, various responders, attempting to defend Vision while their other team member is working to restore service. So we're working together, but actions are taken. Thanos obtains the Mind Stone from Vision. Thor attacks Thanos but is unable to defeat him. And then finally what we recognize as the actual incident: Thanos snaps his finger, wiping out half of all life. No big deal, right?
+
+Some additional items happened in here but we're not going to dig into all of it right now. So now that we have a timeline we can start to analyze our incident. By the way, thanks to Tiago Bob and Ryan Kitchens from Netflix for both being influences on the idea of Groot Cause Analysis — that was amazing timing. But we're gonna dig into what we can learn from this.
+
+Now we've constructed our timeline, so when we think about this in the course of an incident that's occurring within our organization we start by creating that timeline and understanding of what happened, and then we can begin our analysis. Here's the thing, right? Systems are complex, there's a lot going on. And we just had a really funny slide that made a reference to the term root cause analysis. This is probably going to be the last time you ever hear me endorse the word or the phrase root cause.
+
+So here's the thing: there is no single root cause of failure in complex systems. It's a combination of contributing factors. We always want to remind ourselves there is no root cause, and our goal in analyzing the incident is not to identify this smoking gun, this root cause, this thing that is why it happened. We want to understand the multiple factors that created an environment where this failure became possible.
+
+So if you learn nothing else from this talk, it's to maybe start using the term contributing factors. The reason that root cause can be dangerous to think about is because we will identify a root cause — we want to, our brains want us to do that, our bosses want us to do that — and but then we stop. We're like, well, it must have been this. I usually tell this when I talk about root cause and contributing factors: I make the comment that the only root cause is the Big Bang. In the case of the MCU that is actually literally true because that's when the Infinity Stones were created, and if there was no Big Bang there would be no Infinity Stones. So therefore there's our root cause — is that helpful for us to know? Absolutely not. We want to think about what were all the contributing factors that occurred that got us to this point, that there was failure in our team's ability to provide incident response.
+
+So we're gonna take a little time to talk about being blameless. How many people have heard about blameless post-mortems before, the idea of blamelessness? Great. So we're gonna talk about why it's important, but even more than that we're gonna talk about why it's hard. And we're not just gonna sit down and say well we should do that but it's hard. No, we're actually going to talk about how to be able to counter these things.
+
+So when we think about this — why does it matter? So first of all, this impulse to blame really has this unintended effect where it creates a situation where we don't share knowledge. A couple pithy quotes to think about: number one, you can't fire your way to reliability. And I always like to say that if people are afraid of being blamed for making mistakes, that is not going to cause them to create fewer mistakes. It actually causes them to become subject matter experts in hiding their mistakes. People don't speak up in a culture of blame, and then you have even less insight into things that are going on in your system and in your organization.
+
+So the goal of the post-mortem is to understand what systemic failures led to the incident, and also let's identify actions that can help improve the resiliency of our systems. You'll notice I didn't say identify actions that can prevent this from occurring again. This is my little pro tip to you: start getting the word "prevent" out of your language when you're working with your teams, because you don't want your big bosses to hear the idea that you're trying to prevent things. Because guess what happens if it happens again? "I thought you said you were going to prevent it." We might not be able to prevent them from occurring, but we can mitigate the impact and we can create more resilient systems.
+
+Keep this in mind: in today's systems they are always in some state of failure or degradation. Dr. Richard Cook has said it's amazing that our systems work at all, right? So we're always going to have some type of degradation. We want to build adaptive capacity into our systems, and our systems include our technical systems as well as the people who operate and deploy them, so that when these systemic things happen, our systems and our people are able to adapt and minimize the impact of these failures.
+
+And we want to stay focused on how a mistake was made, not on who did it. It does not fundamentally help us to know who did it. Sidney Dekker wrote a great book about human error and he talks about there's two different models of human error. There's kind of the older model which is the idea that there are bad actors — people who are bad at their job who are causing problems because of fundamental character flaws in them — and then the newer way to think about it is we're not thinking about bad actors, we're thinking about what happened in the system where any reasonable person might have made the same mistake, and what are the systemic factors that allowed that to happen.
+
+So why is it hard? Like, we kind of at this point — DevOps is like 10 years old, John Allspaw wrote about blameless post-mortems like seven years ago — we get it that this matters, so we should be able to just say let's all go be blameless now, right? We know that blaming sucks. Why is it hard?
+
+So the first thing is that when we're trying to compensate for failure, the human mind takes shortcuts. This is intuition, this is usually an advantage, this is our prefrontal cortex being able to make these intuitive leaps. But these shortcuts can be damaging. And this is another thing to think about: we are hardwired from millions of years of evolution to want to blame. And this is why John Paul Reid says blamelessness is something you cannot achieve — we should instead be blame-aware. We cannot change our neuropsychological evolution. These are the tendencies that we have as human beings, but when we're aware of them we're able to do something about it. And the human mind optimizes for timeliness over accuracy when processing failure, and this can lead to cognitive biases.
+
+So let's take a minute to talk about what some of those cognitive biases are. If we're aware of these biases we can identify when they occur and we can work to move past them. There are basically — no pun intended — fundamental attribution error, confirmation bias, hindsight bias, and negativity bias. There are a lot more cognitive distortions and more biases, but these are the four that tend to lead us in a path of blame.
+
+So first about fundamental attribution error: this is the tendency to believe that what people do reflects their character rather than their circumstances. This describes that old view of human error that Dekker talks about, which assigns responsibility to bad actors who are careless and incompetent. Ironically, we tend to explain our own actions by context, not our personality. And a great MCU example of this is Wanda, who takes it on herself after Civil War — that's fundamental attribution error applied to herself.
+
+So how do you combat fundamental attribution error? We focus instead in our analysis on situational causes rather than discrete actions that individuals took. This can be really really challenging when working with more senior people in your organization who are not aware of the damaging things that blame can cause. People at senior levels tend to want someone to fire, they want someone to blame, and that's because to get to a senior level you've probably been working in this industry for a long time, and for a long time we've subscribed to the old view of human error.
+
+So confirmation bias — this is pretty pervasive, and this is a tendency to favor information that reinforces our existing beliefs. When we're presented with ambiguous information, which our brains cannot handle, we tend to interpret it in a way that supports our existing assumptions. When we combine that with the old view of human error, it's dangerous for post-mortems, because if we want to find a bad apple we will find one. If our confirmation bias is that failure occurs because of human error, we will find someone, we will blame them for it.
+
+So Lindsey Holmwood would suggest that if you want to avoid confirmation bias, you can appoint someone in your analysis to play devil's advocate, to take contrarian viewpoints during investigation. But you have to be cautious to not introduce negativity or combativeness when you're playing devil's advocate. Another way is to invite someone from another team to ask any and all questions that come to their mind, because those of us that have been working in a system for a long time tend to find things that support what we believe based on our experience. This is also why junior engineers are fantastic people to include in your post-incident review, because they will ask questions that those of us who have been doing this for a long time would never occur to ask, and we'll continue to go down the same path.
+
+Hindsight bias comes up a lot. This is a memory distortion where we recall events to form a judgment. If we know the outcome, it's really easy to see the event as having been predictable — well, of course we should have seen this coming — despite the fact that there was little or no objective basis for predicting it. Again, most of our teams do not have the Time Stone. We actually cannot tell the future. An example is when a person who's analyzing the incident believes they knew it would happen: "If someone had only involved me I could have told them that this scaling issue would have come up. This should have been clear — why was this not seen?" Hindsight bias tends to also come up with folks at a more senior level: "Why could this not have been seen? This seems so obvious." And a way to avoid this is just like we talked about earlier — start your analysis at the beginning before the incident and move forward. We tend to want to move backwards, to say it started here and now let's build our timeline backwards, and that will lead us down the path of hindsight bias.
+
+And then finally we talk about negativity bias. This is the notion that things of a more negative nature have a greater effect on our mental state than those of neutral or even positive nature. Research has shown that negative information disproportionately impacts a person's impression of others. Again, this relates to the bad apple theory — we tend to believe negative information we hear about people or that we witness versus positive, and people are more likely to attribute negative outcomes to the intentions of another person than neutral or positive. The reality is things go right more often than they go wrong, but we tend to focus on and magnify the importance of negative events.
+
+So if we focus on and exaggerate negative events and internalize events as negative events, that's demoralizing — it can lead to burnout. We want to reframe incidents as learning opportunities. Another way to think about this — and this might be a stretch — is incidents are a gift, right? Incidents are a way of our systems telling us something we didn't know before. You can also help counter negativity bias when you're doing your post-incident analysis by not just focusing on what went wrong — ask questions about what went right, maybe even where did we get lucky. Those are important things and they're important factors.
+
+So how do we avoid blame? How do we practically deal with this stuff? So there are a couple really key ones. Ask what and how questions instead of who or why. This is the slide where everybody says "but what about the Five Whys?" And instead I would point you to an article John Allspaw wrote called the Infinite Hows. I will give a link at the end of this presentation that's got all the resources and all the articles I'm talking about. But if we ask how questions instead of why, this gets people to describe at least some of the conditions that allowed an event to take place. Lindsey Holmwood also notes that how questions help clarify technical details and it distances people from the actions that they took. When we ask why questions this tends to create a need for defensiveness — I have to explain my behavior. Why questions, even if it's not in post-incident review — when I'm helping organizations change, oftentimes the first thing is "well let me explain to you why we're doing things the way we did." Why questions tend to put people on their heels and make them feel like they have to justify their behavior, because fundamentally that is what you're asking them to do.
+
+We want to consider multiple and diverse perspectives. I talked about this a little bit — bringing in people from another team when you're doing your post-incident analysis. It's not just about the engineers who worked on that. There may be your incident commander, maybe the scribe, maybe the comms person. There are a lot of different people who were involved in the incident that may have different perspectives and ask questions that might not occur to you.
+
+And here's the thing: you want to ask yourself why a reasonable, competent, and decent person would have taken those actions. Because what happens when we're analyzing failure is we fall into victim, villain, and helplessness stories that propel emotions and attempt to justify our worst behavior. So we can move past this by telling the rest of the story — consider your and others' roles in the problem, ask yourself what could be the factors that would lead a reasonable, rational, and decent person to take that action that resulted in the incident. This helps turn attention to the systemic factors that led to the incident.
+
+And we want to abstract to an unspecific responder. This one is hard, but I'm really a big fan of this. When we're inquiring about a human action, we want to abstract to the unspecific — anyone could have made that same mistake. So I am a big believer of not using names in post-mortems, especially not in post-mortem documents. You may be able to have a conversation about it, but the problem with abstracting to an unspecific responder — where this gets actually really hard — is when you want to say something positive, because you need to keep with that consistency. So what this means is we can still talk about roles, but instead of talking about Ken I'm gonna say "the senior SRE."
+
+And even when you get to an organization that is good at blamelessness, you may feel like you can actually use names. This actually happened inside our organization: some folks started and said "hey, I noticed that someone's name was in this post-mortem document — I thought we don't do that." And another responder said, "Well, actually we're really good at blamelessness at PagerDuty, so we can get away with it." And that person was not necessarily wrong, but the reminder is: while the people there right now might be good at that, you are constantly bringing new people into the organization who have to learn by example. The other reason — and maybe this is purely selfish — while you might be able to use names in a conversation, documents are searchable. And the last thing you want is somebody searching post-incident reviews at the time of somebody's annual review who doesn't understand the concepts of blamelessness.
+
+And again, contrast what you did not intend with what you did. So even when you make your best effort to remain blameless, it's possible that someone may still become defensive during a post-mortem meeting if they feel that they're being blamed. When this happens, we want to work to restore mutual purpose and mutual respect so we can continue the conversation. It's not productive to have people feel defensive — it's okay to feel defensive by the way — and the way that we do this is reiterate that the goal is to understand systemic factors. People act out defensively when they feel that their character is being attacked. So we can contrast this by saying "I did not mean to imply that you're bad at your job," contrasted with what you did intend, which was "I wanted to inquire, I wanted to ask about what was the situation, what was happening, how did this happen." We're refocusing our question away from individual motivation because that implies blame.
+
+Also, by abstracting to the unspecific responder, this encourages other responders to be more active in contributing suggestions as to what could have also contributed. Because we also generally don't want to blame our co-workers — we like our co-workers. So it could be challenging.
+
+So here's the thing: all practitioner actions are gambles. We don't have the Time Stone, right? Actions take place in the face of uncertain outcomes. The person who said this is Dr. Richard Cook of Adaptive Capacity Labs. Another way to put that — to bring this back — is this comment: "You never know. You hope for the best and you make do with what you got." And that was said by Nick Fury. So you can either listen to Dr. Cook or you can listen to Fury — they're both fundamentally saying the same thing. We don't know what's going to happen. So remember that individual actions are always gambles based upon what we knew at the time.
+
+So what can we learn from the Avengers and how they responded to Thanos? One thing — and I talked about this a little bit — blame happens a lot on this team. They love to blame. Tony loves to blame Steve Rogers for almost everything, somehow, right? This is always a challenge at the beginning of Endgame — "you weren't there, you let me down" — it was about Cap's character, it wasn't about "why did this happen, how did this happen." It was about the individual.
+
+So we're gonna focus on the incident response process of the team. Again, this is not about prevention. And not to pick on Tony Stark, but here's another place he kind of messes it up: Tony is all about the idea of being able to prevent. He literally wants to build a suit of armor around the world to keep humanity from failing. If we try to address our systemic issues this way — if we just built enough technology we could have a hundred percent uptime — you can't. And the thing is we can't prevent Thanos, but we can learn how to get better at responding to incidents.
+
+So we want to think about the idea of having an incident commander during an incident response process. This is really critical. When the Avengers work well together they generally have someone calling the shots. In the Battle of New York, Cap was kind of in charge and things worked generally well. And it does seem like Cap tends to be the most likely person — he takes that leadership role. But he's also a responder, he's someone who fights the villains, who fights the baddies. And that can be a problem because — not to mix up our pop culture references — as Ron Swanson would say, "never half-ass two jobs, whole-ass one job." You can't be an incident commander and a responder at the same time.
+
+And when we talk a little bit about what the incident commander does — the first thing to bear in mind is the incident commander is a role, it's not necessarily someone's job. You may have people who have a title of incident manager or something like that, but we're not talking about where you fall in the org chart. We're actually talking about a role you take during an incident, and the role is called incident commander.
+
+The incident commander's main role during an incident is to delegate and coordinate. They are sitting there helping get the right people — the subject matter experts, the folks who know how to help resolve that issue and restore service — to enable them to do that, and also to help collect information. So they delegate and they coordinate. They're also a decision-maker, and this sometimes gets a little bit tricky. Nobody should take any action on an incident unless the incident commander has said so. And this gets really really tricky when we go to the next part about being an incident commander, which is they are the single source of truth on an incident call. And the incident commander outranks everybody else on the call, including the CEO. Now if you choose to take this on in your organization, do not surprise your executives with this during an incident call — that will not go terribly well. But the reason this is really essential to Incident Response is to understand that for the purposes of incident resolution the incident commander is the head honcho. And again, they should not be an incident responder because there's too much going on. They need to be able to look at the bigger picture, and also having the incident commander frees up our subject matter experts to be able to focus on their areas of domain knowledge and expertise.
+
+So who would be a great incident commander for the Avengers? You might think that it's Fury — Nick Fury would be a great incident commander. He actually super isn't, for a couple of reasons. One is Nick Fury has a position of authority within the organization. Sometimes that could be hard. A lot of times we want to make our incident commanders be managers, and then that creates this weird power dynamic during the call — "I don't know, is this Matt the manager or Matt the incident commander?" And my relationship with the other responders is different.
+
+One interesting thing we learned at PagerDuty: for a while we also felt like our incident commanders had to be very strong technically, and we have since found that some of our best incident commanders come from our product organization or our customer success organization, or project management roles — scrum masters, people like that are really good at being incident commanders. The reason I bring this up is: first of all, if you are the incident commander and you discover you are the best person to respond to something in the incident, you have to now delegate someone else to be the incident commander. Product owners are almost never the subject matter expert to log in to a server and restart something. They also tend to have really good delegation and communication skills. And finally, this is just a little bit of a selfish thing that comes up: when your product owners carry a pager, they suddenly care a little bit more about those resiliency stories, or trying to push through resilience work. At the end of the day, you're gonna have a hard enough time finding people willing to be incident commander, so you don't want to limit who can actually do that.
+
+So actually Maria Hill would be a fantastic incident commander. She's got great skills at communication, delegation, and decision-making, and doesn't necessarily have some of the challenges that Fury might have.
+
+So on-call rotations — one of the problems with the Avengers is they are always on call, like they always might be called. And here's the thing: if you're not part of a rotation, that means you're never off call. I have this conversation a lot with folks who are like, "oh, don't put me in the on-call rotation, I don't want to do that." Well, I got news for you: if you're not part of a rotation, you're always on call. The beautiful thing about being on call is you get to go off call. Being constantly on, constantly needing to be made available, is a massive amount of stress and burnout potential.
+
+And you want to escalate and ask for help. What are the things that we always kind of wonder when we watch the individual hero movies, like the Winter Soldier? Where's everybody else? What was Tony Stark doing during the events of the Winter Soldier when a whole bunch of helicarriers were crashing? Where was the rest of the team? And for our teams that means — again going back to our systems are complex — we may think that this is localized within our particular domain, but we need to have ways to call in resources from other areas that can help us out. We don't need to try to do everything ourselves.
+
+And this goes back to this idea of hero culture. I always think back years and years ago there was this poster I saw at a software company — I'm not gonna call them out — and it said "how does it feel to save the day every day? Not all heroes wear capes." And as a sysadmin in the late 90s I loved that poster. Today I look at it and I say I want to burn that thing. Because hero culture — again, you get Tony: "I have a plan," he goes off on his own, he's gonna save the day. And that makes you feel good maybe in the moment, but this leads to burnout. It also creates brittleness in your organization or team. You have these single points of failure when you have folks that are always the ones saving the day.
+
+And this is because — teamwork makes the dream work. Maybe you are the most senior person on your team, maybe you're the one who actually wrote that function, maybe you're the one who commits to Kubernetes so you must know it better than everyone else. You can't do this alone. Diverse perspectives and experiences all contribute — it's not just about the technical knowledge, it's about the questions you might ask. These things are all essential in incident response and incident analysis, so bringing in more folks into the conversation.
+
+So when we think about sharing on-call — and again this is sometimes a controversial statement — how many people here identify as dev or software engineers versus operations folks? So if I tell you I think you should go on call, you might have strong feelings about that. But here's a couple things to think about: in the Avengers, Carol is the only one who carries a pager. That's kind of a lot of stress. The more folks that are on call, the less the load for everyone. We're distributing the work, we're distributing the load. And you need to have a consistent mechanism for bringing in your experts during incident response. This is really key. We need to have that ability — if Captain America was the only one with a pager, how do I get a hold of all of the Avengers on my team when they're the right person? I don't know. And the problem is you might have issues that I don't know about — like I don't know if PagerDuty works in space. As my coworker said, yeah it probably does, but the latency is gonna kill you. So you need to have some consistent way of knowing how to get a hold of organizational teams. I'm not telling you you have to buy PagerDuty, but have some consistent mechanism.
+
+So what are the things that we have learned? One is this is all about trust. We can't work together without trust — without trusting our colleagues, without trusting our other teams, without trusting our leadership — to be able to feel that we are in a culture where we can speak up and we can contribute. Blame erodes trust. And then if nothing else, the most important thing you might learn is: never, ever put the Avengers on call for your software solution. They are quite literally the worst at all of this.
+
+So as I mentioned, if you go to speaking.mattstratton.com, these slides will be up there. I also have a whole bunch of supporting links and articles that you might find interesting. You can also find me on Twitter at Matt Stratton.
+
+So just some acknowledgments I'd like to give: Jeremy Mesa and Karissa Peth helped me come up with this idea at SCaLE earlier in the year. We had just seen Captain Marvel. We're trying to explain DevOps to a couple random people we met at a hotel and we're trying to explain on-call, and this is what came up. Nelson Al Harrington helped me kind of think about things a little more. Suraiya from PagerDuty gave me the ability to tweet about this. And Ryan Kitchens from Netflix, in addition to coming up with Groot Cause Analysis, is also the one who told me that I have the best hair out of any developer advocate. So we gotta love that.
+
+So with that I think we have a few minutes if anybody has questions. If not, I'm happy to let everybody go and get some lunch earlier. Come find me during the hallway track — I'd love to hear about what you're doing for incident response and incident analysis in your organization. Thank you.

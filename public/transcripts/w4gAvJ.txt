@@ -1,711 +1,113 @@
-[Music]
-all right
-hello DevOps days Kansas City the Kansas
-City DevOps community is really special
-to me I've been out to your meetups
-before in some previous lives I had
-customers out here in Kansas City so I'm
-really really excited to be part of the
-event this year so the name of this talk
-is as Erin said is how to infect your
-organization with humane ops don't worry
-you don't need any Lysol wipes
-afterwards or anything like that it's
-it's all theoretical so normally I avoid
-a resume slide but since I know Cory
-Quinn is in the audience I feel it's
-necessary because he likes to make fun
-of people that have a resume slide so
-here's mine so I am a DevOps advocate
-and thought validator for a company
-called pager duty I don't like the term
-thought leader so I decided to call
-myself a thought validator I'm here to
-tell you that what you're thinking is
-probably okay I have a podcast called
-arrested DevOps will actually be
-recording an episode of it tomorrow
-afternoon or early more late morning I
-don't remember it's on the schedule it's
-in the app which apparently everybody
-has downloaded so that will be awesome
-I'm one of the founders of DevOps days
-Chicago yeah I'm from Chicago originally
-I moved to San Francisco a few months
-ago but I'm still involved with DevOps
-stays Chicago which I'm very pleased to
-hear how many people are attending this
-conference because it's really kind of
-close to the same size so that's pretty
-impressive not to say that you should be
-impressive to be as big as we are maybe
-and I'm one of the global organizers of
-the DevOps day's event so anything wrong
-with the website you ever find is not my
-fault anything that works awesome is
-totally because of me
-and what I did have a car because I got
-rid of my car when I moved to California
-that was my license plate so you might
-say I'm a little all in on this devops
-baloney so how many people here have
-been on one of those phone calls when
-you're trying to troubleshoot issues
-with your fellow humans and everything's
-kind of going south
-and how many people have been in those
-kind of calls before how many people
-super loved that and would love to do it
-all the time okay well that's cool I
-actually posted on LinkedIn yesterday
-about how on call could be seen as as
-kind of a little fun because it's
-solving puzzles but generally speaking
-being on call can be pretty stressful
-and one of the things I like to do with
-my talks is go to Twitter and ask them
-to write my talk for me so in this case
-I asked Twitter to describe on call in
-three words and the responses we got
-back were like this it's a describe your
-on call situation three words this is
-fine please mute yourself works in dev
-scotch scotch scotch and my favorite is
-a dumpster fire so on call and
-especially an incident response can be
-SuperDuper stressful this is also a time
-I'm gonna make a quick little pitch for
-my workshop tomorrow
-called don't panic effective Incident
-Response and what I'm going to point out
-is on the little schedule if I whatever
-you call it app it says there's a slot
-for 12:00 we're gonna be reframing the
-the room a little bit I think so we can
-fit more people so even if it says it's
-full if you'd like to come learn about
-more about instant response totally come
-do that not going to talk about that as
-much here today right now we're going to
-talk a little bit more about how we can
-make ops a more humane experience so we
-did a survey at page duty we know a lot
-of people that kind of do this on-call
-thing so we did a survey that was across
-50,000 responders receiving a total of
-seven hundred sixty million
-notifications so we had a little bit of
-data you know like three-quarters were
-billion notifications to work across and
-some of the things we found were that
-sixty million of those notifications
-occurred during dinner hours eighty two
-million were during the evening two
-hundred fifty million were during
-sleeping hours 122 million were on
-weekends and so again this ended up with
-a total of 750,000
-nights would sleep interrupting
-notifications that kind of sucks and
-this was 330 weekend days with
-interrupting notifications now this
-might not be anything that's a big
-surprise to anybody who's been on call
-these things always seem to happen in
-the middle of the night right they all
-seem to happen on weekends here's what
-we found we wanted to kind of understand
-what caused people to change their roles
-so another part of this survey is we
-talked to people who were incident
-responders who had changed their job in
-the last 18 months and we wanted to know
-what were the most meaningful metrics on
-this attrition what was causing people
-to change from one job to another and
-you might think that it's gonna be
-something like money right it might be
-all about the Benjamins I'm getting a
-better offer for some more money maybe
-I'm gonna get to do some more
-interesting work maybe I hate my boss
-how many people have heard the phrase
-you don't quit your job you quit your
-manager so this is true I'm going to
-tell you that our data shows that those
-are not the most meaningful metrics on
-attrition for people who are responders
-to incidents these are what we found
-were the most the metrics that most
-often were aligned to changing roles the
-number of days when responders work in
-life were interrupted the number of days
-when someone was woken overnight the
-number of weekend days when they were
-interrupted by notifications now I want
-to point out that this is not saying
-that just because this ever happens
-people change jobs but there were
-meaningful metrics that said if a
-certain threshold of any of these
-existed this was something that would
-cause people to change roles why does
-this matter well besides the obvious
-that maybe or maybe not obvious but
-besides the fact that you know we kind
-of want people's work life to be good
-and great and everything but why do we
-care about attrition the average cost to
-replace a software engineer or a site
-reliability engineer in this country is
-$100,000 that's a fair amount of money
-right so maybe we could do things to
-make this something that happens less
-often I also think we should do things
-to make this happen less often out of
-the goodness of our hearts because these
-are our colleagues these are people that
-we work with but I also know some of the
-folks that I talked to at the end of the
-day the way that I can convince them we
-should do this is because it will save
-them a whole bunch of money so how many
-people have you know we hear a lot of
-these talks and a lot of these
-presentations that are like here's how
-we change the culture here's how we make
-things better and we're gonna put all of
-these great practices in place across
-our large organization raise your hand
-if you feel like in your organization
-you are in a role where you are
-empowered not empowered but where your
-job is to define the process and culture
-of the entire organization
-Wow
-that's a nonzero amount of people
-raising their hands I'm impressed
-because you know what it's hard for
-anybody to just sort of do that even if
-you're the see a CIO or the CEO to be
-able to sit and say I am able to make
-the change everywhere and a lot of times
-when we look at these suggestions that
-we see it can be frustrating because we
-can sit there and say hey you know what
-I'm an individual contributor I'm a
-software engineer
-I'm a sysadmin I'm a tester my job is I
-do things but nobody's asking me how to
-make things better everywhere nor do I
-have the capability or the the remit to
-be able to go and do that I've got some
-good news for you there's lots and lots
-of things we can do without it being
-necessarily our quote unquote job and
-without necessarily having the big stick
-if you will to go and force people to do
-things because the good news that I'll
-tell you is that if even if you try to
-do it with it with a big stick and force
-people to do things that never works
-anyway so I'm going to talk about some
-ways that we can enable this we're gonna
-start by talking about this idea of a
-mean now sometimes only think about
-memes we think about the picture on the
-left it's a picture with something funny
-in the impact font and in an amusing
-graphic the other thing though is as
-Richard Dawkins who is illustrated in
-this meme says is there things that
-there ways in which humanity works and
-they're spread similar to viruses
-they're spread similar to how genes
-propagate through the gene pool sorry
-this is really bright so I won't stay on
-this slide for too very long at least
-compared to the other ones the other
-other funny thing about this tie the
-first time I gave this talk I gave it in
-Salt Lake City which has a very high
-Mormon population Richard Dawkins is a
-very famous atheist so I didn't stay on
-this slide very long there either but
-what I'm talking about why this matters
-is I want you to think about how these
-ideas that we're gonna talk about here
-can be memes in your organization that
-just like in our civilization the way
-that we made pottery the way that we
-dress the way that we communicate with
-each other get propagated throughout our
-civilization these ideas and practices
-that you do that we're going to talk
-about can get propagated just by example
-people will see what you're doing and
-they will see the result and they will
-want that results and even
-subconsciously they will start to
-emulate it I also like to compare this
-to the book snow crash so snow crash is
-a fairly well-known cyberpunk book I
-imagine several people I could totally
-someone in the front row was read it by
-the enthusiastic thumbs up and the
-reason that this that this applies is so
-in the book this isn't really that much
-of a spoiler comes up pretty early in
-the book so I'm not rooting it the
-eponymous Snow Crash is a neural
-linguistic virus the bad guys figure out
-how to unlock this virus and it spreads
-from hacker to hacker like me so what
-I'm getting at here a little bit is if
-you want to understand these ideas of
-how memes translate and transmit through
-humanity Snow Crash is a really super
-fun way to learn about it because
-there's also lots of swordplay and like
-virtual reality kind of stuff happening
-in there and it's pretty funny Neal
-Stephenson's a fantastic author and Neal
-Stephenson who's the author has said
-ideology is a virus ideology is a virus
-these ways of doing work these DevOps
-practices these ways of making ops more
-humane for our people for our colleagues
-which may be ourselves as well who are
-on call we're gonna propagate them
-through our organization virally so
-we're gonna talk about a couple
-different roles so first we'll start up
-at the top saying you're the supreme
-leader you're some type of c-suite
-senior director big muckety-muck hi Big
-Cheese not gonna talk about it too much
-because most of us don't have this this
-Authority so but what are some of the
-things that folks at this level can do
-to help propagate these ideas one of
-these is to understand that the
-mechanism of command and control does
-not work this is something that is the
-idea that you know we start at the top
-and we dictate exactly how everything is
-gonna work the irony is so this is very
-militaristic the irony is that no modern
-military has used this thing in over a
-century because it doesn't work right we
-don't have the situational awareness up
-at the top so understand the command and
-control doesn't work instead we want to
-use something more akin to what we would
-call maneuver warfare I'm not a big fan
-of a lot of the military metaphors but
-this is one of the ones that make sense
-and what this has to do with is if to
-use a military metaphor instead of
-saying I want you to go run here a
-hundred yards take out your gun do this
-thing do this thing do this thing I'm
-gonna say go take that hill you are on
-the ground you know how to do it use
-measurement for good not for evil so
-people will work to the metrics that we
-give them I think we understand that and
-these same numbers that I'm using to
-measure the effectiveness of my
-organization
-can be used at the detriment of the
-humans that I am measuring and it'll
-give kind of an interesting example so
-when we've looked at metrics that that
-are ways of understanding burnout one of
-the things that we know from from
-studies we've done at page of duty is
-that when folks are starting to burnout
-they respond to alerts more slowly
-you're not as quick to respond to an
-alert well so that measurement I can use
-that in one of two ways
-I can look at that and I can say Wow
-Waldo you are now starting to respond to
-alerts more slowly than usual is
-everything okay are you getting over let
-me look into this let me figure out why
-this is happening or I can sit there and
-say Waldo you are responding to alerts
-more slowly than usual you're going on a
-performance plan you see the difference
-between those two things there similarly
-when we think about when we get on to
-how many people have been on incident
-calls where the majority of the time is
-spent doing what I would call litigating
-severity as in having an argument about
-whether or not this really is a severity
-one versus a severity two this is also
-where we learn about a metric I like to
-call em TTI or mean time to innocence
-the reason that these things happen is
-because as an organization we're being
-measured by our big supreme leaders by
-how many sub ones we had that month and
-that's not necessarily a bad metric to
-look at because I can tell us how we're
-doing
-but if our effectiveness as an
-organization of humans is measured by
-how many sub ones were having then I'm
-gonna spend most of my time proving that
-this wasn't a sub one and guess what
-while that's happening it's SuperDuper
-sm1 avoid something called executive
-swoop so we're gonna talk about this a
-lot more and and mechanisms around this
-in the workshop tomorrow but this is
-also sometimes called the executive
-swoop and poop but I don't put that on
-the slide and this is when you're
-sitting on a call and the executive
-comes in and does something like this
-right
-stop listening to what's going on do
-this why haven't you tried this yet I
-want this fixed in half an hour all
-these kinds of things understand you
-have folks working your incidents let
-them work them stay out of the way get
-your status where you need to get it so
-we might talk about middle management
-like Captain phasma here this is for
-folks who our team leads team managers
-somewhere in the middle and I don't use
-middle management as a Dilbert Ian kind
-of you know dig at anybody but someone
-who's managing a team so what are things
-we can do to kind of make things more
-effective there one is make sure that
-you're encouraging safe post incident
-review spaces when we talk about being
-able to have a blameless post mortem or
-after incident review or learning review
-or whatever warm and fuzzy thing we want
-to call the thing we do after things go
-shitty and we want to find out why they
-did we want to make sure that they're
-safe spaces and I don't necessarily mean
-that in terms of our language and and
-how in its hug hug ops all that I mean
-those things are great but in terms of
-making sure it's a safe place for
-learning and that's really key and hey
-this is like really on brand for this
-conference right now a culture of
-learning so we want to make sure that as
-a team if I'm a team lead or I'm leading
-some kind of a group then I'm making
-sure that we are setting ourselves up as
-a culture of learning and remember that
-you hired smart people so let them be
-smart right it's sort of the next level
-below that executive swoop which is
-learn about delegation and what true
-delegation means delegation does not
-mean assigning a task to somebody
-delegation means here's a responsibility
-get it get it solved let me know what I
-can do to help so let's talk about what
-we mean by a culture of learning so in a
-generative performative organization
-failure leads to enquiry this is so
-important and if you learn nothing else
-from my talk if you learn anything from
-my talk I hope you learned something
-if you do learn this one and this means
-that that that and there is data that
-backs us up and I didn't tell you about
-it in a hot second but failure lead sang
-query that means that when things go
-wrong we don't punish people we try to
-understand what happened there is a
-great quote from a gentleman named John
-Cowie who works at chef now but he
-worked at Etsy at the time and he was on
-my podcast and he said it's amazing the
-things that you can accomplish when the
-only thing that happens when you make a
-mistake is that you learn more things
-now don't take my word for it you can
-ask a gentleman named Ron westrom and
-the bitly link here which you don't need
-to memorize don't worry I'm gonna tell
-you about something in a second we'll
-take you to an article by Ron westrom
-that goes into great depth about these
-performative organizations and about
-failure leading to inquiry at the end of
-this talk I will have a link to by to
-where you can see the slides and it has
-I have links to all stuff all the links
-there so don't worry about taking
-pictures you can if you want that's cool
-you can also ask dr. Niccole force
-grantees so you should be following her
-on Twitter if you aren't you're doing
-devops Ron
-Nicole is also one of the authors of the
-book accelerate that Erin mentioned
-earlier and so that's where all the
-beautiful juicy data that backs us up
-comes from so in this case we think
-about our friend Finn here right so he's
-not a Jedi but that doesn't keep him
-from being able to use a lightsaber so
-this has to do with thinking about
-things that you can do even if they're
-not part of your remit and this might be
-a little scary in some organizations
-going outside of your job description
-seems a little fuzzy and a little like
-oh but it's gonna be okay I'm gonna tell
-you safe ways to do it that will
-probably not get you fired if you get
-too fired I didn't tell you how to do
-any of this okay so a couple of things
-always be reviewing things
-so Andy Fleener who's the platform and
-operations manager at a place called
-sports engine said you know they review
-every alert from the last 24 hours or
-over the weekend
-every day and this is to remove the idea
-says no broken windows and this is
-something called the broken window
-effect which is in a neighborhood let's
-say we have a broken window in our house
-and we leave it unfixed and then over
-time that becomes okay and then we end
-up with some more broken windows and
-then eventually everything looks
-terrible
-so operational reviews are a thing if
-you go to reviews that page of
-deegeu.com which I'll link to we have
-some guidance and some open sourced
-material around doing operational
-reviews there's a lot to it we're not
-going to go into all the great depth
-about it but there's a an operational
-review there's something called a
-service review there's business reviews
-but really we want to think about
-there's something called a non-call
-review it helps us just understand on
-call load and pain you're kind of going
-to understand where those alerts go into
-so but let's think a little bit more
-about that broken window effect broken
-window effect is also when we want to
-sound more scientific and smart we
-sometimes call this normalization of
-deviance right so this is the gradual
-process
-when things that are unacceptable become
-acceptable right so this deviant
-behavior keeps happening and things
-don't go bad so then we start to say oh
-well that's just how things are how many
-people have been in an organization
-where you're like well we have this
-alert and it goes on all the time but
-that's just that service right or you've
-got a pipeline and one of the tests
-fails and you're like yeah but that
-thing fails all the time normalization
-of deviance this happened to NASA twice
-- Space Shuttle tragedies we're both
-because of normalization of deviance and
-the bitly lid that I have a link to the
-the articles about that so in our case
-we are starting to accept alerts or
-degradation zazz acceptable always
-question your metrics metrics are
-important we talk about comms in DevOps
-the culture automation lean
-measurement and sharing so that's cool
-measurement right question them
-understand why why are we using the
-numbers that we're using what's the data
-that drives your incident process notice
-I say the data so when you're deciding
-what kicks off an incident or or either
-a minor or major incident it should be
-driven by some type of business data
-high CPU utilization does not an
-incident make now lower orders than
-usual at this time of day service
-unavailability slow performance of a
-service those are fine those are bit but
-they still have to be business outcomes
-because nobody really cares about your
-kit you most least of all if our
-business services are continuing to work
-so we want to understand what these
-numbers come from right so you're think
-about this when people you'll get you
-add and Mathew mentioned earlier the sre
-book and they talk a little bit about
-error budgeting and understanding the
-business requirements of uptime you
-should not have a requirement of five
-nines of availability for a reason such
-as well five is better than four yes
-I've worked at that organization
-likewise your metrics or your goals for
-speed should not be faster than last
-month right because we want to make sure
-that they correlate to some kind of
-better conversion or something like that
-make sure your metrics are tied to
-business outcomes and again correlation
-is not always equal causation is because
-page load time goes up means that
-conversion goes down does that mean that
-page load time going down means
-conversion goes up so keep things simple
-always in the interest of being a big
-DevOps thought leader I decided to
-invent a law and this is called
-Stratton's law of catastrophic
-predestination which is the more
-resilient Lee the system is designed the
-more likely it is to cause a negative
-business impact what does that mean this
-is something I like to call resume
-driven development right
-just because we if we over design a
-system the more complex a system is the
-more likely its downtime and outage will
-cause a negative business impact you
-notice I don't say the more resilient a
-system is the more resilient it's
-designed because it's designed by humans
-at the heart of every complex resilient
-system is the hubris that someone
-believed they could predict everything
-that could possibly go wrong
-fate any internet laugh so you're going
-to have to talk to people sorry
-understand who are your customers and
-your customers can be internal they can
-be other groups they probably are most
-customers are what are their
-expectations whose customer are you can
-you help them out and what are the
-perceptions of your team because you
-have perceptions of a lot of other teams
-however take a step back and wonder what
-people perceive your team as and how
-what are things you can do to make that
-better and we're humans we can think
-about the ideas of a contextual on-call
-so certain systems maybe don't need to
-be alerted on in the middle of the night
-if they're not used in the middle of the
-night yes we live in a 24/7 internet
-world but your general levert ledger
-application might not necessarily need
-to wake somebody up at 2:00 a.m.
-golden rule I mean we talked about this
-for the code of conduct here so and
-cookies that was great to see that one
-of the sponsors is bringing fresh
-cookies so cookies will always help
-so DevOps makes more sense with cookies
-if you want to learn about incident
-command I'm gonna go through this pretty
-quick if you want to learn more about it
-come to my workshop tomorrow so a couple
-things sharing all the tests tests are
-for software engineers and sres both
-because all functional tests use in
-pre-production should have a
-corresponding monitor in production no
-exceptions and likewise any monitoring
-functionality you have in production
-should have a corresponding test in
-pre-production because monitoring is
-testing with a time dimension that's all
-it is if you care enough to monitor it
-production then you damn well better be
-testing it in pre prod and if you're
-testing it why aren't you monitoring it
-so a couple last things you can think
-about in every sprint do one nice thing
-for your incident responders right help
-your responders in each and every sprint
-and whether you're not using for
-whatever your work item unit thing I
-don't care you can't you're not getting
-out of this by saying you don't call
-them sprints you're gonna do nice things
-sorry not sorry
-so in every one add value to the people
-who require your incident responders
-even if it's not uh Nazira card
-you rebel it's okay
-here's some examples and if some of
-these sound like common sense I'm just
-gonna assume you're already doing all of
-them right so Barret one one of those
-examples oops
-dude - dude here we go provide better
-context in logging
-so remember stack traces don't count by
-themselves stack traces are great stack
-traces don't provide context remove some
-technical debt yes you have some and
-make sure you add some useful tests the
-reason I mention this is I've heard some
-fun stories about when a goal will be
-given that says we're gonna add a test
-in every sprint and that means you get a
-lot of tests of assert equals true so
-does that doesn't count either remove
-something unused charity majors is fond
-of saying the best dip is a red diff so
-find some code that isn't being used and
-delete it couple other fun little things
-to keep in mind if you use feature flags
-add a description to the field to the
-configuration if you can I understand
-not every you know formatting JSON blah
-Blee Blee Blee Bloo figure out some way
-to make it easier for me to understand
-what it does um if you use run books and
-sure they're up to date every time that
-you cut a release if you don't do this
-abandon the run book an incorrect run
-book is considered harmful this is one
-of the more controversial things I've
-said but I believe it's very strongly
-and simplify man sounds like you're
-working for your technology right so
-keep it easy
-so these are places you can find me on
-the various Internet's so I'm Matt Matt
-Stratton on Twitter
-I am on LinkedIn I rarely blog at Matt
-Stratton calm my podcast is arrested
-DevOps calm I would love to hear your on
-call stories during the kind of hallway
-track during the open spaces and I am
-out of time so if you go to Matt
-Stratton calm slash speaking you will a
-little bit later I will have this the
-slides you can download as well as the
-links and everything like that and thank
-you very much for your time
-[Applause]
+Hello DevOps Days Kansas City. The Kansas City DevOps community is really special to me. I've been out to your meetups before. In some previous lives I had customers out here in Kansas City, so I'm really, really excited to be part of the event this year.
+
+The name of this talk, as Erin said, is "How to Infect Your Organization with Humane Ops." Don't worry, you don't need any Lysol wipes afterwards or anything like that. It's all theoretical.
+
+So normally I avoid a resume slide, but since I know Cory Quinn is in the audience I feel it's necessary, because he likes to make fun of people that have a resume slide, so here's mine. I am a DevOps advocate and thought validator for a company called PagerDuty. I don't like the term "thought leader" so I decided to call myself a "thought validator." I'm here to tell you that what you're thinking is probably okay.
+
+I have a podcast called Arrested DevOps. We'll actually be recording an episode of it tomorrow afternoon — or early, more late morning. I don't remember, it's on the schedule, it's in the app, which apparently everybody has downloaded, so that will be awesome. I'm one of the founders of DevOps Days Chicago. I'm from Chicago originally. I moved to San Francisco a few months ago but I'm still involved with DevOps Days Chicago, which I'm very pleased to hear how many people are attending this conference, because it's really kind of close to the same size. That's pretty impressive. Not to say that you should be impressive to be as big as we are, maybe. And I'm one of the global organizers of the DevOps Days event, so anything wrong with the website you ever find is not my fault; anything that works is totally because of me.
+
+And I did have a car — I got rid of my car when I moved to California — that was my license plate. So you might say I'm a little all in on this DevOps baloney.
+
+So how many people here have been on one of those phone calls when you're trying to troubleshoot issues with your fellow humans and everything's kind of going south? How many people have been in those kinds of calls before? How many people super loved that and would love to do it all the time? Okay, well that's cool.
+
+I actually posted on LinkedIn yesterday about how on-call could be seen as kind of a little fun because it's solving puzzles, but generally speaking being on call can be pretty stressful. One of the things I like to do with my talks is go to Twitter and ask them to write my talk for me. So in this case I asked Twitter to describe on-call in three words, and the responses we got back were like this: describe your on-call situation in three words. "This is fine." "Please mute yourself." "Works in dev." "Scotch scotch scotch." And my favorite: "A dumpster fire."
+
+So on-call and especially incident response can be super duper stressful. This is also a time I'm gonna make a quick little pitch for my workshop tomorrow called "Don't Panic: Effective Incident Response." What I'm going to point out is on the schedule — whatever you call it, the app — it says there's a slot for 12:00. We're gonna be reframing the room a little bit I think so we can fit more people, so even if it says it's full, if you'd like to come learn more about incident response, totally come do that.
+
+Not going to talk about that as much here today. Right now we're going to talk a little bit more about how we can make ops a more humane experience.
+
+So we did a survey at PagerDuty. We know a lot of people that kind of do this on-call thing, so we did a survey that was across 50,000 responders receiving a total of 760 million notifications. So we had a little bit of data — you know, like three-quarters of a billion notifications to work across. And some of the things we found were that 60 million of those notifications occurred during dinner hours, 82 million were during the evening, 250 million were during sleeping hours, 122 million were on weekends. And so again this ended up with a total of 750,000 nights with sleep-interrupting notifications — that kind of sucks. And this was 330 weekend days with interrupting notifications.
+
+Now this might not be anything that's a big surprise to anybody who's been on call. These things always seem to happen in the middle of the night. They all seem to happen on weekends.
+
+Here's what we found. We wanted to kind of understand what caused people to change their roles. So another part of this survey is we talked to people who were incident responders who had changed their job in the last 18 months, and we wanted to know what were the most meaningful metrics on this attrition — what was causing people to change from one job to another. And you might think that it's gonna be something like money, right? It might be all about the Benjamins. I'm getting a better offer for some more money. Maybe I'm gonna get to do some more interesting work. Maybe I hate my boss. How many people have heard the phrase "you don't quit your job, you quit your manager"?
+
+So this is true, but I'm going to tell you that our data shows that those are not the most meaningful metrics on attrition for people who are responders to incidents. These are what we found were the metrics that most often were aligned to changing roles: the number of days when responders' work lives were interrupted; the number of days when someone was woken overnight; the number of weekend days when they were interrupted by notifications.
+
+Now I want to point out that this is not saying that just because this ever happens people change jobs, but there were meaningful metrics that said if a certain threshold of any of these existed, this was something that would cause people to change roles.
+
+Why does this matter? Well, besides the obvious — maybe or maybe not obvious — besides the fact that we kind of want people's work life to be good and great and everything, why do we care about attrition? The average cost to replace a software engineer or a site reliability engineer in this country is $100,000. That's a fair amount of money. So maybe we could do things to make this something that happens less often. I also think we should do things to make this happen less often out of the goodness of our hearts, because these are our colleagues, these are people that we work with. But I also know that at the end of the day the way that I can convince some folks we should do this is because it will save them a whole bunch of money.
+
+So how many people — we hear a lot of these talks and a lot of these presentations that are like "here's how we change the culture, here's how we make things better, and we're gonna put all of these great practices in place across our large organization." Raise your hand if you feel like in your organization you are in a role where your job is to define the process and culture of the entire organization.
+
+Wow. That's a nonzero amount of people raising their hands. I'm impressed, because you know what, it's hard for anybody to just sort of do that. Even if you're the CIO or the CEO, to be able to sit and say "I am able to make the change everywhere." And a lot of times when we look at these suggestions that we see, it can be frustrating because we can sit there and say, hey, I'm an individual contributor. I'm a software engineer. I'm a sysadmin. I'm a tester. My job is I do things, but nobody's asking me how to make things better everywhere, nor do I have the capability or the remit to go and do that.
+
+I've got some good news for you. There's lots and lots of things we can do without it being necessarily our quote-unquote job, and without necessarily having the big stick, if you will, to go and force people to do things. Because the good news I'll tell you is that even if you try to do it with a big stick and force people to do things, that never works anyway.
+
+So I'm going to talk about some ways that we can enable this. We're gonna start by talking about this idea of a meme. Now sometimes when we only think about memes we think about the picture on the left — it's a picture with something funny in the Impact font and an amusing graphic. The other thing, though, is as Richard Dawkins — who is illustrated in this meme — says, there are ways in which humanity works and they're spread similar to viruses. They're spread similar to how genes propagate through the gene pool.
+
+Sorry, this is really bright, so I won't stay on this slide for too very long, at least compared to the other ones. The other funny thing about this: the first time I gave this talk I gave it in Salt Lake City, which has a very high Mormon population. Richard Dawkins is a very famous atheist, so I didn't stay on this slide very long there either.
+
+But what I'm talking about — why this matters — is I want you to think about how these ideas that we're gonna talk about here can be memes in your organization. Just like in our civilization the way that we made pottery, the way that we dress, the way that we communicate with each other get propagated throughout our civilization, these ideas and practices that we're going to talk about can get propagated just by example. People will see what you're doing and they will see the results and they will want those results, and even subconsciously they will start to emulate it.
+
+I also like to compare this to the book Snow Crash. Snow Crash is a fairly well-known cyberpunk book. I imagine someone in the front row has read it — by the enthusiastic thumbs up. And the reason that this applies: so in the book — this isn't really that much of a spoiler, comes up pretty early in the book, so I'm not ruining it — the eponymous Snow Crash is a neurolinguistic virus. The bad guys figure out how to unlock this virus and it spreads from hacker to hacker.
+
+So what I'm getting at here a little bit is if you want to understand these ideas of how memes translate and transmit through humanity, Snow Crash is a really super fun way to learn about it, because there's also lots of swordplay and virtual reality kind of stuff happening in there and it's pretty funny. Neal Stephenson's a fantastic author. And Neal Stephenson, who's the author, has said "ideology is a virus." Ideology is a virus. These ways of doing work, these DevOps practices, these ways of making ops more humane for our people, for our colleagues — which may be ourselves as well, who are on call — we're gonna propagate them through our organization virally.
+
+So we're gonna talk about a couple different roles. First we'll start up at the top, saying you're the supreme leader, you're some type of C-suite, senior director, big muckety-muck, Big Cheese. Not gonna talk about it too much because most of us don't have this authority.
+
+But what are some of the things that folks at this level can do to help propagate these ideas? One of these is to understand that the mechanism of command and control does not work. This is the idea that we start at the top and we dictate exactly how everything is gonna work. The irony is — this is very militaristic — the irony is that no modern military has used this in over a century because it doesn't work. We don't have the situational awareness up at the top. So understand that command and control doesn't work. Instead we want to use something more akin to what we would call maneuver warfare. I'm not a big fan of a lot of the military metaphors, but this is one that makes sense. And what this has to do with is — to use a military metaphor — instead of saying "I want you to go run here a hundred yards, take out your gun, do this thing, do this thing, do this thing," I'm gonna say "go take that hill." You are on the ground, you know how to do it.
+
+Use measurement for good, not for evil. People will work to the metrics that we give them. I think we understand that. And these same numbers that I'm using to measure the effectiveness of my organization can be used at the detriment of the humans that I am measuring. And I'll give kind of an interesting example: when we've looked at metrics that are ways of understanding burnout, one of the things that we know from studies we've done at PagerDuty is that when folks are starting to burn out they respond to alerts more slowly. You're not as quick to respond to an alert.
+
+So that measurement I can use in one of two ways. I can look at that and I can say, "Wow, Waldo, you are now starting to respond to alerts more slowly than usual. Is everything okay? Are you getting overwhelmed? Let me look into this, let me figure out why this is happening." Or I can sit there and say, "Waldo, you are responding to alerts more slowly than usual — you're going on a performance plan." You see the difference between those two things.
+
+Similarly, when we think about — how many people have been on incident calls where the majority of the time is spent doing what I would call litigating severity? As in having an argument about whether or not this really is a severity one versus a severity two? This is also where we learn about a metric I like to call MTTI, or mean time to innocence. The reason that these things happen is because as an organization we're being measured by our big supreme leaders by how many Sev-1s we had that month. And that's not necessarily a bad metric to look at because it can tell us how we're doing. But if our effectiveness as an organization of humans is measured by how many Sev-1s we're having, then I'm gonna spend most of my time proving that this wasn't a Sev-1. And guess what — while that's happening it's still super duper Sev-1.
+
+Avoid something called executive swoop. We're gonna talk about this a lot more and mechanisms around this in the workshop tomorrow. But this is also sometimes called the "executive swoop and poop," but I don't put that on the slide. And this is when you're sitting on a call and the executive comes in and does something like: stop listening to what's going on, do this, why haven't you tried this yet, I want this fixed in half an hour — all these kinds of things. Understand you have folks working your incidents — let them work them. Stay out of the way. Get your status where you need to get it.
+
+So we might talk about middle management — like Captain Phasma here. This is for folks who are team leads, team managers, somewhere in the middle. And I don't use "middle management" as a Dilbertian kind of dig at anybody, but someone who's managing a team.
+
+So what are things we can do to kind of make things more effective there? One is make sure that you're encouraging safe post-incident review spaces. When we talk about being able to have a blameless post-mortem, or after-incident review, or learning review, or whatever warm and fuzzy thing we want to call the thing we do after things go shitty and we want to find out why — we want to make sure that they're safe spaces. And I don't necessarily mean that in terms of language and hug-hug ops, all that. I mean those things are great, but in terms of making sure it's a safe place for learning. And that's really key. And hey, this is on-brand for this conference right now: a culture of learning.
+
+So we want to make sure that as a team — if I'm a team lead or I'm leading some kind of a group — I'm making sure that we are setting ourselves up as a culture of learning. And remember that you hired smart people, so let them be smart. It's sort of the next level below that executive swoop: learn about delegation and what true delegation means. Delegation does not mean assigning a task to somebody. Delegation means "here's a responsibility, get it solved, let me know what I can do to help."
+
+So let's talk about what we mean by a culture of learning. In a generative, performative organization, failure leads to inquiry. This is so important. And if you do learn this one thing from my talk — failure leading to inquiry means that when things go wrong we don't punish people, we try to understand what happened.
+
+There is a great quote from a gentleman named John Cowie, who works at Chef now but worked at Etsy at the time, and he was on my podcast. He said, "It's amazing the things that you can accomplish when the only thing that happens when you make a mistake is that you learn more things."
+
+Now don't take my word for it. You can look up a gentleman named Ron Westrum. The bit.ly link here — which you don't need to memorize, don't worry, I'm gonna tell you about something in a second — will take you to an article by Ron Westrum that goes into great depth about these performative organizations and about failure leading to inquiry. At the end of this talk I will have a link to where you can see the slides, and it has links to all the resources, so don't worry about taking pictures. You can if you want, that's cool.
+
+You can also follow Dr. Nicole Forsgren. You should be following her on Twitter if you aren't — you're doing DevOps wrong. Nicole is also one of the authors of the book Accelerate that Erin mentioned earlier. And that's where all the beautiful, juicy data that backs us up comes from.
+
+So in this case we think about our friend Finn here. He's not a Jedi, but that doesn't keep him from being able to use a lightsaber. So this has to do with thinking about things that you can do even if they're not part of your remit. And this might be a little scary in some organizations — going outside of your job description seems a little fuzzy. But it's gonna be okay. I'm gonna tell you safe ways to do it that will probably not get you fired. If you do get fired, I didn't tell you how to do any of this, okay?
+
+So a couple of things. Always be reviewing things. Andy Fleener, who's the platform and operations manager at a place called SportsEngine, said they review every alert from the last 24 hours — or over the weekend, every day — and this is to remove what he calls "no broken windows." This is the broken window effect: in a neighborhood, let's say we have a broken window in our house and we leave it unfixed, and then over time that becomes okay, and then we end up with some more broken windows, and then eventually everything looks terrible.
+
+So operational reviews are a thing. If you go to reviews.pagerduty.com — which I'll link to — we have some guidance and some open-sourced material around doing operational reviews. There's a lot to it; we're not going to go into all the great depth about it. But there's an operational review, there's something called a service review, there's business reviews. But really we want to think about something called an on-call review, which helps us understand on-call load and pain — you're kind of going to understand where those alerts go.
+
+But let's think a little bit more about that broken window effect. The broken window effect — when we want to sound more scientific and smart we sometimes call this normalization of deviance. This is the gradual process when things that are unacceptable become acceptable. This deviant behavior keeps happening and things don't go bad, so then we start to say, "Oh well, that's just how things are."
+
+How many people have been in an organization where you're like, "Well, we have this alert and it goes on all the time but that's just that service"? Or you've got a pipeline and one of the tests fails and you're like, "Yeah, but that thing fails all the time." Normalization of deviance. This happened to NASA twice — both Space Shuttle tragedies were because of normalization of deviance. And there's a bit.ly link I have to articles about that.
+
+So in our case we are starting to accept alerts or degradation as acceptable.
+
+Always question your metrics. Metrics are important. We talk about CAMS in DevOps — the Culture, Automation, Lean, Measurement, and Sharing. So that's cool, measurement, right? Question them. Understand why. Why are we using the numbers that we're using? What's the data that drives your incident process?
+
+Notice I say "the data." So when you're deciding what kicks off an incident — either a minor or major incident — it should be driven by some type of business data. High CPU utilization does not an incident make. Low orders than usual at this time of day, service unavailability, slow performance of a service — those are fine, but they still have to be business outcomes, because nobody really cares about your kit, least of all if our business services are continuing to work.
+
+So we want to understand what these numbers come from. And Matthew mentioned earlier the SRE book, and they talk a little bit about error budgeting and understanding the business requirements of uptime. You should not have a requirement of five nines of availability for a reason such as "well, five is better than four." Yes, I've worked at that organization. Likewise, your metrics or your goals for speed should not be "faster than last month," because we want to make sure that they correlate to some kind of better conversion or something like that. Make sure your metrics are tied to business outcomes. And again, correlation is not always equal to causation. Because page load time goes up means that conversion goes down — does that mean that page load time going down means conversion goes up? So keep things simple.
+
+Always, in the interest of being a big DevOps thought leader, I decided to invent a law. This is called Stratton's Law of Catastrophic Predestination, which is: the more resiliently a system is designed, the more likely it is to cause a negative business impact. What does that mean? This is something I like to call resume-driven development. If we over-design a system, the more complex a system is, the more likely its downtime and outage will cause a negative business impact. Notice I don't say "the more resilient a system is, the more resilient it's designed" — because it's designed by humans. At the heart of every complex resilient system is the hubris that someone believed they could predict everything that could possibly go wrong.
+
+Anyway, you're going to have to talk to people. Sorry. Understand who your customers are — and your customers can be internal, they can be other groups; they probably are. What are their expectations? Whose customer are you? Can you help them out? And what are the perceptions of your team? Because you have perceptions of a lot of other teams; take a step back and wonder what people perceive your team as and what are things you can do to make that better.
+
+And we're humans. We can think about the ideas of a contextual on-call, so certain systems maybe don't need to be alerted on in the middle of the night if they're not used in the middle of the night. Yes, we live in a 24/7 internet world, but your general ledger application might not necessarily need to wake somebody up at 2:00 a.m.
+
+Golden rule — I mean, we talked about this for the code of conduct here. And cookies — it was great to see that one of the sponsors is bringing fresh cookies, so cookies will always help. DevOps makes more sense with cookies.
+
+If you want to learn about incident command, I'm gonna go through this pretty quick. If you want to learn more about it, come to my workshop tomorrow.
+
+So a couple things: sharing all the tests. Tests are for software engineers and SREs both, because all functional tests used in pre-production should have a corresponding monitor in production — no exceptions. And likewise any monitoring functionality you have in production should have a corresponding test in pre-production. Because monitoring is testing with a time dimension. That's all it is. If you care enough to monitor it in production, then you damn well better be testing it in pre-prod. And if you're testing it, why aren't you monitoring it?
+
+So a couple of last things you can think about: in every sprint, do one nice thing for your incident responders. Help your responders in each and every sprint. And whether or not you're using sprints — whatever your work item unit thing is, I don't care. You're not getting out of this by saying you don't call them sprints. You're gonna do nice things. Sorry, not sorry. So in every one, add value to the people who require your incident responders.
+
+Here are some examples, and if some of these sound like common sense I'm just gonna assume you're already doing all of them. So: provide better context in logging. Remember, stack traces don't count by themselves. Stack traces are great, but stack traces don't provide context. Remove some technical debt — yes, you have some. And make sure you add some useful tests. The reason I mention this is I've heard some fun stories about when a goal will be given that says "we're gonna add a test in every sprint" — and that means you get a lot of tests of assert equals true. That doesn't count either.
+
+Remove something unused. Charity Majors is fond of saying the best diff is a red diff. So find some code that isn't being used and delete it.
+
+A couple other fun little things to keep in mind: if you use feature flags, add a description to the configuration field, if you can. I understand not every — you know, formatting, JSON, blah blah blah — figure out some way to make it easier for me to understand what it does. If you use runbooks, make sure they're up to date every time that you cut a release. If you don't do this, abandon the runbook. An incorrect runbook is considered harmful. This is one of the more controversial things I've said, but I believe it very strongly.
+
+And simplify — sounds like you're working for your technology. Keep it easy.
+
+So these are places you can find me on the various internets. I'm Matt Stratton on Twitter. I am on LinkedIn. I rarely blog at mattStratton.com. My podcast is Arrested DevOps. I would love to hear your on-call stories during the hallway track and the open spaces. And I am out of time. So if you go to mattStratton.com/speaking, a little bit later I will have the slides there — you can download them as well as the links and everything like that. Thank you very much for your time.

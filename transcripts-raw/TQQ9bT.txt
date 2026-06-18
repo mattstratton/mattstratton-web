@@ -1,0 +1,989 @@
+[Music]
+thank you everybody for sticking it out
+you know I know you could be outside
+basking in the lovely lovely late April
+Chicago weather but instead you chose to
+be here so for that I thank you my name
+is Maddie Stratton I am a DevOps
+advocate for pager duty I'm wearing a
+page Judy shirt this is one of the last
+time they're gonna hear me talk about
+page duty throughout this talk except
+for a little bit when we talk about how
+we do things at pager duty if you're
+interested in knowing more about patriot
+aught to me afterwards that would be
+fantastic they pay my bills they enabled
+me to come here so I have to like at
+least mention pager duty yeah good for
+that also a small plug since we are in
+Chicago I am in the organizer of an
+organizer of DevOps days Chicago which
+will be at the end of August our call
+for papers is open through the end of
+the week so if you would like to propose
+a talk please do that and also please
+mark your calendars we'd love for you to
+join us it's a great two-day event for
+practitioners and things like that so
+welcome to my talk this is called fight
+flight or freeze releasing
+organizational trauma this title is one
+of the longest titles I've ever put on a
+talk but I do plan to have an even
+longer title next year so there it goes
+so first thing just I like to put a
+little content morning here so there's
+some discussion of the concepts of
+trauma and post-traumatic stress there's
+no specific trauma discussion in here
+but I do talk about post-traumatic
+stress as a concept and additionally
+along those lines something very
+important to get out of the way is I am
+a trauma survivor I am NOT a mental
+health professional I'm a DevOps
+advocate I talk about culture I talk
+about organizations so this is not
+medical advice in fact we're not going
+to be talking about in how advice about
+individual trauma we're going to be
+talking about how organizations respond
+to incidents and outages using things
+that we've learned from post-traumatic
+stress as as
+a metaphor so consider the zebra right
+so a zebra that's at rest with no threat
+of predators is operating within what we
+call the rest and digest functions of
+the parasympathetic nervous system right
+it's just chilling out being a zebra
+chewing on some grass maybe thinking
+about making baby zebras I don't know
+it's all good
+this is called rest and digest as its
+name implies is just chilling out now
+introduce a lion into this equation
+right so the zebra is now being chased
+by a lion and there are drastic
+physiological changes that happen with
+the activation of the fight-or-flight
+response of the sympathetic nervous
+system right the bers heart rate
+increases the breathing increases large
+amounts of stress hormones like cortisol
+and adrenaline are released into the
+Zebras bloodstream pupils dilate the
+blood pressure increases and most
+importantly non-essential functions like
+digestion stop the Zebras nervous system
+is preparing for to literally run for
+its life now if the zebra is caught the
+nervous system is overwhelmed and it has
+no further solutions this is the freeze
+response the zebra basically is playing
+dead so this is also the point that in a
+non zebra we would consider the
+introduction of trauma
+now if zebra plays dead freezes lion
+drops the zebra goes looking for another
+zebra zebra maybe can now escape and
+what does the zebra do does anybody know
+what happens to the zebra it literally
+shakes itself out right shakes itself
+out moves on with its life moves along
+right the zebra that survives this
+encounter shakes it out and returns to a
+resting state now this next slide is
+possibly the most important slide of
+this talk if not the most important
+slide you're gonna see in this entire
+conference so if you're gonna take a
+picture of any slide it's going to be
+this one so get ready for some thought
+leader in humans are not zebras so the
+autonomous nervous system is common to
+all mammals so this is something we have
+in common
+with zebras we all have the autonomous
+nervous system but one of the things
+that we have is humans than other
+mammals don't is a prefrontal cortex and
+usually the prefrontal cortex is an
+advantage right this is where executive
+function happens how we understand the
+difference between good and bad same and
+different pattern recognition
+understanding consequences these all
+come and they all happen in the
+executive response of the prefrontal
+cortex so this is an advantage right
+however this is also where we mentally
+replay traumatic scenarios right which
+activates our sympathetic nervous system
+exactly like a real threat would this is
+something that's unique to us other
+mammals don't have this that's why
+zebras can shake it off because they
+don't have something that reminds them
+of it of a lion make them have that
+exact same activation so dr. Peter
+Levine who I stole the zebra analogy
+from he is said and I don't usually read
+slides but this is a good quote right
+this is their animals in the wild
+they're not traumatized by routine
+threats to their lives this doesn't
+cause trauma to a zebra but humans are
+readily overwhelmed and they're subject
+to traumatic symptoms of hyper or down
+and dysregulation so this is a
+difference between us and the other
+mammals so what do we mean when we talk
+about hyper arousal when we talk about
+dysregulation so if we think in a
+healthy nervous system this is kind of
+what we call the window of Tolerance so
+something starts to happen our
+sympathetic nervous system gets
+activated we kind of get keyed up into
+the fight response or flight response
+and then we're okay we settle we bring
+back down into our own rest and digest
+this is a typical healthy nervous system
+and this is the range that we call the
+window of Tolerance right it's a zone of
+emotional arousal that's optimal for
+well-being and effective functioning so
+remember the parasympathetic is the rest
+and digest
+it's conserving energy whereas
+sympathetic is the fight-or-flight
+response now when we introduce a
+traumatic event this is when we
+have a symptom of undischarged traumatic
+stress so we start to get activated and
+something traumatic occurs and then we
+can start to see instead of having this
+Winton you're operating within the
+window of tolerance we either get we can
+be going being dysregulated up and down
+and up and down or we can also sometimes
+become stuck on or stuck off so stuck on
+is basically being up in fight-or-flight
+all the time right so these some of the
+symptoms around that or anxiety panic
+hyperactivity digestive problems hyper
+vigilance sleeplessness or sometimes our
+effect the effect of trauma is to be
+stuck off right and that's where we see
+things like depression coming in
+lethargy also digestive problems low
+bred blood pressure and these are things
+that happen outside so again so the up
+at the top being stuck on is called
+hyper arousal this is being similar to
+the fight-or-flight response all the
+time being stuck office hypo arousal and
+that's similar to being frozen if you
+will now trauma is not simple there's
+nuance to this right it's not a simple
+thing this is why people have written
+books upon books upon books and given
+lots of talks and go to school for years
+and years and years to understand trauma
+there's a lot of nuance to it so one
+thing is when trauma happens right this
+is because a nervous system has been
+overwhelmed so when one solution the
+active response of the threat does not
+work that's what causes trauma it can
+the activation is the same for real or
+imagined threats right it can be a real
+threat or one that happens the thing
+about our human brains that we think are
+so amazing they're also not always the
+sharpest things they can't tell the
+difference between a real threat and the
+memory of a threat or something there
+are minds of other threat so real or
+perceived threats will create the same
+nervous system activation and it's
+subjective and relative so what I
+consider overwhelming or my capacity for
+a solution is going to be different from
+what you perceive is overwhelming so
+there's a lot of nuance to this
+does this apply to an organization right
+because it's talking about releasing
+organizational trauma we're talking
+about the companies and organizations
+that we work with the groups of humans
+and that are trying to accomplish a
+result how does this idea apply so let's
+go back and think about the window of
+tolerance again right so if we think
+about a deregulated nervous system and
+how might this apply to an organization
+when a traumatic event occurs and for
+purposes of the discussion trauma to an
+organization as I'm referring to it
+would be something like an incident or
+an outage something that is preventing
+the business from being able to do the
+thing that the business exists to do
+right it's actively preventing customers
+from being able to work it's causing an
+outage something like that are traumatic
+instances for an organization so we
+talked about hyper arousal being stuck
+in fight-or-flight so organizations that
+are stuck hyper aroused they display
+effects may be of constant vigilance it
+sounds like they're fighting Voldemort
+right we're always watching for the
+other shoe to drop they're hyper aware
+of threats and this takes energy away
+from innovation takes energy away from
+moving forward these are organizations
+that to use analogy are kind of always
+looking over their shoulder they're
+waiting for an attack this is often
+reflected and how leadership approaches
+outages and issues you hear a lot of
+wartime metaphors and organizations like
+this because they're on the defense
+right we're wearing more time we're in
+peacetime we're using a lot of military
+metaphors another symptom of this if you
+see organizations like this will
+traditionally have a dedicated team to
+support that handles all of the issues
+and outages because they have to beef up
+and make sure you've got a preventative
+perimeter around anything that might
+possibly go wrong now the other side of
+this is being hypo aroused this is being
+stuck off so organizations like this
+tend to be afraid to innovate to change
+because as we all know what introduces
+outages all most of the time it's
+changed we know this this is an accepted
+thing but for some organizations it's
+not some organizations are actually
+working in these this
+freeze response where we can't change
+anything because if we do it might cause
+an outage it might cause an issue and
+this could happen at the scale of the
+large organization or even within the
+teams and I think about an example of
+being in this metaphor so I had a
+colleague years ago here in Chicago who
+was a tech ops director for an
+e-commerce company here and her bonus
+was based upon the uptime of the website
+that her team ran so outages so she was
+stuck off she did not want any change to
+happen because literally was money out
+of her pocket but this prevented the
+organization from being able to innovate
+because they were stuck off because
+their ops team was stuck off now so we
+want to think about what is appropriate
+and inappropriate response to this type
+to these organizational traumatic
+effects and events so get news free the
+systems that we run are very complex
+right they're not simple and every
+incident and every outage is different
+they may have flavors that seem similar
+but what happens is we see signals that
+remind us of a similar outage and we
+think it's going to be the same thing
+again but it usually is not because our
+systems are complex so we look for
+pattern recognition because that's the
+thing that we like to do as humans we
+want to pattern match we want to say
+this looks like this thing this is the
+whole concept when we think about
+systems thinking is we want the simple
+answer right we want to say the right
+way we could fix poverty is by doing
+this it's this one thing would do that
+because we want a simple answer by
+finding a pattern recognition but our
+systems are complex so when we see
+signals that look like a previous
+example they were - of this but we want
+to respond the same way but the symptoms
+are the signals are indicating us into
+something that is very different so how
+many people got in an airplane to come
+here ok great
+how many people
+had to take their shoes off okay bunchy
+have pre-check so that's great but let's
+think about this idea that we remove our
+shoes because of the TSA so in December
+22nd of 2001 this cat named Richard Reid
+he decided to try to ignite some
+explosives that were hidden in his shoes
+on this flight from Paris to Miami right
+it didn't work so that's great but so
+then the TSA began randomly searching
+people's shoes that was sort of thing
+they're like well one dude tried to like
+do a shoe bomb so all shoes therefore
+might have bombs and then in 2006 the
+TSA mandates that all passengers must
+remove their shoes going through
+security so this is a pattern match
+that's trying to happen because we're
+saying the signals look similar which
+are people wear shoes I love this tweet
+here right
+so Jennifer Brea says there's a saying
+in medicine that when you're air here
+hoofbeats the first thing that you come
+to mind is a horse not a zebra this too
+cute by phrase has killed many many
+zebras so we have to learn to stop
+jumping on the first root cause this is
+the this is an example of that we look
+root cause analysis will lead us towards
+finding the first thing that sounds like
+it makes sense because we're expecting
+there to be one thing and what is an
+example of why we think about the fact
+when we think about incidents and
+outages we need to look at contributing
+factors we aren't saying this is the one
+thing that caused it because there's
+never one thing the other thing is hey
+look it's more zebras so that's part of
+the thing so what can we do to
+understand our window of Tolerance as an
+organization how can we identify when
+our organization is becoming deregulated
+and one of the first things to do is
+when we think about our after incident
+reports our post mortems whatever we
+call them how are we taking them what is
+it causing us to do as an organization
+these are questions that I would say ask
+yourself look at how your organization
+responds to an outage or to an incident
+is it and is it looked at as a gift
+because that's what incidents are there
+are way for our systems to tell us
+something we didn't know before but we
+don't usually think about them that way
+we think about them as something
+that caused trauma to our business being
+able to work so another quote you know
+resilient organizations are not
+traumatized by routine threats to their
+mission or business non resilient
+organizations are readily overwhelmed
+and subject to the symptoms of
+overreaction shutdown and lack of
+regulated effort this is me and I'm not
+a doctor but this is taking Peter
+Levine's quote and kind of saying how
+does this apply to organizations right
+so we're just like animals in the wild
+are not traumatized by routine threats
+the same thing a resilient organization
+these are things that are going to
+happen our organizations are going to
+have incidents and outages they should
+not cause trauma an organization that is
+not resilient they become overwhelmed by
+them right and so they will overreact
+overcompensate overcorrect may cause
+shutdown and a lack of regulated effort
+and we need to regulate and this is not
+a reference to Warren gee that's when I
+date myself when I talk about this but
+how do humans and organizations take
+what we've identified we are in a
+deregulated State and we need to become
+regulated what are the things we can do
+because it's great when you say okay
+great Mandy you told us we identified
+that our organizations get stuck on or
+they get stuck off okay now let's move
+on to the part when we can do something
+about it what are some of the actions
+and activities we can take so one of the
+treatments for post-traumatic stress is
+something called eye movement
+desensitization and reprocessing also
+known as EMDR and what happens is the
+patient's difficult memories are offset
+with a positive Association which is
+reinforced with external stimuli so
+what's happening is it could be with
+blinking lights or tappers or an audio
+signal but what's happening is we're
+taking a positive Association
+reinforcing it with a physiological
+response so this what's happening it
+activates our brain to be able to make
+this positive association with the
+difficult memory because we talked about
+going to the body first and just like we
+said that our body remembers this
+associated trauma this is creating
+different triggers well how can we do
+DR for our organization well we can't
+put little blinking lights in all of our
+cubes and create little Stoppers and do
+those types of things but we can achieve
+a similar response what we want to do is
+be able to take the symptoms of an
+incident or outage and create a muscle
+memory if you will within our
+organization within our practitioners
+within ourselves which can help
+alleviate the stress of incidents and
+outages so we want to make an
+association with outages with an issues
+with a safe place as I mentioned right
+so game days are something that can
+really help with this but they have to
+be done properly so a game day is when
+we're simulating some type of an outage
+some type of an incident to go through
+our process to understand how we do this
+now the trick of this is it's not to
+practice under pressure we don't do this
+so we can stress our people out so they
+get used to being under a lot of stress
+we want to do is create a Rizzo C 8
+response with a safe environment so when
+we're exploring in a game day it's a
+little bit like meditation right with
+some kinds of trauma meditation is
+helpful but the problem is when people
+go into their inner landscape and
+they're not prepared and they're not
+guided they're going to encounter their
+trauma right and then what do they do
+they don't have guidance they don't know
+what to do with that so they might be
+overwhelmed with it they might find a
+way to go around it similarly if we
+don't have plans in place with our game
+day we're gonna get wound around the
+axle around little things we run into
+through the process right we don't have
+some type of a plan also in meditation
+for trauma we can encounter something
+that Peter Levine calls bliss bypass
+which itself is a way of avoiding trauma
+so the thing is if our game day is not
+following our usual rules of instant
+response we've actually made it too safe
+we've made it too much like okay we're
+gonna we're going to practice this thing
+we're not the real way we're not going
+to actually have an incident commander
+we're not going to actually use pager
+duty we're not going to actually go into
+slack to do it we're going to practice
+in a different way so if you do plan
+failure injection in a game-day which is
+formed when some might say it's a form
+of chaos engineering you we can you know
+split hairs about that at some other
+time
+but planned failure injection is a
+common thing to do as part of a gameday
+exercise where we say we know we're
+gonna take something and we're gonna
+break it on purpose
+and the great thing is we know what's
+broken because we broke it right so if
+we're going to do these so we need to
+run them like a real incident so we run
+something at paid really called failure
+Fridays so on Fridays during business
+hours we will you know a system is
+nominated and we inject failure into
+that system but the thing is we run it
+like a real incident we have an incident
+commander we run it inside our slack
+more inside a dedicated slack war room
+we have a channel for it we use page or
+duty throughout it we track it like an
+incident and we write a post mortem and
+the reason that we do this is because
+it's creating an organizational
+Association of a safe place for
+incidents this is another reason why you
+should always run incidents at their
+initial severity so this can happen a
+lot right something comes in it looks
+like it's a high severity incident you
+start working the problem you're like oh
+this turned out it wasn't a real big
+deal this doesn't mean you stop your
+Incident Response process you should run
+it all the way to its course and the
+reason for that is it gave you practice
+at doing Incident Response and it's not
+just about practice about remembering
+how to do it which is a great thing
+because generally we're living in a
+world where these things don't happen as
+often as they used to and on-call
+rotations are getting long or getting
+more spaced out so we don't spend as
+much time doing these things
+we want it to be that instant response
+is just a thing that we do we're used to
+it right it's just part of business as
+usual and this is a good reason to run
+game days during business hours if you
+can if that's what makes sense to you
+because it's a calm time because it's
+already gonna be stressful enough when
+you have an outage at 2:00 in the
+morning you want to have this
+association with what it was like when
+when you were running through this
+exercise in the middle of the day when
+everyone was around
+and this is one of the most important
+things is you have to process the
+failure right it's not just enough to go
+through the motions and restore service
+that's really important that's actually
+job one during incident is restore
+service but we have to process this and
+the ideas around blamelessness and
+faultless Ness that's a really hard one
+to say it's just the beginning
+it's not just enough to say we do
+post-mortems that are blameless we have
+to actually process the failure and the
+outage through all the information that
+we have and the most important thing is
+this processing has to have a conclusion
+it has to end we have to tell the story
+otherwise it becomes unprocessed
+organizational trauma it's this thing
+that's still hanging out there so
+there's a misconception that the process
+trauma is to get it all out we're not
+talking about getting it all out what we
+need to do is integrate our experiences
+into a coherent whole and what does this
+mean this means including in telling our
+stories as well as changing our atomic
+nervous systems which in the case of an
+organization has to do with how we
+respond to outages and incidents so I
+think it's really really important that
+we are telling stories this means we are
+sharing our post-mortems this happened
+telling the way we process trauma is by
+sharing and telling the stories and good
+working our way through it this happens
+for individuals but also for an
+organization I like to say that a write
+only postmortem does not help anyone so
+doing post mortems is not like doing
+your taxes right it's not like well we
+have this template we had an outage I
+got to fill it out I filled it out it
+went off into Google Docs somewhere and
+we'll never see it again
+it not only doesn't need to be shared
+but it's really really helpful we look
+at these as storytelling exercises
+because these are also ways that
+questions get raised that we're able to
+work our way through this and one thing
+that's really interesting so Jay Paul
+Reid wrote his dissertation on post
+mortems and i-team and one of the
+interesting things that came out of his
+dissertation and his research was that
+the larger the organization he was
+working with the less likely it was the
+teams shared their post mortems outside
+of their team
+they kept them to themselves the irony
+is the larger the organization the more
+important it is to share these
+post-mortems outside of your team
+because of these complex systems and
+because of the more siloed effect that
+you have in a larger organization people
+outside of your you have to be able to
+tell the story to them because they're
+gonna see it with different eyes and be
+able to increase your learning as well
+as it's helping you as a team as an
+individual and as your larger
+organization processes outage all the
+way through to its natural conclusion
+and now it's done and now we can move on
+to the next thing so in top-down therapy
+it starts with emotions right why do you
+feel the way that you do this is similar
+to looking for root cause first so in
+somatic experiencing the body has worked
+with first right to enable this titrated
+approach to the emotions so similarly
+during an incident you're working to
+restore service prior to determining
+cause and it's important to look at the
+whole system and not start with these
+emotions which are the symptoms of the
+outage as I talked about before the
+problem with with looking for a root
+cause is the first thing you find is
+what is going to seem to be the end of
+your exploration when in fact there are
+many contributing factors and I want to
+talk a little bit now about this idea of
+cognitive distortions so their Lord
+their name implies their distortions in
+our cognition right their perspectives
+with bias there are irrational thoughts
+and beliefs that we unknowingly
+reinforce over time so these patterns
+and systems of thought are often really
+subtle and it's difficult to recognize
+them when they're a regular feature of
+your day-to-day thoughts so there's as
+many as 16 generally accepted cognitive
+distortions I'm not going to go through
+all sixteen we're going to touch on a
+few that might be causing issues for you
+and your organization so one is
+polarized thinking so this is also known
+as all-or-nothing thinking this is
+seeing everything in extremes
+it's either perfection or total failure
+remember our systems are always in some
+state of degradation our systems are
+always
+failing somewhere they are not perfect
+we don't have a hundred percent uptime
+and if we are thinking about this that
+we're either everything is great and
+everything is working perfectly
+or our systems are piece of and the
+reality is somewhere in between so we
+have to watch out for this polarized
+thinking there's also over
+generalization this is where we take a
+single instance and generalize it into
+an overall pattern on a personal level
+this could be oh I got a C on this test
+so I'm stupid and I'm a failure right in
+an organization it can be well we had a
+several an incident on this particular
+service so it's unstable and unreliable
+combined with another distortion which
+is called the mental filter this can
+manifest is only seeing the negative and
+eliminating all pauses about a situation
+a person or a product so it's very easy
+for us to sit down and say oh it's
+always that system that system is always
+having issues it must be terrible and
+then we start to generalize into the
+people who run those systems who create
+those systems we do fortune telling a
+lot and IT we feel like if we only had
+enough data we can be predictive a
+machine learning so if we only know
+enough we can predict the future right
+we just need enough data so yes we can
+start to get ideas about what is likely
+to happen but guess what systems are
+complex right we need to be able to
+understand that our predictions are not
+fact but they're actually just one of
+several positive outcomes think back to
+the Avengers infinity war when you know
+if you were dr. strangers like you saw
+15 million different possible outcomes
+and one of them was the good one so this
+is the thing with our we cannot
+determine exactly what is going to
+happen our predictions are one of
+several possible outcomes so we don't
+want to be to feel like if we only knew
+enough we could know exactly what was
+going to happen I'm reminded of years
+ago when I was working for an e-commerce
+company and we're to do saying a B
+testing and one of the things that
+happened this was pre agile and we
+worked in waterfall and blah blah blah
+so that's why this happened the way it
+did but we said during an a/b test we
+couldn't make changes to the website
+because we're running a test we wanted
+to understand and our product people
+said Oh
+no but I know what changes you can make
+that won't affect what the customer does
+and it's like well if you know that why
+do we need to test anything because
+you're clearly a psychic genius so we do
+this a lot and very smart people do this
+this is not you know this is very very
+common a control fallacy manifest is one
+of two beliefs either one we have no
+control over anything in our lives and
+we're hopeless victims of faith or that
+we are in complete control of everything
+and our surroundings giving us
+responsibility for the feelings of those
+around us both of these are really
+damaging and they're both equally
+inaccurate right we don't have a
+complete lack of control we also don't
+control all the things no one's in
+complete complete control even in
+extreme situations when an individual
+seemingly has no choices and what they
+do they have a certain amount of control
+how they approach it now this comes in
+this is an OPS thing so I've spent most
+of my career in ops so I can kind of
+talk about my my people so we feel an
+OPS that if we control everything no bad
+things will happen right if only we
+could keep those cowboy developers out
+of the system if we could maintain
+control that everything would be amazing
+the reality is we do not have full
+control over system and then likewise we
+don't completely lack control this
+happens a lot in IT as well
+we'll sit there and say well I've got
+trout or node management right what are
+you gonna do I can't do anything so it's
+somewhere in between and the final thing
+I want to think about here so we're
+talking about incidents outages how we
+handle them how many people here are
+currently on-call or part of an on-call
+rotation okay how many people been
+on-call in their career like this is a
+thing you've done okay great so
+self-care super matters because
+everything about being on-call is
+stressful
+everything about the experience is
+almost designed to raise your stress
+levels just hearing your pager go off
+causes a physiological response so I
+want to think about some of the things
+you can do to make this how can you take
+care of yourself when you're in an
+on-call rotation
+and why does it matter burnout is a real
+thing it's becoming an even bigger thing
+in our industry because we are taking on
+more and more we take more and more
+personal ownership around our systems
+and we're and it's causing more and more
+issues one of the things we do at page
+Duty one of the big reasons why I'm just
+a part of the company and I feel like
+I'm in a good place is we have we have
+features in our product that help
+measure burnout in on-call teams because
+we're able to look at that and say is
+your team healthy it's not as your
+system healthy are your people healthy
+because it has an absolute effect and
+even if you don't care about the humane
+levels of the people you work with it
+costs I believe the number is on average
+in this country over $300,000 to replace
+an engineer it's better to keep your
+people than to have to replace them when
+they burn out so if all you care about
+is the bottom line there you go so we
+want to think about context switching
+create a ritual around going on and off
+call right this helps your body
+understand that things are changing
+there's a lot to do with the
+physiological response so an example
+around this is when I take out my
+context I get sleepy and this is because
+and when I put them in I wake up and
+this is because of decades upon decades
+of putting context in my eyes in the
+morning and taking them out before bed
+my body has expectations it actually
+physiologically changes whether or not I
+have contacts in and it's not whether or
+not I have them in it's the process of
+taking them out and putting them in so
+when we do things like I talk to people
+who have an on-call hoodie they were a
+special hoodie when they're on call and
+the reason is because they can take it
+off and it's literally releasing a
+weight when they're like I am NOT on
+call anymore my body knows and can
+change you need to allocate mental
+bandwidth properly right so if you're on
+call allow this to be your number one
+priority
+don't try to deliver high priority
+projects during the time that you are on
+call now having a good relationship with
+your manager is really key for this work
+with her to help under sir I understand
+where you're coming from
+and help set the expectations to say
+like during this time one of the things
+that can help I see a lot of people that
+will tell me that when they're on call
+the projects they work on or remediation
+or resiliency projects projects that are
+directly connected to the stability of
+the systems they're on call for have an
+awareness that on call is stressful take
+some extra time to treat yourself during
+these times to help counter the stress
+right we know this is not the most
+delightful thing in the world let's just
+take some ownership around that and
+maybe treat ourselves a little bit so I
+talked to Ana Medina from Gremlin about
+this a while ago and she said that when
+she's on call she schedules time to go
+have wine with her girlfriends or plans
+to go out for a favorite dinner and the
+reason it says that you know because on
+call we could be a really rough week but
+then this gives her something to look
+forward to when she's on call she has a
+special treat that she only does when
+she's on call and it's very tempting and
+common to fill ourselves with sugar and
+caffeine while we're on call this is
+kind of detrimental you need to eat
+healthy stay hydrated drink a lot of
+water this might sound like common sense
+but it's really hard to remember to do
+there is a physical effort to being on
+call you might say it's kind of like
+being an elite athlete in its own way
+right so keep healthy take care of
+yourself take care of your body and take
+care of your brain and as always because
+this is how I do talks I went to Twitter
+for some suggestions some ways that
+people provide self-care to themselves
+when they are going through on call so I
+kind of like this one which was again
+talking about resting when possible but
+it doesn't mean sleep you know you're
+not going to sleep the whole week doing
+activities are restorative right so this
+Cole likes knitting so that's a relaxing
+thing getting outside right it can be
+hard to get outside sometimes but you
+know said YouTube yoga is a thing and
+then this is a really key one is saying
+no to other obligate
+it's an exhausting time it might be a
+time to say no to other obligations
+Tammy says you know during a bad
+rotation she curls up with the throw
+throw rugs and tea on the couch but I
+like to think again saying naps going to
+the gym and then during rotations and
+when there's no pages be eternally
+grateful so that's sort of a thing it's
+like a Marie Kondo thing it's like the
+any rotation if you didn't get paged
+thank that on-call rotation and let it
+go
+I actually super do this like what I
+have because of my on call so I'm on
+call as an incentive commander a page of
+duty and it's a 24-hour rotation about
+every two weeks and when that rotation
+is over and we didn't have an incident
+I'm like and especially like the last
+last 15 minutes of their rotation you're
+like oh come on please please please
+please please and and this is even me
+talking about we have a really good
+on-call culture and it is not that
+stressful when you have incidents and I
+actually enjoy being Anacin commander
+and helping out but I still super love
+it when no incidents happen during my
+rotation
+I like Matt's idea here you know get a
+massage if it's on-call time right treat
+yourself you know running on a treadmill
+every time you get to adequate sleep so
+it's a little bit of a reward Jeremy
+takes us time to binge watch Netflix
+shows that his wife doesn't want to
+watch with him and then some maybe not
+great advice eating too many Pringles
+and potato chips and all those things so
+this is Twitter right it's not always
+the best advice so take it with a grain
+of salt and then if all else fails if
+none of these things help you in
+self-care when it comes to your on call
+we could always go with this sleep in
+forget to put the phone on the charger
+have the phone on quiet mode and don't
+get called at all and as Jeremy says
+maybe this is why he is not part of
+on-call rotations anymore and now lives
+the Deverell life so to kind of wind
+this up remember as Peter Levine says
+right so he says you know resilience
+strength is the opposite of helplessness
+what does this mean being resilient
+means we don't think about things from
+the perspective of things that happen to
+us it's a matter of what we can do going
+forward and a culture of blame creates a
+culture of helplessness right so when we
+talk about this is why blamelessness
+matters so very much because when we
+feel that we are in a culture where we
+as individuals can be blamed we feel
+helpless we feel like we cannot actually
+make changes we're not allowed to make
+mistakes and it makes us feel very very
+helpless the slides for this are
+available at on my speaking page as well
+as other other talks that I have given
+I appreciate this I'm happy to if people
+have questions we want to talk about I
+know I'm giving you a little bit of time
+back but I know we got to get ourselves
+across because you got Jessie Frizzles
+talk that we don't want to miss so I
+don't want to get in the way of that but
+I would love to hear about any instances
+and any kind of tips and tricks and
+thoughts you have about your experiences
+with alcohol so thank you
+[Applause]

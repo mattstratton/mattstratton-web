@@ -1,703 +1,99 @@
-[Music]
-so funny story about the title of this
-talk I first gave this talk and DevOps
-is Charlotte earlier this year and at
-the time the webpage I use where I
-listed all my talks this talk title was
-so long that it like jacked up the
-alignment of all the other talks but I
-feel better having seen some of the
-other talk titles at this event that I'm
-like I actually have probably maybe the
-shortest talk title so that's alright so
-yeah we're gonna talk a little bit about
-how we can apply product management
-practices to things we do in IT that are
-not traditionally products how many
-people saw peach has locs talked
-yesterday decided curiosity so Pete
-talked a little bit about going from
-hops to product and mostly I think
-according to Pete the only thing that
-matters when you're a product owner is
-you don't have to you know have pager
-duty on your phone anymore but there's a
-little bit more to product management
-and product ownership than that we're
-gonna talk about that a little bit um so
-a little bit you kind of already heard
-most of this so blah blah blah so yeah
-the thing about this though is yeah I
-still do have a license plate that says
-DevOps I no longer have a car but I
-still do have the license plate and one
-of my proudest moments was when Patrick
-Dubois who founded the first DevOps days
-and Gantt included a picture of my
-license plate in one of his
-presentations so kind of a nerd um so
-yeah everything else you already heard
-blah blah blah that's great so before
-kind of getting into this nitty-gritty I
-want to tell you a little bit of a story
-about how I got here and here not
-necessarily here speaking to you today
-but got to these ideas that I'm talking
-about
-so I'm originally from Chicago as as you
-said right and in Chicago we've built
-some amazing things I say we I had very
-little to do with any of these but you
-know you kind of know how that goes it's
-sort of like a sports fans we say hey
-yeah we won the World Series I had
-nothing to do with that by the way we
-did win the World Series in 2016
-however we always do
-to say that after the Cubs won the World
-Series would probably be the end of the
-world and yeah politics so the thing is
-some of the things that we built in
-Chicago seem a little weird from the
-outside like maybe the way that we do
-pizza or as Jon Stewart said casserole
-the problem is that we also tend to get
-rigid and dogmatic about those things we
-feel very strongly about our sports
-teams like the Bears and do Bulls and
-when we become rigid and dogmatic about
-these things we run into some challenges
-right and so we talk about I've worked
-in a lot of traditional IT shops there's
-a lot of insurance and finance in
-Chicago and if you've worked for a long
-time intact especially in ops in the
-Chicagoland area you've probably worked
-for big financial companies and big
-insurance companies that's what we do
-you know it's Chicago it's the Midwest
-where the salt of the earth etc etc etc
-you know how it goes so one great thing
-happened though I went to work for a
-company in Chicago called apartments.com
-which was one of the most the time
-well-known ecommerce companies it was
-kind of the big startup story of Chicago
-years ago and I got this opportunity
-while I was there to meet someone named
-Marty Kagan so when I was working at
-apartments they brought Marty in to talk
-to our product folks about and to our
-developers about how we could approach
-product management so Marty you're not
-familiar with him he's very well known
-he many people remember a little company
-called LivingSocial used to be a thing
-kind of like Groupon the other dead now
-but you know they were cool once Marty
-did some consulting with them he's
-written a lot of really great books
-about product management and so they
-brought mardian to talk to our software
-engineers and talk to our product folks
-about how we could manage our products
-better I'm not quite sure how I got
-invited to this two-day session because
-I was running tech ops at the time but
-it was super duper i opening it was the
-first opportunity I really had
-to think about how product management
-worked how product ownership worked he
-talked about multitrack like how they do
-things at Google again from a product
-perspective I knew a lot about how from
-a technology perspective other
-organizations did things but I didn't
-really understand how products worked so
-the idea that I'm giving you here is
-that your IT services can be products in
-fact not only can they be products they
-are products right we tend to think
-about our services as processes or ways
-of doing work well everything is a way
-of doing work right everything is work
-so we could think about this right think
-about something like lyft right so we
-would say lyft is a product right but
-it's not a CPG or consumer packaged
-goods right it's not something Procter &
-Gamble sells it's a customer experience
-yes there's software that plays a key
-role in the product that is lyft but
-there are tools and there are humans
-those are all the things that make up
-the product sounds a lot like services
-that we provide within technology within
-our organization so you have customers
-right you know if you don't know who
-your customers are go go figure it out
-we'll wait so I recently a very good
-timing of this we wrote there was a post
-on the page of duty blog by Marguerite
-de Troy massan's I'm really proud I got
-that right we have a lot of Canadians
-working at patron duty and so she is the
-product owner for sre and so there is a
-blog post about what she does and I was
-like this is fantastic timing because I
-can totally steal stuff from what
-Margaery talked about and what she said
-was that again rather than shipping than
-focusing at a product that we ship
-externally to people who give us money
-for pager duty she focuses on internal
-development right on things for our
-internal development tool tea
-and so what she does is the product
-owner for that she sets the direction of
-where the SRE team is going and what
-initiatives will be taking on to improve
-the lives of pager duties developers so
-the exact same practices that we follow
-a pager duty for the product that people
-give us money for to wake them up in the
-middle of the night is the exact same
-process that Marguerite uses to manage
-what the SRE team is gonna do it's key
-she is not the manager of the SRA team
-she is the product owner of what the SRE
-team does so let's talk about some
-examples of some things that you can
-productize I'm not sure that I spelled
-productize right I'm also not really
-sure that it's a real word but go with
-me here you know we we invent new words
-this is thought leadership going on
-right in front of your eyes so service
-requests you know just the things people
-ask you to do hey guess what you don't
-need my password reset I know that
-doesn't sound like a product but it's a
-thing that has to happen the deployment
-of things I know we're all in the cloud
-and stuff like that but all there's
-still a lot of requests that come in
-software delivery process the way that
-you actually deploy your software itself
-can be a product it has consumers and
-customers and features and then also
-maybe your infrastructure is code your
-your actual the things that make up your
-infra those processes and the components
-of them are products so I need to
-explain something before I move on so I
-gave this talk initially DevOps stays
-Charlotte back in February and one of
-enough for an additional fellow
-developer evangelist named Emily Freeman
-was speaking at the same events and a
-few days before the event she had posted
-on Twitter about how supportive her
-mother was of her on Twitter that every
-time she would tweet about something
-cool she
-doing or a cool event her mom would that
-was basically the only reason her mom
-had Twitter was to go and like be like
-hey Emily that's you know like basically
-to like all of her stuff so of course
-like everybody else in Deverell who knew
-Emily was like oh well now we're
-following Emily's mom you know and blah
-blah blah and so I decided to say well
-of course this means I'm going to
-feature Emily's mom in my talk in the
-next week or so and that's this is the
-tweet when I pointed that out I ran into
-a little bit of a problem a couple weeks
-ago okay when we have this talk in
-Boston Emily's not speaking there
-there's gonna be no context for who
-Emily Freeman is I need to remove the
-references to Emily's mom as you're
-about to see the references to Emily's
-mom are actually very integral to the
-flow of this entire talk so just bear
-with me that this is there so now you
-know the backstory of it so we can all
-pretend that that exists and you know if
-you can if you really take a look at
-that if you want take a picture that you
-want to follow Emily's mom she's a I
-think Patricia G Freeman or something
-like that and yeah I'm sure she would
-would love a whole bunch of more DevOps
-people to follow her on Twitter so do me
-a favor for the rest of this talk even
-though I'm sure you can think of a
-hundred reasons why what I'm about to
-suggest would never work in your
-organization just humor me let's pretend
-that it will just for like what I don't
-know like another 20 minutes or so I
-mean you can do that it's not asking for
-very much I mean I've done that in my
-backstory I'm my background to give the
-example and when I was first learning
-about this whole crazy DevOps thing the
-way I learned was by listening to
-podcasts and one of the first podcast
-episodes I listened to was from a show
-called DevOps cafe and they had
-gentleman on named Jess humble and he
-was talking about the ideas of
-continuous delivery bear in mind I'm
-working at an e-commerce Internet
-company called apartments.com at the
-time I'm listening to it listening to
-the concepts of continuous delivery and
-saying to myself that would never work
-here and then as I'm literally saying
-this out loud driving in my car on the
-Eisenhower Expressway yelling at jazz
-in my radio he explains that they do
-this for HP LaserJet firmware and I sit
-there and say oh so like I'm saying bear
-with me just for a few minutes we don't
-have to much longer pretend that it will
-work Emily's mom is watching to make
-sure that you do you see how I couldn't
-get rid of this slide so the thing is
-yeah as I said she's not really watching
-she doesn't even know this talk is
-happening but as you know I did threaten
-to include it and if we start lying on
-Twitter what good will that platform be
-bear in mind that at least half of our
-ideas are going to fail for example and
-[Music]
-and because of this this is why road
-maps are bad and if you have one you
-should feel bad I'm going to explain
-this a little bit more the product
-owners at page of duty' did not like
-this slide when they saw that I put it
-up there so there's a little more nuance
-to it than this the problem with a road
-map is it presumes that you can see the
-future how many people here can predict
-the future okay you're all full of
-all right now it's okay to make plans
-but our road maps are not things that
-sit there and say this is exactly what
-we're going to do the more detailed your
-road map the more detailed your plans
-and the less likely they're going to
-survive the real world so we're used to
-working in projects in IT right we're
-gonna have the Service Desk revamp
-project or something like that the
-problem is projects are output based
-they're like look I made a thing yay
-right look at how many things that we
-made but those things don't matter what
-matter our business outcomes
-I can't stress this enough if you
-remember nothing else from this talk
-remember those two words business
-outcomes and we need to think about how
-we're gonna do discovery discovery is
-hard you know why because our customers
-don't know what's possible this is the
-obligatory Henry Ford if I asked my
-customers what they wanted they'd ask
-for a faster horse right so discovery is
-a very challenging thing it's probably
-one of the hardest things to do as a
-product owner let me put it this way
-it's one of the hardest things to do
-well it's very easy to do the way you do
-it easy to say hey what do you want okay
-cool or do you want this oh yeah you do
-right right so the things about
-discovery are it's always happening
-discovery is not a phase it's not a
-stage you are constantly doing discovery
-about your products that's sort of that
-fast feedback idea but you're always
-looking at what matters it's not just
-for your boss or fancy-pants architect
-idle people everybody involved is doing
-discovery we talked a lot about not
-having silos and DevOps right the idea
-is there's no special sauce about
-because of your title you can do
-discovery better in fact the more
-connected you are with the product and
-and developing it and implementing it
-probably the better you are at discovery
-because you know some of the questions
-to ask and it's not just saying yo what
-are your requirements right that's what
-we used to do things right that's
-requirement based development there's
-nothing to do with discovery there
-that's sort of just doing things that
-someone asks for and that's providing
-very little value so when you're
-creating a product you need to establish
-compelling value and this is tough but
-without doing this guess what you're
-screwed if there isn't a compelling
-value to your customer be it software
-engineers on other teams your helpdesk
-etc nobody will use your product even if
-there's
-whole to use it right and your product
-will fail in your internal marketplace
-if the only way you're going to get
-people to use your product is because
-their boss told them they had to they
-will be compliant if they have to do it
-but they will do everything they can to
-not do it you have to provide compelling
-value to your customer this one's hard
-use your experience over-engineering we
-like to solve problems don't we we liked
-a solution ear we hear a thing and we're
-just like oh we can build a thing and we
-can kubernetes the out of it right
-okay but user experience matters like so
-much and user experience is not user
-interface right it's not CSS and you
-know like clicky buttons and radio
-buttons and everything right this is
-what is it like for the people who will
-be using your solution a lot of these
-people are going to be spending hours
-and hours of or of every week perhaps
-with this think about what can you do to
-make it more delightful for them
-remember most of your ideas won't work
-out that is totally okay right you got
-to know as Marc Andreessen says he's
-like you got to know what you don't what
-not even what you don't know what you
-can't know we can't know everything in
-fact we can't know most things I like
-this one too
-you were gonna test our feasibility
-during discovery and what does this mean
-it means build or implement as little as
-possible during your discovery part of
-your while you're thinking things
-through four processes oftentimes just
-role-playing workshops with your
-customers right experiment walkthrough
-stuff on paper good example like if we
-just sort of think about the traditional
-agile adoption right the last thing you
-do are actually the the wrong way to
-implement agile in your organization
-when you're getting started is go by
-rally nothing against rally start with
-post-its right start with role-playing
-start with
-smallest amount because you're just
-testing feasibility this one's very
-important what looks interesting up here
-people have heard of MVPs before right
-and most people think it stands for
-Minimum Viable Product Marty Kagan will
-tell you it stands for minimum viable
-prototype they are unfortunately named
-when we call them a Minimum Viable
-Product an MVP is never something that
-should be considered anywhere close to
-production ready it's just something to
-get there to tryout to get a feel so the
-minimum amount you need to see if
-something is potentially gonna work the
-reason in regular products that you sell
-this is important is because it keeps
-your sales folks from selling something
-that is never gonna happen here's a bad
-example of an MVP for an internal IT
-service or internal IT process we're
-gonna create an MVP of our chef
-implementation well do this by
-installing the chef client on a thousand
-nodes and then we'll write an MVP
-cookbook that checks to see if a files
-there that we're used to seeing this
-takes us a long time to get to a point
-to even see if we learned anything
-because installing chef on 10,000 nodes
-is not going to be instant I mean chef
-is awesome I used to work there by the
-way you know but it's gonna take some
-time this is not the smallest amount
-that we can get not only part of the
-reason I give this example this is a
-real-world example I had a customer and
-I said what is your goal of this
-implementation and they said this and I
-said your goal is not to install chef on
-10,000 nodes that's my goal is to get
-you to install chef on 10,000 nodes but
-what's the value so think about your MVP
-as a smallest prototype required to
-answer the question we need to know now
-and again know the business right as
-always
-anything you do needs to service your
-business and we say business again
-whatever your organization is you could
-be a non-profit you can be whatever but
-the company the organization we have to
-service that how does this product
-you're creating service a business
-outcome
-you need to convince your stakeholders
-that you understand what their
-constraints are and that you're not
-going to screw them over know your
-customer why do they do what they do and
-what exactly do they do right like these
-can be hard questions because we think
-we know we make assumptions about what
-certain roles do and you want to know
-how you can find this stuff out you got
-to talk to some humans right just do it
-a little more pleasantly than the Bob's
-did right maybe the suspenders might
-work for you I don't know always be
-gathering feedback maybe not in this way
-but make sure you're getting some kind
-of feedback you always want to know
-we're continually improving again we're
-always doing discovery in any given
-sprint assuming that's how you're doing
-work you should have just as many
-Discovery related stories or work or
-whatever you call them as well as
-delivery ones so whatever way you're
-organizing your work you need to be
-spending just as much time on discovery
-as you are on delivery and then every
-time you find yourself saying what if
-this happened or what if we hit this
-corner case I want you to imagine samuel
-l.jackson telling you that he doesn't
-want to hear about any Monday to Friday
-if you can fill that one in the way that
-you want to I've had that experience
-quite a bit with customers of mine with
-like what about this what about this
-what about this and you'll never get
-anything done
-and remember you know why cuz you're
-never gonna be done and that is okay
-Emily's mom still loves you she is
-rooting for you and I am rooting for you
-too so I think we might have time for a
-couple questions if anyone has any any
-questions yes what I will recommend so
-the easiest way for this I'm sorry that
-thank you you think I've never done
-that's before so the question was other
-than what I just learned in the last
-half an hour I don't know anything about
-making a product what are some good
-resources to get started with what I'm
-going to direct you to because it's the
-easiest way to do this right now so
-Marty Kagan has some great books I have
-the these slides and some resources
-around them will be available if you go
-to Matt Stratton comm slash speaking
-they'll be up in I don't know an hour or
-so and you'll be able to see the slides
-and then if you look at the press and
-I'll have links to some of Marty's books
-as well as some other other items that's
-easier than me kind of repeating and
-everybody mad scrambling to write it
-down so have a question when you think
-about the additions to efficiency and
-velocity and quality that can come from
-delivery infrastructure see ICD a lot of
-that stuff seems to be kind of
-inherently understood to be valuable and
-potentially giving back a lot of time to
-the people that are gonna be executing a
-lot of those efforts and activities mmm
-so how do you fight against
-organizations just kind of like
-mandating that because they all
-understand that it's going to be
-beneficial but that might absolutely
-skip over that process of discovery with
-the actual people that'll be benefiting
-from this product right when you run
-into the scenario of when things come
-from a mandate right for example we're
-saying this is just someone in the
-organization up here has decided this
-will work so we're not really doing
-discovery we've just sort of decided
-right and I think most people can get a
-good will agree that in a lot of cases
-what you're trying to achieve with
-devops can be very beneficial to your
-software delivery application delivery
-delivery organism right so they might
-just skip over the whole discovery
-process with the folks that are actually
-going to be so those are the people that
-should have heard this I mean when
-you're in this scenario where you're not
-being brought in on it that's
-challenging and that's a whole different
-conversation on managing up which we
-don't have a whole lot of time to talk
-about but that what what ends up
-happening though the outcome of that and
-this is the bummer is a difference
-between people being committed versus
-being compliant
-right so when you have the scenario of
-that that the folks who are the
-customers are not involved in the
-discovery and in the implement and not
-in the implementation but are not part
-of it they will be compliant the
-compliant person does what they're told
-but they are not committed and a big
-part of whether or not even if you
-aren't able to involve them in discovery
-but being able to be transparent about
-how because again you can't necessarily
-involve everyone but that's a that's a
-whole different talk that I have that's
-about that but it's a challenge so as a
-if we're gonna be delivering products is
-a product owner requirement because
-internally we've had a debate on our
-team do we need a product owner
-we're DevOps mostly focus on DevOps
-releasing like application support type
-team so do we need to have up or do we
-need a product owner for our team or not
-has it been a constant debate my advice
-I would I would go to the well-known and
-respected philosopher Ron Swanson and
-say never half asked two jobs who last
-one job so my advice is as much as
-positive possible a dedicate a product
-owner because it's very hard to do more
-than one thing well at the same time now
-what you can do in a scenario where
-maybe you know again not everyone has
-the luxury of the staffing to say like
-yes of course we have a product owner
-and that's all they do I have seen this
-work with as a role rather than a job
-which would say maybe you have someone
-on the team it's a it's a passing a long
-thing which is okay for this month Joe
-is the product owner next month sally is
-the product owner and maybe you because
-again you don't have the luxury of
-having someone work as an FTE doing
-nothing but being a product owner
-someone has to wear that hat though it
-can't be like all by consensus because
-there's product owners have to make
-decisions so if you're going to do it
-where it's not someone where it's there
-I hate to say title but it's their FTE
-job I would do it as a role and I would
-I would rotate it around within the team
-I've seen that work pretty effectively
-and if people aren't good at and they
-don't want to do it on the team you like
-you don't force people to do it because
-it is a skill right so you may say hey
-we've got 4s Ari's on
-team and you know Joe is just has no
-interest in doing this and he probably
-wouldn't be very good at it we're not
-gonna make him do a rotation of it and I
-would experiment see how that goes but
-it's challenging when you have someone
-where they have to do more than one
-focus for sure I'm not a product owner a
-product manager so some of the
-terminology I'm guessing at ok discovery
-so I'm trying to understand what
-discovery is at what layer I'm I'm the
-person who's sitting there coming up
-with the ideas writing the proposals
-with a code or whatnot so discovery for
-me is constantly oh there's this idea is
-it worth pursuing is it worth looking at
-versus what do you mean by discovery at
-a product level cuz at an organizational
-level I think I don't see how discovery
-can possibly happen because you've got
-committees well that's part of the
-problem right is part of the discovery
-is and again I'm gonna oversimplify and
-say you'll find some reference to this
-and some of the links I talk about but
-you talk about the 10 cues in product
-which are 10 questions because you're
-asked and that's discovery about is this
-a product is this a feature is this
-something we should do so again it's
-thinking about the things that your
-product owners who are building your
-features what are the things that they
-do when they do discovery to decide
-whether or not we should do a feature
-whether or not this is something that is
-going to be competitive and helpful for
-us in the market and our GTM so I would
-do the same discovery within an IT
-service is a very similar thing and a
-lot of it has to do with continually
-going back to your customers and finding
-out how things are going that was sort
-of a little part of discovery is the
-feedback where I kind of my joke about
-the NPS score of the Jenkins thing like
-you won't necessarily do it that way but
-you should be always collecting feedback
-from your stake whether you call them
-stakeholders or customers and say like
-what what's changing with what they're
-doing and part of that discovery is not
-just asking are you happy or what do you
-want it's spending time understanding
-what they're doing like you said to be
-making those those ideas about do we
-need to do this thing the thing is if
-you're doing if you're coming up with
-those ideas to use the DevOps cliche in
-a silo you're not getting it you're not
-finding out what your your customers
-actually
-so it's a kind of if you look at it it's
-it's a different layer so discovery kind
-of happens over here and then it kind of
-comes down into this like the dual track
-product ownership and product management
-that Google kind of invented or at least
-what they do and so you're kind of doing
-discovery and that's filtering down into
-delivery and then you're you're taking
-that back up to discovery so they're hat
-but they're happening in parallel it's
-not a phase of a project thank you okay
-[Applause]
+So funny story about the title of this talk. I first gave this talk at DevOps Days Charlotte earlier this year, and at the time the webpage I use where I listed all my talks — this talk title was so long that it jacked up the alignment of all the other talks. But I feel better having seen some of the other talk titles at this event. I actually have probably maybe the shortest talk title, so that's alright.
+
+So yeah, we're gonna talk a little bit about how we can apply product management practices to things we do in IT that are not traditionally products. How many people saw Pete Cheslock's talk yesterday? Just curious. So Pete talked a little bit about going from ops to product, and mostly I think according to Pete the only thing that matters when you're a product owner is you don't have to have PagerDuty on your phone anymore. But there's a little bit more to product management and product ownership than that. We're gonna talk about that a little bit.
+
+So yeah, I still do have a license plate that says DevOps. I no longer have a car, but I still do have the license plate. And one of my proudest moments was when Patrick Debois, who founded the first DevOps Days, included a picture of my license plate in one of his presentations, so kind of a nerd.
+
+So before getting into this nitty-gritty I want to tell you a little bit of a story about how I got here — here not necessarily here speaking to you today, but got to these ideas that I'm talking about.
+
+So I'm originally from Chicago. And in Chicago we've built some amazing things. I say "we" — I had very little to do with any of these — but you know you kind of know how that goes. It's sort of like sports fans: we say "hey yeah we won the World Series." I had nothing to do with that, by the way. We did win the World Series in 2016. However, we always do have to say that after the Cubs won the World Series — that would probably be the end of the world. Yeah, politics.
+
+So the thing is, some of the things that we built in Chicago seem a little weird from the outside, like maybe the way that we do pizza, or as Jon Stewart said, casserole. The problem is that we also tend to get rigid and dogmatic about those things. We feel very strongly about our sports teams like the Bears and the Bulls. And when we become rigid and dogmatic about these things we run into some challenges.
+
+I've worked in a lot of traditional IT shops. There's a lot of insurance and finance in Chicago, and if you've worked for a long time in tech especially in ops in the Chicagoland area, you've probably worked for big financial companies and big insurance companies. That's what we do. You know, it's Chicago, it's the Midwest, we're the salt of the earth, etc., etc., etc.
+
+One great thing happened though: I went to work for a company in Chicago called apartments.com, which was one of the most well-known e-commerce companies at the time. It was kind of the big startup story of Chicago years ago. And I got this opportunity while I was there to meet someone named Marty Cagan. So when I was working at apartments.com they brought Marty in to talk to our product folks — and to our developers — about how we could approach product management.
+
+Marty, if you're not familiar with him, is very well known. Many people remember a little company called LivingSocial — used to be a thing, kind of like Groupon. Both dead now, but you know, they were cool once. Marty did some consulting with them. He's written a lot of really great books about product management. So they brought Marty in to talk to our software engineers and talk to our product folks about how we could manage our products better. I'm not quite sure how I got invited to this two-day session because I was running tech ops at the time, but it was super eye-opening. It was the first opportunity I really had to think about how product management worked, how product ownership worked. He talked about dual-track, like how they do things at Google — again from a product perspective. I knew a lot about how, from a technology perspective, other organizations did things, but I didn't really understand how products worked.
+
+So the idea that I'm giving you here is that your IT services can be products. In fact, not only can they be products, they are products. We tend to think about our services as processes or ways of doing work. Well, everything is a way of doing work, right? Everything is work. So we could think about this — think about something like Lyft, right? We would say Lyft is a product. But it's not a CPG, or consumer packaged goods. It's not something Procter and Gamble sells. It's a customer experience. Yes, there's software that plays a key role in the product that is Lyft, but there are tools and there are humans — those are all the things that make up the product. Sounds a lot like services that we provide within technology within our organization.
+
+So you have customers. If you don't know who your customers are, go figure it out, we'll wait.
+
+So recently — very good timing of this — there was a post on the PagerDuty blog by Marguerite Detrois. I'm really proud I got that right. We have a lot of Canadians working at PagerDuty. She is the product owner for SRE. There is a blog post about what she does, and I was like this is fantastic timing because I can totally steal stuff from what Marguerite talked about. And what she said was that rather than focusing on a product that we ship externally to people who give us money for PagerDuty, she focuses on internal development — on things for our internal development tooling. And so what she does as the product owner for that is she sets the direction of where the SRE team is going and what initiatives will be taken on to improve the lives of PagerDuty's developers. So the exact same practices that we follow at PagerDuty for the product that people give us money for — to wake them up in the middle of the night — is the exact same process that Marguerite uses to manage what the SRE team is gonna do. And critically, she is not the manager of the SRE team. She is the product owner of what the SRE team does.
+
+So let's talk about some examples of some things that you can productize. I'm not sure that I spelled "productize" right; I'm also not really sure that it's a real word, but go with me here. We invent new words. This is thought leadership going on right in front of your eyes.
+
+So: service requests — just the things people ask you to do. "Hey, guess what, you need my password reset." I know that doesn't sound like a product, but it's a thing that has to happen. The deployment of things — I know we're all in the cloud and stuff like that, but there are still a lot of requests that come in. The software delivery process — the way that you actually deploy your software itself can be a product. It has consumers and customers and features. And then also maybe your infrastructure as code — your actual things that make up your infra — those processes and the components of them are products.
+
+So I need to explain something before I move on. I gave this talk initially at DevOps Days Charlotte back in February, and one of my fellow developer evangelists named Emily Freeman was speaking at the same event. A few days before the event she had posted on Twitter about how supportive her mother was of her on Twitter — that every time she would tweet about something cool she was doing or a cool event, her mom — basically the only reason her mom had Twitter was to go and like, be like "hey Emily, that's cool" — basically to like all of her stuff. So of course, like everybody else in DevRel who knew Emily was like "oh well now we're following Emily's mom," and so I decided to say "well of course this means I'm going to feature Emily's mom in my talk in the next week or so."
+
+Now, when we have this talk in Boston, Emily's not speaking there. There's gonna be no context for who Emily Freeman is. I need to remove the references to Emily's mom. As you're about to see, the references to Emily's mom are actually very integral to the flow of this entire talk. So just bear with me. Now you know the backstory of it, so we can all pretend that that context exists. And if you want to follow Emily's mom — I think Patricia G. Freeman or something like that — I'm sure she would love a whole bunch more DevOps people to follow her on Twitter.
+
+So do me a favor: for the rest of this talk, even though I'm sure you can think of a hundred reasons why what I'm about to suggest would never work in your organization, just humor me. Let's pretend that it will, just for like another 20 minutes or so. I mean, you can do that — it's not asking for very much.
+
+In my background, to give the example: when I was first learning about this whole crazy DevOps thing, the way I learned was by listening to podcasts. And one of the first podcast episodes I listened to was from a show called DevOps Cafe, and they had a gentleman on named Jez Humble. He was talking about the ideas of continuous delivery. Bear in mind I'm working at an e-commerce internet company called apartments.com at the time. I'm listening to the concepts of continuous delivery and saying to myself, "That would never work here." And then as I'm literally saying this out loud driving in my car on the Eisenhower Expressway, yelling at Jez in my radio, he explains that they do this for HP LaserJet firmware. And I sit there and say, "Oh."
+
+So, bear with me — just for a few minutes. We don't have much longer to pretend that it will work. Emily's mom is watching to make sure that you do. You see how I couldn't get rid of this slide.
+
+So the thing is, yeah, as I said, she's not really watching; she doesn't even know this talk is happening. But as you know, I did threaten to include it, and if we start lying on Twitter, what good will that platform be.
+
+Bear in mind that at least half of our ideas are going to fail. And because of this, this is why road maps are bad — and if you have one you should feel bad. I'm going to explain this a little bit more. The product owners at PagerDuty did not like this slide when they saw that I put it up there, so there's a little more nuance to it than this.
+
+The problem with a road map is it presumes that you can see the future. How many people here can predict the future? Okay, you're all full of it. It's okay to make plans, but our road maps are not things that sit there and say "this is exactly what we're going to do." The more detailed your road map, the more detailed your plans, and the less likely they're going to survive the real world.
+
+So we're used to working in projects in IT. We're gonna have "the Service Desk revamp project" or something like that. The problem is projects are output-based. They're like "look, I made a thing, yay!" Look at how many things that we made! But those things don't matter. What matters are business outcomes. I can't stress this enough: if you remember nothing else from this talk, remember those two words — business outcomes.
+
+And we need to think about how we're gonna do discovery. Discovery is hard. You know why? Because our customers don't know what's possible. This is the obligatory Henry Ford: "If I asked my customers what they wanted, they'd ask for a faster horse." So discovery is a very challenging thing. It's probably one of the hardest things to do as a product owner — let me put it this way, it's one of the hardest things to do well. It's very easy to do badly: just say "hey, what do you want?" "Okay cool." Or "do you want this?" "Oh yeah."
+
+So the things about discovery: it's always happening. Discovery is not a phase, it's not a stage. You are constantly doing discovery about your products. That's sort of that fast feedback idea. But you're always looking at what matters. It's not just for your boss or the fancy-pants architect. Everybody involved is doing discovery. We talk a lot about not having silos in DevOps. The idea is there's no special sauce because of your title — you can do discovery better. In fact, the more connected you are with the product, and developing it and implementing it, probably the better you are at discovery, because you know some of the questions to ask. And it's not just saying "yo, what are your requirements?" — that's what we used to do. That's requirement-based development. There's nothing to do with discovery there. That's just doing things that someone asks for, and that's providing very little value.
+
+So when you're creating a product you need to establish compelling value. And this is tough, but without doing this, guess what — you're screwed. If there isn't a compelling value to your customer — be it software engineers on other teams, your helpdesk, etc. — nobody will use your product even if they're required to use it. And your product will fail in your internal marketplace. If the only way you're going to get people to use your product is because their boss told them they had to, they will be compliant if they have to do it, but they will do everything they can to not do it. You have to provide compelling value to your customer.
+
+This one's hard: user experience over engineering. We like to solve problems, don't we? We like to solutioneer. We hear a thing and we're just like "oh, we can build a thing, and we can Kubernetes the heck out of it." But user experience matters, like so much. And user experience is not user interface — it's not CSS and clicky buttons and radio buttons and everything. This is: what is it like for the people who will be using your solution? A lot of these people are going to be spending hours and hours of every week, perhaps, with this. Think about what you can do to make it more delightful for them.
+
+Remember most of your ideas won't work out. That is totally okay. As Marc Andreessen says, you've got to know not just what you don't know — what you can't know. We can't know everything; in fact we can't know most things.
+
+You're going to test feasibility during discovery. And what does this mean? It means: build or implement as little as possible during your discovery, while you're thinking things through. For processes, oftentimes just role-playing workshops with your customers — experiment, walkthrough stuff on paper. Good example: if we just sort of think about the traditional agile adoption, the wrong way to implement agile in your organization when you're getting started is to go buy Rally. Nothing against Rally — start with post-its. Start with role-playing. Start with the smallest amount because you're just testing feasibility.
+
+This one's very important: what looks interesting up here? People have heard of MVPs before. Most people think it stands for Minimum Viable Product. Marty Cagan will tell you it stands for Minimum Viable Prototype. They are unfortunately named. When we call them a Minimum Viable Product — an MVP is never something that should be considered anywhere close to production-ready. It's just something to get there, to try out, to get a feel for. So the minimum amount you need to see if something is potentially gonna work.
+
+The reason in regular products that you sell this is important is because it keeps your sales folks from selling something that is never gonna happen.
+
+Here's a bad example of an MVP for an internal IT service or internal IT process: "We're gonna create an MVP of our Chef implementation. We'll do this by installing the Chef client on a thousand nodes, and then we'll write an MVP cookbook that checks to see if a file's there." We're used to seeing this. This takes us a long time to get to a point to even see if we learned anything, because installing Chef on 10,000 nodes is not going to be instant. I mean, Chef is awesome — I used to work there, by the way — but it's gonna take some time. This is not the smallest amount that we can get. Part of the reason I give this example: this is a real-world example. I had a customer, and I said "what is your goal of this implementation?" and they said this. And I said, "Your goal is not to install Chef on 10,000 nodes. That's my goal — to get you to install Chef on 10,000 nodes. But what's the value?" So think about your MVP as the smallest prototype required to answer the question you need to know now.
+
+And again, know the business. As always, anything you do needs to service your business — and I say business, whatever your organization is: you could be a nonprofit, you can be whatever. But the company, the organization — we have to service that. How does this product you're creating service a business outcome?
+
+You need to convince your stakeholders that you understand what their constraints are and that you're not going to screw them over. Know your customer: why do they do what they do, and what exactly do they do? These can be hard questions because we think we know. We make assumptions about what certain roles do. And you want to know how you can find this stuff out? You've got to talk to some humans. Just do it a little more pleasantly than the Bobs did. Maybe the suspenders might work for you, I don't know.
+
+Always be gathering feedback. Maybe not in that way, but make sure you're getting some kind of feedback. You always want to know — we're continually improving. Again, we're always doing discovery. In any given sprint — assuming that's how you're doing work — you should have just as many discovery-related stories or work or whatever you call them as well as delivery ones. So whatever way you're organizing your work, you need to be spending just as much time on discovery as you are on delivery.
+
+And then every time you find yourself saying "what if this happened" or "what if we hit this corner case," I want you to imagine Samuel L. Jackson telling you that he doesn't want to hear about any what-ifs. You can fill that one in the way that you want to. I've had that experience quite a bit with customers of mine — "what about this, what about this, what about this" — and you'll never get anything done.
+
+And remember, you know why? Because you're never gonna be done, and that is okay. Emily's mom still loves you. She is rooting for you, and I am rooting for you too.
+
+So I think we might have time for a couple of questions if anyone has any.
+
+The question was: other than what you just learned in the last half an hour, what are some good resources to get started? I'm going to direct you to this because it's the easiest way to do this right now. Marty Cagan has some great books. The slides and some resources around them will be available if you go to mattstratton.com/speaking — they'll be up in an hour or so. And you'll be able to see the slides, and if you look at the references I'll have links to some of Marty's books as well as some other items. That's easier than me repeating everything and everybody madly scrambling to write it down.
+
+So, have a question: when you think about the additions to efficiency and velocity and quality that can come from delivery infrastructure — CI/CD and a lot of that stuff — that seems to be kind of inherently understood to be valuable and potentially giving back a lot of time to the people that are gonna be executing those efforts and activities. So how do you fight against organizations just kind of mandating that, because they all understand that it's going to be beneficial, but that might absolutely skip over that process of discovery with the actual people that'll be benefiting from this product?
+
+Right. When you run into the scenario where things come from a mandate — someone in the organization up here has decided this will work, so we're not really doing discovery, we've just sort of decided — I think most people will agree that in a lot of cases what you're trying to achieve with DevOps can be very beneficial to your software delivery, application delivery, delivery organism. So they might just skip over the whole discovery process with the folks that are actually going to be affected. And those are the people that should have been involved.
+
+When you're in this scenario where you're not being brought in on it, that's challenging, and that's a whole different conversation on managing up, which we don't have a whole lot of time to talk about. But what ends up happening — the outcome of that, and this is the bummer — is a difference between people being committed versus being compliant. So when you have the scenario where the folks who are the customers are not involved in the discovery, they will be compliant. The compliant person does what they're told but they are not committed. And a big part of whether or not — even if you aren't able to involve them in discovery — being able to be transparent about how, because again you can't necessarily involve everyone, but that's a whole different talk. It's a challenge.
+
+So: if we're gonna be delivering products, is a product owner a requirement? Because internally we've had a debate on our team: do we need a product owner? We're a DevOps team mostly focused on DevOps, releasing, application support type team. So do we need a product owner for our team or not? It's been a constant debate.
+
+My advice — I would go to the well-known and respected philosopher Ron Swanson and say: never half-ass two jobs, whole-ass one job. So my advice is: as much as possible, dedicate a product owner, because it's very hard to do more than one thing well at the same time.
+
+Now, what you can do in a scenario where maybe you don't have the luxury of staffing to say "yes of course we have a product owner and that's all they do" — I have seen this work as a role rather than a job. That would say: maybe you have someone on the team, it's a passing-it-along thing. Which is okay: for this month Joe is the product owner, next month Sally is the product owner. Maybe because you don't have the luxury of having someone working as an FTE doing nothing but being a product owner, someone has to wear that hat. But it can't be all by consensus, because product owners have to make decisions. So if you're going to do it where it's not someone whose FTE job it is, I would do it as a role and I would rotate it around within the team. I've seen that work pretty effectively. And if people aren't good at it and they don't want to do it on the team, you don't force people to do it, because it is a skill. So you may say: hey, we've got four SREs on the team and Joe just has no interest in doing this and he probably wouldn't be very good at it — we're not gonna make him do a rotation. And I would experiment, see how that goes. But it's challenging when you have someone where they have to do more than one focus, for sure.
+
+I'm not a product owner or product manager, so some of the terminology I'm guessing at. Okay — discovery. So I'm trying to understand what discovery is at what layer. I'm the person who's sitting there coming up with the ideas, writing the proposals, the code, or whatnot. So discovery for me is constantly "oh there's this idea, is it worth pursuing, is it worth looking at?" Versus: what do you mean by discovery at a product level? Because at an organizational level, I don't see how discovery can possibly happen, because you've got committees.
+
+Well, that's part of the problem. Part of discovery — and again I'm gonna oversimplify and say you'll find some reference to this in some of the links I talk about — you talk about the ten cues in product, which are ten questions that you ask, and that's discovery about: is this a product? Is this a feature? Is this something we should do? So it's thinking about the things that your product owners who are building your features do when they do discovery to decide whether or not they should do a feature, whether or not this is something that is going to be competitive and helpful for you in the market and your GTM. So I would do the same discovery within an IT service — it's a very similar thing. And a lot of it has to do with continually going back to your customers and finding out how things are going.
+
+A little part of discovery is the feedback. I kind of made a joke about the NPS score of the Jenkins thing — you won't necessarily do it that way, but you should always be collecting feedback from your stakeholders, or customers, and saying: what's changing with what they're doing? And part of that discovery is not just asking "are you happy" or "what do you want" — it's spending time understanding what they're doing. Like you said, making those ideas about do we need to do this thing. The thing is, if you're coming up with those ideas in a silo — to use the DevOps cliche — you're not getting it. You're not finding out what your customers actually need.
+
+So it's a kind of different layer. Discovery kind of happens over here and then it kind of comes down into this — the dual-track product ownership and product management that Google kind of invented, or at least what they do. And so you're kind of doing discovery and that's filtering down into delivery, and then you're taking that back up to discovery. They're happening in parallel. It's not a phase of a project.
+
+Thank you.

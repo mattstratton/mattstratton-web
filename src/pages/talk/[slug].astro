@@ -1,0 +1,150 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SlideBrowser from '../../components/SlideBrowser.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
+import slideCounts from '../../data/slide-counts.json';
+import { groupTalks, type Talk } from '../../lib/talk-groups';
+
+// Canonical talk pages: one per abstract (notistSlug), aggregating every
+// delivery. Per-delivery pages at /{id}/{slug} keep their own URLs untouched —
+// this is an additive view, not a replacement. The static "talk" prefix means
+// these never collide with the fully-dynamic [id]/[slug] route.
+export async function getStaticPaths() {
+  const groups = groupTalks(await getCollection('talks'));
+  return [...groups.values()].map((group) => ({
+    params: { slug: group.slug },
+    props: { group },
+  }));
+}
+
+const { group } = Astro.props;
+const deliveries = group.deliveries;
+
+// Slide count for a delivery: rasterizer manifest first, then ingest-recorded
+// image count, then none (same precedence as the delivery page).
+const slideCountOf = (t: Talk) =>
+  (slideCounts as Record<string, number>)[t.data.notistId] ?? t.data.slideImageCount ?? 0;
+
+// Pick the best available media across deliveries (newest-first wins).
+const videoDelivery = deliveries.find((t) => t.data.video) ?? null;
+const slideDelivery = deliveries.find((t) => slideCountOf(t) > 0) ?? null;
+const abstractDelivery = deliveries.find((t) => t.data.abstractHtml) ?? null;
+
+// The OG card reuses the representative delivery's existing per-talk card.
+const rep = deliveries[0];
+
+// Aggregate resources across all deliveries, de-duplicated by URL.
+const seenUrls = new Set<string>();
+const resources: { title: string; url: string }[] = [];
+for (const t of deliveries) {
+  for (const r of t.data.resources) {
+    if (!seenUrls.has(r.url)) {
+      seenUrls.add(r.url);
+      resources.push(r);
+    }
+  }
+}
+
+// Resolve each delivery's event for the timeline.
+const rows = await Promise.all(
+  deliveries.map(async (t) => ({
+    talk: t,
+    event: t.data.event ? await getEntry(t.data.event) : null,
+    slides: slideCountOf(t) > 0,
+    date: t.data.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }),
+  })),
+);
+
+const years = deliveries.map((t) => t.data.presentedOn.getFullYear());
+const minYear = Math.min(...years);
+const maxYear = Math.max(...years);
+const yearRange = minYear === maxYear ? String(minYear) : `${minYear}–${maxYear}`;
+
+const description = abstractDelivery?.data.abstractHtml
+  ? abstractDelivery.data.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 200)
+  : `${group.title} by Matty Stratton — delivered ${group.count} time${group.count === 1 ? '' : 's'}.`;
+---
+
+<Base
+  title={`${group.title} · Matty Stratton`}
+  description={description}
+  image={`/og/talks/${rep.data.notistId.toLowerCase()}.png`}
+  imageAlt={`${group.title} — Matty Stratton`}
+>
+  <article class="mx-auto max-w-3xl">
+    <a href="/talks" class="label transition-colors hover:text-accent">← All talks</a>
+
+    <header class="mt-4 border-b-2 border-ink pb-6">
+      <p class="label">The talk</p>
+      <h1 class="mt-2 font-display text-3xl font-semibold leading-tight tracking-tight text-balance sm:text-4xl">{group.title}</h1>
+      <p class="label mt-3 normal-case tracking-normal text-ink-soft">
+        {group.count === 1 ? 'Delivered once' : `Delivered ${group.count} times`} · {yearRange}
+      </p>
+    </header>
+
+    {videoDelivery?.data.video && (
+      <VideoEmbed
+        provider={videoDelivery.data.video.provider}
+        id={videoDelivery.data.video.id}
+        title={group.title}
+      />
+    )}
+
+    {slideDelivery && (
+      <SlideBrowser
+        id={slideDelivery.data.notistId}
+        slideCount={slideCountOf(slideDelivery)}
+        title={group.title}
+        slidesPdf={slideDelivery.data.slidesPdf}
+      />
+    )}
+
+    {abstractDelivery?.data.abstractHtml && (
+      <div class="prose prose-lg mt-8 max-w-none" set:html={abstractDelivery.data.abstractHtml} />
+    )}
+
+    <section class="mt-10 border-t border-rule pt-6">
+      <h2 class="label">{group.count === 1 ? 'Where it was delivered' : `Every delivery (${group.count})`}</h2>
+      <ul class="mt-3">
+        {rows.map(({ talk, event, slides, date }) => (
+          <li class="border-b border-rule last:border-0">
+            <a
+              href={`/${talk.data.notistId.toLowerCase()}/${talk.data.notistSlug}`}
+              class="group flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3 transition-colors hover:bg-panel"
+            >
+              <span class="font-display font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
+                {event ? event.data.name : 'Talk'}
+              </span>
+              <span class="label normal-case tracking-normal text-ink-soft">{date}</span>
+              {event?.data.location && (
+                <span class="label normal-case tracking-normal text-ink-soft">· {event.data.location}</span>
+              )}
+              <span class="ml-auto flex gap-2">
+                {talk.data.video && (
+                  <span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">video</span>
+                )}
+                {slides && (
+                  <span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">slides</span>
+                )}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {resources.length > 0 && (
+      <section class="mt-10 border-t border-rule pt-6">
+        <h2 class="label">Resources</h2>
+        <ul class="mt-3 space-y-2">
+          {resources.map((r) => (
+            <li>
+              <a href={r.url} class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright" rel="noopener">{r.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</Base>

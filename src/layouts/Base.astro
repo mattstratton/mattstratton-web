@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Search from '../components/Search.astro';
 
 interface Props {
   title: string;
@@ -88,6 +89,7 @@ const nav = [
               {item.label}
             </a>
           ))}
+          <Search />
         </div>
       </nav>
     </header>

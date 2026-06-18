@@ -1,0 +1,260 @@
+---
+/**
+ * Global site search: a nav trigger button that opens a full-screen-on-mobile /
+ * modal-on-desktop dialog with fuzzy text search (Fuse.js) over all talks plus
+ * year / has-video / has-slides facets.
+ *
+ * Progressive enhancement, matching SlideBrowser.astro / VideoEmbed.astro: the
+ * markup is inert static HTML; the `<script>` below wires it up and lazily
+ * fetches /search-index.json (and bundles Fuse) only when first opened.
+ */
+---
+
+<button
+  type="button"
+  data-search-open
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  class="label !text-[0.78rem] inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+  </svg>
+  <span class="sr-only sm:not-sr-only">Search</span>
+</button>
+
+<div
+  data-search-overlay
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="search-title"
+  hidden
+  class="fixed inset-0 z-50"
+>
+  <div data-search-backdrop class="absolute inset-0 bg-ink/40 backdrop-blur-sm"></div>
+
+  <div
+    class="absolute inset-0 flex flex-col bg-panel sm:inset-x-0 sm:top-0 sm:mx-auto sm:my-16 sm:max-h-[80vh] sm:max-w-2xl sm:rounded-lg sm:border sm:border-rule sm:shadow-xl"
+  >
+    <h2 id="search-title" class="sr-only">Search talks</h2>
+
+    <!-- Input row -->
+    <div class="flex items-center gap-2 border-b border-rule px-4 py-3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 shrink-0 text-ink-soft" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+      </svg>
+      <input
+        type="search"
+        data-search-input
+        aria-label="Search talks"
+        placeholder="Search talks, events, topics…"
+        autocomplete="off"
+        class="min-w-0 flex-1 bg-transparent py-2 font-sans text-lg text-ink placeholder:text-ink-soft focus:outline-none"
+      />
+      <button
+        type="button"
+        data-search-close
+        aria-label="Close search"
+        class="flex h-11 w-11 shrink-0 items-center justify-center rounded text-ink-soft transition-colors hover:text-accent"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5" aria-hidden="true">
+          <path d="M6 6 18 18M18 6 6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Facet row -->
+    <div class="flex flex-wrap items-center gap-2 border-b border-rule px-4 py-3">
+      <label class="label normal-case tracking-normal inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <span>Year</span>
+        <select data-facet-year aria-label="Filter by year" class="bg-transparent font-mono text-xs text-ink focus:outline-none">
+          <option value="">All</option>
+        </select>
+      </label>
+      <label class="label normal-case tracking-normal inline-flex min-h-[2rem] cursor-pointer items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <input type="checkbox" data-facet-video class="accent-accent" />
+        <span>Has video</span>
+      </label>
+      <label class="label normal-case tracking-normal inline-flex min-h-[2rem] cursor-pointer items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <input type="checkbox" data-facet-slides class="accent-accent" />
+        <span>Has slides</span>
+      </label>
+    </div>
+
+    <p data-search-status role="status" aria-live="polite" class="label px-4 pt-3 pb-1"></p>
+
+    <ul data-search-results class="flex-1 overflow-y-auto px-4 pb-4"></ul>
+  </div>
+</div>
+
+<script>
+  import Fuse from 'fuse.js';
+  import type { SearchRecord } from '../lib/search-types';
+
+  const overlay = document.querySelector<HTMLElement>('[data-search-overlay]');
+  const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
+  const closeBtn = document.querySelector<HTMLButtonElement>('[data-search-close]');
+  const backdrop = document.querySelector<HTMLElement>('[data-search-backdrop]');
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const yearSelect = document.querySelector<HTMLSelectElement>('[data-facet-year]');
+  const videoBox = document.querySelector<HTMLInputElement>('[data-facet-video]');
+  const slidesBox = document.querySelector<HTMLInputElement>('[data-facet-slides]');
+  const status = document.querySelector<HTMLElement>('[data-search-status]');
+  const results = document.querySelector<HTMLUListElement>('[data-search-results]');
+
+  // Bail out quietly if the markup isn't present (keeps the script inert elsewhere).
+  if (overlay && openBtn && closeBtn && backdrop && input && yearSelect && videoBox && slidesBox && status && results) {
+    let fuse: Fuse<SearchRecord> | null = null;
+    let records: SearchRecord[] = [];
+    let loaded = false;
+    let lastFocused: HTMLElement | null = null;
+
+    const escapeHtml = (s: string) =>
+      s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+    const micFallback = `<div class="flex h-full w-full items-center justify-center text-ink/20" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-6 w-6"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke-linecap="round"/></svg></div>`;
+
+    async function ensureIndex() {
+      if (loaded) return;
+      const res = await fetch('/search-index.json');
+      records = (await res.json()) as SearchRecord[];
+      fuse = new Fuse(records, {
+        includeScore: true,
+        threshold: 0.38,
+        ignoreLocation: true,
+        minMatchCharLength: 2,
+        keys: [
+          { name: 'title', weight: 0.5 },
+          { name: 'eventName', weight: 0.25 },
+          { name: 'abstract', weight: 0.15 },
+          { name: 'location', weight: 0.1 },
+        ],
+      });
+      // Populate year options from distinct years (descending).
+      const years = [...new Set(records.map((r) => r.year))].sort((a, b) => b - a);
+      for (const y of years) {
+        const opt = document.createElement('option');
+        opt.value = String(y);
+        opt.textContent = String(y);
+        yearSelect!.appendChild(opt);
+      }
+      loaded = true;
+    }
+
+    function render(items: SearchRecord[], query: string) {
+      results!.innerHTML = items
+        .map((r) => {
+          const thumb = r.thumbnail
+            ? `<img src="${escapeHtml(r.thumbnail)}" alt="" width="320" height="180" loading="lazy" decoding="async" class="h-full w-full object-cover" />`
+            : micFallback;
+          const badges = [
+            r.hasVideo
+              ? `<span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">video</span>`
+              : '',
+            r.hasSlides
+              ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">slides</span>`
+              : '',
+          ].join('');
+          const meta = [
+            r.eventName ? `<span class="text-ink">${escapeHtml(r.eventName)}</span>` : '',
+            `<span class="text-ink-soft">${r.eventName ? ' · ' : ''}${escapeHtml(r.date)}</span>`,
+          ].join('');
+          return `<li><a href="${escapeHtml(r.url)}" aria-label="${escapeHtml(r.title)}" class="group grid grid-cols-[4.5rem_1fr] items-start gap-3 border-b border-rule py-3 transition-colors hover:bg-paper">
+            <div class="relative aspect-video overflow-hidden rounded-sm bg-ink/5 ring-1 ring-rule">${thumb}</div>
+            <div class="min-w-0">
+              <h3 class="font-display text-base font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">${escapeHtml(r.title)}</h3>
+              <p class="label mt-1 normal-case tracking-normal">${meta}</p>
+              ${badges ? `<p class="mt-1.5 flex gap-2">${badges}</p>` : ''}
+            </div>
+          </a></li>`;
+        })
+        .join('');
+
+      const n = items.length;
+      if (!loaded) {
+        status!.textContent = '';
+      } else if (n === 0) {
+        status!.textContent = query ? 'No talks match your search.' : 'No talks match these filters.';
+      } else {
+        status!.textContent = `${n} result${n === 1 ? '' : 's'}`;
+      }
+    }
+
+    function run() {
+      if (!fuse) return;
+      const q = input!.value.trim();
+      let items = q ? fuse.search(q).map((r) => r.item) : records.slice();
+
+      const year = yearSelect!.value;
+      if (year) items = items.filter((r) => String(r.year) === year);
+      if (videoBox!.checked) items = items.filter((r) => r.hasVideo);
+      if (slidesBox!.checked) items = items.filter((r) => r.hasSlides);
+
+      render(items, q);
+    }
+
+    let debounce: number;
+    input.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = window.setTimeout(run, 120);
+    });
+    for (const el of [yearSelect, videoBox, slidesBox]) {
+      el.addEventListener('change', run);
+    }
+
+    async function open() {
+      lastFocused = document.activeElement as HTMLElement | null;
+      overlay!.removeAttribute('hidden');
+      openBtn!.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      await ensureIndex();
+      run();
+      input!.focus();
+    }
+
+    function close() {
+      overlay!.setAttribute('hidden', '');
+      openBtn!.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      lastFocused?.focus();
+    }
+
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+
+    // `/` opens search, unless the user is typing in a field.
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || overlay!.hasAttribute('hidden')) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      e.preventDefault();
+      open();
+    });
+
+    // Esc to close + a minimal focus trap while the dialog is open.
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        close();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const focusable = overlay!.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled])',
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+</script>

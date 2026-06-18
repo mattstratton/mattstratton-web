@@ -1,0 +1,29 @@
+MATT STRATTON, 4/2/2015
+
+S O L U T I O N S A R C H I T E C T,
+CHEF SOFTWARE, INC
+@mattstratton
+
+I M PA C T O N B U S I N E S S
+Hilarity
+Infrastructure
+as Code
+Test Driven
+Development
+Continulous
+Delivery
+
+http://images.google.com
+
+Sean: My feature didn't pass integration testing
+Galen: That's unfortunate.
+Yvo: Reminder: Submit all your expense reports, folks!
+Bakh: OK boss.
+Aimee: Who's taking care of Customer X?
+Matt:
+Sean: What are you talking about, Matt??
+Yvo: This is going in your performance review.
+
+http://bit.ly/smile-chefconf
+https://github.com/mattstratton/devlolops
+h t t p s : / / w w w. r i f f s y. c o m /

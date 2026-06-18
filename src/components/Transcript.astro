@@ -1,0 +1,39 @@
+---
+/**
+ * Collapsible transcript for a talk's video. The durable, readable record of
+ * what was said — survives the video itself. Auto-generated from captions, so
+ * it's flagged as approximate; manually-corrected transcripts render identically.
+ *
+ * Native <details> = zero JS, no animation (reduced-motion safe by default).
+ */
+import { toParagraphs } from '../lib/transcripts';
+
+interface Props {
+  text: string;
+  words: number;
+  downloadHref: string;
+}
+const { text, words, downloadHref } = Astro.props;
+const paragraphs = toParagraphs(text);
+const minutes = Math.max(1, Math.round(words / 200));
+---
+
+<details class="group mt-10 border-t border-rule pt-6">
+  <summary class="flex cursor-pointer items-center gap-2 list-none">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 shrink-0 text-ink-soft transition-transform group-open:rotate-90" aria-hidden="true">
+      <path d="m9 6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <span class="label">Transcript</span>
+    <span class="label normal-case tracking-normal text-ink-soft">· {words.toLocaleString()} words · ~{minutes} min read</span>
+  </summary>
+
+  <div class="mt-4">
+    <p class="label normal-case tracking-normal text-ink-soft">
+      Auto-generated from the video's captions — expect transcription quirks.
+      <a href={downloadHref} class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright" download>Download as text</a>
+    </p>
+    <div class="prose prose-lg mt-4 max-w-none text-ink-soft">
+      {paragraphs.map((p) => <p>{p}</p>)}
+    </div>
+  </div>
+</details>

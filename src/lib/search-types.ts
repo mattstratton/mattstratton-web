@@ -21,6 +21,20 @@ export interface SearchRecord {
   date: string;
   hasVideo: boolean;
   hasSlides: boolean;
+  /** Whether a committed transcript exists (full text lives in deep-index.json). */
+  hasTranscript: boolean;
   /** Repo path to the thumbnail, or null. */
   thumbnail: string | null;
+}
+
+/**
+ * One heavy record per talk that has a transcript. Lives in a separate
+ * `deep-index.json` so the lightweight search index stays small and instant;
+ * the deep index is fetched lazily on the first query.
+ */
+export interface DeepRecord {
+  /** Same canonical URL as the matching SearchRecord — the join key. */
+  url: string;
+  /** Full transcript text (newlines flattened to spaces). */
+  text: string;
 }

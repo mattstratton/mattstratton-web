@@ -1,0 +1,1252 @@
+okay so welcome to my talk this is the
+four agreements of incident response my
+name is Matty Strang I am a DevOps
+advocate and thought validator and Pedro
+Duty I don't like the term thought
+leader so I decided I'm I thought
+validator the things you're thinking I'm
+here to tell you yes you're correct that
+sounds great
+so a few things about me so the first
+thing is as I said I work for a company
+called Pedro Duty I'm going to tell you
+a little bit about page review in a
+minute I'm not here to sell you a page
+or duty this is not a talk about page or
+duty but there's a little bit about how
+we do things at page or duty so I wanted
+to give a little bit of background I've
+been in pager Duty for about a year now
+before that I worked at a company called
+chef for almost five years which
+suffered and I especially did a lot of
+work with Chef with Azure so I do have
+some as your background it's not
+completely out of nowhere I have a
+podcast that's been going on for about
+five years called arrested DevOps we've
+got some stickers over there we talked
+about DevOps related items my one of my
+fellow podcasters is heavily involved in
+the azure space his name is Trevor Hess
+another one of our hosts is named
+Bridget crumb Howe who is a Azariah on
+the azure advocates team working with
+Jesse Frisell and Ashley McNamara and
+Brian Ken Olsen I'm one of the founders
+of DevOps days Chicago so I started that
+about five years ago I'm one of the
+global organizers of the DevOps day's
+conference and back when I had a car I
+just recently moved to San Francisco so
+I don't have a car anymore but when I
+did have a car my license plate said
+DevOps so so I do still have the license
+plate I just don't have a car to put it
+on so I'm just gonna tell you a little
+bit about this is like sort of the fancy
+you know whatever or nonsense
+marketing slide but tell you a little
+bit about what pager duty does how many
+people are familiar with pedra duty
+first of all ok then I don't need to
+tell you anything about what we do
+fantastic so since you're familiar with
+page of duty how many people have ever
+been in a situation when you're sitting
+on a phone call with a bunch of other
+humans you're trying to solve a problem
+and everything's going pear-shaped and
+it's just a really miserable experience
+how many people have that experience how
+many people think that's awesome
+do it all the time so I'll call an
+incident management can be super
+stressful but there are ways to make
+them less stressful and that's one of
+the things I'm gonna be talking about
+today so the first thing is what exactly
+is an incident we talked a lot about
+incident management there was uh in
+Mike's talk this morning had your little
+15 matrix thing and I had you know very
+nice to saw that you know incident
+response right there in the middle
+that's super key I also wanted to
+there's there's a I don't normally talk
+about as much about a sure as I'm about
+to so so that's why I had to pull this
+thing up but we did just release so if
+you're especially if you're using Azure
+DevOps but also there's a lot of page of
+Duty integrations into Azure so when
+you're getting your events and your
+alerts and all those things from Azure
+you can run them right into Pedro duty
+you can also run them into other tools -
+I'm not here to sell you a tool all I'm
+here to tell you about is don't build
+your own that's the only thing else I
+don't care user Victor ops use ops genie
+use X matters who's Pedro duty just
+don't try to build your own thing y'all
+are better at building other things
+other things that make your company
+money so what exactly is an incident
+before we can respond to an incident
+right we have to know what it is and it
+sounds silly but if you don't really
+know what an incident is for your
+organization you don't really know what
+to do or you don't know if you should
+follow your process right we don't know
+to respond to it so it's critical that
+you have a criteria for what an incident
+means to your organization and there's
+no one magic thing that says this is an
+incident because guess what everybody in
+this room unless you're sitting with
+some co-workers has a different type of
+business that they're in there there's
+different business outcomes for your for
+what your company does so I'm gonna give
+you an example of what we consider an
+incident a paid your duty just so you
+can kind of see what one might look like
+but a couple things that matter is they
+need to be relatively simple because
+everybody has to understand them and we
+don't want to spend a lot of time
+arguing about whether or not we're
+having an incident and then the other
+thing that's really critical is they
+need to be tied to a business outcome so
+I'll give an example and I know we're
+talking about cloud and stuff like that
+but just how many people have worked out
+metal servers really [ __ ] okay okay well
+okay how many people do I have done
+ayahs in their career at least how many
+people know what a CPU is right yes okay
+good enough all right
+high CPU utilization is not an incident
+on a server right but being slow to
+respond not processing orders right if
+you're saying normally at this time
+we're selling X amount of shoes and
+we're selling a lot less shoes and we
+normally do that's a kind of thing that
+might generate an incident so this is
+page of duties definition of an incident
+right it's an unplanned disruption of
+our survey unplanned disruption or
+degradation of our service and again our
+service is to let you know and wake you
+up in the middle of night when stuff's
+on fire right that is actively affecting
+customers in a customer's ability to use
+the product so this is kind of a broad
+definition right but it's
+business-related we're saying it's
+something that's affecting people's
+ability to use that this you will have a
+different definition but this gives you
+an idea that can get you started you
+want it to be simple no more than a
+sentence and it needs to be easily
+understood by pretty much everybody
+inside your organization this is also
+pretty broad definition because like a
+typo would code it could could fit this
+definition lots of different things so
+this is where you run into sometimes
+more granularity so we might talk about
+different severity levels of incident or
+we also talk about sometimes an incident
+may only be related to one part of our
+service or it may require coordination
+not going to get into so much of those
+details about that but we can certainly
+talk more and one of the things I'd like
+to do is have conversations either
+during the break or maybe during the
+networking about kind of your on-call
+experiences and how you do incidents
+where you're at now keeping in mind you
+know as you said you have different
+severity so for us as so we talked about
+7 1 sub 2 set 3 different severity I
+don't care if you call them severity you
+call them priorities it could be a
+little fire emoji or a little smiley
+emoji or sad emoji people might actually
+do that I don't know you know but what
+matters is that they're clearly
+understood within the organization
+now I'm gonna back up a couple little
+thing
+so we did a study across over 10,000
+companies across a hundred different
+market verticals because we wanted to
+understand what on-call pain was like so
+this is some of the details we saw so
+this was of this study we had a fifty
+thousand incident responders that were
+over seven received over 760 million
+notifications so this was a fairly large
+sample size of data and here are some of
+the things that we found out so there
+were sixty million of those
+notifications took place during dinner
+hours while people were trying to eat
+their food with their family 82 million
+happened during the evening in general
+that's right
+quarter of a million notifications are a
+quarter of a billion dota fication z--
+happened during sleeping hours 122
+million happened on weekends and that
+meant we almost had three Koriyama said
+three quarter I have a 3/4 of a million
+nights that were interrupted and that's
+three hundred and thirty thousand
+weekend days that were interrupted so
+this was a lot this is this is what
+on-call looks like for a lot of people
+so we're trying to make it better but
+the reason why I'm talking about it here
+is to understand why it matters to make
+it better and here's some of the things
+that we found out we also wanted to
+understand why people left their roles
+so we also did a survey across these
+responders and we picked out the people
+who had left their position in the last
+18 months and we asked them a bunch of
+questions to find out why because
+oftentimes when you think about why does
+somebody leave a job hey and a lot of
+times they leave because they want more
+money they want to do more interesting
+work how many people have heard the
+statement that you don't quit your
+company or you don't quit your job you
+quit your manager that's that's
+something that happens quite a bit
+that's been my career at least
+fortunately I have a pretty good manager
+right now and you might be watching the
+live stream although it's I think 1:00
+in the morning in San Francisco so I
+think I'm safe but you know what we
+found out these were the most meaningful
+metrics about about attrition the number
+of days when responders work in life
+were interrupted the number of days when
+they were woken overnight and the number
+of weekend days interrupted by
+notification
+these were the things that made it most
+influential on whether or not somebody
+who was a responder to incidents decided
+to find another job and to put things
+unfortunately I didn't I just realized I
+didn't do the currency conversion but I
+will tell you the dollar conversion we
+can problem dollar amount in the United
+States it costs about three hundred
+thousand dollars to replace a software
+engineer or an IT pro so regardless of
+the fact that we should want to have
+people's life be better it's also part
+of the bottom line so I like this
+comment here so again so why does this
+matter so as charity says yes yes
+on-call sucks can destroy your life we
+know bored now right it's a fact of life
+about anybody who's developing high
+quality software so how can we make it
+not suck now I if I recall correctly
+from earlier most of the folks in this
+room identify as IT pros more as ops
+folks as opposed to software engineers
+who is a and I'm not going to be picking
+anybody but who I dent afire more as a
+software engineer okay how many of you
+who are software engineers are on call
+okay that's a whole other conversation
+that's a whole other talk the thing
+about a nice thing about making on-call
+suck less for everybody is having
+everybody be on call because I will tell
+you here's the thing that sucks if
+you're not on call guess what happens
+when you're not on call you're always on
+call because what's the best thing about
+being on call if it's done right is
+knowing when you're not right it's part
+of a rotation part of knowing when
+you're not because if you're not
+officially so that's a thing to bear in
+mind so I'm gonna use I one of one of my
+little ways that I give talks as I find
+self-help books I read the description
+of them a little bit and I say well that
+sort of sounds a little bit like some
+stuff I want to talk about I've and I
+have a talk called the five love
+languages of DevOps for example so this
+is the four agreements of instant
+response and this is a book actually did
+read this book by the way so this one I
+didn't just read the back cover of it
+but the book is called The Four
+Agreements by Don Miguel Ruiz and it's a
+really good book it's a great you know
+if you're gonna be on a relatively short
+plane ride recommend picking it up not
+from a tech perspective but you know
+it's a good way to live your life
+and the ideas these are these four
+agreements to take in as a way to take
+on and how you how you live your life to
+become a better human to have a more
+enjoyable life to have a more satisfying
+life and when I read this book and I
+started learning about it it kind of I
+said you know what there's some
+metaphors in here for how we for good
+practices of incident response and
+incident management and so my hope is
+that by using this metaphor we'll make
+some of these things a little more
+memorable and they might stick I guess
+we'll find out by the way spoiler this
+is the first time I'm giving this talk
+so it's being piloted to all of you but
+I'm giving it a bunch of other places
+after this so we'll see how it goes but
+these are what the four agreements are
+be impeccable with your word don't take
+anything personally don't make
+assumptions and always do your best
+these things actually sound really
+straightforward right but they're super
+super hard and a couple things to bear
+in mind so being impeccable with your
+word that doesn't mean just don't tell
+lies right it also has to do with that
+you know words have magic words have
+meaning if we've ever kind of heard the
+the analogies about gossip right once
+it's out there you can't get it back
+so we talked a little bit about why it's
+important to think about what we're
+saying and why we're saying it don't
+take anything personally this is the
+agreement that I have absolutely the
+hardest time in the world with I'm still
+struggling with we always hear about
+making assumptions because the thing is
+we all have different metaphors and
+different lenses by which we've used all
+of the world and other people do and
+always do your best makes me think about
+the things I talk to my kids about I
+have twin boys who are almost nine and
+have a daughter who's seven and so I
+always tell them to always do their best
+I tell them to always do their best I
+don't always do my best but I'm doing my
+best for you right now I guarantee that
+this is what thing that is that is
+happening so what I'm hoping too is that
+this will help us understand these
+modern approaches to incident response
+make things as effective as possible
+then help reduce burnout so if we think
+first we think about being impeccable
+with your word so what are some of the
+some of the items that when I come in
+and I think about good practice
+of incident response that have to do
+with being impeccable with your word
+with being clear to me this is the
+things that are about being clear being
+direct and being concise so one thing
+that's really critical for us is that I
+think you know we have a lot of
+automation automation is a big deal
+especially in DevOps especially in the
+world of IT we live in today and it's
+not uncommon in fact it's a good
+practice to have your Incident Response
+process get picked up it could get
+kicked off rather by automation I just
+said that right you can have events that
+occur with an Asscher kick off an
+incident inside page duty but we don't
+want it to only be that way so we
+believe strongly that it pedra duty that
+anybody can kick off our Incident
+Response process at any time and for
+example we have it where you know we've
+got it set up in a little slack chat box
+so if you say I see page it goes ahead
+and kicks off it gets our incident
+commanders on board and does all these
+things we believe strongly that even if
+someone on the cleaning staff is walking
+past a display that shows something's
+looking pear-shaped on a monitor they
+should be able to pull that cord and
+kick off the incident response process
+and here's why because let's say you
+start your instant response process and
+it turns out that you weren't actually
+having an incident what's the worst
+thing that happened out of all of that
+you got a chance to practice doing
+incident response now some of you might
+have been thinking well the worst thing
+that's gonna happen is now it went up on
+the CIOs dashboard that said we had a
+sub one incident and that's how we're
+measured about whether or not we do a
+good job that's a bad bad metric so
+that's the thing now how many people in
+here are setting the metrics for their
+entire IT department across at the sea
+level executive level so unfortunate we
+can't always make those changes but
+those are the things I talk about when I
+talk to CIOs and CTOs about thinking
+about the way we measure because the
+trick is humans will work to the metrics
+you tell us you're gonna measure us too
+and we're gonna talk about that in a
+second but the point is it's important
+that anybody should be able to kickoff
+incident response at any time so we also
+talked about don't litigate severity
+during a call and what does that mean
+that means
+let's not argue about it so we talked
+about doing different severa teas having
+a sub 1 a sub 2 a sub 3 and we used to
+do this at page they're supposed to be
+blank sorry okay I believe strongly that
+you could either listener you can read
+so I do a lot of black slides but that's
+also why I put the Twitter up on their
+feedback on that as welcome at some
+point if that's too confusing
+so I we used to do this as a pager duty
+a lot we would get on a call and say is
+this really a sub one or is this a sub
+two or is this a sub 3 and you know what
+happens by the time we're done arguing
+about it it's become a high severity
+incident we haven't actually
+accomplished anything we've just sat
+there and said like oh we argued about
+it so we always assume the highest
+severity because again what's the worst
+thing that happened we practiced our sub
+1 process if we were getting measured
+about saying if you have X amount of
+severity and this is going to impact
+your bonus or your pay or your review
+that's a different kind of a problem but
+what will happen almost every time if
+you start litigating severity during a
+call is that you're gonna spend all your
+time arguing and I call that mean time
+to innocence it's not a good metric to
+have also you want to make sure you're
+notifying your stakeholders and this
+will this is again being impeccable the
+right way sending the information the
+more that you let stakeholders know
+about what's going on the number 1 the
+more they'll stay out of your way and
+they can also help move that
+communication chain along right because
+stakeholders have stakeholders if you're
+involved the thing is if we're involved
+in restoring service we don't want to be
+sitting and trying to think about
+everybody who has to know everything so
+we need to have some common way that we
+can provide status on what's going on
+well that's other kind of a Status page
+through a slack room which is what we do
+for example at Pedro duties we have one
+main slack room where we're doing all
+the work and communicating amongst
+ourselves during an incident and we also
+have the conference bridge but then
+there's a separate slack channel which
+is more for the updates so that's where
+if the executives want to know the
+stakeholders know they have a place to
+go to see kind of again those what they
+would call that's why they call them
+executor some
+I guess right and a lot of times you
+want to have someone if you have the
+ability and the staffing to do this have
+someone in a role that's a they're a
+customer liaison or an internal liaison
+whose job during the incident is to
+provide that status because the people
+who are who are solving the problem
+should be working on solving the problem
+not updating stakeholders but as an
+organization you want to make sure your
+stakeholders are updated so these are
+again to sort of recap on the things
+that are about being impeccable with
+your word the practices remember anyone
+can trigger incident response don't
+litigate severity notify your
+stakeholders and that's it sorry I
+thought there was a fourth one on there
+so now the next one is don't take
+anything personally again as you may
+recall this was the one that I have a
+hard time with I don't have as hard of a
+time during incident management Incident
+Response I have more of a hard time with
+it in my personal life taking things
+personally but that being said feedback
+is welcome on my talk I won't take it
+personally probably so going into that
+and this is why it becomes what I'm
+about to show you something that is why
+it becomes really hard to not take
+things personally during an incident so
+at some point when things are going
+squirrely we have to make a mental shift
+between peacetime and wartime right
+which is we are going back from normal
+operations to now we are literally
+defending our business right we are
+taking some kind of an outage we have
+some kind of an incident and for a lot
+of organizations these incidents can
+cost hundreds of millions of euro an
+hour or more right so we have to move
+quickly and for this to happen it's
+again it's a mental shift that is
+happening the thing our arted so a
+couple things happen when we go from one
+to the other one is our tolerance for
+risk actually goes up we are more likely
+to take risks during wartime and if you
+don't like the military metaphors we
+could say like your normal and emergency
+I'd prefer this myself but during
+emergency and that's not a bad
+that our tolerance for risk goes up
+because what we're trying to do is
+restore service and then we can get back
+to normal operations our need for
+consensus goes down we don't have to
+make sure everybody feels super good
+about it and we're all got nice warm
+hugs and everything like that we
+communicate much more directly and
+that's where the don't take it
+personally comes in it does this mean
+that during an incident it's okay for
+people to be jerks to each other no we
+still treat each other as good humans
+but we tend to be more direct and when I
+talk a little bit about what the role of
+an incident commander is those are
+things that we would probably not
+tolerate during product development or
+during just normal day-to-day operations
+you could also just call this okay and
+not okay
+but it's we're talking about making this
+mental shift now we base a lot of our
+the way we do incident management on
+some structured stuff we didn't really
+create it but these are all
+internationally different ways that
+they've done and usually it's whether
+these have come from is first responders
+whether they're firefighters or
+emergency responders and where for
+example the National Incident Management
+System is a one that is used in the
+United States and where this came from
+was in the 1970s there was a string of
+really devastating wildfires in Southern
+California which is actually kind of
+happening now but the problem was there
+were hundreds of thousands of
+firefighters from all over the country
+came to try to help fight these fires
+and they had a real hard time with it
+and the problem wasn't that they weren't
+good fire fighters but every fire
+department had a different way of
+working so they were all good at
+fighting fires but they weren't good at
+working together so that's where the
+National Incident Management System came
+from and then again you can see in
+different countries there's different
+ones that are similar the UK system is
+kind of cool because they have a roll
+called the gold commander which kind of
+sounds like a James Bond villain so I
+kind of did that so there's a couple and
+I'm gonna put a couple of resources I
+will put at the end of this there's a
+link there will be a link to the deck
+and - all - and it will also include
+links to some background resources and
+things like this
+well so when we kind of follow these
+processes one of the things that's true
+about almost all of these whether it's
+called the gold commander if you want to
+be evil or cool or awesome or oftentimes
+we call the incident commander and the
+incident commander is a very important
+role that's happening during coordinated
+incident response the incident commander
+is a person who is in charge during the
+incident they're the big boss whether or
+not that's their normal job in fact it
+normally isn't but what's important is
+an incident commander is not someone who
+is trying to solve problems they're not
+a resolver they're there to coordinate
+and to delegate should we sit there we
+have the incident commander up on top
+and then you have your subject mate the
+only thing you need to get started from
+the roles perspective is you need an
+incident commander and you need your
+subject matter experts and your subject
+matter expert to the people who just
+know how to do the work they're the
+people who are the experts in the
+services and the systems that are taking
+the incident right now the trick about
+the incident commander that can be
+really hard and this is where it starts
+to become hard on that don't take it
+personally is no matter what their
+day-to-day role the incident commander
+is in charge and is the one who is
+actually making all the decisions again
+I cannot stress enough they are not
+resolving the incident in the United
+States and the National Incident
+Management System the way firefighters
+use it is the incident commander wears a
+white helmet and they have a saying
+which says if you see someone with a
+white helmet holding a wrench take the
+wrench away from them and hit them over
+the head with it because they're not
+supposed to be trying to fix things now
+that what can happen during artists now
+first of all don't hit your colleagues
+over the head with wrenches because we
+don't usually wear helmets but sometimes
+a person who is the incident commander
+who was on call might actually be the
+right person to solve the incident and
+then what do you think you do when that
+happens
+change the incident commander just swap
+them because you never you know I always
+like to say my my hero Ron Swanson would
+say never half-ass two jobs pull ass one
+job so that joke doesn't always go over
+so well so
+now remember the incident commander is
+in charge they're the highest authority
+that on the call higher even than the
+CEO this is tricky
+my advice to you is make sure that your
+management knows about this before it
+happens or things will not go well for
+you
+you do not want to surprise senior
+management's with this idea during an
+incident this happened to pager duty we
+have now our CEO has been with the
+company for a couple of years but she
+had just joined and who's about maybe
+three weeks into her tenure and got on a
+call and was basically kicked off the
+call by a junior engineer and who I have
+nothing but respect for that engineer
+for being able to do that and you know
+Jen was pretty fuming and pissed off and
+everything at first and then you know
+there was follow-up an explanation of
+this is how we do incident management at
+page of duty and more importantly this
+is why I'm going to talk about that in a
+second but the way you have to make sure
+that it's people understand this is
+there's a reason we work this way and it
+can be tricky especially for executives
+things like I just talked about with
+when our CEO jumped on the call is a
+type of behavior that we sometimes call
+the executive swoop because it's sort of
+an executive sort of swoops in and they
+want to take charge so sometimes you get
+things like this right you get the don't
+listen to the incent commander just
+start doing what I say you know have you
+tried doing this so why isn't someone
+doing this why aren't you doing that and
+there's one magical phrase so if you are
+the incident commander and an executive
+or someone of that nature gets on the
+call and does that then the only phrase
+you need to memorize is are you taking
+command you just simply say that you say
+are you taking command and one of two
+things is gonna happen either they're
+gonna say yes and then you say fantastic
+I am off the hook it's all yours
+or more often than not they say nothing
+they just sort of back away and they
+move along because that helps them
+understand that there it's real there's
+a lot of a lot of incident management is
+more about psychology
+than it is about technical prowess
+another one to that you get is I want
+this resolved in 10 minutes how many
+people have been on a call like that
+where exactly gets in and says this
+better be fixed in an hour this better
+be fixed in 15 minutes
+this is so demoralizing to hear because
+what it's implying is you're not working
+as hard as you could
+so thank God we've got this CIO who came
+in here to motivate us and get us to go
+faster yes does not is not effective and
+then and then the comment for this one
+is simply to say we're in the middle of
+resolving an incident please save your
+comments for the end and because the
+thing to remember don't take it
+personally and why does that matter
+people who do this are not doing it to
+be jerks they are concerned this is
+their business right they are worried
+about what's happening they think
+they're helping so we need to do the
+things that just keep things focused so
+being strong in our statements helped
+this is why by the way people who are
+very good at incident commanders great
+incident commanders are usually people
+who have a role of being a product owner
+or a project manager engineers are not
+always great incident commanders because
+we don't always have the non-technical
+skills that make us great at it and we
+also usually want to try to fix the
+problem but product owners general and
+Google does this is while I learned this
+from reading their book and found out we
+do the same thing at pager duty and it
+makes a lot of sense if you have product
+owners doing it they have those I hate
+to say soft skills but they have those
+non-technical skills about delegating
+and communicating that make them great
+incident commanders they have an
+understanding of the system but not
+enough they're gonna try to troubleshoot
+it and this is the selfish part now the
+product owner has visibility into your
+outages and your incidents because they
+said on the call too so now all those
+little technical stories where you're
+like we want to fix this stuff they were
+there so this works exceptionally well
+one of my colleagues who just joined our
+evangelism team who had been a product
+person at paid review for years she was
+our the first non engineer incident
+commander Pedro duty and now we have 22
+incident commander
+none of them are engineers because we
+want the engineers to be subject matter
+experts and not incident commanders so
+when we think about that not taking
+anything personally to review we're
+gonna make that switch in our mindset
+the incident commander is the highest
+authority the incident commander is not
+a resolver and how everything
+remembering ways to deal with executives
+swoop so the third agreement is don't
+make assumptions and I like this one
+which is we have to be good with certain
+assumptions we'll assume that I'm right
+and you're wrong there's also the well
+known this is this is a little more of a
+joke in the word an English word but I
+mean how many people heard the thing
+never make assumptions because they make
+an ass out of you and me but I like this
+cartoon better which is let's assume I'm
+right you're wrong so we want to avoid
+making assumptions and this is why I
+propose that this background is blue who
+agrees with me do you agree is it blue
+is it blue I don't know is the
+background blue is it blue there's a
+blue okay that could take forever right
+this getting distributed consensus takes
+a long time let's try this another way I
+propose this background as blue is there
+any strong objection cool backgrounds
+blue let's move on so and I had one
+objection but if there was one I'm
+optimizing for the 99%
+so which is okay during an incident
+right so that phrase is really important
+so you notice I said is there any strong
+objection and the word strong is key
+because that's making sure that I'm
+saying you better be able to back it up
+and I'm not saying I'm gonna challenge
+you I mean you may have a strong
+objection and it's valid you should be
+able to voice it but we're not looking
+for the most optimized situation the
+reason we want to do this is well
+instead of just the reason that we still
+have to get some kind of consensus this
+avoids hindsight effect this avoids you
+know Mike coming up later and saying
+well I told you that that wasn't gonna
+work if you had only a tour and I didn't
+tell you if you'd only asked me I could
+have told you that wouldn't work
+I could have told you we would have had
+that problem so this does give the
+opportunity to raise objections but
+we're getting consensus by asking for
+positive I remember when I was in the
+Boy Scouts and we would go backpacking
+in the mountains you never would say is
+everybody ready you say is anybody not
+ready you're looking for those
+objections rather than the agreement
+because the objections imply the
+agreement so the other thing too is
+avoid jargon right avoid very
+complicated technical terms and acronyms
+because this way I'll just read this
+because I thought this one was
+appropriate it said I proofread your
+technical document even though I didn't
+understand any of it so I couldn't tell
+what the acronyms for the typo started
+changing of what fell riding the boss
+says so you say we should migrate our
+lemon flutes to a Hartley and you know
+not all at once so the problem with when
+we do when we put in jargon we say
+things let's get all the ICS on the RC
+and get some BLTs for all the SMEs so
+first of all there's cognitive overhead
+I have to now sit there and say what do
+all those terms mean right or if there
+may be new people to the organization
+who don't know all of our terms so we
+want and that can make them feel
+excluded they can you know we don't want
+to have to over explain things but we
+want to be clear rather than concise
+this isn't about writing like great code
+right at this point right where we're
+saying let's let's be clear rather than
+concise so we need to assign some tasks
+to our subject matter experts now we're
+an incident commander we need to ask
+where you need to resolve our incident
+so we've got some ideas we've collected
+some some ideas from the subject matter
+experts we've got some things we want to
+try we need to now assign these tasks so
+how are we gonna go about doing that in
+a way where we're not making assumptions
+and it looks a little something like
+this the incident commander would say
+Rachel I'd like you to investigate the
+increased latency I'm gonna come back to
+you in five minutes understood and
+Rachel will say understood so a couple
+things happen in here that are key as he
+is in commander I'm clear about what I'm
+asking I'm giving it a time box and I'm
+making sure that it's been acknowledged
+you always want to avoid the deadly
+phrase which is can someone a lot of
+times when I give my incident management
+talk I start at the beginning and I say
+hey can someone keep track of time for
+me and then about half an hour and I'll
+say so who is keeping track of time and
+almost nobody will have done it that's
+called the bystander effect so you
+always want to make sure that you assign
+tasks to an individual now they can be
+assigned to a role you could say okay I
+need the on-call DBA to go check the
+shipping logs but you're not saying I
+need someone to go check those logs and
+you're giving it a time box now let's
+say Rachel comes back to me after five
+minutes or I come back to her after five
+minutes and she just says I need more
+time I'm not necessarily gonna say okay
+I'm gonna check back with you in another
+five minutes then I will say how much
+more time do you need but it's still
+time boxed so the key part of this is
+that and this understood is so so
+critical because otherwise I could come
+back in five minutes and she'd be like
+oh I wasn't sure you meant that I was
+supposed to do that or I wasn't sure
+about what you meant this gives her the
+opportunity to be clear about what I'm
+asking so we think about not making
+assumptions the pieces of that are to
+remember consensus is hard right
+distributed consensus is hard think
+about things like Kafka and all sorts of
+other distributed systems they're
+challenging that's even worse when as
+humans right clear is better than
+concise you want to assign tasks to one
+specific person and you want a time box
+those tasks so finally the last
+agreement is to always do your best
+be like daniel-san is the best around
+you're the best around so this is a
+controversial statement I'm about to
+make and it's gonna make some of you
+very uncomfortable the wrong decision is
+better than no decision at all again
+rules are different
+during incident response
+and the reason why the wrong decision is
+better than no decision is because the
+wrong decision provides you with
+information no decision provides you
+with no information if we make the wrong
+decision we can see that something
+happened we can come back see that we
+would that didn't work and move on to
+our next thing otherwise we run into
+something called analysis paralysis
+where we sit there and we try to think
+of every single thing that could happen
+in the meantime our company is bleeding
+money so this is again it's challenging
+now that doesn't mean that crazy
+decisions are better you know it doesn't
+mean just go do whatever we want
+but it's if we try to think again it's
+back to getting that distributed
+consensus if we said we want to make
+sure that we've got the exact right
+thing before we move we will never move
+so this one I believe this is a concept
+the reason says rally cars is I call
+this rally fast disband faster and what
+that means is get all the right people
+that you need when you need them but
+don't leave them on the call don't keep
+them around any longer than you need to
+how many people have ever this usually
+happens in large enterprises but have
+sat on a incident call with a hundred
+other people yeah and of that time how
+much people of that time were you
+actually doing anything most of the time
+almost zero right oh sorry here you want
+gonna take a picture there you go okay
+so the problem is this is very common to
+say well let's get everybody who might
+have some insight into what's going on
+let's get them on a bridge and we're
+gonna sit there for hours and so you
+could have a hundred two hundred people
+that all cost a hundred euro an hour and
+you're sitting there you're so you're
+just burning cash and not only are you
+burning cash it's probably happening in
+the middle of the night these people are
+having quality of life issues they're
+certainly not going to be effective
+tomorrow so what is okay and this is
+where the disband faster comes in is I
+might sit there and say you know what I
+think this is a network problem I don't
+think we need the app folks anymore go
+ahead go back keep your phone on we will
+call you if we need you because as as a
+responder I would
+much rather be told I can leave and
+you'll call me if you need me then sit
+around and wait because it's stressful
+for the person sitting around doing
+nothing because they're frustrated it's
+really stressful for the people that are
+actually trying to solve the problem
+because they know that there's tons of
+people sitting there getting irritated
+that they're not moving any faster
+they're not getting anything done so you
+want a rally fit disband faster and so
+do responders get tired
+what about incident commanders right you
+know incidents can go on pretty long so
+you want to be able to swap people in
+and out and the good news is this is
+relatively easy to do provided that you
+don't have complete single point of
+failure and organization which is a
+whole other conversation but at least
+for incident commanders and and whoever
+your subject matter experts are when you
+know you're getting to the point that
+people are starting to get tired and
+usually we find that it's about at about
+six hours is it between four to six
+hours is a time when you really should
+be bringing in somebody fresh and what
+you do is you have whoever is the backup
+have them join the call about fifteen
+minutes before you want to swap so they
+can be shadowing have maybe their backup
+and some commander talking in it but in
+a private chat room with the incident
+commander to get brought up to speed and
+then all you have to do is just say a
+very magic word which just says you know
+I'm a DM the incident commander I am
+passing off command to Rick and Rick
+says hi I'm Rick I am now the incident
+commander and now everybody knows what's
+going on so it's very clear and then all
+hell breaks loose because Rick is Anson
+commander so see see I know how to play
+this game too so you can talk a little
+bit about post-mortems or after incident
+reviews or learning reviews or whatever
+you want to call them I know a lot of
+people don't like to call them
+post-mortems because there's it's not
+like your system actually died but it's
+sort of like the term DevOps engineer
+I've made my peace with it and whatever
+is the thing that makes you do them then
+they make me happy right so there's a
+couple things to keep in mind and this
+again is about doing your best and about
+doing improvement because that's what
+that's what after instant reviews are
+for they're for improving so a couple
+little tips about this because
+we could go and talk for this itself as
+a whole other two-hour conversation so
+I'd love to talk about after instant
+reviews at some point so they should be
+what we would call blameless and now
+blameless is a tricky word because
+sometimes people think blameless means
+no accountability that's absolutely not
+true you screw something up you're still
+accountable you're accountable for
+making things better but a blame full
+post-mortem is one that says hey Maddie
+messed up who cares how does that help
+the system become more resilient so okay
+so I went in and I deleted I did our
+MMRF on slash okay but why was I able to
+do that in the first place right what's
+wrong with our system that's allowing
+these fallible humans to because we're
+gonna make mistakes human error is never
+a root cause nothing is a root cause
+that's a whole other conversation we
+could talk about there are multiple
+causes don't you want your post-mortems
+to be blameless which means because
+that's what lets people be safe because
+here's the thing the reality again
+people will work to the incentives you
+give them so if people are afraid that
+if they make a mistake they are gonna be
+punished does that make them make fewer
+mistakes to be quite honest no makes
+them become subject matter experts in
+hiding their mistakes and when that
+happens you are well and truly screwed
+because you don't know what's happening
+in production anymore and the other
+thing about after incident response is
+they need to be you need to avoid having
+what I would call a right only
+postmortem which is when people will say
+oh well our process says after we have
+an incident I write up the post-mortem
+and it goes in our wiki and then we're
+done okay
+there the whole point of them is so that
+we can learn from them and doesn't
+necessarily mean that we're just getting
+action items out of them but how are we
+sharing with the business with our
+colleagues with other teams about the
+things that we learned from this process
+and then also make sure that you're
+continually reviewing your incident
+process because those things change
+constantly as well paid really just for
+context we're about 500 people right now
+but there was a time when there was an
+instant ever if there was any kind of an
+outage or an incident of any kind of
+pages everybody in the whole company got
+well that worked fine when there was
+like 40 people it would super suck right
+now so you know as you're continually
+changing so whether it's once a quarter
+once a year continually be reviewing
+your incident response process and you
+know again always looking for continuous
+improvement this is a key concept when
+we look at kind of modern technology
+modern IT operations whether we call it
+DevOps whether we call it just doing
+work we are continually looking at how
+we can improve the way that we're doing
+things and finally don't panic right now
+here's the thing it's super because
+being on call and an incident is very
+panic inducing how many people have you
+ever you maybe you're sitting on the
+metro or sitting on the train and
+somebody's cell phone is set to the
+exact same tone as your pager alert four
+on call and you get that jumping there
+feeling right so when when you hear that
+tone that means you're having an outage
+we have a response it's okay to panic on
+the inside but don't panic on the
+outside because you need to keep all the
+responders and everybody else you're
+working with because panic is contagious
+so when we were doing a duty when we're
+kind of developing a lot of these
+processes some of the folks who came
+over they trained with firefighters not
+with fight fighting fires but just sort
+of going through incident learning
+Incident process from them and they told
+the story and they said you know happens
+often there's a fire they go they go to
+respond to this fire and of course the
+homeowner is panicking and freaking out
+because why wouldn't you your house is
+burning down and the firefighters they
+said what we say to them we say hey this
+may be your first fire but it is not
+ours
+this is not our first fire so big keep
+that in mind
+right this is incidents or things that
+happen we want to keep calm you're gonna
+have stakeholders that are panicking
+Keep Calm don't knock over your Coke
+Zero a calm people stay alive
+so to recap therefore always doing your
+best the things to keep in mind right so
+it's better to make the wrong decision
+than to make no decision you want to
+rally fast and disband faster
+handovers are encouraged make sure your
+post mortems I like to say they're
+useful you're getting you're not doing
+them just to fill out a form and you'd
+be surprised and always review your
+process and don't panic so what
+questions can I answer for you yeah well
+then make the next decision it can
+happen it can happen because you're
+never because the thing is you're never
+gonna know that you're making the right
+decision until after you've made the
+decision depending on how badly you made
+it that's part of your postmortem
+right so let's say your decision that
+you made was well let's just drop all
+the tables in the database how did that
+happen
+so part of that is again it's a little
+glib to sort of be like oh well just
+make any decision it's fine remember
+it's not it's not make any decision but
+the point of that is to not be so
+concerned about making sure that you've
+thought through every single possible
+thing that could happen because we need
+to get service restored but to answer
+this specifically when the wrong
+decision makes things worse that's what
+your post mortem is for to figure out
+what did we learn what what did we learn
+so we can do this better next time okay
+so if you would like so this is a very
+excited I have a QR code I didn't know
+anybody use them you also if you go to
+Matt strand that comm slash speaking
+this presentation is up there along with
+the links to back things up one of the
+things that I have a link to so we at
+page or duty of open sourced our
+response process the way that we do
+incident response that's at response
+type pager duty calm but I have links to
+that I have links to the survey and the
+study that we did around on-call I have
+links to the Don well Don Manuel Lou
+Ruiz book as well and you can also see
+all their talks and ducks and things
+I've done over there okay and so and you
+can find me on Twitter I'm at Matt
+Stratton
+my podcast is the rest of DevOps calm I
+would love to hear about your on call
+stories either during breaks or during
+the networking event kind of any
+questions any follow-ups you have but
+thank you for your time and it's a
+really enjoyed being here
+[Applause]

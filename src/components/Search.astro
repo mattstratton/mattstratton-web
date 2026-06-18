@@ -91,7 +91,7 @@
 
 <script>
   import Fuse from 'fuse.js';
-  import type { SearchRecord } from '../lib/search-types';
+  import type { SearchRecord, DeepRecord } from '../lib/search-types';
 
   const overlay = document.querySelector<HTMLElement>('[data-search-overlay]');
   const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
@@ -110,6 +110,14 @@
     let records: SearchRecord[] = [];
     let loaded = false;
     let lastFocused: HTMLElement | null = null;
+
+    // Deep "search inside talks" index (transcripts) — loaded lazily on the
+    // first query so opening search stays instant and the ~1MB only downloads
+    // when someone actually searches.
+    let deepFuse: Fuse<DeepRecord> | null = null;
+    let deepLoaded = false;
+    let deepLoading = false;
+    let byUrl = new Map<string, SearchRecord>();
 
     const escapeHtml = (s: string) =>
       s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -132,6 +140,7 @@
           { name: 'location', weight: 0.1 },
         ],
       });
+      byUrl = new Map(records.map((r) => [r.url, r]));
       // Populate year options from distinct years (descending).
       const years = [...new Set(records.map((r) => r.year))].sort((a, b) => b - a);
       for (const y of years) {
@@ -141,6 +150,27 @@
         yearSelect!.appendChild(opt);
       }
       loaded = true;
+    }
+
+    async function ensureDeepIndex() {
+      if (deepLoaded || deepLoading) return;
+      deepLoading = true;
+      try {
+        const res = await fetch('/deep-index.json');
+        const deep = (await res.json()) as DeepRecord[];
+        deepFuse = new Fuse(deep, {
+          threshold: 0.4,
+          ignoreLocation: true,
+          minMatchCharLength: 3,
+          keys: ['text'],
+        });
+        deepLoaded = true;
+        run(); // fold transcript matches into whatever the user has typed
+      } catch {
+        /* deep search is a progressive enhancement — ignore fetch failures */
+      } finally {
+        deepLoading = false;
+      }
     }
 
     function render(items: SearchRecord[], query: string) {
@@ -155,6 +185,9 @@
               : '',
             r.hasSlides
               ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">slides</span>`
+              : '',
+            r.hasTranscript
+              ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">transcript</span>`
               : '',
           ].join('');
           const meta = [
@@ -186,6 +219,22 @@
       if (!fuse) return;
       const q = input!.value.trim();
       let items = q ? fuse.search(q).map((r) => r.item) : records.slice();
+
+      // Fold in talks whose transcript matches (ranked after title/abstract hits).
+      if (q) {
+        if (deepFuse) {
+          const seen = new Set(items.map((i) => i.url));
+          for (const hit of deepFuse.search(q)) {
+            const rec = byUrl.get(hit.item.url);
+            if (rec && !seen.has(rec.url)) {
+              items.push(rec);
+              seen.add(rec.url);
+            }
+          }
+        } else {
+          ensureDeepIndex(); // lazy first-query load; re-runs when ready
+        }
+      }
 
       const year = yearSelect!.value;
       if (year) items = items.filter((r) => String(r.year) === year);

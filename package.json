@@ -12,6 +12,7 @@
     "ingest": "tsx scripts/ingest.ts",
     "optimize": "tsx scripts/optimize.ts",
     "rasterize": "tsx scripts/rasterize.ts",
+    "transcripts": "tsx scripts/transcripts.ts",
     "headshots": "tsx scripts/headshots.ts"
   },
   "dependencies": {

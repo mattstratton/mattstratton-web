@@ -44,6 +44,7 @@ const slides = Array.from({ length: slideCount }, (_, i) => i + 1);
       data-track
       class="flex snap-x snap-mandatory overflow-x-auto scroll-smooth rounded-lg border border-rule bg-ink/5 ring-1 ring-rule"
       tabindex="0"
+      role="group"
       aria-label={`Slides for ${title}`}
     >
       {slides.map((n) => (

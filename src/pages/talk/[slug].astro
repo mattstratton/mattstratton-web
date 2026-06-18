@@ -7,7 +7,7 @@ import Transcript from '../../components/Transcript.astro';
 import TagChips from '../../components/TagChips.astro';
 import slideCounts from '../../data/slide-counts.json';
 import { groupTalks, type Talk } from '../../lib/talk-groups';
-import { readTranscript, transcriptWords } from '../../lib/transcripts';
+import { readTranscript, transcriptWords, isCleaned } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
 import { talkUrl } from '../../lib/talk-url';
 
@@ -162,7 +162,7 @@ const description = abstractDelivery?.data.abstractHtml
     )}
 
     {transcript && transcriptId && (
-      <Transcript text={transcript} words={transcriptWords(transcriptId)} downloadHref={`/transcripts/${transcriptId}.txt`} />
+      <Transcript text={transcript} words={transcriptWords(transcriptId)} downloadHref={`/transcripts/${transcriptId}.txt`} cleaned={isCleaned(transcriptId)} />
     )}
   </article>
 </Base>

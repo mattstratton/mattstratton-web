@@ -9,10 +9,15 @@ import manifest from '../data/transcripts.json';
 // cheaply; the full text is read from disk at build time (SSG, Node available).
 const TRANSCRIPT_DIR = resolve(dirname(fileURLToPath(import.meta.url)), '../../public/transcripts');
 
-const counts = manifest as Record<string, { words: number }>;
+const counts = manifest as Record<string, { words: number; cleaned?: true }>;
 
 export function hasTranscript(notistId: string): boolean {
   return notistId in counts;
+}
+
+/** True once transcript-cleanup has produced a readable, edited version. */
+export function isCleaned(notistId: string): boolean {
+  return counts[notistId]?.cleaned === true;
 }
 
 export function transcriptWords(notistId: string): number {
@@ -25,8 +30,15 @@ export function readTranscript(notistId: string): string | null {
   return existsSync(path) ? readFileSync(path, 'utf8').trim() : null;
 }
 
-/** Group cleaned lines into readable paragraphs of roughly `perPara` lines. */
+/**
+ * Group transcript text into readable paragraphs. Cleaned transcripts already
+ * have real paragraphs separated by a blank line — split on those. Raw caption
+ * transcripts have no structure, so fall back to grouping `perPara` lines.
+ */
 export function toParagraphs(text: string, perPara = 8): string[] {
+  if (/\n\s*\n/.test(text)) {
+    return text.split(/\n\s*\n/).map((p) => p.replace(/\s+/g, ' ').trim()).filter(Boolean);
+  }
   const lines = text.split('\n').filter(Boolean);
   const paras: string[] = [];
   for (let i = 0; i < lines.length; i += perPara) {

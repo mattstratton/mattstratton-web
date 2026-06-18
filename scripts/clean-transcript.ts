@@ -1,6 +1,6 @@
-import { copyFile, readFile, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
 import { wordCount } from './lib/vtt.ts';
 import { rawPath, servedPath, fidelityCheck, type Fidelity } from './lib/transcript-clean.ts';
 
@@ -12,6 +12,7 @@ type Manifest = Record<string, { words: number; cleaned?: true }>;
 export async function prepare(id: string, root: string): Promise<{ raw: string }> {
   const archive = rawPath(root, id);
   if (!existsSync(archive)) {
+    await mkdir(dirname(archive), { recursive: true });
     await copyFile(servedPath(root, id), archive);
   }
   return { raw: await readFile(archive, 'utf8') };

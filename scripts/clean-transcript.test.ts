@@ -10,7 +10,7 @@ const RAW = Array.from({ length: 40 }, (_, i) => `line ${i} words here now`).joi
 async function fixture(id: string) {
   const root = await mkdtemp(join(tmpdir(), 'tclean-'));
   await mkdir(resolve(root, 'public/transcripts'), { recursive: true });
-  await mkdir(resolve(root, 'transcripts-raw'), { recursive: true });
+  // NOTE: deliberately do NOT pre-create transcripts-raw/ — prepare() must mkdir it.
   await mkdir(resolve(root, 'src/data'), { recursive: true });
   await writeFile(resolve(root, 'public/transcripts', `${id}.txt`), RAW);
   await writeFile(resolve(root, 'src/data/transcripts.json'), '{\n  "other": { "words": 10 }\n}\n');

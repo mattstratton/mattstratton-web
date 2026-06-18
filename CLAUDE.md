@@ -58,7 +58,7 @@ Requires `pdftoppm` and `gs` installed **locally** (`brew install poppler ghosts
 Two collections in `src/content.config.ts`:
 
 - **`talks`** — one entry per *delivery* (same abstract at 3 events = 3 records, matching Notist). File `src/content/talks/{notistId}.md`.
-- **`events`** — deduplicated venues. File `src/content/events/{eventId}.md`. Carries `latitude`/`longitude` (captured for a future map, issue #1; not yet rendered).
+- **`events`** — deduplicated venues. File `src/content/events/{eventId}.md`. Carries `latitude`/`longitude`, which place the event on the `/map`. **Virtual convention:** online events use `location: "Virtual"` and carry no lat/lng — they render off-map in the map page's "Delivered virtually" list, never as a dot. "No coordinates" is the map's predicate for off-map, and today it's exactly the `location: "Virtual"` events.
 
 ### Critical gotchas (learned the hard way)
 

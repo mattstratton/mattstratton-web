@@ -51,6 +51,14 @@ const points = events
 
 // Alphabetized list for the accessible text fallback / index below the map.
 const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
+
+// Events without coordinates are online/virtual (they carry location "Virtual",
+// see content.config.ts) — they can't sit on a geographic map. List them
+// separately so the page reflects all the speaking, not just the mappable part.
+const virtual = events
+  .filter((e) => typeof e.data.latitude !== 'number' || typeof e.data.longitude !== 'number')
+  .map((e) => ({ name: e.data.name, href: `/event/${e.data.notistEventId.toLowerCase()}` }))
+  .sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <Base
@@ -61,7 +69,9 @@ const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.l
   <header class="border-b-2 border-ink pb-6">
     <p class="label">Around the world</p>
     <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">Where I’ve spoken</h1>
-    <p class="label mt-3 normal-case tracking-normal text-ink-soft">{points.length} venues on the map</p>
+    <p class="label mt-3 normal-case tracking-normal text-ink-soft">
+      {points.length} venues on the map{virtual.length > 0 && ` · ${virtual.length} delivered virtually`}
+    </p>
   </header>
 
   <figure class="mt-8">
@@ -108,4 +118,20 @@ const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.l
       ))}
     </ul>
   </section>
+
+  {virtual.length > 0 && (
+    <section class="mt-10 border-t border-rule pt-6">
+      <h2 class="label">Delivered virtually</h2>
+      <p class="label normal-case tracking-normal text-ink-soft mt-1">Online events — no place on the map, but they still count.</p>
+      <ul class="mt-4 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+        {virtual.map((v) => (
+          <li class="border-b border-rule/60 py-1.5">
+            <a href={v.href} class="group flex flex-wrap items-baseline gap-x-2">
+              <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{v.name}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </Base>

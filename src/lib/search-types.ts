@@ -25,6 +25,8 @@ export interface SearchRecord {
   hasSlides: boolean;
   /** Whether a committed transcript exists (full text lives in deep-index.json). */
   hasTranscript: boolean;
+  /** Topic + tech tag names for this talk (searchable + drives the tag facet). */
+  tags: string[];
   /** Repo path to the thumbnail, or null. */
   thumbnail: string | null;
 }

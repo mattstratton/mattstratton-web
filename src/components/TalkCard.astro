@@ -4,11 +4,13 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   talk: CollectionEntry<'talks'>;
+  /** Override the card link (e.g. point at the canonical /talk/{slug} page). */
+  href?: string;
 }
-const { talk } = Astro.props;
+const { talk, href: hrefOverride } = Astro.props;
 const d = talk.data;
 const event = d.event ? await getEntry(d.event) : null;
-const href = `/${d.notistId.toLowerCase()}/${d.notistSlug}`;
+const href = hrefOverride ?? `/${d.notistId.toLowerCase()}/${d.notistSlug}`;
 const date = d.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
 const hasVideo = !!d.video;
 const hasSlides = d.slideSource !== 'none';

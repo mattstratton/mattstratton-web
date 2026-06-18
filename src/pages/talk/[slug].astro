@@ -4,9 +4,11 @@ import Base from '../../layouts/Base.astro';
 import SlideBrowser from '../../components/SlideBrowser.astro';
 import VideoEmbed from '../../components/VideoEmbed.astro';
 import Transcript from '../../components/Transcript.astro';
+import TagChips from '../../components/TagChips.astro';
 import slideCounts from '../../data/slide-counts.json';
 import { groupTalks, type Talk } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords } from '../../lib/transcripts';
+import { topicsFor, techFor } from '../../lib/tags';
 
 // Canonical talk pages: one per abstract (notistSlug), aggregating every
 // delivery. Per-delivery pages at /{id}/{slug} keep their own URLs untouched —
@@ -111,6 +113,8 @@ const description = abstractDelivery?.data.abstractHtml
     {abstractDelivery?.data.abstractHtml && (
       <div class="prose prose-lg mt-8 max-w-none" set:html={abstractDelivery.data.abstractHtml} />
     )}
+
+    <TagChips topics={topicsFor(group.slug)} tech={techFor(group.slug)} />
 
     <section class="mt-10 border-t border-rule pt-6">
       <h2 class="label">{group.count === 1 ? 'Where it was delivered' : `Every delivery (${group.count})`}</h2>

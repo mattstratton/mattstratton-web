@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import { stripHtml } from '../lib/strip-html';
 import { hasTranscript } from '../lib/transcripts';
+import { tagsFor } from '../lib/tags';
 import type { SearchRecord } from '../lib/search-types';
 
 /**
@@ -32,6 +33,7 @@ export const GET: APIRoute = async () => {
         hasVideo: Boolean(d.video),
         hasSlides: d.slideSource !== 'none',
         hasTranscript: hasTranscript(d.notistId),
+        tags: tagsFor(d.notistSlug),
         thumbnail: d.thumbnail ?? null,
       };
     }),

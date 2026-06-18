@@ -12,7 +12,8 @@ export default defineConfig({
     // Emit /{id}/{slug}.html so paths resolve without a trailing slash, matching Notist.
     format: 'file',
   },
-  integrations: [sitemap()],
+  // Keep the generated OG image routes (/og/*.png) out of the sitemap.
+  integrations: [sitemap({ filter: (page) => !page.includes('/og/') })],
   vite: {
     // Cast: @tailwindcss/vite ships its own Vite types which skew from Astro's
     // bundled Vite types — harmless at runtime, noisy at type-check.

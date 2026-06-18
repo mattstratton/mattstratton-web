@@ -65,11 +65,7 @@ const description = d.abstractHtml
       <p class="label mt-3 normal-case tracking-normal">
         {event && (
           <>
-            {event.data.url ? (
-              <a href={event.data.url} class="text-ink underline decoration-rule underline-offset-2 hover:decoration-accent" rel="noopener">{event.data.name}</a>
-            ) : (
-              <span class="text-ink">{event.data.name}</span>
-            )}
+            <a href={`/event/${event.data.notistEventId.toLowerCase()}`} class="text-ink underline decoration-rule underline-offset-2 hover:decoration-accent">{event.data.name}</a>
             <span class="text-ink-soft"> · </span>
           </>
         )}

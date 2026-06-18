@@ -9,18 +9,16 @@ import slideCounts from '../../data/slide-counts.json';
 import { groupTalks } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
+import { talkRouteParams } from '../../lib/talk-url';
 
-// URL parity with Notist: /{notistId}/{slug}. The id segment is the stable key
-// every inbound link uses; the slug must match what Notist served.
+// URL: legacy /{notistId}/{slug}, new /{year}/{slug} (see lib/talk-url.ts). The
+// id segment is the stable key every inbound link uses. Assets are keyed by the
+// entry id (talk.id) — for legacy talks that equals the original-case notistId.
 export async function getStaticPaths() {
   const talks = await getCollection('talks');
   const groups = groupTalks(talks);
-  // Emit lowercase URL paths: Netlify force-301s mixed-case to lowercase, so the
-  // site's own routes/links/sitemap point at the canonical lowercase form (200).
-  // Only legacy mixed-case Notist inbound links take the (unavoidable) redirect.
-  // Asset paths keep the original-case notistId (files serve fine case-insensitively).
   return talks.map((talk) => ({
-    params: { id: talk.data.notistId.toLowerCase(), slug: talk.data.notistSlug },
+    params: talkRouteParams(talk),
     // siblingCount = how many times this same abstract was delivered, used to
     // surface the canonical /talk/{slug} aggregation when there's more than one.
     props: { talk, siblingCount: groups.get(talk.data.notistSlug)?.count ?? 1 },
@@ -34,10 +32,10 @@ const event = d.event ? await getEntry(d.event) : null;
 
 // Slide count comes from the build-time rasterizer manifest; fall back to the
 // ingest-recorded image count, then to none.
-const slideCount = (slideCounts as Record<string, number>)[d.notistId] ?? d.slideImageCount ?? 0;
+const slideCount = (slideCounts as Record<string, number>)[talk.id] ?? d.slideImageCount ?? 0;
 
 // Durable transcript (if captions were captured for this talk's video).
-const transcript = readTranscript(d.notistId);
+const transcript = readTranscript(talk.id);
 
 const presented = d.presentedOn.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -54,7 +52,7 @@ const description = d.abstractHtml
 <Base
   title={`${d.title} · Matty Stratton`}
   description={description}
-  image={`/og/talks/${d.notistId.toLowerCase()}.png`}
+  image={`/og/talks/${talk.id.toLowerCase()}.png`}
   imageAlt={`${d.title} — Matty Stratton`}
   type="article"
   publishedTime={d.presentedOn.toISOString()}
@@ -89,7 +87,7 @@ const description = d.abstractHtml
     {d.video && <VideoEmbed provider={d.video.provider} id={d.video.id} title={d.title} />}
 
     {slideCount > 0 && (
-      <SlideBrowser id={d.notistId} slideCount={slideCount} title={d.title} slidesPdf={d.slidesPdf} />
+      <SlideBrowser id={talk.id} slideCount={slideCount} title={d.title} slidesPdf={d.slidesPdf} />
     )}
 
     {d.abstractHtml && (
@@ -112,7 +110,7 @@ const description = d.abstractHtml
     )}
 
     {transcript && (
-      <Transcript text={transcript} words={transcriptWords(d.notistId)} downloadHref={`/transcripts/${d.notistId}.txt`} />
+      <Transcript text={transcript} words={transcriptWords(talk.id)} downloadHref={`/transcripts/${talk.id}.txt`} />
     )}
   </article>
 </Base>

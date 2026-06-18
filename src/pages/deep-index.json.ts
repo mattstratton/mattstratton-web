@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { readTranscript } from '../lib/transcripts';
 import { readSlideText } from '../lib/slide-text';
+import { talkUrl } from '../lib/talk-url';
 import type { DeepRecord } from '../lib/search-types';
 
 /**
@@ -16,12 +17,10 @@ import type { DeepRecord } from '../lib/search-types';
 export const GET: APIRoute = async () => {
   const records: DeepRecord[] = [];
   for (const talk of await getCollection('talks')) {
-    const parts = [readTranscript(talk.data.notistId), readSlideText(talk.data.notistId)].filter(
-      Boolean,
-    );
+    const parts = [readTranscript(talk.id), readSlideText(talk.id)].filter(Boolean);
     if (!parts.length) continue;
     records.push({
-      url: `/${talk.data.notistId.toLowerCase()}/${talk.data.notistSlug}`,
+      url: talkUrl(talk),
       text: parts.join(' ').replace(/\s+/g, ' '),
     });
   }

@@ -3,6 +3,7 @@ import { getCollection, getEntry } from 'astro:content';
 import { stripHtml } from '../lib/strip-html';
 import { hasTranscript } from '../lib/transcripts';
 import { tagsFor } from '../lib/tags';
+import { talkUrl } from '../lib/talk-url';
 import type { SearchRecord } from '../lib/search-types';
 
 /**
@@ -22,7 +23,7 @@ export const GET: APIRoute = async () => {
       const d = talk.data;
       const event = d.event ? await getEntry(d.event) : null;
       return {
-        url: `/${d.notistId.toLowerCase()}/${d.notistSlug}`,
+        url: talkUrl(talk),
         slug: d.notistSlug,
         title: d.title,
         abstract: d.abstractHtml ? stripHtml(d.abstractHtml) : '',
@@ -32,7 +33,7 @@ export const GET: APIRoute = async () => {
         date: d.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }),
         hasVideo: Boolean(d.video),
         hasSlides: d.slideSource !== 'none',
-        hasTranscript: hasTranscript(d.notistId),
+        hasTranscript: hasTranscript(talk.id),
         tags: tagsFor(d.notistSlug),
         thumbnail: d.thumbnail ?? null,
       };

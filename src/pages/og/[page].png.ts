@@ -11,6 +11,9 @@ export async function getStaticPaths() {
   const videoCount = talks.filter((t) => t.data.video).length;
   const years = talks.map((t) => t.data.presentedOn.getFullYear());
   const since = years.length ? Math.min(...years) : 2012;
+  const mappedCount = (await getCollection('events')).filter(
+    (e) => typeof e.data.latitude === 'number' && typeof e.data.longitude === 'number',
+  ).length;
 
   const pages: Record<string, { title: string; subtitle: string; badge: string }> = {
     home: {
@@ -32,6 +35,11 @@ export async function getStaticPaths() {
       title: 'Bio & Speaker Kit',
       subtitle: 'Speaker bio, headshots, and links — ready for event organizers to grab and go.',
       badge: 'PRESS',
+    },
+    map: {
+      title: 'Where I’ve spoken',
+      subtitle: `Matty Stratton has spoken at ${mappedCount} venues around the world.`,
+      badge: 'MAP',
     },
     default: {
       title: 'Matty Stratton · Speaking',

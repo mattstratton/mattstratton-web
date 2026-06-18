@@ -8,6 +8,8 @@
 export interface SearchRecord {
   /** Canonical talk URL: `/{notistId.toLowerCase()}/{notistSlug}`, no trailing slash. */
   url: string;
+  /** notistSlug — shared across re-deliveries; used to dedupe results to one per talk. */
+  slug: string;
   title: string;
   /** Plain-text abstract (HTML stripped); empty string when the talk has none. */
   abstract: string;

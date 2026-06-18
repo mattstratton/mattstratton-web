@@ -1,0 +1,689 @@
+sometimes being the last talk exiting
+the last lock is always super dope but
+there's different reasons right the best
+thing about being the last talk is you
+can kind of tie things together you know
+I can listen to all the other talks that
+happen throughout the day and then tell
+the story the other thing is sometimes
+all the things you wanted to say have
+already been said so um talks over we're
+done bye let's go no no seriously I'm
+gonna try to be a little flexible as how
+we're going based on these ideas of
+things that we've already we've already
+talked about so gonna take this
+opportunity I've got got some oh that's
+weird
+well sorry on that screen notice you
+can't really see the top well all the
+really good information is at the very
+top of the slide so you're missing all
+the real thought leadership over there
+so yeah so this talk is called the
+psychology of chaos engineering so it's
+thinking along along the lines of a lot
+of the human factors that come into play
+my name is Maddie Stratton I'm a DevOps
+advocate for Pedro Duty so I'm not a
+huge fan of resume slides but I really
+like this one so you're just gonna have
+to sit through it it's cool so I think I
+work for pay tree how many people here
+have heard of page duty you already
+heard about it in some earlier slides
+today too so if you didn't raise your
+hand to your line cool that's as much as
+we're gonna talk about PHP right now
+besides this is the bottom every slide I
+do podcast called arrested DevOps for
+one of the longest-running still running
+DevOps podcasts if you're a listener and
+you want to sticker come see me later I
+got lots of stickers I also have cool
+pager Duty stickers too because Deverell
+life is giving away stickers that's my
+real job sticker engineer I founded
+devops days Chicago so which is gonna be
+in September so if you're into DevOps
+and you're gonna be in Chicago you
+should come to it and apply it later and
+I help run DevOps days all over the
+world and this used to be my license
+plate so one might say I'm invested in
+DevOps but then you know DevOps is like
+10 years old it literally is right like
+the first DevOps days was 10 years ago
+you know I want to be cutting-edge and
+everything so I actually had to get a
+new license plate so this is my current
+license plate that's
+by the way that is my car so I might
+have you know 200 dollars more than
+cents might be there cause that's what a
+cut that's what a vanity license plate
+cost Illinois but in reality what I like
+to do at this part of the talk is kind
+of get a level set and get some
+agreement and this so that we're kind of
+speaking a similar language and in the
+case of this being towards the end of
+the day we've seen all these talks
+fortunately the level setting that I
+wanted to do has already been done right
+nobody really said anything today that
+concretely disagrees with any I was
+gonna say so thank God because that
+would have been awkward but a couple
+things I do like to like to kind of
+stress and you may find so the nice
+thing about doing this talk at the end
+of the day especially at this conference
+is that the things that you already know
+those are review this is all it's like
+it's on purpose right we're tying it all
+back together so first of all also I
+don't always give this talk at chaos
+engineering conferences so sometimes I
+have to tell people what I think chaos
+engineering is and by I I mean somebody
+else's definition that I like so this is
+from principles of chaos but really
+there's a couple of the things about
+that that I always like to kind of bring
+it we talked about it about
+experimenting I think we're all pretty
+common and thinking about that and we're
+looking about building confidence to be
+able to withstand these turbulent
+conditions right you'll notice there's
+nothing in here about prediction so
+that's just kind of my little fun um
+this is an old definition but we can go
+back here was just talking about me
+almost ten years ago so this was from
+the Netflix tech blog talking about cast
+monkey but there's three things I like
+to pick out of this this definition that
+are generally interesting and again
+think about it some conferences I'll be
+giving this talk this is a brand new
+idea here we're reviewing or getting on
+the same page so it's cool right but
+right so they're running experiments in
+the middle of the business day and this
+is similar to at Pedro Duty we run our
+failure Fridays during the day they run
+it at lunchtime Pacific time because
+frankly there's no good time for page
+duty to be down if there is any good
+time for us to take any kind of an
+incident it's during the day in San
+Francisco
+when most of the people are in that
+particular office people in our Toronto
+office will tell me that no the best
+time is during the day in Toronto
+because Canadians are just as important
+as Valley people and that's totally true
+click carefully monitored environment is
+a big key part of this right and then
+again having your engineer standing by
+so this is all stuff that I hopefully in
+this room is like things we consider as
+table stakes if we don't consider this
+table stakes first of all if any of this
+comes as a big surprise to you right now
+you've probably been sleeping all day
+right which I totally get so cool
+but perceptions so here's the thing we
+just talked about what we understand
+this to be but there's different
+perceptions around what Cass Engineering
+is and what it what it provides and also
+what's involved and you know sometimes
+people say perception is reality what
+you're trying to do is effect change in
+an organization likely so perception
+super matters it's not about being
+rights
+that's what Twitter is for when you're
+doing change inside your organization
+it's about understanding the perceptions
+so this has been alluded to before but
+this drives me up a freakin wall any
+time I try to go somewhere and collect
+information about chaos engineering
+several people think they are the most
+clever person in the world that'll be
+the first ones who ever make this joke
+right they're not also to see the people
+who come up to the pager Duty booth and
+go huh I hate you you wake me up in the
+middle of the night Raghu and clever
+never heard that one before so this is
+generally my response to that it's like
+first of all you're wrong right that's
+why it's on social media but also it's
+not even clever so that's the other
+thing that it offends me as just Jerry
+Seinfeld you know sort of afforded to
+sort of paraphrase it defends me as a
+chaos engineering advocate and it
+offends me as a comedian because it's
+not even funny if you're gonna troll at
+least be funny okay
+and again it's not about breaking things
+right our intent is not to actually
+break something and try to push it to
+its limit and go kind of haha I figured
+out how to bust your system right that's
+a different thing and if you don't
+believe me believe Sylvia because if you
+know anything about Sylvia Boutros from
+Ingrid she is the expert at breaking
+things and if Sylvia tells you it's not
+about breaking things that it's super
+isn't so that's got to be true look I
+know you know this right so why am i
+bringing it up one is it's kind of a
+nice way to round out the day the other
+is we have to kind of continually remind
+ourselves of these points and these
+principles because almost by virtue of
+you sitting in this room you're at a
+certain level of understanding of this
+practice of this field and the first
+principle surrounding it the people
+you're working with in your organization
+may not be and it's very easy as we
+become further advanced in our
+understanding of something to kind of
+forget where it where we came from
+now even is really where we came from
+but we're people at a different mode of
+understanding might be right so again I
+know you know this I'm gonna say it
+anyway the good thing is this just sort
+of blends right into the end of the day
+so this is almost just like bullshitting
+at the bar we're kind of at a bar so
+it's cool right all right so I guess I'd
+you know this but they're experiments I
+think that's a really key thing and it's
+a really key way to help with that
+understanding we've talked about
+hypotheses right and our hypothesis
+should be that if we do this thing if
+this condition exists my hypothesis is
+it will still work if my hypothesis is
+if I shut down this node everything's
+gonna go to I probably shouldn't
+run that experiment right I
+I want again we're testing out
+assumptions and hypotheses now if your
+hypothesis is everything will go
+terrible then yeah or maybe maybe you
+still want to run it but you definitely
+should run that in a lower environment
+that's a whole different talk to talk
+about the myth of staging so we're just
+gonna talk about that right now that's
+cool right so again taking a scientific
+approach I absolutely loved that
+convergence divergence thing that he
+talked about and I'm going to steal it
+for the next iteration of this talk that
+I give when Adrian hasn't given that
+talk right before it so that I will look
+like the clever one
+may actually attribute it to Adrienne
+we'll see how that goes so like we know
+this Maddie we got it right and why does
+it matter because how we talk about
+things matter and this is a little
+tricky sometimes words matter and
+sometimes they don't right
+so getting nerd snipe points on Twitter
+for someone using a word wrong just to
+be right is not helpful so sometimes a
+word matters and a word matters when it
+affects how we think about something so
+I'm gonna take a couple a couple
+examples not directly related but to
+illustrate that point so we can see how
+it applies so before working at pager
+duty I worked at chef to come from
+infrastructures code background so
+automate all the things that's amazing
+but the components that make up chef
+code one of the elements of those are
+called recipes because of course they
+are because chef by the way if you hate
+food puns you definitely should go use
+puppet or ansible don't come to chef
+because that's chef is a t-shirt company
+that also sells software and then we
+also make a lot also make a lot of puns
+but so I would often times its kind of
+calling it a recipe people customers are
+working with users are trying to adopt
+this would talk about Chef scripts and
+that's one that I would correct gently
+and with an explanation not because of
+like oh no it's a recipe because chef
+and food blah blah blah but it's a
+different way of thinking about what
+that actual application of a concept is
+doing right a script is iterative going
+through step it's a stepwise thing a
+recipe maybe it's not a perfect analogy
+but the point is that that recipe is
+good and script is bad but script is not
+the way we want to think so we're gonna
+use a different word there's other
+things that I choose not to get a
+pedantic about I work at pager duty we
+talk about post-mortems a lot because
+incidents right so how many people are
+aware that there's some people that
+don't like calling them post mortems
+and for good reason right but it's not
+fundamentally by calling it a post
+incident review or a retrospective or an
+after-action report or whatever is not
+parently changing how you think about it
+you can have a very good reason for not
+wanting to call it a post-mortem but
+it's not related to a change in behavior
+of how you do it how many of you follow
+me on Twitter it's okay if the answer is
+no but if you do you can probably take a
+guess as to what the next word is that
+I'm going to say I'm picky about and
+that's the word root cause right
+the reason first of all I'm not getting
+your points here if you won't call it
+root cause that's great you're a fine
+human being and I love you but here's
+why I think contributing factor why this
+one matters because it changes how we
+think when we talk when we use that word
+it makes us think about a singular cause
+which in complex systems is not there so
+my whole point of this this is not about
+stop using the word root cause but I
+stopped using word root cause it's about
+the words we're gonna use when we're
+trying to affect change using KS
+engineering within organizations right
+the thing is people get nervous it's
+kind of how we live it's kind of how
+we've survived as a species is because
+we're worried about risk if we weren't
+worried about risk we've all been eaten
+by antelopes
+well maybe not antelopes I don't know
+I'm not good at animals but something
+bigger with teeth so risk aversion is
+kind of baked into us so we're gonna get
+nervous about things that seem to imply
+additional risk right you're gonna do
+what in production how many people you
+know think about folks inside your
+organization whose entire focus and lens
+by which they they view their
+relationship to your company's business
+is mitigating risk there's a lot of
+people that that's their job and that's
+great on if you are going to come to
+them and say I would like to do this
+thing and they hear it as I would like
+to create more risk the conversation is
+now over the irony is that folks who
+wanted we know we're all sitting here
+going but that's ridiculous over the
+castle engineering helps lower risk it's
+good as well
+great and they will love that ones they
+understand it but you want to be able to
+have that conversation so Adrienne
+talked about that a little bit before
+right and again this is beautiful
+everyone's already given my talk but
+this is why it matters and when we're
+thinking about mitigating risk I would
+like to say you know I'm again use your
+monitoring like it's for real
+we've had already conversations around
+this your chaos experiment to be
+successful and by successful not to
+prove your point but it's not actually
+you know get you fired you need to be
+looking at the impact to production you
+need to be monitoring like it's for real
+and it's because it is another way to
+think about this and we've seen some
+examples but at Pedro Duty we run our
+failure Fridays like a regular incident
+like we already start Incident Response
+as part of the failure experiment and
+there's two reasons for that one is
+we're already tuned up for it for us
+it's also we believe very strongly in
+always practicing incident response and
+a failure experiment is a really great
+way to normalize the practice of
+incident response this is a little
+different when Russell talked about like
+a fire drill you know it makes you
+complacent the difference of this is
+just being used to the motions right it
+doesn't mean it because we do want to
+try to reduce some of the stress so for
+example the way we train incident
+commanders if you want to be an incident
+commander at Pedro Duty before you go on
+call as an incident commander you have
+to have run a failure Friday because
+that's giving an opportunity to practice
+that under a relatively low stress
+situation the reason I'm bringing this
+up is so you know we might take this and
+say like oh well then a failure day a
+failure game day is a great way to
+practice a stressful situation it's a
+great way to practice stress it's a
+great way to practice from it no it's
+not no don't do that because the first
+thing is your people don't need training
+and practice of being under stress they
+get plenty of that already right what we
+want to do is the opposite so because we
+have some insight into what's likely to
+happen or at least the systems that are
+affected and we know what we actually
+acted upon it's a really great way to
+practice and go through the motions
+which create kind of a physiological
+response
+right so you know as Paige he says you
+know something's broken it's your fault
+in this case it actually is you could be
+a little blame 'full in in chaos days
+but it's good blame right that's cool
+okay so what about the people so we've
+talked about a lot about tech we've
+talked a lot about the systems the
+technology the providers the
+terraforming the kubernetes that's all
+the fun stuff right it's also the easy
+stuff the human piece has come in so
+when we think about the people that are
+involved and there's lots of people that
+come in there's your employees right
+there's there's your delivery teams that
+are for the systems that were that we're
+running experiments on there's a people
+that are engaging in the experiment and
+I don't know you might have some
+customers or users that might be wanting
+to use these systems those are people
+they're involved right so always kind of
+like ask this question you know if I say
+how does it make you feel to know that
+you know someone like Netflix is
+practicing these principles we're
+actually pretty down with it right we're
+like that's cool man their Netflix
+they're our DevOps and all the
+right you know and that's cool so I know
+that I can like you know get my you know
+new movies and I can I can binge all the
+things and whatever yeah what about your
+bank this another again and everybody in
+this room buys into this and this one
+still made you go hmm right but we
+totally know why it matters and the
+thing is the blast radius is what
+matters so like I was I was pleased to
+see that Adrian also goes to Twitter
+like I do so I had a very scientific
+survey and said if you discover a
+service you consume uses chaos
+engineering production do you feel
+reassured or uneasy and most people said
+they were reassured this is not
+scientific at all by the way and also
+you know there's a little selection bias
+but graphs mean results so I had to add
+some data and a little more data such as
+it is I did a few surveys around words
+that people might use to describe so I
+thought it was interesting to say what
+words describe your personal feeling
+towards use of chaos engineering on your
+team a lot of people were optimistic but
+there was so quite a fair amount of
+uneasy and cynical and everything and
+then this is what tells you everything
+about engineer
+when we flipped it and we actually said
+what about if products you use they were
+like oh my god that's fantastic but not
+us because we're terrible so I thought
+that was really interesting but one of
+the things that happens is when there's
+an understanding of the effects this can
+actually have a really positive effect
+on your delivery teams because we feel
+more comfortable making changes we feel
+we have greater trust in the system but
+we have to understand it because it has
+the opposite effect if we don't
+understand it right so this principle
+that when someone doesn't does it
+doesn't what thinks it's about breaking
+things on purpose and all those things
+it's actually going to reduce their it's
+gonna make them feel uneasy but when
+there's a greater understanding so this
+really boils down to education being
+helpful and we talk about people getting
+nervous management can get very nervous
+and we think about considering our words
+and this is this is usually the part
+when I say I don't have a great
+suggestion of what you should call it
+besides failure injection or chaos
+engineering because it might be
+different fortunately a bunch of people
+that they have already given you a bunch
+of really good idea so I kind of and the
+thing that's important is accuracy is
+not the most important part so like Russ
+talked about system verification and the
+nerd snipes and us went well technically
+it's not just a verification because
+that's a formal process it does what
+doesn't matter you're talking to your
+CFO right because all you want to
+actually do is get in the door to talk
+about it right have that conversation I
+like what Adrian says just call it
+engineering but that doesn't work as
+well for when you're trying to explain a
+new practice so I invite everybody to
+kind of think on this and I'd love to
+talk about it if people have examples of
+ideas but it will vary depending upon
+your organization right and really it
+comes down to the understanding of the
+philosophy and when you're trying to
+bring people along for a ride you want
+to be somewhat like minded right so I
+really like this this cavalry oh so
+Cordys like it doesn't really use cass
+engineering fully but had some
+interesting failures from interns which
+i guess is some form of chaos
+engineering
+and he said you know really he says now
+honestly feeling excitement when
+confronted with a new error that hasn't
+occurred before this is really a lot
+more about learning from incidents but
+if you have those things have to be
+coupled and learning from incidents is
+is a really it's a thing that we're all
+not very good at and by all I don't mean
+all of us are bad at it but I mean few
+of us are good at it because we usually
+look at incidents as something to be
+avoided and they again we don't
+encourage them we don't want to say like
+boy I sure wish that you know I had a
+ton and ton of incidents although one
+potentially controversial way to say it
+is you know it's been said hey you want
+to get better at incident response if
+you've tried having more incidents and
+that immediately virtually sounds funny
+but actually the way it's phrased is
+scoped more things to be considered as
+an incident you will practice it more
+and so incidents are a gift if that's a
+little hard to wrap your you know to
+kind of swallow maybe you say incidents
+or unplanned investment but if we don't
+think about if we're not focusing on
+being a learning culture we're not gonna
+get a lot of value out of all the
+practices we've talked about today it's
+about the learning that's what I thought
+it was so great that we had to talk
+about post-mortems as they apply to that
+we need to run all the things we would
+do for an incident on our experiments as
+well because especially but the only
+reason that makes sense is if you're
+after incident review your PIR your
+post-mortem is focused on learning if
+the whole reason you do a post-mortem is
+to write down the root cause it doesn't
+make any sense to you
+to do it after a chaos experiment you'll
+already know what the root cause was it
+was turned off this thing so so those
+two things I think these practices are
+so well coupled which is why in a lot of
+people's mind they all kind of run under
+resiliency engineering practices right
+learning from incidents ok these things
+are all loosely coupled right they're
+not they don't give you those things but
+they're all under being connected
+because they all come back to us wanting
+to learn and have better understanding
+be able to reason about our systems more
+broadly so kind of I'm going a little
+quick part of it is because we're
+getting to the end of the day and I
+always started running crying and I'd
+love to have a little more hallway track
+and everything like that but just a
+couple things I'd like like
+consider again safety first right um and
+this isn't the safety two idea of safety
+but you know safety first we want to
+think about all sorts of things we've
+talked about today about minimizing
+blast radius about making sure your
+responders by the way just speaking of
+one thing I forgot was I the only one
+who was like waiting for the last slide
+for Ramirez talk about where we could
+like where the get repo was forget about
+it there's I don't know we don't have
+that yet so I want it right so that was
+exciting to me because of again the
+thoughts around the whole experiment
+right so a couple things I think that
+are very key to keep in mind and these
+may seem like table stakes but to use a
+terrible analogy I used to do swing
+dancing and we used this we used to say
+about dancers we'd say beginning dancers
+take intermediate classes intermediate
+dancers take advanced classes advanced
+dancers take beginner classes so it's
+always helpful as much as we're big
+experts in this room a couple of these
+things if it is common sense great it's
+a good review if it's table stakes I
+assume you're already doing all of these
+but knowing your conditions of when do
+you shut down the experiment and that's
+knowing what your key business
+indicators are right you're not shutting
+down the experiment because sequel
+server is using too much memory all of a
+sudden you're swimming down the
+experiment because your average card
+size has dropped below where you're
+where it's supposed to be know what your
+key business metrics are that are where
+you're just gonna call it so you need to
+know what those are right and again we
+want to build resiliency and resiliency
+comes from people having adaptive
+capacity right and what we're not trying
+to do here is stress test people right
+even if Adrian's gonna break necks of
+your key sres you're not trying to to
+add stress you're trying to find
+challenges so it can be very tempting to
+look at a cast experiment as a way to
+test people's ability to troubleshoot
+right or to to simulate the stress of on
+call we want to have transparency Ron
+everything's habit never surprise
+anybody with your chaos experiment right
+and at the end of all these wonderful
+numbers about reducing MTTR and
+availability numbers that are happening
+everything right there are always people
+and where I bring that up to mind is it
+some of the scale at which we work a
+small number is not a small number we're
+like oh well we only impacted one tenth
+of a percent of our users
+okay well that might have been like
+10,000 people that just had a shitty
+hour because we weren't really watching
+those key metrics so at the end at the
+other side of all of your graph on a--
+and all of this there are humans and we
+always want to keep the humans involved
+and thinking about them it doesn't mean
+we don't take risks but remember that at
+the end of day it's really easy to look
+at a graph but all those little things
+at the end are probably a person most
+likely so trying to remember the humans
+is what matters so not that these slides
+are terribly exciting but if you want to
+check them out and that's that's my
+speaking website this the slides are
+there some supporting links some other
+articles I found interesting there's a
+couple articles that I link to in there
+they didn't talk about that are about
+how we do failure Fridays and stuff at
+pager duty which is just not saying you
+should do exactly what we do but you're
+all interested in this domain so it's
+more things to know right
+and yeah if you like Twitter that's
+where you can find me I'm Matt Stretton
+and PG says follow me

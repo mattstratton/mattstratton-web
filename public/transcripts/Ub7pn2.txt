@@ -1,693 +1,81 @@
-thank you one might even say so I know
-I've got the coveted right before lunch
-spot so we're gonna make this a little
-interactive so you're not sitting there
-we're running a few minutes ahead so
-it's all it's all fine we'll start just
-a little quick introduction I don't have
-a big resume slide or anything like that
-but again my name is Matt and I'm a
-DevOps advocate for Pedro Duty how many
-people here have heard of Pedro do be so
-okay how many people love to hate us
-right so I always have to sort of
-mentioned pedra do they pay my bills
-that's why I'm here and that's the end
-of it nor I got to talk about Pedro duty
-as a product anymore another thing is
-that I organize DevOps days Chicago so I
-get to go to a lot of different DevOps
-days I'm really excited to be here part
-of this one this community is awesome if
-you do if you are intrigued by this
-notion of presenting maybe DevOps days
-Chicago CFP is still open for another
-couple weeks so you might want to check
-that out
-DevOps days org but we're gonna talk
-about a little bit about chaos
-engineering today and a little bit about
-the human factors and the people things
-to keep in mind so along the lines of
-thinking about making this interactive
-just what are some of the words and
-ideas you think of when I mentioned
-chaos engineering just shout some out
-game day what are some other words okay
-so maybe we'll do a little bit more time
-but what KS engineering actually is and
-speaking of chaos clicker Hey okay so
-according to the Internet's
-principles of chaos org basically chaos
-engineering is this discipline of
-experimenting on a system right and we
-want to build confidence in the
-capability of that system to withstand
-turbulence okay a little bit of
-background about where kind of chaos
-came from and I know
-there's a lot of differences of opinions
-of kind of the etymology and the history
-but what people first started being
-aware of chaos engineering was from this
-little media company you may have heard
-of called net flix and they had a
-product a tool called a chaos monkey and
-what casts monkeys intent was was to
-kind of I don't wanna use the word
-randomly but it would shut off services
-in production and the intent was to
-create this need for almost defensive
-coding right you don't because the
-reality is you don't know your systems
-are turbulent so if you're saying we're
-not just saying if we're saying when now
-the mechanism and kind of the
-methodology of chaos engineering has
-matured over the years so it's not just
-about shutting things off anymore
-it's really the key word here is it's
-about experimenting and before we talk a
-little bit more about what chaos
-engineering is I want to spend a little
-time talking about what chaos
-engineering is not and I've become very
-aware of as witness risen what are some
-words you think of and I get crickets
-when I post on social media and I look
-for feedback and thoughts around chaos
-engineering I can definitely see that
-while in some circles people are very
-aware of it
-some people are not and one of the most
-common things that I hear when I'll post
-something and say what do you think
-about chaos engineering and people will
-say isn't all engineering chaotic and
-I'm like that's that kind of what we're
-talking about right and the it's not
-about the fact that engineering is
-chaotic it's not about the fact that our
-processes are unpredictable there's a
-lot of things a lot of work we do that
-somewhat unfortunately named devops
-might be one of those terms it was if
-not to go off on a tangent but if you
-know the history around why we called
-DevOps DevOps it's because agile system
-administration was too long of a name
-for a conference
-and now we run into this thing where now
-we have to name things dev SEC biz DB
-ops and everything because we take
-everything far too literally so just why
-we don't take the word dev ops literally
-we shouldn't necessarily take the term
-chaos engineering literally so what are
-some other things it is not so this is a
-really big one and I asked some people
-because I always go to others to get
-insights and influence and I said you
-know what is what's something that
-people need to know that that you what
-are some first principles and one of my
-friends said it's not about breaking
-things and I said that's so insightful
-that it's going on a slide by itself so
-this is me not being a liar
-I told Sylvia that I would put her tweet
-on a slide by itself but chaos
-engineering is not about breaking things
-right it's not about trying to figure
-out how we can make things fail right
-what it's really about is about
-experimentation right so what we are
-intending to do is we're creating a
-hypothesis we say we believe that if
-this certain thing happens this is
-what's going to happen with our system
-we believe that our system is resilient
-we are we believe our system is reliable
-resiliency has to do with the human
-factors we'll talk about that in a
-minute
-and so what we're not what you don't
-want to do is we're not going in there
-and just saying let's just turn things
-off let's just see how we can break
-right we actually have to have a
-hypothesis because if you don't have a
-hypothesis how do you know if you were
-right how do you know what you have
-learned we talked about you know
-efficient and effective organizations or
-learning organizations chaos engineering
-is a great tool for helping us learn
-more one of one of the common thing you
-know working for pages we talk about
-incidents a lot there's a saying that
-incidents are a gift right we are are
-unable because we are humans we are
-unable to talk to our systems directly
-we have to communicate through some type
-of a
-zyne so an incident is a way for our
-system to tell us something what's nice
-is if we don't have to wait for an
-incident right if there's ways that we
-can encourage our systems to tell us
-things about themselves so that we can
-learn more so we create hypotheses and
-then we test them out and so we think
-about chaos experiments right now this
-is where things get a little tricky some
-people believe that to properly do chaos
-engineering you must run your chaos
-experiments in production I would much
-prefer to say no pun intended that
-experimenting and production is
-preferred because as we're going to talk
-about in a few minutes
-not every system is appropriate for
-production testing now there's no
-testing like testing and prod because no
-matter how good you think staging is
-staging is not prod you don't have
-things like the Googlebot crawling you
-in staging you don't have you know some
-random blu-ray player from six years ago
-that's trying to run your client in
-staging but testing and prod comes with
-risks so how many people have have heard
-when charity major says 9's don't matter
-if your users aren't happy right so if
-you haven't heard that you just did and
-the reason I bring this up is because we
-to where we we live in a world of scale
-right and so we understand or we should
-that running chasing after a hundred
-cent reliability is a fool's errand our
-systems are always in some state of
-degradation so we sit there and we say
-okay what is the minimum acceptable
-uptime and we tell ourselves okay you
-know what three 9s is good for 9s is
-good that's fine well you know what
-there's still people at the other end of
-that point zero zero one there's someone
-who's still trying to do a thing so what
-we want to do is we still we're still
-optimizing for our minimum required
-uptime
-we want to think about what the impact
-is on those particular humans and the
-reason that that doesn't mean that we
-shouldn't experiment and test in
-production it means we need to be
-equipped because here's the other thing
-if you aren't running chaos experiments
-in production I've got news for you you
-are there just really crappy experiments
-and you don't know what they are so the
-better control and the better
-understanding we can have the more
-resilient our systems and our teams can
-become you can't do any of this without
-good measurement so my buddy Aaron is
-giving an ignite talk yeah you a little
-bit later today about observability so
-if you're not familiar with
-observability he'll tell you everything
-you do in five minutes and he can be a
-kind of super expert but the reason is
-again we're doing experiments we have to
-be able to understand the impact of what
-we're doing so that we can understand
-when we maybe need to pull back on the
-experiment maybe we've hit a gate that
-says this is too much because we have a
-hypothesis well what happens when we
-prove our hypothesis false our
-hypothesis is that if we shut down this
-particular system our circuit breaker
-will kick in and people will still be
-able to watch their movie what happens
-if they stop being able to watch their
-movie do we sit there and say well I
-guess I was wrong no we need to be able
-to back that out we need to or we need
-to be able to work around it and this is
-why we need to have an understanding of
-what our systems are doing and what that
-user experience is like so we talked
-about minimizing blast radius and
-there's lots of different ways to do
-this
-Canaries are a very very good technique
-when you're looking at running chaos
-experiments you're not going to
-necessarily run this experiment again I
-said you're going to test in production
-that doesn't mean you're gonna run it
-against all of production you want to
-have a an understandable blast radius
-and there's a another way to think about
-blast radius is that so it's more about
-releasing but it's still a way to kind
-of can
-sitter if you look at the way that
-Microsoft releases software they have
-this notion of rings so when they start
-so they're they're kind of concentric
-circles that start out when they're
-releasing something we're first it's
-just being released basically the people
-who worked on the product right then
-they start to roll it out to other teams
-inside Microsoft and eventually all of
-Microsoft then eventually out to
-consumers so what's happening is as
-they're learning more as the software's
-being released they're being able to
-kind of expand that blast radius and you
-can do the same thing with your chaos
-experiments right where you start out
-and say maybe I'm gonna run this
-experiment against 1% of production
-because I don't really know anything yet
-I only have the beginnings of an
-understanding of my hypothesis then I
-kind of roll that out I say ok looks
-like I might have been right looks like
-we're OK
-let's test it a little bit more and
-let's test it a little bit more and what
-this is letting us do is that when we do
-have a scenario that's causing a
-degraded experience we are minimizing
-the number of people who are being
-affected and this is the core of all of
-this we have to remember that we have
-users we have people who use our product
-and it's very easy at the scale that
-we're used to working at to start
-looking at just the ones and zeros of
-the matrix and we start to see those
-numbers that sort of fall off the end of
-the cliff and we're like wow that's ok
-it's an acceptable degradation someone's
-still sitting there having a bad day so
-we want to be able to to minimize that
-acceptable risk there we go
-so um tools we can't have talked about
-DevOps without talking about tools so
-there's lots of different tools that can
-help you with your your chaos
-experiments and speaking of introducing
-chaos I realize there is a big error on
-this next bullet point so don't take a
-picture of it
-so there is the Netflix simian army and
-it is not found at that URL that is a
-good helpful website which is theories
-of chaos but you can find the simian
-army on github and this is again new
-service and it's it's a collab
-chin of tools and Netflix uses for their
-chaos experiments there's also a product
-company called gremlin who is happy to
-sell you some tooling but they also do
-have a free version of their tool when
-you're getting started just with some
-some very simple experiments and gremlin
-has has a lot of good product on their
-website around how to approach chaos and
-then there's also the good old chaos
-toolkit which these are all tools I'm
-not gonna again the point of this talk
-is not going to tell you how to do chaos
-and like how to do the block and tackle
-but these are some places to get started
-to kind of look at what you can do with
-with some of these some of these things
-so I'm gonna before we kind of move on a
-little bit further I'm curious and again
-I know it's right before lunch so maybe
-our energy levels a little low but think
-about this as practice for open spaces
-right how many people work in an
-organization that has some kind of
-formalized chaos engineering practice
-okay how many people have maybe less
-formal chaos engineering practices maybe
-you're doing some type of failure
-injection of that formal okay this has
-been fairly the of the the surveys that
-I've kind of have done I'm seeing that
-there's it seems about right when it
-comes to those numbers and when I talk
-about you know how formalized they can
-be they can be as simple as doing
-somebody had shouted out game days right
-so this is one of the ways at pager duty
-that we do Cass engineering is through
-something we call failure Fridays and
-failure Fridays are as their name
-implies they occur on Friday they don't
-have to you don't have to do them on a
-Friday but you'd lose out on the
-alliteration and that's a lot less fun
-and for us we we run them as planned
-failure injection and we actually do
-ours during business hours on Friday and
-the reason there's two reasons for this
-one being we don't have maintenance
-windows there's no good time for page
-duty to be offline so that being said if
-we're going to run plan failure
-injection we'd
-rather run it during the day when people
-are in the office and everyone's around
-rather than trying to introduce this
-failure at 2:00 in the morning when we
-have less control less understanding the
-other thing that's really key about our
-failure injection is we are we're
-running it this way because we're not
-trying to stress out the humans right
-what we're trying to do is understand
-our system and one of the the things
-that's become a little more formal with
-our practice when we first started doing
-failure injection it was very opt-in and
-there are a lot of processes that paid
-Ruby that when we started them it was
-like okay this is just a thing you can
-do when everybody got really excited
-about it and and they would do that and
-then over time people stopped
-volunteering and now it's becoming
-something that we're creating is a
-requirement for a certification for a
-feature your feature has to have gone
-through a failure Friday every 180 days
-or something like that and we're still
-kind of working on that but you don't
-have to start my point is you have to
-start with this formalized approach
-start with some way to test out
-something you want to know there it is
-but oh whoa okay so starting over so my
-name is Matt Fran there there we go what
-about the people this was supposed to be
-the big reveal - so act surprised but
-what about the people right as I've
-talked before so we we sit there and we
-say we understand it's been proven that
-following these techniques will let us
-understand our systems better it will
-cause us to build more reliable more
-stable systems that help build more
-resiliency into organizations and ensure
-our things great that's good for all the
-computers and all the networks and all
-your kubernetes and all that fun stuff
-but what about the people so they say
-how does it make you feel to know that
-Netflix practices chaos engineering
-right so that's a thing you've all
-experienced it you just don't know it
-right and when I've asked people about
-this it usually makes you feel actually
-pretty okay you're like okay good they
-know their system
-you know I'm not gonna miss out on my
-streams per second and all those great
-things okay but how does it make you
-feel drama about your bank doing it
-because think about this if you're on
-Netflix and you're in that zero point
-zero zero point zero zero one percent of
-failure you know I mean you get that we
-can't play this title right now try
-again okay well maybe you get a little
-annoyed or anything like that but what
-happens when you're in there and you're
-actually maybe trying to make a trying
-to pay your credit card bill you're
-trying to transfer money from one
-account to another does this mean that
-if you are a financial institution or
-something like that that you should not
-practice these techniques absolutely not
-in fact they're very very very necessary
-but what the when you know you're
-practicing these hypotheses this is
-teaching your organization to learn how
-to fail gracefully right how to
-understand retries how to do these
-things but this is why you start small
-this is why maybe for a system like this
-you don't start testing and production
-because you aren't sure this is true at
-pages ut we have some systems that we
-don't run failure Fridays on outside in
-a production scenario because we know
-they're not quite there yet and that's
-actually something we learned part of
-the hypothesis is I have a hypothesis
-that I don't think this system is
-resilient I'm proving this out by not
-actually doing failure Friday but we
-have to get to the point where we can
-this was a really okay so I did ask I
-said you know if you discover a service
-you consume uses chaos engineering how
-do you feel and most people that I asked
-I did some other surveys as well not
-just this one Twitter poll the majority
-said it made them actually feel
-reassured some people still feel uneasy
-about it but I found that for the most
-part as a consumer people still feel
-real reassured and then also internally
-you know I did some surveys and asked
-and said how does it make you feel to
-know that your team practices these
-things so now with
-knowing what you know a little bit about
-chaos engineering how would you answer
-this question how many people would say
-it makes you feel reassured to know that
-it considered that a product you use
-follows these practices
-how many of you might feel a little more
-uneasy knowing this okay most people
-abstained telling it almost lunchtime
-it's okay it's gonna be fine so now the
-other thing is when you're talking about
-introducing these management can get
-nervous we talked about unfortunate
-names for things turns out that c-suite
-people don't like the word chaos they
-really don't like the word failure so
-you might need to think a little bit
-about Naaman clay Chur education is very
-key experiments are a much better term
-now sometimes you're gonna use the terms
-that you're going to use but think about
-the words and what they carry so anytime
-we're talking about making
-transformative change we might know as
-DevOps professionals as people who go to
-these conferences as people who read all
-about this on the Twitter's we know what
-chaos engineering really means your CFO
-is just hearing you want to change a
-whole bunch of randomly right wait
-you want to inject failure so education
-and understanding is a very very key
-part and you may even need to kind of
-when you think about the corporate
-culture of the organization you're in it
-may you may need to change your Naaman
-cloture and there is just like so many
-other things there's a mental shift
-there's a philosophical shift that needs
-to happen to embrace and learn from
-these type of techniques it's not just
-turning on chaos monkey it's not just
-suddenly doing these things you need to
-make an organizational cultural change
-now I'm sorry to say you can't just like
-snap your fingers and say we're changing
-our culture in fact it's impossible to
-change
-culture what you can change our
-behaviors behaviors influence culture
-and how do you change behavior
-incentives so when you're thinking about
-this philosophical change I'm telling
-you you have to make we want to think
-about how are we incenting people and
-how can they be incentive to participate
-and embrace this but I really like this
-way of thinking about the philosophy so
-some so Kody said you know his
-organization's not fully using Cass
-engineering but recently had some
-interesting failures because of interns
-from interns experimenting and he said
-he felt excitement where was a new error
-that hadn't occurred before in cold
-water also mentioned on Twitter a while
-ago and said you want to really
-understand chaos and inject chaos give
-junior developers more freedom to do
-things because here's what happens even
-if we're not we're not saying because
-junior developers are interns like make
-lots of mistakes and they break a bunch
-of so therefore we'll find stuff
-but those of us have been doing this a
-long while we think a certain way we've
-gotten stuck in thinking a certain way
-when we think about people who are new
-to our team new to our organization
-those are great people to get involved
-in your casts experiments because they
-are gonna ask different kinds of
-questions they're gonna want to test
-things in a different way because the
-other thing when you've been working on
-a system for a long time and it's been
-working
-you kind of think it's probably pretty
-good but you know what you might have
-just been getting really lucky so
-figuring out ways to continue to test
-these things and getting diverse and
-outside opinions from the team really
-helped and safety matters right so we
-talked about this about minimizing your
-blast radius and about understanding the
-impact so you go into these things with
-your eyes wide open you think about what
-the impact is and a couple really key
-perspectives when it comes to that are
-these so first of all know your
-conditions when will you shut down your
-experiment what is something that
-happens so I'll give you a you know
-you're gonna know what your key
-metrics are because you have lots of
-metrics and there's certain things that
-are acceptable in certain things that
-aren't to go back to the Netflix example
-Netflix has one very key metric that is
-their bread and butter does anybody
-happen to know what that metric is just
-curie stream starts per second that's
-the one
-as far as netflix is concerned almost
-anything else in their system can be
-down and that's okay but if stream
-starts per second starts to drop then
-they have a problem so when they're
-running chaos experiments when that is
-that is an abort condition for them if
-that starts to drop you're like oh pull
-the plug go back right we're gonna work
-around it so know what is the one for
-you and keep it somewhat simple if you
-have a list of 12 to 15 different
-metrics that if these all change that's
-not an experiment anymore that's way too
-much data I don't care what your
-business is you don't have 15 key most
-important metrics ever talked about this
-before everything is a priority nothing
-is if everything is the very most
-important metric ever then nothing
-matters
-this isn't about causing stress on your
-people so this comes up a lot in lots of
-different kinds of game days when you
-know people say well you know what
-incidents and stuff are stressful so we
-need to get people to practice under
-stressful situations this is a really
-bad idea because trust me your folks are
-gonna get plenty of practice under
-stressful situations what we want to do
-is we want to be able to have as much
-information as possible so you need to
-be very transparent do not run
-experiments without affected people
-knowing what's happening you're on call
-need to know what experiments are being
-run
-make sure your incident response team
-knows make sure your security team know
-be very very transparent this is not
-about trying to catch people and trick
-them even with the best of intentions
-and remember that when you're designing
-these experiments again not to hammer at
-home even more there are humans at the
-other end of these numbers those humans
-can be your users they can be people who
-are paying your company money for a
-service they can be people even if they
-are paying you money they're trying to
-consume a service they're trying to do a
-thing and
-some of the other humans involved are
-your co-workers those incident
-responders I refer to you know the folks
-who are trying to do their job and you
-are injecting some change so remember
-and think about what those human factors
-might be and wrap up with a final you
-know good resource slide because lots of
-other people have spoken some really
-great words written some great words
-about this so Norah Jones who has
-recently joined slack but was it Netflix
-for a long time has a great blog post
-called chaos engineering traps so when
-you want to kind of understand again
-it's sort of a list of things to watch
-out for as you're starting to do this
-kind of work I talked a bit about how we
-do chaos injection at pager duty we use
-a tool called Cass cat which is
-unfortunately that we have not been able
-to open source because it's very tied
-into just how we do work but my coworker
-Eric Sigler wrote a great blog post
-about how we do that and as we again
-thinking about dev sec ops so a company
-called Optim which you might also know
-as United Health Group they have a tool
-that they open source which is amazing
-it was a great story because it's the
-very first open source project from this
-company called chaos slinger and it's
-about running chaos experiments related
-to security not just to service
-availability so it's a I highly
-recommend checking that out if you're
-really kind of wanting to level up your
-your chaos experiments but with that I'm
-hoping maybe we can have some
-conversations during the open spaces
-around your experiences things you might
-want to learn and thank you very much
-for your time it's been a real honor and
-a privilege to be part of DevOps days
-Baltimore thank you
-[Applause]
-[Music]
-you
-[Music]
+Thank you. I've got the coveted right-before-lunch spot, so we're gonna make this a little interactive so you're not sitting there. We're running a few minutes ahead so it's all fine. We'll start with just a little quick introduction. I don't have a big resume slide or anything like that, but again my name is Matt and I'm a DevOps advocate for PagerDuty. How many people here have heard of PagerDuty? Okay, how many people love to hate us? So I always have to sort of mention PagerDuty — they pay my bills, that's why I'm here, and that's the end of it. I don't have to talk about PagerDuty as a product anymore. Another thing is that I organize DevOps Days Chicago so I get to go to a lot of different DevOps Days. I'm really excited to be here and part of this one — this community is awesome. If you are intrigued by this notion of presenting, maybe DevOps Days Chicago CFP is still open for another couple weeks, so you might want to check that out at devopsdays.org.
+
+But we're gonna talk a little bit about chaos engineering today and a little bit about the human factors and the people things to keep in mind. So along the lines of thinking about making this interactive — what are some of the words and ideas you think of when I mention chaos engineering? Just shout some out. Game day! What are some other words?
+
+So let's spend a little bit more time on what chaos engineering actually is. According to the Internet's principlesofchaos.org, chaos engineering is this discipline of experimenting on a system, and we want to build confidence in the capability of that system to withstand turbulence.
+
+A little bit of background about where chaos came from — and I know there are a lot of differences of opinion around the etymology and the history — but what people first started being aware of was from this little media company you may have heard of called Netflix. They had a product, a tool called Chaos Monkey, and what Chaos Monkey's intent was was to — I don't want to use the word randomly — but it would shut off services in production. The intent was to create this need for almost defensive coding, because the reality is you don't know your systems are resilient unless you test them. We're not saying if, we're saying when. The mechanism and the methodology of chaos engineering has matured over the years, so it's not just about shutting things off anymore.
+
+The key word here is that it's about experimenting. Before we talk a little bit more about what chaos engineering is, I want to spend a little time talking about what chaos engineering is not. When I post on social media and I look for feedback and thoughts around chaos engineering, I can definitely see that while in some circles people are very aware of it, some people are not. One of the most common things that I hear when I'll post something and say "what do you think about chaos engineering?" is people will say "isn't all engineering chaotic?" and I'm like, that's not quite what we're talking about. It's not about the fact that engineering is chaotic, it's not about the fact that our processes are unpredictable.
+
+There are a lot of things — a lot of work we do — that are somewhat unfortunately named. DevOps might be one of those terms. If you know the history around why we called DevOps "DevOps," it's because "agile system administration" was too long of a name for a conference. And now we run into this thing where we have to name things DevSecBizDBOps and everything because we take everything far too literally. So just as we don't take the word DevOps literally, we shouldn't necessarily take the term chaos engineering literally.
+
+What are some other things it is not? This is a really big one, and I asked some people because I always go to others to get insights and influence. One of my friends said "it's not about breaking things" and I said that's so insightful that it's going on a slide by itself. I told Sylvia that I would put her tweet on a slide by itself. Chaos engineering is not about breaking things. It's not about trying to figure out how we can make things fail. What it's really about is experimentation.
+
+What we are intending to do is we're creating a hypothesis. We say we believe that if this certain thing happens, this is what's going to happen with our system. We believe that our system is resilient. We believe our system is reliable. Resiliency has to do with the human factors — we'll talk about that in a minute.
+
+What you don't want to do is go in there and just say "let's just turn things off, let's just see how we can break things." We actually have to have a hypothesis, because if you don't have a hypothesis how do you know if you were right? How do you know what you have learned? We talked about learning organizations — chaos engineering is a great tool for helping us learn more.
+
+One of the common things — working for PagerDuty we talk about incidents a lot — there's a saying that incidents are a gift. We are unable, because we are humans, to talk to our systems directly. We have to communicate through some type of a sign. An incident is a way for our system to tell us something. What's nice is if we don't have to wait for an incident — there are ways that we can encourage our systems to tell us things about themselves so that we can learn more. We create hypotheses and then we test them out.
+
+So we think about chaos experiments. Now this is where things get a little tricky. Some people believe that to properly do chaos engineering you must run your chaos experiments in production. I would much prefer to say — no pun intended — that experimenting in production is preferred, because as we're going to talk about in a few minutes, not every system is appropriate for production testing. There's no testing like testing in prod, because no matter how good you think staging is, staging is not prod. You don't have things like the Googlebot crawling you in staging. You don't have some random Blu-ray player from six years ago trying to run your client in staging. But testing in prod comes with risks.
+
+How many people have heard when Charity Majors says "nines don't matter if your users aren't happy"? If you haven't heard that, you just did. The reason I bring this up is because we live in a world of scale, and we understand — or we should — that running after a hundred percent reliability is a fool's errand. Our systems are always in some state of degradation. We sit there and say okay, what is the minimum acceptable uptime? We tell ourselves okay, three nines is good, four nines is good, that's fine. Well, there's still people at the other end of that 0.001% — there's someone who's still trying to do a thing. What we want to do is optimize for our minimum required uptime and think about what the impact is on those particular humans.
+
+That doesn't mean we shouldn't experiment and test in production — it means we need to be equipped. Because here's the other thing: if you aren't running chaos experiments in production, you're still running really crappy experiments and you don't know what they are. The better control and the better understanding we can have, the more resilient our systems and our teams can become.
+
+You can't do any of this without good measurement. My buddy Aaron is giving an Ignite talk a little bit later today about observability, so if you're not familiar with observability he'll tell you everything you need in five minutes. The reason is again we're doing experiments — we have to be able to understand the impact of what we're doing so that we can understand when we maybe need to pull back on the experiment, maybe we've hit a gate that says this is too much. We have a hypothesis — well, what happens when we prove our hypothesis false? Our hypothesis is that if we shut down this particular system, our circuit breaker will kick in and people will still be able to watch their movie. What happens if they stop being able to watch their movie? We don't sit there and say "well I guess I was wrong" — we need to be able to back that out and work around it. This is why we need to have an understanding of what our systems are doing and what that user experience is like.
+
+So we talked about minimizing blast radius, and there are lots of different ways to do this. Canaries are a very good technique when you're looking at running chaos experiments. Testing in production doesn't mean you're gonna run it against all of production — you want to have an understandable blast radius.
+
+Another way to think about blast radius: look at the way that Microsoft releases software. They have this notion of rings, which are concentric circles. When they're releasing something, first it's just being released basically to the people who worked on the product. Then they start to roll it out to other teams inside Microsoft, and eventually all of Microsoft, then eventually out to consumers. What's happening is as they're learning more as the software's being released, they're able to expand that blast radius. You can do the same thing with your chaos experiments — you start out and say maybe I'm gonna run this experiment against 1% of production because I don't really know anything yet. Then I kind of roll that out. I say okay, looks like I might have been right, looks like we're okay — let's test it a little bit more. What this is letting us do is that when we do have a scenario that's causing a degraded experience, we are minimizing the number of people who are being affected.
+
+This is the core of all of this: we have to remember that we have users, we have people who use our product. It's very easy at the scale that we're used to working at to start looking at just the ones and zeros of the matrix. We start to see those numbers that sort of fall off the end of the cliff and we're like "wow, that's okay, it's an acceptable degradation." But someone's still sitting there having a bad day. We want to be able to minimize that acceptable risk.
+
+So — tools. We can't have talked about DevOps without talking about tools. There are lots of different tools that can help you with your chaos experiments.
+
+There is the Netflix Simian Army, and you can find it on GitHub. This is a collection of tools that Netflix uses for their chaos experiments. There's also a product company called Gremlin who is happy to sell you some tooling, but they also have a free version of their tool when you're getting started with some very simple experiments. Gremlin has a lot of good content on their website around how to approach chaos. Then there's also the good old Chaos Toolkit. These are all tools — the point of this talk is not to tell you how to do chaos and how to do the block and tackle, but these are some places to get started to look at what you can do.
+
+So before we move on a little bit further, I'm curious: how many people work in an organization that has some kind of formalized chaos engineering practice? Okay. How many people have maybe less formal chaos engineering practices — maybe you're doing some type of failure injection? Okay, this has been fairly consistent with surveys I've kind of done. It seems about right when it comes to those numbers.
+
+When I talk about how formalized they can be, they can be as simple as — somebody had shouted out game days — so this is one of the ways that at PagerDuty we do chaos engineering, through something we call Failure Fridays. Failure Fridays are, as their name implies, they occur on Friday — though you don't have to do them on a Friday, but you'd lose out on the alliteration and that's a lot less fun.
+
+For us, we run them as planned failure injection and we actually do ours during business hours on Friday. There are two reasons for this. One being we don't have maintenance windows — there's no good time for PagerDuty to be offline. So if we're going to run planned failure injection, we'd rather run it during the day when people are in the office and everyone's around, rather than trying to introduce this failure at 2:00 in the morning when we have less control and less understanding. The other thing that's really key about our failure injection is we are running it this way because we're not trying to stress out the humans. What we're trying to do is understand our system.
+
+One of the things that's become a little more formal with our practice: when we first started doing failure injection it was very opt-in. There are a lot of processes at PagerDuty that when we started them it was like okay, this is just a thing you can do. When everybody got really excited about it they would do it, and then over time people stopped volunteering. Now it's becoming something that we're creating as a requirement — a certification — where a feature has to have gone through a Failure Friday every 180 days or something like that. We're still kind of working on that, but my point is you don't have to start with this formalized approach. Start with some way to test out something you want to know.
+
+What about the people? So we sit there and say we understand it's been proven that following these techniques will let us understand our systems better. It will cause us to build more reliable, more stable systems that help build more resiliency into organizations. Great — that's good for all the computers and all the networks and all your Kubernetes and all that fun stuff. But what about the people?
+
+How does it make you feel to know that Netflix practices chaos engineering? That's a thing you've all experienced — you just don't know it. When I've asked people about this it usually makes you feel actually pretty okay. You're like "okay good, they know their system." But how does it make you feel knowing about your bank doing it? If you're on Netflix and you're in that 0.001% failure, you get "we can't play this title right now, try again" — okay, you might get a little annoyed. But what happens when you're actually trying to pay your credit card bill or transfer money from one account to another?
+
+Does this mean that if you are a financial institution you should not practice these techniques? Absolutely not — in fact they're very, very necessary. But what practicing these hypotheses teaches your organization is how to fail gracefully, how to understand retries, how to do these things. This is why you start small. This is why maybe for a system like this you don't start testing in production, because you aren't sure. At PagerDuty we have some systems that we don't run Failure Fridays on in a production scenario because we know they're not quite there yet. That's actually something we learned — part of the hypothesis is "I have a hypothesis that I don't think this system is resilient," and we're proving this out by not actually doing Failure Friday yet.
+
+I did a survey and asked: if you discover a service you consume uses chaos engineering, how do you feel? Most people I asked — and I did some other surveys as well, not just a Twitter poll — the majority said it made them actually feel reassured. Some people still feel uneasy about it, but for the most part as a consumer people still feel reassured. And then internally I did surveys and asked how does it make you feel to know that your team practices these things.
+
+So now knowing what you know about chaos engineering — how many people would say it makes you feel reassured to know that a product you use follows these practices? How many of you might feel a little more uneasy knowing this?
+
+Now the other thing is when you're talking about introducing these practices, management can get nervous. We talked about unfortunate names for things — turns out that C-suite people don't like the word "chaos." They really don't like the word "failure." So you might need to think a little bit about nomenclature. Education is very key. "Experiments" is a much better term. Sometimes you're gonna use the terms you're going to use, but think about the words and what they carry.
+
+Anytime we're talking about making transformative change, we as DevOps professionals, as people who go to these conferences, as people who read all about this on Twitter — we know what chaos engineering really means. Your CFO is just hearing "you want to change a whole bunch of things randomly." "Wait, you want to inject failure?" So education and understanding is a very, very key part. You may even need to change your nomenclature depending on the corporate culture of the organization you're in.
+
+There is just like so many other things — a mental shift, a philosophical shift that needs to happen to embrace and learn from these types of techniques. It's not just turning on Chaos Monkey. It's not just suddenly doing these things. You need to make an organizational cultural change.
+
+Now I'm sorry to say you can't just snap your fingers and say we're changing our culture. In fact, it's impossible to change culture. What you can change are behaviors. Behaviors influence culture. And how do you change behavior? Incentives. So when you're thinking about this philosophical change, we want to think about how are we incenting people and how can they be incentivized to participate and embrace this.
+
+I really like this way of thinking about the philosophy. Cody said his organization's not fully using chaos engineering but recently had some interesting failures because of interns experimenting, and he felt excitement where there was a new error that hadn't occurred before. Also mentioned on Twitter a while ago: if you really want to understand chaos and inject chaos, give junior developers more freedom to do things. Here's what happens — it's not about saying junior developers or interns make lots of mistakes and break a bunch of stuff, therefore we'll find stuff. Those of us who have been doing this a long while think a certain way — we've gotten stuck in thinking a certain way. When we think about people who are new to our team, new to our organization, those are great people to get involved in your chaos experiments because they are going to ask different kinds of questions, they're going to want to test things in a different way. When you've been working on a system for a long time and it's been working, you kind of think it's probably pretty good — but you might have just been getting really lucky. So figuring out ways to continue to test these things and getting diverse and outside opinions from the team really helps.
+
+Safety matters. We talked about minimizing your blast radius and about understanding the impact. You go into these things with your eyes wide open, you think about what the impact is. A couple of really key perspectives when it comes to that:
+
+First of all, know your conditions — when will you shut down your experiment? You're gonna know what your key metrics are because you have lots of metrics and there are certain things that are acceptable and certain things that aren't. To go back to the Netflix example: Netflix has one very key metric that is their bread and butter. Does anybody happen to know what that metric is? Stream starts per second. That's the one. As far as Netflix is concerned, almost anything else in their system can be down and that's okay, but if stream starts per second starts to drop then they have a problem. When they're running chaos experiments, that is an abort condition for them — if that starts to drop, pull the plug, go back, work around it.
+
+Know what the one is for you and keep it somewhat simple. If you have a list of 12 to 15 different metrics where if these all change — that's not an experiment anymore, that's way too much data. I don't care what your business is: you don't have 15 key most-important metrics. If everything is the very most important metric ever, then nothing matters.
+
+This isn't about causing stress on your people. This comes up a lot in lots of different kinds of game days — people say "well, incidents and stuff are stressful, so we need to get people to practice under stressful situations." This is a really bad idea. Trust me, your folks are gonna get plenty of practice under stressful situations. What we want to do is have as much information as possible. So you need to be very transparent — do not run experiments without affected people knowing what's happening. Your on-call folks need to know what experiments are being run. Make sure your incident response team knows. Make sure your security team knows. Be very, very transparent. This is not about trying to catch people and trick them.
+
+Even with the best of intentions, remember that when you're designing these experiments, there are humans at the other end of these numbers. Those humans can be your users — people who are paying your company money for a service, people who are trying to consume a service, people who are trying to do a thing. And some of the other humans involved are your co-workers, those incident responders, the folks who are trying to do their job while you are injecting some change. Remember and think about what those human factors might be.
+
+I'll wrap up with a final resource slide because lots of other people have spoken and written some great words about this. Nora Jones, who has recently joined Slack but was at Netflix for a long time, has a great blog post called "Chaos Engineering Traps," which is a list of things to watch out for as you're starting to do this kind of work. I talked a bit about how we do chaos injection at PagerDuty — we use a tool called ChaosCat, which unfortunately we have not been able to open source because it's very tied into just how we do our work. But my coworker Eric Sigler wrote a great blog post about how we do that.
+
+Also thinking about DevSecOps: a company called Optum, which you might also know as United Health Group, has a tool they open sourced called Chaos Slinger. It's an amazing story because it's the very first open source project from this company. It's about running chaos experiments related to security, not just to service availability. I highly recommend checking that out if you're wanting to level up your chaos experiments.
+
+With that I'm hoping maybe we can have some conversations during the open spaces around your experiences and things you might want to learn. Thank you very much for your time — it's been a real honor and a privilege to be part of DevOps Days Baltimore. Thank you.

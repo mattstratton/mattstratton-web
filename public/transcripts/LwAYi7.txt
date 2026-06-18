@@ -1,726 +1,121 @@
-so good morning devops days I am really
-excited to be here I have a personal
-connection to this city in this country
-so my aunt's has lived here since before
-I was born I was here in 19 murders
-Sherman when I was rememberin years old
-and then didn't come back again for 30
-plus years and I was back here in
-October and I decided to come back again
-now when I was invited to come be part
-of this event so I'm very excited to be
-here
-last time I was here I got the Danish
-flag tattooed on my arm I don't know
-what I'm gonna do to celebrate this time
-but we'll figure it out so again my name
-is Matty Stratton I'm the DevOps or
-human ops advocate for pager duty and
-that's about the only time you're gonna
-hear me reference pedro duty and the
-rest of this talk if you're interested
-to know more about pedro duty let's talk
-during a break it'll be fun but besides
-that I'm not here to talk about my
-company I'm here to talk about something
-that I call organizational trauma so
-this talk is called fight flight or
-freeze and about releasing
-organizational trauma what does that
-mean well for the next half an hour I'm
-gonna let you know and also speaking of
-others a timer okay good this is not my
-computer so I don't know where anything
-is it works out great so first of all
-just a little quick warning so this is a
-discussion of trauma and post-traumatic
-stress I don't talk about any specific
-traumatic experiences or anything but we
-do talk about post-traumatic stress and
-some treatments and things around that
-so that's it and another disclaimer
-because I have to have a lot of them
-because I live in the States and we're
-the most litigious culture in the world
-so we've put all sorts of climbers on
-stuff so I'm a trauma survivor right but
-this is the important part I'm not a
-mental healthcare professional so none
-of this is mental health advice it's is
-not professional medical advice but
-we're gonna be talking more about
-organizations and how your company your
-organization deals with incidents
-outages things or disruptions and using
-that using the metaphor of
-post-traumatic stress and where these
-things come into play so let's talk
-about zebras trust me this will this
-will get somewhere
-so if we have a zebra at rest this is we
-got this mr. zebra here he's just
-chilling out he's eating some grass out
-on the Savannah it's fine there's no
-threat of predators and it's operating
-within what we call the rest and digest
-function of the parasympathetic nervous
-system so there's two kinds of parts of
-the nervous system there's the
-parasympathetic and the sympathetic and
-we're gonna talk about the difference
-between the two this is the
-parasympathetic nervous system rest and
-digest the Zebras systems are based on
-doing things like eating food digesting
-the food maybe thinking about mating
-with other zebras doing stuff like that
-everything is cool and fine now we
-introduce a lion okay this changes
-things a little bit right so if a lion
-starts chasing the zebra there are
-direct physiological changes that occur
-with the activation of what's called the
-fight-or-flight response
-so this kicks in the sympathetic nervous
-system things happen like the heart rate
-increases a lot of adrenaline is
-released into the bloodstream the pupils
-dilate right cortisol is also releasing
-the blood stream the blood pressure
-increases and basically any
-non-essential functions shut down
-digestion shuts down because right now
-the Zebras
-nervous system is preparing it to
-literally run for its life so if the
-zebra gets caught its nervous system
-shuts down it's it's basically out of
-options so this is the freeze response
-and the zebra fundamentally plays dead
-happens end the lion says okay caught
-the zebra zebra is dead gonna leave the
-zebra over here maybe go try to catch
-another zebra and what does the zebra do
-when it's released the zebra actually
-gets up and it actually shakes itself
-out its whole body shakes and what's
-happening there is it's releasing from
-the traumatic experience that happened
-just through that shaking right so the
-zebra then returns to a resting state it
-goes back to its rest or digest and then
-everything continues
-now here is the most important thought
-leadership most important thing you're
-gonna learn at this entire conference so
-get your camera's ready for the next
-slide because you don't want to miss
-this one
-humans are not zebras
-so if you learn nothing else over these
-next two days it's that we are not
-zebras
-what does this mean right so all mammals
-have the atomic nervous system which is
-the one that we just talked about which
-is the fight or flight and freeze
-response humans have this thing called a
-prefrontal cortex and this is unique
-across all mammals only humans have this
-right and this is usually an advantage
-the prefrontal cortex is where executive
-function happens this is where we can
-tell the difference between good and bad
-same in difference understanding
-consequences this all comes from our
-prefrontal cortex comments with the
-downside the prefrontal cortex is also
-where we replay traumatic experiences
-over and over again right the
-disadvantage is that you may have heard
-that humans are smart and we have very
-advanced brains I'm here to tell you
-that our brains are actually kind of
-stupid so our brain our prefrontal
-cortex cannot tell the difference
-between real and perceived trauma so
-this is why when we've had a traumatic
-experience our brain when it relives us
-we have the same physiological responses
-in our body to the real trauma this is
-the fundamental difference between
-humans you know and the rest of the
-mammal world is that we relive these
-traumas so there's dr. Peter Levine has
-said that so animals in the wild they're
-not traumatized by routine threats to
-their lives right they humans were
-readily overwhelmed by and were subject
-to symptoms such as hyper arousal
-shutdown and dysregulation this is the
-difference between us and animals in the
-wild traumatic things happen to animals
-in the wild all the time and they move
-on we don't do that as you
-we when a very traumatic experience
-happens we become dysregulated by it and
-so we're gonna talk about something
-called the window of tolerance so the
-window of tolerance is a zone of
-emotional arousal that's optimal for
-well-being and effective functioning
-what does that mean okay
-fundamentally if we say this is our
-healthy nervous system right so
-something will happen we get a there's
-arousal there's activation something
-happens and we spike our sympathetic
-nervous system fight-or-flight response
-happens right and then it's over we kind
-of move back down we settle
-parasympathetic rest and digest and in a
-healthy nervous system we're operating
-within this this this this window of
-Tolerance which says okay it's okay that
-we come up but then we come back down
-but then we come back up
-and we come back down this is the window
-of Tolerance so the parasympathetic is
-rest and digest conservation of energy
-whereas a sympathetic is fight-or-flight
-now what happens when there is a
-traumatic event that occurs which we see
-over there
-so what happens there is our nervous
-system becomes dysregulated we operate
-outside of our window of Tolerance and
-it can be very spiky or we can also then
-either become stuck on or stuck off and
-the symptoms of being stuck on include
-things like anxiety panic hyperactivity
-we see digestive troubles that will
-occur there sleeplessness hostility
-these are things that happen to us if we
-become stuck on likewise we can also
-become stuck off and that's where we see
-symptoms like depression or lethargy you
-notice we also see digestive problems
-there because our digestive system is
-very sensitive to being dysregulated so
-these are basically hyper arousal is the
-fight-or-flight response that's being
-stuck on hypo arousal is similar to the
-freeze response so we're basically stuck
-always fighting and flighting fighting
-and running or we are always frozen now
-trauma is not simple
-right this seems like this could be very
-similar like okay a thing happens this
-is what trauma means Maddie give me the
-definition of trauma what does it mean
-now we understand it the thing is it's
-very nuanced things to remember about
-that right so it occurs when your
-solution your active response to the
-threat doesn't work the nervous system
-has been overwhelmed this is subjective
-right it can result from real or
-perceived threats just like I talked
-about right our prefrontal cortex can't
-tell the difference between an actual
-threat or a perceived threat and
-therefore and then it's it has it kicks
-off the exact same physiological
-response and our body will it will react
-in the same way and it is subjective and
-relative so what I perceive is
-overwhelming or or my capacity to deal
-with it is going to be different than
-yours it's all nuanced how does this
-apply to an organization though you're
-like great where this is DevOps days
-this is not like mental health days
-right so trust me this is all laying a
-brown groundwork now we're gonna
-actually talk about how this applies to
-your organization your company your team
-it's a metaphor here's where we go so
-let's go back and look at our window of
-Tolerance again and let's start to think
-about how this could apply to an
-organization if we say that the
-traumatic event in this instance would
-be an outage or an incident or some type
-of major disruption of service and of
-business what can happen just like as an
-individual we could get stuck on or we
-could get stuck off the same thing
-happens to teams and companies so first
-could be hyper arousal which as you may
-recall is the fight-or-flight response
-so when organ which is being stuck on
-right so if organizations get stuck on
-what you run into there is you display
-effects of constant vigilance right we
-are watching everything all the time
-we're expecting bad guys around the
-corner we're expecting this to happen
-we're looking over our shoulder all the
-time it's being hyper aware of threats
-and being hyper aware of threats take
-energy away from innovation and driving
-change forward
-often times this is reflected in how
-leadership handles incidents and outages
-you run into organizations that are
-hyper aroused you'll see a lot of
-military metaphors a lot of let's talk
-about peacetime vs. wartime we're under
-attack using these terms tend to reflect
-an organization that is hyper aroused
-the other side is you can be hyper
-aroused which is being the freeze
-response we see this a lot to write
-organizations that are stuck off they
-don't they can't move forward either
-because they are afraid of making any
-change right because we're stuck here we
-don't move because if we move bad things
-happen again
-lack of innovation lack of change and
-the reality in today's world is you have
-to be able to innovate
-it doesn't mean move fast and break
-things it doesn't mean just do whatever
-you want but the world we live in today
-demands that we are responsive to the
-needs of our customers and our users and
-anything that is causing us to be unable
-to be responsive and the way that our
-business organization requires is a
-liability so we think about
-inappropriate response right so things
-happen and we respond to them that's not
-inappropriate that's doing business but
-when we either are stuck on or stuck off
-when these things can happen our
-responses can be counterproductive and
-get in the way so what what happens we
-like pattern recognition right we're
-humans that's what we do we like to see
-patterns and then say this looks like I
-was like so just some background before
-I was a DevOps advocate or whatever we
-call myself this week I spent two
-decades working in technical operations
-and I used to say you could tell a good
-sysadmin because they would sit there
-during an issue and say hmm I've seen
-this before the problem with that is
-because we're looking for patterns and
-just because we see a pattern that sees
-seem similar does not mean that it's the
-same as before the systems we work with
-the socio technical systems
-are very complex and just because one
-symptom looks like another one does not
-mean that the experience is the same as
-last time I'll give a fun example and
-this is a place where you can laugh at
-the Americans so let's talk about shoes
-and airplanes so in December of 2001 a
-guy named Richard Reid tried to ignite
-explosives that were in his shoes on a
-flight from Paris to Miami so this guy
-said I'm gonna try to blow up the plane
-because I put a bomb in my shoes or
-something like that so as a result TSA
-biga the TSA which is the security
-travel security system agency rather in
-the States decided to start randomly
-screening passengers shoes because
-somebody tried to do this so chances are
-someone will try to do it again then in
-2006 the TSA mandated that all travelers
-in the United States have to take their
-shoes off to go through security unless
-you pay some extra money and then you
-don't have to take your shoes off
-anymore that's the part we can't laugh
-at so what what happened here so we saw
-a pet we're looking for a pattern we're
-like okay so the but the problem is the
-pattern that we saw was a person who
-wore shoes tried to do a bad thing
-therefore shoes are bad right so we're
-looking for this this this pattern but
-what we're seeing is that things don't
-always look exactly the same way I
-really like this tweet from Jennifer
-brand so he says we have a saying in
-medicine that when you hear hoofbeats
-the first thing that you should come to
-mind is a horse not a zebra this too
-cute by half race has killed so many
-zebras what does this mean so we need to
-stop jumping on the first root cause
-also hate yellow zebras right you know
-there's a theme what what does this mean
-so how many people when you're doing
-incident response you're doing a post
-innocent review are used to the term
-root cause analysis how many people when
-you have an incident one of the things
-you have to do in your little form that
-you fill out is to identify the root
-cause okay it's okay if you didn't raise
-your hand you don't want to
-I tell you the problem with the term
-root cause and why we have a term we
-prefer which is contributing factors
-the problem with root cause is it
-implies that there was one root cause
-that one thing happened that caused this
-incident or outage again our systems are
-complex so it's rarely one thing and if
-you want to do a little bit of research
-there was a really great write-up on the
-Boeing the 737 max situation that
-happened recently there were so many
-contributing factors but if we look for
-the root cause we say software bug but
-it wasn't just the code it had to do
-with financial implications and
-incentives had to do with government
-regulations there were many contributing
-factors so what happens when we look for
-a root cause
-the first contributing factor we find we
-say aha solved it it was this right so
-this is why because every incident is
-different even if it looks similar to
-the last time we had a problem like this
-things have changed the customers
-impacted or change the individuals
-involved have changed everything
-constantly in motion as a future as Yoda
-would say constantly in motion our our
-systems things are always changing so
-it's okay because a lot of times the
-hoofbeats are coming from zebras they're
-not just coming from horses so what can
-we do to understand the window of
-tolerance for our organization how can
-we identify when our organization is
-becoming dysregulated what are some of
-the symptoms so we talked about a few of
-them which would be to be focused on
-constantly again this sort of always
-looking for what possibly could be going
-wrong there's a term we use in the
-industry sometimes called analysis
-paralysis which means if we're trying
-before we're making a change we want to
-think about everything that could
-possibly go wrong
-I've got news for you you are never
-going to think of everything that could
-possibly go wrong there's a this came up
-in a talk I saw last week and I really
-loved it so we're familiar with
-something called Murphy's Law right
-Murphy's Law
-is what can go wrong will there's an
-extension to Murphy's Law called
-finagles law finagles law finagles law
-is what could possibly go wrong will at
-the most inconvenient time so we're the
-more that we think about analysis
-paralysis the more we're just we're not
-going to catch everything the Internet
-laughs at you when that happens right so
-a little we talked about what Peter
-Levine said so here's a quote from me
-who is not a doctor
-right and said so just as we talked
-about how individual the difference
-between animals and humans and how they
-respond
-I believe that resilient organizations
-are not traumatized by routine threats
-to their mission or business right non
-resilient organizations they're readily
-overwhelmed and they encompass symptoms
-I want to talk a little bit about that
-word resilient there's a difference
-between and this is kind of some nuance
-of language but it matters as anybody
-familiar with a term called resiliency
-engineering maybe you've heard about
-that okay so one of the things that's
-basically happened is as we often do an
-IT we discover that other industries and
-other disciplines have been doing this
-much better than we have for a long time
-so we think about the practice of safety
-factors and resilience Engineering has
-been around for a long time we've only
-started to just discover it now one time
-with a difference between robustness and
-resilience so wrote so what we can't
-what you here's a thing what you cannot
-do you cannot build resiliency into your
-systems with technology you can build
-robustness robustness is what we do what
-we build into our system by design
-resilience is the thing that we that
-kicks in when we extend beyond the
-robustness that we built and what does
-resilience require resilience requires
-humans so as much as we love all of the
-automation and DevOps we still need the
-people because the people are the ones
-who come in to help make our
-organization more resilient so this is
-why we're gonna talk about how we help
-people make your organization more
-resilient so we have to think about how
-we regulate right how do humans and
-organizations take a deregulated States
-become regulated so one of the
-treatments for post-traumatic stress is
-something called EMDR which is eye
-movement desensitization desensitization
-and regulation right and that's why we
-call it EMDR because those words are
-hard to pronounce and remember every
-time what happens in EMDR is the patient
-is either has their their vision
-stimulated their their their their
-hearing stimulated or tactile
-stimulation that associates a regulated
-state so this is basically kind of
-creating a physiological response to
-being regulated so that when traumatic
-memories and traumatic experiences are
-revisited there's a physiological
-association with that right it's being
-reinforced OCA ssin is being reinforced
-through external stimuli so how do we do
-this for our organization well no you
-can't put like little blinky lights on
-all your engineers and little special
-headphones with their noise cancelling
-headphones that you know run through
-that but we can take some of the same
-ideas and apply them to how we work so
-we get the same result because remember
-what's the idea the idea is associated
-with creating a positive association
-through physiological stimuli one of
-these is gamedays right so what does
-this mean right we we want to make an
-association with outages and issues with
-a safe place with a place that doesn't
-cause stress so game days can help us do
-that but they have to be done properly
-so you have to keep them go low stress
-and safe so let me talk about like what
-did what I mean by a game day so a game
-day is a planned exercise within your
-organization where you execute incident
-response you intentionally say we're
-going to practice an outage now but what
-we're doing with this is we're trying to
-create a positive association because we
-don't have positive associations with
-incidents and outages right how many
-people have been on call okay so what
-happens in your body
-when Pedro Duty goes off you tense up
-the adrenaline runs and everything about
-being paged is designed to actually
-cause this physiological response this
-is why one of the things that I always
-recommend is rotate the alert sound on
-your phone for your on-call system so
-you aren't always hearing the same tone
-you know how it's like when let's say
-you've got that you've got your pager
-Duty sound on your phone and then
-somebody else has that as just their
-text tone and you're next to them on the
-train and then they get a text Yahoo
-right so this is why you want to kind of
-continually rotate those things because
-you have this physiological response so
-when you're exploring in a game-day
-there needs to be some guidance right
-and to give kind of an example of that
-because you don't just sit there and say
-the point of the game day is to test to
-see how good our engineers are at
-solving problems that's not the point of
-it the point of it is to say let's
-practice our response let's practice how
-we do this in a safe and calm way so
-that way when it happens in the middle
-of the night we have this this kind of a
-muscle memory that this is an OK thing
-this also happens when we think about
-planned failure injection so this is a
-variant on gamedays some people this is
-a kind of an aspect of chaos engineering
-but this is where we're saying we are
-going to intentionally actually cause an
-outage well hopefully actually we're not
-intentionally causing an outage we're
-contentiously causing failure in our
-system which hopefully has robustness
-and resiliency built in when we run
-planned failure injection we want to run
-it like a real incident
-so at Pedro Duty we have something we
-call failure Fridays so on Fridays we
-take a system and we shut off part of it
-to be able to see how do we respond to
-that we follow our our complete instant
-response process everybody involved
-knows what's actually wrong because we
-made it be wrong however we have our
-incident commander we have our bridge we
-write everything
-and we even do a post incident report
-afterwards and the reason for this is
-because it's giving us practice it's
-giving us this ability that hey we do
-this all the time so when it's 2:00 in
-the morning and a high severity incident
-comes in
-we aren't stressed out about having to
-do our instant response process we know
-how to do it we know all that stuff
-we're totally calm about it right so
-this is also why if you have if
-something comes in as a high severity
-incident we run it to its full course
-even if we discover that it was not
-actually an incident and we need to
-process failure so a familiar with the
-idea of blameless post mortems so okay
-so I'm gonna tell you a little bit about
-them because this is really important
-when we are doing our post incident
-reviews we want to have this approach
-that is blameless right the idea is
-during a post instant review our post
-mortem is not to figure out the Ken
-messed up and point the finger it can
-write because here's the reality of it
-people are going to continue to mess up
-right and if people are going to be
-punished for failure I Got News for you
-this does not mean that people make
-fewer mistakes
-it means they become experts at hiding
-their mistakes and now you're in real
-trouble
-because you don't actually know what's
-going on in your systems anymore we like
-to say you can't fire your way to
-reliability so what we want to do is
-instead of trying to keep humans from
-making mistakes we want to figure out
-how what was it about the system that
-allowed this natural human error to
-cause an incident so that's just the
-beginning the next thing that's really
-important when we look at our post
-mortems or our posts instant reviews is
-we have to process them it's not just
-enough to fill out the form
-that's our instant review that has our
-little tiki boxes for root cause
-analysis and all this stuff and then we
-go when we shove it into confluence or
-into our wiki somewhere and nobody ever
-looks at it I call that a right only
-post mortem and it does not help anybody
-we want to think about them as stories
-post mortems should raise more questions
-than they answer so we need to discuss
-them outside of our team outside of the
-people that were directly impacted with
-the outage or
-directly impacted with resolution of the
-incident because people who were not
-directly there are gonna have a
-different take on it and I'm gonna give
-one little quick again we want to think
-about them as telling stories so a
-fellow named John Paul Reid who wrote
-his master's dissertation on post
-mortems one of the interesting things he
-discovered was the larger the
-organization the less likely teams were
-to share their post mortems outside of
-their team and the irony is the larger
-the organization the more important it
-is to share the results of these post
-mortems because this is how you get more
-insight and more impact we want to think
-about them as telling a story and seeing
-them through because otherwise it's just
-more unprocessed trauma and so I wanted
-to tell a really quick one thought so
-another thing that comes in when we talk
-about post traumatic stress is something
-called somatic experiencing and soma
-means body so there's traditional
-approaches to post traumatic stress is
-talk therapy right which is okay when
-you sit I'm gonna talk to a therapist
-about this and we're gonna talk it out
-somatic experiencing operates in the
-opposite it starts with the body and the
-physiological response and that affects
-the emotional response how does this
-affect incidents and outages this is
-similar to looking for root cause first
-this is why first we look at what the
-impacts and we understand what the
-things are that happened rather than
-because if we start looking immediately
-for root cause we're gonna find one but
-it's gonna be the first thing that we
-find it's not the thing that we
-experience I'm running out of time so
-I'm gonna skip over I had a bunch of
-stuff talking about cognitive
-distortions which and when I tell you
-where the slides are you can read all
-about them but I do want to talk about
-one final thought from Peter Levine so
-Peter says resilience I should Peter
-like we're on first-name basis dr.
-Levine says that resilience strength is
-the opposite of helplessness
-so being resilient means that we don't
-see things from the perspective of
-things that happen to our organization
-right it's a matter of what can we do
-going forward a culture of blame
-creates a culture of helplessness and
-you can find these slides and other
-talks I've given on these topics and
-things connected around incident
-response and outages at speaking that
-Matt Stratton dot Co mmm Wow
-this is what happens when I change a
-slide at the last minute before before
-presenting it so but with that thank you
-very much for having me be part of
-DevOps days Copenhagen I look forward to
-talking to all in the open spaces and
-thank you again
-[Applause]
+Good morning, DevOps Days. I am really excited to be here. I have a personal connection to this city and this country. My aunt has lived here since before I was born. I was here when I was in my teen years and then didn't come back again for 30 plus years. I was back here in October and I decided to come back again now when I was invited to come be part of this event, so I'm very excited to be here.
+
+Last time I was here I got the Danish flag tattooed on my arm. I don't know what I'm gonna do to celebrate this time, but we'll figure it out.
+
+Again, my name is Matty Stratton. I'm the DevOps — or human ops — advocate for PagerDuty, and that's about the only time you're gonna hear me reference PagerDuty in the rest of this talk. If you're interested to know more about PagerDuty, let's talk during a break, it'll be fun. But besides that I'm not here to talk about my company. I'm here to talk about something that I call organizational trauma. This talk is called "Fight, Flight, or Freeze: Releasing Organizational Trauma." What does that mean? Well, for the next half an hour I'm gonna let you know.
+
+Just a little quick warning: this is a discussion of trauma and post-traumatic stress. I don't talk about any specific traumatic experiences or anything, but we do talk about post-traumatic stress and some treatments and things around that.
+
+And another disclaimer: I'm a trauma survivor, but this is the important part — I'm not a mental healthcare professional. So none of this is mental health advice, it is not professional medical advice. We're gonna be talking more about organizations and how your company, your organization, deals with incidents, outages, or disruptions, using the metaphor of post-traumatic stress and where these things come into play.
+
+So let's talk about zebras. Trust me, this will get somewhere.
+
+If we have a zebra at rest — Mr. Zebra here, he's just chilling out, he's eating some grass out on the Savannah, there's no threat of predators — it's operating within what we call the rest and digest function of the parasympathetic nervous system. There are two parts of the nervous system: the parasympathetic and the sympathetic. The parasympathetic nervous system is rest and digest. The zebra's systems are focused on things like eating food, digesting the food, maybe thinking about mating with other zebras. Everything is cool and fine.
+
+Now we introduce a lion. This changes things a little bit. If a lion starts chasing the zebra, there are direct physiological changes that occur with the activation of what's called the fight-or-flight response. This kicks in the sympathetic nervous system. Things happen like the heart rate increases, a lot of adrenaline is released into the bloodstream, the pupils dilate, cortisol is also released into the bloodstream, blood pressure increases, and basically any non-essential functions shut down. Digestion shuts down because right now the zebra's nervous system is preparing it to literally run for its life.
+
+So if the zebra gets caught, its nervous system shuts down — it's basically out of options. This is the freeze response, and the zebra fundamentally plays dead. The lion says okay, caught the zebra, zebra is dead, gonna leave the zebra over here, maybe go try to catch another zebra.
+
+And what does the zebra do when it's released? The zebra actually gets up and it shakes itself out. Its whole body shakes, and what's happening there is it's releasing the traumatic experience that happened, just through that shaking. The zebra then returns to a resting state, goes back to its rest and digest, and then everything continues.
+
+Now here is the most important thing you're gonna learn at this entire conference: humans are not zebras.
+
+If you learn nothing else over these next two days, it's that we are not zebras.
+
+What does this mean? All mammals have the autonomic nervous system, which is the one that we just talked about — the fight-or-flight and freeze response. Humans have this thing called a prefrontal cortex, and this is unique across all mammals. Only humans have this. And this is usually an advantage. The prefrontal cortex is where executive function happens. This is where we can tell the difference between good and bad, same and different, understanding consequences. This all comes from our prefrontal cortex.
+
+But here's the downside: the prefrontal cortex is also where we replay traumatic experiences over and over again. You may have heard that humans are smart and we have very advanced brains. I'm here to tell you that our brains are actually kind of stupid. Our brain, our prefrontal cortex, cannot tell the difference between real and perceived trauma. This is why when we've had a traumatic experience, when our brain relives it, we have the same physiological responses in our body as to the real trauma. This is the fundamental difference between humans and the rest of the mammal world — we relive these traumas.
+
+Dr. Peter Levine has said that animals in the wild are not traumatized by routine threats to their lives. Humans, on the other hand, are readily overwhelmed and subject to symptoms such as hyper arousal, shutdown, and dysregulation. This is the difference between us and animals in the wild. Traumatic things happen to animals in the wild all the time and they move on. We don't do that.
+
+When a very traumatic experience happens to us, we become dysregulated by it. So we're gonna talk about something called the window of tolerance. The window of tolerance is a zone of emotional arousal that's optimal for well-being and effective functioning.
+
+Fundamentally, in a healthy nervous system, something will happen, there's arousal, there's activation, something happens and we spike our sympathetic nervous system — fight-or-flight response happens — and then it's over, we kind of move back down, we settle into parasympathetic rest and digest. In a healthy nervous system, we're operating within this window of tolerance, which says it's okay that we come up but then we come back down, and then we come back up, and we come back down. The parasympathetic is rest and digest, conservation of energy, whereas the sympathetic is fight-or-flight.
+
+Now what happens when there is a traumatic event? Our nervous system becomes dysregulated. We operate outside of our window of tolerance, and it can be very spiky, or we can become stuck on or stuck off.
+
+The symptoms of being stuck on include things like anxiety, panic, hyperactivity, digestive troubles, sleeplessness, hostility. The symptoms of being stuck off include depression or lethargy — and notice we also see digestive problems there because our digestive system is very sensitive to being dysregulated.
+
+Hyper arousal is the fight-or-flight response, that's being stuck on. Hypo arousal is similar to the freeze response, so we're basically stuck always fighting and flighting, or we are always frozen.
+
+Now, trauma is not simple. It occurs when your solution, your active response to the threat, doesn't work. The nervous system has been overwhelmed. This is subjective — it can result from real or perceived threats. Our prefrontal cortex can't tell the difference between an actual threat or a perceived threat, and therefore it kicks off the exact same physiological response and our body will react in the same way. It is subjective and relative. What I perceive as overwhelming, or my capacity to deal with it, is going to be different than yours.
+
+How does this apply to an organization though? This is DevOps Days, not mental health days, right? Trust me, this is all laying groundwork. Now we're gonna actually talk about how this applies to your organization, your company, your team.
+
+Let's go back and look at our window of tolerance again, and let's start to think about how this could apply to an organization. If we say that the traumatic event in this instance would be an outage, an incident, or some type of major disruption of service or business, what can happen? Just like as an individual, we could get stuck on or we could get stuck off. The same thing happens to teams and companies.
+
+First, there could be hyper arousal, which is the fight-or-flight response — being stuck on. If organizations get stuck on, what you run into is effects of constant vigilance. We are watching everything all the time, we're expecting bad things around the corner, we're expecting this to happen, we're looking over our shoulder all the time. Being hyper aware of threats takes energy away from innovation and driving change forward.
+
+Often times this is reflected in how leadership handles incidents and outages. In organizations that are hyper aroused, you'll see a lot of military metaphors, a lot of "let's talk about peacetime versus wartime," "we're under attack." Using these terms tends to reflect an organization that is hyper aroused.
+
+The other side is hypo arousal, which is the freeze response. We see this a lot too — organizations that are stuck off, they can't move forward because they are afraid of making any change. We're stuck here, we don't move, because if we move, bad things happen again. Lack of innovation, lack of change. And the reality in today's world is you have to be able to innovate. It doesn't mean "move fast and break things," it doesn't mean just do whatever you want. But the world we live in today demands that we are responsive to the needs of our customers and our users, and anything that is causing us to be unable to be responsive in the way that our business requires is a liability.
+
+So we think about inappropriate response — things happen and we respond to them, that's not inappropriate, that's doing business. But when we are either stuck on or stuck off, our responses can be counterproductive and get in the way.
+
+We like pattern recognition, right? We're humans, that's what we do. We like to see patterns and then say "this looks like that." Before I was a DevOps advocate — or whatever we call me this week — I spent two decades working in technical operations. I used to say you could tell a good sysadmin because they would sit there during an issue and say "hmm, I've seen this before." The problem with that is, just because we see a pattern that seems similar does not mean that it's the same as before. The systems we work with, the sociotechnical systems, are very complex. Just because one symptom looks like another one does not mean that the experience is the same as last time.
+
+I'll give a fun example, and this is a place where you can laugh at the Americans. Let's talk about shoes and airplanes. In December of 2001, a guy named Richard Reid tried to ignite explosives that were in his shoes on a flight from Paris to Miami. As a result, the TSA — the Transportation Security Administration in the States — decided to start randomly screening passengers' shoes, because somebody tried to do this, so chances are someone will try to do it again. Then in 2006, the TSA mandated that all travelers in the United States have to take their shoes off to go through security, unless you pay some extra money and then you don't have to take your shoes off anymore.
+
+So what happened here? We saw a pattern. The pattern that we saw was: a person who wore shoes tried to do a bad thing, therefore shoes are bad. We're looking for this pattern, but what we're seeing is that things don't always look exactly the same way.
+
+I really like this tweet from Jennifer Davis, who says: "We have a saying in medicine that when you hear hoofbeats the first thing that should come to mind is a horse, not a zebra. This 'too cute by half' heuristic has killed so many zebras." What does this mean? We need to stop jumping on the first root cause.
+
+How many people, when you're doing incident response, you're doing a post-incident review, are used to the term "root cause analysis"? How many people, when you have an incident, one of the things you have to do in your form is to identify the root cause?
+
+I'll tell you the problem with the term root cause and why we prefer the term "contributing factors." The problem with root cause is it implies that there was one root cause, that one thing happened that caused this incident or outage. Again, our systems are complex, so it's rarely one thing. If you want to do a little bit of research, there was a really great write-up on the Boeing 737 MAX situation that happened recently. There were so many contributing factors, but if we look for the root cause we say "software bug." But it wasn't just the code — it had to do with financial implications and incentives, it had to do with government regulations. There were many contributing factors.
+
+So what happens when we look for a root cause? The first contributing factor we find, we say "aha, solved it, it was this." This is why, because every incident is different, even if it looks similar to the last time we had a problem like this. Things have changed, the customers impacted have changed, the individuals involved have changed. Everything is constantly in motion, as Yoda would say, constantly in motion. Our systems, things are always changing. It's okay because a lot of times the hoofbeats are coming from zebras, they're not just coming from horses.
+
+So what can we do to understand the window of tolerance for our organization? How can we identify when our organization is becoming dysregulated? What are some of the symptoms?
+
+We talked about a few of them, which would be always being focused on what could possibly be going wrong. There's a term we use in the industry sometimes called analysis paralysis, which means before we're making a change, we want to think about everything that could possibly go wrong. I've got news for you — you are never going to think of everything that could possibly go wrong.
+
+There's something called Murphy's Law, right? Murphy's Law is "what can go wrong will." There's an extension to Murphy's Law called Finagle's Law. Finagle's Law is "what could possibly go wrong will, at the most inconvenient time." The more that we think about analysis paralysis, the more we realize we're just not going to catch everything.
+
+So just as we talked about how the difference between animals and humans is how they respond, I believe that resilient organizations are not traumatized by routine threats to their mission or business. Non-resilient organizations are readily overwhelmed and they encompass those symptoms.
+
+I want to talk a little bit about that word "resilient." Is anybody familiar with the term resilience engineering? One of the things that's basically happened is, as we often do in IT, we discover that other industries and other disciplines have been doing this much better than we have for a long time. The practice of safety science and resilience engineering has been around for a long time — we've only just started to discover it now.
+
+There's a difference between robustness and resilience. You cannot build resiliency into your systems with technology. You can build robustness. Robustness is what we build into our systems by design. Resilience is what kicks in when we extend beyond the robustness that we built, and resilience requires humans. As much as we love all of the automation and DevOps, we still need the people, because the people are the ones who come in to help make our organization more resilient.
+
+So this is why we're gonna talk about how we help people make your organization more resilient. We have to think about how we regulate — how do humans and organizations take a dysregulated state and become regulated?
+
+One of the treatments for post-traumatic stress is something called EMDR, which is Eye Movement Desensitization and Reprocessing — and that's why we call it EMDR, because those words are hard to pronounce and remember. What happens in EMDR is the patient has their vision stimulated, their hearing stimulated, or tactile stimulation that associates a regulated state. This is basically creating a physiological response to being regulated, so that when traumatic memories and experiences are revisited there's a physiological association with that. The association is being reinforced through external stimuli.
+
+How do we do this for our organization? Well, you can't put little blinky lights on all your engineers and little special headphones, but we can take some of the same ideas and apply them to how we work so we get the same result. The idea is creating a positive association through physiological stimuli.
+
+One of these is game days. We want to make an association between outages and issues and a safe place, a place that doesn't cause stress. Game days can help us do that, but they have to be done properly — you have to keep them low stress and safe.
+
+A game day is a planned exercise within your organization where you execute incident response. You intentionally say we're going to practice an outage now. What we're doing with this is we're trying to create a positive association, because we don't have positive associations with incidents and outages. How many people have been on call? What happens in your body when PagerDuty goes off? You tense up, the adrenaline runs, and everything about being paged is designed to actually cause this physiological response. This is why one of the things that I always recommend is to rotate the alert sound on your phone for your on-call system, so you aren't always hearing the same tone. You know how it is when you've got your PagerDuty sound on your phone and then somebody else has that as just their text tone, and you're next to them on the train and they get a text — your body reacts. So this is why you want to continually rotate those things.
+
+When you're running a game day, there needs to be some guidance. The point of the game day is not to test how good your engineers are at solving problems. The point is to say let's practice our response, let's practice how we do this in a safe and calm way, so that when it happens in the middle of the night we have this kind of muscle memory that this is an okay thing.
+
+This also applies when we think about planned failure injection. This is a variant on game days and an aspect of chaos engineering — we are going to intentionally cause failure in our system, which hopefully has robustness and resiliency built in. When we run planned failure injection, we want to run it like a real incident.
+
+At PagerDuty we have something we call Failure Fridays. On Fridays we take a system and we shut off part of it to see how do we respond to that. We follow our complete incident response process. Everybody involved knows what's actually wrong because we made it be wrong. However, we have our incident commander, we have our bridge, we write everything up, and we even do a post-incident report afterwards. The reason for this is because it's giving us practice, it's giving us this ability — hey, we do this all the time, so when it's 2:00 in the morning and a high severity incident comes in, we aren't stressed out about having to do our incident response process. We know how to do it, we're totally calm about it.
+
+This is also why if something comes in as a high severity incident, we run it to its full course, even if we discover that it was not actually an incident.
+
+We need to process failure. Is anybody familiar with the idea of blameless post-mortems?
+
+When we are doing our post-incident reviews, we want to have an approach that is blameless. The idea is that during a post-incident review — our post-mortem — is not to figure out who messed up and point the finger. Here's the reality: people are going to continue to mess up. If people are going to be punished for failure, that does not mean that people make fewer mistakes. It means they become experts at hiding their mistakes, and now you're in real trouble because you don't actually know what's going on in your systems anymore. We like to say: you can't fire your way to reliability.
+
+What we want to do is, instead of trying to keep humans from making mistakes, figure out: what was it about the system that allowed this natural human error to cause an incident?
+
+That's just the beginning. The next thing that's really important when we look at our post-mortems or post-incident reviews is we have to process them. It's not just enough to fill out the form — the incident review form with all our checkboxes for root cause analysis and all this stuff — and then shove it into Confluence or into our wiki somewhere and nobody ever looks at it. I call that a write-only post-mortem and it does not help anybody.
+
+We want to think about them as stories. Post-mortems should raise more questions than they answer. We need to discuss them outside of our team, outside of the people that were directly impacted by the outage or directly involved in the resolution of the incident, because people who were not directly there are going to have a different take on it.
+
+A fellow named John Paul Reid, who wrote his master's dissertation on post-mortems, discovered that the larger the organization, the less likely teams were to share their post-mortems outside of their team. And the irony is, the larger the organization, the more important it is to share the results of these post-mortems, because this is how you get more insight and more impact. We want to think about them as telling a story and seeing them through, because otherwise it's just more unprocessed trauma.
+
+Another thing that comes up when we talk about post-traumatic stress is something called somatic experiencing. Soma means body. Traditional approaches to post-traumatic stress is talk therapy — you sit down and talk to a therapist about it and work it out. Somatic experiencing operates in the opposite direction — it starts with the body and the physiological response, and that affects the emotional response.
+
+How does this affect incidents and outages? This is similar to looking for root cause first. This is why we first look at what the impacts are and understand what the things are that happened, rather than immediately looking for root cause. If we start looking immediately for root cause, we're gonna find one, but it's gonna be the first thing that we find, not the thing that we actually experienced.
+
+I'm running out of time, so I'm going to skip over a bunch of stuff I had about cognitive distortions — when I tell you where the slides are you can read all about them.
+
+But I do want to talk about one final thought from Dr. Peter Levine. He says that resilience strength is the opposite of helplessness. Being resilient means that we don't see things from the perspective of things that happen to our organization — it's a matter of what can we do going forward. A culture of blame creates a culture of helplessness.
+
+You can find these slides and other talks I've given on these topics and things connected around incident response and outages at speaking.mattstratton.com.
+
+With that, thank you very much for having me be part of DevOps Days Copenhagen. I look forward to talking to all of you in the open spaces, and thank you again.

@@ -1,595 +1,79 @@
-everyone welcome back that's gonna be
-talking to us about how we can unblock
-our organizations from the trauma that
-we've experienced and we're gonna get
-Matt's slides up here and take it away
-Matt
-welcome to flight fight or freeze
-releasing organizational trauma and a
-couple things before we kind of get into
-it here there is in this talk I will be
-talking about trauma and post-traumatic
-stress I'm not going to be talking about
-any specific personal trauma experiences
-but I do like to make sure folks are
-aware of that we will be talking about
-post traumatic stress and trauma that
-being said disclaimer the second I am a
-trauma survivor but I am NOT a mental
-health professional so nothing in here
-should be taken as professional mental
-or emotional health advice but we're
-gonna see what we can learn about our
-organizations based upon how individuals
-respond and process trauma quick little
-thing about myself so I said before my
-name is Matt Stratton I'm primarily
-known for my enjoyment of diet coke I'm
-a transformation specialist at Red Hat
-and according to Ryan kitchens of
-Netflix I have the best hair of any
-developer advocate so those are my
-qualifications and I'm happy to debate
-this with anybody in the slack
-afterwards and by debate I mean talk
-about the merits of diet coke so let's
-think about this let's talk about zebras
-for a minute right so think about a
-zebra I've got a zebra that's at rest
-that has no threat of predators is
-operating within what we call the rest
-and digest function of the
-parasympathetic nervous system now he's
-just sort of chillin there you know kind
-of maybe eating some grass on the
-savanna maybe thinking about making baby
-zebras I don't know we can't really see
-inside the actual thoughts of the zebra
-but we have some ideas it's rest and
-digest it's just being a chill zebra now
-oh I guess we have a question so have
-you ever had nightmares about incidents
-in the past I love to get some some
-feedback on that kind of yeah so while
-you're answering that this was a very
-dramatic moment that was about to happen
-speaking of nightmares the Zebras about
-to get a nightmare which now the zebras
-being chased by a lion and when this
-happens drastic physiological changes
-occur within the with the activation of
-the fight-or-flight response of the
-sympathetic nervous system right so the
-heart rate increases breathing increases
-they're large amounts of stress hormones
-like cortisol and adrenaline are
-released into the Zebras bloodstream the
-pupils dilate the blood pressure goes up
-and any non-essential functions like
-digestion come to a stop the Zebras
-nervous system is literally preparing
-for it to run for its life so what
-happens if the zebra gets caught if the
-zebra gets caught the nervous system
-becomes overwhelmed and it has no
-further solutions and the zebra plays
-dead and this is the freeze response so
-this is also the point where we would
-consider the inflection of trauma so
-zebra plays dead lion drops the zebra
-maybe goes to look for another one and
-goes off and it's gonna come back to you
-know deal with with its dinner later so
-if this happens and the zebra survives
-the encounter it gets up and what does
-it do it literally shakes it shakes it
-off and it returns to a resting state
-now this next part this next slide is
-maybe the one if you want to do a screen
-shot or something like this this might
-be the most important thing you learn
-all day at failover conference I hope
-you're ready and here it is humans are
-not zebras right so keep that in mind
-the atomic nervous system is common to
-all mammals right so that
-fight-or-flight response but here's the
-thing humans have this thing called a
-prefrontal cortex which zebras and and
-lower mammals don't right so this is
-usually an advantage right the
-prefrontal cortex is where executive
-function happens that's where we can
-evaluate the difference between good and
-bad same in different understanding
-consequences this is all because of of
-having a prefrontal cortex but the
-disadvantage is that we mentally replay
-traumatic scenarios and this activates
-our sympathetic nervous system exactly
-like an actual threat would so we look
-at dr. Peter Levine who's done a lot of
-work around a post-traumatic stress you
-know dr. Levine says you know animals in
-the while they're not traumatized by
-routine threats their lives but but
-humans we are we become overwhelmed and
-we're subject to symptoms around hyper
-arousal shut down and dysregulation
-again we aren't zebras so if we think
-about in a healthy nervous system we go
-between you know this is how we're
-constantly going and this is okay right
-like we we get activated it kicks in our
-sympathetic nervous system but then we
-settle and the parasympathetic goes back
-in and comes up and it's as nice even
-wave right so we call this the window of
-Tolerance it's a zone of emotional
-arousal that is optimal for well-being
-and effective functioning it's not a
-flat line right like that we want to
-activate these parts of our nervous
-system so the parasympathetic again
-remember the down side that's the rest
-and digest what's conserving energy
-we're being chill zebras whereas a
-sympathetic is that fight-or-flight
-response now would we introduce a
-traumatic event things change right so
-we can get either we can very we can
-flip back and forth very quickly
-operating outside of either part of the
-window of Tolerance with being too
-activated or stuck or we also can become
-stuck we could become stuck on or stuck
-off where we don't come back so symptoms
-of being stuck
-is when we see anxiety and panic the
-inability to relax hyper vigilance we
-see digestive problems because remember
-this is all connected and if we're stuck
-office where we see depression and
-lethargy chronic fatigue
-again more digestive problems because
-these things are connected together now
-here's the thing trauma is not simple we
-like simple things we like things that
-that are very you know very
-straightforward but the bad news is when
-it comes to trauma that's not not true
-right so here's the thing the trauma
-occurs right when your nervous system is
-overwhelmed right the active response to
-a threat just doesn't work right and
-then the nervous activation nervous
-system activation like I said it's it's
-the same for real or imagined threats
-right whether it's actually happening or
-you're remembering it or perceiving it
-you can have the same activation and
-here's at what what I perceive is
-overwhelming or my capacity for a
-solution it might be different than what
-you perceive is overwhelming it's
-subjective and relative so how does this
-apply to our organization to our
-companies to our teams to the things
-like that because again this is this is
-not a mental health hawk right so let's
-go back and we look at a deregulated
-nervous system again and when we think
-about how this might apply to an
-organization when a traumatic event
-occurs and the point of this metaphor
-this traumatic event is an outage or a
-large a large incident you know
-something of that nature right so when
-this happens again normally where our
-organizations operating in that window
-of tolerance something can happen you
-know performance goes down we kind of
-activate we do some response we deal
-with it we handle it we go back to rest
-digest we go back we ship some features
-but sometimes these incidents can can
-have the same effect on an organization
-as trauma does an individual so if
-organizations are hyper aroused which
-means being stuck on they might display
-effects of constant vigilance I mean
-sounds like they're trying to fight
-Voldemort right there'll be hyperaware
-of threats and that takes energy away
-from being able to move forward and
-innovate these are organizations that
-are stuck on a lot of times this can be
-reflected in how leadership approaches
-issues and outages you see a lot of
-wartime metaphors rah hate the other the
-other thing is production support teams
-are very common in organizations that
-are hyper aroused where you have people
-that are focused only on quote-unquote
-fixing things and responding right and
-it's a lot of misdirected energy
-likewise an organization could be stuck
-off and hypo hypo arousal which is being
-stuck in the freeze and this is when you
-see again innovation stagnates and this
-is the the idea of well what causes
-issues change so let's not change
-analysis paralysis right doing releases
-once a quarter because we need to be
-SuperDuper safe and we need to think
-about every possible thing that could
-possibly ever go wrong before we ship
-anything those are organizations that
-are hype around and keep in mind that
-signals may remind us of something that
-happened before they may seem similar
-but it's not the same situation we like
-pattern recognition as humans right
-that's it's part of that prefrontal
-cortex we're looking for patterns and
-signals may seem the same as previous
-lived experiences for organization we
-would say okay we've seen this happen
-before we've seen telemetry coming in
-we've seen user behavior this way and
-last time that happened it meant this
-and so that's gonna get us to kind of
-respond the same way but our systems are
-complex y'all right so it's not as
-simple as one signal indicating
-something that was that happened before
-so this is a part of the talk that went
-in a non-virtual part I'd say how many
-of you flew on a plane to get here today
-the answer is none of you but a bunch of
-you have probably been on planes before
-so let's think about how in at least in
-the u.s. we have to remove our shoes
-because of the TSA so in December twenty
-second of two
-and one cat Richard Reid he tries to
-ignite explosives hidden in his shoes on
-a flight from Paris to Miami so as a
-result of that the TSA is like whoa yo
-people are trying to blow planes up with
-shoes so they randomly start searching
-people's shoes and then in 2006 the TSA
-mandates that all passengers must remove
-their shoes going through security and
-then a few years later it's like okay or
-you could give us a hundred bucks and
-then you don't have to anymore um so
-that's different talk so again we're
-looking at we saw a signal which was
-people wear shoes
-therefore shoes are dangerous right I
-love this this saying from Jennifer
-British says there's a saying in
-medicine that when you hear hoofbeats
-the first thing that you come to mind is
-a horse not a zebra oh and I'm sure
-you've all heard that before it's a very
-fun little saying that people like but
-as Jennifer says this cute phrase has
-killed many zebras so just because we
-think it might it's most of the time
-it's a Z it's a horse doesn't mean it's
-never a zebra and it doesn't mean it's
-unlikely to be a zebra this is like when
-we start looking for that singular root
-cause right and also look at zebras
-again so there's a theme it's a thing
-that's happening so what are the things
-we can do to understand our window of
-Tolerance as an organization we need to
-think about how we can identify when our
-team or our company or our org is
-becoming dysregulated so take some time
-think about those examples I was giving
-before and and and and the thing and
-everyone's organization's a little bit
-different but take that mental exercise
-and kind of say like hey how does my
-company respond are we stuck on are we
-stuck off because understanding that
-yeah is the first step so similar to dr.
-Levine's quote there's this is another
-really important way to think about it
-which is resilient organizations are not
-traumatized by routine threats to their
-mission or business whereas non
-resilient organizations are readily
-overwhelmed and they're often subject to
-symptoms of overreaction shutdown and a
-lack of regulated effort and this quote
-comes from me but I'm not a doctor
-and yes I did just quote myself in my
-own talk so we gotta think about how to
-regulate and no this is not a reference
-to Warren G but it should be but how do
-we do this so now we know we can
-identify that we become dysregulated so
-how do we take this deregulated state
-and then become more regulated so in
-individual post-traumatic stress there
-is a type of alternative therapy called
-somatic experience and this is aimed at
-relieving the symptoms of post-traumatic
-stress and other mental and physical
-trauma related health problems by
-focusing on perceived body sensations
-and this was created by dr. Peter Levine
-so you see how this all comes together
-right so in somatic experience someone
-beans body right so we're going body
-first we're leading with the physical
-sensations and then making connections
-to how we respond to the memories and
-triggers of trauma when we think about
-organizational somatic experiencing what
-we're trying to do is create a similar
-focus on the response to train ourselves
-to have the reactions we would like to
-have when one of these traumatic
-experiences happens to our organization
-and I know this is a controversial thing
-you are at you are at failover con flow
-so I don't know how controversial it'll
-be come along with me here though
-there's a connection
-so in somatic it means body first right
-we don't start with the mind it's not
-top-down talk therapy so if we swear to
-start with the minds and where to start
-with that it's like looking for a
-quote-unquote root cause during an
-incident right we are focused on the
-symptoms at that point and that makes us
-look for the wrong patterns so and again
-by the way you know there is no real
-root cause there's no singular root
-cause well there is one and you know
-what it is it's the big bang we instead
-want to talk about contributing factors
-right because there are multiple
-contributing factors that led to the
-situation that we have complex systems
-y'all so we're not just and this is
-again thinking about leading from in
-somatic
-leading from body first game days are
-awesome right so we want to make an
-association with outages and issues as
-being a safe place as a business as a
-usual thing that's no big deal y'all
-right so game days can really help us do
-that they're a great way to to help
-reiterate that feeling that we want to
-associate with an incident but they have
-to be done properly right you can't just
-just have them they need to be low
-stress and they need to be safe the
-point of a game day is not to practice
-under pressure but to associate response
-with a safe environment in an
-organization I was I used to work for it
-came up to say well we when we run a
-failure exercise the participants should
-not know the thing that we're testing
-because otherwise it's not a good test
-of their ability to troubleshoot and I
-said no look the point of a game day is
-not to practice troubleshooting the
-point is to practice our incident
-response process and mechanisms and
-create a psychophysiological response of
-calm so when it really happens we're
-leading with the body here's the thing
-you don't need to practice putting your
-people under pressure they're getting
-plenty of that already you don't need to
-practice it so if we're doing exploring
-in a game day there has to be some
-guidance and structure around it right
-it's kind of like meditation with some
-kinds of trauma meditation is helpful
-but what can happen if it's not guided
-people go into their inner landscape and
-they encounter their trauma and they
-don't know what to do so they might be
-overwhelmed by it or they go around it
-because they don't have the guidance so
-similarly if we don't have real plans in
-place for our game day exercises we
-might get wound around the axle on
-things that are irrelevant to what we're
-trying to do and the other thing in
-meditation for trauma we can get what
-dr. Levine calls bliss bypass and it's a
-way of avoiding the trauma and similarly
-if our game day is not following our
-usual rules we actually made it a little
-too quote unquote safe so if you run
-plan
-and failure injection in a game day you
-need to run them like a real incident
-and so I used to work at pager duty and
-we would run these things called failure
-Fridays I mean they still do actually
-now they might be any day but failure
-Friday is awesome for alliteration but a
-failure injection exercise a failure
-Friday a Pidgey Beauty follows the full
-incident commander process in fact it's
-actually how instant commanders get
-trained at peh-chu t and but what
-happens is this creates an
-organizational association of a safe
-place for incidents if we're doing this
-every Friday under just normal things we
-do and following that process when we go
-into that process at 2:00 a.m. when when
-when everything's on the line we have
-that nice physiological response this is
-another reason why you should always run
-all your incidents at their initial
-severity even if you start them and
-realize they weren't an incident or
-weren't a sub one still run them through
-there for a full course that doesn't
-mean you don't lower their severity
-during the incident that's fine but run
-them using that process because it's
-continually saying that when we do this
-incident response process this is just
-normal this is just business as usual
-it's not an isolated event and
-blamelessness is just the beginning
-right we need to process the failure and
-the outage through all the information
-that we have and that processing has to
-have a conclusion right otherwise it's
-it's fundamentally unprocessed Tremmel
-so there's this misconception that -
-promise - promise this misconception
-that's a processed trauma is to get it
-all out right but that's not enough it's
-not enough just to sort of like
-experience it and talk about it right
-you need to integrate it those
-experiences into our coherent whole and
-that includes telling our stories as
-well as changing our autonomous nervous
-systems which in the case of an
-organization is how we respond to
-incidents and outages it's really
-important to tell our stories that's how
-we process them and this happens for
-individuals but also for organizations
-it's these these our post-mortems need
-to be shared and it's not just enough to
-just
-to dump a doc into Google Drive
-somewhere and email it out this
-storytelling is something to experience
-and hear that and the sharing of them is
-SuperDuper important so you know I like
-to say that write only post mortems
-don't help anyone and Jay Paul Rudy Reed
-who will be wrapping things up for us
-today has done research and saw
-interestingly that the larger the
-organization the less likely teams were
-to share their post mortems with each
-other and the irony being the larger the
-organization the more important you
-could make the argument is for them to
-share right you don't you don't know
-what you don't know and you don't know
-what's gonna be interesting or something
-you can you can learn from I like to
-sort of wrap up by talking about some
-cognitive distortions and how they apply
-to how we approach reliability and
-resiliency in our socio technical
-systems so cognitive distortions are
-exactly what their name implies they're
-distortions in our cognition right their
-perspectives with bias they are
-irrational thoughts and beliefs that we
-unknowingly reinforce over time so
-they're often subtle like it can be kind
-of hard to see we're doing them when
-we're in the middle when they're part of
-a regular feature of our day-to-day work
-and how we normally run so there's
-generally accepted to be 16 different
-types of cognitive distortions I'm not
-gonna go through all of them but I'm
-gonna talk to about two a couple that
-might be causing issues for your team
-and your organization so the first one
-is this idea of polarized thinking right
-this is also known as all-or-nothing
-thinking it's seeing everything in
-extremes everything is great or
-everything is terrible right it's either
-perfection or total failure so remember
-our systems are always in some state of
-degradation we don't have perfection
-things aren't always up are always down
-and then there's over generalization and
-this is where we take a single instance
-and we generalize it into being an
-overall pattern on a personal level this
-might be well I got a C on that test so
-I guess I'm stupid in a failure right
-and an organization it could be what we
-had a sub one on that service so it's
-clear
-the unstable and probably the worst
-thing we've ever created right and then
-when we combine this with another
-distortion called the mental filter this
-manifest is seeing only the negative and
-eliminating all positives about a
-situation a person or a system remember
-our systems are up more often than
-they're down you know if you had a
-system that was down quote all the time
-like literally all the time you wouldn't
-actually have a service fortune-telling
-we do this a lot in tech right we feel
-that if we have data that will be
-predictive ooh machine learning you know
-that we can if we only know enough we
-can predict the future I'm sorry to tell
-you that no you cannot right yes we can
-start getting ideas on what is likely to
-happen but again our systems are complex
-and the people that make them up are
-complex so we need to understand that
-our predictions are not fact but
-actually just one of several possible
-positive outcomes and in control fallacy
-manifest is one of two beliefs either
-that we have no control over our lives
-and we are helpless victims of fate or
-we're complete control of ourselves in
-our surroundings giving us the
-responsibility for the feelings of those
-around us both feelings are equally
-damaging and both are equally inaccurate
-so no one is in complete control over
-what happens to them and no one has
-absolutely no control over their
-situation so this can manifest within
-tech as either you know management is
-just always making these terrible
-decisions I've got no controls or
-everything just sucks or oftentimes
-again I come from missus admin
-background so the my my my folks would
-say it is you know if we only could
-control these developers then everything
-would be great
-control fallacy so to bring it back to
-dr. Levine being resilient means that we
-don't see things from the perspective of
-things that happen to us it's a matter
-of what we can do going forward a
-culture of blame creates a culture
-of helplessness these slides and a bunch
-of other links about somatic
-experiencing and all sorts of back up
-stuff I talked about are available at
-speaking Matt Stratton comm it's been my
-pleasure to share this with you today
-and I look forward to answering any
-questions or just talking about this in
-the slack thanks so much everybody
+Welcome to "Flight, Fight, or Freeze: Releasing Organizational Trauma." A couple of things before we get into it here. In this talk I will be talking about trauma and post-traumatic stress. I'm not going to be talking about any specific personal trauma experiences, but I do like to make sure folks are aware of that. That being said, disclaimer the second: I am a trauma survivor, but I am NOT a mental health professional. So nothing in here should be taken as professional mental or emotional health advice, but we're gonna see what we can learn about our organizations based upon how individuals respond and process trauma.
+
+Quick little thing about myself. My name is Matt Stratton. I'm primarily known for my enjoyment of Diet Coke. I'm a transformation specialist at Red Hat, and according to Ryan Kitchens of Netflix, I have the best hair of any developer advocate. So those are my qualifications and I'm happy to debate this with anybody in the Slack afterwards — and by debate I mean talk about the merits of Diet Coke.
+
+So let's think about this. Let's talk about zebras for a minute. Think about a zebra that's at rest, that has no threat of predators, and is operating within what we call the "rest and digest" function of the parasympathetic nervous system. He's just sort of chillin there, maybe eating some grass on the savanna, maybe thinking about making baby zebras — I don't know, we can't really see inside the actual thoughts of the zebra. But we have some ideas. It's rest and digest. It's just being a chill zebra.
+
+So — have you ever had nightmares about incidents in the past? The zebra is about to get a nightmare. The zebra's being chased by a lion, and when this happens, drastic physiological changes occur with the activation of the fight-or-flight response of the sympathetic nervous system. The heart rate increases, breathing increases, large amounts of stress hormones like cortisol and adrenaline are released into the zebra's bloodstream, the pupils dilate, the blood pressure goes up, and any non-essential functions like digestion come to a stop. The zebra's nervous system is literally preparing for it to run for its life.
+
+So what happens if the zebra gets caught? If the zebra gets caught, the nervous system becomes overwhelmed and it has no further solutions, and the zebra plays dead. This is the freeze response. This is also the point where we would consider the inflection of trauma. Zebra plays dead, lion drops the zebra, maybe goes to look for another one, goes off and is gonna come back to deal with its dinner later.
+
+If this happens and the zebra survives the encounter, it gets up and what does it do? It literally shakes it off and it returns to a resting state.
+
+Now, this next slide is maybe the most important thing you learn all day at Failover Conference — I hope you're ready. Here it is: humans are not zebras. The autonomic nervous system is common to all mammals, including that fight-or-flight response, but here's the thing — humans have this thing called a prefrontal cortex which zebras and lower mammals don't. This is usually an advantage. The prefrontal cortex is where executive function happens; that's where we can evaluate the difference between good and bad, same and different, understanding consequences. This is all because of having a prefrontal cortex. But the disadvantage is that we mentally replay traumatic scenarios and this activates our sympathetic nervous system exactly like an actual threat would.
+
+Dr. Peter Levine has done a lot of work around post-traumatic stress. Dr. Levine says animals in the wild aren't traumatized by routine threats to their lives, but humans are. We become overwhelmed and we're subject to symptoms around hyper-arousal, shutdown, and dysregulation. Again, we aren't zebras.
+
+So if we think about a healthy nervous system, we go between these states constantly — and this is okay. We get activated, it kicks in our sympathetic nervous system, but then we settle and the parasympathetic comes back up. It's a nice even wave. We call this the "Window of Tolerance" — it's a zone of emotional arousal that is optimal for well-being and effective functioning. It's not a flat line; we want to activate these parts of our nervous system. The parasympathetic is the "rest and digest" side — it's what conserves energy, being chill zebras — whereas the sympathetic is the fight-or-flight response.
+
+Now when we introduce a traumatic event, things change. We can flip back and forth very quickly, operating outside of either part of the Window of Tolerance — either too activated or stuck — or we can become stuck on or stuck off, where we don't come back. Symptoms of being stuck on include anxiety and panic, the inability to relax, hyper-vigilance, and digestive problems, because remember this is all connected. If we're stuck off, we see depression and lethargy, chronic fatigue, and again more digestive problems.
+
+Here's the thing: trauma is not simple. We like simple things, we like things that are very straightforward, but the bad news is when it comes to trauma that's not true. The trauma occurs when your nervous system is overwhelmed — the active response to a threat just doesn't work. And the nervous system activation, like I said, is the same for real or imagined threats. Whether it's actually happening or you're remembering it or perceiving it, you can have the same activation. And what I perceive as overwhelming or beyond my capacity for a solution might be different than what you perceive as overwhelming. It's subjective and relative.
+
+So how does this apply to our organizations, our companies, our teams? Because again, this is not a mental health talk. Let's go back and look at a dysregulated nervous system, and when we think about how this might apply to an organization: when a traumatic event occurs — and the point of this metaphor is that this traumatic event is an outage or a large incident, something of that nature — normally our organizations are operating in that Window of Tolerance. Something can happen, performance goes down, we kind of activate, we do some response, we deal with it, we handle it, we go back to rest and digest, we go back, we ship some features. But sometimes these incidents can have the same effect on an organization as trauma does on an individual.
+
+So if organizations are hyper-aroused — stuck on — they might display effects of constant vigilance. Sounds like they're trying to fight Voldemort, right? There'll be hyperawareness of threats and that takes energy away from being able to move forward and innovate. These are organizations that are stuck on. A lot of times this can be reflected in how leadership approaches issues and outages — you see a lot of wartime metaphors. The other thing is production support teams are very common in organizations that are hyper-aroused, where you have people that are focused only on "fixing things" and responding, and it's a lot of misdirected energy.
+
+Likewise, an organization could be stuck off in hypo-arousal, which is being stuck in the freeze. This is when you see innovation stagnating — the idea of "well, changes cause issues so let's not change." Analysis paralysis. Doing releases once a quarter because we need to be super-duper safe and we need to think about every possible thing that could possibly ever go wrong before we ship anything. Those are organizations that are hypo-aroused.
+
+Keep in mind that signals may remind us of something that happened before. They may seem similar but it's not the same situation. We like pattern recognition as humans — it's part of that prefrontal cortex. We're looking for patterns, and signals may seem the same as previous lived experiences. For an organization we might say: "okay, we've seen this happen before, we've seen telemetry coming in, we've seen user behavior this way, and last time that happened it meant this" — and so that's gonna get us to respond the same way. But our systems are complex, y'all. It's not as simple as one signal indicating something that happened before.
+
+This is a part of the talk where in a non-virtual setting I'd say: how many of you flew on a plane to get here today? The answer is none of you, but a bunch of you have probably been on planes before. So let's think about how, at least in the U.S., we have to remove our shoes because of the TSA. In December 22, 2001, Richard Reid tried to ignite explosives hidden in his shoes on a flight from Paris to Miami. As a result of that, the TSA was like "whoa, people are trying to blow planes up with shoes," so they randomly started searching people's shoes. Then in 2006 the TSA mandated that all passengers must remove their shoes going through security. And then a few years later it's like, okay, or you could give us a hundred bucks and you don't have to anymore — but that's a different talk.
+
+Again, we're looking at: we saw a signal which was "people wear shoes, therefore shoes are dangerous." I love this saying from Jennifer Davis: "There's a saying in medicine that when you hear hoofbeats, the first thing that comes to mind is a horse, not a zebra." I'm sure you've all heard that before — it's a very fun little saying that people like. But as Jennifer says, this cute phrase has killed many zebras. Just because most of the time it's a horse doesn't mean it's never a zebra, and it doesn't mean it's unlikely to be a zebra. This is like when we start looking for that singular root cause. And also, look at zebras again — there's a theme, it's a thing that's happening.
+
+So what are the things we can do to understand our Window of Tolerance as an organization? We need to think about how we can identify when our team or our company or our org is becoming dysregulated. Take some time, think about those examples I was giving before — everyone's organization is a little bit different — take that mental exercise and say "how does my company respond? Are we stuck on? Are we stuck off?" Because understanding that is the first step.
+
+Similar to Dr. Levine's quote, here's another really important way to think about it: resilient organizations are not traumatized by routine threats to their mission or business, whereas non-resilient organizations are readily overwhelmed and they're often subject to symptoms of overreaction, shutdown, and a lack of regulated effort. That quote comes from me, but I'm not a doctor — and yes, I did just quote myself in my own talk.
+
+So we've got to think about how to regulate — and no, this is not a reference to Warren G, but it should be. How do we take this dysregulated state and become more regulated?
+
+In individual post-traumatic stress there is a type of alternative therapy called somatic experiencing. This is aimed at relieving the symptoms of post-traumatic stress and other mental and physical trauma-related health problems by focusing on perceived body sensations. This was created by Dr. Peter Levine, so you see how this all comes together. In somatic experiencing, "somatic" means body. We're going body first, leading with the physical sensations, and then making connections to how we respond to the memories and triggers of trauma.
+
+When we think about organizational somatic experiencing, what we're trying to do is create a similar focus on the response — to train ourselves to have the reactions we would like to have when one of these traumatic experiences happens to our organization. And I know this is a controversial thing — you are at Failover Con — but come along with me, there's a connection.
+
+In somatic, it means body first. We don't start with the mind; it's not top-down talk therapy. If we start with the mind and try to look for a "root cause" during an incident, we are focused on the symptoms at that point and that makes us look for the wrong patterns. And again, there is no real singular root cause — well, there is one, and you know what it is: it's the Big Bang. We instead want to talk about contributing factors, because there are multiple contributing factors that led to the situation. Our systems are complex, y'all.
+
+Game days are awesome. We want to make an association with outages and issues as being a safe, business-as-usual thing that's no big deal. Game days can really help us do that. They're a great way to reiterate the feeling that we want to associate with an incident, but they have to be done properly. They need to be low stress and they need to be safe. The point of a game day is not to practice under pressure but to associate response with a safe environment.
+
+At an organization I used to work for, someone came up to say: "When we run a failure exercise, the participants should not know the thing we're testing because otherwise it's not a good test of their ability to troubleshoot." And I said no — the point of a game day is not to practice troubleshooting. The point is to practice our incident response process and mechanisms and create a psychophysiological response of calm, so that when it really happens, we're leading with the body. You don't need to practice putting your people under pressure — they're getting plenty of that already.
+
+So if we're doing exploring in a game day there has to be some guidance and structure around it. It's kind of like meditation with some kinds of trauma: meditation is helpful, but what can happen if it's not guided is that people go into their inner landscape and encounter their trauma and don't know what to do. They might be overwhelmed by it or go around it because they don't have the guidance. Similarly, if we don't have real plans in place for our game day exercises, we might get wound around the axle on things that are irrelevant to what we're trying to do. And the other thing: in meditation for trauma, we can get what Dr. Levine calls "bliss bypass" — a way of avoiding the trauma. Similarly, if our game day is not following our usual rules, we made it a little too "safe."
+
+So if you run failure injection in a game day, you need to run it like a real incident. I used to work at PagerDuty and we would run these things called Failure Fridays. I mean, they still do — now they might be any day, but Failure Friday is awesome for alliteration. A failure injection exercise — a Failure Friday at PagerDuty — follows the full incident commander process. In fact, it's actually how incident commanders get trained at PagerDuty. What happens is this creates an organizational association of a safe place for incidents. If we're doing this every Friday as just a normal thing we do, following that process — when we go into that process at 2:00 a.m. when everything's on the line, we have that nice physiological response.
+
+This is another reason why you should always run all your incidents at their initial severity. Even if you start them and realize they weren't an incident or weren't a sev-one, still run them through for the full course. That doesn't mean you don't lower their severity during the incident; that's fine. But run them using that process, because it's continually saying that when we do this incident response process, this is just normal, this is just business as usual. It's not an isolated event.
+
+And blamelessness is just the beginning. We need to process the failure and the outage through all the information that we have, and that processing has to have a conclusion — otherwise it's fundamentally unprocessed trauma. There's this misconception that processed trauma is just to "get it all out," but that's not enough. It's not enough to just experience it and talk about it; you need to integrate those experiences into a coherent whole. That includes telling our stories as well as changing our autonomic nervous systems, which in the case of an organization is how we respond to incidents and outages.
+
+It's really important to tell our stories — that's how we process them. This happens for individuals but also for organizations. Our post-mortems need to be shared, and it's not just enough to dump a doc into Google Drive somewhere and email it out. This storytelling is something to experience and hear, and the sharing of them is super important. Write-only post-mortems don't help anyone.
+
+Jay Paul Rudy Reed, who will be wrapping things up for us today, has done research and found interestingly that the larger the organization, the less likely teams were to share their post-mortems with each other. The irony being that the larger the organization, the more important you could make the argument is for them to share. You don't know what you don't know, and you don't know what's gonna be interesting or something you can learn from.
+
+I like to wrap up by talking about some cognitive distortions and how they apply to how we approach reliability and resiliency in our sociotechnical systems. Cognitive distortions are exactly what their name implies: they're distortions in our cognition. They're perspectives with bias, irrational thoughts and beliefs that we unknowingly reinforce over time. They're often subtle — it can be kind of hard to see we're doing them when they're part of a regular feature of our day-to-day work.
+
+There are generally accepted to be 16 different types of cognitive distortions. I'm not gonna go through all of them, but I'm gonna talk about a couple that might be causing issues for your team and your organization.
+
+The first one is polarized thinking, also known as all-or-nothing thinking: seeing everything in extremes. Everything is great or everything is terrible. It's either perfection or total failure. Remember, our systems are always in some state of degradation. We don't have perfection; things aren't always up or always down.
+
+Then there's over-generalization, where we take a single instance and generalize it into being an overall pattern. On a personal level this might be "well, I got a C on that test so I guess I'm stupid." In an organization it could be "we had a sev-one on that service so it's clearly unstable and probably the worst thing we've ever created."
+
+When we combine this with another distortion called the mental filter, this manifests as seeing only the negative and eliminating all positives about a situation, a person, or a system. Remember, our systems are up more often than they're down. If you had a system that was down literally all the time, you wouldn't actually have a service.
+
+Fortune-telling: we do this a lot in tech. We feel that if we have data that will be predictive — ooh, machine learning — that if we only know enough we can predict the future. I'm sorry to tell you that no, you cannot. Yes, we can start getting ideas on what is likely to happen, but again our systems are complex and the people that make them up are complex. We need to understand that our predictions are not fact, but actually just one of several possible outcomes.
+
+Control fallacy manifests as one of two beliefs: either that we have no control over our lives and we are helpless victims of fate, or that we're in complete control of ourselves and our surroundings, giving us the responsibility for the feelings of those around us. Both feelings are equally damaging and both are equally inaccurate. No one is in complete control over what happens to them, and no one has absolutely no control over their situation. This can manifest in tech as either "management is just always making these terrible decisions, I've got no control, everything just sucks" — or, coming from a sysadmin background, "if we only could control these developers then everything would be great." Control fallacy.
+
+To bring it back to Dr. Levine: being resilient means that we don't see things from the perspective of things that happen to us — it's a matter of what we can do going forward. A culture of blame creates a culture of helplessness.
+
+These slides and a bunch of other links about somatic experiencing and all sorts of back-up material are available at speaking.mattstratton.com. It's been my pleasure to share this with you today and I look forward to answering any questions or just talking about this in the Slack. Thanks so much, everybody.

@@ -1,0 +1,993 @@
+tada all right so yeah my name is maddie
+stratton i
+work at gloomy and that's going to be
+the extent of how much i talk about
+gloomy if you want to talk about
+columbia later please let's do that
+um where infrastructure is code we're
+hiring that's sort of the ruling
+everyone's hiring so cool but we're
+going to talk about the journey from
+devops to cloud engineering and there's
+a little bit of a history lesson in here
+there's going to be a little bit of a
+how did we get where we are
+and so we're going to start
+by looking back
+and you know josh kind of talked a
+little bit about you know the history of
+that upstairs raleigh which is awesome
+mentioned a couple things we're sitting
+here
+in you know the year of beyonce 2022 and
+devops is
+13 years old at this point right you
+know this was a lot easier in 2019 when
+the math was easy
+right um so we're going to kind of start
+by looking back
+and 2009
+was a real inflection point with a lot
+of the stuff we're talking about
+so one thing was that the velocity
+conference in 2009 these two cats uh
+john allspot and paul hammond from
+flickr they gave a talk
+called 10 deploys a day dev plus ops
+cooperation in flinker so the first
+thing is
+10 deploys a day
+that blew everybody's freaking mind that
+flickr was able to deploy 10 times a day
+and they were really talked about why
+they were able to do that now one of the
+fun things about this talk is everyone
+got wound up about asking how they
+actually implemented the technology to
+do that and not the cooperation piece
+this is going to be an ongoing theme now
+you may be wondering you may have asked
+yourself where did the word devops come
+from because we argue about this word a
+lot and as best we can tell from some
+twitter archaeology is the first use of
+the word devops on twitter was andrew
+clay schaefer watching this talk and he
+tweeted this is the first use of devops
+and we're going to talk a little bit
+about how andrew is an awesome dude and
+also completely made our life difficult
+by calling it dem ops but that's spoiler
+for the red crosstalk so this happened
+in 2009. also in 2009 just humble and
+dave farley wrote a book published a
+book i think they wrote it before 2009
+called continuous delivery raise your
+hand if you've read this book if this
+book is sitting on your shelf raise your
+hand if you won this book from
+thoughtworks and the sponsor sometime
+right i've actually won it from
+thoughtworks five times because i keep
+trying to win lego and they keep giving
+me the book but anyway very very still
+very relevant book and then also in 2009
+gary gruver and some other cats wrote
+this book about how
+it has nothing to do with the word
+devops
+but really they're talking about devops
+and it's about how they were deploying
+software for hp laserjet firmware and
+fun little fact is uh when i was first
+learning about devops i was listening to
+devops cafe
+uh which was a podcast just humble was
+the guest and i was sitting there i was
+working for a.com at the time driving
+down the eisenhower expressway in
+chicago arguing with my radio that this
+would never work at apartments.com and
+then jess talks about how gary gruver
+did it for printer firmware and i was
+like oh okay anyway these are all things
+that happened in 2009. so
+and then another thing that happened
+in 2009 i kind of got ahead of myself
+one thing that happened at um
+the uh at the velocity conference is
+andrew
+schaefer proposed the birds of a feather
+session kind of like open spaces that
+we're going to do later and he said he
+wanted to talk about agile system
+administration
+one person showed up to that verge of a
+feather session
+it wasn't andrew
+it was this belgian guy named patrick
+dubois so later andrew and patrick got
+connected and they decided to put on a
+conference
+and agile system administration was too
+long of a name for a conference so they
+called it devops days so the reason i
+bring this off is the first devops days
+took place in gentian belgium in 2009
+and these were the six talks
+and i look at this and i'm like almost
+all of these talks
+could be on the program at this event
+today
+um another
+and then over the years
+you know we devops days continued around
+the world and you can sort of see this
+growth and yes the hockey stick growth
+kind of ended in 2019 i don't know if
+you remember something happened in 2020
+that might have affected that but
+you know we went from
+in 2009 there was one devops days in
+2019 there were 73 around the world and
+at the 10th anniversary of uh devops
+days again in 2019 we had an organizer
+summit
+oh good good as long as y'all can hear
+me that's good okay i usually don't even
+need a money um but anyway we had an
+organizer we said okay we're gonna bring
+together people who organize devops days
+from all over the world
+there were more people at that organizer
+summit that were at the very first
+devops days in ghent so it's a global
+phenomenon and the reason this matters
+is because devops as a movement
+comes from the community it comes from
+us
+right this is where it was driven this
+was not someone wrote a bunch of
+standard books you know maybe some type
+of infrastructure library or something
+this was the community of practitioners
+and how we came about so
+um we have to talk about definitions
+because
+you know
+and there's a couple different
+definitions of devops that i like
+good devops copy great devops steal so
+i'm going to steal from some of these
+folks donovan brown at microsoft he said
+that devops is a union of people
+processing products
+to enable continuous delivery of value
+for the end users i like it that's good
+i can also tell that did not come off
+the cuff i think donovan kind of
+polished that one up a little bit
+so on the other hand i i uh about a year
+or two ago i cornered andrew schafer and
+i said andrew i want you to give me a
+definition of devops he said i don't
+want to do it i said i'm going to make
+you do it because i need it for my slide
+deck and so this is what he gave me he
+said it's optimizing the human
+experience
+and performance of operating software
+with software operating software with
+software in humans clearly this is a
+first draft however there's a couple of
+really key parts
+the idea is humans come in there and the
+one of the things i want us to always
+remember is we're talking about
+socio-technical systems the things we're
+building are built out of technology but
+they're built out of people
+so these are a couple of the definitions
+we think about that and
+i of course a few years ago i went to
+twitter and i said well we know what
+devops is what is devops not
+a couple things you know despite what
+you might think devops is not copy
+pasting from stack overflow
+it's not just reading the phoenix
+project that's a good start
+um it's not just developers being on
+call and it's not your khakis so
+old school doctor joke there all right
+so
+quick one last little bit of definition
+so we kind of see um
+you've probably heard you may or may not
+have heard devops describes as cams or
+columns
+or clamps depending or smoke depending
+on how you want to rearrange these so
+this idea of this acronym
+uh actually it's an
+um
+at entry of ho
+uh
+came about in 2010 uh john willis and uh
+david edwards sprawled us down on a
+napkin at mountain view and and it stood
+up all this time and so it stands for
+culture automation lean measurement and
+sharing and there's a reason that
+11 years later we're 12 years later wait
+what's 2010 yeah 12 years later we're
+still talking about it i'm gonna not
+dwell on this too much but you might see
+people referring to this throughout the
+day
+and i'm going to talk a little bit more
+about what we can do with it so culture
+um
+culture is the hard part
+why do we talk about culture all the
+time you know why because it's freaking
+hard
+right the tech is easy people are hard
+you think kubernetes is hard go try
+dealing with people sometimes right
+and and this is one of the books i've
+had this on a slide in almost all of my
+talks for probably the last 10 years
+and lloyd taylor who nobody remembers
+said nobody even remembers what nogoko
+was but i love this quote he says you
+can't change culture
+right and how many times i'm sure we've
+all had leadership we all had c-suites
+that are like we're going to change the
+culture like okay cool how but what you
+can do is behavior behavior gets changed
+and that becomes culture
+a lot of times i'll get asked people say
+matty what is the most important devops
+book i should read and i say go read the
+book freakonomics and go learn about
+incentives and then you will understand
+cultural transformation
+there's nothing about kubernetes and
+freakonomics but there should be
+so automation this is the easy one right
+right uh and also just again a call back
+to jazz and david i love this this line
+from the continuous delivery book which
+basically says asking experts to do
+boring and repetitive tasks
+that are technically demanding is pretty
+much the surest way to ensure
+uh error short of sleep deprivation or
+them being drunk
+so this is why we automate we automate
+for scale i also pretty sure in a demo
+says i don't need to tell anybody why we
+automate right this is the easy one
+uh lean might be one that's a little
+different
+um judge humble added this to the
+equation a few years after
+uh it started and really think about
+lean lean management lean manufacturing
+principles
+this is a whole other talk i'm not going
+to give you a whole primer on lean but
+the biggest thing about lean is we're
+talking about waste reduction and we're
+talking about optimizing our process and
+our value stream and if you're into this
+uh there's a cat named steve pereira
+who's spoken a lot of devops days gives
+great talks about uh value stream
+mapping
+the thing that is interesting about this
+to me is when i've worked with
+organizations as they're going through
+these cultural and devops
+transformations sometimes it's the first
+time that anyone is
+holistically looking at
+the whole cycle the commit to cash the
+idea to deploy and we find all these all
+this waste because we live in our silo
+and by the way you hear a lot of devops
+days a lot of devops here silos are bad
+okay you know what go talk to someone in
+agriculture silos are actually good they
+exist for a reason so i like to think
+about building bridges instead of
+breaking down silos but we need to
+continue to think things through
+and then the other two our measurement
+kind of is self-explanatory we this is
+how we know we're improving this is how
+we know we're affecting a change and
+sharing this is one that's really hard
+especially in large organizations
+because number one in a lot of
+larger organizations that have
+bureaucratic or uh
+more dangerous culture like information
+is power
+right uh or
+information can be perceived as a way to
+be blamed there's also a lot of times
+our leadership are those of us in
+leadership or our leadership depending
+rather feel like well every there's a
+need to know basis the reality is
+what is truly quote need to know is
+generally a much shorter list
+than we think it is and the more that we
+share we share our successes cool well
+this sounds awesome right okay cool i'm
+into this devops thing i'm like i'm
+sitting back here and i'm thinking back
+to myself and i'm driving down it's you
+know
+it was many years ago listen to podcasts
+and devops or something like this sounds
+awesome i cannot imagine like 10 years
+from now like the world's gonna change
+the energy we're gonna be doing all this
+cool like what the hell happened
+we're not doing this right this is not
+the reality of devops today like i mean
+a lot of us are doing these things so
+this is not negotiating actually you're
+all in a devops day so you're ahead of
+the game but
+when we look back at this vision of
+devops and we look at this world of 2022
+where we're at today
+there's kind of a disconnect
+so like
+what happened well one of the things was
+we kind of
+thought like devops is just about
+automation right like how many people
+you don't have to raise your hand and
+josh already exercised your up and down
+a little bit but just didn't mentally
+raise your hand
+i have been either a part of a devops
+team or know of one or hear that where
+if you were to ask people in your
+organization what does your devops folks
+do
+it's all about automation that's the
+whole thing right that's cool and if
+you're an automation team like awesome i
+love automation i work with chat i work
+at blooming automation is my jam right
+but it's not just about automation
+that's one of the things and frankly
+it's the easiest one because number one
+we don't have to convince engineers to
+play with automation like number one if
+you're assistant with me you're lazy as
+right so we're into it and it's fun
+right so it's it's not when we kind of
+became this thing where it's like devops
+tools or automation tools
+i mean is it just kubernetes right like
+i mean i dig kubernetes my license plate
+says coop cuddle okay but kubernetes is
+not devops devops is not kubernetes but
+we kind of got into this thing where
+it's like if we just throw a lot of
+container orchestration at it you know
+and a shitload of ammo then we're gonna
+devops everything and everything's gonna
+get better right and this is one of my
+favorites
+uh years ago there was a thankfully
+short-lived
+movement called enterprise devops and
+the idea is it was devops without the c
+because in the enterprise you don't need
+that squishy culture empathy we
+do real work in the enterprise and thank
+god that gene kim and folks came along
+and ran the devops enterprise summit we
+had all these folks doing enterprise
+work to show us that no they did it the
+same way but uh one of the people who
+led that movement whose name is kind of
+lost in history and i'm not gonna bring
+it up now um but he was famous for
+saying culture is for yogurt
+right and i was like what the hell right
+so but but this is the thing this is how
+we believe we're like it's not about the
+people it's about all this stuff
+so
+here's the root problem
+we talk about root cause if you know me
+you know i hate the word root cause i'm
+like there's multiple contributing
+factors there is one root cause of the
+problem we have in devops devops is
+being sold to you the only root cause
+is capitalism actually the real root
+cause is the big bang but you know and
+and here's the deal right you can't buy
+devops but i can sell it to you
+and this is a really important quote
+that you should memorize because it was
+said by someone who's really smart and
+influential and that's me
+um but but this is super true right you
+can't write down but we will absolutely
+sell it to you so that's sort of how we
+got to where we're at now i mean i'm
+standing up here in my vendor's shirt
+like i'm part of the problem but it's
+okay we got good solutions and then we
+kind of ran into this scenario right uh
+we started with demos and again i said
+before andrew clay schaefer visionary
+smart dude awesome guy to have sushi
+with you highly recommend
+my god i wish he didn't call it this
+because
+we're like well we have devops so it's
+about software engineers and operation
+folks so we better have them set ups
+because security matters okay cool like
+well biz devops okay by the way
+you're all in the business
+we all are the business is everybody
+right serverless devops right because
+we're going to do devops different if
+we've got serverless and then we
+probably need to like
+what the hell happened to my clicker oh
+my god
+of course yeah no skip for now there we
+go ahead and do an update right this was
+this was going to be awesome right okay
+here we go devsec db laptops right
+because you have to have database in
+there because otherwise you know your
+data's going to blow up and i mean you
+got to devops your devops
+so this is this is like we have all
+these portmanteaus and we just keep
+adding more and more things and i love
+it like el marquez talks about she says
+in devops the sec is silent it's always
+been right you know it's the meme with
+the astronaut you mean it's always been
+yes it always has been but we have all
+these
+words and
+and they're not hoping to be quite frank
+right we're we're just redefining and
+we're redefining so remember i said
+people are hard
+okay
+you know what's also really hard is
+words especially short words right we
+don't do well with nuance i don't know
+how many of you ever been on twitter
+nuance not something humans are great at
+especially short things so words are
+hard
+i want everybody to sort of
+absorb that understand it this is my
+empathy to you that we're using a lot of
+words this is hard to understand but
+don't worry
+i have more words for you
+so we're going to solve this problem
+with even more words
+and the words that we're going to talk
+about now is this idea of cloud
+engineering okay
+so this is kind of an emergent practice
+you may have heard people talking about
+it it's
+not invented by any one person
+uh or group but we talk about this idea
+of cloud engineering
+and when you think about one of the
+ways to describe it is
+employing standard software practices
+and tools across our infrastructure
+across our app across our compliance and
+security
+wow this sounds a lot like what we
+thought devops was going to be all about
+right so it's pretty similar but
+maybe it's a little more specific and
+when we think about what we do as cloud
+engineers and whatever you're trying by
+the way whatever your title is i'm here
+for you that's awesome like call
+yourself whatever you want that gets you
+paid you know awesome if you call
+yourself a devops engineer actually
+honestly those people who have the title
+devops since you don't call themselves
+that box engineer someone else gave me
+that title awesome get get paid call
+yourself you know get a title as a cloud
+engineer be the director of devops be
+you know call yourself josh atwell
+whatever you got to do to get paid it's
+cool all right but when we think about
+this idea of cloud engineering we are
+we're taking cloud resources of some
+kind
+and we're building these platforms upon
+which we deploy our applications that
+provide
+value but then we have to manage them
+right they continue to go this is sort
+of that cycle like you think about the
+infamous like infinity loop of devops
+right this is what we continue to do and
+we keep drawing new and new pictures but
+at the end of the day this is what we're
+doing
+so we have this idea of
+build and deploy and manage and i kind
+of call them tenants
+you might call them pillars but i feel
+like the observability folks like kind
+of pissed everybody off when they talked
+about pillars so i don't know who call
+them pillars we call them tennis but
+we're gonna things i call them things
+the things are build and play and manage
+so what i want to do is think about
+build and deploy and manage as part of
+what we do and how does that map to what
+we've been saying this whole time
+with columns with these ideas of culture
+and automation and where they come in
+because one of the things that happened
+we were very early on in the devops
+movement we wanted to be as
+non-prescriptive as possible right it
+was like
+dead moms contains multitudes you devops
+the way that makes you happy there's
+just a couple things to do you know do
+columns okay great that's telling you
+an idea but that doesn't tell you how to
+do it
+right like i remember in uh i think it
+was like in 2015 kevin marriage one of
+the authors of the phoenix project said
+if i see one more talk in a devops days
+and talks about empathy without actually
+telling people how to do it right like
+we kind of get it i actually have a talk
+called okay you've convinced me we have
+to collaborate now how the hell do i
+deal with people we understand the ideas
+but like how do we apply them
+so if we think about the the build
+tenant and we think about
+where this comes in with comps so right
+this sounds like
+dev right this sounds like software like
+slinging code but it's not just about
+build is not just about
+writing the code this is about creating
+the services and the infrastructure that
+provide the value to our customers
+and in today's world we tend to assemble
+these things out of some type of
+cognition
+so when we think about the ideas uh
+maybe we do this with some type of a
+shared service platform this is really
+popular this is the new hotness right
+now because we're gonna we're gonna
+build these developer platforms and all
+this stuff inside our organization
+that's a whole other conversation but
+you know if you want to do that that's
+awesome and it's actually cool because
+at the end of the day like uh
+like uh james governor from redmonk has
+said over and over again all we're
+trying to do is reinvent roku right so
+that's that's the end result of what we
+want to do but we're thinking about
+having reusable components right we
+don't want to repeat you know like how
+do we continue to focus on the thing
+that continues to provide value and
+we want to apply existing frameworks and
+tools
+right we already have ecosystems that
+are powerful we have ways of doing stuff
+like when i think about how i would give
+a devops talk
+eight years ago i would be talking about
+what can
+operations people learn from software
+developers and vice versa so this is
+still true right why are we gonna go and
+create new things we have huge
+ecosystems that we can leverage
+okay so when we think about these ideas
+of build how do they apply to each of
+the ideas of of columns right so when we
+think about a cultural thing again we
+focus on the differentiator right what's
+the thing that's special for you i uh
+it's appropriate for me to tell a slight
+small redhead story because i'm here in
+raleigh so i spent a year working at red
+hat and i was selling transformation to
+uh state and local governments in
+the united states boy that's a lot of
+fun um but one of the things that would
+come up is i would talk and you know
+people want to build their own and
+you're like i'm sorry are you the texas
+department of continuous delivery
+right you know it's like no that's not
+what you do and this happens in private
+sector as well and there's a company in
+minneapolis that's uh infamous for for
+this and i'm like you guys sell retail
+stuff you don't put that
+i can say that this step upstate's not
+my own um but the differentiator right
+so our culture idea is what we're
+building is the thing that provides
+extra value uh
+charity majors one of one of my favorite
+lines from charity is the best tool is
+the one you don't need the second best
+one is a sass right you build stuff that
+makes you special because you do have
+things that make you special and having
+a common development experience right
+whether we're using it for infraco you
+know building our infrastructure
+building our applications doing our
+security this actually breeds that
+empathy because we have a common way of
+working together right it's building
+those bridges like
+it's like it's like i know what i was
+gonna say
+cool okay so the automation piece of
+this
+when we're when we're creating things we
+want reusable components how can we
+share things how can we create one thing
+in one particular place and reuse it
+somewhere else and that that's lends
+itself like
+that's just sort of a little bit part of
+common software development of the last
+20 years right packages and things like
+that but how do we apply that to
+everything that we're doing right and
+leveraging the ecosystems like i talked
+about and avoiding a bespoke
+implementation and i mean even specific
+within your squad within your part of
+the business right we kind of always
+have ways that we do it inside our own
+little particular place and it's i think
+we're moving ourselves away from the
+value creation um and being able to
+share so whether you think about this as
+an inner source kind of scenario
+something like that okay uh where does
+lean come in against the focus on health
+right so lean is about
+uh the value stream we talked about
+focusing on our differentiator it's
+driving our efficiency efficiency is a
+tricky word
+and i really hesitated putting it on the
+slide right
+because this could mean a lot of
+different things right so it's not you
+know people will work to the was this as
+the nash burrito equilibrium which is
+people will work to the way you measure
+them even to the detriment of the
+organization so efficiency can be a very
+dangerous nash burrito but being the
+efficiency not of individuals with the
+efficiency of you as an organization
+and it gives the ability to continue
+review for improvement that's the thing
+about lean is we're continually looking
+at it and saying how you know and we're
+continually looking at our process
+and then what are we measuring so
+consistency breeds visibility
+if we do things consistently we can
+actually compare them right we can say
+like we're always building things this
+way we can see that we're moving the
+needle because the thing that matters is
+not the value of the needle it's that
+the needle moved in the direction we
+want it to move it
+you know going back to the 10 deploys a
+day at flickr thing um
+there's no
+yeah sure amazon deploys a hundred
+thousand times a minute that doesn't
+mean you need to
+you you can deploy once a week if that's
+what's right for your business right so
+the point of that is but by doing it
+consistently then we can see that the
+needle's moving and then the sharing
+piece of that we talked about reusable
+components
+and then even by using a larger
+ecosystem
+we have the the uh the promise of open
+source supposedly right which is
+bringing this sharing outside of that
+and being able to you know the sum is
+greater than the whole is greater than
+something how does it go whatever it's a
+math thing right and we can learn from
+those existing practices
+so then we think about the deploying so
+right so the thing with deploy right it
+doesn't count until it's in prop right
+that's cool but like unless you're
+actually getting it in front of people
+where you're getting feedback and this
+all goes back to the principles of
+devops and agile and all of this which
+is like getting that fast feedback so we
+want to be able
+to um
+to kind of come into those pieces and
+the the thing about deploy is one is we
+do it the same way
+every
+time okay now
+how many of you have been in this area
+we're like cool we have a consistent
+process
+except for when there's a thing or
+there's a thing there's a thing there's
+always an exception the thing is when
+you have it when you have the ability
+for an exception everything becomes an
+exception so we're just doing it the
+same way every time uh another great
+phrase i like is if something is painful
+do it more often
+right so we want to we keep it again and
+i mean every time
+right that also builds our muscle memory
+and actually helps us improve the
+process really quickly because we're
+constantly doing it uh
+back when i worked in paint degree i
+might say something like uh if you want
+to yo you want to get better at
+handling incidents have you tried having
+more incidents
+right so it's true um and this gives us
+quality and security checks and
+security is just another aspect of
+quality when this comes in uh and that's
+one of the things to just generally keep
+in mind and i have a whole other talk
+i've given
+um where i believe very strongly in
+democratizing your security testing just
+like you think about like think about
+this
+if you had uh
+you know say you're doing some project
+it's like a six sprint long project and
+you're like we're not going to do any qa
+testing until the last sprint
+if i said that you would think i was
+nuts or you would have worked in some of
+the places i've worked at in the past
+but we do that with security all the
+time still even today there's a
+beautiful world
+we still have a hardening spread right
+and just like a defect related to a
+functional test
+the closer to the introduction that we
+find it the easier it is to fix it so
+we need to move this is what shift left
+means i'm not going to go off and hold
+it right shift left does not mean move
+the responsibility to the people on the
+left it means move the idea to earlier
+in the process again remember nuance we
+screw that up all the time cool now what
+about checklist so checklists are
+awesome right
+so but what you're doing there though is
+it's not a manual checklist like take
+that checklist of things you always do
+so you as the smart human develop the
+checklist
+let the robots check the checklist for
+you
+so um if you've read the checklist
+manifest i think that's the name of the
+checklist manifesto checklists are
+amazing um
+and then again think about how your
+infrastructure is part of your
+application the only reason we have
+infrastructure is to deliver our
+application and as a multi-decade cis
+admin boy was that hard for me to write
+on a slide right i'm like but that's the
+reason so we want those things to go so
+when we think i'm gonna
+go a little a little quickly here
+because we still have to get into the
+last ones but from a culture perspective
+it's when we're talking about deploying
+it doesn't count till it's improv and
+then iterative development right this is
+just uh this applies to these things
+enables our continuous improvement the
+automation this is just like again
+automation i don't have to tell you a
+lot about because this is the thing we
+all pay attention to
+um
+we talk about the automated checks we
+love checklists let's automate them
+when the lean part comes in this is
+again helping us with that fast feedback
+when we're deploying things
+and it's giving us visibility into our
+supply chain how many people have heard
+about like software bill of materials
+and software supply chain in the last
+six months all of a sudden something we
+care about right this is the way that
+helps um and the lean part actually
+helps helps us find bottlenecks another
+thing if you've read the goal if you've
+read phoenix project you know that
+optimizing anything outside of your
+largest bottleneck is actually
+counterproductive so we need to have a
+way to find them
+again
+we want our visibility we can measure
+our cycle time so we understand how uh
+how we're moving and it's not just speed
+right doing it fast is doing it at the
+velocity that is required to provide the
+value that your business needs to your
+end users
+um again visibility right like this all
+this comes into how do we see things
+a common pipeline
+means less duplication of effort so the
+more that across all of our groups we're
+doing things the same way we can build
+it we can repeat it and then everybody
+knows what changed right that's the
+thing because i mean
+change is what introduces
+change right so we want to be able to
+see and understand it not to blame it
+and then finally when we think about
+manage manage is giving us visibility
+this is you can think about this as your
+data stream operations this is your
+compliance whether it's cat what i call
+capital c compliance or lowercase c
+compliance whether it's you know like a
+regulated compliance requirement or just
+the policies of your organization you've
+heard security is everyone's job again
+that doesn't mean
+you as a developer have to do
+everybody's job but we want to have an
+awareness and a thought and an
+understanding about it and this allows
+us by having a common vocabulary we're
+speaking the same language about it this
+goes into rather than having our
+security folks or our compliance folks
+give us some pdf of like all the
+vulnerabilities they found and then we
+have to go figure out if there's a way
+we can collaborate
+preferably in code preferably in some
+type of automation we're speaking the
+same thing and then these controls and
+process enable and enhance
+guard rails are pretty awesome
+like a lot of times we feel like a guard
+rail is a thing that gets in our way of
+us being able to do things but a
+guardrail actually helps us have a lot
+more confidence right if i know that i'm
+protected from probably completely
+dropping
+all the tables and prod i'm feeling a
+little more comfortable right i don't
+feel insulted by that i'm like please do
+that protect me from myself um
+okay
+okay so these slides we're going to
+probably go through pretty quick but
+there's a bunch of good stuff i will put
+the link to the slides at the end but
+i'm running out of time so um this is
+one that i think is really important
+though computers can't lie okay how many
+people have been part of an audit that
+felt like absolute because they
+asked you and they said hey mike did you
+do this thing
+computers can't lie computers also can't
+do favors for you
+right so if you have a rule to deploy
+like i could go and be like hey josh
+come on just let it go let me be like
+okay that's cool we'll do that you know
+everything's like nope didn't pass the
+test for you maddie right uh that gives
+the trust of the process and checks and
+our policy goes from vague to
+understandable
+um
+last couple things here
+um this is i think the last one's
+important identify when policy and value
+collide
+right we'll run into that we'll have a
+policy but then we're like this is
+actually getting in the way of us
+providing value and we can have a
+conversation about it right and
+collaborate and
+talk about this we share our learning so
+this is my challenge too let's say
+devops back right
+devops is being sold to us kind of
+changed kind of just like let's take
+this opportunity to make devops what we
+want it to be what it's supposed to have
+been all along
+that we believe in this is our
+opportunity my name is matty stratton
+you can find me in all these places if
+you want to find the slides you can go
+to
+gloomy.com there's a link to them
+there's a bunch of other crap i do um
+i told you i wasn't going to talk about
+movie anymore but one more thing we have
+our conference on may the 4th
+and uh if you it's an online conference
+but 3500 people get like super dope star
+wars themed gloomy quest t-shirts so um
+if you missed that that's cool and then
+i think uh
+yeah that's it

@@ -1,0 +1,1758 @@
+I'll probably do better stance
+all right we're gonna start about two
+minutes be sure to grab some more pizza
+that better showed you this one too
+yeah
+Chuck check one
+okay welcome to DevOps KC June meetup
+we're gonna get started
+we're live-streaming so if you're out
+there in the livestream wave at me so I
+can see you so I have a few
+announcements we're gonna make and then
+we're gonna get to the main event
+you came here for first thing is DevOps
+today's Kansas City's coming up it's in
+October in 17th and 18th this year we
+decided to do a Wednesday Thursday
+because we have mostly local people and
+then you'll be able to go back to work
+Friday and start implementing all the
+awesome things that you learn the CFP
+was extended just today for this event
+gets extended to noon tomorrow even
+though it closed on Sunday so if you
+have something you want to share with
+our community to help make our culture
+and our processes and our tools better
+we really want to hear that
+good idea I can tell you it probably is
+but reach out to me or any of the other
+organizers and we'll help you through
+the submission process and everything
+else this year the tickets are also for
+sale and I believe they're early bird if
+they're not early bird
+then tell me since you were here tonight
+one announcement I have is that we've
+got a new logo and I love it so applause
+we're Danny are gonna livestream this
+Friday if you've been following along
+we've been working with gitlab to
+actually create a feature that our
+company needs get lab if you're not
+familiar with them is they're very open
+company their product is open source
+they have an Enterprise Edition version
+and they're remote first so they're a
+really really neat company and there's
+something that we need to create as a
+feature so Dan and I are going off and
+coding that and fumbling our way through
+Ruby on Rails so if you want the
+opportunity to kind of laugh at us as we
+learn that'll be this Friday and then
+we'll actually sync back up with get
+labs soon and do the final live stream
+oh so we got pretty far last Friday if
+you haven't joined the conversation yet
+join us on slack DevOps Casey comm you
+can self invited yourself to our slack
+and enjoy the conversation we have
+pretty good conversations daily there
+and we talked about this meetup and the
+conference and just like a lot of times
+people are getting terraform help is
+join the conversation there we're live
+streaming out to YouTube so give us
+likes out there or join subscribe and
+this is where I turn it over to all of
+you I know that you guys have
+announcements for things coming up I can
+look at different people I know that
+certain things are coming up so feel
+free to raise your hand and let us know
+about things that are coming up
+if you have other meetups Oh Kyle's
+looking up the date if you have
+conferences that we should all attend if
+you have Mike that's probably good for
+everybody
+if you have job openings anything like
+that feel free to just raise your hand
+or yell it out or coffee or whatever
+Kerber Nettie's kc is it CN CF okay and
+that's at c2fo May 25th marking on your
+calendar now what yeah if you if you put
+it for May twenty-fifth you might get a
+reminder right away is that how the
+internet works is there any other
+announcements Dan hit something agile
+dance dancing Dan wants to remind you to
+be agile and all of your undertakings
+and I believe tickets are still on sale
+for KCDC
+Simon for lean agile Casey I've been the
+last three years I think you have to
+it's an awesome conference it's multi
+track two days this year and are they
+still doing at the same venue Edwards
+campus lean agile kc.com awesome any
+other going once going twice
+okay so we're gonna have Matt on in just
+a minute
+I'm super stoked to have Matt here he's
+been a mentor to me for a number of
+years he's worked at chef he works at
+pager duty currently so super excited
+for that so thank you
+[Applause]
+but before we call Matt up I wanted to
+have someone from a light analytics come
+up because this space is awesome if you
+can see like you should be my name is
+Mike weiners tonight worked here for
+about five years
+lead integrations engineer started as a
+marketing analysts and I've done almost
+everything in between since then this
+wouldn't give you a brief history of our
+company was founded by Matt verdict and
+Michelle Jacobs in 2008 primarily doing
+Google Analytics implementations audits
+things like that and then reporting
+associated with them reporting some pain
+in the ass so they were like let's
+figure out how to automate some of these
+data flows so they did with Google
+Analytics data and AdWords and our
+marketing analytics business sort of
+grew from there so we're doing basically
+reporting in analytics for a broad range
+of brands up until that point
+to support arcing analytics and
+marketing analysts and that's what we
+continue to do is to challenge ourselves
+to see where we're adding the most value
+where we can make sure that we're giving
+our customers things that they can use
+to sell them stuff for lots of money but
+that's worth even more money to them so
+we can have this really cool space our
+development team is now a dozen people
+up from - just five short years ago and
+where we were once just really focused
+on selling analytics reports Google
+Analytics implementations now our
+primary revenue source is the channel
+mix data aggregation platform so really
+the entire company has been remade
+really since late 2014 so that's it
+that's brief history who we are what
+guides us are a set of guiding
+principles that we as a group decided
+upon that there are these things these
+six ideas that we're going to stand
+behind I believe you can find them on
+our website I'm not going to go through
+them in the interest of brevity but we
+challenged each other to live up to
+those guiding principles every day and
+that guides who we are what we do
+obviously is provide marketing analytics
+solutions through data aggregation and
+reporting analysis to our clients and we
+do it in the pursuit of understanding
+the true value of marketing so marketing
+dollars can be used as effectively and
+efficiently as possible
+so that brands and agencies can spend
+their money on better things other than
+crap advertisements that make you click
+to swing the axe anybody seen that one
+there's real pain in the ass nice trying
+to watch a video earlier today so it's
+fresh in my mind so that's we do we've
+got a few open positions we just filled
+our open dev ops positions so I'm really
+sorry but maybe Ryan will decide he
+hates us that would be a glowing
+endorsement obviously for anybody else
+you might want to work here
+but we do have three open positions a
+director of client solutions and insight
+web analytics specialist that is google
+analytics implementation we still do
+that part of our business and reporting
+analyst and our business changes very
+rapidly as we evolved to meet the needs
+of our clients and to find out where we
+can add value next so keep on the
+lookout and we appreciate everybody
+coming and visiting us for this meetup
+tonight thank you I love stories about
+like the companies that have just like
+grown up from nothing in the last 10
+years and Kansas City there's all kinds
+of them downtown here and we'd like to
+connect with more of them for future
+meetups to have it's amazing we're still
+kind of it I'd like to get this
+discussion going on slack if we should
+settle on the same place every month or
+if you guys still enjoy like the the
+awesomeness that like companies open up
+their work area for you to come see how
+other people work so you get an idea of
+like how other people work so we'll we
+can have that conversation later tonight
+after the main event or we can have it
+on slack but it's an awesome one that
+we've gone back and forth for years on
+that so always open to people's thoughts
+on that so thank you alight very much
+this is awesome so I'm gonna hand it
+over to Matt we're gonna switch up the
+the connections here and here thanks
+Aaron yeah so my name is Matt or Matty
+you can go by either L I know who you're
+talking about I'm really excited to be
+here I haven't been to the Kansas City
+DevOps meetup for it's probably been
+about three or four years I was here
+piloting a talk a few years ago that
+Aaron very nicely let me you know test
+out which was pretty great yeah it's
+called making infrastructure s'mores
+with chef it was there's a conference up
+in the Wisconsin Dells called that
+conference that's a summer camp oriented
+conference hence the camp name anyway
+let me get myself set up here and then
+I'll tell a little bit more
+I don't tell a whole lot about myself
+because at devops days Charlotte a
+gentleman named Corey Quinn actually
+gave an ignite talk that was pretty much
+making fun of the fact that most
+speakers feel the need to give you our
+entire resume before we speak so you
+could be like this is why you should
+listen to me so the reason you should
+listen to me is well because you know
+I'm here so that's kind of legit let me
+go ahead and get myself started up here
+make sure there we go clicker up too
+fast okay
+I'm gonna try to get
+come back this is how it works hey okay
+so we're gonna there's there's an audio
+part of this deck which will see how
+well it works so if not we'll just have
+to kind of do it live it'll be great so
+before we get started so anyway the talk
+is called incidents and accidents and if
+you understand the reference of that
+then more power to you I'm a DevOps
+evangelist to pager duty and I've got
+back over on the table behind the pizza
+we've got a little bit of page duty swag
+some stickers and also some stuff for my
+podcast and before I get started someone
+to keep track of time for me that's
+super helpful so like I said I used to
+talk a lot about who I am and what I do
+and why you should listen to me but
+instead I just nobody really cares about
+that so I just have a slide of my kids
+to get you on my side cuz they're like
+oh look he has cute kids he's got to be
+a real human so who here has been on one
+of those phone calls when you're trying
+to troubleshoot an issue something's
+going terribly wrong and you're trying
+to problem-solve with fellow human
+beings many people have had to do that
+how many people super loved that and
+want to do it all the time it's like
+none of us right so when we're working
+on incidents they can be really tough
+but there's definitely ways to make them
+less stressful and that's a lot of what
+we're gonna be talking about today is
+how can we make this a less stressful
+experience and a lot of organizations
+have process and structure around
+I hate keynote around how they do
+incidents oh that's okay it's supposed
+to be blank yeah this is this slight
+left blank on purpose that's what I
+should actually say I don't remember why
+I decided to do that but oh there maybe
+it's to make sure that everybody's
+paying attention anyway thing is a lot
+of times we will have process for
+incidents but we kind of make it up as
+we go along when in reality we can
+borrow from other industries and this is
+something that I think we've learned in
+IT or at least hopefully we've learned
+is we've learned to profit from the
+mistakes of others right shall we say we
+started learning this with when we think
+about the principles that espouses the
+DevOps espouses this all comes from the
+fact that these are solved problems that
+were solved by the manufacturing
+industry
+decades ago now so we're getting over
+this Hayworth thought workers we have
+different problems than the rest of the
+world when in reality all the problems
+we have somebody else has already had
+and there's probably other practices and
+other disciplines that have already
+helped solve for this we can learn from
+them and build on the shoulders of those
+giants so I got a couple disclaimers
+first one is we're gonna learn from
+these other industries but we're gonna
+try to not take on their stresses so
+we're gonna talk about a lot of stuff
+some comes from the industry of air
+traffic control some comes from first
+responders and these are folks who deal
+with literal life-or-death situations
+you know if you're a first responder
+you're going and you're saving people's
+lives if you're an air traffic
+controller you're as the movie says
+pushing tin your you're kind of dealing
+with these giant metal tubes that people
+like me fly around it and you're gonna
+try to make sure they don't hit each
+other this is a very very stressful
+position so we want to inherit the
+interesting things that we can learn
+from these industries but we don't want
+to take on their stress there's
+generally no reason that a system
+administrator needs to have the same
+stress level as an air traffic
+controller although it may seem that way
+sometimes hopefully most of us don't
+work in situations where a down system
+could potentially affect someone being
+able to live or die these things do
+happen but usually we're not dealing
+with systems that run nuclear reactors
+or things of that nature if you do deal
+with systems that have that type of
+impact on humans
+that's an awesome responsibility and I
+absolutely have nothing but respect for
+carrying that mantle but most of us
+don't have to deal with that so we don't
+want to take on those stresses the
+second disclaimer is that this is a
+topic that has a surprisingly large
+amount of details right it might seem as
+simple as well we'll get on a bridge and
+we'll work the problem and then the site
+will get back up and the end but reality
+incident management and dealing with
+Incident Response is a very complex
+system because there's lots of things
+involved especially a lots of messy
+humans so when we think about it there's
+things like the impact to the business
+the commercial response that we have to
+make the business continuity plans we
+might have to follow all the way through
+there's organizational factors like what
+team owns which thing and also
+individual psychology and how different
+individuals deal with stressful
+situations this is a very short talk we
+will only talk about a little
+bit of this right so bear in mind that
+this is not the be-all and end-all of
+everything that's going to be involved
+when you're managing incidents so one of
+the things that's really important is
+that when we think about an incident
+we're going to talk about what what an
+incident is what these things are but I
+just want to kind of stress this idea
+that there's a distinction between
+normal operations and there is an
+incident in progress so we switch
+decision-making from peacetime to
+wartime from day-to-day operations to
+actually defending our business so you
+think about it this way fire isn't an
+emergency to the fire department you
+expect a rapid response from a group of
+professionals that are skilled in the
+art of solving whatever issues you have
+that's that's a way to think about it
+the way that you operate your role
+hierarchy and the level of risk you're
+willing to take will change as we change
+from peacetime to wartime and I know a
+lot of us don't like kind of the
+paramilitary metaphor so we could do
+things like normal and emergency I don't
+really care it's totally fine right you
+could even be you know even just say
+it's called okay and not okay the thing
+that matters is you're making a mental
+switch a shift from business as usual to
+stuffs on fire yo right so we're gonna
+talk about this a little bit more and
+one of the things to bear in mind is
+that the way that we perform Incident
+Response and I'm gonna be speaking a lot
+I should give it a little bit of
+background they usually do I'm telling
+you about how we do incident response at
+pager duty this is not about how to use
+pager duty to do Incident Response pager
+duty super great at doing that and if
+you do things the way that we do it
+within our own organization you'll
+probably have a great day but you don't
+have to so to follow any of these
+practices you don't have to use our
+product which is a great thing to hear
+anyway so I'm going to talk a little bit
+about how we do Incident Response a page
+of duty and these are things that we
+learned again from first responders and
+and some common ways of doing things so
+we're gonna break this up into three
+sections we're gonna talk about the
+before the during and the after so these
+are the things that you should do before
+there's an actual call at all before
+anything actually goes wrong the things
+that happened during the incident and
+then the part that most people forget
+about is the things to do after because
+usually this is when it's 3:00 in the
+morning and we're done and all you want
+to do is go to bed and I'm sorry there's
+still a little bit more
+balls that we have to eat so there's
+different things to perform and consider
+it each of these phases and all three of
+them are equally essential we always
+think about during during is where we
+focus and during actually quickly become
+easy part because we know how to do that
+we know how to solve a problem usually
+so we're gonna talk about before these
+are things to think about before
+anything goes terribly wrong things you
+can do today tomorrow whatever this is
+really important you need to have
+criteria defined before anything happens
+about what actually causes an incident
+what what is an incident you know and
+these are things that should be driven
+by business-related criteria so for
+example order value may be 20% less than
+normal at this particular time of day
+that's a business driven metric that's
+something that matters right system
+level alerts like CPU utilization disk
+usage disk space you know memory
+utilization these are not the criteria
+to determine that something requires a
+call you don't have a call because of
+high CPU now the impact to the service
+may be driven by that and these these
+indicate these may be indicators that
+help trigger the need to make a decision
+but they and of themselves are not a
+thing to say this is an actual incident
+or major incident I always go back to
+think about had a scenario where we used
+to get I used to get paged and said oh
+my god we're having these problems with
+their database server it's using 90% of
+the CPU we're like it's it's supposed to
+it's using all of it right that's what
+we want in this particular case right
+you know so we're just so used to
+wanting to say like Oh memory
+utilization is so high it's like well
+that's why we have 24 gig of ram in that
+server so we can use it so but again but
+if that's abnormal if that's not
+something that's normal and more
+importantly it's affecting our service
+then it's super matters so if you're not
+sure whether something is an incident
+you don't know whether to respond to it
+this is what we call an incident at
+pager duty yours might be different
+that's okay just make sure that you have
+it defined somewhere and you keep it
+simple so it's easy to understand so we
+say it's any unplanned disruption or
+degradation of service that's actively
+affecting customers ability to use the
+product
+okay so a typo somewhere could cause us
+to be an incident now what we're gonna
+talk about a little bit here is what's a
+major incident because when we talk
+about these ideas of incident command
+these are things when that are usually
+related to what we would call a major
+incident and the pager duty we
+considered a major incident when it's
+when this criteria comes into play and
+it affects multiple teams or multiple
+services so if it's just one service
+that's having this particular issue it's
+not a major incident because now Bajor
+you notice major does not necessary that
+criteria does not necessarily mean it's
+important or less important it just has
+to do with how we how we solve the
+problem because it becomes infinitely
+and infinitely more complex when we have
+multiple teams and multiple services
+involved versus something that's
+happening just within one part of the
+application so this is important you
+want to post your incident criteria
+widely you don't want to litigate during
+a call I can't stress enough this
+particular sentence don't litigate
+during a call right you do this
+beforehand because we don't want to be
+arguing about whether or not this is
+important or not while something's going
+on so the call is the time to solve the
+problem it's not the time to argue about
+how important the problem is during an
+incident it can be really difficult to
+make complex and business impact
+decisions because everyone's kind of
+frazzled everyone's under a lot of
+stress and we need to have this stuff
+figured out when we have the luxury of
+time to be able to evaluate what is the
+actual business impact and why do we
+have let's have the proper discussions
+with stakeholders not when we're waking
+them up at 3:00 in the morning all these
+terrible things seem to happen at 2:00
+or 3:00 in the morning
+according to my talk this also makes it
+clear to everyone involved in the
+process why we're doing the things that
+we do right why are we why did we make
+that flip from peacetime to wartime from
+normal to emergency and because we're
+gonna do things different then people
+are used to and we're gonna make some
+people uncomfortable while we're doing
+this so it's really important that we
+don't have to explain it while it's
+happening we want to post it widely
+because stakeholders and people who are
+not directly involved with the incident
+are gonna want to know what's going on
+so you'll see you know in our case we
+have we call them a sub 1 a sub 2 a sub
+3 that's common to refer to things as
+severity z' you could call them impacts
+you could call them emergency levels you
+could call them the king of France for
+all I care it doesn't matter
+the thing that matters is that you
+define what makes something be one of
+these and when might it move from one
+severity or one impact level to another
+so you don't have to argue about it
+later because it's already even if you
+post it widely and disseminate it widely
+people are still gonna argue about it
+during the bridge but at least you have
+somewhere to point them to we want to
+monitor the business criteria and act
+accordingly so monitoring your using
+tools like solar winds or Nagios again
+like we said that are watching things
+like your CPU utilization your network
+bandwidth your disk space these are all
+great right but you want to have
+something that's gonna look a little
+higher because we actually care about
+the service we want to be service
+oriented one might even say so if you
+think about something like a new relic
+or data dog or any combination of these
+tools that can help you understand how
+your application is performing I usually
+find the things like your lower level
+system monitoring tools are really
+helpful for forensics but you're gonna
+get really flappy really false positive
+type alerts if you're depending on that
+because again the point of your company
+is not to make effective use of the CPU
+on all of your systems it's to sell
+shoes assuming that you're a company
+that sells shoes if you're an insurance
+company then don't try to sell shoes
+ideally your business or service level
+monitoring should work automatically to
+engage and start the process of an
+incident that should be something that's
+super helpful and we do a lot of that at
+page duty where we have automated trips
+and alarms and hey you know what there's
+a product that actually helps you do
+with do things with that I've heard but
+it's nice to have your monitoring and
+your business level monitoring being
+able to Jen automatically create an
+incident now a sidebar of this is
+automation is great but that shouldn't
+be the only way that can be done it's
+really important that any human can
+generate it can cause any human can't
+cause an incident whatever you know all
+the time it can raise an incident and
+declare an incident I'm one of the
+fellows who put help put together kind
+of our Incident Response process I said
+pager Duty is fond of saying that he's
+like I want the janitor who's cleaning
+up at 2:00 in the morning to be able to
+glance over at a dashboard and see that
+things look bad and be able to cause us
+sub-1 right and he's not wrong the
+because
+we tend to have this belief that we're
+Leary as humans of marking something as
+an incident right and it's probably for
+good reason because it's usually a
+painful thing that we're about to create
+but one of the things to bear in mind is
+it's always better to err on the side of
+starting an incident call and starting
+in sentry your Incident Response process
+and then determining it wasn't necessary
+because the worst thing that happened
+out of that is you got practice at doing
+Incident Response if you wait a sub 3
+could become a sub 1 so it's automation
+is not you know you want to make sure
+that you have that automation but always
+have the human pull the fire button or
+fire switch right and because the other
+reason is you have to watch your
+Watchers you know so at Pedro Duty it's
+kind of important for us that we're
+delivering notifications to you in a
+timely matter because otherwise the
+products that very helpful right if
+notifications are delayed you're like oh
+great paid review thanks for telling me
+that 20 minutes ago things started going
+terribly terribly wrong it would have
+been nice to know that 20 minutes ago so
+we have a system that's constantly
+checking how long is it taking right so
+that's great to have this great monitor
+that's telling us our business level
+things now we're also watching that
+monitor because if we're not getting
+data from that that's almost worse than
+having a delayed notification because
+we're super flying blind at that point
+things could be going bad and we don't
+know so you need to watch the Watchers
+you know because you might be having a
+business impact but you can't be sure
+and again speaking of humans that could
+do all these things and humans are key
+humans are really really expensive you
+all in a large organization how many
+people have ever been in an incident
+bridge with a hundred people on it I
+have and 95 of those people are doing
+nothing right it sucks it sucks for the
+organization because it's super
+expensive because those people are
+caught they they cost literal dollars to
+be on that call it's impacting their
+productivity and it's also it just super
+sucks to be that person to be sitting on
+a call and you get frustrated and it's
+really bad for morale so think about
+this too if they have those hundred
+people if everybody costs a hundred
+bucks an hour that's ten thousand
+dollars an hour
+and it's not effective so when you're
+deciding who is and isn't involved in
+certain parts of your incident response
+process think about the human cost
+that's involved so we want to design it
+accordingly and as we learned in
+kindergarten practice makes perfect it
+still does so I talked about that if we
+raise an incident when maybe you didn't
+need to happen the worst thing that
+happened is we got to practice that's
+great because that's real practice and
+we want to practice all the steps as we
+move from ad hoc to more reasoned
+approach and a more repeatable approach
+to how do we practice all those things
+we're going to talk about that happen
+during the during section now here's the
+key we want to practice this when it's
+not stressful we want to practice it
+when we have total control over the
+situation so some organizations do fail
+your injection or if you want to be
+fancy you might call it chaos
+engineering that's a good time to
+practice incident response if you do
+game days whatever you want to call them
+at Pedro Duty we do failure Fridays
+although we don't always do them on
+Fridays sometimes there other days of
+the week but technically it's a failure
+Friday but we handle it like a complete
+incident so even though we know exactly
+what happened because we did it on
+purpose and just for example what we do
+when a failure Friday is we will go and
+just turn something off will
+intentionally break part of our
+production system in a safe and
+predictable way and yes we totally know
+what went wrong and we still run it like
+a full incident and what that lets us do
+is overall as an organization it lets us
+get that organizational muscle memory
+going because all we're doing is
+practicing steps and we don't have the
+additional stress of trying to figure
+out what's actually wrong it's also when
+we train our incident commanders and
+we'll talk about what incident
+commanders do in a minute but you before
+you go on call as a productive incident
+commander in production you're gonna run
+a fail your Friday because it lets you
+feel good about what you have to do what
+cuz it's a time when it's then during
+the day you know what's wrong and
+everyone's there to help you so we do it
+you know so when you do these use a game
+day followed the same process in
+ceremony that you would
+in the real world the other thing is you
+need to before something happens
+understand what the different roles are
+that are gonna happen that are gonna be
+needed and a lot of times we kind of
+ad-hoc create these roles would be like
+okay so the on-call engineer is gonna
+run the call and when the CTO calls in
+and once know what's going on I guess to
+last them and we'll just sort of bring
+people in as it happens and the thing is
+if you're doing this ad hoc
+determination of roles during the
+incident you're taking away energy and
+time from actually solving the problem
+so again these are things that we can
+figure out in advance because only thing
+we want to do while something's going
+terribly terribly wrong is try to make
+it stop being terribly terribly wrong
+anything we do that is not directly salt
+going towards figuring out solving the
+problem and restoring service is a waste
+of time and energy so this is a basic
+role structure it's loosely based on
+some first responder practices I think
+it's important for me to stress that
+this is how we do it it doesn't mean you
+need to do it exactly this way you may
+have more or fewer roles but this gives
+you kind of a little bit of I'll tell
+you some of the ones that I think are
+pretty critical so at the top we have
+the incident commander and the incident
+commander is not a problem solver in
+fact they should absolutely not be doing
+anything to try to figure out what is
+actively wrong and going in logging into
+systems and looking at logs and
+redeploying code or doing anything like
+that they are managing the incident they
+turn the crank that gets us from things
+are broken to things are less broken and
+things are finally not broken at all
+they work as a task dispatcher as
+information as in verbs herbed and
+shared the IC can direct people towards
+the next steps that need to be taken
+based upon things that happened one of
+the key things that that they talk about
+in in firefighting is the commander is
+someone who exists in in in firefighting
+and the incident commander and in a fire
+department during a fire wears a white
+helmet and the saying is that if you see
+someone in a white helmet carrying a
+wrench take the wrench away and hit them
+in the head with it because they
+shouldn't be trying to fix anything and
+that's absolutely still true within IT
+incident command they shouldn't be
+trying to do anything we have a deputy
+for redundancy because well
+sometimes in commanders have to do
+things like you know maybe take a break
+for various reasons also during the
+incident there's things like directing
+and managing information flow so their
+deputy can help with things like setting
+timers and just some of the
+administration is spend it straight of
+things that might have to happen you can
+see that we in this this haven't
+combined with the scribe sometimes
+depending upon the size of your
+organization or how you're getting
+started you may have these be the same
+person wearing the same hat but the
+scribe is really important because as
+we're gonna learn during the after we're
+gonna want to review all the things that
+happened and if we don't have some way
+of communicating this and keeping track
+of it we're gonna have a lot of recency
+effect problems and we're not gonna
+really remember then what we think about
+it is we have the subject matter experts
+which is just a fancy term for the
+people who actually know what to do and
+are gonna actually try to resolve the
+issue so depending upon these
+organization your organization they may
+be aligned by teams you may have the DBA
+on call this is admin on call the app
+admin on call or they may be aligned by
+service you may have the order service
+applications on call you know the login
+service on call load balance or service
+on call etc it doesn't really matter the
+the thing that's important is that the
+subject matter expert is a person who is
+most responsible for a given area who
+also has the ability to most directly
+affect it arc not make good SMEs because
+usually architects don't have any
+ability to actually log into things in
+production and do things so it's
+important that you have this combination
+of someone who can figure out what's
+going on and can actually take action
+remember we're in not okay land when
+this is happening this is when things
+like change control and stuff like that
+tend to go out the window because we
+need to be able to restore service and
+yeah I said it so the person this again
+your subject matter expert is someone
+who can observe what's wrong but can
+actually do something about it
+you want to have a clear understanding
+of who's supposed to be involved in each
+role right and again there's this
+company that makes a product that helps
+you with this and what's important about
+this is it lets you understand
+who is involved in any given time right
+and also who isn't and so this could be
+as simple as just when I say having a
+clear understanding this is basically
+your on-call rotation this is saying who
+for this particular role at any given
+time is the person who is going to be
+involved and the reason why I say by
+knowing who isn't is even more important
+than knowing who is from the
+practitioner perspective from the person
+who does carry that pager you know
+figuratively speaking it helps absolve
+stress right because if I know that what
+I'm truly not on call I'm truly not on
+call that makes me feel a lot better
+about when I am on call there's I I have
+worked in many jobs and I'm sure a lot
+of you have too and some of you may
+still be there where you have your time
+when you're on call but even when you're
+off call you still might get paged and
+that really really affects your
+work-life balance and it makes you
+incredibly unproductive during an
+incident whether you were on call or not
+because it's a fiction so the thing is
+if I know this week I'm not on the hook
+I can breathe easier and there's a lot
+of tricks around this that we've started
+to do where you make our on-call
+rotation is actually really short so on
+call for incident command at pedra duty
+is three days so you're never on call
+for more than three days at a time and
+that makes you feel pretty okay with
+being on call those three days because
+you know you will be off for a lot more
+than that versus you know having I think
+about times what I've said I'm like okay
+I'm on call for you know pretty
+elaborate financial institutions for a
+week at a time and so that means for a
+week I can't be more than five minutes
+away from a terminal that's a really
+really crappy week but if it's three
+days I can deal with three days okay so
+let's talk about during so this is the
+and we're gonna talk about this from
+that a lot from the perspective of the
+incident commander so we're gonna all
+pretend that we're learning how to be
+incident commanders and by pretending I
+mean hey guess what you're learning how
+to be incident commanders so the first
+thing that happens every call starts
+like this you introduce yourself and you
+make it clear that you're the incident
+commander and the reason that we do this
+there's twofold one by introducing
+yourself you're a human right I'm a
+person and you know my name
+and depending on your organization you
+might be like well everybody knows your
+name because we're in our position of
+twenty people that's great you might be
+an organization of 20,000 people but
+regardless we're we're saying this is
+still a bunch of people doing stuff and
+by specifying the words incident
+commander it's subtly insit instills
+this idea that I'm in charge and we're
+gonna talk about that in the middle in a
+minute
+but the incident commander for the time
+of the call is the absolute most
+important person in terms of seniority
+and in terms of authority so this is why
+we don't do things like abbreviate it as
+well and we want to watch out for
+acronyms like don't say things like at
+the IC on the RC and get a BLT for all
+this means it does a couple of bad
+things right it can if we use too many
+internal acronyms and too much internal
+lingo that could be really divisive to
+people who are new to our organization
+who don't know all of our jargon right
+and it adds cognitive art overhead cuz I
+have to sit here and I have to parse
+this even if I know what all these
+things mean I have to sit there and say
+let's get the incident commander on the
+response call and then let's get a bacon
+lettuce and tomato for all our subject
+matter experts okay so I had to spend
+some cognitive time thinking about what
+all those things meant and even today
+I've given this talk a ton of times I
+work at pager duty I never remember what
+Arceus stands for I think it's response
+call sounds right you know so we want a
+favor explicit and clear communication
+over all else so one of the key
+takeaways here is it clear is better
+than concise clear instructions are more
+important than concise instructions and
+like I said we want a favor explicit
+information over acronyms doesn't mean
+you have to write the Great American
+Novel and give a long essay explaining
+everything but make sure that the
+instructions are unambiguous talked
+about this a little bit before this is
+kind of key and sometimes controversial
+but the incident commander and I realize
+I'm using acronyms here but that's
+because it's a slide and I want to take
+ups you know the incident commander
+becomes the highest authority yes even
+higher than your CEO so no matter what
+your day-to-day role no matter what your
+title is the ensign commander is a
+highest-ranking person
+on the call just on the call if the CEO
+joins your incident commander outranks
+them in the incident response situation
+this is actually critical for effective
+incident response and it does require
+buy-in from your executives don't
+surprise them with this it will not go
+well for you we had this happen at page
+V D where so our CEO jente is about a
+year and a half ago when she joined she
+had not been properly indoctrinated into
+our way of doing things and she joined a
+major incident call and basically got on
+and said I want this solved in ten
+minutes
+and innocent commander said Jen I'm
+gonna have to ask you to please leave
+the call and she did and was very very
+upset and it was explained later but the
+incident commander said you know that
+was actually really really hard to do
+but it was very necessary because it's
+very distracting and it works
+differently than the way that we're
+gonna have to be effective but again
+socialize this before you do it don't
+catch people by surprise and one of the
+things I so the incident commander
+manages a flow of conversation and what
+that can can mean as part of that is
+actually prevent as communicating back
+to those stakeholders or making sure
+there's a method of communication back
+to the stakeholders as you grow you can
+create a larger structure of people
+participating in the incident you may
+have someone who's a communication
+commander or whatever you might want to
+call it whose entire job is to you know
+kind of run the comms which could be
+internal and external and how do we
+communicate to stakeholders how do we
+communicate to customers how do we
+communicate basically to get people out
+of the way one of the one of the keys
+that's not in this particular deck but
+isn't our incident command training we
+give in our incident command training we
+give several examples of how to handle
+the executive challenges that happen on
+calls but what of the one of the common
+ones is what we call the executive swoop
+which I think we've all seen which is
+when you're running a call and your CTO
+or your CEO or someone jumps on and they
+immediately start just barking orders
+and it's really detrimental because
+you're in the middle of trying to solve
+a problem and you've got someone who
+doesn't have context coming in and
+redirecting things and it there's a very
+simple way to solve for this as the
+instant commander you say okay Jenny are
+you taking command of the incident and
+they usually get very quiet and let you
+return to what you're doing because
+nobody they don't want to run it right
+and the thing is usually again people
+aren't doing this because there are
+terrible human beings they're just
+trying to get some of response and
+trying to understand what's happening so
+redirecting in that way can be really
+helpful now the communication the flow
+of conversation goes and the idea where
+you're gonna have stakeholders and
+subject matter experts who might not
+even be involved in the call yet are
+gonna want to say thing they're gonna
+say things like hey I heard from a
+customer that we're having an issue with
+our order entry system right now what's
+going on so the IC can can help manage
+the flow of that conversation the IC can
+take that information as it comes in and
+say okay we have a report that says this
+is going on I'm gonna get a resource
+from our app team to see if we've done
+any pushes lately so that provides some
+information back and then the IC goes
+through and engages the resource that
+they're not already there maybe the app
+team is already on a call great if not
+we're gonna engage them and I see those
+things like say hey here's the problem
+I'm gonna check back with you in five
+minutes please come back to me with
+what's going on and if I haven't heard
+back from you in five minutes I will
+come check with you so remember the IC
+is not the one solving the problem that
+is creating the context for everybody
+else to work together without having to
+worry about who's doing what and make
+sure that they all have the information
+that they need so at the beginning of
+this I asked if someone could keep track
+of time did anybody actually do that
+okay so maybe maybe not but really the
+reality that it usually doesn't work out
+so well is because of something we
+called the bystander effect everyone in
+the room assumed that somebody else was
+keeping track of time for me so never
+used the phrase can someone write
+because you'll hit that bystander effect
+every time no one will actually do what
+you want and if they do it if by chance
+they somehow do do what you want you
+won't know who it is or that they've
+started or that they understood it so a
+better approach this what a
+then to say I'm you please keep track of
+the time and give me a nod when we get
+to 30 minutes starting now
+understood and if I don't get a response
+back then I'm gonna repeat it until
+we've got confirmation so what about
+like in an incident situation how might
+that go so it might be something like
+you know rich I'd like you to
+investigate the increased latency try to
+find the cause I'll come back to you in
+five minutes understood and rich says
+understood so what's a little bit
+different this is a lot more verbose
+than can someone but several important
+things happen in this exchange the task
+was assigned to a specific person now
+it's okay to assign it to a role you can
+say the DPA on-call but it must be a
+single individual it's not a team
+because when everyone owns something
+nobody does and we're gonna talk about
+that a little bit later too when it
+comes to things like post-mortems but
+it's assigned to an individual human and
+the task was given a time limit so the
+subject matter expert knows exactly how
+long until the IC is gonna come back to
+them for an answer so they won't be
+surprised saying oh whoa whoa you only
+gave me five minutes said I told you I
+was gonna give you five minutes so we're
+clear and the IC confirmed that the
+subject matter expert had understood the
+instructions are going to carry them out
+so this way you know Eric doesn't come
+back in five minutes and find out that
+rich hasn't actually done anything
+because it didn't understand what it was
+supposed to be being done another thing
+that's kind of key is so humor can be
+really helpful sometimes on an incident
+the team can start chasing their tail
+start going down rabbit holes or just
+generally not being helpful to one other
+because it's a stressful situation as an
+incident commander you can use humor to
+kind of move the person doing something
+not so great out of the flow of
+conversation so this clip is from Eric
+traffic control at JFK so air traffic
+control as we said are constantly
+dispatching people from point A to point
+B so they don't you know it smashed into
+each other
+so it's a little funny but it was a
+conversation forward right I mean the
+the ATC made a joke but then he also
+told the pilot what he needed to do said
+okay so this thing happened and remember
+incident calls don't have to be super
+cut and dry they they're important to
+your business so humor can be a thing
+but in the context of moving the
+conversation forward you want to have a
+clear roster of who's been engaged right
+so have a roster of who the specific
+people are in each role this is a DBA
+who has the thing going on this DBA has
+not been involved this is gonna be
+important later so your scribe needs to
+know this information this is one that I
+believe in a lot and this goes back to
+our conversation about the hundred
+people on the call ninety-five of whom
+are doing nothing so we want a rally
+fast and disband faster so you want to
+get the right people on the call as soon
+as you need to but get them off the call
+as soon as possible it's really
+stressful to be sitting on a call
+thinking that this is an application
+issue and I'm the network engineer and
+I'm gonna sit here for the next 45
+minutes while the app team goes and
+tries to push a new change to see if
+that actually solved the problem and in
+the meantime I'm getting more and more
+annoyed and irritated and it's adding
+stress and cognitive overload and just
+general annoyance or fear of annoyance
+the people doing the work cuz they're
+like oh my god there's like a hundred
+people on this call all watching me and
+waiting to see what happens
+so nothing good comes of it so as the
+incident commander start kicking people
+off the call as soon as they aren't
+needed don't worry you can get them back
+so so get them off and I mean you set
+the expectations say okay you know what
+hey rich I don't think we need you
+anymore
+so I'm gonna ask you to leave the call
+you know keep your phone on you we'll
+call you if we need you again but go
+ahead and go back to bed and that really
+helps a lot because then when you do
+need them he hasn't been sitting there
+being annoyed he's ready to go and you
+want to have a clear way to contribute
+information to the call so as you're
+keeping track of things know how do
+subject matter experts share their
+information anyway for this me to say
+hey incident commander I have some new
+information
+for you so you may say we make all of
+our communications through a voice
+bridge or maybe we're doing it in the
+slack Channel and that's how things get
+communicated one of the ways we do that
+at pager duty is the conversation
+happened the information is communicated
+from the subject matter expert via mouth
+words on a voice bridge but in the slack
+channel that anybody can follow along
+the scribe is saying okay this is what
+you know Jimmy just said X Y Z so that
+information is being contributed and you
+need to have a really clear mechanism
+for making decisions and this right here
+is an area where along with the word
+incident determine subcommander becomes
+somewhat controversial but you always
+want to remember that okay versus not
+okay emergency versus not emergency this
+way of making decisions that I'm about
+to describe to you is perfectly good and
+well-suited for incidents and super not
+the way to make decisions as a group
+when everything is going well so first
+thing to make sure to remember is that
+if it's so easy that anyone can do it
+then a computer can do it so save the
+call for decisions that require humans
+right if things are simple let the
+simple computer do it so their first
+step is to make sure the decisions the
+only decisions were making our ones that
+actually require a human's brain and
+this is how it goes
+incident commander I think we should do
+X and Sigma says the Provos action is X
+is there any strong objection so there's
+a little bit of psychology going on here
+right so first thing that's happening
+that's important is we're being very
+we're stating very definitively what the
+proposed solution is now and then we're
+saying is there any strong objection the
+two good things that come out of this
+first thing is by asking is there any
+objection is it's a lot fat a lot faster
+than saying does everybody agree because
+does everybody agree means I have to go
+ask avoiding for input from everybody
+does anybody disagree I just have to
+listen for that it reminds me of going
+backpacking and Boy Scouts when you
+wouldn't say is everybody ready you say
+is anybody not ready because that's what
+you want to listen to is there any
+strong objection this is how we make
+sure we don't start going down a bike
+shedding exercise of well there's
+not the optimal thing we could do and
+let me get my opinion in there and this
+is what the place where it gets a little
+controversial because people say well
+maybe I'm not comfortable raising a
+strong objection you have to be during
+an incident if you care enough then you
+got to be you got to stick up for it one
+of the other things that's controversial
+is it's better to make any decision than
+to make to make the wrong decision than
+to make no decision and again this is
+true during wartime it is that true
+during peacetime so we want to make sure
+that we're making forward motion capture
+everything call out what's important now
+versus later so write it all down right
+if you're able to call it what's
+important to do later right you might
+say okay you know what so we actually
+kind of realized that the problem is the
+temp drive was filling up because of
+logs and we really should get around to
+writing a shell script that's gonna like
+that be a cron job that rotates those
+logs we should do that don't do that now
+but capture it because you're gonna come
+up with a lot of ideas during the call
+that are not effective to do during the
+call but make sure they're being
+captured so that you can figure out what
+your next steps are and there's one last
+thing you need to assign an owner to the
+review the post incident review before
+the call is over again we've restored
+service yay okay people can place orders
+again awesome all I want to do is get
+off the call not yet because we
+absolutely need to make sure that the
+post instant review or post-mortem or
+after-action report or whatever we want
+to call it has been assigned to a person
+the incident commander does not
+necessarily have to be the owner but it
+has to be assigned and again it needs to
+be assigned to a human it's not assigned
+to oh well the development team for this
+application will do it
+nope Jimmy will do it because again if
+everyone owns it nobody owns it so let's
+talk about what those things are
+now has anyone here heard of blameless
+post-mortems okay cool good if you're
+not you can google them we have a lot of
+times it would be a whole talk in itself
+to talk about blameless post mortems but
+their name will get you about halfway
+there also I've resources the end of
+this deck I point to a blog post from
+while going out about six years ago that
+John all Scott wrote when he was an Etsy
+where he introduced the idea of
+blameless post-mortems so the whole
+thing is after an incident you have
+whether you call it an after-action
+report a post mortem a learning review I
+don't care but what you're doing is
+you're capturing all the information
+about what went right what went wrong
+and you're gonna review it
+this is incredibly valuable and you want
+to do this for all your incidents think
+about it this way the NTSB has reports
+on all crashes even if they aren't fatal
+and don't forget that the impact to
+people is part of that post incident
+review as well so think about what
+happened to humans because of what
+happened it's that we tend to go down
+this path of saying well so then we
+realized that the problem was we didn't
+have a Nagios agent on this particular
+service so that's why we didn't know
+about and it caught us from behind in
+blah blah blah but we don't do is we
+don't say hey someone got called at 6
+p.m. at their kid's birthday party
+because she was the only one who knew
+the information and she had to miss her
+kids birthday party that's actually a
+huge problem to the organization so if
+we can identify this it helps us in the
+future alleviate stress on the
+individual but it also makes our
+organization a lot more resilient
+because if that happened we have an
+organizational problem that we need to
+be able to fix and we want to look at it
+in the the light of day when we can do
+something about it not when we're in the
+middle of stress this is painful but
+valuable which is to record your
+incident calls and review them
+afterwards you can play them back at 1
+and a half or 2 times speed like you're
+listening to a podcast the this helps
+you find the things you didn't catch at
+the time or you might not have addressed
+in the review when you're writing and
+doing your posts in Central you you run
+into the recency effect a lot of post
+sense and reviews have a lot to do with
+what happened in the last hour of the
+incident because that's what you
+remember and you might remember some of
+the stuff that happened at the very
+beginning but all the stuff in the myth
+it's what you forget about so it's
+always good to review these calls again
+it can be painful but it's valuable
+another thing that's really key is hey
+continuous improvement that's part of
+DevOps so you want to regularly review
+your incident process itself the other
+you do that quarterly you do that
+annually just make sure you're asking
+the right questions
+in an incident for example at a certain
+point at page V everybody in the company
+was paid during a critical incident that
+worked great when the company was 60
+people it doesn't work well at 400 so
+you are continually changing how we do
+things were in the process our selves of
+going through our incident response
+process and saying how do we add
+commercial response as a formalized
+thing how can we get better at that we
+think we're pretty good at it but how
+can we do better
+and then finally who's seen the movie
+Apollo 13 pretty good movie so if we
+think about what Apollo 13 what happens
+in Apollo 13 you've got a large number
+of technically adept people who are very
+good at running their infrastructure
+they've got some monitoring in place
+they've got an end user and then
+suddenly their monitoring is telling
+them something slightly different than
+what they're used to seeing and their
+end user is calling to tell them that
+the thing isn't doing what it normally
+does so this sound familiar it's an IT
+right the movie is a lot more dramatic
+than real life but this is the first two
+minutes from the point of explosion of
+the actual flight directors loop of
+Apollo 13 and this is actually a really
+interesting illustration of a good
+incident call so I want you to listen
+for when the subject matter experts
+start to offer information listen for
+pushback the incident commander says I
+think you're giving me information that
+is not correct and then listen for when
+the incident commander starts the
+problem-solving loop okay we've got some
+information from you we've got some
+information from you let's start putting
+it together and let's see what happens
+so the point is we can borrow a lot from
+different industries right every issue
+with our you know kind of user signup
+form isn't the same thing as an Apollo
+capsule having a caution like that and
+this also is a lot less dramatic than
+the Ron Howard version everybody sounds
+a lot calmer but it's an example of what
+a really good incident call it can sound
+like and actually the entire loop of all
+the flight flight guidance and flight
+control is on YouTube which is pretty
+cool
+so a couple things to bear in mind if we
+think about it we want to have our
+structure in place beforehand we're
+gonna practice a lot have our clearly
+delineated roles manage the flow of
+conversation make those clear decisions
+rally fast and disband faster I believe
+in that really strongly and continually
+review if you want to learn a lot more
+about this the folks from Blackrock
+wrote this book for O'Reilly called
+incident management for operations and
+this is was the book that and and the
+practice that Blackrock follows that was
+the inspiration for how we do Incident
+Response at page or duty so I highly
+recommend this book and just bear in
+mind don't panic stay calm calm people
+alive are the couple of folks who helped
+create our Incident Response process at
+the company they spent some time
+stepping on their stuff training with
+first responders not actually you know
+going in fighting fires but just more
+classroom training with them and one of
+the things that one of the firefighters
+told my colleague Eric
+he said you know a lot of times you said
+it's not uncommon you'll be fighting a
+fire and a homeowner is panicking as you
+will your house is on fire and they'll
+say hey look this may be your first fire
+but it's not our first fire and that's a
+way to think about that you're gonna
+have business owners you're gonna have
+folks who are panicking and freaking out
+because their service is down this may
+be their first fire it's not your first
+fire we practice a lot
+we also we've open sourced our incident
+response Docs so they're available at
+response type hgtv.com they're on github
+we take pull requests to them and our
+entire process is online as well as all
+of our training material so you can
+check it out and you can always fork it
+from github uses a base for your own
+internal documentation again I can't
+stress enough that this is what works
+for us and it's a great place to start
+but there's probably things that we do
+that you might not need to do and there
+may be things that you need to do that
+we don't do so let's not you know don't
+cargo cult it it also looks really
+pretty you know so we've got all this
+prettiness I think that that slide was
+written by the guy who who created the
+page and I don't worry about the a chart
+here I will make sure to post the link
+to these slides in the Meetup
+but just a couple of the resources so
+this YouTube channel is angry air
+traffic controllers and pilots so that's
+where we got that clip from the ATC from
+it's just absolutely hilarious
+there's the blameless post mortems from
+the etsy kotas craft blog which was yeah
+back in May of 2012 we did an episode of
+my podcast arrested DevOps called
+incidents and accidents go figure
+examining failure without blame it's my
+podcast co-hosts who came up with the
+title for this particular talk as well
+so she really likes Paul Simon and again
+always note of response at page duty
+calm and levity any questions any
+thoughts any feedback I'm open to hear
+what you have to say
+what percentage of our man-hours so
+failure Fridays are about three hours
+long but it'll be it's it's not
+everybody in the organization
+participating and that's just because it
+will be the participation is whoever
+would be on call for that particular
+service at that particular time is who's
+who's working on that and then we have a
+chaos guild that kind of structures it
+so I guess you would say we spend about
+three hours on Friday and then there's
+about an hour on Wednesday which is the
+chaos guild meeting where we make the
+plans for failure Friday so as a
+percentage it's probably even less than
+that because there's not not everybody's
+participating yeah yeah
+and in your it could be small too like
+you don't have to like completely take
+down your load balancer or something
+like that you know in fact I would
+recommend you start doing failure
+injection at a very small level because
+the first place that it's helpful for
+you is not for testing the resilience of
+your system but think about it are you
+doing it to test your incident response
+process so you can and again depends
+upon what your services are that you
+have to provide so at Pedro Duty we have
+a pretty aggressive uptime because if
+we're down everybody is screwed because
+you can't find out that you're down so
+it's always something I find interesting
+is that I never really realized so I
+worked at the company how exciting it is
+to be an SRE at Pedro Duty like
+everybody's like I want to be an asari
+at AWS and get help in all these places
+have these crazy uptime requirements
+like come to paid your duty some time
+people get really really mad
+so that so the thing is our uptime
+requirement is there is no plan downtime
+we have zero maintenance windows so we
+have to be able to have failure
+injection that does not cause
+degradation and that doesn't mean we get
+to cherry-pick what we do failure
+injection on because technically nothing
+can fail into the point to cause the
+service degradation like the redundancy
+of systems has to exist so what our
+actual literal contractual uptime
+numbers are and things like that I'm not
+a hundred percent sure I try to
+certainly not gonna share with you what
+I think they are because this is on
+YouTube and I'll get in trouble because
+I'm sure I'll be wrong but I do know
+that we don't carry maintenance windows
+and that's actually one of the to the
+point of not to say like oh we could do
+what everyone it's that we we have no
+plan downtime
+I mean unplanned downtime is a thing
+that happens but even then that's that's
+considered unacceptable because of the
+impact that it has and we think when we
+think about services like paper duty or
+github or parts of AWS and when we know
+like what what happens when github goes
+down everybody stops being able to work
+that's kind of a big deal right we could
+have a whole different conversation
+about owning your own availability when
+it comes to something like that but we
+to be when Amazon takes an outage pager
+Duty has to stay up because how else do
+you know that your service down because
+Us East went down so it's it's a lot of
+it could be a lot of stress but then
+again your requirements may be different
+so you sit there and say like okay what
+but if you backtrack it all the way back
+to what defines an incident and
+especially what defines a major incident
+those are the things you want to test
+and you can test them in a game-day even
+without doing a failure injection you
+may say we're not actually because our
+system is not resilient enough that we
+can just shut a server down and
+everything will be fine we're not there
+yet that's ok but let's do it on paper
+let's pretend because this is gonna be
+our way of running a game-day of
+understanding exactly what would we do
+and finding out where those holes might
+be in a safe way and then once you feel
+like you've got it then go ahead and
+roll those dice you know it's a whole
+other conversation about chaos
+engineering
+yeah yes
+there was I'll I actually I'm gonna have
+to dig it up cuz I remember where I saw
+it but there was a really good article
+that I read a couple months ago about
+explaining chaos engineering to the to
+the c-suite and especially to do failure
+Friday and maybe don't call it that
+that's that was one thing I definitely
+remember awesome
+so we name things we're very cynical in
+this business I think so
+I would would look to that a couple
+things that I wanted to mention so Erin
+mentioned you know DevOps days Kansas
+City's coming up which is great and I'm
+gonna try to be there I checked my
+schedule I knew I was gonna be out of
+the country around that time but it's a
+week before so as far as I know I should
+be able to be there especially if I'm
+speaking but we'll see about that
+but DevOps days Chicago and Chicago is
+not too far it's just like a little hour
+and a half plane ride from here we've
+got this will be our fifth one it's an
+it's August 28th and 29
+our CFP is closed in fact once I get
+around to it I'll be posting our program
+we've got that settled but I can give
+you a couple little spoilers we've got
+Donovan Brown from Microsoft as speaking
+Andrew clay Schafer who was one of the
+one of the cats who invented the word
+DevOps and he's gonna be speaking with
+us and a bunch of we've got some local
+stories and I'm really excited about our
+program so I highly recommend coming to
+join us it's a fun time and if you'd
+like podcast I have a podcast called the
+rest of DevOps
+again I've got some Pedro Duty stickers
+some arrests and DevOps stickers and
+buttons and stuff over there so help
+yourself and I'll be hanging out for a
+while afterwards we can chat about
+things being broken and how to make them
+less broken and all that DevOps stuff so
+thanks for letting me be part of this
+tonight
+[Applause]
+that's how the internet works well thank
+you all for attending hang out for a
+while talk make connections again the
+way the way the script works is our goal
+is to to make all of Kansas City tech
+better in any way that we can so likely
+anything you can learn to like help
+better the culture of your companies and
+stuff like who knows I seem to change
+jobs a lot recently and maybe I'll work
+at your company so I wanted to be an
+awesome company when I worked there so
+and you are the same when you come work
+with me because we're doing awesome
+things in my company self-hatred Duty is
+also hiring so if you go to pages do
+decom slash careers we're hiring
+engineers we're hiring all sorts of
+people we're hiring more of me more
+DevOps evangelists and we've got a
+pretty good remote culture we're working
+on being a distributed workforce right
+now I say we are remote friendly so
+we're not like gitlab we're not remote
+first but I'm working really hard to get
+us to understand that even though I'm
+moving to be in the office but that's
+another story all right rock on

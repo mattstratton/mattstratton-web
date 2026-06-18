@@ -1,0 +1,426 @@
+sweet everyone who was here last year
+raised hands yeah quite a few people who
+here is not Dutch yeah that's there's a
+ton of not Dutch people here I am NOT
+Dutch obviously I am Jason I work at
+data dog I live nowhere if you were here
+last year and you are not Dutch
+hopefully you've been able to remember
+some of the words that I taught to you
+last year hopefully been able to use
+them and on all the molinator Landers
+bedankt for practica and some quirky
+culture things like you might be walking
+around Amsterdam for those who are new
+to Amsterdam and you will see windows
+that don't have curtains and this isn't
+because the Dutch don't like privacy the
+Dutch really like their privacy
+especially gdpr and stuff but you know
+it's they don't like to obscure their
+windows and this reminds me a lot of the
+state of DevOps and monitoring how many
+people have heard of observability how
+many people know what that is
+observability and we use it a lot a lot
+of people talk about the three pillars
+of observability and building cultures
+of observability and they really just
+mean monitoring right they're just using
+it as a synonym to fancy way to say
+monitoring observability that was this
+word that we've adopted from this
+practice it's called control theory and
+in control theory you have this idea
+that you have a black box and you don't
+know what's going on inside of it so you
+measure the inputs and you measure the
+outputs and you try to figure out what's
+happening inside and this is a problem
+right like we shouldn't have black boxes
+you should know exactly what's running
+on the systems that you're operating in
+fact most of you work with the software
+developers that are writing that
+software so there's no reason that you
+can't you know look inside it's it's
+almost like a Dutch house there are no
+curtains you don't have to stand at the
+door and figure out what's inside you
+can just take a look right so I'm not
+encouraging you to look in Dutch windows
+as you're walking around town but that
+is a very rude thing to do but the
+reason that we don't look through the
+windows is because yeah that's rude the
+reason that we don't look into the
+software that we're running is often
+because of silos because
+operations aren't talking to developers
+develop
+talking to operations and clearly nobody
+wants to talk to business people to
+actually understand what you should be
+measuring so just as a note as you're as
+you're thinking about this whenever you
+hear the word observability and I'm sure
+you're gonna hear a lot more of it as
+DevOps days goes on but when you hear
+that word take a moment to consider does
+this person mean monitoring or do they
+mean black boxes because if they mean
+black boxes that's a warning sign now
+one of the other things you might notice
+is you're walking around Amsterdam is
+the Fabo and you'll notice this
+especially if you're drunk which you
+will probably be later today after the
+barbecue and when it's like 3:00 in the
+morning and the fable is great everybody
+seems to say that they hate it but I
+think that people really like it right
+because you're drunk it's 3:00 a.m. you
+put a couple euro in the slot and you
+get a warm croquette inand who doesn't
+want that at 3:00 in the morning when
+you're drunk it's fast and it's
+self-service and again these things
+remind me of DevOps and how we our
+industry has evolved because fast and
+self-service are two things that we've
+been driving for and it's it's why a lot
+of ops teams have you know done the
+renaming and they've become platform
+teams right so now that they can focus
+on building a platform and it really
+becomes well now I don't have to talk to
+developers right we can set up
+automation and developers can just
+deploy to the cloud and leave me alone I
+can work on my tickets I don't have to
+get interrupted like hey developers
+there's this thing called docker just
+put everything inside of a docker
+container and we'll push it up there and
+everything will be fine
+leave me alone I'll work on some
+automation and I'll play some
+PlayStation and you know that's that's
+the dream life right who wants us to not
+be interrupted but I hate to tell you
+that you really don't want to be the
+fable of ops right because that's really
+what you're driving after if your goal
+is to stand behind a wall and like build
+automation so that people can just put
+in a gyro and pull things out and you
+don't have to talk uni to anybody that's
+not DevOps like DevOps means that you're
+talking to people it means that you
+should focus on the service and not on
+the platform and this is why most of us
+actually do hate Fabo we eat in real
+restaurants right because better service
+leads to better food you can talk to
+the waiter and you can tell them I want
+to order steak and I want it to be rare
+or medium well and then your waiter can
+say do not order steak well-done because
+only horrible people do that so as
+you're starting to think about how you
+can work in ops think about being a
+service and when you're finally done
+with with your meal that you've properly
+ordered because you didn't go to fable
+my favorite Dutch cultural practice that
+you can participate in is going dutch
+because the dutch like equality the
+dutch like responsibility which
+generally means that dev and ops we
+should share responsibility for the
+systems for the applications that we run
+so just to recap if you're not getting
+visibility into your systems if you're
+talking about observe abilities black
+boxes talk to your developers talk to
+the business people talk tops focus on
+providing services not just platforms
+and go dutch share some responsibility
+Thanks
+[Applause]
+next you with no videos so yes hello
+everybody I'm you virus I'm a built
+master at top desk and a top desk we
+have abolished all email alerts we
+figured they are no not really effective
+because they're so easy to ignore and
+actually some developers had this email
+rule setup if it's from Jenkins delete
+it we don't need it we need something
+more effective so we asked our
+operations department hey what do you
+guys use you keep loads of customers
+online and turns out that they use text
+messages text messages what is this 1996
+we're in 2018 I sort of expect AI
+deep-learning I want to be a jet boats I
+want to be harassed by a jet boat that
+tells me that I broke the bills again I
+want to get these kind of situations
+so unfortunately our company isn't yet
+ready for this so instead we're using a
+Jenkins plug-in called a build monitor
+it's on screens in every room and it
+looks sort of okay and there is it has a
+downside and that means it's almost
+green you have to watch the screen to
+see what's happening and if everybody
+could without its QR scanner because I
+do have the QR codes to the movies let's
+see if the wee-fee Wi-Fi hold on so this
+is what I a little eye catcher that I
+created and it's little flashlights
+warning lights with a USB controlled
+relay as soon as a bill goes red it will
+start spinning and it's not really
+bright but it is really cheap and it
+makes a lot of horrible noise when it
+turns this grabs the attention since
+then I've upgraded to a brighter one
+which is a bit more silent now this is
+it's basically calling an API and doing
+something physical and that's what we
+call extreme feedback now basically it's
+sort of Internet of Things just a bit of
+Python code querying some stuff stuff
+happening in the real life so let's get
+inspired by the Internet of [ __ ] Twitter
+account do you know it stuff that
+shouldn't be on the internet so let's
+take this as an inspiration and see how
+extreme we can take this so first up I'm
+gonna it's gonna be another movie and
+I'm gonna add in a map of the physical
+location of all developers and hook it
+up to these USB nerve rocket launchers
+developer rakes the build just point and
+shoot
+boom Nerf dart to the head that will
+make them know that they broke the build
+so this is a bit of history of a company
+back in time when we were distributing
+LCDs a last minute bug fix made all
+these CDs useless so we turn it into the
+pole of failure and we handed out
+whenever somebody breaks to build now we
+can we can automate that let's grab a
+remote-control truck slam around berry
+pie on top and just drive it over Wow
+this again I sit down side it's pretty
+easy to ignore it's just standing there
+Karen so let's grab an autumn movie
+that's adding some drones drones they
+are really noisy and if they just Hoover
+right next to your head there you wrote
+the bill too you'll notice but our
+developers are well they adapt quickly
+so they brought their hearing protectors
+from home so I upgrade it
+if there are no developers left to break
+the build the build will remain green
+yes so that's maybe not a feasible
+procedure to keep a healthy company so I
+figured out some other examples as well
+this is great book it will tell you all
+about your onboard diagnostic system in
+your car and how you can sniff the
+network and can control your car from a
+Raspberry Pi let's hook that up to
+Jenkins so if you break the bill your
+car can let you know just great
+so this yeah it's a bit of shaming if
+it's your car that's in the car park
+flashing so that's not something that
+you really want we've also been
+experimenting with the car door locks
+that's also great the look on the face
+of a developer when he can't go home
+because he hadn't fixed the build yet
+that's that's that makes my day as a
+build master so we also had some other
+ideas and windows unit 4 it's a salary
+payment provider and they have an API so
+guess what what tank is for sending four
+requests the next time somebody builds
+it breaks to build something like this
+you want to keep your salary
+don't break the bills now any built
+monsters out there
+I'm gonna open-source this on github you
+only need to acquire the correct
+credentials and you're good to go to
+help motivate your developers to keep
+the build stable so these are some of
+the crazy ideas that I could come up
+with I love to hear with but maybe you
+have for inspiration right now so come
+see me during the breaks and thanks for
+your attention
+so we're just figuring out its heart
+buying three more new keys for the front
+doors of the office and hooking that up
+to the build you're ordering them right
+um yeah okay figured that one Matt thank
+you so this talk is called talk
+selection is mockumentary film editing
+I'm a DevOps evangelist at pager duty
+this talk has nothing to do with pedro
+duty but it does have a lot to do with
+devops days i'm also one of the
+organizers of devops days Chicago one of
+the core organizers but that doesn't
+really matter and up until recently I
+had that license plate this is really
+weird for me because I just sold my car
+so all of my brand was around the fact
+that I owned a car that said DevOps and
+I don't anymore so that's kind of weird
+but so we're gonna talk a little bit
+about talk selection and one of the
+things so this was our numbers from 2017
+we had 176 talk submissions and at 18
+spots to fill we had more this year but
+I didn't update the slide and one of the
+best and worst things about running an
+event like this is picking the talks
+right so I always kind of think at the
+beginning when we're gonna do a year of
+DevOps days in Chicago I'm like we have
+a theme we have an idea there's a story
+that I want to tell and the problem is
+that I may not get the talk submissions
+that are actually going to support what
+I want to tell this slide really has
+nothing to do with a problem these are
+just some of the organizers but I like
+the picture so I wanted to include that
+the pictures don't always support what
+I'm saying but they're fun so the thing
+is you sit there and you say I've got
+like almost 200 talk selections talks to
+pick from and they don't you know maybe
+my theme was I wanted to make fun of
+Schafer and I didn't get any talks that
+helped me do that so what I have to do
+is I have to go back and I have to find
+a story in the talks and notice I say a
+story right it's not a theme yeah people
+might say our theme this year is dev
+suck-ups that's not a story right
+stories a little more subtle than that
+so one of the lessons that learnt was
+learned here is don't force the issue
+don't be so
+stuck on your idea of the story you want
+to tell that you're gonna find that
+you're gonna do you're gonna stick to
+that right you want to find this story
+you're gonna find this story in the
+things and with the talks that were
+submitted to you and that requires a
+little bit more effort it's a little bit
+harder to do that and so anyway you said
+what you know what Maddie at the
+beginning this you said this had
+something to do with mockumentary so
+what does this have to do with anything
+so a little bit of background on that if
+you're not familiar with the term
+mockumentary kind of the first
+well-known one was a film called This Is
+Spinal Tap and then also there's
+basically a director named Christopher
+Guest has done a lot the great movie
+called waiting for Guffman they're fake
+documentaries right and one of the key
+things about that is these movies are
+all heavily improvised right they
+they're their scripts are about three to
+four pages long of an outline so anyway
+I made a movie about swing dancing
+called waiting for Dancing with Gaia and
+it was a mockumentary and of course we
+decided this being the first movie ever
+made let's make it as hard as possible
+let's do what Christopher guest's
+inspired improvised mockumentary well
+the problem with that was against we had
+about a three to four page script we
+recorded about 12 hours worth of footage
+and we sat down to actually edit it the
+story that we wrote was not actually
+anywhere in the footage we said that we
+said what we thought this was a story
+about this character and her journey in
+this blah blah blah blah blah this is
+mostly just because it's a picture of me
+with a moustache the background for this
+is one of one of our actors his role
+required him to grow a big thick
+moustache and we shot this over weekends
+over about two months and so out of
+solidarity since I made him wear a
+ridiculous you know kind of Chicago
+style mustache I grew one as well
+but yeah so we wrote this story that was
+not actually anywhere in the footage we
+had to go sit and find it and this is
+also something that happens when you're
+making a quote-unquote real documentary
+because you don't necessarily know the
+story that you want to tell unless it's
+full of fake news or something like that
+right but if you want to tell a real
+documentary story it's gonna it's going
+to reveal itself through the people that
+you talk to through the stories that you
+discover and this is absolutely true
+when you're picking talks for an event
+because you are one person maybe even
+your talk committee
+is several people but you're talking
+about 200 people 200 voices that all
+want to participate this is a really bad
+photo of me so this is also me being
+genuine and and you know revealing
+myself to you the the biggest trick of
+that is to read through all of them and
+sort of I always like to let my brain
+unfocus right because the thing was my
+problem was I had a story I wanted to
+tell and I was focused on it so if I
+just sort of let these ideas wash over
+me a theme and a story will come out and
+believe it or not there now it's also
+very very hard for me to tell you what
+the story of my event is and I'm also
+similar to when I've directed films I'm
+always interested to hear from people
+who've been in an event that I've run
+and what they think the story is because
+usually that story is a little different
+than the story that I intended to run so
+a couple things to bear in mind is you
+can't predict what you'll get that's
+super true right you want to start with
+an idea but be flexible about it and
+also remember the improve a
+improvisation can be fun so you want to
+let your speaker's be your guide in the
+story of what you're trying to tell this
+slide is from the States I don't know if
+its GDP Rd fee compliant or not so do
+this or not but you could try if not I
+will put these slides up on my Twitter
+which is at some at Stratton so thanks
+[Applause]

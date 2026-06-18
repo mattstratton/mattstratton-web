@@ -1,0 +1,308 @@
+the journey from devops
+to cloud engineering
+Matt Stratton
+Staﬀ Developer Advocate, Pulumi
+
+let's start by
+looking back
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+What is DevOps?
+DevOps is the union of people,
+process, and products to
+enable continuous delivery of
+value to our end users
+Donovan Brown
+@mattstratton
+
+What is DevOps?
+Optimizing the human
+experience and performance
+of operating software with
+software and humans
+Andrew Clay Shafer
+@mattstratton
+
+@mattstratton
+
+CALMS
+@mattstratton
+
+culture
+@mattstratton
+
+You can't directly change
+culture. But you can change
+behavior, and behavior
+becomes culture
+-Lloyd Taylor, VP Infrastructure, Ngmoco
+@mattstratton
+
+automation
+@mattstratton
+
+Asking experts to do boring and
+repetitive, and yet technically
+demanding tasks is the most certain
+way of ensuring human error, short
+of sleep deprivation, or inebriation.
+- Continuous Delivery, Jez Humble and David
+Farley
+@mattstratton
+
+lean
+@mattstratton
+
+@mattstratton
+
+measurement
+@mattstratton
+
+sharing
+@mattstratton
+
+but... what
+happened?
+@mattstratton
+
+it's all about automation?
+@mattstratton
+
+kubernetes will save us all
+@mattstratton
+
+"culture is for yoghurt"
+@mattstratton
+
+devops is being
+sold to you
+@mattstratton
+"You can't buy devops, but I can
+deﬁnitely sell it to you"
+- Matty Stratton, charismatic grifter
+
+DevOps
+ServerlessDevOps
+BizDevOps
+DevOpsDevOps
+DevSecDBOpsOps
+DevSecOps
+@mattstratton
+
+words are hard
+@mattstratton
+
+don't worry
+I have more words for you
+@mattstratton
+
+Cloud Engineering employs standard software engineering practices
+and tools across infrastructure, application development, and
+compliance teams to tame the complexity of the modern cloud.
+@mattstratton
+
+Build
+Cloud
+Resources
+@mattstratton
+Deploy
+Infra
+Platforms
+Manage
+Cloud
+Applications
+Policies
+
+build
+@mattstratton
+
+Build
+★ Shared services platforms
+★ Reusable infrastructure
+components
+★ Apply existing
+frameworks and tools
+@mattstratton
+
+build + calms
+@mattstratton
+
+build culture
+@mattstratton
+★ focus on
+diﬀerentiators
+★ common
+development
+experience
+★ drives empathy
+
+build automation
+@mattstratton
+★ reusable
+components
+★ leverage ecosystems
+★ avoid bespoke
+implementation
+
+build lean
+@mattstratton
+★ focus on value
+★ drive eﬃciency
+★ review for
+improvement
+
+build measurement
+@mattstratton
+★ consistency breeds
+visibility
+
+build sharing
+@mattstratton
+★ reusable
+components
+★ ecosystem
+promotes outside
+sharing
+★ learn from existing
+practices
+
+deploy
+@mattstratton
+
+Deploy
+★ The same way, every time
+★ I mean, every time
+★ Quality and security
+checks
+★ Automate checklists!
+★ Infrastructure is part of
+the application
+@mattstratton
+
+deploy + calms
+@mattstratton
+
+deploy culture
+@mattstratton
+★ "it doesn't count
+until it's in prod"
+★ iterative
+development
+★ enables continuous
+improvement
+
+deploy automation
+@mattstratton
+★ CI/CD pipelines
+★ automated checks
+★ checklists are great!
+let's automate them
+
+deploy lean
+@mattstratton
+★ enables fast
+feedback
+★ visibility into the
+supply chain
+★ identify bottlenecks
+
+deploy
+measurement
+@mattstratton
+★ visibility again
+★ measure cycle time
+★ it's not just speed
+
+deploy sharing
+@mattstratton
+★ look, more visibility
+★ common pipeline
+means less
+duplicate work
+★ everyone knows
+"what changed?"
+
+manage
+@mattstratton
+
+Manage
+★
+★
+★
+★
+@mattstratton
+Visibility
+Security is everyone's job
+Common "vocabulary"
+Controls and process that
+enable and enhance
+
+manage + calms
+@mattstratton
+
+manage culture
+@mattstratton
+★ collaboration
+enabled through
+common code
+★ guardrails enable
+conﬁdence
+★ increase common
+understanding
+across disciplines
+
+manage automation
+@mattstratton
+★ computers can't lie
+★ trust of
+process/checks
+★ policy goes from
+vague to
+understandable
+
+manage lean
+@mattstratton
+★ determine
+improvements for
+safety
+★ express value
+stream changes in
+code
+
+manage
+measurement
+@mattstratton
+★ visibility into
+current policy
+★ view of current
+state of compliance
+★ identify when
+policy and value
+collide
+
+manage sharing
+@mattstratton
+★ shared vocabulary
+★ utilize success
+patterns
+★ share learning
+
+let's take devops
+back
+@mattstratton
+
+Thank
+You
+Twitter - @mattstratton
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+Podcast - ArrestedDevOps.com
+DevOps Party Games - devopspartygames.com
+@mattstratton

@@ -1,0 +1,390 @@
+what got you here
+won't get you there
+Matt Stratton
+Staff Developer Advocate, Pulumi
+
+why are we here?
+@mattstratton
+
+Why are we here
+Kubernetes
+Containers
+CI/CD
+AI/ML
+Cloud Native
+Microservices
+Cloud
+Big Data
+Serverless
+@mattstratton
+
+Why are we here
+@mattstratton
+
+Why are we here
+@mattstratton
+
+Why are we here
+@mattstratton
+
+Why are we here
+United States Postal Service Strategic
+Goals
+Goal 1.
+Deliver world-class services and customer experiences. 
+Goal 2.
+Equip, connect, engage, and empower employees to serve
+our customers. 
+Goal 3.
+Innovate faster to deliver value. 
+Goal 4.
+Invest in future platforms. 
+Goal 5.
+Pursue legislative and regulatory changes necessary to
+achieve financial sustainability
+@mattstratton
+
+Why are we here
+Mission Statement: To be the best ﬁnancial services
+company in the world.
+Vision Statement: Aspire to be the best; execute
+superbly; build a great team and a winning culture
+@mattstratton
+
+Why are we here
+We promise our customers stellar service, our suppliers a valuable
+partner, our investors the prospects of sustained proﬁtable growth,
+and our employees the allure of huge impact
+@mattstratton
+
+Why are we here
+None of these things mentioned
+containers or Kubernetes
+@mattstratton
+
+Why are we here
+Technology is an enabler, not the mission
+@mattstratton
+
+the only constant is change
+@mattstratton
+
+The Rise of Cloud
+"...cloud computing is a model for enabling
+ubiquitous, convenient, on-demand network
+access to a shared pool of conﬁgurable
+computing resources (e.g., networks, servers,
+storage, applications and services) that can be
+rapidly provisioned and released with minimal
+management effort or service provider
+interaction."
+-
+@mattstratton
+NIST Cloud Computing Deﬁnition
+
+The Rise of Cloud
+"...cloud computing is a model for enabling
+ubiquitous, convenient, on-demand network
+access to a shared pool of conﬁgurable
+computing resources (e.g., networks, servers,
+storage, applications and services) that can be
+rapidly provisioned and released with minimal
+management effort or service provider
+interaction."
+-
+@mattstratton
+NIST Cloud Computing Deﬁnition
+
+The Rise of Cloud
+"...cloud computing is a model for enabling
+ubiquitous, convenient, on-demand network
+access to a shared pool of conﬁgurable
+computing resources (e.g., networks, servers,
+storage, applications and services) that can be
+rapidly provisioned and released with minimal
+management effort or service provider
+interaction."
+-
+@mattstratton
+NIST Cloud Computing Deﬁnition
+
+Jevon's Paradox
+As a resource becomes more eﬃcient (easier) to
+consume, consumption of the resource rises.
+@mattstratton
+
+The Rise of Cloud
+Consumption of compute is at an unprecedented level.
+@mattstratton
+
+Cloud has overwhelmed IT.
+@mattstratton
+
+the "why" of devops
+@mattstratton
+
+Containers,
+Containers,
+Containers
+@mattstratton
+
+The Rise of Global Trade
+@mattstratton
+
+Containers dramatically
+changed global trade.
+@mattstratton
+
+Containers dramatically
+changed throughput of ports.
+@mattstratton
+
+Containers disrupted the entire
+supply chain.
+@mattstratton
+
+Containers disrupted the entire
+supply chain.
+@mattstratton
+
+Containers disrupted the entire
+supply chain.
+@mattstratton
+
+Containers disrupted the entire
+supply chain.
+@mattstratton
+
+Containers
+disrupted the entire
+trade supply chain.
+● Retool:
+○ New trailers
+○ New train cars
+○ New cranes/lifts for ports
+○ New design for ports
+● Retrain:
+○ Port workers move from
+manual labor to skilled labor
+● Rethink:
+○ Business models/pricing/costs change
+○ Processes for cargo handling change
+@mattstratton
+
+Cloud (and
+containers) have
+disrupted IT.
+● Retool
+○
+○
+○
+○
+On-demand infrastructure
+Continuous Delivery
+Automation
+Measure everything
+● Retrain
+○
+Develop skills for new
+technology & ways of
+working
+● Rethink
+○
+○
+○
+○
+○
+@mattstratton
+Delivery processes
+Site Reliability
+Culture
+Blamelessness/Learning From Incidents
+Iterative development
+
+What is DevOps?
+DevOps is the union of
+people, process, and
+products to enable
+continuous delivery of value
+to our end users
+Donovan Brown
+Principal Cloud Advocate, Microsoft
+@mattstratton
+
+What is DevOps?
+Optimizing the human
+experience and performance
+of operating software with
+software and humans
+Andrew Clay Shafer
+Vice President, Global Transformation Oﬃce,
+Red Hat
+@mattstratton
+
+The old way is not sustainable.
+@mattstratton
+
+The old way is not sustainable.
+@mattstratton
+
+what got you here
+won't get you there
+@mattstratton
+
+IT must evolve
+their supply chain
+@mattstratton
+
+How to Evolve the IT Supply
+Chain
+Culture & Lean
+@mattstratton
+
+Startups aren't the
+only disruptor
+@mattstratton
+
+COVID-19 made plans go
+out the window
+@mattstratton
+
+Resilience is a verb
+@mattstratton
+
+Resilience
+Rebound
+Robustness
+Graceful Extensibility
+Sustained Adaptability
+@mattstratton
+
+Rebound
+Returning to "normal"
+after a surprise or
+incident.
+Work done ahead of
+time.
+@mattstratton
+
+Robustness
+The ability to withstand
+and absorb
+well-modeled
+disturbances
+"Known knowns"
+@mattstratton
+
+Graceful
+Extensibility
+The ability to stretch
+with challenges to
+operational boundaries
+As opposed to
+brittleness.
+@mattstratton
+
+Sustained
+Adaptability
+@mattstratton
+Recognizing and
+managing adaptive
+capabilities over long
+timescales
+
+Why Culture?
+Tools inﬂuence the culture
+...and culture inﬂuences the tools
+@mattstratton
+
+these are socio-technical
+systems
+@mattstratton
+
+Why Culture?
+Fundamental to how teams operate and
+interact in a DevOps world.
+Allows team members and teams to
+deﬁne "how" they want to work and
+interact with one another.
+Creates "easy" wins that can show
+success to build on.
+Establishes and reinforces the other
+principles of CALMS
+@mattstratton
+
+Siloed for Protection
+The result of throwing over the fence
+Conway's Law as a downstream effect
+Engineering
+@mattstratton
+Operations
+Prod Mgmt
+
+The Open Organization
+Bottom-up, Collaborative, Continuous Innovation, Agile
+@mattstratton
+
+Blunt / Sharp End
+Blunt End
+Removed from experience
+Upstream decision makers
+Sharp End
+People directly engaged in the
+work
+"Chop wood, carry water"
+@mattstratton
+
+Sharp End
+Constantly building and destroying systems
+Strong signaling
+Improve systems based on strain
+Will do so naturally if given ownership
+@mattstratton
+
+Why Lean?
+● Provides hyper focus for teams on what
+problems to solve and how
+● Findings of exercises heavily inﬂuence
+other areas of CALMS:
+○ What should we Automate?
+○ How are we going to measure metrics
+and process improvements?
+○ How do we share best practices, success,
+experiences?
+● Inﬂuences other ways to work such as Agile
+Software Development, Infrastructure as
+Code, etc
+@mattstratton
+
+Value Stream Mapping: Current
+State Map
+@mattstratton
+
+Value Stream Mapping: Future
+State Map
+@mattstratton
+
+Value Stream Mapping:
+Improvement Plan
+@mattstratton
+
+Summary
+Remember the mission
+Remember the holistic nature of
+DevOps.
+Avoid overemphasis on one area
+Start with Culture & Lean, the rest
+will fall out of those two principles
+Understand the supply chain to
+achieve scale
+@mattstratton
+
+Thank
+You
+Twitter - @mattstratton
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+Podcast - ArrestedDevOps.com
+DevOps Party Games - devopspartygames.com
+@mattstratton

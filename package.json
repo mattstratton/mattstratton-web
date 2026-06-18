@@ -13,6 +13,7 @@
     "optimize": "tsx scripts/optimize.ts",
     "rasterize": "tsx scripts/rasterize.ts",
     "transcripts": "tsx scripts/transcripts.ts",
+    "slide-text": "tsx scripts/slide-text.ts",
     "headshots": "tsx scripts/headshots.ts"
   },
   "dependencies": {

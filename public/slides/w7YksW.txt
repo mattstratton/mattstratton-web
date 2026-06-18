@@ -1,0 +1,158 @@
+ESCAPING IIoT PILOT PURGATORY
+of IIoT pilots never reach production.
+The database is usually where they die.
+Why your database breaks at scale / Matty Stratton, Tiger Data
+
+01 / WHY THE PILOT WORKED
+The pilot lies to you.
+PoC
+PRODUCTION
+millions of rows
+billions of rows
+Inserts: milliseconds
+Inserts: backlogs forming
+Dashboards: instant
+Dashboards: loading...
+Cost: rounding error
+Cost: someone notices
+Different physics. Same database.
+
+02 / THE NATURE OF IIoT DATA
+IIoT data is multiplicative.
+volume = n × v × r × t
+tags
+data/tag
+frequency time
+ONE SMALL FACTORY / 10,000 tags × 1 Hz × 1 year
+315 billion rows
+•
+37.5 TB on disk
+
+03 / THE PERFORMANCE ENVELOPE
+Every IIoT system has an envelope.
+Three walls define the box:
+DEPTH
+01
+retention
+STORAGE
+cost compounds with retention
+↑
+02
+INGEST
+throughput collapses without warning
+in spec
+03
+QUERY
+aggregates slow with data growth
+WIDTH → tags / sensors
+
+WALL 01 / STORAGE
+Storage compounds quadratically.
+cumulative cost ∝ n × r × T²
+Trivial in month 1.
+Exorbitant in year 5.
+Y1
+Source: Pagnutti, tigerdata.com/blog/the-iiot-postgresql-performance-envelope
+Y2
+cumulative storage cost
+Y3
+Y5
+
+WALL 02 / INGEST
+Ingest fails without warning.
+WAL writes and index updates grow with DB size.
+THE RULE
+System looks healthy for months.
+Then hits equilibrium with no runway.
+Backlog forms. Backlog grows.
+You don't catch up.
+<80%
+of max ingest.
+One bad VACUUM, one network blip, one burst, and
+you're behind forever.
+
+WALL 03 / QUERY
+Queries degrade linearly.
+Indexed deep queries: O(log t·r)
+PLUS THE SLOW ROT
+Aggregate dashboards: O(t·r) linear with retention.
+• Planner stats go stale
+Every dashboard you've ever shipped uses GROUP BY and AVG.
+• VACUUM falls behind
+They scan every row in the window. The window keeps growing.
+• Server hardware drifts
+• Sequential scans creep back in
+DASHBOARD LOAD TIME
+milliseconds
+→ seconds
+→ minutes
+→ loading...
+
+04 / THE WRONG FIXES
+Hardware buys time. It doesn't move the ceiling.
+01 VERTICAL SCALING
+02 HORIZONTAL / SHARDING
+03 ADD A SECOND DB
+Bigger box.
+More boxes.
+InfluxDB. A historian.
+More RAM, CPU, disk.
+Split tables, shard the DB.
+Leave Postgres for analytics.
+Diminishing returns.
+Replication lag.
+Pipelines. Sync. Drift.
+Hard ceilings.
+Cross-node coordination.
+Two systems, one team.
+Doubling RAM never doubles
+Often breaks the ACID
+A permanent operational tax.
+anything that matters.
+guarantees you chose PG for.
+New query language to learn.
+All three push the wall out. None of them change the math.
+
+05 / WHAT ACTUALLY MOVES THE CEILING
+Change the math. Stay on Postgres.
+WALL 02 → INGEST
+WALL 03 → QUERY
+WALL 01 → STORAGE
+Hypertables
+Continuous aggregates
+Hypercore (columnar)
+Auto-partition by time. Indexes stay in
+Dashboards read precomputed rollups, not
+Older chunks compress columnar. Same SQL,
+memory per chunk.
+raw rows.
+less disk.
+PG cliff at ~25M rows.
+Hypertables stay flat.
+250-1500 ms → 0.4 ms
+Benchmarks: tigerdata.com/blog/how-timescaledb-expands-postgresql-iiot-performance-envelope
+All three primitives ship as a Postgres extension. Same SQL. Same tooling. No second database.
+80-95% compression.
+$150K/yr → ~$15K.
+
+06 / THE OUTCOME
+AXPO / ENERGY UTILITY
+"We connected 2 power plants.
+After half a year the database was completely full,
+we couldn't insert or query any data,
+and the whole system crashed."
+Emanuel Joos, Lead Software Engineer, Axpo
+Now: 20+ systems. Still running.
+Map your envelope. tigerdata.com/blog/the-iiot-postgresql-performance-envelope
+
+WHO'S TALKING
+Matty
+Stratton
+Sign up for a trial and get $1000
+in credits!
+https://tsdb.co/matty-iot-tech
+Head of Developer Advocacy & Docs at Tiger Data and founder of the Arrested DevOps podcast. I live in Chicago with too
+many pets.
+Passionate advocate for helping developers make better database decisions and get more out of Postgres and time-series
+data
+linkedin.com/in/mattstratton/ (slides at speaking.mattstratton.com)

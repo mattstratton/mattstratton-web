@@ -1,0 +1,75 @@
+The Psychology of Chaos
+Engineering
+Matty Stratton, PagerDuty
+@mattstratton
+
+Chaos Engineering is the discipline of experimenting on a system
+in order to build conÞdence in the system's capability
+to withstand turbulent conditions in production.
+https://principlesofchaos.org/
+@mattstratton
+
+What chaos engineering is NOT
+@mattstratton
+
+@mattstratton
+
+It's not about breaking things
+@mattstratton
+
+@mattstratton
+
+Experimenting in production is
+preferred
+@mattstratton
+
+You can't do this without good
+measurement
+@mattstratton
+
+Minimize your blast radius
+@mattstratton
+
+Some helpful tools
+• Netßix Simian Army - https://principlesofchaos.org/
+• Gremlin - https://www.gremlin.com/
+• ChaosToolkit - https://chaostoolkit.org/
+@mattstratton
+
+But what about the people?
+@mattstratton
+
+How does it make you feel to know
+Netßix practices chaos engieering?
+@mattstratton
+
+What about your bank?
+@mattstratton
+
+@mattstratton
+
+Management can get...
+...nervous
+@mattstratton
+
+Consider your words
+@mattstratton
+
+It's about the philosophy
+@mattstratton
+
+@mattstratton
+
+Safety Þrst
+@mattstratton
+
+• Know your conditions - when will you shut down the experiment?
+• This isn't about causing stress on your people - be transparent
+• There are humans at the other end of those numbers
+@mattstratton
+
+Further Reading
+• Chaos Engineering Traps - Nora Jones bit.ly/2Pr53ZH
+• ChaosCat: Automating Failure Injection at PagerDuty bit.ly/2UCbdXN
+• ChaoSlingr: Introducing Security into Chaos Testing bit.ly/2GDZN1V
+@mattstratton

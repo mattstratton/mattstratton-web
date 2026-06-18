@@ -1,0 +1,205 @@
+AV ENGERS ASSEMBLE
+T HE T HANOS INCIDEN T
+
+@mattstratton
+
+SPOILER WARNINGS
+@mattstratton
+
+@mattstratton
+
+SO, WHAT HAPPENED?
+@mattstratton
+
+SO, WHAT HAPPENED?
+▸ We will start by creating a post-mortem on the incident of "The Snap"
+▸ Our approach will be the address this in a blameless fashion
+▸ We want to understand what happened, as well as the process the Avengers
+used
+▸ For purposes of this discussion, "The Avengers" will include characters not
+generally considered Avengers, please bear with me
+@mattstratton
+
+SO, WHAT HAPPENED?
+@mattstratton
+
+CONSTRUCT OUR TIMELINE
+▸ Stick to the facts
+▸ Include key decisions and actions taken by responders
+▸ Avoid evaluating what should or shouldn't have been done
+▸ Start the timeline at a point before the incident began
+@mattstratton
+
+HIGH LEVEL TIMELINE
+▸ Thanos obtains the Power Stone and the Space Stone
+▸ Thor and the Guardians of the Galaxy decide to split up - Thor to head to Nidavellir
+with Rocket and Groot, the rest to head to Knowhere
+▸ Thanos retrieves the Reality Stone from The Collector on Knowhere
+▸ Dr. Strange uses the Time Stone to view millions of possible futures
+▸ Thanos sacriÞces Gamora on Vormir to obtain the Soul Stone
+▸ Several team members attempt to recover the InÞnity Gauntlet from Thanos on Titan
+@mattstratton
+
+HIGH LEVEL TIMELINE
+▸ Dr. Strange decides to exchange the Time Stone for Tony Stark's life
+▸ Shuri works to remove the Mind Stone from Vision
+▸ Various team members attempt to defend Vision in Wakenda
+▸ Thanos obtains the Mind Stone from Vision
+▸ Thor attacks Thanos but is unable to defeat him
+▸ Thanos snaps his Þngers, wiping out half of all life
+@mattstratton
+
+Groot Cause Analysis
+Credit to @djpiebob and @this_hits_home
+@mattstratton
+
+SYSTEMS ARE COMPLEX
+@mattstratton
+
+THERE IS NO SINGLE ROOT CAUSE OF MAJOR
+FAILURE IN COMPLEX SYSTEMS, BUT A
+COMBINATION OF CONTRIBUTING FACTORS THAT
+TOGETHER LEAD TO FAILURE
+@mattstratton
+
+Blameless
+@mattstratton
+
+WHY DOES BLAMELESSNESS MATTER?
+▸ This impulse to blame and punish has the unintended effect of disincentivizing
+the knowledge sharing required to prevent future failure
+▸ The goal of the postmortem is to understand what systemic factors led to the
+incident and identify actions that can help improve the resilience of the system
+▸ Stay focused on how a mistake was made instead of who made it
+@mattstratton
+
+WHY IS BLAMELESSNESS HARD?
+▸ When processing information, the human mind unconsciously takes shortcuts
+▸ We are hard-wired from millions of years of evolutionary neurobiology to tend
+to blame
+▸ The human mind optimizes for timeliness over accuracy, which is reinforced by
+cognitive biases
+@mattstratton
+
+@mattstratton
+
+COGNITIVE BIASES
+▸ Fundamental attribution error
+▸ ConÞrmation bias
+▸ Hindsight bias
+▸ Negativity bias
+@mattstratton
+
+FUNDAMENTAL ATTRIBUTION ERROR
+@mattstratton
+
+CONFIRMATION BIAS
+@mattstratton
+
+HINDSIGHT BIAS
+@mattstratton
+
+NEGATIVITY BIAS
+@mattstratton
+
+HOW TO
+AVOID BLAME
+
+ASK "WHAT" AND "HOW" QUESTIONS
+RATHER THAN "WHO" OR "WHY"
+@mattstratton
+
+CONSIDER MULTIPLE AND DIVERSE PERSPECTIVES
+@mattstratton
+
+ASK YOURSELF WHY A REASONABLE, RATIONAL, AND
+DECENT PERSON MAY HAVE TAKEN A PARTICULAR
+ACTION
+@mattstratton
+
+ABSTRACT TO AN INSPECIFIC RESPONDER
+@mattstratton
+
+CONTRAST WHAT YOU DID NOT INTEND WITH
+WHAT YOU DO INTEND
+@mattstratton
+
+ALL PRACTITIONER ACTIONS ARE ACTUALLY
+GAMBLES, THAT IS, ACTS THAT TAKE PLACE
+IN THE FACE OF UNCERTAIN OUTCOMES.
+Dr. Richard Cook
+@mattstratton
+
+YOU NEVER KNOW. YOU HOPE FOR THE
+BEST, THEN MAKE DO WITH WHAT
+YOU'VE GOT
+Nick Fury
+@mattstratton
+
+What can we learn?
+@mattstratton
+
+@mattstratton
+
+Have An Incident Commander
+@mattstratton
+
+DELEGATE AND COORDINATE
+@mattstratton
+
+DECISION MAKER
+@mattstratton
+
+SINGLE SOURCE OF TRUTH
+@mattstratton
+
+SHOULD NOT BE A RESPONDER
+@mattstratton
+
+Who should be the Incident
+Commander for the Avengers?
+@mattstratton
+
+Rotations Matter
+@mattstratton
+
+Escalate and Bring in Help
+@mattstratton
+
+Hero Culture
+@mattstratton
+
+Teamwork Makes the Dream Work
+@mattstratton
+
+SHARE ON-CALL
+▸ Carol Danvers is the only one who carries a
+pager!
+▸ The more folks on-call, the less the load for
+everyone
+▸ Having a consistent mechanism for bringing in
+experts for incident response is key
+@mattstratton
+
+@mattstratton
+
+SO WHAT HAVE WE LEARNED?
+@mattstratton
+
+@mattstratton
+
+And perhaps most of all...
+@mattstratton
+
+@mattstratton
+
+https://speaking.mattstratton.com
+@mattstratton
+
+ACKNOWLEDGEMENTS
+▸ Jeremy Meiss @IAmJerdog
+▸ Karissa Peth @karissapeth
+▸ Nell Shamrell-Harrington @nellshamrell
+▸ Sarai Rosenberg @saraislet
+▸ Ryan Kitchens @this_hits_home
+@mattstratton

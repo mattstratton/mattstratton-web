@@ -1,0 +1,114 @@
+(A QUICK)
+DEEP DIVE INTO THE DEVOPSDAYS WEBSITE
+Matt Stratton
+Chicago / Core
+
+HOW DOES IT EVEN WORK?
+(MAGIC, OBVIOUSLY)
+¥
+Uses a static site generator (SSG) called Hugo
+¥
+Hosted on Netlify
+¥
+All deployments are kicked off using GitHub
+¥
+When a PR is submitted, a "deploy preview" is created.
+¥
+Whatever is merged to the master branch in GH is what is live on Netlify.
+¥
+It's all driven by YAML. And Markdown. Fire up your text editors!
+¥
+Also stuff like Bootstrap, SCSS, FontAwesome, blah blah blah
+@mattstratton
+
+DEPLOY PREVIEWS ARE RAD AF
+SERIOUSLY, THEY ARE THE BES T
+Click here
+for magic!
+@mattstratton
+
+I KNOW YOU HAVE IDEAS
+LET ME TELL YOU OUR CONS TRAINTS
+¥
+You can only assume that folks have
+git and hugo. That's it.
+¥
+"But what about node?"
+¥
+Nope.
+¥
+"But seriously, node would make this
+easier"
+¥
+I know. But too bad.
+@mattstratton
+
+SOME COOL FEATURES
+YOU MIGHT NOT KNOW
+@mattstratton
+
+A CUSTOM HEADER BACKGROUND!
+OOH!
+@mattstratton
+
+USE YOUR OWN GOOGLE ANALYTICS!
+@mattstratton
+
+A CUSTOM SOCIAL SHARING IMAGE
+NOW, PER PAGE!
+@mattstratton
+
+PRO TIPS
+FOR BES T AWESOMENESS
+¥
+Use the utility scripts. Don't just copy files from last year. Things change!
+¥
+Test locally. Please, test locally.
+¥
+Everything is pretty well documented in REFERENCE.md. Refer to it often.
+¥
+Always rebase before starting up after a while. Things change!
+¥
+The #website channel in Slack can be your friend. We are happy to help!
+@mattstratton
+
+WHY BOTHER WITH DEVOPSDAYS.ORG
+I C AN MAKE A RAD WEBSITE ALL BY MYSELF
+¥
+SEO is a thing, like, for real for real
+¥
+History matters.
+¥
+It might not be fancy, but
+devopsdays.org is designed for the
+larger community and things work
+¥
+Something something Matt rants
+about websites on behalf of the
+speakers
+¥
+Maybe do a redirect from a domain
+(i.e. devopsdayschi.org)
+@mattstratton
+
+THINGS TO FIX
+YES, WE KNOW
+¥
+The repo is too damn big
+¥
+Multi-track in the program
+¥
+Multi-lingual
+¥
+Build speed
+¥
+Weird sorting thing that happens
+sometimes because reasons
+¥
+Matt sucks at frontend. Like a lot a
+lot.
+@mattstratton
+
+DO YOU HAVE IDEAS?
+LET'S OPEN SPACE THAT SHIT
+@mattstratton

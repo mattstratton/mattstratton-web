@@ -2,10 +2,25 @@ import type { CollectionEntry } from 'astro:content';
 
 export type Talk = CollectionEntry<'talks'>;
 
+// Notist slugified one talk's apostrophe inconsistently across deliveries, so
+// the same abstract arrived under two slugs ("don-t-..." for the straight quote,
+// "dont-..." for the curly one). Alias the variant onto the canonical slug so
+// all four deliveries group as one talk. Explicit (not a blanket punctuation
+// strip) — it's the only affected talk in the corpus and won't collapse two
+// genuinely-distinct talks. Anything building a /talk/{slug} link from a raw
+// notistSlug must route through this too. See issue #13.
+const SLUG_ALIASES: Record<string, string> = {
+  'dont-panic-effective-incident-response': 'don-t-panic-effective-incident-response',
+};
+
+/** Map a raw notistSlug to its canonical /talk/{slug}. Identity for most slugs. */
+export function canonicalSlug(notistSlug: string): string {
+  return SLUG_ALIASES[notistSlug] ?? notistSlug;
+}
+
 // A canonical "talk" = one abstract, delivered one or more times. The grouping
-// key is `notistSlug`, which Notist shares across re-deliveries of the same
-// abstract (106 deliveries collapse to 41 abstracts). No stored field needed —
-// the identity is derived from data we already have.
+// key is the canonical notistSlug, which Notist shares across re-deliveries of
+// the same abstract. No stored field needed — derived from data we already have.
 export interface TalkGroup {
   slug: string; // notistSlug — also the /talk/{slug} URL
   title: string; // canonical title (taken from the most recent delivery)
@@ -18,7 +33,7 @@ export interface TalkGroup {
 export function groupTalks(talks: Talk[]): Map<string, TalkGroup> {
   const buckets = new Map<string, Talk[]>();
   for (const talk of talks) {
-    const slug = talk.data.notistSlug;
+    const slug = canonicalSlug(talk.data.notistSlug);
     if (!buckets.has(slug)) buckets.set(slug, []);
     buckets.get(slug)!.push(talk);
   }

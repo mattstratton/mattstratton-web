@@ -6,7 +6,7 @@ import VideoEmbed from '../../components/VideoEmbed.astro';
 import Transcript from '../../components/Transcript.astro';
 import TagChips from '../../components/TagChips.astro';
 import slideCounts from '../../data/slide-counts.json';
-import { groupTalks } from '../../lib/talk-groups';
+import { groupTalks, canonicalSlug } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords, isCleaned } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
 import { talkRouteParams } from '../../lib/talk-url';
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
     params: talkRouteParams(talk),
     // siblingCount = how many times this same abstract was delivered, used to
     // surface the canonical /talk/{slug} aggregation when there's more than one.
-    props: { talk, siblingCount: groups.get(talk.data.notistSlug)?.count ?? 1 },
+    props: { talk, siblingCount: groups.get(canonicalSlug(talk.data.notistSlug))?.count ?? 1 },
   }));
 }
 
@@ -76,7 +76,7 @@ const description = d.abstractHtml
 
     {siblingCount > 1 && (
       <a
-        href={`/talk/${d.notistSlug}`}
+        href={`/talk/${canonicalSlug(d.notistSlug)}`}
         class="group mt-6 flex items-center gap-2 rounded-sm bg-panel px-4 py-3 text-sm transition-colors hover:bg-ink/5"
       >
         <span class="text-ink-soft">Delivered {siblingCount} times.</span>

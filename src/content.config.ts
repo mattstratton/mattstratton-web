@@ -53,9 +53,13 @@ const events = defineCollection({
     notistEventId: z.string(),
     name: z.string(),
     date: z.coerce.date().optional(),
+    // Physical venue, e.g. "Chicago, IL, USA". The literal "Virtual" is the
+    // sentinel for online events: they carry no latitude/longitude and render
+    // off-map (in the "Delivered virtually" list, not as a dot). See map.astro.
     location: z.string().optional(),
     url: z.string().url().optional(),
-    // Captured for a future "places I've spoken" map (issue #1). Not yet rendered.
+    // Powers the "Where I've spoken" map (src/pages/map.astro). Physical events
+    // are geocoded (once, at authoring time); virtual events have neither.
     latitude: z.number().optional(),
     longitude: z.number().optional(),
   }),

@@ -4,6 +4,7 @@ import { stripHtml } from '../lib/strip-html';
 import { hasTranscript } from '../lib/transcripts';
 import { tagsFor } from '../lib/tags';
 import { talkUrl } from '../lib/talk-url';
+import { canonicalSlug } from '../lib/talk-groups';
 import type { SearchRecord } from '../lib/search-types';
 
 /**
@@ -24,7 +25,7 @@ export const GET: APIRoute = async () => {
       const event = d.event ? await getEntry(d.event) : null;
       return {
         url: talkUrl(talk),
-        slug: d.notistSlug,
+        slug: canonicalSlug(d.notistSlug),
         title: d.title,
         abstract: d.abstractHtml ? stripHtml(d.abstractHtml) : '',
         eventName: event?.data.name ?? '',

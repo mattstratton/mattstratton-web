@@ -87,3 +87,14 @@ Mirror Notist exactly: `/{notistId}/{notistSlug}`, no trailing slash, no `/usern
 ## Mobile-first (issue #3)
 
 Design/verify at narrow widths first. Nav wraps, slide browser and cards are responsive. Check tap targets and overflow when adding UI.
+
+## Development workflow (how Matty wants non-trivial changes built)
+
+For anything more than a trivial fix (new skills, features, refactors), run the full superpowers flow — every time, no shortcuts:
+
+1. **brainstorming** — settle scope/approach one question at a time and surface unexamined assumptions *before* writing code.
+2. **writing-plans** — a committed design spec (`docs/superpowers/specs/`), then a TDD implementation plan (`docs/superpowers/plans/`).
+3. **executing-plans** — inline, TDD (failing test → implement → pass), one small commit per task.
+4. **finishing-a-development-branch** — **always push + open a PR** (option 2) from a dedicated branch off `main`. Never merge straight to `main`; the PR is the review gate, and the brainstorm/spec/plan paper trail is the point.
+
+Keep PRs scoped to one concern. End commit messages with the `Co-Authored-By` trailer.

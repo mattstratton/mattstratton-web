@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
 import { stripHtml } from '../lib/strip-html';
+import { hasTranscript } from '../lib/transcripts';
 import type { SearchRecord } from '../lib/search-types';
 
 /**
@@ -29,6 +30,7 @@ export const GET: APIRoute = async () => {
         date: d.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }),
         hasVideo: Boolean(d.video),
         hasSlides: d.slideSource !== 'none',
+        hasTranscript: hasTranscript(d.notistId),
         thumbnail: d.thumbnail ?? null,
       };
     }),

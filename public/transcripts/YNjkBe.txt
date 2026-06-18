@@ -1,0 +1,103 @@
+[Music]
+so unlike Gil I believe in the format of
+ignite but I don't have Otto advancing
+on this and so we're gonna see how well
+this works
+there we go cool okay anyway this is all
+about hot takes myths and falsehoods are
+fundamentally why everyone is wrong
+about DevOps except for me and my name
+is Matt strand I'm a DevOps advocate at
+pager duty so basically don't believe
+everything that you read on the Internet
+you will find that there's quite a lot
+of people have opinions on the internet
+they love to share them and most of
+those opinions are wrong and you know
+really putting words in random order is
+not thought leadership except actually
+that that pretty much is exactly what
+thought leadership is and what you might
+find as you kind of explore the internet
+and and go around that there's a lot of
+common beliefs about DevOps and I'm here
+to tell you that most of those common
+beliefs are untrue so I'm gonna go
+through some of the common myths
+conceptions about DevOps and kind of
+bust those myths so the first myth is
+that you might hear people tell you that
+DevOps is more than just tools you might
+have heard this one before and
+unfortunately I got to tell you that is
+not true and here's why it's not true if
+it was more than just tools why would we
+have so many of them and there also are
+a lot of tools on DevOps Twitter someone
+might tell you that DevOps is more than
+just automation we probably heard that
+before and a lot of folks will tell you
+it's more than automation and there's a
+lot more to it than that
+that's patently false and here's why
+because if we look at cams a is the only
+vowel vowels are more important than
+consonants and therefore automation has
+got to be the most important part of
+DevOps okay someone might tell you that
+kubernetes won't solve all your problems
+and unfortunately that the next the the
+reason why this is untrue Philips talk
+always messes this joke up for me but
+but anyway kubernetes came from Google
+so that's clear right docker is boring
+and old we
+that a little bit earlier and but yeah
+Mille does show your commitment to
+precision this is this this one kind of
+gets messed up when Philips talk it was
+before mine because he shows just how
+and precise UML really is folks might
+tell you that if you do devops you still
+need to have testing people will tell
+you this this is also untrue because if
+you remove the human element you remove
+human error and if a micro-service does
+only one thing it literally can't have
+an error because that would mean it's
+doing two things right someone will tell
+you you hear this one a lot right you
+can't buy devops how many people have
+heard this myth before this is really a
+big myth and here's why you might not be
+able to buy it but I sure as hell can
+sell it to you right seriously I would
+love to sell you some DevOps
+what's it gonna take to get you in a
+bright and shiny new DevOps today DevOps
+is not a title we've heard this one
+before a lot and the reality of this is
+nobody can tell you what titles to use
+in your organization maybe your HR
+department can but what do they know
+about DevOps and maybe people have
+you've heard this myth before that you
+can do DevOps on Windows people have
+said this and this is just really untrue
+because a key component of DevOps is a
+smug sense of self-satisfaction and
+something something about Slashdot and
+finally perhaps the most egregious myth
+around DevOps
+is it cats are more aligned with DevOps
+than dogs right you can't have a DevOps
+talk without cat gifts in it cats or
+what DevOps is really about and that's
+not true because I mean come on this is
+really cute right so anyway thank you
+very much my name is matt strand page ii
+says you should follow me on twitter so
+and that will bring us the end of the
+ignitor
+you
+[Music]

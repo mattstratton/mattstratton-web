@@ -1,0 +1,1247 @@
+all right so welcome to our second part
+of our Meetup our talk is a database is
+a history of places to put your stuff
+which is like way more interesting than
+it sounds okay we're making a lot of
+promises here so it is it is interesting
+it is interesting I had fun writing this
+talk I hope you had fun I did I had a
+good um we're gonna get a lot of uh
+extra content out of this talk yeah this
+is going to get turned into a Blog and
+we'll we'll both give it individually
+later but this is how deverell's work
+multi repurposed content yeah yes uh so
+this is a a photo of me and Matthew
+we're very attractive uh intelligent and
+authoritative
+developer Advocates who take our jobs
+very seriously as you can see from this
+photo in my chins
+um yeah all 12 of them one uh when we
+were showing the slide back to my
+partner uh their first comment was uh
+while your chins look great so that's
+being a supportive part and that's right
+yeah positive and everything that's
+that's what that looks like um and again
+so I work it I've been I run developer
+relations there and I work at Dell uh
+which seems confusing uh why would Dell
+have developer Advocates but surprise uh
+we do
+my job is not to sell you Dell's
+products it is to fix your problems
+whether it makes sell money or not and
+it's probably not gonna make Dell money
+and that's probably the extent of how
+much we're going to talk about our
+employers please don't tell my boss I
+cannot fix the problems with drivers for
+anything on your Dell Linux Sputnik
+laptop
+not my problem what about d-racks
+no my problems I can tell you whose
+problem that is but it's not much yeah
+someone called someone called not cat
+yeah yeah that's somebody else his name
+is Barton
+I'll give you a cell phone number I'll
+give you a cell phone number
+uh anyway
+let's rock it into this talk uh so most
+people outside of this room uh generally
+do not give databases a whole ton of
+thought Beyond arguing about whether
+they should be using like whichever two
+databases are jockeying for like most
+trendy of the day or for like whatever
+the like gumball machine at AWS spits
+out for you because I can't keep track
+of all the databases they offer
+um and that's like there's that's fine
+there's nothing wrong with that like
+realistically for the overwhelming
+majority of applications
+um you are actually fine just like
+rolling postgres and calling it a day
+and that's not to say that like
+there isn't an advantage to choosing the
+database that is like the most
+specifically useful for your application
+for your data stat for the way you need
+to query it but what I am saying is that
+like
+if you just roll postgres you will get
+by until you absolutely have to switch
+to something else it's like yeah like at
+first you are fine just rolling postgres
+um and that that's okay and
+when you look at the mess of options out
+there
+um it it is hard to choose the correct
+thing and in part I think that's because
+it is all marketed the exact
+same way to you the the technical
+marketing copy for every database
+regardless of the way the data is
+structured or the way the data is
+queried it is all sold to you
+like this high throughput and
+scalability with low latency uh
+congratulations you can now be a CMO of
+a database company yeah like I didn't I
+didn't make that up that these studies
+actually copy ripped directly from like
+five different databases when I was
+writing like some content for something
+else eight months ago and it still
+irritates me it's like one person wrote
+like the absolute flappiest piece of
+database copy known to man
+30 years ago and everybody has just been
+like rehashing it over and over and over
+again since then and they're all the
+best kind of how can you buy uh what's
+your credit card number and uh the last
+four of your Social Links we didn't sell
+you lots of databases yeah I can tell
+you so many data this is this is sort of
+like how every Distillery in Kentucky is
+the only Distillery that was open during
+prohibition and they all work right or
+every buffet in Las Vegas is the best
+buffet in Las Vegas they all are and it
+it really it doesn't matter uh like what
+what the database says they are all
+going to be sold to you that way
+um it drives me absolutely nuts
+um these are all of the different types
+of databases listed in the Wikipedia
+article for databases okay I don't know
+what quite a few of these are um I can
+Venture guess based on just like the the
+naming but couldn't couldn't tell you
+specifically what I can guarantee you is
+that they are all being sold to you in
+the exact same way they're all saying oh
+we've got high throughput uh oh uh
+scalability oh low latency every single
+one of them regardless uh and they they
+are not necessarily
+telling the truth for your specific
+application they're telling the truth
+through their specific application
+and I I don't think that they're sold to
+you this way because of like actually
+lazy copywriting I I don't think that's
+true
+um I don't think it's people ripping
+each other off for decades maybe like a
+little bit of that but I don't I don't
+think that's actually no yeah I still
+want to order probably ballistic
+database I they're gonna follow that up
+I couldn't tell you yeah we should
+Google that that's the one that I think
+has the best yeah yeah I think so I know
+I know probably facial and temporal
+sound the coolest but I know spatial is
+actually stuff like the way Google Maps
+works and temporal is is time serious
+databases
+um it sounds they sound cooler than they
+are that sounds way cooler than
+um it is but the the actual answer to
+why these things are sold to you this
+way is because
+um if you saw Mike my keynote this
+morning I said that for this talk that
+talk too it is it is true for all of
+these socks I give it's because we have
+been solving the same problem for 70
+years uh we we are always trying to
+scale more we are always wanting higher
+three throughput we are always wanting
+lower latency we always want to do more
+stuff faster so it's just that yeah like
+this is the problem we have always been
+trying to solve since the dawn of
+computing so that's why we're still
+selling it to you this way it's just
+that these are the keywords we've landed
+on for databases specifically because
+these are the things we need yeah
+and we're going to tell this story to
+you with the assistance of a TV show
+that I have not seen but Matt assures to
+me that this is uh very funny for people
+who have very clever yeah yeah I have
+not seen one edition I know I should see
+it but uh the story through the decades
+a journey through the decades with with
+yes
+Wanda and vision yes that's the vision
+that's Wanda
+thank you
+I should watch this show
+okay fair enough
+um anyway uh the history of databases
+goes much further back than you would
+expect actually it starts in the 1950s
+when we first had like actual computers
+the first computer was the any app
+machine which was released in 1945 we're
+not going to talk about the Antioch
+we're going to talk about data storage
+uh to understand how data storage and
+organization uh has evolved over time we
+need to understand what it was like at
+the dawn of computing uh and it was that
+we didn't have it okay like it was not
+a thing
+um we're the very beginning of the
+Computing era we didn't have a way to
+store data because the machines were not
+intelligent in any way right they were
+functionally just really really really
+big calculators
+um and storing data storing a program
+really meant just lugging around like
+huge boxes of Punch Cards uh which looks
+like this if you've never seen a punch
+card before this is one from an IBM uh
+early early IBM series they didn't all
+look exactly like this but like
+generally that's that's the vibe and for
+context if you think this punch card
+shows a program this nunch card and
+probably about 800 more are a program
+right so you had to have them all you
+were carrying like literal cases of
+these things uh there is a very fun
+photo from the Apollo mission that shows
+a woman standing next to a stack of
+punch cards that is taller than her and
+that was just handling the calculations
+for the inventorying system for the
+Saturn live which we'll talk about later
+but anyway the way you used a computer
+back then was you showed up with your
+stack of punch cards that was one
+program for your appointment at the
+computer which seems
+crazy today
+bet it in and stood there waiting and
+then took your literally printed uh
+output also this was before the
+invention of the dot matrix printer so
+like the the printing was not as fast or
+easy as you even imagined for like old
+dot matrix I was gonna say when
+referring to that Matrix printing as
+fast yeah like that yeah that's very
+damning
+so in the early 50s things started to
+change
+um this is the univac one which was our
+first example of magnetic tape storage
+um this was a pretty big deal because it
+did allow us to like write things much
+faster than with the punch cards but
+reading was still a huge problem because
+everything was stored sequentially so
+you had to like seek backwards across
+the tape and these these were pretty
+fragile
+um actually unfortunately
+magnetic cake storage is still used
+today
+um I think that sucks I spent a decade
+working in
+um off-site data backup and I find it
+super
+unfortunate that Magnetic Tape backup is
+still a thing but if you want to pay
+Iron Mountain for it they will
+absolutely fill back up and store your
+data on tape drives do not leave one in
+your car in the summer it will
+absolutely melt and there's no way to
+verify data Integrity on a tape drive by
+the way you can verify Integrity on a
+magnetic like on like a platter but you
+cannot do it on a magnetic tape so pour
+one out for Ark surface
+because there's like a mixer that would
+be bad that would be um that would be
+bad thrown out yeah get thrown out but
+anyway not we didn't have to deal with
+that for very long as the standard
+because just a few years later IBM the
+uh for literal decades king of uh
+computers introduced disk storage with
+the 305 ramac uh I was gonna bring one
+of these discs with me as like a prop
+because I do have one but I forgot it
+and uh they're huge okay so they're like
+they're about this big
+um they they are very very large you've
+probably seen them in old movies you've
+probably seen old pictures of them uh
+they're they're big scary like gold
+looking plates
+um and unlike Magnetic Tape the data on
+disks could be accessed randomly which
+set up both reads and writes very cool
+right
+uh however we did not have a system to
+organize that data
+and so that did not actually make
+accessing that data any easier uh it was
+faster yeah it was faster but we
+couldn't really like get at it you know
+it was just kind of um
+there we had only been accessing data
+and executing programs sequentially
+because we we hadn't figured out
+concurrency or multi-programming yet so
+like as a concept this was a pretty huge
+leap for people and it didn't really go
+anywhere immediately which kind of sucks
+until
+this guy who looks like everybody's like
+cutest Grandpa to me
+um that bow tie is really doing it for
+me
+um he seems like a bow tie guy but this
+is Charles Bachmann and he wrote the
+first dbms when he was working at
+General Electric uh one of IBM and the
+Seven Dwarves he uh General Electric was
+one of the seven dwarfs but this was
+called the integrated data store
+um or IDs and this opened the door to a
+ton of new technology for us it was uh
+architecturally pretty damn near perfect
+IDs type databases still exist today
+uh not IDs itself but databases directly
+influenced it databases that mimic its
+architecture still exist and um while
+they are very very difficult to use they
+are basically unmatched in performance
+and you still mostly see them used in
+like a telecom industry they're they're
+still a thing
+um a few years later with some other
+general purpose databases popping up but
+not really a standard way to interact
+with them this guy also decided to form
+codophyl which uh standardized
+programming languages pretty much and
+this is how we got Cobalt
+and to bring things back to kubernetes
+if you would like to run Cobalt programs
+inside kubernetes you can do that and JJ
+askar from IBM has written blogs and
+projects about how to do that and there
+is actually a fair amount of cobalt yeah
+still in use today to ask me who sold uh
+openshift to the government oh and he
+used to work for banks yes yeah still
+still very much a thing uh Larry Cobalt
+when I was at the right did you really I
+was serious about success holy yeah yeah
+well that's right you're probably using
+it and don't know programming yeah if
+you have like a if you have a bank
+account you're using Cowboy but would
+any has anyone else in their life heard
+someone who knows how to reprogram and
+proball be described as fancy my debt
+was probably fancy oh that's fair but my
+dad is 70 years old so I also use my dad
+as a source for this talk in some spots
+so that's always fun that's why I like
+writing these
+but
+space
+all right so
+in the 60s we got another navigational
+database that uh blew everybody's socks
+off this one you're more likely to have
+heard of if you are a huge dweeb or you
+ever had like a hyper fixation on space
+travel
+um this is
+Saturn V Rockets because we got IBM's uh
+IMS the information management system
+and this was developed and released for
+IBM system 360 which I also talked about
+this morning uh one of the most
+important computers in in history you
+can go watch recording my talk if you
+want like
+a longer ramble on that but the IBM
+system 360 and IBM's information
+management system is what sent us to the
+Moon
+okay
+uh this database system was designed
+specifically to handle calculations for
+the inventory for the absolute thickest
+rocket ship anyone
+in human history has ever built this is
+a photo of every single Saturn V rocket
+that has ever launched and it is so cool
+and we can't build this rocket anymore
+and that is emotionally devastating but
+if you ever get a chance to go to one of
+the various space centers that have a
+Saturn V to go look at it you should
+because it's very cool piece of human
+engineering history both from like
+physical engineering and software
+engineering perspective
+um it is a super heavy lift rocket I
+think the Falcon is the closest heavy
+lift we have managed to build and this
+thing was originally built in the 60s
+and we're just now able to match it
+that's impressive and that was
+originally possible to us because of the
+IBM system 360 and IBM's information
+management system a database that was
+exclusively built to handle this thing's
+bill of materials
+that's a lot of parts there's a lot of
+parts
+I built the Lego of it there's a lot of
+parts there's a lot are they yeah no it
+was fun yeah it's fun anyway all right
+so now we come to the 70s the collars
+get wider and the databases get
+relational
+so you know we kind of think about these
+early these existing Data Systems we
+talked about their navigational
+databases very sequential and the thing
+about that was like everything was
+fundamentally a linked list right so
+you're like search what search that's
+crazy talk so enter this cat so this is
+uh Edgar Cod I like to call him the Top
+Gun of tables this would have been
+better if I didn't blow it by showing
+you my Photoshop but uh so cod in 1970
+he wrote a number of papers that
+outlined this new approach to database
+construction which ultimately culminated
+in this groundbreaking work with the
+sick title A relational model of data
+for large shared databanks clearly
+Edgar's pretty dope titling things that
+was not his thing but in this paper he
+talked about instead of Records being
+stored in one sort of a linked list like
+we've been using and and uh and codicil
+his idea was what if we organize the
+data as a number of tables each table is
+used for different kind of entity right
+and they have a fixed number of columns
+containing those attributes
+um if you're not a database person think
+about an Excel spreadsheet right sounds
+maybe not revolutionary but it was and
+one or more of the columns are
+designated as a primary key right so the
+rows of the table could be uniquely
+identified which is this particular
+record cross references using those
+primary Keys rather than their disk
+address which is how it would work in a
+navigational one that lets us do queries
+to join those tables based on those
+relationships Etc and so
+and that's sort of an illustration of of
+how relational databases work so Cod
+used mathematical terms to define the
+model so he talked about relations
+tuples and domains rather than tables
+rows and columns like we might be used
+to today
+um so later on he got actually kind of
+pissed that the Practical implementation
+of relational databases talked about
+tables and columns and rows instead of
+the mathematical foundations I mean he
+looks like a guy who'd be mad about he
+does right absolutely but he also like
+looks pretty rad even when he's not
+talking it's really cool he's definitely
+got like old Hollywood he does a little
+bit yeah yeah for sure
+thank you
+uh they were they were we didn't have a
+concept of like object stores back then
+so it was like functionally it was just
+single words a single letters they we
+were mostly just looking at addresses
+like that's it
+before this it was a linked list that
+was fundamental that's all it was and
+that's why you couldn't do searches and
+draw you know that connection so this is
+why this was IMS IBM says that IMS was a
+hierarchical database but like fun
+fundamentally it was a navigational
+database and you were just pointing at
+an address that had some chunk of
+whatever in it
+yep yep
+yeah absolutely and so that structure
+was again like you said originally yeah
+and that was not ideal
+obviously
+so in the early 70s IBM started working
+on a prototype that was based on cods
+not cleverly titled but very descriptive
+talk or paper rather and so this
+prototype was called system R and they
+kind of fussed with it oh now I see why
+you said about fussing and fussing yeah
+I say it in the talk they kind of fussed
+with it or fussed with it as you prefer
+for a few years from like 1974 to 1979
+and it kind of became clear that there
+was a demand for a production-ready
+version of this so they created a
+production ready version of system R
+which was known as database 2 or db2 of
+which you may have heard now at the
+around the same time we enter our friend
+Larry Ellison friend and so yeah the
+Oracle database or Oracle is where
+normally not more commonly known now
+started from a different chain also
+based upon IBM's papers and system R and
+the Oracle V1 implementations were
+completed around 1978 but Oracle version
+2 uh shipped in 1979 which uh beat IBM's
+db2 to the market and so relational
+database through functional software
+systems was the original name of Larry
+Ellison's company before uh just naming
+it after Oracle so he was a predecessor
+now we all rename our companies after
+our product because that goes well yeah
+but it went pretty good for Larry super
+villain with an island so maybe maybe
+that's the trick
+um all right so in 1973 though
+cod's paper was also picked up by two
+people at Berkeley Eugene Wong and
+Michael Stonebreaker who's this cat up
+here so they started this product known
+as Ingress and they were using funding
+that had been allocated for this
+geographical database project and so
+starting in 1973 Ingress delivered its
+first test products which were used
+pretty widespreadly until right spread
+widespreadly until uh 1979 or so so
+Ingress was really similar to system R
+uh it included the idea of using a
+language for data access that was known
+as ql q-u-e-l and over time Ingress
+moved to the more existing SQL standard
+that we're familiar with today
+so in about 20 years later Michael
+Stonebreaker creates postgres also now
+known as postgresql based on what was
+learned from Ingress so like postgres
+has been around for quite some time but
+we aren't in the 90s yet so hold on
+first we have to make it through the 80s
+with me and my mullet
+and my pit vipers
+so I'm not actually going to wear these
+the whole time because they're like
+super dark also fun facts uh pit viper
+sunglasses come in Z87 safety rated so
+these are well I look very cool they're
+also safety goggles very safe so that's
+important to consider anyway
+um until the 80s or so like the the
+evolution of databases and computers in
+general really have mostly been driven
+by the changing needs of Enterprises
+right like big businesses because you
+could not really buy these machines they
+were very big they were very expensive
+you generally leased them from
+IBM or Honeywell or GE or whoever right
+you you did not just go out and buy a
+system 360. you were paying a monthly
+lease for that thing
+computers didn't really exist what I was
+gonna say and you put it in your lobby
+yeah so you could impress everybody when
+they came in to see you know your big
+fancy yeah it was there this was like a
+whole story arc on Mad Men I was just
+gonna say and sometimes you might think
+that the machine is talking to you and
+you do weird things but you know yeah go
+watch Brandon go away there's a lot of
+TV suggestions
+I just re-watched it it's incredible
+still anyway
+um until the 80s computers didn't really
+exist in a form factor like physical
+size that was accessible to most users
+and I'm not just talking about like home
+computers I'm talking about like having
+desktop workstations was not a thing
+until the 80s the computers were just
+too big and like the graphical
+interfaces often weren't weren't theirs
+like a lot of times there was not a
+graphical interface
+so then the 1980s showed up
+um and with the most fashionable decade
+in human history also
+um not that the way I look is any
+indication we also got some pretty sweet
+hacker movies to go with it that kind of
+helps to popularize the whole desktop
+computer situation this is a uh the
+screen grab from war games which is
+excellent if you haven't seen it but
+computers were no longer a thing that
+like took up an entire room and like
+required a justifiable recurring line
+item on like a corporate like outgoing
+payments I mean like Ferris Bueller a
+high school student could have one
+granted a rich kid from the North Shore
+of Chicago but still true yeah it was
+successful like regular people did have
+computers in the 80s but they were
+really expensive so it was it was still
+only like a rich people thing but
+universities had them more generally
+like you started saying computer labs at
+universities back then and you started
+seeing desktop in years and offices
+so initially a bunch of different like
+lightweight databases were kind of
+jockeying for dominance in the market
+back then
+um we we did have computer games but
+largely these were still like
+productivity tools right uh the champion
+however in general was dbase two
+um fun fact there is no dbase one uh
+okay it doesn't exist originally uh
+dbase was released as Vulcan and it was
+not available for PCs it was for like
+Mainframe machines
+but when IBM was planning the release of
+their dos line of PCS which were also
+like immediately dominant in the market
+they commissioned a PC Port uh Vulcan
+and the people at uh Vulcan decided that
+they were going to call the PC Port
+dbase 2 because the two implied a second
+and thus less buggy released
+marketing marketing
+um also dmase was ultimately killed by a
+buggy release it was new base four
+um so that that didn't like actually
+play out long term but uh dbase was
+immediately the dominant player in the
+market upon the release of IBM's dos
+based PCS just because it was one of the
+very few pieces of professional software
+that was immediately available upon
+shipping of these PCS so just like not
+necessarily because it was about the
+best because it was the one that was
+most available
+it was immediately dominated in the
+market and it remained one of the most
+popular selling pieces of software
+through like the early 90s until dbase 4
+sucked and everybody was like nah dog we
+can do something else but what was
+significant about dbase 2 was that it
+abstracted away a lot of the like kind
+of crappy parts of interacting with the
+database that like weren't really
+relevant to what you were trying to
+achieve but are still necessary to
+interact with it so when you're using
+eBay too uh you didn't have to worry
+about things like opening and closing
+files it abstracted that away for you so
+you were able to just like there's
+something about four because like nt4
+Service Pack four was really bad oh yeah
+but mt4 was fine so yeah I don't know I
+but
+uh the fact that this was so easy to use
+like relative to its predecessors it was
+not easy to use to be clear like it
+still sucked but relative to its
+predecessors it was easy to use meant
+that it like immediately nobody wanted
+to do anything else and a a whole
+industry sprung up around dbase two so
+people were building other databases on
+top of it whole companies existed just
+to like provide services built on top of
+dbase 2 uh the same way you know an
+entire ecosystem kind of sprung up
+around kubernetes that happened with
+dbase too it was really really dominant
+and nobody was really able to unfeed it
+um so you use YouTube still kind of like
+CD based sometimes with like Legacy
+applications but uh it's becoming pretty
+rare today
+and the 90s arrived uh I think the music
+is better in the 90s the fashion is like
+radically worse
+um for me I'm a big fan of the like
+bullets bright colors situations
+um
+teal no no no we love the brown I do
+love a brown lip brown lipstick is good
+that can stay but uh in the 1990s things
+start to change a little bit
+more radically and in a very different
+direction because the way we think about
+software engineering starts to change
+fundamentally now
+object-oriented programming had been a
+thing theoretically for a very long time
+for decades like the 90s is absolutely
+not the first dimension of
+object-oriented programming it had been
+a discussion since about the 50s right
+um however this is when it became
+dominance uh thanks to
+um a man named Grady boots
+releasing a book called object-oriented
+programming and design
+um I talk about him a lot and it's
+probably starting to get weird
+it probably started to get weird
+um so sorry about that pooch uh feel
+free to take a picture of the slide and
+tweet it and Tag Radio yeah he's very
+active on Twitter
+unfortunately so he's gonna hear about
+it anyway
+um
+object-oriented programming you are all
+probably familiar with right we start
+fundamentally thinking about our code
+and the data we're interacting with as
+objects so rather than as
+disparate chunks of whatever as tables
+right so we need a different way to
+interact with the data that we're
+pulling out of the database that's why
+we don't have a way to interact with it
+directly that starts looking like an
+object
+um with with like attributes right we're
+not talking about just like a lump of
+thing we need an object that has
+attributes and we need to be able to
+interact with our data in that way so
+this is how we get orms uh object
+relational mapping tools uh and now
+these are pretty like indispensable like
+we we all if you're a programmer you
+have had to interact with the orm if you
+are a back-end programmer at all but it
+creates a sort of like
+virtual object database within the
+context of your program so that you can
+interact with query data in a way that
+feels more natural to an object-oriented
+programming environment
+um it is it is cool and useful but uh
+this is largely Grady Boost's fault
+but it's it changed the way we think
+about databases it's a good kind of
+fault it's a good kind of fault yeah no
+he he gave us a lot with that book he
+also gave us the fundamentals of what we
+now think of today as uh continuous
+integration that is where the coin was
+the term was coined in his 1991 edition
+of that book also the 1994 Edition but
+first
+so to answer the needs of
+object-oriented programming Microsoft
+acquired an x-based database xbase means
+a database based on dbase 2. uh the one
+they acquired is Fox Pro
+all right and they subsequently built
+visual Foxpro out of it with support for
+like some object-oriented design
+features and like this was immediately
+super popular and then very quickly not
+at all popular outside of like a pretty
+small like close-knit group of
+developers that relied on it very very
+heavily and it was a result of like the
+needs of that group of developers
+Microsoft's extended support for visual
+thought Pro actually didn't end until
+like 2015. like they're they're extended
+support for this stayed live for a very
+very long time uh the more important
+thing Microsoft got out of the
+acquisition of fox Pro was uh something
+that they used for access it was Fox
+Pro's query optimization routines they
+took those and they built them into
+Microsoft Access which in part killed
+visual Foxpro because it almost
+immediately made Microsoft Access
+overwhelmingly the most popular database
+solution for Windows environments
+yeah and that is where I cut my teeth on
+Microsoft Access actually so I don't
+touch it anymore
+um and you'd have to pay me a lot of
+money to touch it now but uh it is uh it
+is where I learned it
+um originally Microsoft Access was sold
+like separately but in the mid 90s like
+95 they started including it as a part
+of the Microsoft Office Suite and from
+there it was kind of just
+a done deal just just sealed
+so we've now entered the modern era also
+known as the era of web scale right so
+when we when we think about web scale
+and coming into the 2000s and the 20
+teens and Beyond
+um so uh I'm not gonna play this video
+uh this is the mongodb as web scale
+video I'm not playing it for a couple of
+reasons not the least of it being time
+one of them being there's some parts of
+it that might not be you know friendly
+but that said if you can go to that link
+you can watch it yourself
+um but really what this video is was
+kind of a rip on people kind of adopting
+whatever was the latest trendy thing and
+just sort of spewing out things that
+they had read and so there's two people
+in the video and one saying why are you
+using this and like well mongodb is what
+this is not a dig at this is like
+I don't know it's fine yeah saying well
+mongodb is web scale one of my favorite
+Parts is you know he says look you would
+probably just have as much luck as just
+why don't you just pipe all your data to
+Dev null and he says well if piping to
+Deb null is web scale but I'm gonna do
+that right so but when we think about
+what what does web scale mean it's like
+this was a lot of what was happening and
+while it sounds buzzwordy it's just the
+scale at which we were working and
+there's actually an interesting this
+goes back to your history of infer code
+but if you think about why Chef exists
+Chef exists because puppet didn't work
+because with the folks who created shop
+we're working as consultants for a lot
+of valley-based web scale like large web
+companies using puppet and puppet was
+not built to handle that scale so they
+had to build a system that that could do
+that so this is where we were at right
+we were talking about going from the era
+of again I come from an Ops background I
+manage a lot of servers which meant I
+might have a few hundred in my data
+center now we're talking about thousands
+upon thousands of machines we need to be
+able to we're scaling so horizontal
+everything's kind of changing so
+um before this term maybe no SQL no SQL
+however we want to say that so the term
+originally was coined by uh Carlos
+strazzi in 1998 because he was he had a
+project that was called the strasi no
+SQL open source relational database
+people really have trouble naming things
+sometimes I think we also know that
+naming things is the hardest problem in
+computer science
+um but so the the idea of of strasies no
+SQL databases it didn't expose using
+standard structured query language SQL
+well or SQL or swirl but it was still
+relational right and it stored all its
+data's ASCII files and used shell
+scripts instead of SQL to access the
+data
+um this didn't have really anything in
+common with when we talk about nosql
+today yeah right so is nosql rdms is
+distinct from kind of the the next level
+of this and so strasi kind of taking a
+hint from our boy the Top Gun of tables
+gets pissed off about how people talk
+about things and his although his
+suggestion is well because the current
+nosql movement departs from the
+relational model
+they shouldn't call it nosql they should
+call it no Rel as a non-relational and
+we all know that that's yeah we're still
+salty about that I don't know I don't
+think he was that terribly salty but I
+don't know we should find out is he on
+Twitter
+so then we think about usually when we
+think about the idea the term no SQL
+we're thinking about the lines of kind
+of in this model right so Johan ascarson
+who was a developer At Last FM he put
+together an event in 2009 to talk about
+open source distributed non-relational
+databases
+um and they were trying to figure out so
+it wasn't really a conference it was
+kind of a big meet up it was kind of big
+meeting and they were wanting to talk
+about like this increasing number of
+these non-relational distributed data
+stores like open source versions or
+clones of like big table macro macros
+mapreduce and Amazon's dynamodb so he
+organized this meeting to kind of talk
+about it in San Francisco and they
+wanted to talk about these things and
+they were like well we have to think
+about like what's a brief turn we can
+turn we could use as a Twitter hashtag
+while we're talking about this and Eric
+Evans from Rackspace came up with no SQL
+it's actually so online that we have
+like an entire movement and like we have
+two of them this is what devops devops
+is called devops for the same reason
+because Andrew Clay Schaefer was
+watching uh a talk from John alspan Paul
+Hammond at uh about uh at velocity and
+he was tweeting about it and he is a
+hashtag devops that's why it's called
+devops the other reasons called devops
+is agile system infrastructure was too
+long of a name for a conference so they
+called it devops days you should tweet
+more that's the yeah that's the answer
+you never know you may name it uh name a
+movement um but the idea that's funny is
+this term was really the hashtag itself
+was just sort of meant for that meeting
+right it was just kind of a random thing
+and uh turned out that it spread
+worldwide uh With viral advertising and
+now it's the de facto name for a whole
+uh instructor of of data products so
+there you go
+um so usually when people think about a
+nosql database they're thinking about
+document model usually a lot of times
+you think about like think about
+think about couchdb but there's other
+models that are nosql like um when we
+kind of think about you know redis is
+kind of a you know key Value Store we're
+thinking about column database like
+Cassandra or react different graph
+models and uh but there's a couple
+things that are generally in common
+about these nosql data platforms or data
+products
+um one of them is they're they're not
+relational so you know joins are yeah
+right yep mostly they're mostly open
+source
+although I think Berkeley DB is a
+practically open source we just need to
+throw some Digs at Larry
+um they're cluster friendly
+and uh they're schema lists which they
+actually have a little bit of a schema
+so that's you know fussy painless is
+marketing yeah but they're mostly
+they're not as schema dependent and then
+they emerge again out of web scale needs
+and what we mean by that again is when
+we think about how we scale about
+scaling horizontally versus vertically
+and again this is sort of the system
+engineer and me coming out but when we
+think about systems like a postgres Mr
+you know kind of these older relational
+databases or building a SQL server or
+something like that and you need more
+horsepower what do you do you throw more
+CPU in it you give it more memory you're
+making a bigger box but then when we
+think about
+departing from data for a second you
+know kind of where we were in like the
+beginnings of the web scale world and we
+were like okay we're going to scale our
+front ends right so you're like okay
+we'll scale them horizontally we'll make
+more of that well then it's the same
+model as kind of coming to our data
+stores and again the idea of scaling
+horizontally should come naturally to a
+bunch of people at a kubernetes
+conference you know so
+um and another kind of way when we think
+about the difference between the
+relational databases and these nosql
+ones is the difference between acid and
+the cap theorem right so the relational
+databases kind of are based upon the
+idea around acid so the characteristics
+of acid earth
+atomicity right so which means
+transactions are performed one at a time
+or they don't happen at all right uh
+consistency so we're saying we don't
+leave our database in a halfway complete
+state so if an error occurs it ensures
+that it's rolled back so we have
+consistency of our data uh I is for
+isolation which transactions occur
+independently so no transaction has
+access to another trans action and then
+durability so we're saying the changes
+made to the database through these
+transactions oncompletes that are
+committed to the database update type
+loss that's acid right
+when we think about the web scale
+database that the non-rel database
+non-sql no SQL we think more about cap
+serum right so cap theorem uh really
+there's three pieces of that so to see
+is consistency not to be confused with
+the consistency in acid it's similar but
+the difference there means the user
+should be able to see the same data no
+matter what node or machine that they
+connect to on the cluster right so we're
+saying no matter again we have maybe
+hundreds or thousands of nodes in there
+doesn't matter which one I hit I'm going
+to get the same data so if data has been
+written to one node it needs to be
+replicated to all the replicas that's
+the C inconsistence of the student cap a
+is availability so that means every
+request from the user should have listed
+a response right so if I pay a request I
+get something back whether the user
+wants to read or write they should get a
+response even if the operation was
+unsuccessful so you have the
+availability and finally the P is for
+partition tolerance so partition is when
+a node loses connectivity it can't
+receive messages from another node so
+now it's been partitioned and it could
+be because of all sorts of things server
+crash happens Network failure all kinds
+of reasons so partition tolerance
+ensures that the system should be able
+to work even if there's a partition in
+the system cap theorem basically says
+you get two
+right when you kind of look at how that
+works so it's sort of like the fast fast
+uh was it fast cheap good yeah that's
+even good and if you're interested in
+understanding more about cap theorem and
+stuff um the amazing of fear
+um from the Jepson reports
+um basically goes through all the he
+runs reports on all of these different
+database systems and uh evaluates them
+across across cap theorem and if you
+really want to get nerdy about database
+fit you should like read every single
+fear ever writes
+um cool so um this is an interesting one
+here is like when we think about
+different kinds of data stores that as
+they've evolved so one of them is when
+remembered cat kind of had that eye
+chart of all the different kinds a kind
+of a database as a hyper media database
+in which so a hyper media database is
+one where any word or a piece of text
+representing an object can be
+hyperlinked to another object
+um and there's lots of different ways so
+you think about online and encyclopedia
+so like Wikipedia is technically a
+hypertext database and the world wide
+webs is really pretty much the biggest
+largest distributed hypertext database
+if you want to be technically correct
+which is as we all know the best
+category the best kind of correct
+um and there's also one other type of
+database system you can use I I would
+not recommend it there's some thought
+leaders on Twitter that will tell you
+this is a fine way thought leader is a
+super strong it is a super strong word
+but technically you can use Amazon Route
+53 as a database but you know I would
+invite the course as you can be very
+funny but in a way uh DNS is a it is
+hierarchical yeah that's a hierarchical
+database so
+um I love that argument we will have
+that argument yeah so when we kind of
+think about the things as we we've gone
+through our journey from the 50s all the
+way through the to the Nows and and
+looked at that it's like you know kind
+of what are some of the things that we
+have learned one thing we've learned is
+that we look really good in Devo power
+domes but yeah that's neither here nor
+there
+um so a couple things that we see as we
+look through this is everything we do
+is iterative it's not original there's
+no nothing new Under the Sun and we're
+building upon the shoulders of giants
+and we're continuing to continue to go
+back through cat's point about
+everything is about
+improving latency improving speed
+improving scale why we're doing that
+um you know otherwise everything old is
+new again right these ideas still
+connect back and one thing I thought was
+interesting to think about
+um one of my colleagues when we did we
+kind of uh were rehearsing this
+um yeah we did practice it doesn't seem
+like it was okay
+um but one of my colleagues who's been
+uh you know kind of uh programming with
+a Vengeance since you know 1981 so uh
+was our other introduce the cat's father
+was our other chat because he was like
+you know it's interesting to think about
+that if we look across the history
+relational databases really kind of came
+in a little bit relatively late it
+doesn't seem like but but if you look
+contextually it was it was a little bit
+late in there it feels like they've been
+there forever but they they really only
+held dominance for a relatively short
+amount of time and we still use
+operational data stores yeah postgres
+MySQL SQL Server the Oracle they still
+exist but in order to meet the needs of
+the way we do business now and that
+continual Evolution and I think that's
+sort of again going back to Kat's point
+of the right tool like there's not one I
+mean first of all obviously if there's
+one one thing that would rule them all
+the nest is what we would buy and there
+wouldn't be multiple things they all
+solve different problems and solve
+different problems in concert and um so
+this is uh if you are so inclined in
+various ways you can find us on the
+internet
+um across various places
+um I already report our email on here
+that's good because pointed out don't
+email her because don't email me yeah I
+will not respond yeah I will I probably
+won't even read it it's not it's not
+personal it's not personal I'll see the
+notifications on my phone I'll go oh I'm
+gonna respond to that later and swipe on
+it also don't forget also I I would I
+would I believe there's an accuracy but
+Kat and I are very good friends if you
+want to answer the phone no don't call
+me either even even if she texts you and
+says I'm downstairs I need you to let me
+in and you call her right away to see
+what's going on she doesn't answer the
+phone so yeah I don't want my phone to
+ring no hang on I need to there we go um
+this is now don't worry oh I know why it
+says they're not showing up the thing
+isn't showing up is the QR code okay
+don't worry I'm going to tell you where
+you can find these so these are some of
+our references obviously you can't click
+on them if you go to um and this was on
+the last slide so speaking.mat
+stratton.com has the slides and it has
+also for this talk has a list of the
+references and such and then we also
+just you know we like to provide
+attribution for photos and stuff and
+such so yeah we had to lift a lot of
+images
+and I just took something from Corey
+without asking it's actually like super
+hard it turns out to find photos of some
+of these like really old machines that
+was actually because when we talked
+about it you know one of the colleagues
+was saying like could you show like
+screenshots of what some of these
+systems looked like and it was like no
+no we actually cannot I mean if you saw
+cats talk this morning you were talking
+about the outlet you know it was like
+yeah nobody even knows what it looked
+like Yeah The Atlas is like arguably the
+most important computer ever built and
+uh it's basically undocumented and
+there's like five photos of it
+so thank you very much for for hanging
+out with us and hopefully it was
+interesting
+um we'll be we'll be hanging out for a
+little bit and there is still
+a little bit of time to go over to the
+F5 has their happy hour at the rec room
+yeah we want to ship over there and uh
+thanks very much

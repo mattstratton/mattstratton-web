@@ -3,8 +3,10 @@ import { getCollection, getEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SlideBrowser from '../../components/SlideBrowser.astro';
 import VideoEmbed from '../../components/VideoEmbed.astro';
+import Transcript from '../../components/Transcript.astro';
 import slideCounts from '../../data/slide-counts.json';
 import { groupTalks, type Talk } from '../../lib/talk-groups';
+import { readTranscript, transcriptWords } from '../../lib/transcripts';
 
 // Canonical talk pages: one per abstract (notistSlug), aggregating every
 // delivery. Per-delivery pages at /{id}/{slug} keep their own URLs untouched —
@@ -33,6 +35,12 @@ const abstractDelivery = deliveries.find((t) => t.data.abstractHtml) ?? null;
 
 // The OG card reuses the representative delivery's existing per-talk card.
 const rep = deliveries[0];
+
+// Transcript: prefer the featured video delivery's, else any delivery that has one.
+const transcriptId = videoDelivery?.data.notistId
+  ?? deliveries.find((t) => readTranscript(t.data.notistId))?.data.notistId
+  ?? null;
+const transcript = transcriptId ? readTranscript(transcriptId) : null;
 
 // Aggregate resources across all deliveries, de-duplicated by URL.
 const seenUrls = new Set<string>();
@@ -145,6 +153,10 @@ const description = abstractDelivery?.data.abstractHtml
           ))}
         </ul>
       </section>
+    )}
+
+    {transcript && transcriptId && (
+      <Transcript text={transcript} words={transcriptWords(transcriptId)} downloadHref={`/transcripts/${transcriptId}.txt`} />
     )}
   </article>
 </Base>

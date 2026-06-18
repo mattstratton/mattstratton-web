@@ -3,8 +3,10 @@ import { getCollection, getEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SlideBrowser from '../../components/SlideBrowser.astro';
 import VideoEmbed from '../../components/VideoEmbed.astro';
+import Transcript from '../../components/Transcript.astro';
 import slideCounts from '../../data/slide-counts.json';
 import { groupTalks } from '../../lib/talk-groups';
+import { readTranscript, transcriptWords } from '../../lib/transcripts';
 
 // URL parity with Notist: /{notistId}/{slug}. The id segment is the stable key
 // every inbound link uses; the slug must match what Notist served.
@@ -31,6 +33,9 @@ const event = d.event ? await getEntry(d.event) : null;
 // Slide count comes from the build-time rasterizer manifest; fall back to the
 // ingest-recorded image count, then to none.
 const slideCount = (slideCounts as Record<string, number>)[d.notistId] ?? d.slideImageCount ?? 0;
+
+// Durable transcript (if captions were captured for this talk's video).
+const transcript = readTranscript(d.notistId);
 
 const presented = d.presentedOn.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -104,6 +109,10 @@ const description = d.abstractHtml
           ))}
         </ul>
       </section>
+    )}
+
+    {transcript && (
+      <Transcript text={transcript} words={transcriptWords(d.notistId)} downloadHref={`/transcripts/${d.notistId}.txt`} />
     )}
   </article>
 </Base>

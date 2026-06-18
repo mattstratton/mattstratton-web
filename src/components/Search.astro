@@ -73,6 +73,12 @@
           <option value="">All</option>
         </select>
       </label>
+      <label class="label normal-case tracking-normal inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <span>Topic</span>
+        <select data-facet-tag aria-label="Filter by topic or technology" class="bg-transparent font-mono text-xs text-ink focus:outline-none">
+          <option value="">All</option>
+        </select>
+      </label>
       <label class="label normal-case tracking-normal inline-flex min-h-[2rem] cursor-pointer items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
         <input type="checkbox" data-facet-video class="accent-accent" />
         <span>Has video</span>
@@ -99,13 +105,14 @@
   const backdrop = document.querySelector<HTMLElement>('[data-search-backdrop]');
   const input = document.querySelector<HTMLInputElement>('[data-search-input]');
   const yearSelect = document.querySelector<HTMLSelectElement>('[data-facet-year]');
+  const tagSelect = document.querySelector<HTMLSelectElement>('[data-facet-tag]');
   const videoBox = document.querySelector<HTMLInputElement>('[data-facet-video]');
   const slidesBox = document.querySelector<HTMLInputElement>('[data-facet-slides]');
   const status = document.querySelector<HTMLElement>('[data-search-status]');
   const results = document.querySelector<HTMLUListElement>('[data-search-results]');
 
   // Bail out quietly if the markup isn't present (keeps the script inert elsewhere).
-  if (overlay && openBtn && closeBtn && backdrop && input && yearSelect && videoBox && slidesBox && status && results) {
+  if (overlay && openBtn && closeBtn && backdrop && input && yearSelect && tagSelect && videoBox && slidesBox && status && results) {
     let fuse: Fuse<SearchRecord> | null = null;
     let records: SearchRecord[] = [];
     let loaded = false;
@@ -132,6 +139,7 @@
       hasVideo: boolean;
       hasSlides: boolean;
       hasTranscript: boolean;
+      tags: string[];
       thumbnail: string | null;
       eventName: string;
       date: string;
@@ -159,6 +167,7 @@
         keys: [
           { name: 'title', weight: 0.5 },
           { name: 'eventName', weight: 0.25 },
+          { name: 'tags', weight: 0.2 },
           { name: 'abstract', weight: 0.15 },
           { name: 'location', weight: 0.1 },
         ],
@@ -181,6 +190,7 @@
             hasVideo: false,
             hasSlides: false,
             hasTranscript: false,
+            tags: r.tags ?? [],
             thumbnail: r.thumbnail,
             eventName: r.eventName,
             date: r.date,
@@ -203,6 +213,14 @@
         opt.value = String(y);
         opt.textContent = String(y);
         yearSelect!.appendChild(opt);
+      }
+      // Populate tag options (alphabetical).
+      const tags = [...new Set(records.flatMap((r) => r.tags ?? []))].sort((a, b) => a.localeCompare(b));
+      for (const t of tags) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        tagSelect!.appendChild(opt);
       }
       loaded = true;
     }
@@ -318,6 +336,8 @@
 
       const year = yearSelect!.value;
       if (year) items = items.filter((g) => g.years.has(Number(year)));
+      const tag = tagSelect!.value;
+      if (tag) items = items.filter((g) => g.tags.includes(tag));
       if (videoBox!.checked) items = items.filter((g) => g.hasVideo);
       if (slidesBox!.checked) items = items.filter((g) => g.hasSlides);
 
@@ -329,7 +349,7 @@
       clearTimeout(debounce);
       debounce = window.setTimeout(run, 120);
     });
-    for (const el of [yearSelect, videoBox, slidesBox]) {
+    for (const el of [yearSelect, tagSelect, videoBox, slidesBox]) {
       el.addEventListener('change', run);
     }
 

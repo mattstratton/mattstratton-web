@@ -23,6 +23,7 @@ const isActive = (p: string) => path === p || (p !== '/' && path.startsWith(p));
 
 const nav = [
   { href: '/talks', label: 'Talks' },
+  { href: '/tags', label: 'Topics' },
   { href: '/videos', label: 'Videos' },
   { href: '/bio', label: 'Bio' },
 ];
@@ -102,6 +103,7 @@ const nav = [
       <div class="mx-auto flex max-w-5xl flex-col gap-2 px-5 py-8 text-sm text-ink-soft">
         <div class="flex flex-wrap gap-x-5 gap-y-1">
           <a href="/talks" class="label transition-colors hover:text-accent">Talks</a>
+          <a href="/tags" class="label transition-colors hover:text-accent">Topics</a>
           <a href="/videos" class="label transition-colors hover:text-accent">Videos</a>
           <a href="/bio" class="label transition-colors hover:text-accent">Bio</a>
           <a href="https://mattstratton.com" rel="noopener" class="label transition-colors hover:text-accent">mattstratton.com</a>

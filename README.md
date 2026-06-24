@@ -39,9 +39,12 @@ In this GitHub repo: Settings → Secrets and variables → Actions → New repo
 
 ### 3. Fix GitHub Actions permissions
 
-By default, GitHub Actions has read-only permissions — the workflows need write access to commit `id` write-backs and open PRs.
+Two settings on the same page — both are required. Go to: Settings → Actions → General → Workflow permissions:
 
-Go to: Settings → Actions → General → Workflow permissions → select **"Read and write permissions"** → Save.
+1. Select **"Read and write permissions"** — allows the publisher to commit `id` write-backs
+2. Check **"Allow GitHub Actions to create and approve pull requests"** — allows the importer to open PRs
+
+Save.
 
 ### 4. Run the first bulk import
 

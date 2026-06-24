@@ -38,6 +38,20 @@ tags: [go, postgres]
 Body content here.`,
 }
 
+const articleWithColonInTitle: DevToArticle = {
+  ...sampleArticle,
+  id: 77777,
+  slug: 'colon-title',
+  title: 'Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL',
+  body_markdown: `---
+title: Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL
+published: true
+tags: PostgreSQL,Extensions
+---
+
+Body content with colon in title.`,
+}
+
 describe('buildFrontMatter', () => {
   it('injects id from article', () => {
     const fm = buildFrontMatter(sampleArticle)
@@ -85,6 +99,16 @@ describe('buildFrontMatter', () => {
     // articleWithExistingFrontMatter has tags: [go, postgres] in its body_markdown front matter
     expect((fm.tags as string[])).toEqual(['go', 'postgres'])
   })
+
+  it('does not throw when body_markdown front matter has an unquoted colon in title', () => {
+    expect(() => buildFrontMatter(articleWithColonInTitle)).not.toThrow()
+  })
+
+  it('falls back to API title when body_markdown front matter is unparseable', () => {
+    const fm = buildFrontMatter(articleWithColonInTitle)
+    expect(fm.title).toBe('Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL')
+    expect(fm.id).toBe(77777)
+  })
 })
 
 describe('buildMarkdown', () => {
@@ -99,6 +123,18 @@ describe('buildMarkdown', () => {
     const md = buildMarkdown(sampleArticle)
     const parsed = matter(md)
     expect(parsed.content.trim()).toContain('This is the body.')
+  })
+
+  it('does not throw when body_markdown has invalid YAML front matter (colon in title)', () => {
+    expect(() => buildMarkdown(articleWithColonInTitle)).not.toThrow()
+  })
+
+  it('produces parseable output even when body_markdown had invalid front matter', () => {
+    const md = buildMarkdown(articleWithColonInTitle)
+    const parsed = matter(md)
+    expect(parsed.data.id).toBe(77777)
+    expect(parsed.data.title).toBe('Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL')
+    expect(parsed.content.trim()).toContain('Body content with colon in title.')
   })
 
   it('strips front matter from body when body_markdown already has it', () => {

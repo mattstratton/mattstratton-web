@@ -34,9 +34,20 @@ export function getTrackedIds(postsDir: string): Set<number> {
   return ids
 }
 
+function parseBodyMarkdown(bodyMarkdown: string): { data: Record<string, unknown>; content: string } {
+  try {
+    const parsed = matter(bodyMarkdown)
+    return { data: parsed.data, content: parsed.content }
+  } catch {
+    // body_markdown has a front matter block with invalid YAML (e.g. unquoted colon in title).
+    // Strip the front matter block and fall back to API JSON fields for all metadata.
+    const stripped = bodyMarkdown.replace(/^---[\s\S]*?---\n?/, '')
+    return { data: {}, content: stripped }
+  }
+}
+
 export function buildFrontMatter(article: DevToArticle): Record<string, unknown> {
-  const parsed = matter(article.body_markdown)
-  const existing = parsed.data
+  const { data: existing } = parseBodyMarkdown(article.body_markdown)
 
   const fm: Record<string, unknown> = {
     title: existing.title ?? article.title,
@@ -62,9 +73,9 @@ export function buildFrontMatter(article: DevToArticle): Record<string, unknown>
 }
 
 export function buildMarkdown(article: DevToArticle): string {
-  const parsed = matter(article.body_markdown)
+  const { content } = parseBodyMarkdown(article.body_markdown)
   const fm = buildFrontMatter(article)
-  return matter.stringify(parsed.content, fm)
+  return matter.stringify(content, fm)
 }
 
 async function fetchPublishedArticles(apiKey: string): Promise<DevToArticle[]> {

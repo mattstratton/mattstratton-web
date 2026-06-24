@@ -79,6 +79,12 @@ describe('buildFrontMatter', () => {
     expect(fm.id).toBe(99999)
     expect(fm.published).toBe(true)
   })
+
+  it('prefers existing tags from body_markdown when present', () => {
+    const fm = buildFrontMatter(articleWithExistingFrontMatter)
+    // articleWithExistingFrontMatter has tags: [go, postgres] in its body_markdown front matter
+    expect((fm.tags as string[])).toEqual(['go', 'postgres'])
+  })
 })
 
 describe('buildMarkdown', () => {

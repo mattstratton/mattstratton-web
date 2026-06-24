@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import matter from 'gray-matter'
+import { fileURLToPath } from 'url'
 
 export interface DevToArticle {
   id: number
@@ -41,7 +42,7 @@ export function buildFrontMatter(article: DevToArticle): Record<string, unknown>
     title: existing.title ?? article.title,
     published: true,
     description: existing.description ?? article.description,
-    tags: article.tag_list.slice(0, 4),
+    tags: (existing.tags as string[] | undefined)?.slice(0, 4) ?? article.tag_list.slice(0, 4),
     canonical_url:
       existing.canonical_url ??
       article.canonical_url ??
@@ -119,6 +120,10 @@ async function main() {
       continue
     }
     const filePath = path.join(POSTS_DIR, `${article.slug}.md`)
+    if (fs.existsSync(filePath)) {
+      console.warn(`  Skipped: posts/${article.slug}.md already exists on disk (slug collision — git-native draft?)`)
+      continue
+    }
     const content = buildMarkdown(article)
     fs.writeFileSync(filePath, content, 'utf8')
     console.log(`  Created: posts/${article.slug}.md (id: ${article.id})`)
@@ -129,8 +134,7 @@ async function main() {
 }
 
 // Only run main when this file is executed directly (not imported by tests)
-const isMain = process.argv[1] != null &&
-  import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/'))
+const isMain = process.argv[1] != null && process.argv[1] === fileURLToPath(import.meta.url)
 
 if (isMain) {
   main().catch((err: unknown) => {

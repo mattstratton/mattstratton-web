@@ -11,6 +11,7 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { month: 'short', day: 'n
 <Base
   title="Archive · Matty Stratton"
   description="Twenty-five years of personal blogging, from 2001 onward. The full archive."
+  image="/og/post.png"
 >
   <section class="border-b-2 border-ink pb-8">
     <p class="label">The archive</p>
@@ -18,7 +19,7 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { month: 'short', day: 'n
       {posts.length.toLocaleString()} posts, back to 2001
     </h1>
     <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-      A quarter-century of personal writing — kept exactly as it was. Dig in by year, or browse by
+      A quarter-century of personal writing, kept exactly as it was. Dig in by year, or browse by
       <a href="/categories/" class="text-accent hover:underline">category</a> and
       <a href="/tags/" class="text-accent hover:underline">tag</a>.
     </p>

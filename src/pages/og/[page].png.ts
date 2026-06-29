@@ -25,8 +25,8 @@ export async function getStaticPaths() {
       badge: 'ARCHIVE',
     },
     newsletter: {
-      title: 'The dispatch',
-      subtitle: 'New writing on Postgres internals and performance, sent when it ships.',
+      title: 'Uncommitted',
+      subtitle: 'Monthly dispatches on Postgres internals and performance.',
       badge: 'NEWSLETTER',
     },
     default: {

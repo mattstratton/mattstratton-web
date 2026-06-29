@@ -219,12 +219,11 @@ export const speaking = {
 };
 
 export const newsletter = {
-  title: 'Stay in the Loop',
+  title: 'Uncommitted',
   content:
-    'New posts on Postgres internals and performance, delivered when something worth reading ships.',
-  // Set this once the Buttondown account exists; until then the form renders a
-  // disabled placeholder (see Newsletter.astro).
-  buttondownUser: null as string | null,
+    'Monthly dispatches on Postgres internals, performance, and whatever else is rattling around in my head.',
+  // Public Buttondown username (not a secret) — drives the embed signup form.
+  buttondownUser: 'mattstratton' as string | null,
 };
 
 export const contact = {

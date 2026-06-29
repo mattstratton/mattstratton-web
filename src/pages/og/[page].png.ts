@@ -24,6 +24,11 @@ export async function getStaticPaths() {
       subtitle: `${postCount.toLocaleString()} posts of personal writing, going back to 2001.`,
       badge: 'ARCHIVE',
     },
+    newsletter: {
+      title: 'Uncommitted',
+      subtitle: 'Monthly dispatches on Postgres internals and performance.',
+      badge: 'NEWSLETTER',
+    },
     default: {
       title: 'Matty Stratton',
       subtitle: 'Postgres, performance, and 25 years of writing.',

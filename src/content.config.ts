@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { buttondownLoader } from './lib/buttondown';
 
 // The evergreen Postgres "field guide" authored on mattstratton.com going
 // forward. Separate from the legacy `posts` archive (added in the post-migration
@@ -46,4 +47,16 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { writing, posts };
+// Newsletter archive, pulled from Buttondown at build time (see src/lib/buttondown.ts).
+const newsletter = defineCollection({
+  loader: buttondownLoader(),
+  schema: z.object({
+    subject: z.string(),
+    slug: z.string(),
+    publishDate: z.coerce.date(),
+    bodyHtml: z.string(),
+    excerpt: z.string().default(''),
+  }),
+});
+
+export const collections = { writing, posts, newsletter };

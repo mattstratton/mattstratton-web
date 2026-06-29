@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
+
+const issues = (await getCollection('newsletter')).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
+);
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base
+  title="Newsletter · Matty Stratton"
+  description="Matty Stratton's newsletter: new posts on Postgres internals and performance, plus the occasional find worth knowing about."
+  image="/og/newsletter.png"
+>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label">Newsletter</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">
+      Uncommitted
+    </h1>
+    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
+      Roughly once a month, when something worth reading ships: new writing on Postgres internals and
+      performance, plus a couple of things worth your time. No filler.
+    </p>
+  </section>
+
+  <Newsletter />
+
+  {issues.length > 0 && (
+    <section class="mt-14">
+      <h2 class="font-display text-2xl font-semibold">Past issues</h2>
+      <ul class="mt-4">
+        {issues.map((issue) => (
+          <li>
+            <a href={`/newsletter/${issue.id}/`} class="group block border-b border-rule py-4 transition-colors hover:bg-panel">
+              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{issue.data.subject}</h3>
+              {issue.data.excerpt && <p class="mt-1 text-ink-soft">{issue.data.excerpt}</p>}
+              <p class="label mt-1 normal-case tracking-normal">{fmt(issue.data.publishDate)}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>

@@ -1,11 +1,10 @@
 // Typed homepage content, ported from the old Hugo config.yml `params`.
 // Mirrors the speaking site's src/data/bio.ts pattern: authored, singleton,
-// structured content lives in a typed module — not a content collection.
+// structured content lives in a typed module, not a content collection.
 //
-// ⚠️ DRAFT COPY: the hero/about prose and the TigerData role below were written
-// during the migration from the positioning notes in matty-writing-plan.md.
-// They are placeholders in Matty's voice-to-be — review and rewrite before launch.
-// (The old config.yml had literal "TODO" here.)
+// Prose below is written to match Matty's Tiger Den voice profile: conversational,
+// second person, dry, no em-dashes, no marketing speak. Worth a final read-through
+// before launch, but it's no longer placeholder text.
 
 export interface SocialLink {
   label: string;
@@ -30,17 +29,15 @@ export interface LinkCard {
 
 export const siteMeta = {
   description:
-    'Matty Stratton writes about Postgres internals, performance tradeoffs, and database architecture — backed by 20+ years of sysadmin, SRE, and DevOps experience.',
+    'Matty Stratton writes about Postgres internals, performance tradeoffs, and database architecture, backed by 20+ years of running infrastructure.',
 };
 
 export const hero = {
   intro: 'Hi, my name is',
   name: 'Matty.',
-  // DRAFT — review
-  subtitle: 'I write about Postgres, performance, and the tradeoffs nobody warns you about.',
-  // DRAFT — review
+  subtitle: 'I write about Postgres internals and the performance tradeoffs you usually learn the hard way.',
   content:
-    'I lead developer relations at TigerData and write about Postgres internals and performance tradeoffs. Twenty-plus years operating infrastructure — sysadmin, SRE, DevOps — is what gives that writing its teeth. Lately I’m also learning physical AI and robotics in public.',
+    'I run Developer Relations at Tiger Data. I write about what’s actually happening inside Postgres: MVCC, write amplification, and the walls you hit when you run analytics on live data. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. I’m also learning physical AI and robotics in public, which is going about as well as you’d expect.',
   image: '/img/goto.jpg',
   resume: { name: 'Resume', url: '/Matty-Stratton-CV-2025.pdf' },
   socialLinks: [
@@ -52,9 +49,8 @@ export const hero = {
 export const about = {
   title: 'About Me',
   image: '/img/matty-shades-500-sq.png',
-  // DRAFT — review
   content:
-    'I’m a developer relations leader, writer, and recovering sysadmin. These days I lead DevRel at TigerData and spend my writing time on Postgres — what’s actually happening inside the database, why you hit performance walls, and how to tell the difference between a tuning problem and an architecture problem. That perspective comes from two decades of operating real infrastructure (sysadmin → SRE → DevOps → cloud), which is the part that makes the database writing credible rather than theoretical. I’m also a longtime conference speaker and co-host of the Arrested DevOps podcast, and I’m currently learning physical AI and robotics in public.',
+    'I run Developer Relations at Tiger Data, where most of my writing time goes to Postgres: what it’s doing under the hood, why you hit performance walls, and how to tell a tuning problem from an architecture problem. That perspective comes from a couple of decades of actually operating the stuff. I started as a sysadmin, did the SRE and DevOps thing, and ran technology operations back before any of those were résumé words. That history is the whole point. It’s a lot easier to write honestly about database tradeoffs when you’ve been the person paged at 3am because of one. I’m also a longtime conference speaker, co-host of the Arrested DevOps podcast, and currently learning physical AI and robotics in public.',
   skills: [
     'PostgreSQL',
     'Time-Series Databases',
@@ -68,9 +64,8 @@ export const about = {
 
 export const experience: ExperienceItem[] = [
   {
-    // DRAFT — confirm exact title
-    job: 'Developer Relations',
-    company: 'TigerData',
+    job: 'Head of Developer Relations',
+    company: 'Tiger Data',
     companyUrl: 'https://www.tigerdata.com',
     date: '2024 - Present',
     bullets: [
@@ -143,7 +138,7 @@ export const experience: ExperienceItem[] = [
     company: '10th Magnitude',
     date: '2013 - 2014',
     summary:
-      'Led the 10th Magnitude practice for Infrastructure as a Service (IaaS), Infrastructure Automation, and DevOps consulting engagements — helping clients streamline delivery, eliminate waste, and increase velocity.',
+      'Led the 10th Magnitude practice for Infrastructure as a Service (IaaS), Infrastructure Automation, and DevOps consulting engagements, helping clients streamline delivery, eliminate waste, and increase velocity.',
   },
   {
     job: 'Director, Technology Operations',
@@ -215,7 +210,7 @@ export const speaking = {
       image: '/img/speaking/ato-2019.png',
     },
     {
-      title: 'Fight, Flight, or Freeze — Releasing Organizational Trauma',
+      title: 'Fight, Flight, or Freeze: Releasing Organizational Trauma',
       source: 'Monitorama 2019',
       url: 'https://speaking.mattstratton.com/kF4x1U/fight-flight-or-freeze-releasing-organizational-trauma',
       image: '/img/speaking/monitorama-2019.png',

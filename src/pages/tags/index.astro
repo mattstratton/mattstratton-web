@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { collectTaxonomy } from '../../lib/posts';
+
+const tags = collectTaxonomy(await getCollection('posts'), 'tags');
+---
+
+<Base title="Tags · Matty Stratton" description="Browse the archive by tag.">
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label">Browse</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold tracking-tight">Tags</h1>
+  </section>
+  <ul class="mt-8 flex flex-wrap gap-2">
+    {tags.map((t) => (
+      <li>
+        <a href={`/tags/${t.slug}/`} class="inline-flex items-center gap-1.5 rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule transition hover:ring-accent">
+          {t.name}<span class="label normal-case tracking-normal !text-[0.62rem]">{t.count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

@@ -1,0 +1,19 @@
+---
+title: Larry and Roberta photo fun
+date: 2005-06-26T10:30:00+00:00
+permalink: photos/larry-and-roberta-photo-fun
+author: Matt Stratton
+categories:
+  - Photos
+tags:
+  - Larry
+legacy: true
+disqusThreadId: "28254945"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/21662474/"><img style="border:solid 2px #000000;" src="https://photos16.flickr.com/21662474_02bf6d757d_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/21662474/">A Picture Share!</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+</div>
+
+Larry&#8217;s photoshoot of Roberta.
+
+taking hot photos of his hot wife,

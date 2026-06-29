@@ -1,0 +1,16 @@
+---
+title: Cubs tickets courtesy of my boss
+date: 2007-09-21T13:27:00+00:00
+permalink: life-in-general/cubs-tickets-courtesy-of-my-boss-2
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28263412"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a href="https://www.flickr.com/photos/mugsy/1419056052/" title="photo sharing"><img src="https://farm2.static.flickr.com/1236/1419056052_a4d1899090_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/1419056052/">Cubs tickets courtesy of my boss</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+</div>
+
+Go Cubs!

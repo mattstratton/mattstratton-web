@@ -1,0 +1,46 @@
+---
+title: Weekend Update
+date: 2007-08-21T12:32:00+00:00
+permalink: life-in-general/weekend-update-5
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+---
+Friday night we hit up Summerdance, and it was fun. Saw [<img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" />][1][**tavist**][2], 
+
+<div class="ljuser">
+  <a href="https://brian81773.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://brian81773.livejournal.com/"><b>brian81773</b></a>
+</div>
+
+, 
+
+<div class="ljuser">
+  <a href="https://belcanto88.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://belcanto88.livejournal.com/"><b>belcanto88</b></a>
+</div>
+
+, 
+
+<div class="ljuser">
+  <a href="https://scrapplequeen.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://scrapplequeen.livejournal.com/"><b>scrapplequeen</b></a>
+</div>
+
+, [Kevin][3], [Dave][4], and Julia. Hung out with Sam the baby and danced a bunch with Carrie (and also Julia!) 
+
+On Saturday morning I dropped off Carrie with her sister Ellie (and baby Kate) at Millennium Park for the Wiggleworms concert. Headed home, got my hair cut, and then took Scout to the dog park. Then we headed out to the burbs to Johnnie&#8217;s Beef for 
+
+<div class="ljuser">
+  <a href="https://brian81773.livejournal.com/profile"><img width="17" height="17" src="https://stat.livejournal.com/img/userinfo.gif" alt="[info]" style="border:0 none;vertical-align:bottom;" /></a><a href="https://brian81773.livejournal.com/"><b>brian81773</b></a>
+</div>
+
+&#8216;s birthday. Beef was good, but the sausage was really top-notch. Finished up by hanging out at B&T&#8217;s house with some churros.
+
+Sunday was a chill day &#8211; started by cleaning the house, and then saw _Superbad_ at the Davis with Carrie&#8217;s friend Jessica. 
+
+So basically, a pretty fun, but chillaxing, weekend.
+
+ [1]: https://tavist.livejournal.com/profile
+ [2]: https://tavist.livejournal.com/
+ [3]: https://www.kevinkmp.com
+ [4]: https://www.lifeaslippy.com/blog

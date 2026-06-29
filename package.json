@@ -1,0 +1,33 @@
+{
+  "name": "mattstratton-web",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal site + blog for mattstratton.com (migrated from Hugo to Astro)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "migrate": "tsx scripts/migrate-posts.ts",
+    "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/hanken-grotesk": "^5.2.8",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "satori": "^0.12.0",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^4.3.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.0",
+    "yaml": "^2.9.0"
+  }
+}

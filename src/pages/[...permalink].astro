@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import PostLayout from '../layouts/PostLayout.astro';
+
+// Catch-all that reproduces every legacy Hugo URL exactly. Each post's
+// `permalink` (from the old `url:` frontmatter, e.g. "life-in-general/da-twins")
+// becomes its path. Astro resolves specific routes (/writing, /post, etc.) before
+// this rest param, so it only handles archive posts.
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { permalink: post.data.permalink },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<PostLayout post={post}>
+  <Content />
+</PostLayout>

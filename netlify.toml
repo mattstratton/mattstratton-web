@@ -1,18 +1,16 @@
-# Production context: All deploys to the main
-# repository branch will inherit these settings.
-[context.production]
- command = "bin/netlify-production.sh"
- publish = "public/"
- 
- [context.deploy-preview]
-  command = "bin/netlify.sh"
-  publish = "public/"
- 
-[context.production.environment]
-   HUGO_VERSION = "0.135.0"
-   
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.135.0"
-  
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.135.0"
+# Netlify build config for mattstratton.com (Astro).
+#
+# Replaces the previous Hugo build (bin/netlify*.sh + HUGO_VERSION). The build is
+# just `astro build`; redirects live in public/_redirects.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Generated OG cards are immutable per page; cache them hard.
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

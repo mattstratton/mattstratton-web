@@ -1,0 +1,17 @@
+---
+title: Laura at Mermaid
+date: 2005-06-26T10:41:00+00:00
+permalink: photos/laura-at-mermaid-2
+author: Matt Stratton
+categories:
+  - NYC
+  - Photos
+tags: []
+legacy: true
+disqusThreadId: "28254951"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a title="photo sharing" href="https://www.flickr.com/photos/myszka/21567005/"><img style="border:solid 2px #000000;" src="https://photos16.flickr.com/21567005_a577c6f2e8_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/myszka/21567005/">IMG_1601</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/myszka/">Myszka</a>. </span>
+</div>
+
+Laura&#8217;s Mermaid Parade outfit. She was &#8220;sushi&#8221;. Awesome costume!

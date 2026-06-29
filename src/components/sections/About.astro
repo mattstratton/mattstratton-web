@@ -1,0 +1,26 @@
+---
+import { about } from '../../data/home';
+---
+
+<section id="about" class="mt-16 scroll-mt-24">
+  <p class="label">{about.title}</p>
+  <div class="mt-4 grid gap-8 md:grid-cols-[1fr_1.6fr]">
+    <img
+      src={about.image}
+      alt="Matty Stratton"
+      width="500"
+      height="500"
+      class="aspect-square w-full max-w-xs rounded-sm object-cover ring-1 ring-rule"
+    />
+    <div>
+      <p class="text-lg leading-relaxed text-ink-soft">{about.content}</p>
+
+      <h3 class="label mt-7">Skills / Expertise</h3>
+      <ul class="mt-3 flex flex-wrap gap-2">
+        {about.skills.map((skill) => (
+          <li class="rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule">{skill}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

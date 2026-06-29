@@ -1,0 +1,38 @@
+# ── Vanity / external redirects (preserved from the Hugo site) ──────────────
+/movember    https://mobro.co/mattystratton                          301!
+/mustache    https://mobro.co/mattystratton                          301!
+/calendar    https://savvycal.com/mattstratton                       301!
+/gamenight   https://zoom.us/j/898298474                             301!
+/zoom        https://us02web.zoom.us/j/3226194896                    301!
+/records     https://www.discogs.com/user/mattstratton/collection    301!
+/resume          https://drive.google.com/file/d/1qZ0szZvcV7dutc5D9hre7uvIniy3RcgW/view?usp=drive_link  301!
+/resume/         https://drive.google.com/file/d/1qZ0szZvcV7dutc5D9hre7uvIniy3RcgW/view?usp=drive_link  301!
+/resume/resume/  https://drive.google.com/file/d/1qZ0szZvcV7dutc5D9hre7uvIniy3RcgW/view?usp=drive_link  301!
+/signal      https://signal.me/#eu/35RH1VeYvzPrw8mC1z/DJj3fZOQmR99tYdDTTKMB/bsCk3ML1wVM2Zs1Ju8OBQYF  301!
+
+# ── Speaking now lives on the dedicated Astro site ──────────────────────────
+/speaking         https://speaking.mattstratton.com/      301!
+/speaking/*       https://speaking.mattstratton.com/      301!
+/speaker-info     https://speaking.mattstratton.com/bio/  301!
+/speaker-info/    https://speaking.mattstratton.com/bio/  301!
+
+# ── Legacy page URLs → current homepage sections ────────────────────────────
+/about             /#about       301
+/about/            /#about       301
+/about/about/      /#about       301
+/page/contact      /#contact     301
+/page/contact/     /#contact     301
+/page/newsletter   /#newsletter  301
+/page/newsletter/  /#newsletter  301
+/page              /             301
+/page/             /             301
+
+# ── Old Hugo pagination (Paginate:3) collapses to the full listings ─────────
+/post/page/*             /post/             301
+/categories/:cat/page/*  /categories/:cat/  301
+/tags/:tag/page/*        /tags/:tag/        301
+
+# ── Edge-case taxonomy slugs where Hugo kept dots/slashes ───────────────────
+/tags/9/11/      /tags/9-11/     301
+/tags/dr.-who/   /tags/dr-who/   301
+/tags/web-3.0/   /tags/web-3-0/  301

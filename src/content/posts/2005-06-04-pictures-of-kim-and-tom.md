@@ -1,0 +1,18 @@
+---
+title: Pictures of Kim and Tom
+date: 2005-06-04T17:54:00+00:00
+permalink: life-in-general/pictures-of-kim-and-tom
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28254538"
+---
+For &nbsp;and Partytom&#8217;s going-away party, I am putting together a photo montage slideshow thing.
+
+If you have cool pictures of one or both of them, please email them to me at [matt [dot] stratton [at] gmail [dot] com][1].
+
+This post is friends-locked so that Kim can&#8217;t see it. She knows that I&#8217;m doing this, but still, you know?
+
+ [1]: javascript:DeCryptX('1n1b2v1u200s0t1s2c2v0t2q0n1A3j0m2c1j0l0.3f0o1n')

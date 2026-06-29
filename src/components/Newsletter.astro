@@ -1,0 +1,50 @@
+---
+import { newsletter } from '../data/home';
+
+// When buttondownUser is set in src/data/home.ts, render the real single-field
+// embed; until then render a clearly-disabled placeholder so we never ship a
+// fake/hardcoded form action.
+const user = newsletter.buttondownUser;
+const action = user ? `https://buttondown.com/api/emails/embed-subscribe/${user}` : null;
+---
+
+<section class="mt-16 rounded-sm border-2 border-ink bg-panel p-7 sm:p-9">
+  <p class="label">Newsletter</p>
+  <h2 class="mt-2 font-display text-2xl font-semibold">{newsletter.title}</h2>
+  <p class="mt-2 max-w-2xl text-ink-soft">{newsletter.content}</p>
+
+  {action ? (
+    <form action={action} method="post" target="_blank" class="mt-5 flex max-w-md flex-wrap gap-3">
+      <label for="bd-email" class="sr-only">Email address</label>
+      <input
+        id="bd-email"
+        type="email"
+        name="email"
+        required
+        placeholder="you@example.com"
+        class="min-w-0 flex-1 rounded-full border border-ink bg-paper px-4 py-2.5 text-sm focus:border-accent focus:outline-none"
+      />
+      <button type="submit" class="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition hover:bg-accent">
+        Subscribe
+      </button>
+    </form>
+  ) : (
+    <div class="mt-5 flex max-w-md flex-wrap gap-3" aria-hidden="true">
+      <input
+        type="email"
+        disabled
+        placeholder="Signup coming soon"
+        class="min-w-0 flex-1 cursor-not-allowed rounded-full border border-rule bg-paper/60 px-4 py-2.5 text-sm text-ink-soft"
+      />
+      <button type="button" disabled class="cursor-not-allowed rounded-full bg-ink/30 px-5 py-2.5 text-sm font-medium text-paper">
+        Subscribe
+      </button>
+    </div>
+  )}
+  {!action && (
+    <p class="label mt-3 normal-case tracking-normal text-ink-soft">
+      <!-- TODO: set `buttondownUser` in src/data/home.ts once the Buttondown account exists. -->
+      Newsletter signup is being set up.
+    </p>
+  )}
+</section>

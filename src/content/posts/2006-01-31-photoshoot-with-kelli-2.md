@@ -1,0 +1,18 @@
+---
+title: Photoshoot with Kelli
+date: 2006-01-31T21:16:00+00:00
+permalink: photos/photoshoot-with-kelli-2
+author: Matt Stratton
+categories:
+  - Photos
+tags: []
+legacy: true
+disqusThreadId: "28257918"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/93864181/"><img style="border:solid 2px #000000;" src="https://static.flickr.com/22/93864181_59f5b9f6d8_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/93864181/">Kelli</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+</div>
+
+came over this afternoon for a little photoshoot action. I still have a lot of post-processing to do, but here&#8217;s one of the ones from today that I think turned out great.
+
+Yay pictures!

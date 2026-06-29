@@ -1,0 +1,35 @@
+---
+import type { LinkCard } from '../data/home';
+
+interface Props {
+  item: LinkCard;
+}
+const { item } = Astro.props;
+---
+
+<a
+  href={item.url}
+  rel="noopener"
+  aria-label={item.title}
+  class="group flex flex-col overflow-hidden rounded-sm border border-rule bg-panel transition-colors hover:border-accent"
+>
+  {item.image && (
+    <div class="aspect-video overflow-hidden bg-ink/5">
+      <img
+        src={item.image}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        class="h-full w-full object-cover grayscale-[0.15] transition duration-300 group-hover:grayscale-0"
+      />
+    </div>
+  )}
+  <div class="flex flex-1 flex-col p-4">
+    <h3 class="font-display text-lg font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
+      {item.title}
+    </h3>
+    <p class="label mt-2 normal-case tracking-normal">
+      {item.source}<span aria-hidden="true"> ↗</span>
+    </p>
+  </div>
+</a>

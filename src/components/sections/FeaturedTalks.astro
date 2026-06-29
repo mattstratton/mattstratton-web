@@ -1,0 +1,18 @@
+---
+import { speaking } from '../../data/home';
+import LinkCard from '../LinkCard.astro';
+
+// The blurb carries a single markdown link; render it as an anchor.
+const contentHtml = speaking.content.replace(
+  /\[([^\]]+)\]\(([^)]+)\)/g,
+  '<a href="$2" rel="noopener" class="text-accent hover:underline">$1</a>',
+);
+---
+
+<section class="mt-16">
+  <p class="label">{speaking.title}</p>
+  <p class="mt-2 max-w-2xl text-ink-soft" set:html={contentHtml}></p>
+  <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    {speaking.items.map((item) => <LinkCard item={item} />)}
+  </div>
+</section>

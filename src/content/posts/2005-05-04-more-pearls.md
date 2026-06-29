@@ -1,0 +1,28 @@
+---
+title: More pearls
+date: 2005-05-04T16:22:00+00:00
+permalink: real-world/more-pearls
+author: Matt Stratton
+categories:
+  - Real World
+tags:
+  - arcecat
+  - Yehoodi
+legacy: true
+disqusThreadId: "28254051"
+---
+**Arcecat:** .is there only one girl on the  panel?
+  
+**Mugsy :** no
+  
+**Mugsy:** marcelo posted the list of judges
+  
+**Mugsy:** they are ALL girls except for him and drew
+  
+**Arcecat:** I know and it confused me
+  
+**Arcecat:** oh
+  
+**Mugsy:** what part confused you?
+  
+**Mugsy:** the part when he listed their names, or the part when he said who they were?

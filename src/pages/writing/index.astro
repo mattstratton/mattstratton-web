@@ -2,12 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { publishedWriting, groupByPart } from '../../lib/writing';
+import { buildFieldGuide, type GuideItem } from '../../lib/writing';
 
-const entries = publishedWriting(await getCollection('writing'));
-const { groups, ungrouped } = groupByPart(entries);
-
-const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const { groups, ungrouped } = buildFieldGuide(await getCollection('writing'));
 ---
 
 <Base
@@ -23,24 +20,26 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
     <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
       An evergreen reference on Postgres internals and the tradeoffs nobody warns you about. Read it
       start to finish as an onboarding path, or jump straight to the symptom you’re fighting right now.
+      Some pieces live here; others are on tigerdata.com, linked below.
     </p>
   </section>
-
-  {entries.length === 0 && (
-    <p class="mt-10 text-ink-soft">New posts are on the way. Subscribe below to get them when they ship.</p>
-  )}
 
   {groups.map((group) => (
     <section class="mt-12">
       <h2 class="font-display text-2xl font-semibold">{group.label}</h2>
       <p class="mt-1 text-ink-soft">{group.blurb}</p>
       <ul class="mt-4">
-        {group.entries.map((e) => (
+        {group.items.map((item: GuideItem) => (
           <li>
-            <a href={`/writing/${e.id}/`} class="group block border-b border-rule py-4 transition-colors hover:bg-panel">
-              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{e.data.title}</h3>
-              <p class="mt-1 text-ink-soft">{e.data.description}</p>
-              <p class="label mt-1 normal-case tracking-normal">{fmt(e.data.pubDate)}</p>
+            <a
+              href={item.href}
+              rel={item.external ? 'noopener' : undefined}
+              class="group block border-b border-rule py-4 transition-colors hover:bg-panel"
+            >
+              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
+                {item.title}{item.external && <span class="label ml-2 align-middle normal-case tracking-normal text-ink-soft">tigerdata.com ↗</span>}
+              </h3>
+              <p class="mt-1 text-ink-soft">{item.description}</p>
             </a>
           </li>
         ))}
@@ -50,14 +49,13 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
 
   {ungrouped.length > 0 && (
     <section class="mt-12">
-      {groups.length > 0 && <h2 class="font-display text-2xl font-semibold">More writing</h2>}
+      <h2 class="font-display text-2xl font-semibold">More writing</h2>
       <ul class="mt-4">
-        {ungrouped.map((e) => (
+        {ungrouped.map((item: GuideItem) => (
           <li>
-            <a href={`/writing/${e.id}/`} class="group block border-b border-rule py-4 transition-colors hover:bg-panel">
-              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{e.data.title}</h3>
-              <p class="mt-1 text-ink-soft">{e.data.description}</p>
-              <p class="label mt-1 normal-case tracking-normal">{fmt(e.data.pubDate)}</p>
+            <a href={item.href} class="group block border-b border-rule py-4 transition-colors hover:bg-panel">
+              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{item.title}</h3>
+              <p class="mt-1 text-ink-soft">{item.description}</p>
             </a>
           </li>
         ))}

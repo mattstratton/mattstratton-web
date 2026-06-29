@@ -36,6 +36,13 @@ Node **20** (see `netlify.toml`). Netlify builds via `npm run build`, publishes 
 
 **Static assets**: `public/` is served at the root path (img/, wp-content/, fav.png, CV PDF). `public/wp-content/` (76MB) holds legacy post images; ~760 are unreferenced WordPress variants and could be pruned after a careful srcset-aware audit.
 
+## Environment variables
+
+- `BUTTONDOWN_API_KEY` — used by `src/lib/buttondown.ts` to fetch the newsletter archive at build. Set it in Netlify's env vars and in a local `.env` (gitignored). If absent, the archive builds empty (no failure). Generate it in Buttondown → Settings → API. To refresh the archive when a new issue sends, point a Buttondown webhook at a Netlify build hook.
+- `BUTTONDOWN_API_BASE` — optional override if Buttondown moves the API base off `api.buttondown.email/v1`.
+
+The signup form is driven by `newsletter.buttondownUser` in `src/data/home.ts` (public username, not a secret).
+
 ## Migration history
 
 The original Hugo source (`content/`, `config.yml`, `layouts/`, `themes/hugo-profile`, `bin/`, `static/`) was **removed** after the Astro site was confirmed in production. It lives in git history if ever needed — `scripts/migrate-posts.ts` still documents the legacy-post transformation, but re-running it would require restoring `content/post/` from history first. The migrated posts in `src/content/posts/` are now the source of truth.

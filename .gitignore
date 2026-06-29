@@ -4,6 +4,10 @@ dist/
 .astro/
 .netlify/
 
+# Secrets (Buttondown API key etc.) — never commit
+.env
+.env.*
+
 # General CodeKit files to ignore
 config.codekit
 /min

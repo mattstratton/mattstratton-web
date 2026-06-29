@@ -16,6 +16,7 @@ const action = user ? `https://buttondown.com/api/emails/embed-subscribe/${user}
   {action ? (
     <form action={action} method="post" target="_blank" class="mt-5 flex max-w-md flex-wrap gap-3">
       <label for="bd-email" class="sr-only">Email address</label>
+      <input type="hidden" name="embed" value="1" />
       <input
         id="bd-email"
         type="email"

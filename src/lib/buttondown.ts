@@ -30,8 +30,23 @@ interface ButtondownEmail {
   email_type?: string;
 }
 
+// Decode the HTML entities that survive tag-stripping, so the plain-text excerpt
+// (used in OG cards, meta descriptions, RSS, and the index) reads correctly
+// instead of showing literal "&#39;" etc.
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&quot;/g, '"')
+    .replace(/&(?:apos|#39);/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
+
 function excerptFrom(html: string, max = 200): string {
-  const text = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const text = decodeEntities(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
   return text.length > max ? `${text.slice(0, max).trimEnd()}…` : text;
 }
 

@@ -1,0 +1,20 @@
+---
+title: Getting Wheezy
+date: 2011-09-04T02:01:54+00:00
+permalink: the-internets/getting-wheezy
+author: Matt Stratton
+categories:
+  - The Internets
+tags:
+  - YouTube
+legacy: true
+description: If a bunch of people watch one of Wheezy Waiter's videos, a bunch of kids get cool technology in their classroom from Intel. So watch the video. The link is in this blog post.
+disqusThreadId: "404077591"
+---
+So there&#8217;s this YouTube dude called <a href="https://www.youtube.com/user/wheezywaiter" target="_blank">Wheezy Waiter</a>. I even met him a couple of weeks ago. But in spite of that, he&#8217;s really cool. And funny.
+
+Check it out. If 200,000 people watch <a href="https://www.amazon.com/b/?ie=UTF8&node=565122" target="_blank">one of his videos</a>, Intel is going to donate a crap-ton* of money to <a href="https://donorschoose.org/" target="_blank">DonorsChoose.org</a>, which gets technology into classrooms. Where it belongs.
+
+So go watch the damn video. He needs a ton of views by sometime in mid-September (even though the video says Aug 31, apparently he talked his way into an extension. <a href="https://www.amazon.com/b/?ie=UTF8&node=565122" target="_blank">So watch it! </a>Several times. Every day. Thanks!
+
+_* &#8211; $25,000_

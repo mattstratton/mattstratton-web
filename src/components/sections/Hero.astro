@@ -1,0 +1,46 @@
+---
+import { hero } from '../../data/home';
+---
+
+<section class="grid items-center gap-10 border-b-2 border-ink pb-12 md:grid-cols-[1.4fr_1fr]">
+  <div>
+    <p class="label">{hero.intro}</p>
+    <h1 class="mt-3 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance sm:text-7xl">
+      I'm <span class="text-accent">{hero.name}</span>
+    </h1>
+    <p class="mt-5 max-w-2xl font-display text-xl font-medium leading-snug text-balance sm:text-2xl">
+      {hero.subtitle}
+    </p>
+    <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+      {hero.content}
+    </p>
+
+    <div class="mt-8 flex flex-wrap items-center gap-3">
+      <a
+        href={hero.resume.url}
+        class="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition hover:bg-accent"
+      >
+        {hero.resume.name}
+      </a>
+      <a
+        href="/writing/"
+        class="rounded-full border border-ink px-5 py-2.5 text-sm font-medium transition hover:border-accent hover:text-accent"
+      >
+        Read the writing
+      </a>
+      {hero.socialLinks.map((s) => (
+        <a href={s.url} rel="noopener" class="label transition-colors hover:text-accent">{s.label}</a>
+      ))}
+    </div>
+  </div>
+
+  <div class="order-first md:order-none">
+    <img
+      src={hero.image}
+      alt="Matty Stratton"
+      width="500"
+      height="500"
+      class="aspect-square w-full max-w-sm rounded-sm object-cover ring-1 ring-rule"
+    />
+  </div>
+</section>

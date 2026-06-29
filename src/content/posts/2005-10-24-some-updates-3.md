@@ -1,0 +1,31 @@
+---
+title: Some updates…
+date: 2005-10-24T10:50:00+00:00
+permalink: life-in-general/some-updates-3
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28256531"
+---
+Friday &#8211; went to the Hilton with Fat Johnny and Connors to pick up various World Series tickets from Heather. Went to the World Series gala with Heather, <span class="ljuser"><a href="https://tavist.livejournal.com/"><strong>tavist</strong></a></span>, <span class="ljuser"><a href="https://davelippy.livejournal.com/"><strong>davelippy</strong></a></span>, Jamie, <span class="ljuser"><a href="https://brian81773.livejournal.com/"><strong>brian81773</strong></a></span> , and Rak. Great food and open bar. 
+
+Saturday morning I woke early, packed, and then headed to Midway. My flight to Burbank was at 10:50, but <span class="ljuser"><a href="https://swifty0682.livejournal.com/"><strong>swifty0682</strong></a></span> was flying in earlier, so the plan was to meet around 9 am for breakfast.
+
+Of course, I arrived at the airport around 8:30 to discover that my flight was delayed until 12:15. Nice.
+
+Had a tasty breakfast of Potbelly&#8217;s with Swifty, and then (eventually) flew into Burbank, Johnny. <span class="ljuser"><a href="https://mteson.livejournal.com/"><strong>mteson</strong></a></span> and <span class="ljuser"><a href="https://bluemekka.livejournal.com/"><strong>bluemekka</strong></a></span> picked me up at the airport. We stopped by Fry&#8217;s, where a[chocolate fountain][1] was purchased, and Marcelo even deigned to visit **[In-N-Out][2]** for me. Last-minute partay prep, and then it was Fidelio time.
+
+I dressed as [Dr. Strangelove][3], Marcelo as [Humbert Humbert][4], and Audra was [Leelee Sobieski&#8217;s character][5] from _Eyes Wide Shut_. It was a pleasant soiree, mellow and lightly attended, but fantastic [costumes][6]. 
+
+Sunday featured hot cookout action and the return of <span class="ljuser"><a href="https://drewfansler.livejournal.com/"><strong>drewfansler</strong></a></span> from his South Side pilgrimage. Marcelo and I watched some movies and some Curb.
+
+For those of you keeping score at home, I will be in Burbank until Wednesday, then I&#8217;ll be jetting over to Denver. I&#8217;ll be hanging out with <span class="ljuser"><a href="https://kathy-skadoo.livejournal.com/"><strong>kathy_skadoo</strong></a></span> and the other Denver folks until Nov 1, when I&#8217;ll fly out to Minneapolis, returning to Chicago on Nov 5. Fun!
+
+ [1]: https://www.flickr.com/photos/mteson/55297022/
+ [2]: https://www.flickr.com/photos/mugsy/54992636/
+ [3]: https://www.flickr.com/photos/mteson/55296146/in/photostream/
+ [4]: https://www.flickr.com/photos/mteson/55296298/in/photostream/
+ [5]: https://www.flickr.com/photos/mteson/55296468/in/photostream/
+ [6]: https://www.flickr.com/photos/mteson/sets/1198111/

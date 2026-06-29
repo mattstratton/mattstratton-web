@@ -1,4 +1,9 @@
-/public
+# Astro build output + cache. NOTE: public/ is now SOURCE static assets
+# (committed), not Hugo's build output — do not ignore it.
+dist/
+.astro/
+.netlify/
+
 # General CodeKit files to ignore
 config.codekit
 /min

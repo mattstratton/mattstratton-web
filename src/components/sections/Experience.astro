@@ -1,0 +1,64 @@
+---
+import { experience } from '../../data/home';
+
+// CSS-only tabs: sr-only radios drive panel visibility via :checked sibling
+// selectors. No JS — works with JS disabled — and a native radio group gives us
+// arrow-key navigation between tabs for free. The per-index selectors are
+// generated here because scoped-style blocks can't interpolate runtime values.
+const css = experience
+  .map(
+    (_, i) => `
+#exp-${i}:checked ~ .exp-body .exp-panel[data-i="${i}"]{display:block}
+#exp-${i}:checked ~ .exp-tablist label[for="exp-${i}"]{color:var(--color-accent);border-color:var(--color-accent);background:color-mix(in srgb, var(--color-accent) 8%, transparent)}
+#exp-${i}:focus-visible ~ .exp-tablist label[for="exp-${i}"]{outline:2px solid var(--color-accent);outline-offset:2px}`,
+  )
+  .join('');
+---
+
+<section class="mt-16">
+  <p class="label">Experience</p>
+
+  <div class="exp-tabs mt-4 grid gap-6 md:grid-cols-[14rem_1fr]">
+    {experience.map((_, i) => (
+      <input class="sr-only" type="radio" name="exp" id={`exp-${i}`} checked={i === 0} />
+    ))}
+
+    <div class="exp-tablist flex flex-col gap-1" role="tablist" aria-label="Work experience">
+      {experience.map((item, i) => (
+        <label
+          for={`exp-${i}`}
+          class="cursor-pointer rounded-sm border-l-2 border-transparent px-3 py-2 text-sm transition-colors hover:bg-panel"
+        >
+          <span class="block font-medium">{item.company}</span>
+          <span class="label normal-case tracking-normal">{item.date}</span>
+        </label>
+      ))}
+    </div>
+
+    <div class="exp-body">
+      {experience.map((item, i) => (
+        <div class="exp-panel" data-i={i} role="tabpanel">
+          <h3 class="font-display text-xl font-semibold">{item.job}</h3>
+          <p class="label mt-1 normal-case tracking-normal">
+            {item.companyUrl ? (
+              <a href={item.companyUrl} rel="noopener" class="text-accent hover:underline">{item.company}</a>
+            ) : (
+              <span class="text-ink">{item.company}</span>
+            )}
+            <span class="text-ink-soft"> · {item.date}</span>
+          </p>
+          {item.summary && <p class="mt-4 leading-relaxed text-ink-soft">{item.summary}</p>}
+          {item.bullets && (
+            <ul class="mt-4 space-y-2 text-ink-soft">
+              {item.bullets.map((b) => (
+                <li class="relative pl-5 leading-relaxed before:absolute before:left-0 before:text-accent before:content-['▹']">{b}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style is:inline set:html={`.exp-tabs .exp-panel{display:none}` + css}></style>

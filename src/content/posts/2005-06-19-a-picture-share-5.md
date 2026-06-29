@@ -1,0 +1,18 @@
+---
+title: Jodie at the Cubs v. Yankees Game
+date: 2005-06-19T15:22:00+00:00
+permalink: baseball/a-picture-share-5
+author: Matt Stratton
+categories:
+  - Baseball
+tags:
+  - Cubs
+  - Joeycat
+legacy: true
+disqusThreadId: "28254875"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/20301847/"><img style="border:solid 2px #000000;" src="https://photos16.flickr.com/20301847_104fbd0f04_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/20301847/">A Picture Share!</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">mugsy1274</a>. </span>
+</div>
+
+Jodie at the cubs/yankees game

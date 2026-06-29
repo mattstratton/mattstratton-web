@@ -1,0 +1,19 @@
+---
+title: Will the real DJ Larkin please stand up? Please stand up?
+date: 2006-02-28T14:12:00+00:00
+permalink: life-in-general/will-the-real-dj-larkin-please-stand-up-please-stand-up-3
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28258427"
+---
+[![][1]][2]
+
+[![][3]][4]
+
+ [1]: https://static.flickr.com/31/105838921_531247bd84.jpg
+ [2]: https://www.flickr.com/photos/dream_in_sound/105838921/
+ [3]: https://static.flickr.com/39/102347114_ce949a8e2f.jpg?v=0
+ [4]: https://www.flickr.com/photos/aphexplotz/102347114/

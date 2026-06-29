@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { collectTaxonomy } from '../../lib/posts';
+
+const categories = collectTaxonomy(await getCollection('posts'), 'categories');
+---
+
+<Base title="Categories · Matty Stratton" description="Browse the archive by category.">
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label">Browse</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold tracking-tight">Categories</h1>
+  </section>
+  <ul class="mt-8 flex flex-wrap gap-3">
+    {categories.map((c) => (
+      <li>
+        <a href={`/categories/${c.slug}/`} class="inline-flex items-center gap-2 rounded-full bg-ink/5 px-4 py-1.5 ring-1 ring-rule transition hover:ring-accent">
+          {c.name}<span class="label normal-case tracking-normal">{c.count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

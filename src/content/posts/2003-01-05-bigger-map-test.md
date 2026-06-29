@@ -1,0 +1,24 @@
+---
+title: Bigger map test
+date: 2003-01-05T23:10:00+00:00
+permalink: life-in-general/bigger-map-test
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28244693"
+---
+So [Leo Laporte][1] thinks he can make a bigger map?
+
+We shall have one too! And conquer!
+
+<div style="width:100%;">
+</div>
+
+Don&#8217;t forget&#8230;clicking must be done from [my main LJ page][2], and NOT any page starting with &#8220;www.livejournal.com&#8221; or we won&#8217;t get the credit!
+
+m.
+
+ [1]: https://www.leoville.com
+ [2]: https://mugsy1274.livejournal.com

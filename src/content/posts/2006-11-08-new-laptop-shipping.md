@@ -1,0 +1,16 @@
+---
+title: New laptop shipping
+date: 2006-11-08T17:46:00+00:00
+permalink: life-in-general/new-laptop-shipping
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28260798"
+---
+So my [new laptop for work][1] was finally approved. It looks like it will ship from Dell on the 16th, so it should arrive Nov 21 or so.
+
+Of course, that is the week of Thanksgiving, and I am out of the office the whole week. So I guess it will be waiting for me when I return on the 27th. Neat!
+
+ [1]: https://mugsy1274.livejournal.com/545155.html

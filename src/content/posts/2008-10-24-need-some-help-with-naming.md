@@ -1,0 +1,18 @@
+---
+title: Need some help with naming…
+date: 2008-10-24T13:52:00+00:00
+permalink: life-in-general/need-some-help-with-naming
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28264504"
+---
+**Update** &#8211; poll is closed. Blog has been created.
+
+https://lessthanmatt.com
+
+Thanks all!
+
+A friend of mine has been having some decent success with fitness by creating a blog dedicated to it. In the interests of generating some accountability, I&#8217;m thinking of doing the same. However, as usual, the naming is the rub.

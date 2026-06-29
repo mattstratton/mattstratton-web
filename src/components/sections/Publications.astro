@@ -1,0 +1,12 @@
+---
+import { publications } from '../../data/home';
+import LinkCard from '../LinkCard.astro';
+---
+
+<section class="mt-16">
+  <p class="label">{publications.title}</p>
+  <p class="mt-2 max-w-2xl text-ink-soft">{publications.content}</p>
+  <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    {publications.items.map((item) => <LinkCard item={item} />)}
+  </div>
+</section>

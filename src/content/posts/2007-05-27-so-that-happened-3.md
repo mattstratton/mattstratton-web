@@ -1,0 +1,24 @@
+---
+title: So that happened
+date: 2007-05-27T21:48:00+00:00
+permalink: photos/so-that-happened-3
+author: Matt Stratton
+categories:
+  - Photos
+tags:
+  - Wedding
+legacy: true
+disqusThreadId: "28262358"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a title="photo sharing" href="https://www.flickr.com/photos/mugsy/517072320/"><img style="border:solid 2px #000000;" src="https://farm1.static.flickr.com/206/517072320_4443d24183_m.jpg" alt="" /></a><br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/mugsy/517072320/">Girls just wanna have fun</a><br /> Originally uploaded by <a href="https://www.flickr.com/people/mugsy/">Matt Stratton</a>. </span>
+</div>
+
+Big recap to come after we return from Costa Rica. For now, these picture links will have to satisfy you:
+
+[Matt and Carrie&#8217;s Wedding Collection on Flickr][1] (a collection of all of the photos we got on our own camera)
+
+[Matt and Carrie&#8217;s Wedding Group on Flickr][2] (this is where other people will be posting their pictures, I hope)
+
+ [1]: https://flickr.com/photos/mugsy/collections/72157600273481867/
+ [2]: https://flickr.com/groups/strattonwedding/

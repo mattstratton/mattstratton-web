@@ -1,0 +1,21 @@
+---
+title: Save the day – Carrie and Heather’s Swing I Graduation!
+date: 2006-09-22T10:17:00+00:00
+permalink: life-in-general/save-the-day-carrie-and-heathers-swing-i-graduation
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28260462"
+---
+<div style="float:right;margin-left:10px;margin-bottom:10px;">
+  <a href="https://www.flickr.com/photos/daisy331/71957752/" title="photo sharing"><img src="https://static.flickr.com/20/71957752_c984f1b584_m.jpg" alt="" style="border:solid 2px #000000;" /></a> <br /> <span style="font-size:.9em;margin-top:0;"> <a href="https://www.flickr.com/photos/daisy331/71957752/">halloween 04</a> <br /> Originally uploaded by <a href="https://www.flickr.com/people/daisy331/">Daisy331</a>. </span>
+</div>
+
+Carrie and Heather (pictured here) have been taking Swing I with [Big City Swing][1] on Monday nights.
+
+For those of you local, on Monday, Oct 2, at 9:30 PM at [Fizz Bar and Grill][2] will be their &#8220;graduation dance&#8221;. So you should totally come out and dance with them. Or at least have a drink and watch them dance.
+
+ [1]: https://bigcityswing.com/
+ [2]: https://fizzchicago.com

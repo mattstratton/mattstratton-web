@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { collectTaxonomy, postsForTerm } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return collectTaxonomy(posts, 'tags').map((term) => ({
+    params: { slug: term.slug },
+    props: { term, posts: postsForTerm(posts, 'tags', term.slug) },
+  }));
+}
+
+const { term, posts } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+
+<Base title={`#${term.name} · Matty Stratton`} description={`Posts tagged ${term.name}.`}>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label"><a href="/tags/" class="hover:text-accent">Tags</a></p>
+    <h1 class="mt-4 font-display text-5xl font-semibold tracking-tight">{term.name}</h1>
+    <p class="label mt-3 normal-case tracking-normal">{posts.length} posts</p>
+  </section>
+  <ul class="mt-6">
+    {posts.map((p) => (
+      <li class="flex gap-4 border-b border-rule py-2.5">
+        <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{fmt(p.data.date)}</span>
+        <a href={`/${p.data.permalink}/`} class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline">{p.data.title}</a>
+      </li>
+    ))}
+  </ul>
+</Base>

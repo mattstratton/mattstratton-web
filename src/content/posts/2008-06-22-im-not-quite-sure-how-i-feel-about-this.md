@@ -1,0 +1,18 @@
+---
+title: I’m not quite sure how I feel about this…
+date: 2008-06-22T17:33:00+00:00
+permalink: life-in-general/im-not-quite-sure-how-i-feel-about-this
+author: Matt Stratton
+categories:
+  - Personal
+tags: []
+legacy: true
+disqusThreadId: "28264357"
+---
+<div>
+  <b><a href="https://www.dailymotion.com/swf/x5v3wv">Rap</a></b><br /><i>by <a href="https://www.dailymotion.com/bsap11">bsap11</a></i>
+</div>
+
+The good news is, both skippers are terrible rappers. I&#8217;m still trying to puzzle out a few of the lines (from both of them).
+
+And with that, I&#8217;m off to the Friendly Confines to go watch the last game of the first round of Crosstown Classic.

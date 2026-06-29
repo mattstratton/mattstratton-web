@@ -1,0 +1,18 @@
+---
+title: On the topic of Jenna Fischer’s impending divorce…
+date: 2007-09-07T16:00:00+00:00
+permalink: life-in-general/on-the-topic-of-jenna-fischers-impending-divorce
+author: Matt Stratton
+categories:
+  - Personal
+tags:
+  - Television
+legacy: true
+disqusThreadId: "28213966"
+---
+Some backstory &#8211; a while ago, Marcelo thought it would be funny for us to try to convince [Some backstory &#8211; a while ago, Marcelo thought it would be funny for us to try to convince][1] that he was dating Jenna Fischer (who was married at the time). So I just found this IM between Arcecat and myself on the topic, and it made me chuckle.
+
+<u>[Arcecat and Mugsy Discuss Marcelo][2]</u>
+
+ [1]: https://mattstratton.livejournal.com/tag/arcecat
+ [2]: /life-in-general/man-sometimes-i-can-be-so-mean

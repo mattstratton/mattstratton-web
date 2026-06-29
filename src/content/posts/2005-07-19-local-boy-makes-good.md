@@ -1,0 +1,17 @@
+---
+title: Local boy makes good
+date: 2005-07-19T13:21:00+00:00
+permalink: baseball/local-boy-makes-good
+author: Matt Stratton
+categories:
+  - Baseball
+tags:
+  - Cubs
+legacy: true
+disqusThreadId: "28255183"
+---
+Jody Gerut (who went to my high school, and his father taught physics there) just got [traded to the Cubs][1] for Jason Dubois.
+
+_&#8220;I&#8217;m shocked,&#8221; Gerut said. &#8220;I grew up a White Sox fan but I&#8217;m going to have to get over that. It&#8217;s great. It&#8217;s an unbelievable franchise with a great ballpark.&#8221;_
+
+ [1]: https://sports.espn.go.com/mlb/news/story?id=2111055

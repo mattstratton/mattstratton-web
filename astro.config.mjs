@@ -13,7 +13,7 @@ export default defineConfig({
     format: 'file',
   },
   // Keep the generated OG image routes (/og/*.png) out of the sitemap.
-  integrations: [sitemap({ filter: (page) => !page.includes('/og/') })],
+  integrations: [sitemap({ filter: (page) => !page.includes('/og/') && !page.endsWith('/llms.txt') })],
   vite: {
     // Cast: @tailwindcss/vite ships its own Vite types which skew from Astro's
     // bundled Vite types — harmless at runtime, noisy at type-check.

@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import JsonLd from '../components/JsonLd.astro';
+import { AUTHOR_PERSON } from '../lib/schema';
 import { role, pronouns, socials, bios, headshots } from '../data/bio';
 import headshotSizes from '../data/headshots.json';
 import { toFormats, plainFormats } from '../lib/bio-format';
@@ -7,6 +9,8 @@ import { toFormats, plainFormats } from '../lib/bio-format';
 type SizeEntry = { label: string; src: string; w: number; h: number };
 type HeadshotData = { sizes: SizeEntry[]; original: SizeEntry };
 const sizeData = headshotSizes as Record<string, HeadshotData>;
+
+const personSchema = { ...AUTHOR_PERSON, description: bios.oneLiner };
 
 // Each bio gets Text / HTML / Markdown copy variants (Notist-style).
 const bioBlocks = [
@@ -21,6 +25,9 @@ const bioBlocks = [
   description="Speaker bio, headshots, and links for Matty Stratton. Ready for event organizers to grab and go."
   image="/og/bio.png"
 >
+  <Fragment slot="head">
+    <JsonLd schema={personSchema} />
+  </Fragment>
   <header class="border-b-2 border-ink pb-6">
     <p class="label">Speaker kit</p>
     <h1 class="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">Bio &amp; press</h1>

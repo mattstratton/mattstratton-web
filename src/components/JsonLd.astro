@@ -1,0 +1,14 @@
+---
+interface Props {
+  schema: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { schema } = Astro.props;
+const payload = Array.isArray(schema)
+  ? { '@context': 'https://schema.org', '@graph': schema }
+  : { '@context': 'https://schema.org', ...schema };
+
+// Escape </script> sequences to prevent XSS in inline JSON-LD blocks.
+const json = JSON.stringify(payload).replace(/<\//g, '<\\/');
+---
+<script type="application/ld+json" is:inline set:html={json} />

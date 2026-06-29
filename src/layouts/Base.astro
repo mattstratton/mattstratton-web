@@ -63,6 +63,7 @@ const nav = [
     {description && <meta name="twitter:description" content={description} />}
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
+    <slot name="head" />
   </head>
   <body class="min-h-screen antialiased">
     <a

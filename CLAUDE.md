@@ -36,18 +36,6 @@ Node **20** (see `netlify.toml`). Netlify builds via `npm run build`, publishes 
 
 **Static assets**: `public/` is served at the root path (img/, wp-content/, fav.png, CV PDF). `public/wp-content/` (76MB) holds legacy post images; ~760 are unreferenced WordPress variants and could be pruned after a careful srcset-aware audit.
 
-## Migration legacy (pending cleanup)
+## Migration history
 
-The Hugo source still exists in the repo but is INERT (Astro ignores it): `content/`, `config.yml`, `layouts/` (Hugo), `themes/hugo-profile` (submodule), `bin/`, `static/`. These can be removed once the Astro site is confirmed in production. `scripts/migrate-posts.ts` reads `content/post/`, so keep that until you're sure no re-migration is needed.
-
-## Verifying URL preservation
-
-```bash
-# Baseline (old Hugo) — build to a scratch dir, NOT public/:
-hugo --theme=hugo-profile --buildDrafts=false -d /tmp/hugo-public
-find /tmp/hugo-public -name index.html | sed 's|.*/hugo-public||; s|index.html$||' | sort > /tmp/hugo-urls.txt
-# Astro:
-npm run build
-find dist -name index.html | sed 's|^dist||; s|index.html$||' | sort > /tmp/astro-urls.txt
-comm -23 /tmp/hugo-urls.txt /tmp/astro-urls.txt   # Hugo-only URLs (should be only pagination + redirected paths)
-```
+The original Hugo source (`content/`, `config.yml`, `layouts/`, `themes/hugo-profile`, `bin/`, `static/`) was **removed** after the Astro site was confirmed in production. It lives in git history if ever needed — `scripts/migrate-posts.ts` still documents the legacy-post transformation, but re-running it would require restoring `content/post/` from history first. The migrated posts in `src/content/posts/` are now the source of truth.

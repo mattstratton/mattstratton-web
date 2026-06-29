@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Search from '../components/Search.astro';
 
 interface Props {
   title: string;
@@ -95,6 +96,7 @@ const nav = [
               {item.label}{item.external && <span aria-hidden="true"> ↗</span>}
             </a>
           ))}
+          <Search />
         </div>
       </nav>
     </header>

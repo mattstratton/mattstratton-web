@@ -17,9 +17,9 @@ const date = d.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long'
   type="article"
   publishedTime={d.date.toISOString()}
 >
-  <article class="mx-auto max-w-2xl">
+  <article class="mx-auto max-w-2xl" data-pagefind-body>
     <header class="border-b-2 border-ink pb-6">
-      <p class="label">From the archive</p>
+      <p class="label" data-pagefind-ignore>From the archive</p>
       <h1 class="mt-3 font-display text-4xl font-bold leading-tight tracking-tight text-balance sm:text-5xl">
         {d.title}
       </h1>

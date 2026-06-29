@@ -16,6 +16,10 @@ const API_BASE =
 // Statuses that represent a publicly-archivable, already-delivered issue.
 const PUBLISHED = new Set(['sent', 'imported']);
 
+// Buttondown can append " | <newsletter name>" to subjects. Strip it for clean
+// archive titles (the email subject is unaffected).
+const NAME_SUFFIX = / \| Uncommitted$/i;
+
 interface ButtondownEmail {
   id: string;
   subject?: string;
@@ -68,7 +72,7 @@ export function buttondownLoader(): Loader {
           const data = await parseData({
             id: e.slug,
             data: {
-              subject: e.subject ?? e.slug,
+              subject: (e.subject ?? e.slug).replace(NAME_SUFFIX, ''),
               slug: e.slug,
               publishDate: e.publish_date ?? new Date(0).toISOString(),
               bodyHtml,

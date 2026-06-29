@@ -9,6 +9,7 @@ tags:
   - followfriday
   - Twitter
 legacy: true
+image: /wp-content/uploads/jenniferalaine.png
 disqusThreadId: "68398970"
 ---
 This week&#8217;s Fussy Follow Friday recommendation is the always amusing and exuberant <a href="https://twitter.com/jenniferalaine" target="_blank"><strong>@jenniferalaine</strong></a>. In addition to being a prolific and hilarious <a href="https://youllgrowtoloveme.com/" target="_blank">blogger</a>, Jenn will add value to your Twitter experience by constantly reminding you that Twitter can be FUN.

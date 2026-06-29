@@ -10,6 +10,7 @@ legacy: true
 description: My roommate, Mary, has "adopted" two families in need this Christmas. Last year she adopted three families, and your donations and generosity made it happen. She could use YOUR help in making the holidays amazing for these families.
 image: /wp-content/uploads/mary-presents.png
 disqusThreadId: "4211187142"
+heroInBody: true
 ---
 <!-- <img class="alignnone wp-image-6962 size-full" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 

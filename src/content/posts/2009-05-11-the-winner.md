@@ -7,7 +7,9 @@ categories:
   - Meta
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/05/contest-names-154x300.jpg
 disqusThreadId: "28264949"
+heroInBody: true
 ---
 On April 30, 2009, I <a href="/2009/04/30/feedback-prize/" target="_self">posted a contest</a> wherein by submitting feedback on Good Old Rock, you would be entered in a drawing for a $25 Amazon.com Gift Certificate. Here is the list of people for the drawing:
 

@@ -8,7 +8,9 @@ categories:
   - RSS Recs
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/jdw2-293x300.jpg
 disqusThreadId: "28264840"
+heroInBody: true
 ---
 **<img class="alignleft size-medium wp-image-5045" style="margin: 3px;" title="jdw2" src="/wp-content/uploads/2009/04/jdw2-293x300.jpg" alt="jdw2" width="293" height="300" srcset="/wp-content/uploads/2009/04/jdw2-293x300.jpg 293w, /wp-content/uploads/2009/04/jdw2.jpg 847w" sizes="(max-width: 293px) 100vw, 293px" />Blog Name:** Jason Daniel Photography
   

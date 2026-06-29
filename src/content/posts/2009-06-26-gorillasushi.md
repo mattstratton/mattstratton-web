@@ -7,7 +7,9 @@ categories:
   - Follow Friday
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/06/gorillasushi.jpg
 disqusThreadId: "28265093"
+heroInBody: true
 ---
 _For those of you not familiar…Fussy Follow Friday is based upon the concept that instead of a glut of Twitter follow recommendations, I will make one, and ONLY ONE, follow recommendation per Friday. For more information, the Library of Congress recommends <a href="../2009/06/10/fussy-follow-friday/" target="_self">this blog post</a>._
 

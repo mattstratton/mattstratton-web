@@ -10,7 +10,9 @@ tags:
   - google voice
   - iphone
 legacy: true
+image: /wp-content/uploads/2009/08/blackberry1.jpg
 disqusThreadId: "31144311"
+heroInBody: true
 ---
 <a href="https://google.com/voice" target="_blank">Google Voice</a>. It&#8217;s here, it&#8217;s <a href="https://en.wikipedia.org/wiki/Gratis_versus_Libre#.22Free_as_in_beer.22_vs_.22Free_as_in_speech.22" target="_blank">free like beer</a>, get used to it.
 

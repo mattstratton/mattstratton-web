@@ -8,7 +8,9 @@ categories:
 tags:
   - Up North
 legacy: true
+image: /wp-content/uploads/2009/07/IMG_9409.jpg
 disqusThreadId: "28200312"
+heroInBody: true
 ---
 OK, I&#8217;m not ACTUALLY on a boat right now. I&#8217;m sitting at the kitchen table of in my in-laws&#8217; lake house. But yesterday&#8230;I was on many boats.
 

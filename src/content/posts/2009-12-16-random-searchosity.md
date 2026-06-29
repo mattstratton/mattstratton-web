@@ -8,6 +8,7 @@ categories:
 tags: []
 legacy: true
 description: People find their way to my blog with some very strange Google searches. I've compiled a list of some of the more amusing ones.
+image: https://farm3.static.flickr.com/2151/2321628609_afc17017bd_m.jpg
 disqusThreadId: "52273381"
 ---
 It&#8217;s been a while since I&#8217;ve done a post like this, but considering that yesterday I got a <a href="/real-world/unicorns-in-the-real-world" target="_blank">flaming blog comment</a> from an 11 year old Canadian who found my blog by Googling &#8220;are there real unicorns on earth?&#8221;, it seemed only right and proper to resurrect the concept.

@@ -8,6 +8,7 @@ categories:
 tags: []
 legacy: true
 description: If you work in the technology field, you have likely come in contact with project managers who are certified Project Management Professionals. You can't miss them, because they append the acronym "PMP" to their email signatures, LinkedIn name, and probably also have it embroidered on their shirts. What I don't understand is why, of all the various IT certifications, PMP is accepted as a title, but anyone who put "CCIE" after their name would be mocked mercilessly.
+image: /wp-content/uploads/pmpin.png
 disqusThreadId: "245410162"
 ---
 If you work in the technology field, you have likely come in contact with project managers who are certified Project Management Professionals. You can&#8217;t miss them, because they append the acronym &#8220;PMP&#8221; to their email signatures, LinkedIn name, and probably also have it embroidered on their shirts. What I don&#8217;t understand is why, of all the various IT certifications, PMP is accepted as a title, but anyone who put &#8220;CCIE&#8221; after their name would be mocked mercilessly.

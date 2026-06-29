@@ -8,7 +8,9 @@ categories:
   - Meta
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/11/about-page-300x175.png
 disqusThreadId: "44496935"
+heroInBody: true
 ---
 I&#8217;ve been giving a lot of thought to redesign/improvements to this fancy-pants blog here&#8230;and one area that I&#8217;ve always known to need improvement is my <a href="/about" target="_self">About page</a>.
 

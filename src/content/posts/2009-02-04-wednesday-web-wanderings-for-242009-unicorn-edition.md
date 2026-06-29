@@ -8,7 +8,9 @@ categories:
 tags:
   - unicorn
 legacy: true
+image: /wp-content/uploads/2009/02/unicorn-shark-243x300.jpg
 disqusThreadId: "28203816"
+heroInBody: true
 ---
 [<img class="size-medium wp-image-4648 alignleft" style="margin: 5px;" title="unicorn-shark" src="/wp-content/uploads/2009/02/unicorn-shark-243x300.jpg" alt="unicorn-shark" width="170" height="210" srcset="/wp-content/uploads/2009/02/unicorn-shark-243x300.jpg 243w, /wp-content/uploads/2009/02/unicorn-shark.jpg 491w" sizes="(max-width: 170px) 100vw, 170px" />][1]This is a new feature that I&#8217;ll be doing weekly. It&#8217;s the Wednesday Web Wanderings&#8230;aka, &#8220;a bunch of awesome links, provided to you by Matt, because he is awesome.&#8221;
 

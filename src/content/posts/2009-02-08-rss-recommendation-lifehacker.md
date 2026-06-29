@@ -7,7 +7,9 @@ categories:
   - RSS Recs
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/02/lifehacker-300x229.jpg
 disqusThreadId: "28206740"
+heroInBody: true
 ---
 _Time for yet another new feature at Good Old Rock &#8211; the <a href="/topics/rss-recommendations/" target="_self">RSS Recommendations</a>__! In this section, I will share with you a choice blog that I follow in my feed reader. I&#8217;m planning to provide new blog reviews every week, so keep your eyes open. For the time being, I&#8217;m going to focus on blogs I already follow, but if you really truly have some amazing recommendation, you can feel free to share it with me &#8211; but please do not suggest your own blog. I have over 120 blogs in my feed reader, so it will take me some time before I need new suggestions. Enjoy!_
 

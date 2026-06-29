@@ -8,7 +8,9 @@ categories:
 tags:
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/05/kellyg5.jpg
 disqusThreadId: "28264964"
+heroInBody: true
 ---
 I made <a href="https://twitter.com/mattstratton/status/1786645842" target="_blank">a joke earlier this week about creating a &#8220;Good-Looking People&#8221; group in TweetDeck</a>, so that I would have a column that was filled with pretty people avatars. Given that theme of my twittering this week, it seems only natural that my #FollowFriday post would feature folks who have avatars that are easy on the eyes. Of course, that&#8217;s not the ONLY reason to follow them&#8230;
 

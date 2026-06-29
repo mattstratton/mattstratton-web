@@ -7,7 +7,9 @@ categories:
   - Photography
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/03/group-shot-merge-1024x616.jpg
 disqusThreadId: "28250574"
+heroInBody: true
 ---
 This is a picture taken at my father&#8217;s house yesterday. I was trying to take the same group picture over my sister Kaitlyn&#8217;s shoulder, but I couldn&#8217;t work it out, so I decided, instead, to go &#8216;artistic&#8217; and shoot HER picture. 
 

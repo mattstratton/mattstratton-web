@@ -8,7 +8,9 @@ categories:
   - Web Wanderings
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/03/old-microsoft-logo.png
 disqusThreadId: "28264805"
+heroInBody: true
 ---
 [<img class="alignleft size-full wp-image-4990" style="margin: 3px;" title="old-microsoft-logo" src="/wp-content/uploads/2009/03/old-microsoft-logo.png" alt="old-microsoft-logo" width="270" height="181" srcset="/wp-content/uploads/2009/03/old-microsoft-logo.png 450w, /wp-content/uploads/2009/03/old-microsoft-logo-300x201.png 300w" sizes="(max-width: 270px) 100vw, 270px" />][1]I make my living designing, implementing, and supporting IT infrastructure based on the Microsoft stack. So it should come as no great surprise that I have a large collection of useful links for IT Pros who work with Microsoft infrastructure. These links are primarily targeted at system administrators &#8211; if you want tips and links related to products like Office, Vista, or Microsoft Bob, you&#8217;ll have to wait for a future post.
 

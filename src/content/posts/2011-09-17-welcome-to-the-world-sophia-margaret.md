@@ -8,7 +8,9 @@ categories:
 tags:
   - sophia
 legacy: true
+image: /wp-content/uploads/IMG_2581.jpg
 disqusThreadId: "417661843"
+heroInBody: true
 ---
 Sophia Margaret Stratton was born at 8:15 PM on September 16, 2011.
 

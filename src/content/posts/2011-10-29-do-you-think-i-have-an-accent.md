@@ -9,6 +9,7 @@ tags:
   - accents
 legacy: true
 description: There's a vlog meme running around, where people upload videos of themselves saying certain words or phrases, and then you, the viewer, identify the accent. So here's mine.
+image: wp-content/uploads/accent.png
 disqusThreadId: "456468193"
 ---
 There&#8217;s a vlog meme running around, where people upload videos of themselves saying certain words or phrases, and then you, the viewer, identify the accent.

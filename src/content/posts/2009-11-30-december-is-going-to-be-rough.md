@@ -9,7 +9,9 @@ categories:
 tags:
   - The Dot Com
 legacy: true
+image: /wp-content/uploads/2009/11/p_2048_1536_6AFC7B78-3E3E-42D5-B22A-8A9BCEC6CCC4.jpeg
 disqusThreadId: "48805092"
+heroInBody: true
 ---
 I fully realize that today is still November, but today is the first day of &#8220;hit the ground running&#8221; for the rest of the month for me.
 

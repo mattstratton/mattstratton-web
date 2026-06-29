@@ -9,7 +9,9 @@ tags:
   - followfriday
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/04/pamela_d.jpg
 disqusThreadId: "28264904"
+heroInBody: true
 ---
 I&#8217;m trying something different for this Follow Friday &#8211; instead of just tweeting a list of cool people that I think you should add to your follow list on Twitter, I&#8217;m doing a blog post to tell you a little more about the people I think you should follow. It&#8217;s entirely possible that some of these are repeats of previous #followfriday tweets from me, but since this is a new and expanded format, I don&#8217;t think anyone will mind.
 

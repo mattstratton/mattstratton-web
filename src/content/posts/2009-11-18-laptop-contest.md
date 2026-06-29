@@ -8,7 +8,9 @@ categories:
 tags:
   - Carrie
 legacy: true
+image: /wp-content/uploads/2009/11/rtfm.png
 disqusThreadId: "46416752"
+heroInBody: true
 ---
 [<img class="alignright size-full wp-image-5635" title="rtfm" src="/wp-content/uploads/2009/11/rtfm.png" alt="rtfm" width="180" height="296" />][1]My good pal Jenn at Free and Flawed is having a super awesome contest. She&#8217;s <a href="https://freeandflawed.com/2009/11/17/hp-pavilion-dm3-giveaway" target="_blank">giving away</a> a new <a href="https://www.hp.com/united-states/campaigns/thinandlight/dm3.html" target="_blank">HP Pavilion dm3 laptop</a> to one lucky commenter on her blog. I highly recommend you enter her contest, which simply entails commenting on <a href="https://freeandflawed.com/2009/11/17/hp-pavilion-dm3-giveaway" target="_blank">this post</a> and sharing your (hopefully) embarrassing &#8220;first screen name ever&#8221;.
 

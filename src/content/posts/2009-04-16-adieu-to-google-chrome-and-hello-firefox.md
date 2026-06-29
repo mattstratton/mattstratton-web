@@ -7,7 +7,9 @@ categories:
   - Tech Tips
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/chrome404.jpg
 disqusThreadId: "28264876"
+heroInBody: true
 ---
 I&#8217;ll happily admit it &#8211; I&#8217;m an early adopter, and I like playing with new toys. I got my first TiVo in 1999, for example. So when I heard that Google had their very own fancy-pants web browser, called <a href="https://www.google.com/chrome" target="_blank">Chrome</a>, I downloaded and installed it as soon as the servers would let me. I used Chrome for about a week, but soon gave up on it due to its lack of extensions and the fact that it choked on about 75% of the sites I used regularly.
 

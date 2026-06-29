@@ -8,7 +8,9 @@ categories:
 tags:
   - iphone
 legacy: true
+image: /wp-content/uploads/2009/08/app_store.jpg
 disqusThreadId: "31342855"
+heroInBody: true
 ---
 <img class="alignright size-full wp-image-5539" title="app_store" src="/wp-content/uploads/2009/08/app_store.jpg" alt="app_store" width="197" height="231" srcset="/wp-content/uploads/2009/08/app_store.jpg 281w, /wp-content/uploads/2009/08/app_store-255x300.jpg 255w" sizes="(max-width: 197px) 100vw, 197px" />One of the best things about using an Apple iPhone is the plethora of cool and useful apps available to extend and enhance your iPhone experience. I&#8217;ve only been an iPhone user for about a month, but I&#8217;ve already become somewhat obsessed with apps. But which apps should you use? Which are awesome and which are useless? To help you puzzle out what is wheat and what is chaff, here&#8217;s a list of every app I have installed on my iPhone (excluding games, as I&#8217;ll be posting about games this Friday). Part 1 is the first half of my apps &#8211; come back tomorrow to see the rest in Part 2.
 

@@ -10,6 +10,7 @@ tags:
   - wordpress
 legacy: true
 description: I've recently updated my blog to use the super flexible, super extensible Thesis theme from DIYThemes. Here's a list of some helpful and cool Thesis-related links.
+image: /wp-content/uploads/Untitled.png
 disqusThreadId: "53578418"
 ---
 As I mentioned before, I&#8217;ve recently switching my blog over to using the super-mergatroid-flexible WordPress theme of <a href="https://www.shareasale.com/r.cfm?B=198392&U=404372&M=24570" target="_blank">Thesis</a>. And no, I didn&#8217;t just do it because <a href="https://doniree.com" target="_blank">Doniree</a> did. Well, maybe.

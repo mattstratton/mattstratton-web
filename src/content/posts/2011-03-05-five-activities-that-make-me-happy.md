@@ -10,6 +10,7 @@ tags:
   - meyouhealth
 legacy: true
 description: Today's Daily Challenge from MeYouHealth.com was to 'write down 5 activities that make you happy'. I decided to do it in blog form.
+image: /wp-content/uploads/jojo-happy.png
 disqusThreadId: "246131641"
 ---
 Today&#8217;s <a href="https://challenge.meyouhealth.com/signup" target="_blank">Daily Challenge</a> from <a href="https://meyouhealth.com" target="_blank">MeYouHealth</a> is to:

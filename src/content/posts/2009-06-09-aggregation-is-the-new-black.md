@@ -10,7 +10,9 @@ tags:
   - Internet
   - web 3.0
 legacy: true
+image: /wp-content/uploads/2009/06/tabs1.jpg
 disqusThreadId: "28265057"
+heroInBody: true
 ---
 _It&#8217;s been a while since I&#8217;ve blogged about technology, and that&#8217;s really my strong suit. I&#8217;m going to make a marked effort to post more tech-related content, and not just &#8220;Tech Tips&#8221;, but also my reactions to technology and where I think things are going._
 

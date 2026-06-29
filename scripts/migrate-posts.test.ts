@@ -7,6 +7,7 @@ import {
   toArray,
   cleanBody,
   buildPermalink,
+  resolveHeroImage,
   normalizeFrontmatter,
 } from './migrate-posts.ts';
 
@@ -54,6 +55,25 @@ test('buildPermalink strips slashes / synthesizes fallback', () => {
   assert.equal(buildPermalink('/life-in-general/100', 'x'), 'life-in-general/100');
   assert.equal(buildPermalink(undefined, 'take-care-of-yourself'), 'post/take-care-of-yourself');
   assert.equal(buildPermalink('', 'foo'), 'post/foo');
+});
+
+test('resolveHeroImage: image > thesis > first local body image, CDN rewritten', () => {
+  // explicit image wins
+  assert.equal(resolveHeroImage({ image: '/wp-content/uploads/a.jpg' }, ''), '/wp-content/uploads/a.jpg');
+  // thesis fallback, dead CDN rewritten to local
+  assert.equal(
+    resolveHeroImage({ thesis_post_image: ['https://cdn.mattstratton.com/wp-content/uploads/wheezy.png'] }, ''),
+    '/wp-content/uploads/wheezy.png',
+  );
+  // body fallback: first LOCAL uploads image
+  assert.equal(
+    resolveHeroImage({}, 'text <img src="/wp-content/uploads/2009/05/kellyg5.jpg" /> more'),
+    '/wp-content/uploads/2009/05/kellyg5.jpg',
+  );
+  // external body images are NOT used (dead hotlinks)
+  assert.equal(resolveHeroImage({}, '<img src="https://farm4.static.flickr.com/x.jpg" />'), undefined);
+  // nothing → undefined
+  assert.equal(resolveHeroImage({}, 'no images here'), undefined);
 });
 
 test('normalizeFrontmatter builds the clean allowlisted object', () => {

@@ -7,6 +7,7 @@ categories:
   - Personal
 tags: []
 legacy: true
+image: /wp-content/uploads/bejewled.jpg
 disqusThreadId: "70275425"
 ---
 [][1]The game <a class="zem_slink" title="Bejeweled" rel="wikipedia" href="https://en.wikipedia.org/wiki/Bejeweled">Bejeweled</a> is deceptively simple and VERY addicting. It is the single app on my iPhone that probably gets the most use, second only to my email inbox and calendar. Easy to learn, but tough to get good at, I&#8217;ve discovered that there are lessons in life that can be learned from playing this game.

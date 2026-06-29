@@ -9,6 +9,7 @@ tags:
   - BEDS
 legacy: true
 description: Since I almost managed to complete the Video Every Day in August challenge, it stands to reason I can Blog Every Day in September, right?
+image: /wp-content/uploads/barney.jpg
 disqusThreadId: "402383445"
 ---
 So now that I&#8217;m coming off a (mostly) successful challenge with VEDA (Vlog Every Day in August) I am rolling right into another monthly challenge&#8230;

@@ -10,6 +10,7 @@ legacy: true
 description: My roommate, Mary, has "adopted" not one, not two, but THREE families in need this Christmas. Last year she adopted a family of six, and had such an amazing experience she decided to up it by a factor of three. She could use YOUR help in making the holidays amazing for these families.
 image: /wp-content/uploads/mary-presents.png
 disqusThreadId: "3188824420"
+heroInBody: true
 ---
 <!-- <img class="aligncenter size-full wp-image-6962" src="/wp-content/uploads/mary-presents.png" alt="mary-presents" width="550" height="272" srcset="/wp-content/uploads/mary-presents.png 550w, /wp-content/uploads/mary-presents-300x148.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 

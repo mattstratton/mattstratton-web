@@ -9,7 +9,9 @@ tags:
   - anniversary
   - Carrie
 legacy: true
+image: /wp-content/uploads/blackhawk_thumb.png
 disqusThreadId: "314415373"
+heroInBody: true
 ---
 Four years ago today, I married my best friend in the world.
 

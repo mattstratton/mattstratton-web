@@ -7,7 +7,9 @@ categories:
   - Follow Friday
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/mteson.jpg
 disqusThreadId: "28264939"
+heroInBody: true
 ---
 There&#8217;s a concept on Twitter referred to as &#8220;3D&#8221;, as in, &#8220;I know this person offline, so they are three dimensional&#8221;. I always refer to that as &#8220;IRL&#8221;, for &#8220;in real life&#8221;, but as @radiojen pointed out to me &#8211; in the twitterverse, every character counts, so the two-character &#8220;3D&#8221; is better than &#8220;IRL&#8221;.
 

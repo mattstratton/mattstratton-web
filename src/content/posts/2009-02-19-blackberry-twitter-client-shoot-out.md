@@ -9,7 +9,9 @@ tags:
   - BlackBerry
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/02/blackbird-300x214.jpg
 disqusThreadId: "28199563"
+heroInBody: true
 ---
 _**UPDATED on 4/20/2009 to include ÜberTwitter**_
 

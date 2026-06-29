@@ -9,7 +9,9 @@ tags:
   - lightroom
   - photoshop
 legacy: true
+image: /wp-content/uploads/2009/10/iplate.png
 disqusThreadId: "39082347"
+heroInBody: true
 ---
 Last week, I <a href="https://twitpic.com/kw56j" target="_blank">posted a picture showing off my new dual-screen setup on my home PC</a>. My good pal <a href="https://twitter.com/mteson" target="_blank">Marcelo</a> was not impressed with my double-monitor goodness, but he WAS curious as to how I set up a custom &#8220;logo&#8221; on my Lightroom screen. It&#8217;s super easy &#8211; and here&#8217;s how.
 

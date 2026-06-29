@@ -10,7 +10,9 @@ tags:
   - lightroom
   - photoshop
 legacy: true
+image: /wp-content/uploads/import.png
 disqusThreadId: "58404500"
+heroInBody: true
 ---
 A while ago, my good pal Marcelo asked me for some basic tips on getting started with <a href="https://www.amazon.com/gp/product/B0018VH8S2?ie=UTF8&tag=straigeyefort-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0018VH8S2" target="_blank">Adobe Photoshop Lightroom</a>. I wrote them up for him, and have since found myself sending those same tips to several other friends who are just getting started with Lightroom. In the interests of helping out the Internet at large, I&#8217;m going to simply take what I sent to Marcelo and put it into blog post form. I&#8217;ll likely be coming back and tweaking this post in the future.
 

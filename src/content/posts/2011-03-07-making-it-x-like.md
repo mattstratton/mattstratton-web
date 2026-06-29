@@ -12,6 +12,7 @@ tags:
   - workouts
 legacy: true
 description: Longtime readers of this blog will know that this is not the first time I’ve tried to get into better shape. But this time, I mean it!
+image: /wp-content/uploads/dumbbells.png
 disqusThreadId: "247629393"
 ---
 Longtime readers of this blog will know that this is not the first time I’ve tried to get into better shape. But this time, I mean it!

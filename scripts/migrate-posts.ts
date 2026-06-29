@@ -9,7 +9,7 @@
  *
  * Run: npm run migrate
  */
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, copyFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, copyFileSync, existsSync } from 'node:fs';
 import { join, basename, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
@@ -78,10 +78,30 @@ export function buildPermalink(url: unknown, fallbackSlug: string): string {
   return `post/${fallbackSlug}`;
 }
 
+/**
+ * Resolve a featured/hero image, restoring what WordPress designated:
+ *   1. explicit `image:` (Hugo rendered these)
+ *   2. `thesis_post_image` (WordPress featured image; Hugo silently dropped it)
+ *   3. fallback: the post's first LOCAL /wp-content/uploads image (real on-disk
+ *      media — external Flickr/LiveJournal firsts are skipped as they're dead)
+ * The dead cdn.mattstratton.com host is rewritten to the local path. Existence on
+ * disk is checked by the caller (so we never set a broken hero).
+ */
+export function resolveHeroImage(fm: Record<string, unknown>, body: string): string | undefined {
+  let raw = toArray(fm.image)[0] ?? toArray(fm.thesis_post_image)[0];
+  if (!raw) {
+    const m = body.match(/(?:src=["']|!\[[^\]]*\]\()(\/wp-content\/uploads\/[^"')\s>]+\.(?:png|jpe?g|gif|webp))/i);
+    if (m) raw = m[1];
+  }
+  if (!raw) return undefined;
+  return raw.replace(/^https?:\/\/cdn\.mattstratton\.com/i, '');
+}
+
 /** Normalize a parsed frontmatter object into the clean Astro schema (allowlist). */
 export function normalizeFrontmatter(
   fm: Record<string, unknown>,
   fallbackSlug: string,
+  body = '',
 ): Record<string, unknown> {
   const clean: Record<string, unknown> = {
     title: fm.title != null ? String(fm.title) : fallbackSlug,
@@ -93,7 +113,8 @@ export function normalizeFrontmatter(
     legacy: true,
   };
   if (fm.description != null) clean.description = String(fm.description);
-  if (fm.image != null) clean.image = String(fm.image);
+  const hero = resolveHeroImage(fm, body);
+  if (hero) clean.image = hero;
   const dsq = toArray(fm.dsq_thread_id)[0];
   if (dsq) clean.disqusThreadId = dsq;
   return clean;
@@ -135,9 +156,21 @@ function main() {
       const slug = isBundle ? basename(file.replace(/\/index\.md$/, '')) : basename(file, '.md');
       const outName = `${slug}.md`;
 
-      const clean = normalizeFrontmatter(fm ?? {}, slug);
+      const clean = normalizeFrontmatter(fm ?? {}, slug, body);
+      // Drop a resolved hero that points at a local file we don't actually have,
+      // so we never ship a broken featured image.
+      if (typeof clean.image === 'string' && clean.image.startsWith('/') && !existsSync(join(PUBLIC_DIR, clean.image.replace(/^\//, '')))) {
+        delete clean.image;
+      }
+      // If the hero image also appears inline in the body, flag it so the post
+      // page renders it once (no top-hero duplicate) — the body already shows it.
+      // The list thumbnail still uses `image` regardless.
+      if (typeof clean.image === 'string') {
+        const base = clean.image.split('/').pop();
+        if (base && body.includes(base)) clean.heroInBody = true;
+      }
       for (const k of Object.keys(fm ?? {})) {
-        if (!['title', 'date', 'url', 'author', 'description', 'image', 'categories', 'tags', 'dsq_thread_id'].includes(k)) {
+        if (!['title', 'date', 'url', 'author', 'description', 'image', 'thesis_post_image', 'categories', 'tags', 'dsq_thread_id'].includes(k)) {
           droppedFields.add(k);
         }
       }

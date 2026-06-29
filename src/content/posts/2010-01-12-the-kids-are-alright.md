@@ -8,6 +8,7 @@ categories:
 tags:
   - The Twins
 legacy: true
+image: /wp-content/uploads/boys-3.jpg
 disqusThreadId: "58042846"
 ---
 If you&#8217;ve been wondering why there&#8217;s been a marked lack of content here at the Rock lately, I have what I consider to be a very good excuse.

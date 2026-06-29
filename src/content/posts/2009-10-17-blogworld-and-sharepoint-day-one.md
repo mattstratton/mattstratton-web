@@ -10,7 +10,9 @@ tags:
   - sharepoint conference
   - Vegas
 legacy: true
+image: /wp-content/uploads/2009/10/nachos.jpg
 disqusThreadId: "40155019"
+heroInBody: true
 ---
 I&#8217;m currently in Las Vegas for a combination of conferences &#8211; starting with <a href="https://www.blogworldexpo.com" target="_blank">BlogWorld Expo</a> this weekend and then the <a href="https://mssharepointconference.com" target="_blank">Microsoft SharePoint Conference</a> starting on Monday.
 

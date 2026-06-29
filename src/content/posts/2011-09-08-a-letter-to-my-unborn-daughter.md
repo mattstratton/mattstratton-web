@@ -8,6 +8,7 @@ categories:
 tags: []
 legacy: true
 description: September 9th is the due date of my unborn baby girl (who is currently nameless). My wife sent me a link to a list of 50 Rules for Dads of Daughters. Besides make me almost tear up at work, it got me to thinking. This is a letter to my little baby girl, on the day before she is supposed to be born.
+image: /wp-content/uploads/carrie-baby.png
 disqusThreadId: "408923077"
 ---
 _Tomorrow (September 9th) is the due date of my unborn baby girl (who is currently nameless). Today my wife sent me a link to a list of <a href="https://www.fromdatestodiapers.com/50-rules-for-dads-of-daughters" target="_blank">50 Rules for Dads of Daughters</a>. Besides make me almost tear up at work, it got me to thinking. So here is a letter to my little baby girl, on the day before she is supposed to be born._

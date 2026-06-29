@@ -8,7 +8,9 @@ categories:
 tags:
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/02/twittersimplistic.gif
 disqusThreadId: "28204779"
+heroInBody: true
 ---
 Most people on the webbertubes have, by now, heard of <a href="https://twitter.com" target="_blank">Twitter</a>. You might even use it. But only the true, power-users of Twitter know these ten facts:
 

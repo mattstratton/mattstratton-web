@@ -10,6 +10,7 @@ tags:
   - Fitness
   - p90x
 legacy: true
+image: /wp-content/uploads/p90x-image.png
 disqusThreadId: "266957258"
 ---
 <span style="font-size: 20px; font-weight: bold;">Workout Summary</span>

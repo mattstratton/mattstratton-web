@@ -14,6 +14,7 @@ legacy: true
 description: " In early June, I started improving my diet and a few weeks later, began physical exercise with a vengeance. I still have a ways to go. I have a few plans in place, but I also have some follow-up questions to you, my readers, to get your input and advice."
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_%27weigh%27_he_was_--_weightloss_at_Guantanamo.jpg/300px-The_%27weigh%27_he_was_--_weightloss_at_Guantanamo.jpg
 disqusThreadId: "117053141"
+heroInBody: true
 ---
 <div class="zemanta-img" style="margin: 1em; display: block;">
   <div>

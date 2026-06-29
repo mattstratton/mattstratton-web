@@ -9,7 +9,9 @@ categories:
 tags:
   - wordpress
 legacy: true
+image: /wp-content/uploads/2009/10/permalinks.png
 disqusThreadId: "39786938"
+heroInBody: true
 ---
 There are many different ways to attract visitors/readers to your blog. You could just hope that they stumble across your site randomly, but that&#8217;s not a very proactive method. One major source of traffic is going to be from people using search engines like Google to discover articles/posts on topics that are interesting to them &#8211; and you can help by making it easier for your blog to be indexed by the search engines.
 

@@ -29,6 +29,16 @@ const date = d.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long'
       </p>
     </header>
 
+    {d.image && !d.heroInBody && (
+      <img
+        src={d.image}
+        alt={d.title}
+        loading="eager"
+        decoding="async"
+        class="mt-8 w-full rounded-sm object-cover ring-1 ring-rule"
+      />
+    )}
+
     <div class="prose prose-lg mt-8 max-w-none">
       <slot />
     </div>

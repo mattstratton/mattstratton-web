@@ -7,7 +7,9 @@ categories:
   - Personal
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/02/hdr-boardwalk-beach-1024x682.jpg
 disqusThreadId: "28264692"
+heroInBody: true
 ---
 I know, I know, I haven&#8217;t posted since Friday. But, in my defense, I was on vacation. And yes, I got back yesterday, but I had a lot to do &#8211; I had to go to the Bulls game with a vendor. Plus, today I had to go to work, and that took some getting used to. 
 

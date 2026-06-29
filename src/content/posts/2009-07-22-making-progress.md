@@ -8,7 +8,9 @@ categories:
 tags:
   - Fitness
 legacy: true
+image: /wp-content/uploads/2009/07/spark-weight.png
 disqusThreadId: "28213909"
+heroInBody: true
 ---
 Things are progressing nicely with my fitness/weight loss program. I am into Week 4 of Couch to 5K and have been eating reasonably for a few weeks as well. I&#8217;ve also been educating myself and reading a lot of nutrition literature &#8211; as well as a lot of really useful comments I got from you, my loyal readers in reply to my [last post][1].
 

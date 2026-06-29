@@ -11,6 +11,7 @@ tags:
   - p90x
 legacy: true
 description: It was Legs and Back day today. This is a workout that doesn’t change from phase to phase (although it is skipped in Recovery Week). It’s definitely the biggest burner of all the workouts, as I generally exceed 1,000 calories burned while doing it (when combined with Ab Ripper X). However, it also included an unplanned bit of damage to our drywall.
+image: /wp-content/uploads/P90x-legsback.jpg
 disqusThreadId: "268565614"
 ---
 ## Workout Summary

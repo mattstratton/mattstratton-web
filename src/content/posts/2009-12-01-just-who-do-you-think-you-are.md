@@ -8,7 +8,9 @@ categories:
 tags:
   - blogging
 legacy: true
+image: /wp-content/uploads/2009/12/C0219-Equation6-300x112.gif
 disqusThreadId: "49013136"
+heroInBody: true
 ---
 <img class="alignright size-medium wp-image-5654" title="C0219-Equation6" src="/wp-content/uploads/2009/12/C0219-Equation6-300x112.gif" alt="C0219-Equation6" width="300" height="112" srcset="/wp-content/uploads/2009/12/C0219-Equation6-300x112.gif 300w, /wp-content/uploads/2009/12/C0219-Equation6.gif 393w" sizes="(max-width: 300px) 100vw, 300px" />There&#8217;s a certain arrogance that comes with blogging. The very nature of publishing a blog to the entire world carries with it the implied belief that anyone actually cares what you have to say. But at the same time &#8211; as a blogger, I often find myself questioning certain topics. I have this nagging doubt that I don&#8217;t know enough to share what I _do_ know.
 

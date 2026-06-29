@@ -11,7 +11,9 @@ tags:
   - Social Networking
 legacy: true
 description: "Tips and tricks on setting up Circles in Google Plus for maximum enjoyment. Or something. "
+image: /wp-content/uploads/circles_thumb.png
 disqusThreadId: "352215247"
+heroInBody: true
 ---
 I’ve been playing around with Google Plus for about a week now. One of the major features of the product is the concept of “Circles”, which is similar (in a way) to Facebook “Friends Lists”. Here’s an overview of my personal Circle strategy.
 

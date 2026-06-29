@@ -8,7 +8,9 @@ categories:
 tags:
   - guest post
 legacy: true
+image: /wp-content/uploads/2009/06/oregon-trail-game-300x195.jpg
 disqusThreadId: "28265044"
+heroInBody: true
 ---
 _It&#8217;s <a href="/tags/guest-post/" target="_self">Guest Post Week</a> on Good Old Rock. Today&#8217;s post comes to us from Tiffany of <a href="https://confessionsofachicagogirl.blogspot.com/" target="_blank">Confessions of a Chicago Girl</a>._
 

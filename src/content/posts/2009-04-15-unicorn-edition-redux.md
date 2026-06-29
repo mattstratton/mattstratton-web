@@ -8,7 +8,9 @@ categories:
 tags:
   - unicorn
 legacy: true
+image: /wp-content/uploads/2009/04/unicornpuke-300x223.jpg
 disqusThreadId: "28264865"
+heroInBody: true
 ---
 <a href="https://eatliver.com/i.php?n=4161" target="_blank"><img class="alignleft size-medium wp-image-5059" style="margin: 3px 5px;" title="unicornpuke" src="/wp-content/uploads/2009/04/unicornpuke-300x223.jpg" alt="unicornpuke" width="240" height="178" srcset="/wp-content/uploads/2009/04/unicornpuke-300x223.jpg 300w, /wp-content/uploads/2009/04/unicornpuke.jpg 550w" sizes="(max-width: 240px) 100vw, 240px" /></a>Unicorns have been <a href="/2009/02/04/wednesday-web-wanderings-for-242009-unicorn-edition/" target="_self">covered in the Web Wanderings before</a>, but there can never EVER be to many unicorns. Especially since the tagline of this blog is &#8220;Unicorn Conspiracy Theories&#8221;, it&#8217;s really been far too long since we&#8217;ve featured unicorn-related content.
 

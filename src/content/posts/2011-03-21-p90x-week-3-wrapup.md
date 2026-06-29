@@ -11,6 +11,7 @@ tags:
   - p90x
 legacy: true
 description: I have finished up Week 3 of my P90X experience, and I have to say, it’s going pretty damn well. I’m quite proud of myself for what I’ve accomplished. I’ve completed three weeks of P90X, and two of them without missing ANY days.
+image: /wp-content/uploads/Bring-it-on.png
 disqusThreadId: "259411944"
 ---
 I have finished up Week 3 of my P90X experience, and I have to say, it’s going pretty damn well. I’m quite proud of myself for what I’ve accomplished. I’ve completed three weeks of P90X, and two of them without missing ANY days.

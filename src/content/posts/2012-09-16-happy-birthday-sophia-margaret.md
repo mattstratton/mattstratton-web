@@ -14,6 +14,7 @@ legacy: true
 description: Happy first birthday to the best little Fifi-bunny ever.
 image: /wp-content/uploads/fifiborn.jpg
 disqusThreadId: "846645492"
+heroInBody: true
 ---
 One year ago today, this little girl showed up:
 

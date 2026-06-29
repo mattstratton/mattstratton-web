@@ -7,7 +7,9 @@ categories:
   - Meta
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/nokia-e61-smartphone-300x300.jpg
 disqusThreadId: "28264822"
+heroInBody: true
 ---
 [<img class="alignleft size-medium wp-image-5001" style="margin: 3px;" title="nokia-e61-smartphone" src="/wp-content/uploads/2009/04/nokia-e61-smartphone-300x300.jpg" alt="nokia-e61-smartphone" width="180" height="180" srcset="/wp-content/uploads/2009/04/nokia-e61-smartphone-300x300.jpg 300w, /wp-content/uploads/2009/04/nokia-e61-smartphone-150x150.jpg 150w, /wp-content/uploads/2009/04/nokia-e61-smartphone.jpg 400w" sizes="(max-width: 180px) 100vw, 180px" />][1]I recently installed a new WordPress plugin&#8230;<a href="https://alexking.org/projects/wordpress/readme?project=wordpress-mobile-edition" target="_blank">WordPress Mobile Edition</a>.
 

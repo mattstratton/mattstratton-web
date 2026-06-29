@@ -14,6 +14,7 @@ legacy: true
 description: "As you may recall, I am embarking on an experiment to crowd-sourced blog titles. I asked Twitter to suggest titles for blog posts using the hashtag #mattblog, and committed to writing a post for every title."
 image: /wp-content/uploads/24hours.png
 disqusThreadId: "762457060"
+heroInBody: true
 ---
 <!-- <img class="alignnone size-full wp-image-6883" title="24hours" src="/wp-content/uploads/24hours.png" alt="" width="550" height="319" srcset="/wp-content/uploads/24hours.png 550w, /wp-content/uploads/24hours-300x174.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 

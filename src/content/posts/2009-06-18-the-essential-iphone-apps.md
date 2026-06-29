@@ -8,7 +8,9 @@ categories:
 tags:
   - iphone
 legacy: true
+image: /wp-content/uploads/2009/06/steve-iphone-300x300.jpg
 disqusThreadId: "28205215"
+heroInBody: true
 ---
 <img class="alignleft size-medium wp-image-5377" style="margin: 3px 5px;" title="steve-iphone" src="/wp-content/uploads/2009/06/steve-iphone-300x300.jpg" alt="steve-iphone" width="164" height="164" srcset="/wp-content/uploads/2009/06/steve-iphone-300x300.jpg 300w, /wp-content/uploads/2009/06/steve-iphone-150x150.jpg 150w, /wp-content/uploads/2009/06/steve-iphone.jpg 364w" sizes="(max-width: 164px) 100vw, 164px" />My father-in-law has just become the latest convert to the iPhone Revolution, or whatever it&#8217;s called. He emailed me yesterday asking for my recommendations for the &#8220;must-have&#8221; apps for the iPhone.
 

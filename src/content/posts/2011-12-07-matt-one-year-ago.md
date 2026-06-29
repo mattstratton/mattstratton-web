@@ -9,6 +9,7 @@ tags:
   - Birthdays
 legacy: true
 description: Every year for my birthday, I compose an email to be sent to myself a year in the future. This is the email I composed one year ago.
+image: /wp-content/uploads/future.png
 disqusThreadId: "496276600"
 ---
 Every year on my birthday, I receive an email from myself, written the year before, via the <a href="https://www.futureme.org" target="_blank">FutureMe.org</a> service (hattip to my friend <a href="https://trappermarkelz.com/" target="_blank">Trapper</a> for giving me the idea several year ago).

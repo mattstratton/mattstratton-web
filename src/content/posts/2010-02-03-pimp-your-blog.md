@@ -10,6 +10,7 @@ tags:
   - Lijit
   - Zemanta
 legacy: true
+image: /wp-content/uploads/pcar1.png
 disqusThreadId: "63866165"
 ---
 When it comes to blogging, it should be all about the content. Write great posts and the rest will take care of itself, right? Generally speaking, that&#8217;s true. But that shouldn&#8217;t keep you from wanting to make your blog even more awesome with the use of some totally sweet tools and utilities to take your blogging to the next level and maybe, you know, engage your readers and synergize the new media or something like that.

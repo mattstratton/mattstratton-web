@@ -9,7 +9,9 @@ tags:
   - BlackBerry
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/04/list.jpg
 disqusThreadId: "28213201"
+heroInBody: true
 ---
 Twitter is something that has become a part of my daily life. When I&#8217;m on my computer(s), I use <a href="https://www.tweetdeck.com" target="_blank">TweetDeck</a> to keep up with all of the folks that I follow, and it&#8217;s really a robust solution. However, a good portion of my time is spent away from a computer, so I am reliant upon my BlackBerry for all internet-type things.
 

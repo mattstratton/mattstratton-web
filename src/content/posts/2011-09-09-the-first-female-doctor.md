@@ -12,6 +12,7 @@ tags:
 legacy: true
 description: |
   During VEDA, my friend Kitty announced her goal of being the first female to play the eponymous character on Dr. Who. She expressed her desire in this video (link opens in a new window). Earlier today, my friends @Dutchface and @tomfromhr and I had a little bit of "back and forth" about this topic (starting with Tom comparing Ian's new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.
+image: /wp-content/uploads/doctorwho.jpg
 disqusThreadId: "409651188"
 ---
 During VEDA, my friend <a href="https://dailykitty.blogspot.com/" target="_blank">Kitty</a> announced her goal of being the first female to play the eponymous character on _Doctor Who_. She expressed her desire in <a href="https://youtu.be/qMQ7CM49A-c?hd=1&t=31s" target="_blank">this video</a> (link opens in a new window). Earlier today, my friends <a href="https://www.twitter.com/Dutchface" target="_blank">@Dutchface</a> and <a href="https://www.twitter.com/tomfromhr" target="_blank">@tomfromhr</a> and I had a little bit of &#8220;back and forth&#8221; about this topic (starting with Tom comparing Ian&#8217;s new suit to something the Doctor would wear). Since Kitty refuses to play on Twitter, I chose to post the conversation here for her enjoyment. And for yours.

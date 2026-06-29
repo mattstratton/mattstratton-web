@@ -11,7 +11,9 @@ tags:
   - ReadWriteWeb
 legacy: true
 description: On Wednesday, 2/10/2010, the tech blog ReadWriteWeb posted an article about Facebook Connect. This post became highly ranked in Google for the term "facebook login"...which resulted in hundreds of Facebook users attempting to log into ReadWriteWeb, thinking the site was yet another Facebook redesign.
+image: /wp-content/uploads/angry.png
 disqusThreadId: "66002307"
+heroInBody: true
 ---
 I know, I know, it&#8217;s a Wednesday, which means I&#8217;m supposed to be posted Web Wanderings. But this was just too hilarious to NOT share.
 

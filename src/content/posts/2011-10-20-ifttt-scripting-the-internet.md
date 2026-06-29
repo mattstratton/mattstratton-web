@@ -9,6 +9,7 @@ tags: []
 legacy: true
 description: |
   I'm pretty much in love with the service known as ifttt - "if this, then that". It's kind of like a scripting language for the Internet.
+image: /wp-content/uploads/ifttt.png
 disqusThreadId: "448961934"
 ---
 I&#8217;m pretty much in love with the service known as <a href="https://ifttt.com" target="_blank">ifttt</a> &#8211; &#8220;if this, then that&#8221;. It&#8217;s kind of like a scripting language for the Internet.

@@ -8,7 +8,9 @@ categories:
 tags:
   - firefox
 legacy: true
+image: /wp-content/uploads/2009/04/firefox-300x289.jpg
 disqusThreadId: "28218220"
+heroInBody: true
 ---
 [<img class="alignleft size-medium wp-image-5105" title="firefox" src="/wp-content/uploads/2009/04/firefox-300x289.jpg" alt="firefox" width="180" height="173" srcset="/wp-content/uploads/2009/04/firefox-300x289.jpg 300w, /wp-content/uploads/2009/04/firefox.jpg 369w" sizes="(max-width: 180px) 100vw, 180px" />][1]As you know, <a href="/2009/04/16/adieu-to-google-chrome-and-hello-firefox/" target="_self">I&#8217;ve decided to return to Firefox after an attempt to use Google Chrome as my main browser</a>. One of the main drivers for this decision was the wealth of customizations that Firefox affords you, through the use of browser extensions. Here&#8217;s a simple list of the Firefox extensions I am currently running.
 

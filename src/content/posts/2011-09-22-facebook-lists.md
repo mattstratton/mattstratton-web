@@ -10,6 +10,7 @@ tags:
   - Facebook
 legacy: true
 description: Facebook has released some major changes to how the Feed and Activity function. This post will explain how to make the new Facebook work FOR you, not AGAINST you.
+image: /wp-content/uploads/facebook-lists-header.png
 disqusThreadId: "423251100"
 ---
 If you are a user of Facebook, you are no doubt aware that there have been some major changes lately&#8230;especially around the Feed. I&#8217;m not going to tell you why the new way is better, because either a) you already know, so why bother, or b) you already decided it&#8217;s not, so again, why bother.

@@ -8,7 +8,9 @@ categories:
   - Vlogs
 tags: []
 legacy: true
+image: /wp-content/uploads/6.jpg
 disqusThreadId: "376075016"
+heroInBody: true
 ---
 We&#8217;ve all made some unfortunate fashion choices in our lives. Sadly for me, most of them include vests and jean shorts.
 

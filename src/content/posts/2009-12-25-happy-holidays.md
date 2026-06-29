@@ -10,6 +10,7 @@ tags:
   - Holidays
 legacy: true
 description: Happy Holidays from the Stratton Family!
+image: /wp-content/uploads/christmas-port.jpg
 disqusThreadId: "53930997"
 ---
 From our family to yours, we wish you the best in this holiday season.

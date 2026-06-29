@@ -8,7 +8,9 @@ categories:
 tags:
   - Google Reader
 legacy: true
+image: /wp-content/uploads/2009/02/subscriptions-1024x188.jpg
 disqusThreadId: "28212441"
+heroInBody: true
 ---
 This week&#8217;s Tech Tip comes at the request of The Meg (<a href="https://twitter.com/NoBatteries" target="_blank">@NoBatteries</a>).
 

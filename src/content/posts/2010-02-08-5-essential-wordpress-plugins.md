@@ -10,6 +10,7 @@ tags:
 legacy: true
 description: |
   One of the biggest advantages of using self-hosted WordPress for your blog is its extensibility with plugins. There's hundreds (if not thousands) of different plugins you can install into your WordPress installation to provide additional features ranging from social media integration to post ratings to weather-forecast widgets. It's easy to go overboard with plugins (which can be a bad idea for performance reasons as well as possible security implications), so how do you determine which plugins should be installed? Here's a list of 5 plugins that I consider "must-have" for any WordPress blog.
+image: /wp-content/uploads/Wordpress-logo.png
 disqusThreadId: "65173140"
 ---
 One of the biggest advantages of using self-hosted WordPress for your blog is its extensibility with plugins. There&#8217;s hundreds (if not thousands) of different plugins you can install into your WordPress installation to provide additional features ranging from social media integration to post ratings to weather-forecast widgets. It&#8217;s easy to go overboard with plugins (which can be a bad idea for performance reasons as well as possible security implications), so how do you determine which plugins should be installed? Here&#8217;s a list of 5 plugins that I consider &#8220;must-have&#8221; for any WordPress blog.

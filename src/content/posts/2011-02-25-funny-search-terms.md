@@ -10,6 +10,7 @@ categories:
 tags: []
 legacy: true
 description: The strange Google searches that bring people to this blog never cease to amuse me. Here's a random sampling of some of the more hilarious and obscure search terms that brought in traffic to Good Old Rock in the past 30 days.
+image: /wp-content/uploads/facepalm.png
 disqusThreadId: "239985712"
 ---
 The strange Google searches that bring people to this blog never cease to amuse me. Here&#8217;s a random sampling of some of the more hilarious and obscure search terms that brought in traffic to Good Old Rock in the past 30 days:

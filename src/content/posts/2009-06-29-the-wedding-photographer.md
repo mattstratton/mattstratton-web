@@ -7,7 +7,9 @@ categories:
   - Photography
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/06/Hendrickson-Driscoll_Wedding-194.jpg
 disqusThreadId: "28253097"
+heroInBody: true
 ---
 On Saturday, I had my first experience as a &#8220;paid&#8221; photographer &#8211; I was hired by a friend to photograph her wedding.
 

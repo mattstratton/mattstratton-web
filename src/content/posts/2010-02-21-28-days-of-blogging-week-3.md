@@ -7,7 +7,9 @@ categories:
   - Meta
 tags: []
 legacy: true
+image: /wp-content/uploads/obsess.png
 disqusThreadId: "68929347"
+heroInBody: true
 ---
 <div class="zemanta-img" style="margin: 1em; display: block;">
   <div style="width: 250px" class="wp-caption alignright">

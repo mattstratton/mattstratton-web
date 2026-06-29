@@ -7,7 +7,9 @@ categories:
   - RSS Recs
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/bcb-300x267.jpg
 disqusThreadId: "28221254"
+heroInBody: true
 ---
 <img class="size-medium wp-image-5055 alignright" style="margin: 3px;" title="bcb" src="/wp-content/uploads/2009/04/bcb-300x267.jpg" alt="bcb" width="300" height="267" srcset="/wp-content/uploads/2009/04/bcb-300x267.jpg 300w, /wp-content/uploads/2009/04/bcb.jpg 992w" sizes="(max-width: 300px) 100vw, 300px" />**Blog Name:** Bleed Cubbie Blue
 

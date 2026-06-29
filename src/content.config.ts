@@ -39,6 +39,9 @@ const posts = defineCollection({
     categories: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
     disqusThreadId: z.string().optional(),
+    // True when `image` also appears inline in the body — the post page then skips
+    // the top hero (the body shows it) but the archive list still uses it as a thumb.
+    heroInBody: z.boolean().default(false),
     legacy: z.boolean().default(true),
   }),
 });

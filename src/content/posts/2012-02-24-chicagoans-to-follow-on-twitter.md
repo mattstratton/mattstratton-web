@@ -12,6 +12,7 @@ legacy: true
 description: A completely subjective list of the eleven people from Chicago who you should follow on Twitter RIGHT NOW. Very little science or analytics were used to generate this list. Pizza bagels may have been involved.
 image: /wp-content/uploads/chi-tweets-venn.png
 disqusThreadId: "588557765"
+heroInBody: true
 ---
 Chicago is a pretty amazing city. And if you&#8217;re into the whole Twitter thing, you probably figure that there&#8217;s gotta be some type of connection between those two things. And if I know anything about the Internet, it&#8217;s that the best way to describe anything is with a Venn diagram. So here&#8217;s what this list is all about:
 

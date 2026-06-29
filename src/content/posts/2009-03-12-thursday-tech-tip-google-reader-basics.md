@@ -8,7 +8,9 @@ categories:
 tags:
   - Google Reader
 legacy: true
+image: /wp-content/uploads/2009/03/addsub.jpg
 disqusThreadId: "28225945"
+heroInBody: true
 ---
 A couple of weeks ago, I posted about <a href="/2009/02/12/thursday-tech-tip-pimp-your-google-reader/" target="_self">how to organize your RSS feeds in Google Reader</a>. Regular reader (no pun intended) Christina of <a href="https://100books2009.wordpress.com/" target="_blank"><strong>Stacked</strong></a> asked me for a more basic introduction to Google Reader. Since I am all about customer service (and she&#8217;s the nice gal who nominated me for the BlogNet Award), I am happy to comply.
 

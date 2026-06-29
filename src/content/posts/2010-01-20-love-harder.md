@@ -7,7 +7,9 @@ categories:
   - Personal
 tags: []
 legacy: true
+image: /wp-content/uploads/love-harder-logo-small.jpg
 disqusThreadId: "60072193"
+heroInBody: true
 ---
 _The interwebs are a funny place. We make friends we wouldn&#8217;t meet otherwise. We learn about things that otherwise would result in our blissful ignorance. And sometimes&#8230;those two things can combine and we can use the power of routing TCP packets to make a real difference in someone&#8217;s life. Please read on to learn more about how we, the denizens of the webbertubes, can come together and raise up some hope for someone who only wants to love as hard as she can._
 

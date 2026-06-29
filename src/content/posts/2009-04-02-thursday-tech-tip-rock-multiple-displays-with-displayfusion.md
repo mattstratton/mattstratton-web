@@ -7,7 +7,9 @@ categories:
   - Tech Tips
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/04/displaysettings-294x300.jpg
 disqusThreadId: "28223519"
+heroInBody: true
 ---
 It&#8217;s a proven fact* that using multiple displays is more efficient than simply having one big monitor. Of course, some people, like myself, use both &#8211; two displays AND a giant monitor. **Attaching an external monitor to your laptop can give you a real boost in productivity**, or at the minimum, make your computing experience that much more awesome. Today, I will be sharing with you a great tool to increase the value of multiple-display computing called DisplayFusion.
 

@@ -8,7 +8,9 @@ categories:
 tags:
   - Fitness
 legacy: true
+image: /wp-content/uploads/2009/08/aug4.png
 disqusThreadId: "28198756"
+heroInBody: true
 ---
 About two weeks ago, I <a href="/2009/07/22/making-progress/" target="_self">posted my first &#8220;progress report&#8221;</a> on my fitness/weight loss program. It seems like a good enough time to post another one.
 

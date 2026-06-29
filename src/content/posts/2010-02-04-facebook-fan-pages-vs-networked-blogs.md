@@ -11,6 +11,7 @@ tags:
   - Facebook
   - NetworkedBlogs
 legacy: true
+image: /wp-content/uploads/fanvsblog.png
 disqusThreadId: "64149149"
 ---
 Love it or hate it, Facebook is here to stay. Despite challenges around user privacy and an ever-changing interface, Facebook is rapidly becoming THE gateway to content for many users. As a blogger, Facebook can be a great tool to promote and share your content to potential readers. But the real question is&#8230;what&#8217;s the best way to do that?

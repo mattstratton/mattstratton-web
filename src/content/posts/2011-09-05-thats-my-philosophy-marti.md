@@ -7,6 +7,7 @@ categories:
   - Personal
 tags: []
 legacy: true
+image: /wp-content/uploads/fry.png
 disqusThreadId: "405267107"
 ---
 The <a href="https://www.purekatherine.com/2011/09/welcome-to-beds/" target="_blank">BEDS</a> prompt for today is to share a &#8220;favorite quote&#8221;. Now, given that it is Labor Day, it seems only appropriate to share a quotation (quote is a verb, quotation is a noun) that is inspirational.

@@ -11,7 +11,6 @@ tags:
   - wordpress
 legacy: true
 description: Long-time readers of this blog will be aware that I have been a vocal supporter and proponent of the Thesis framework for WordPress for quite some time. This site runs on Thesis, and I am always keen to recommend it to others. That being said, I&#8217;ve recently been considering dropping Thesis from this blog and replacing it with my own custom theme.
-image: /wp-content/uploads/thesis1.png
 disqusThreadId: "557720744"
 ---
 Long-time readers of this blog will be aware that I have been a vocal supporter and proponent of the Thesis framework for WordPress for quite some time. This site runs on Thesis, and I am always keen to recommend it to others (for crying out loud, there&#8217;s a giant ad for Thesis in my sidebar). That being said, I&#8217;ve recently been considering dropping Thesis from this blog and replacing it with my own custom theme.

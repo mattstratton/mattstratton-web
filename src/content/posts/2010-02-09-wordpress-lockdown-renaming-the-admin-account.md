@@ -11,6 +11,7 @@ tags:
 legacy: true
 description: |
   By default, when WordPress is installed, an administrative account called "admin" is created. This account is a prime target for hackers, since they know that every WordPress blog has a powerful account with the name "admin". They can launch a password-guessing tool against your blog with the user "admin", and eventually, they might be able to get through. Here's how to "rename" the default admin account in WordPress.
+image: /wp-content/uploads/lock.png
 disqusThreadId: "65563286"
 ---
 WordPress is one of the most popular blogging platforms available today. However, it&#8217;s very popularity can work against it &#8211; due to the fact that many people install WordPress but don&#8217;t know how to properly lock it down, it&#8217;s a prime target for hackers who want to exploit it. Making your WordPress blog nice and secure requires a minimal amount of effort &#8211; but it will pay off when you don&#8217;t find yourself in the unenviable position of having your entire blog wiped out by some jerk who thinks it&#8217;s hilarious to mess with other people&#8217;s websites. This post is Part 1, which focuses on the Admin account in WordPress (the keys to the kingdom). Part 2 will discuss methods of protecting your wp-admin directory (which is the door to the kingdom, to continue the metaphor).

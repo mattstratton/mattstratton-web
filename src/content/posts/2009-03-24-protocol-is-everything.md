@@ -8,7 +8,9 @@ categories:
 tags:
   - infertility
 legacy: true
+image: /wp-content/uploads/2009/03/kate-breakdancing-300x200.jpg
 disqusThreadId: "28264797"
+heroInBody: true
 ---
 [<img class="alignleft size-medium wp-image-4986" style="margin: 4px;" title="kate-breakdancing" src="/wp-content/uploads/2009/03/kate-breakdancing-300x200.jpg" alt="kate-breakdancing" width="300" height="200" srcset="/wp-content/uploads/2009/03/kate-breakdancing-300x200.jpg 300w, /wp-content/uploads/2009/03/kate-breakdancing-1024x682.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]So we&#8217;re starting over from square one with our latest baby-making attempt. Last Friday, Carrie had some tests and discovered that the current medication (known in these circles as a &#8220;protocol&#8221;) was not having the desired effect &#8211; so this month&#8217;s IVF has been cancelled.
 

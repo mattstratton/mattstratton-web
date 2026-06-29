@@ -10,6 +10,7 @@ tags:
   - New Facebook
 legacy: true
 description: If you have previously set up Facebook lists, but want to leverage the power of the new Close Friends and Acquaintances lists, it's fairly easy to merge your old Lists into the new. And I'll show you how to do it.
+image: /wp-content/uploads/merge.png
 disqusThreadId: "426821883"
 ---
 Welcome to the next installment in our &#8220;New Facebook 101&#8221; segment. Previously, I showed you [how to set up your &#8220;Close Friends&#8221; and &#8220;Acquaintances&#8221; lists for maximum power][1]. In this post we will dig a little deeper into how you can move your previously set up lists into these lists.

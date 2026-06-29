@@ -8,6 +8,7 @@ categories:
 tags:
   - blogging
 legacy: true
+image: /wp-content/uploads/goals.png
 disqusThreadId: "63537294"
 ---
 Yesterday I made mention of the fact that I&#8217;d jumped on board with Scott Bishop&#8217;s <a href="https://realtimemarketer.com/the-28-day-blogging-challenge" target="_blank">28 Day Blogging Challenge</a>. One of the main precepts of this challenge is to look for measurable improvement and change in this blog.

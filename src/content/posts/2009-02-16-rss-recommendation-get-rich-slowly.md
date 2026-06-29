@@ -7,7 +7,9 @@ categories:
   - RSS Recs
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/02/grs-300x255.jpg
 disqusThreadId: "28222976"
+heroInBody: true
 ---
 <a href="https://www.getrichslowly.org/blog/" target="_blank"><img class="alignleft size-medium wp-image-4848" style="margin-top: 0px; margin-bottom: 0px; margin-left: 6px; margin-right: 6px;" title="Get Rich Slowly" src="/wp-content/uploads/2009/02/grs-300x255.jpg" alt="Get Rich Slowly" width="300" height="255" srcset="/wp-content/uploads/2009/02/grs-300x255.jpg 300w, /wp-content/uploads/2009/02/grs.jpg 847w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 

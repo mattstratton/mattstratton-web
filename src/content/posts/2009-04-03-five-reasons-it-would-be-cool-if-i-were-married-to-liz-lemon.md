@@ -10,6 +10,7 @@ tags:
   - Liz Lemon
   - Tina Fey
 legacy: true
+image: /wp-content/uploads/2009/04/funny-and-girlie_181x249.jpg
 disqusThreadId: "28264830"
 ---
 ### Five Reasons It Would Be Cool If I Were Married To <a href="https://en.wikipedia.org/wiki/Liz_Lemon" target="_blank">Liz Lemon</a>

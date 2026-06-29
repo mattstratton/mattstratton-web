@@ -10,7 +10,9 @@ tags:
 legacy: true
 description: |
   Today's feed recommendation is Life Without Pants, a Matt Cheuvront joint. I've been following LWP for quite a while now, and in addition to being a major Thesis  guru, Matt's content is really the king here. He has phenomenal insights on building community inside a blog, but also touches on "big picture" subjects as well. One of my favorite posts discussed the fact that life and success is not a zero-sum game.
+image: /wp-content/uploads/lwp.png
 disqusThreadId: "69232925"
+heroInBody: true
 ---
 _<img class="alignright size-full wp-image-5974" style="margin: 3px;" title="lwp" src="/wp-content/uploads/lwp.png" alt="" width="300" height="268" />Time to revisit a feature  of Good Old Rock – the <a href="../topics/rss-recommendations/" target="_self">RSS Recommendations</a>__! In this section, I share with you a choice blog that I follow in my feed reader.  For the time being, I focus on blogs I already follow, but if you really truly have some amazing recommendation, you can feel free to share it with me – but please do not suggest your own blog. I have over 200 blogs in my feed reader, so it will take me some time before I need new suggestions. Enjoy!_
 

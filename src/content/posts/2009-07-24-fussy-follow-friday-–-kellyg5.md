@@ -8,7 +8,9 @@ categories:
 tags:
   - Twitter
 legacy: true
+image: /wp-content/uploads/2009/07/KellyG5_new.jpg
 disqusThreadId: "28213164"
+heroInBody: true
 ---
 [<img class="alignright size-full wp-image-5472" title="KellyG5_new" src="/wp-content/uploads/2009/07/KellyG5_new.jpg" alt="KellyG5_new" width="210" height="235" srcset="/wp-content/uploads/2009/07/KellyG5_new.jpg 500w, /wp-content/uploads/2009/07/KellyG5_new-267x300.jpg 267w" sizes="(max-width: 210px) 100vw, 210px" />][1]It&#8217;s Friday, which means it&#8217;s time for <a href="/2009/07/17/2009/07/10/2009/06/10/fussy-follow-friday/" target="_self">Fussy Follow Friday</a> again! My Twitter follow recommendation for this week is one of my all-time favorites&#8230;<a href="https://twitter.com/kellyg5" target="_blank"><strong>@KellyG5</strong></a>.
 

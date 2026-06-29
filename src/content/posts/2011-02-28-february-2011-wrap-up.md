@@ -9,6 +9,7 @@ tags: []
 legacy: true
 description: |
   Inspired by this post by @writetoreach, I have decided to do monthly "personal" wrap-up posts. I've long struggled with how to integrate more personal posts with all the tech tips and other geeky type of posts on this blog, and a monthly summary seems to be a good way to do this. So without further delay, here's what was going on in my world in February.
+image: /wp-content/uploads/Calendar-02-February-q75-500x366.jpg
 disqusThreadId: "241934631"
 ---
 Inspired by <a href="https://www.writingtoreachyou.com/2011/02/28/a-scattered-post-of-good-intentions-goodbye-february" target="_blank">this post</a> by <a href="https://twitter.com/@writetoreach" target="_blank">@writetoreach</a>, I have decided to do monthly &#8220;personal&#8221; wrap-up posts. I&#8217;ve long struggled with how to integrate more personal posts with all the tech tips and other geeky type of posts on this blog, and a monthly summary seems to be a good way to do this. So without further delay, here&#8217;s what was going on in my world in February.

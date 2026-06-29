@@ -11,6 +11,7 @@ tags:
   - work
 legacy: true
 description: If you follow me on Twitter, or are my friend on Facebook, you may have seen me posting links to various online articles about something called "Hyper-V". Basically, earlier this year, my team here at Apartments.com migrated our virtualization platform from VMWare to Microsoft's Hyper-V offering. Here's a listing of some of these articles.
+image: /wp-content/uploads/hyper-v.png
 disqusThreadId: "673379625"
 ---
 If you follow me on <a href="https://twitter.com/mattstratton" target="_blank">Twitter</a>, or are my friend on <a href="https://www.facebook.com/matt.stratton" target="_blank">Facebook</a>, you may have seen me posting links to various online articles about something called &#8220;<a href="https://en.wikipedia.org/wiki/Hyper-v" target="_blank">Hyper-V</a>&#8220;. Basically, earlier this year, my team here at <a href="https://www.apartments.com" target="_blank">Apartments.com</a> migrated our virtualization platform from VMWare to Microsoft&#8217;s Hyper-V offering.

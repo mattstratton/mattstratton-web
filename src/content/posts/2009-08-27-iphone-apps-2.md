@@ -8,7 +8,9 @@ categories:
 tags:
   - iphone
 legacy: true
+image: /wp-content/uploads/2009/08/iphone_apps-300x287.jpg
 disqusThreadId: "31658583"
+heroInBody: true
 ---
 <img class="alignright size-medium wp-image-5550" title="iphone_apps" src="/wp-content/uploads/2009/08/iphone_apps-300x287.jpg" alt="iphone_apps" width="180" height="172" srcset="/wp-content/uploads/2009/08/iphone_apps-300x287.jpg 300w, /wp-content/uploads/2009/08/iphone_apps.jpg 450w" sizes="(max-width: 180px) 100vw, 180px" />Today continues the review of Apple iPhone apps that I have installed on my phone. Don&#8217;t forget to check out <a href="/2009/08/26/iphone-apps/" target="_self">Part 1</a>!
 

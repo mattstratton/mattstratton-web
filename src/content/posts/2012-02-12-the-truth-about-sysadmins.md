@@ -8,7 +8,6 @@ categories:
 tags: []
 legacy: true
 description: There's a meme going around, and I decided to take my shot at spoofing it for system administrators.
-image: /wp-content/uploads/sysadmin-300x200.jpg
 disqusThreadId: "573596024"
 ---
 There&#8217;s a meme going around, and I decided to take my shot at spoofing it for system administrators. What do you think?

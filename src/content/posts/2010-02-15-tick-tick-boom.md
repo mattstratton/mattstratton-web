@@ -7,6 +7,7 @@ categories:
   - Meta
 tags: []
 legacy: true
+image: /wp-content/uploads/explode.png
 disqusThreadId: "67216179"
 ---
 Remember yesterday when I was <a href="/meta/week-2-recap" target="_self">bragging</a> about having 1,700 pageviews of my <a href="/hilarity/hundreds-of-facebook-users-are-apparently-really-dumb" target="_self">dumb Facebook user blog post</a>? No, you don&#8217;t, since only 19 of you read that post. But if you did&#8230;let me just say this. I hadn&#8217;t seen nothin&#8217; yet.

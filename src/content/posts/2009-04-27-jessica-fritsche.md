@@ -9,7 +9,9 @@ tags:
   - Interviews
   - TXJess
 legacy: true
+image: /wp-content/uploads/2009/04/txjessgor-256x300.jpg
 disqusThreadId: "28264912"
+heroInBody: true
 ---
 <img class="alignright size-medium wp-image-5167" style="margin: 3px 5px;" title="txjessgor" src="/wp-content/uploads/2009/04/txjessgor-256x300.jpg" alt="txjessgor" width="179" height="210" srcset="/wp-content/uploads/2009/04/txjessgor-256x300.jpg 256w, /wp-content/uploads/2009/04/txjessgor.jpg 427w" sizes="(max-width: 179px) 100vw, 179px" />It&#8217;s no secret that we here at Good Old Rock love tech. So it&#8217;s only natural that we keep a close eye on other tech bloggers. One of our favorites is our dear friend, **Jessica Fritsche**, who is one of the geekiest girls to roll in the tech blogosphere. In addition to her two blogs, <a href="https://jessicafritsche.com/" target="_blank"><strong>jessica fritsche (dot) com</strong></a> and <a href="https://dailytechdiva.com" target="_blank"><strong>Daily Tech Diva</strong></a>, Jess is an associate editor for <a href="https://sonewpublishing.com/" target="_blank"><strong>So New Publishing</strong></a>, and has a Top Secret vlogging project in development.
 

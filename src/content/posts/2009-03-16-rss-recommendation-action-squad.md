@@ -7,7 +7,9 @@ categories:
   - RSS Recs
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/03/action-squad.jpg
 disqusThreadId: "28264754"
+heroInBody: true
 ---
 <a href="https://action-squad.com/" target="_blank"><img class="alignleft size-full wp-image-4949" style="margin: 3px;" title="action-squad" src="/wp-content/uploads/2009/03/action-squad.jpg" alt="action-squad" width="235" height="236" srcset="/wp-content/uploads/2009/03/action-squad.jpg 700w, /wp-content/uploads/2009/03/action-squad-150x150.jpg 150w, /wp-content/uploads/2009/03/action-squad-298x300.jpg 298w" sizes="(max-width: 235px) 100vw, 235px" /></a>**Blog Name:** Action-Squad
   

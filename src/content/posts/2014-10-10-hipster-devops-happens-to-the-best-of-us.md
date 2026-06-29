@@ -9,6 +9,7 @@ tags: []
 legacy: true
 image: /wp-content/uploads/hipsterdevops2.png
 disqusThreadId: "3104933417"
+heroInBody: true
 ---
 <!-- <img class="aligncenter size-full wp-image-6940" src="/wp-content/uploads/hipsterdevops2.png" alt="hipsterdevops2" width="550" height="218" srcset="/wp-content/uploads/hipsterdevops2.png 550w, /wp-content/uploads/hipsterdevops2-300x118.png 300w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 

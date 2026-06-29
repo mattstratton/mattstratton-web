@@ -11,6 +11,7 @@ tags:
   - p90x
 legacy: true
 description: I am now officially halfway complete with P90X (or perhaps I am a quarter complete, as my goal is to do two rounds in a row). This past week was not my best effort. I had some issues with illness which slowed me down, but besides that, I didn’t put forth as much work as I should have, and I definitely slacked off on the diet. This was made VERY noticeable in this week’s measurements.
+image: /wp-content/uploads/failure.png
 disqusThreadId: "276960937"
 ---
 I am now officially halfway complete with P90X (or perhaps I am a quarter complete, as my goal is to do two rounds in a row). This past week was not my best effort. I had some issues with illness which slowed me down, but besides that, I didn’t put forth as much work as I should have, and I definitely slacked off on the diet. This was made VERY noticeable in this week’s measurements.

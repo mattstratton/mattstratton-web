@@ -10,6 +10,7 @@ tags:
   - Fitness
   - p90x
 legacy: true
+image: /wp-content/uploads/p90x-image.png
 disqusThreadId: "265861622"
 ---
 _Inspired by <a href="https://torisp90xjourney.com/" target="_blank">Tori</a>, I have decided to do daily blog posts about my P90X workouts. Since I know not everyone is fascinated by this, these posts will likely not be syndicated to my Facebook, but they will still be available via RSS. I have also created a specific RSS feed for just my [P90X posts][1], for those of you who are only interested in that (it will include my weekly wrap-up posts as well). This feed can be subscribed to by clicking <a href="https://feeds.feedburner.com/MattP90x" target="_blank">here</a>. I might even start taking some photos DURING the exercises, just for fun._

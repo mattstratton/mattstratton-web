@@ -8,7 +8,9 @@ categories:
 tags:
   - The Twins
 legacy: true
+image: /wp-content/uploads/2009/09/PFC_Choose_splash-300x225.jpg
 disqusThreadId: "32632684"
+heroInBody: true
 ---
 <img class="alignright size-medium wp-image-5566" title="PFC_Choose_splash" src="/wp-content/uploads/2009/09/PFC_Choose_splash-300x225.jpg" alt="PFC_Choose_splash" width="210" height="158" srcset="/wp-content/uploads/2009/09/PFC_Choose_splash-300x225.jpg 300w, /wp-content/uploads/2009/09/PFC_Choose_splash.jpg 600w" sizes="(max-width: 210px) 100vw, 210px" />As I announced on the blog in early July, my wife and I are expecting twins. Of course, being the impatient types that we are, we couldn&#8217;t wait until January to find out the gender of said twins. Oh sure, we had all kinds of &#8220;rational&#8221; reasons for finding out early &#8211; it settles the issue of names, we can start decorating the nursery, it eliminates the temptation to gamble on the sex, etc, etc. But the real reason was simple &#8211; we just don&#8217;t do well waiting for information. I blame Facebook. I&#8217;m not sure why, but it&#8217;s got to be part of the issue.
 

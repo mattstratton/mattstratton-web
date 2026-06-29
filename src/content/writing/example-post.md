@@ -6,7 +6,7 @@ part: mechanics
 topics:
   - Postgres
   - MVCC
-draft: false
+draft: true # placeholder/template — won't ship. Replace with a real post and flip to false (or delete).
 # canonicalUrl: https://www.tigerdata.com/blog/...   # set when cross-posted
 ---
 

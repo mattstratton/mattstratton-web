@@ -9,6 +9,7 @@ tags: []
 legacy: true
 image: /wp-content/uploads/pdocast.png
 disqusThreadId: "3941980611"
+heroInBody: true
 ---
 <!-- <img class="alignnone wp-image-7001" src="/wp-content/uploads/pdocast-300x148.png" alt="pdocast" width="550" height="272" srcset="/wp-content/uploads/pdocast-300x148.png 300w, /wp-content/uploads/pdocast-1024x506.png 1024w, /wp-content/uploads/pdocast.png 1280w" sizes="(max-width: 550px) 100vw, 550px" /> -->
 

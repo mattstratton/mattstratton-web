@@ -8,7 +8,9 @@ categories:
 tags:
   - The Twins
 legacy: true
+image: /wp-content/uploads/2009/07/usound.jpg
 disqusThreadId: "28265101"
+heroInBody: true
 ---
 [<img class="alignright" src="https://farm3.static.flickr.com/2533/3677459738_fa6c79e7b7_b.jpg" alt="Scout has a big announcement" width="254" height="368" />][1] Regular readers of this blog know that my wife and I have been <a href="/tags/infertility/" target="_self">struggling with infertility</a> issues for a while now. Over the past 18 plus months we&#8217;ve played games with having &#8220;relations&#8221; on a specific schedule (whether we wanted to or not), injected more needles than Sammy Sosa, and moved genetic material around in all kinds of random ways.
 

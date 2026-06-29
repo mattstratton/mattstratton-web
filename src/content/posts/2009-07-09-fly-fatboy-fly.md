@@ -9,7 +9,9 @@ categories:
 tags:
   - Fitness
 legacy: true
+image: /wp-content/uploads/2009/07/matt-hs.jpg
 disqusThreadId: "28210128"
+heroInBody: true
 ---
 Most of my adult life, I&#8217;ve battled with my weight. Sort of. &#8220;Battle&#8221; implies that I actually was fighting. It&#8217;s perhaps more accurate to say that I&#8217;ve rolled over and surrendered to my weight. In a nutshell, **I am heavy for one specific reason &#8211; I&#8217;m lazy**. Like most people, when I was younger, I was not overweight, for several reasons:
 

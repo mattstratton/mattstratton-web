@@ -9,7 +9,9 @@ tags:
   - Erika
   - Interviews
 legacy: true
+image: /wp-content/uploads/2009/04/erikaheadshot.jpg
 disqusThreadId: "28264894"
+heroInBody: true
 ---
 [<img class="size-full wp-image-5077 alignright" title="erikaheadshot" src="/wp-content/uploads/2009/04/erikaheadshot.jpg" alt="erikaheadshot" width="145" height="217" />][1]One of my very good friends, <a href="https://www.myspace.com/erikabuchholz" target="_blank"><strong>Erika Buchholz</strong></a>, is a classical vocalist who relocated from Chicago to New York City in August of 2007. Despite her very busy schedule, which is jam-packed with singing, auditioning, fitness, and being awesome, Erika, was able to take the time to answer a few questions for this interview &#8211; so that the Good Old Rockers could gain a bit of insight into what exactly it means to be a &#8220;professional opera singer&#8221; &#8211; and what&#8217;s the real story behind &#8220;vice-versa&#8221;.
 

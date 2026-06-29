@@ -11,7 +11,9 @@ tags:
   - Facebook
 legacy: true
 description: "So you've given in to the peer pressure and signed up with Facebook. You've hunted down your old high school pals. You suddenly have a strong option on the Pirates v. Ninjas debate. You play Scrabulous Lexulous.It's great. Everyone is on the Fizzy Bizzy. But how can you control WHO can see WHAT in your Facebook profile? "
+image: /wp-content/uploads/create-list.png
 disqusThreadId: "28225512"
+heroInBody: true
 ---
 _(Originally posted on 1/30/2009 &#8211; updated for the latest Facebook settings)_
 

@@ -8,7 +8,9 @@ categories:
   - Tech Tips
 tags: []
 legacy: true
+image: /wp-content/uploads/2009/07/phonesched.png
 disqusThreadId: "28213105"
+heroInBody: true
 ---
 When I was a kid, it was easy to remember phone numbers. For one thing, we didn&#8217;t care about area codes. But also, everyone had one phone number &#8211; and it didn&#8217;t change. My parents&#8217; home number is the same one that I grew up with &#8211; even when we moved across the street, our number didn&#8217;t change. Heck, little Tommy Keller moved practically across town and his number was still the same.
 

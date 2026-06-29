@@ -12,6 +12,7 @@ tags:
 legacy: true
 description: |
   I've been using Google Plus since the beginning of July. I'm a big fan of it and have decided to try to make it my main "social media" platform. To test this theory out, I am going to be taking a hiatus from Facebook for the rest of the month of September, using Google Plus for my social sharing.
+image: /wp-content/uploads/experiment.png
 disqusThreadId: "406504256"
 ---
 I&#8217;ve been using Google Plus since the beginning of July. I&#8217;m a big fan of it and have decided to try to make it my main &#8220;social media&#8221; platform. To test this theory out, I am going to be taking a hiatus from Facebook for the rest of the month of September, using Google Plus for my social sharing.

@@ -1,0 +1,194 @@
+---
+/**
+ * Full-archive site search. A nav trigger opens a modal that searches every
+ * content page (posts, writing, standalone pages) via Pagefind.
+ *
+ * Pagefind indexes the built HTML in a postbuild step (`pagefind --site dist`),
+ * producing a chunked index under /pagefind/ that scales to thousands of pages
+ * without shipping a giant JSON blob. The index only exists after a build, so
+ * search works in `astro preview` / production, NOT in `astro dev` (the script
+ * fails gracefully there).
+ */
+---
+
+<button
+  type="button"
+  data-search-open
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  class="label !text-[0.78rem] inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+  </svg>
+  <span class="sr-only sm:not-sr-only">Search</span>
+</button>
+
+<div data-search-overlay role="dialog" aria-modal="true" aria-labelledby="search-title" hidden class="fixed inset-0 z-50">
+  <div data-search-backdrop class="absolute inset-0 bg-ink/40 backdrop-blur-sm"></div>
+
+  <div class="absolute inset-0 flex flex-col bg-panel sm:inset-x-0 sm:top-0 sm:mx-auto sm:my-16 sm:max-h-[80vh] sm:max-w-2xl sm:rounded-lg sm:border sm:border-rule sm:shadow-xl">
+    <h2 id="search-title" class="sr-only">Search the site</h2>
+
+    <div class="flex items-center gap-2 border-b border-rule px-4 py-3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 shrink-0 text-ink-soft" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+      </svg>
+      <input
+        type="search"
+        data-search-input
+        aria-label="Search the site"
+        placeholder="Search posts, writing, pages…"
+        autocomplete="off"
+        class="min-w-0 flex-1 bg-transparent py-2 font-sans text-lg text-ink placeholder:text-ink-soft focus:outline-none"
+      />
+      <button type="button" data-search-close aria-label="Close search" class="flex h-11 w-11 shrink-0 items-center justify-center rounded text-ink-soft transition-colors hover:text-accent">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5" aria-hidden="true">
+          <path d="M6 6 18 18M18 6 6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <p data-search-status role="status" aria-live="polite" class="label px-4 pt-3 pb-1"></p>
+    <ul data-search-results class="flex-1 overflow-y-auto px-4 pb-4"></ul>
+  </div>
+</div>
+
+<style is:global>
+  [data-search-results] mark {
+    background: color-mix(in srgb, var(--color-accent-bright) 28%, transparent);
+    color: inherit;
+    border-radius: 2px;
+  }
+</style>
+
+<script>
+  const overlay = document.querySelector<HTMLElement>('[data-search-overlay]');
+  const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
+  const closeBtn = document.querySelector<HTMLButtonElement>('[data-search-close]');
+  const backdrop = document.querySelector<HTMLElement>('[data-search-backdrop]');
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const status = document.querySelector<HTMLElement>('[data-search-status]');
+  const results = document.querySelector<HTMLUListElement>('[data-search-results]');
+
+  if (overlay && openBtn && closeBtn && backdrop && input && status && results) {
+    let pagefind: any = null;
+    let loadFailed = false;
+    let lastFocused: HTMLElement | null = null;
+    const MAX = 30;
+
+    const escapeHtml = (s: string) =>
+      s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+    async function ensurePagefind() {
+      if (pagefind || loadFailed) return;
+      try {
+        // Runtime path (built into dist/pagefind/); hidden from the bundler.
+        const path = '/pagefind/pagefind.js';
+        pagefind = await import(/* @vite-ignore */ path);
+        await pagefind.options({ excerptLength: 24 });
+      } catch {
+        loadFailed = true;
+      }
+    }
+
+    function renderEmpty(query: string) {
+      results!.innerHTML = '';
+      if (loadFailed) {
+        status!.textContent = 'Search runs on the built site (not the dev server).';
+      } else {
+        status!.textContent = query ? '' : 'Type to search the whole site.';
+      }
+    }
+
+    async function run() {
+      const q = input!.value.trim();
+      if (!q) {
+        renderEmpty('');
+        return;
+      }
+      await ensurePagefind();
+      if (!pagefind) {
+        renderEmpty(q);
+        return;
+      }
+      const search = await pagefind.search(q);
+      // Ignore a stale query that resolved after the user kept typing.
+      if (q !== input!.value.trim()) return;
+
+      const items = await Promise.all(search.results.slice(0, MAX).map((r: any) => r.data()));
+      if (items.length === 0) {
+        results!.innerHTML = '';
+        status!.textContent = 'No results.';
+        return;
+      }
+      status!.textContent = `${search.results.length} result${search.results.length === 1 ? '' : 's'}${search.results.length > MAX ? ` (showing ${MAX})` : ''}`;
+      results!.innerHTML = items
+        .map((d: any) => {
+          const title = escapeHtml(d.meta?.title ?? d.url);
+          return `<li><a href="${escapeHtml(d.url)}" class="group block border-b border-rule py-3 transition-colors hover:bg-paper">
+            <h3 class="font-display text-base font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">${title}</h3>
+            <p class="mt-1 text-sm leading-snug text-ink-soft">${d.excerpt}</p>
+          </a></li>`;
+        })
+        .join('');
+    }
+
+    let debounce: number;
+    input.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = window.setTimeout(run, 140);
+    });
+
+    async function open() {
+      lastFocused = document.activeElement as HTMLElement | null;
+      overlay!.removeAttribute('hidden');
+      openBtn!.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      input!.focus();
+      await ensurePagefind();
+      renderEmpty(input!.value.trim());
+    }
+    function close() {
+      overlay!.setAttribute('hidden', '');
+      openBtn!.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      lastFocused?.focus();
+    }
+
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+
+    // `/` opens search unless the user is typing in a field.
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || !overlay!.hasAttribute('hidden')) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      e.preventDefault();
+      open();
+    });
+
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        close();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const focusable = overlay!.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled])');
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+</script>

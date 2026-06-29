@@ -222,9 +222,8 @@ export const newsletter = {
   title: 'Stay in the Loop',
   content:
     'New posts on Postgres internals and performance, delivered when something worth reading ships.',
-  // Set this once the Buttondown account exists; until then the form renders a
-  // disabled placeholder (see Newsletter.astro).
-  buttondownUser: null as string | null,
+  // Public Buttondown username (not a secret) — drives the embed signup form.
+  buttondownUser: 'mattstratton' as string | null,
 };
 
 export const contact = {

@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   const pages: Record<string, { title: string; subtitle: string; badge: string }> = {
     home: {
       title: 'Postgres, performance, and the tradeoffs nobody warns you about.',
-      subtitle: 'Writing from Matty Stratton — backed by 20+ years of infrastructure.',
+      subtitle: 'Writing from Matty Stratton, backed by 20+ years of infrastructure.',
       badge: 'WRITING',
     },
     writing: {

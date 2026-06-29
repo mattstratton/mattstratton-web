@@ -7,7 +7,7 @@ export const GET: APIRoute = async (context) => {
     (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
   );
   return rss({
-    title: 'Matty Stratton — Newsletter',
+    title: 'Uncommitted · Matty Stratton',
     description: 'Postgres internals, performance, and the occasional find worth knowing about.',
     site: context.site ?? 'https://www.mattstratton.com',
     items: issues.map((issue) => ({

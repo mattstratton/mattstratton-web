@@ -45,6 +45,15 @@ function titleSize(title: string): number {
   return 44;
 }
 
+/** The brand mark: a teal rounded square with the "M" monogram (matches favicon.svg). */
+function monogram(size: number, radius: number, fontSize: number): Node {
+  return h(
+    'div',
+    { style: { display: 'flex', alignItems: 'center', justifyContent: 'center', width: size, height: size, borderRadius: radius, background: ACCENT } },
+    h('div', { style: { fontFamily: 'Hanken Grotesk', fontWeight: 700, fontSize, color: PAPER, lineHeight: 1, marginTop: -2 } }, 'M'),
+  );
+}
+
 export interface OgCardOptions {
   title: string;
   subtitle?: string;
@@ -62,7 +71,12 @@ export async function renderOgCard(opts: OgCardOptions): Promise<Buffer> {
     h(
       'div',
       { style: { display: 'flex', alignItems: 'center', justifyContent: 'space-between' } },
-      h('div', { style: { fontFamily: 'JetBrains Mono', fontWeight: 500, fontSize: 22, letterSpacing: '0.14em', color: INK_SOFT } }, eyebrow),
+      h(
+        'div',
+        { style: { display: 'flex', alignItems: 'center', gap: 18 } },
+        monogram(60, 14, 38),
+        h('div', { style: { fontFamily: 'JetBrains Mono', fontWeight: 500, fontSize: 22, letterSpacing: '0.14em', color: INK_SOFT } }, eyebrow),
+      ),
       badge &&
         h(
           'div',
@@ -93,5 +107,16 @@ export async function renderOgCard(opts: OgCardOptions): Promise<Buffer> {
   );
 
   const svg = await satori(tree as never, { width: WIDTH, height: HEIGHT, fonts });
+  return sharp(Buffer.from(svg)).png().toBuffer();
+}
+
+/** Square brand icon (apple-touch-icon + Buttondown upload): teal field, paper "M". */
+export async function renderIcon(size = 512): Promise<Buffer> {
+  const tree = h(
+    'div',
+    { style: { display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: ACCENT } },
+    h('div', { style: { fontFamily: 'Hanken Grotesk', fontWeight: 700, fontSize: Math.round(size * 0.66), color: PAPER, lineHeight: 1, marginTop: -Math.round(size * 0.04) } }, 'M'),
+  );
+  const svg = await satori(tree as never, { width: size, height: size, fonts });
   return sharp(Buffer.from(svg)).png().toBuffer();
 }

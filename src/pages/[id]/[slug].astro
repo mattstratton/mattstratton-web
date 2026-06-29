@@ -10,6 +10,8 @@ import { groupTalks, canonicalSlug } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords, isCleaned } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
 import { talkRouteParams } from '../../lib/talk-url';
+import JsonLd from '../../components/JsonLd.astro';
+import { AUTHOR_PERSON, buildBreadcrumb } from '../../lib/schema';
 
 // URL: legacy /{notistId}/{slug}, new /{year}/{slug} (see lib/talk-url.ts). The
 // id segment is the stable key every inbound link uses. Assets are keyed by the
@@ -47,6 +49,74 @@ const presented = d.presentedOn.toLocaleDateString('en-US', {
 const description = d.abstractHtml
   ? d.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 200)
   : `${d.title} by Matty Stratton.`;
+
+const siteBase = Astro.site!.href.replace(/\/$/, '');
+const canonicalUrl = `${siteBase}${Astro.url.pathname}`;
+const strippedAbstract = d.abstractHtml
+  ? d.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 500)
+  : `${d.title} by Matty Stratton.`;
+const thumbAbsUrl = d.thumbnail ? `${siteBase}${d.thumbnail}` : null;
+
+const breadcrumb = buildBreadcrumb([
+  { name: 'Home', item: `${siteBase}/` },
+  { name: 'Talks', item: `${siteBase}/talks` },
+  { name: d.title, item: canonicalUrl },
+]);
+
+const talkSchema: Record<string, unknown> = (() => {
+  if (d.video) {
+    const { provider, id: videoId } = d.video;
+    return {
+      '@type': 'VideoObject',
+      name: d.title,
+      description: strippedAbstract,
+      thumbnailUrl:
+        thumbAbsUrl ??
+        (provider === 'youtube' ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null) ??
+        `${siteBase}/og/talks/${talk.id.toLowerCase()}.png`,
+      uploadDate: d.presentedOn.toISOString(),
+      contentUrl:
+        provider === 'youtube'
+          ? `https://www.youtube.com/watch?v=${videoId}`
+          : `https://vimeo.com/${videoId}`,
+      embedUrl:
+        provider === 'youtube'
+          ? `https://www.youtube-nocookie.com/embed/${videoId}`
+          : `https://player.vimeo.com/video/${videoId}`,
+      author: AUTHOR_PERSON,
+      ...(transcript ? { accessibilityFeature: ['transcript'] } : {}),
+    };
+  } else if (slideCount > 0) {
+    return {
+      '@type': 'PresentationDigitalDocument',
+      name: d.title,
+      description: strippedAbstract,
+      datePublished: d.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+      ...(d.slidesPdf
+        ? {
+            associatedMedia: {
+              '@type': 'DataDownload',
+              contentUrl: `${siteBase}${d.slidesPdf}`,
+              encodingFormat: 'application/pdf',
+            },
+          }
+        : {}),
+    };
+  } else {
+    return {
+      '@type': 'Article',
+      headline: d.title,
+      description: strippedAbstract,
+      datePublished: d.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+    };
+  }
+})();
 ---
 
 <Base
@@ -57,6 +127,9 @@ const description = d.abstractHtml
   type="article"
   publishedTime={d.presentedOn.toISOString()}
 >
+  <Fragment slot="head">
+    <JsonLd schema={[talkSchema, breadcrumb]} />
+  </Fragment>
   <article class="mx-auto max-w-3xl">
     <a href="/talks" class="label transition-colors hover:text-accent">← All talks</a>
 

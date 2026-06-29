@@ -10,6 +10,8 @@ import { groupTalks, type Talk } from '../../lib/talk-groups';
 import { readTranscript, transcriptWords, isCleaned } from '../../lib/transcripts';
 import { topicsFor, techFor } from '../../lib/tags';
 import { talkUrl } from '../../lib/talk-url';
+import JsonLd from '../../components/JsonLd.astro';
+import { AUTHOR_PERSON, buildBreadcrumb } from '../../lib/schema';
 
 // Canonical talk pages: one per abstract (notistSlug), aggregating every
 // delivery. Per-delivery pages at /{id}/{slug} keep their own URLs untouched —
@@ -76,6 +78,78 @@ const yearRange = minYear === maxYear ? String(minYear) : `${minYear}–${maxYea
 const description = abstractDelivery?.data.abstractHtml
   ? abstractDelivery.data.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 200)
   : `${group.title} by Matty Stratton — delivered ${group.count} time${group.count === 1 ? '' : 's'}.`;
+
+const siteBase = Astro.site!.href.replace(/\/$/, '');
+const canonicalUrl = `${siteBase}/talk/${group.slug}`;
+const strippedAbstract = abstractDelivery?.data.abstractHtml
+  ? abstractDelivery.data.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 500)
+  : `${group.title} by Matty Stratton.`;
+
+const breadcrumb = buildBreadcrumb([
+  { name: 'Home', item: `${siteBase}/` },
+  { name: 'Talks', item: `${siteBase}/talks` },
+  { name: group.title, item: canonicalUrl },
+]);
+
+const talkSchema: Record<string, unknown> = (() => {
+  if (videoDelivery?.data.video) {
+    const vd = videoDelivery.data;
+    const { provider, id: videoId } = vd.video!;
+    const thumbAbsUrl = vd.thumbnail ? `${siteBase}${vd.thumbnail}` : null;
+    return {
+      '@type': 'VideoObject',
+      name: group.title,
+      description: strippedAbstract,
+      thumbnailUrl:
+        thumbAbsUrl ??
+        (provider === 'youtube' ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null) ??
+        `${siteBase}/og/talks/${rep.id.toLowerCase()}.png`,
+      uploadDate: vd.presentedOn.toISOString(),
+      contentUrl:
+        provider === 'youtube'
+          ? `https://www.youtube.com/watch?v=${videoId}`
+          : `https://vimeo.com/${videoId}`,
+      embedUrl:
+        provider === 'youtube'
+          ? `https://www.youtube-nocookie.com/embed/${videoId}`
+          : `https://player.vimeo.com/video/${videoId}`,
+      author: AUTHOR_PERSON,
+      ...(transcript ? { accessibilityFeature: ['transcript'] } : {}),
+    };
+  } else if (slideDelivery) {
+    const sd = slideDelivery.data;
+    const thumbAbsUrl = sd.thumbnail ? `${siteBase}${sd.thumbnail}` : null;
+    return {
+      '@type': 'PresentationDigitalDocument',
+      name: group.title,
+      description: strippedAbstract,
+      datePublished: rep.data.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+      ...(sd.slidesPdf
+        ? {
+            associatedMedia: {
+              '@type': 'DataDownload',
+              contentUrl: `${siteBase}${sd.slidesPdf}`,
+              encodingFormat: 'application/pdf',
+            },
+          }
+        : {}),
+    };
+  } else {
+    const thumbAbsUrl = rep.data.thumbnail ? `${siteBase}${rep.data.thumbnail}` : null;
+    return {
+      '@type': 'Article',
+      headline: group.title,
+      description: strippedAbstract,
+      datePublished: rep.data.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+    };
+  }
+})();
 ---
 
 <Base
@@ -84,6 +158,9 @@ const description = abstractDelivery?.data.abstractHtml
   image={`/og/talks/${rep.id.toLowerCase()}.png`}
   imageAlt={`${group.title} — Matty Stratton`}
 >
+  <Fragment slot="head">
+    <JsonLd schema={[talkSchema, breadcrumb]} />
+  </Fragment>
   <article class="mx-auto max-w-3xl">
     <a href="/talks" class="label transition-colors hover:text-accent">← All talks</a>
 

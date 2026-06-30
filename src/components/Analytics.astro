@@ -25,6 +25,8 @@ const { is404 = false } = Astro.props;
   if (import.meta.env.PROD) {
     init({
       domain: 'speaking.mattstratton.com',
+      // First-party proxy (see netlify.toml) so adblockers can't drop events.
+      endpoint: '/api/event',
       outboundLinks: true,
       fileDownloads: true,
     });

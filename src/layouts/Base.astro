@@ -69,6 +69,14 @@ const nav = [
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
     <slot name="head" />
+
+    <!-- Plausible Analytics (proxied via mattstratton.com to dodge adblockers) -->
+    <script is:inline async src="/js/script.js"></script>
+    <script is:inline>
+      window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments) };
+      plausible.init = plausible.init || function (i) { plausible.o = i || {} };
+      plausible.init({ endpoint: "/api/event" });
+    </script>
   </head>
   <body class="min-h-screen antialiased">
     <a

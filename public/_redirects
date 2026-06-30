@@ -1,3 +1,8 @@
+# ── Plausible Analytics proxy (dodge adblockers; keep above all other rules) ─
+# Script URL is the per-site pa-*.js from Plausible → Site Settings → Installation.
+/js/script.js   https://plausible.io/js/pa-96iraqcwRr0KvQ9g5unt9.js   200
+/api/event      https://plausible.io/api/event        200
+
 # ── Vanity / external redirects (preserved from the Hugo site) ──────────────
 /movember    https://mobro.co/mattystratton                          301!
 /mustache    https://mobro.co/mattystratton                          301!

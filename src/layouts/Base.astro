@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Search from '../components/Search.astro';
+import Analytics from '../components/Analytics.astro';
 
 interface Props {
   title: string;
@@ -11,9 +12,11 @@ interface Props {
   type?: 'website' | 'article';
   /** ISO timestamp for article:published_time on talk pages. */
   publishedTime?: string;
+  /** Set on the 404 page so Analytics fires a `404` custom event. */
+  is404?: boolean;
 }
 
-const { title, description, image, imageAlt, type = 'website', publishedTime } = Astro.props;
+const { title, description, image, imageAlt, type = 'website', publishedTime, is404 = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image ?? '/og/default.png', Astro.site);
 const ogImageAlt = imageAlt ?? title;
@@ -63,6 +66,7 @@ const nav = [
     {description && <meta name="twitter:description" content={description} />}
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
+    <Analytics is404={is404} />
     <slot name="head" />
   </head>
   <body class="min-h-screen antialiased">

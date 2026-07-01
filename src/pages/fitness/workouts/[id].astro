@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { sortedWorkouts, computePersonalRecords, exerciseIsPR } from '../../../lib/liftosaur';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('workouts');
+  const workouts = sortedWorkouts(entries);
+  const prs = computePersonalRecords(workouts);
+  return workouts.map((workout) => ({
+    params: { id: workout.id },
+    props: { workout, prs },
+  }));
+}
+
+const { workout, prs } = Astro.props;
+
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
+const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
+---
+
+<Base
+  title={`${workout.dayName} — ${fmtDate(workout.date)} · Fitness · Matty Stratton`}
+  description={`Workout detail for ${workout.dayName} on ${fmtDate(workout.date)}.`}
+>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label"><a href="/fitness/" class="hover:text-accent">Fitness</a> / <a href="/fitness/workouts/" class="hover:text-accent">Workouts</a></p>
+    <h1 class="mt-4 font-display text-4xl font-semibold leading-[0.95] tracking-tight text-balance sm:text-5xl">
+      {workout.dayName} — {workout.program}
+    </h1>
+    <p class="mt-4 text-lg text-ink-soft">{fmtDate(workout.date)} · {fmtDuration(workout.durationSeconds)}</p>
+  </section>
+
+  <ul class="mt-8">
+    {workout.exercises.map((ex) => (
+      <li class="border-b border-rule py-4">
+        <h2 class="font-display text-lg font-medium">
+          {ex.name}{exerciseIsPR(workout, ex.name, prs) && <span aria-label="Personal record set"> 🏅</span>}
+        </h2>
+        <p class="mt-1 text-ink-soft">{ex.sets.map((s) => fmtSet(s.reps, s.weight, s.unit)).join(', ')}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

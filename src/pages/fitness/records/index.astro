@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { sortedWorkouts, computePersonalRecords } from '../../../lib/liftosaur';
+import { slugify } from '../../../lib/posts';
+
+const entries = await getCollection('workouts');
+const workouts = sortedWorkouts(entries);
+const prs = computePersonalRecords(workouts).sort((a, b) => a.exercise.localeCompare(b.exercise));
+
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
+---
+
+<Base
+  title="All records · Fitness · Matty Stratton"
+  description="Every personal record across every exercise, pulled from Liftosaur."
+>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label"><a href="/fitness/" class="hover:text-accent">Fitness</a> / Records</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">All records</h1>
+  </section>
+
+  <table class="mt-8 w-full border-collapse text-left">
+    <thead>
+      <tr class="border-b-2 border-ink text-sm text-ink-soft">
+        <th class="py-2 pr-4 font-normal">Exercise</th>
+        <th class="py-2 pr-4 font-normal">Best set</th>
+        <th class="py-2 font-normal">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {prs.map((pr) => (
+        <tr class="border-b border-rule">
+          <td class="py-2 pr-4 font-medium">
+            <a href={`/fitness/exercises/${slugify(pr.exercise)}/`} class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline">{pr.exercise}</a>
+          </td>
+          <td class="py-2 pr-4">{fmtSet(pr.reps, pr.weight, pr.unit)}</td>
+          <td class="py-2 text-ink-soft">{fmtDate(pr.date)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Base>

@@ -12,7 +12,11 @@ const fmtDate = (iso: string) => new Date(iso).toLocaleDateString('en-US', { mon
 const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
 ---
 
-<Base title="All workouts · Fitness · Matty Stratton" description="Full workout history, pulled from Liftosaur.">
+<Base
+  title="All workouts · Fitness · Matty Stratton"
+  description="Full workout history, pulled from Liftosaur."
+  image="/og/fitness-workouts.png"
+>
   <section class="border-b-2 border-ink pb-8">
     <p class="label"><a href="/fitness/" class="hover:text-accent">Fitness</a> / Workouts</p>
     <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">

@@ -6,6 +6,7 @@ import {
   computeTrend,
   sparklinePoints,
   sortedWorkouts,
+  groupWorkoutsByYear,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -179,4 +180,21 @@ test('sortedWorkouts maps collection entries to ParsedWorkout, newest first', ()
   assert.deepEqual(workouts.map((w) => w.id), ['2', '1']);
   assert.equal(workouts[0].date, '2026-01-08T00:00:00.000Z');
   assert.equal(workouts[0].program, 'P');
+});
+
+test('groupWorkoutsByYear groups by year, descending, workouts newest first within a year', () => {
+  const workouts = [
+    workout('2025-03-01T00:00:00.000Z', 'Squat', [[5, 100]]),
+    workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 110]]),
+    workout('2025-01-01T00:00:00.000Z', 'Squat', [[5, 90]]),
+  ];
+  const grouped = groupWorkoutsByYear(workouts);
+  assert.deepEqual(
+    grouped.map(([year]) => year),
+    [2026, 2025],
+  );
+  assert.deepEqual(
+    grouped[1][1].map((w) => w.date),
+    ['2025-03-01T00:00:00.000Z', '2025-01-01T00:00:00.000Z'],
+  );
 });

@@ -34,6 +34,20 @@ export function sortedWorkouts(entries: CollectionEntry<'workouts'>[]): ParsedWo
     .sort((a, b) => b.date.localeCompare(a.date));
 }
 
+// Groups workouts by calendar year (descending), each year's workouts newest
+// first — the /fitness/workouts/ archive page renders one section per year,
+// mirroring the pattern used by the /post/ archive.
+export function groupWorkoutsByYear(workouts: ParsedWorkout[]): [number, ParsedWorkout[]][] {
+  const sorted = [...workouts].sort((a, b) => b.date.localeCompare(a.date));
+  const years = new Map<number, ParsedWorkout[]>();
+  for (const w of sorted) {
+    const year = new Date(w.date).getUTCFullYear();
+    if (!years.has(year)) years.set(year, []);
+    years.get(year)!.push(w);
+  }
+  return [...years.entries()].sort((a, b) => b[0] - a[0]);
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

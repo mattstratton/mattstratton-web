@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import { sortedWorkouts, computePersonalRecords, exerciseIsPR } from '../../../lib/liftosaur';
+import { sortedWorkouts, computePersonalRecords, exerciseIsPR, exerciseVolume, setStatus } from '../../../lib/liftosaur';
 
 export async function getStaticPaths() {
   const entries = await getCollection('workouts');
@@ -14,11 +14,18 @@ export async function getStaticPaths() {
 }
 
 const { workout, prs } = Astro.props;
+const maxVolume = Math.max(...workout.exercises.map(exerciseVolume), 1);
 
 const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
 const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
+
+const statusInfo = {
+  failed: { class: 'text-red-600 line-through decoration-2', label: ' (failed)' },
+  partial: { class: 'text-amber-600 font-medium', label: ' (partial)' },
+  met: { class: '', label: '' },
+} as const;
 ---
 
 <Base
@@ -31,6 +38,11 @@ const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weigh
       {workout.dayName} — {workout.program}
     </h1>
     <p class="mt-4 text-lg text-ink-soft">{fmtDate(workout.date)} · {fmtDuration(workout.durationSeconds)}</p>
+    <p class="mt-4 text-sm text-ink-soft">
+      🏅 PR that day &nbsp;·&nbsp; bar = volume vs. the session's heaviest lift &nbsp;·&nbsp;
+      <span class="text-red-600 line-through decoration-2">failed</span> = 0 reps &nbsp;·&nbsp;
+      <span class="text-amber-600 font-medium">partial</span> = short of target
+    </p>
   </section>
 
   <ul class="mt-8">
@@ -39,7 +51,23 @@ const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weigh
         <h2 class="font-display text-lg font-medium">
           {ex.name}{exerciseIsPR(workout, ex.name, prs) && <span aria-label="Personal record set"> 🏅</span>}
         </h2>
-        <p class="mt-1 text-ink-soft">{ex.sets.map((s) => fmtSet(s.reps, s.weight, s.unit)).join(', ')}</p>
+        <div class="mt-2 h-1.5 w-full max-w-xs rounded-full bg-panel" role="presentation">
+          <div class="h-1.5 rounded-full bg-accent" style={`width: ${(exerciseVolume(ex) / maxVolume) * 100}%`}></div>
+        </div>
+        <p class="mt-2 text-ink-soft">
+          {ex.sets.map((s, i) => {
+            const status = setStatus(s, ex.targetSets[i]);
+            return (
+              <>
+                <span class={statusInfo[status].class}>
+                  {fmtSet(s.reps, s.weight, s.unit)}
+                  {statusInfo[status].label}
+                </span>
+                {i < ex.sets.length - 1 && ', '}
+              </>
+            );
+          })}
+        </p>
       </li>
     ))}
   </ul>

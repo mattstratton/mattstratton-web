@@ -66,6 +66,18 @@ export function workoutsForExercise(workouts: ParsedWorkout[], exerciseName: str
   return workouts.filter((w) => w.exercises.some((ex) => ex.name === exerciseName));
 }
 
+export type SetStatus = 'failed' | 'partial' | 'met';
+
+// Compares a completed set to its planned target: 'failed' when zero reps
+// were done, 'partial' when some reps were done but short of target, 'met'
+// otherwise (hits, exceeds, or AMRAP-overachieves — also the default when
+// there's no target to compare against, since nothing was missed).
+export function setStatus(actual: WorkoutSet, target: WorkoutSet | undefined): SetStatus {
+  if (actual.reps === 0) return 'failed';
+  if (target && actual.reps < target.reps) return 'partial';
+  return 'met';
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

@@ -10,6 +10,7 @@ import {
   exerciseIsPR,
   workoutHasPR,
   workoutsForExercise,
+  setStatus,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -262,4 +263,21 @@ test('workoutsForExercise returns only workouts containing that exercise, order 
 test('workoutsForExercise returns an empty array when the exercise was never logged', () => {
   const w = workout('2026-01-08T00:00:00.000Z', 'Squat', [[5, 110]]);
   assert.deepEqual(workoutsForExercise([w], 'Bench Press'), []);
+});
+
+test('setStatus is failed when zero reps were completed', () => {
+  assert.equal(setStatus({ reps: 0, weight: 125, unit: 'lb' }, { reps: 10, weight: 125, unit: 'lb' }), 'failed');
+});
+
+test('setStatus is partial when reps fall short of target', () => {
+  assert.equal(setStatus({ reps: 6, weight: 125, unit: 'lb' }, { reps: 10, weight: 125, unit: 'lb' }), 'partial');
+});
+
+test('setStatus is met when reps hit or exceed target', () => {
+  assert.equal(setStatus({ reps: 10, weight: 125, unit: 'lb' }, { reps: 10, weight: 125, unit: 'lb' }), 'met');
+  assert.equal(setStatus({ reps: 6, weight: 147.5, unit: 'lb' }, { reps: 5, weight: 147.5, unit: 'lb' }), 'met');
+});
+
+test('setStatus is met when there is no target to compare against', () => {
+  assert.equal(setStatus({ reps: 5, weight: 100, unit: 'lb' }, undefined), 'met');
 });

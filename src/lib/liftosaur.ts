@@ -48,6 +48,18 @@ export function groupWorkoutsByYear(workouts: ParsedWorkout[]): [number, ParsedW
   return [...years.entries()].sort((a, b) => b[0] - a[0]);
 }
 
+// True when this workout is the one where `exerciseName`'s current PR was
+// first set (computePersonalRecords already keeps the earliest date on ties).
+export function exerciseIsPR(workout: ParsedWorkout, exerciseName: string, records: PersonalRecord[]): boolean {
+  const record = records.find((r) => r.exercise === exerciseName);
+  return record != null && record.date === workout.date;
+}
+
+// True when any exercise logged in this workout was a PR that day.
+export function workoutHasPR(workout: ParsedWorkout, records: PersonalRecord[]): boolean {
+  return workout.exercises.some((ex) => exerciseIsPR(workout, ex.name, records));
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

@@ -7,6 +7,8 @@ import {
   sparklinePoints,
   sortedWorkouts,
   groupWorkoutsByYear,
+  exerciseIsPR,
+  workoutHasPR,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -197,4 +199,45 @@ test('groupWorkoutsByYear groups by year, descending, workouts newest first with
     grouped[1][1].map((w) => w.date),
     ['2025-03-01T00:00:00.000Z', '2025-01-01T00:00:00.000Z'],
   );
+});
+
+test('exerciseIsPR is true only for the workout that first set the record', () => {
+  const older = workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 100]]);
+  const pr = workout('2026-01-08T00:00:00.000Z', 'Squat', [[5, 110]]);
+  const later = workout('2026-01-15T00:00:00.000Z', 'Squat', [[5, 110]]); // repeats the PR weight
+  const records = computePersonalRecords([older, pr, later]);
+
+  assert.equal(exerciseIsPR(pr, 'Squat', records), true);
+  assert.equal(exerciseIsPR(older, 'Squat', records), false);
+  assert.equal(exerciseIsPR(later, 'Squat', records), false);
+});
+
+test('exerciseIsPR is false for an exercise with no record at all', () => {
+  const w = workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 100]]);
+  assert.equal(exerciseIsPR(w, 'Bench Press', []), false);
+});
+
+test('workoutHasPR is true if any exercise in the workout was a PR that day', () => {
+  const w = {
+    id: 'multi',
+    date: '2026-01-08T00:00:00.000Z',
+    program: 'P',
+    dayName: 'D',
+    durationSeconds: 60,
+    exercises: [
+      { name: 'Squat', sets: [{ reps: 5, weight: 110, unit: 'lb' as const }] },
+      { name: 'Bench Press', sets: [{ reps: 5, weight: 80, unit: 'lb' as const }] },
+    ],
+  };
+  const records = [
+    { exercise: 'Squat', weight: 110, unit: 'lb' as const, reps: 5, date: '2026-01-08T00:00:00.000Z' },
+    { exercise: 'Bench Press', weight: 90, unit: 'lb' as const, reps: 5, date: '2025-12-01T00:00:00.000Z' },
+  ];
+  assert.equal(workoutHasPR(w, records), true);
+});
+
+test('workoutHasPR is false when no exercise in the workout matches its PR date', () => {
+  const w = workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 100]]);
+  const records = [{ exercise: 'Squat', weight: 110, unit: 'lb' as const, reps: 5, date: '2026-01-08T00:00:00.000Z' }];
+  assert.equal(workoutHasPR(w, records), false);
 });

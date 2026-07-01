@@ -2,10 +2,14 @@
 title: On trying new things
 published: true
 description: 'It’s quite easy to become creatures of habit, especially with our tools.'
-tags: [webdev, vscode, firefox]
+tags:
+  - webdev
+  - vscode
+  - firefox
 canonical_url: 'https://medium.com/@mattstratton/on-trying-new-things-6ed541a4500f'
 id: 10959
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/s3knunqzh69evym3xdn9.jpg'
+date: '2017-10-06T10:27:43Z'
 ---
 
 It’s quite easy to become creatures of habit, especially with our tools. We know what works for us, and we develop muscle memory for them (see also “vim vs emacs flame&nbsp;wars).

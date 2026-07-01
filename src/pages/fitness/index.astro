@@ -1,0 +1,118 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import {
+  sortedWorkouts,
+  computePersonalRecords,
+  computeTrend,
+  sparklinePoints,
+  workoutHasPR,
+  MAIN_LIFTS,
+} from '../../lib/liftosaur';
+import { slugify } from '../../lib/posts';
+
+const entries = await getCollection('workouts');
+const workouts = sortedWorkouts(entries);
+const prs = computePersonalRecords(workouts);
+const prByExercise = new Map(prs.map((pr) => [pr.exercise, pr]));
+
+const mainLifts = MAIN_LIFTS.map((name) => ({
+  name,
+  slug: slugify(name),
+  pr: prByExercise.get(name),
+  trend: computeTrend(workouts, name),
+}));
+
+const recent = workouts.slice(0, 5);
+
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
+const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
+
+const SPARK_W = 160;
+const SPARK_H = 32;
+---
+
+<Base
+  title="Fitness · Matty Stratton"
+  description="Workout history, personal records, and lift trends, pulled from Liftosaur."
+>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label">Off the clock</p>
+    <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">Fitness</h1>
+    <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
+      Workout history, personal records, and lift trends, pulled from
+      {' '}<a href="https://www.liftosaur.com" rel="noopener" class="underline decoration-accent-bright decoration-2 underline-offset-4">Liftosaur</a>,
+      where I actually log the workouts. This page rebuilds on a schedule, not live, so it may lag your latest session by up to a day.
+    </p>
+  </section>
+
+  {workouts.length === 0 ? (
+    <p class="mt-8 text-ink-soft">No workout data yet — check back after the next build.</p>
+  ) : (
+    <>
+      <section class="mt-12">
+        <div class="flex items-baseline justify-between">
+          <h2 class="font-display text-2xl font-semibold">Main lifts</h2>
+          <a href="/fitness/records/" class="label transition-colors hover:text-accent">All records →</a>
+        </div>
+        <ul class="mt-4 grid gap-6 sm:grid-cols-2">
+          {mainLifts.map((lift) => (
+            <li class="border-b border-rule pb-4">
+              <a href={`/fitness/exercises/${lift.slug}/`} class="group block">
+                <p class="font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{lift.name}</p>
+                {lift.pr ? (
+                  <>
+                    <p class="text-ink-soft">{fmtSet(lift.pr.reps, lift.pr.weight, lift.pr.unit)} · {fmtDate(lift.pr.date)}</p>
+                    <svg
+                      viewBox={`0 0 ${SPARK_W} ${SPARK_H}`}
+                      width={SPARK_W}
+                      height={SPARK_H}
+                      class="mt-2 text-accent"
+                      role="img"
+                      aria-label={`${lift.name} top weight trend`}
+                    >
+                      <polyline points={sparklinePoints(lift.trend, SPARK_W, SPARK_H)} fill="none" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                  </>
+                ) : (
+                  <p class="text-ink-soft">No data yet</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="mt-12">
+        <div class="flex items-baseline justify-between">
+          <h2 class="font-display text-2xl font-semibold">Recent workouts</h2>
+          <a href="/fitness/workouts/" class="label transition-colors hover:text-accent">All workouts →</a>
+        </div>
+        <ul class="mt-4">
+          {recent.map((w) => (
+            <li class="border-b border-rule py-3">
+              <a href={`/fitness/workouts/${w.id}/`} class="group flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
+                  {w.dayName} — {w.program}{workoutHasPR(w, prs) && <span aria-label="Personal record set"> 🏅</span>}
+                </h3>
+                <p class="text-sm text-ink-soft">{fmtDate(w.date)} · {fmtDuration(w.durationSeconds)}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  )}
+
+  <section class="mt-12 text-ink-soft">
+    <p>
+      Full history lives on my{' '}
+      <a href="https://www.liftosaur.com/profile/wucedumzcg" rel="noopener" class="underline decoration-accent-bright decoration-2 underline-offset-4">Liftosaur profile</a>.
+      Gear notes are on the{' '}
+      <a href="https://notes.mattstratton.com/public/garage-gym/" rel="noopener" class="underline decoration-accent-bright decoration-2 underline-offset-4">garage gym page</a>{' '}
+      of my digital garden.
+    </p>
+  </section>
+</Base>

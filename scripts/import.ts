@@ -46,6 +46,19 @@ function parseBodyMarkdown(bodyMarkdown: string): { data: Record<string, unknown
   }
 }
 
+// Checks whether a markdown string's front matter is valid YAML. Used both to warn when
+// dev.to's stored copy of an article is malformed, and to verify our own generated output
+// before writing it to disk (a broken front matter block written now would re-break the
+// publish workflow's "retrieve existing articles" step down the line).
+export function isParseableFrontMatter(markdown: string): boolean {
+  try {
+    matter(markdown)
+    return true
+  } catch {
+    return false
+  }
+}
+
 export function buildFrontMatter(article: DevToArticle): Record<string, unknown> {
   const { data: existing } = parseBodyMarkdown(article.body_markdown)
 
@@ -135,7 +148,16 @@ async function main() {
       console.warn(`  Skipped: posts/${article.slug}.md already exists on disk (slug collision — git-native draft?)`)
       continue
     }
+    if (!isParseableFrontMatter(article.body_markdown)) {
+      console.warn(
+        `  Warning: article ${article.id} (${article.slug}) has unparseable front matter stored on dev.to (likely an unquoted colon in title/description); falling back to API fields`
+      )
+    }
     const content = buildMarkdown(article)
+    if (!isParseableFrontMatter(content)) {
+      console.error(`  Error: generated front matter for posts/${article.slug}.md is not valid YAML, skipping this article`)
+      continue
+    }
     fs.writeFileSync(filePath, content, 'utf8')
     console.log(`  Created: posts/${article.slug}.md (id: ${article.id})`)
     created++

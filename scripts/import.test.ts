@@ -7,6 +7,7 @@ import {
   buildFrontMatter,
   buildMarkdown,
   getTrackedIds,
+  isParseableFrontMatter,
   type DevToArticle,
 } from './import.js'
 
@@ -143,6 +144,31 @@ describe('buildMarkdown', () => {
     // Should not double-nest front matter
     expect(parsed.content).not.toContain('---')
     expect(parsed.data.id).toBe(99999)
+  })
+})
+
+describe('isParseableFrontMatter', () => {
+  it('returns true for well-formed front matter', () => {
+    expect(isParseableFrontMatter('---\ntitle: Fine\n---\nBody')).toBe(true)
+  })
+
+  it('returns false for an unquoted colon in the title', () => {
+    expect(
+      isParseableFrontMatter(
+        '---\ntitle: Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL\n---\nBody'
+      )
+    ).toBe(false)
+  })
+
+  it('returns false for an unquoted colon in the description', () => {
+    expect(
+      isParseableFrontMatter('---\ntitle: Fine\ndescription: A: B: C\n---\nBody')
+    ).toBe(false)
+  })
+
+  it('returns true for output produced by buildMarkdown, even from a malformed source', () => {
+    const md = buildMarkdown(articleWithColonInTitle)
+    expect(isParseableFrontMatter(md)).toBe(true)
   })
 })
 

@@ -12,6 +12,8 @@ import {
   workoutsForExercise,
   setStatus,
   exerciseVolume,
+  computeEst1RM,
+  computeEst1RMTrend,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -305,4 +307,20 @@ test('exerciseVolume is zero for a failed exercise with no completed reps', () =
     targetSets: [],
   };
   assert.equal(exerciseVolume(ex), 0);
+});
+
+test('computeEst1RM applies the Epley formula, rounded to the nearest whole unit', () => {
+  assert.equal(computeEst1RM({ reps: 5, weight: 100, unit: 'lb' }), 117); // 100 * (1 + 5/30) = 116.67 -> 117
+  assert.equal(computeEst1RM({ reps: 1, weight: 200, unit: 'lb' }), 207); // 200 * (1 + 1/30) = 206.67 -> 207
+});
+
+test('computeEst1RMTrend picks the highest-estimating set per workout, not necessarily the top-weight set', () => {
+  const w = workout('2026-01-01T00:00:00.000Z', 'Squat', [
+    [1, 245],
+    [10, 200],
+  ]);
+  const topWeightTrend = computeTrend([w], 'Squat');
+  const est1RMTrend = computeEst1RMTrend([w], 'Squat');
+  assert.equal(topWeightTrend[0].weight, 245); // heaviest single set
+  assert.equal(est1RMTrend[0].weight, 267); // 200 * (1 + 10/30) = 266.67 -> 267, beats 245 * (1 + 1/30) = 253
 });

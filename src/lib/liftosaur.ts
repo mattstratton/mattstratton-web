@@ -83,6 +83,27 @@ export function exerciseVolume(exercise: WorkoutExercise): number {
   return exercise.sets.reduce((sum, s) => sum + s.reps * s.weight, 0);
 }
 
+// Epley formula estimated one-rep max for a single set, rounded to the
+// nearest whole unit for display.
+export function computeEst1RM(set: WorkoutSet): number {
+  return Math.round(set.weight * (1 + set.reps / 30));
+}
+
+// Estimated 1RM per workout for a given exercise — the highest-estimating
+// set that day, which isn't always the same set as the top raw weight (a
+// higher-rep set at slightly lower weight can estimate a higher 1RM).
+// Sorted oldest to newest, same shape/ordering as computeTrend.
+export function computeEst1RMTrend(workouts: ParsedWorkout[], exerciseName: string): TrendPoint[] {
+  const points: TrendPoint[] = [];
+  for (const workout of workouts) {
+    const exercise = workout.exercises.find((e) => e.name === exerciseName);
+    if (!exercise || exercise.sets.length === 0) continue;
+    const best = Math.max(...exercise.sets.map(computeEst1RM));
+    points.push({ date: workout.date, weight: best });
+  }
+  return points.sort((a, b) => a.date.localeCompare(b.date));
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

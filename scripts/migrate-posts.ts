@@ -218,4 +218,9 @@ function main() {
   }
 }
 
-main();
+// Only run when executed directly (`npm run migrate`), not when this module's
+// pure helpers are imported by migrate-posts.test.ts — main() destructively
+// wipes OUT_DIR, which must never happen as a side effect of running tests.
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  main();
+}

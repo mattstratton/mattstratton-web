@@ -1,5 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { existsSync, readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import {
   detectFormat,
   splitFrontmatter,
@@ -10,6 +12,16 @@ import {
   resolveHeroImage,
   normalizeFrontmatter,
 } from './migrate-posts.ts';
+
+// Regression test: main() used to run unconditionally at module load, wiping
+// src/content/posts (then crashing, since the old Hugo source it re-reads from
+// was intentionally removed post-migration). Importing this module for its
+// pure helpers must never touch the archive.
+test('importing migrate-posts.ts does not wipe src/content/posts', () => {
+  const outDir = fileURLToPath(new URL('../src/content/posts', import.meta.url));
+  assert.ok(existsSync(outDir), 'src/content/posts should still exist');
+  assert.ok(readdirSync(outDir).length > 100, 'src/content/posts should still contain the legacy archive');
+});
 
 test('detectFormat distinguishes YAML and TOML', () => {
   assert.equal(detectFormat('---\ntitle: x\n---\nbody'), 'yaml');

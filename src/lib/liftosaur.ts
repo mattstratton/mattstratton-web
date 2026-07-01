@@ -233,6 +233,45 @@ export function sparklinePoints(trend: TrendPoint[], width: number, height: numb
     .join(' ');
 }
 
+export interface DualSparkline {
+  a: string;
+  b: string;
+  min: number;
+  max: number;
+}
+
+// Like sparklinePoints, but scales two series to one shared min/max so they
+// can be plotted on the same axes and compared directly. Assumes both series
+// share the same length/x-positions (true for computeTrend/computeEst1RMTrend
+// run against the same workouts for the same exercise).
+export function dualSparklinePoints(
+  seriesA: TrendPoint[],
+  seriesB: TrendPoint[],
+  width: number,
+  height: number,
+): DualSparkline {
+  const values = [...seriesA, ...seriesB].map((p) => p.weight);
+  if (values.length === 0) return { a: '', b: '', min: 0, max: 0 };
+
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = max - min;
+
+  const toPoints = (series: TrendPoint[]) => {
+    if (series.length === 0) return '';
+    if (series.length === 1) return `0,${height / 2}`;
+    return series
+      .map((point, i) => {
+        const x = (i / (series.length - 1)) * width;
+        const y = range === 0 ? height / 2 : height - ((point.weight - min) / range) * height;
+        return `${x},${y}`;
+      })
+      .join(' ');
+  };
+
+  return { a: toPoints(seriesA), b: toPoints(seriesB), min, max };
+}
+
 // import.meta.env is only populated under Vite/Astro — guard with optional
 // chaining so this module also loads cleanly under the plain `node --test` runner.
 const API_BASE =

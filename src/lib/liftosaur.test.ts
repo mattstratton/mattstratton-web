@@ -14,6 +14,7 @@ import {
   exerciseVolume,
   computeEst1RM,
   computeEst1RMTrend,
+  dualSparklinePoints,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -323,4 +324,24 @@ test('computeEst1RMTrend picks the highest-estimating set per workout, not neces
   const est1RMTrend = computeEst1RMTrend([w], 'Squat');
   assert.equal(topWeightTrend[0].weight, 245); // heaviest single set
   assert.equal(est1RMTrend[0].weight, 267); // 200 * (1 + 10/30) = 266.67 -> 267, beats 245 * (1 + 1/30) = 253
+});
+
+test('dualSparklinePoints scales both series to one shared min/max', () => {
+  const a = [
+    { date: 'x', weight: 100 },
+    { date: 'y', weight: 200 },
+  ];
+  const b = [
+    { date: 'x', weight: 100 },
+    { date: 'y', weight: 300 },
+  ];
+  const result = dualSparklinePoints(a, b, 100, 20);
+  assert.equal(result.min, 100);
+  assert.equal(result.max, 300);
+  assert.equal(result.a, '0,20 100,10');
+  assert.equal(result.b, '0,20 100,0');
+});
+
+test('dualSparklinePoints returns empty strings and zero range for no data', () => {
+  assert.deepEqual(dualSparklinePoints([], [], 100, 20), { a: '', b: '', min: 0, max: 0 });
 });

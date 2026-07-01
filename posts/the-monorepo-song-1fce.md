@@ -6,6 +6,7 @@ tags: humo
 canonical_url: 'https://dev.to/mattstratton/the-monorepo-song-1fce'
 id: 251917
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/1gwecfd4ed3nf07pjlee.jpg'
+date: '2020-01-30T21:33:31Z'
 ---
 (apologies to The Simpsons)
 originally posted on the twitters at https://twitter.com/mattstratton/status/1222989536243920904

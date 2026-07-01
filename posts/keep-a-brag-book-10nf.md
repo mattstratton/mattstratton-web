@@ -1,14 +1,12 @@
 ---
 title: Keep a brag book
 published: true
-description: >-
-  We tend to focus on the negative, and rarely recall the positive things we
-  have accomplished, or the impact we have on others. Here's my tip for helping
-  to overcome this.
+description: 'We tend to focus on the negative, and rarely recall the positive things we have accomplished, or the impact we have on others. Here''s my tip for helping to overcome this.'
 tags: []
 canonical_url: 'https://dev.to/mattstratton/keep-a-brag-book-10nf'
 id: 468383
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/v2nwylpwuo6ulq2hxgs3.png'
+date: '2020-09-28T22:55:28Z'
 ---
 It's pretty common to not feel like you're doing a great job at work (or in your projects, or whatever else). I know I tend to definitely remember negative things that folks say to me or times that I feel like I have messed up. 
 

@@ -1,14 +1,11 @@
 ---
 title: The Five Love Languages of DevOps
 published: true
-description: >-
-  When we are working to bring about cultural change in our organization, it’s
-  essential for us to understand that not everyone speaks the same “language of
-  DevOps as we do.
+description: 'When we are working to bring about cultural change in our organization, it’s essential for us to understand that not everyone speaks the same “language of DevOps as we do.'
 tags: long
-canonical_url: >-
-  https://medium.com/@mattstratton/the-five-love-languages-of-devops-77606263c910
+canonical_url: 'https://medium.com/@mattstratton/the-five-love-languages-of-devops-77606263c910'
 id: 11211
+date: '2017-10-31T18:35:20Z'
 ---
 
 _Based upon a talk I have given at several&nbsp;events._

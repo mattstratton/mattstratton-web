@@ -1,15 +1,12 @@
 ---
 title: Check if you are breaking your admin rules in your GitHub repos
 published: true
-description: >-
-  Use Tailpipe (a lightweight, open source tool) to analyze GitHug audit logs
-  using familiar SQL syntax to identify overrides to branch protection rules
+description: 'Use Tailpipe (a lightweight, open source tool) to analyze GitHug audit logs using familiar SQL syntax to identify overrides to branch protection rules'
 tags: []
-canonical_url: >-
-  https://dev.to/mattstratton/check-if-you-are-breaking-your-admin-rules-in-your-github-repos-467b
+canonical_url: 'https://dev.to/mattstratton/check-if-you-are-breaking-your-admin-rules-in-your-github-repos-467b'
 id: 2348487
-cover_image: >-
-  https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bo03gjfc70kn2pv6kif8.png
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bo03gjfc70kn2pv6kif8.png'
+date: '2025-03-24T14:03:01Z'
 ---
 [Branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) in GitHub are powerful! We can set rules that don't allow folks to commit directly to `main`, as well as enforce that PRs need to be reviewed and approved, and have required checks before merging.
 

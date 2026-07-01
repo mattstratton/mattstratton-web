@@ -1,14 +1,12 @@
 ---
 title: From Cooking Up Delight To The Gospel of Incident Resolution
 published: true
-description: >-
-  I just remembered that it’s compulsory to write a blog post when you change
-  jobs. This is mine. If yo...
+description: I just remembered that it’s compulsory to write a blog post when you change jobs. This is mine. If yo...
 tags: care
-canonical_url: >-
-  https://medium.com/@mattstratton/from-cooking-up-delight-to-the-gospel-of-incident-resolution-fbf6c5ec816a
+canonical_url: 'https://medium.com/@mattstratton/from-cooking-up-delight-to-the-gospel-of-incident-resolution-fbf6c5ec816a'
 id: 14504
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/7nvfcnwndooi04qdabls.jpg'
+date: '2017-12-15T22:13:59Z'
 ---
 
 I just remembered that it’s compulsory to write a blog post when you change jobs. This is mine. If you don’t enjoy it, I recommend you read [A DevOps Christmas Carol](https://sysadvent.blogspot.com/2017/12/day-15-devops-christmas-carol.html) instead, since it’s a lot&nbsp;funnier.

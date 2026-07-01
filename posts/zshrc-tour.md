@@ -1,9 +1,14 @@
 ---
-title: "What's Actually in My .zshrc (and Why)"
+title: What's Actually in My .zshrc (and Why)
 published: false
-description: "A guided tour through the parts of my shell config that are actually worth explaining, from a shell that now has two audiences to a Keychain-backed secrets setup."
-tags: [shell, zsh, dotfiles, productivity]
-cover_image: "./assets/zshrc-tour-cover.png"
+description: 'A guided tour through the parts of my shell config that are actually worth explaining, from a shell that now has two audiences to a Keychain-backed secrets setup.'
+tags:
+  - shell
+  - zsh
+  - dotfiles
+  - productivity
+cover_image: ./assets/zshrc-tour-cover.png
+id: 4043143
 ---
 
 Your shell config is mostly a graveyard. A line you added in 2019 to fix a problem you don't remember having. An alias you're afraid to remove because what if you need it. Mine is no different, but there are a handful of pieces in there that are worth explaining, not because they're clever, but because most people have never thought about why they'd want them.

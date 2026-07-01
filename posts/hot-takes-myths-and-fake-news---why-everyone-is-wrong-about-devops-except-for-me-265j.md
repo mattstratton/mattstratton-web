@@ -1,17 +1,12 @@
 ---
-title: >-
-  Hot Takes, Myths, And Falsehoods - Why Everyone Is Wrong About DevOps (Except
-  For Me)
+title: 'Hot Takes, Myths, And Falsehoods - Why Everyone Is Wrong About DevOps (Except For Me)'
 published: true
-description: >-
-  Don't believe everything you read on the internet when it comes to DevOps. A
-  lot of people think they know what they are talking about, but they really
-  don't. I, on the other hand, know exactly what I'm talking about.
+description: 'Don''t believe everything you read on the internet when it comes to DevOps. A lot of people think they know what they are talking about, but they really don''t. I, on the other hand, know exactly what I''m talking about.'
 tags: devo
-canonical_url: >-
-  https://dev.to/mattstratton/hot-takes-myths-and-fake-news---why-everyone-is-wrong-about-devops-except-for-me-265j
+canonical_url: 'https://dev.to/mattstratton/hot-takes-myths-and-fake-news---why-everyone-is-wrong-about-devops-except-for-me-265j'
 id: 57270
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/38h2hq4ti2m5uc5k79z4.png'
+date: '2018-10-26T18:37:34Z'
 ---
 *(Adapted from a talk I gave at [DevOpsDays Indianapolis](https://www.devopsdays.org/events/2018-indianapolis/program/matt-stratton/) and [DevOpsDays Riga](https://www.devopsdays.org/events/2018-riga/program/matty-stratton-ignite-1/))*
 

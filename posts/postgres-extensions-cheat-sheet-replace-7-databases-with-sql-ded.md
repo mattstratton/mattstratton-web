@@ -1,9 +1,7 @@
 ---
 title: 'Postgres Extensions Cheat Sheet: Replace 7 Databases With SQL'
 published: true
-description: >-
-  This post is a practical companion to It's 2026, Just Use Postgres. That post
-  makes the architectural...
+description: 'This post is a practical companion to It''s 2026, Just Use Postgres. That post makes the architectural...'
 tags:
   - postgres
   - postgresqlextensions
@@ -11,8 +9,8 @@ tags:
   - sql
 canonical_url: 'https://www.tigerdata.com/blog/postgres-extensions-cheat-sheet'
 id: 3601575
-cover_image: >-
-  https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu2riwk96yrd0dmzt5l79.png
+cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu2riwk96yrd0dmzt5l79.png'
+date: '2026-05-02T20:47:24Z'
 ---
 
 This post is a practical companion to [<u>It's 2026, Just Use Postgres</u>](https://www.tigerdata.com/blog/its-2026-just-use-postgres). That post makes the architectural case for consolidating on Postgres. This one shows you how.

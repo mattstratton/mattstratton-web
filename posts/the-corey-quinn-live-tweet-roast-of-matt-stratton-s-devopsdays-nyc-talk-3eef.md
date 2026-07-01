@@ -1,14 +1,12 @@
 ---
 title: The Corey Quinn Live-Tweet Roast of Matt Stratton's DevOpsDays NYC talk
 published: true
-description: >-
-  Infamous cloud influencer Corey Quinn live-tweets Matt Stratton's talk from
-  DevOpsDays NYC 2020, in a good-natured "roast" format.
+description: 'Infamous cloud influencer Corey Quinn live-tweets Matt Stratton''s talk from DevOpsDays NYC 2020, in a good-natured "roast" format.'
 tags: humo
-canonical_url: >-
-  https://dev.to/mattstratton/the-corey-quinn-live-tweet-roast-of-matt-stratton-s-devopsdays-nyc-talk-3eef
+canonical_url: 'https://dev.to/mattstratton/the-corey-quinn-live-tweet-roast-of-matt-stratton-s-devopsdays-nyc-talk-3eef'
 id: 292357
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/5kgr2mooiqyo7mn0ymkl.png'
+date: '2020-03-26T13:14:35Z'
 ---
 I'm sure many of you are familiar with [Corey Quinn](https://twitter.com/quinnypig), the notorious cloud ~~comedian~~ influencer. Corey is fairly hilarious, and recently he agreed to live-tweet as he watched [my recent talk from DevOpsDays NYC 2020](https://speaking.mattstratton.com/4X23kE/the-lifecycle-of-a-service). For your amusement, here are the tweets.
 

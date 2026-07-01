@@ -10,6 +10,7 @@ export interface WorkoutSet {
 export interface WorkoutExercise {
   name: string;
   sets: WorkoutSet[];
+  targetSets: WorkoutSet[];
 }
 
 export interface ParsedWorkout {
@@ -91,7 +92,12 @@ function parseExerciseLine(line: string): WorkoutExercise {
   const segments = line.trim().split(' / ');
   const name = segments[0];
   const completedSegment = segments.find((s) => !s.startsWith('warmup:') && !s.startsWith('target:') && s !== name);
-  return { name, sets: completedSegment ? parseSets(completedSegment) : [] };
+  const targetSegment = segments.find((s) => s.startsWith('target:'));
+  return {
+    name,
+    sets: completedSegment ? parseSets(completedSegment) : [],
+    targetSets: targetSegment ? parseSets(targetSegment) : [],
+  };
 }
 
 export function parseWorkoutText(id: number, text: string): ParsedWorkout {

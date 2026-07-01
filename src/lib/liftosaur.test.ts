@@ -48,6 +48,15 @@ test('parseWorkoutText parses completed sets, ignoring warmup and target', () =>
   ]);
 });
 
+test('parseWorkoutText parses targetSets from the target: segment', () => {
+  const w = parseWorkoutText(1, SAMPLE);
+  assert.deepEqual(w.exercises[0].targetSets, [
+    { reps: 5, weight: 147.5, unit: 'lb' },
+    { reps: 5, weight: 147.5, unit: 'lb' },
+    { reps: 5, weight: 147.5, unit: 'lb' },
+  ]);
+});
+
 test('parseWorkoutText handles an exercise line with no warmup segment', () => {
   const w = parseWorkoutText(1, SAMPLE);
   const latPulldown = w.exercises[2];

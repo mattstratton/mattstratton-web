@@ -79,6 +79,13 @@ const workouts = defineCollection({
             unit: z.enum(['lb', 'kg']),
           }),
         ),
+        targetSets: z.array(
+          z.object({
+            reps: z.number(),
+            weight: z.number(),
+            unit: z.enum(['lb', 'kg']),
+          }),
+        ),
       }),
     ),
   }),

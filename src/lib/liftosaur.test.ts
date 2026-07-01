@@ -9,6 +9,7 @@ import {
   groupWorkoutsByYear,
   exerciseIsPR,
   workoutHasPR,
+  workoutsForExercise,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -240,4 +241,16 @@ test('workoutHasPR is false when no exercise in the workout matches its PR date'
   const w = workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 100]]);
   const records = [{ exercise: 'Squat', weight: 110, unit: 'lb' as const, reps: 5, date: '2026-01-08T00:00:00.000Z' }];
   assert.equal(workoutHasPR(w, records), false);
+});
+
+test('workoutsForExercise returns only workouts containing that exercise, order preserved', () => {
+  const squatDay = workout('2026-01-08T00:00:00.000Z', 'Squat', [[5, 110]]);
+  const benchDay = workout('2026-01-05T00:00:00.000Z', 'Bench Press', [[5, 80]]);
+  const workouts = [squatDay, benchDay];
+  assert.deepEqual(workoutsForExercise(workouts, 'Squat'), [squatDay]);
+});
+
+test('workoutsForExercise returns an empty array when the exercise was never logged', () => {
+  const w = workout('2026-01-08T00:00:00.000Z', 'Squat', [[5, 110]]);
+  assert.deepEqual(workoutsForExercise([w], 'Bench Press'), []);
 });

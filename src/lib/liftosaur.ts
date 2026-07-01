@@ -60,6 +60,11 @@ export function workoutHasPR(workout: ParsedWorkout, records: PersonalRecord[]):
   return workout.exercises.some((ex) => exerciseIsPR(workout, ex.name, records));
 }
 
+// Workouts that logged the given exercise at all, in the input's existing order.
+export function workoutsForExercise(workouts: ParsedWorkout[], exerciseName: string): ParsedWorkout[] {
+  return workouts.filter((w) => w.exercises.some((ex) => ex.name === exerciseName));
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

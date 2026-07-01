@@ -11,6 +11,7 @@ import {
   workoutHasPR,
   workoutsForExercise,
   setStatus,
+  exerciseVolume,
   MAIN_LIFTS,
   type ParsedWorkout,
 } from './liftosaur.ts';
@@ -280,4 +281,28 @@ test('setStatus is met when reps hit or exceed target', () => {
 
 test('setStatus is met when there is no target to compare against', () => {
   assert.equal(setStatus({ reps: 5, weight: 100, unit: 'lb' }, undefined), 'met');
+});
+
+test('exerciseVolume sums reps times weight across completed sets', () => {
+  const ex = {
+    name: 'Squat',
+    sets: [
+      { reps: 5, weight: 100, unit: 'lb' as const },
+      { reps: 5, weight: 100, unit: 'lb' as const },
+    ],
+    targetSets: [],
+  };
+  assert.equal(exerciseVolume(ex), 1000);
+});
+
+test('exerciseVolume is zero for a failed exercise with no completed reps', () => {
+  const ex = {
+    name: 'Bench Press',
+    sets: [
+      { reps: 0, weight: 125, unit: 'lb' as const },
+      { reps: 0, weight: 125, unit: 'lb' as const },
+    ],
+    targetSets: [],
+  };
+  assert.equal(exerciseVolume(ex), 0);
 });

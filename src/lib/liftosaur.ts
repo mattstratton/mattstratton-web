@@ -78,6 +78,11 @@ export function setStatus(actual: WorkoutSet, target: WorkoutSet | undefined): S
   return 'met';
 }
 
+// Total volume (reps × weight, summed across completed sets) for one exercise.
+export function exerciseVolume(exercise: WorkoutExercise): number {
+  return exercise.sets.reduce((sum, s) => sum + s.reps * s.weight, 0);
+}
+
 // Liftosaur's /history API returns each workout as a compact Liftoscript-style
 // text blob rather than structured JSON, e.g.:
 //   2026-06-30 23:54:55 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 /

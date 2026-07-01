@@ -1,0 +1,19 @@
+name: Rebuild fitness page
+
+# Triggers a Netlify rebuild so the /fitness page picks up new Liftosaur
+# workout data. Manual (workflow_dispatch) for on-demand refreshes, plus a
+# daily schedule so it doesn't go stale if you forget. Requires a
+# NETLIFY_BUILD_HOOK_FITNESS repo secret (create a build hook in Netlify site
+# settings > Build & deploy > Build hooks, then add its URL as this secret).
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Netlify build hook
+        run: curl -sf -X POST "${{ secrets.NETLIFY_BUILD_HOOK_FITNESS }}"

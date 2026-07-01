@@ -25,6 +25,7 @@ Node **20** (see `netlify.toml`). Netlify builds via `npm run build`, publishes 
 **Content collections** (`src/content.config.ts`):
 - `posts` — the 2,630-post legacy archive (2001–2020), bulk-converted from Hugo. The load-bearing `permalink` field carries each post's exact old URL and drives `src/pages/[...permalink].astro` (a catch-all that reproduces every legacy URL). Never add a `slug` field (the glob loader treats it as the entry id).
 - `writing` — the evergreen Postgres "field guide" authored going forward. Clean `/writing/<slug>` URLs, grouped by `part` on the index.
+- `workouts` — workout history pulled from the Liftosaur REST API at build time (`src/lib/liftosaur.ts`), powering `/fitness/`. Liftosaur returns each workout as a compact Liftoscript-text blob rather than JSON, so `parseWorkoutText` extracts date/program/exercises/sets; PRs and trend sparklines are derived from that at render time (`computePersonalRecords`, `computeTrend`), not fetched separately.
 
 **Homepage content** lives in `src/data/home.ts` (typed module, not a collection) — hero, about, experience, publications, featured talks, newsletter, contact. Section components are in `src/components/sections/`. The experience tabs are CSS-only (no JS).
 
@@ -40,6 +41,8 @@ Node **20** (see `netlify.toml`). Netlify builds via `npm run build`, publishes 
 
 - `BUTTONDOWN_API_KEY` — used by `src/lib/buttondown.ts` to fetch the newsletter archive at build. Set it in Netlify's env vars and in a local `.env` (gitignored). If absent, the archive builds empty (no failure). Generate it in Buttondown → Settings → API. To refresh the archive when a new issue sends, point a Buttondown webhook at a Netlify build hook.
 - `BUTTONDOWN_API_BASE` — optional override if Buttondown moves the API base off `api.buttondown.email/v1`.
+- `LIFTOSAUR_API_KEY` — a Liftosaur premium API key (`lftsk_...`), used by `src/lib/liftosaur.ts` to fetch workout history for `/fitness/` at build. Set it in Netlify's env vars and in a local `.env` (gitignored). If absent, `/fitness` builds empty (no failure). The page rebuilds via `.github/workflows/fitness-rebuild.yml` (manual `workflow_dispatch` or a daily cron), which POSTs to a Netlify build hook stored as the `NETLIFY_BUILD_HOOK_FITNESS` GitHub Actions secret.
+- `LIFTOSAUR_API_BASE` — optional override if Liftosaur moves the API base off `www.liftosaur.com/api/v1`.
 
 The signup form is driven by `newsletter.buttondownUser` in `src/data/home.ts` (public username, not a secret).
 

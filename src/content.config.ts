@@ -1,6 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { buttondownLoader } from './lib/buttondown';
+import { liftosaurLoader } from './lib/liftosaur';
 
 // The evergreen Postgres "field guide" authored on mattstratton.com going
 // forward. Separate from the legacy `posts` archive (added in the post-migration
@@ -59,4 +60,28 @@ const newsletter = defineCollection({
   }),
 });
 
-export const collections = { writing, posts, newsletter };
+// Workout history for the /fitness page, pulled from Liftosaur at build time
+// (see src/lib/liftosaur.ts). Entry id is the Liftosaur workout id.
+const workouts = defineCollection({
+  loader: liftosaurLoader(),
+  schema: z.object({
+    date: z.coerce.date(),
+    program: z.string(),
+    dayName: z.string(),
+    durationSeconds: z.number(),
+    exercises: z.array(
+      z.object({
+        name: z.string(),
+        sets: z.array(
+          z.object({
+            reps: z.number(),
+            weight: z.number(),
+            unit: z.enum(['lb', 'kg']),
+          }),
+        ),
+      }),
+    ),
+  }),
+});
+
+export const collections = { writing, posts, newsletter, workouts };

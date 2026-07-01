@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import {
+  sortedWorkouts,
+  computePersonalRecords,
+  computeTrend,
+  sparklinePoints,
+  workoutsForExercise,
+  exerciseIsPR,
+} from '../../../lib/liftosaur';
+import { slugify } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('workouts');
+  const workouts = sortedWorkouts(entries);
+  const prs = computePersonalRecords(workouts);
+  return prs.map((pr) => ({
+    params: { slug: slugify(pr.exercise) },
+    props: {
+      pr,
+      trend: computeTrend(workouts, pr.exercise),
+      history: workoutsForExercise(workouts, pr.exercise),
+      prs,
+    },
+  }));
+}
+
+const { pr, trend, history, prs } = Astro.props;
+const exercise = pr.exercise;
+
+const SPARK_W = 480;
+const SPARK_H = 120;
+
+const fmtDate = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
+---
+
+<Base
+  title={`${exercise} · Fitness · Matty Stratton`}
+  description={`Trend and full history for ${exercise}, pulled from Liftosaur.`}
+>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label">
+      <a href="/fitness/" class="hover:text-accent">Fitness</a> / <a href="/fitness/records/" class="hover:text-accent">Records</a> / {exercise}
+    </p>
+    <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">{exercise}</h1>
+    <p class="mt-4 text-lg text-ink-soft">Current PR: {fmtSet(pr.reps, pr.weight, pr.unit)} on {fmtDate(pr.date)}</p>
+  </section>
+
+  {trend.length > 1 && (
+    <section class="mt-8">
+      <svg
+        viewBox={`0 0 ${SPARK_W} ${SPARK_H}`}
+        width={SPARK_W}
+        height={SPARK_H}
+        class="w-full max-w-xl text-accent"
+        role="img"
+        aria-label={`${exercise} top weight trend`}
+      >
+        <polyline points={sparklinePoints(trend, SPARK_W, SPARK_H)} fill="none" stroke="currentColor" stroke-width="2" />
+      </svg>
+    </section>
+  )}
+
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-semibold">Full history</h2>
+    <ul class="mt-4">
+      {history.map((w) => {
+        const ex = w.exercises.find((e) => e.name === exercise)!;
+        return (
+          <li class="border-b border-rule py-3">
+            <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+              <p>
+                {ex.sets.map((s) => fmtSet(s.reps, s.weight, s.unit)).join(', ')}
+                {exerciseIsPR(w, exercise, prs) && <span aria-label="Personal record set"> 🏅</span>}
+              </p>
+              <a href={`/fitness/workouts/${w.id}/`} class="text-sm text-ink-soft hover:text-accent">{fmtDate(w.date)}</a>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+</Base>

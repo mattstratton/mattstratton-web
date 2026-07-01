@@ -7,6 +7,7 @@ import { renderOgCard } from '../../lib/og-card';
 // (2,630 satori renders would balloon the build) — archive posts share /og/default.png.
 export async function getStaticPaths() {
   const postCount = (await getCollection('posts')).length;
+  const workoutCount = (await getCollection('workouts')).length;
 
   const pages: Record<string, { title: string; subtitle: string; badge: string }> = {
     home: {
@@ -28,6 +29,21 @@ export async function getStaticPaths() {
       title: 'Uncommitted',
       subtitle: 'Monthly dispatches on Postgres internals and performance.',
       badge: 'NEWSLETTER',
+    },
+    fitness: {
+      title: 'Fitness',
+      subtitle: 'Workout history, personal records, and lift trends, pulled from Liftosaur.',
+      badge: 'FITNESS',
+    },
+    'fitness-records': {
+      title: 'All records',
+      subtitle: 'Every personal record across every exercise, pulled from Liftosaur.',
+      badge: 'FITNESS',
+    },
+    'fitness-workouts': {
+      title: 'All workouts',
+      subtitle: `${workoutCount.toLocaleString()} workouts, pulled from Liftosaur.`,
+      badge: 'FITNESS',
     },
     default: {
       title: 'Matty Stratton',

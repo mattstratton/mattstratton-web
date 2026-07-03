@@ -143,3 +143,4 @@ That's really it. It's a small mechanism, not a deep one, which is exactly why i
 ## Go poke around
 
 The full files are in [matty-dotfiles](https://github.com/mattstratton/matty-dotfiles) if you want the parts I skipped. If you've got a shell trick worth stealing, I want to hear about it in the comments.
+

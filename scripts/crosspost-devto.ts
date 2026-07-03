@@ -122,6 +122,24 @@ export function delinkEmbeds(body: string): string {
     .replace(/\{%\s*twitter\s+(\d+)\s*%\}/g, '[View the original post](https://twitter.com/i/web/status/$1)');
 }
 
+/**
+ * Set (or insert) `canonical_url` in a raw YAML frontmatter block via targeted
+ * line replacement, WITHOUT parsing+re-stringifying the whole block. Round-tripping
+ * through `YAML.stringify` silently drops quotes from scalars like an ISO date
+ * (`date: '2020-01-30T21:33:31Z'` -> `date: 2020-01-30T21:33:31Z`) that don't need
+ * them under this library's own YAML 1.2 core schema — but dev.to's Ruby backend
+ * parses that unquoted scalar as a native Time object and its safe-loader rejects
+ * it (`Tried to load unspecified class: Time`, HTTP 422). Editing only the one
+ * line we actually mean to change avoids touching any other field's formatting.
+ */
+export function setCanonicalUrl(fmRaw: string, url: string): string {
+  const quoted = `canonical_url: '${url}'`;
+  if (/^canonical_url:.*$/m.test(fmRaw)) {
+    return fmRaw.replace(/^canonical_url:.*$/m, quoted);
+  }
+  return `${fmRaw.replace(/\n$/, '')}\n${quoted}`;
+}
+
 /** Refuse (unless overridden) if the post's existing canonical_url points anywhere
  *  other than dev.to itself — that means its true canonical predates dev.to (Medium,
  *  a tigerdata.com blog post, etc.) and deciding where canonical should point is a
@@ -280,8 +298,7 @@ async function main() {
   writeFileSync(targetPath, newFile, 'utf8');
 
   const mattstrattonUrl = `https://www.mattstratton.com/writing/${slug}/`;
-  const updatedSourceFm = { ...fm, canonical_url: mattstrattonUrl };
-  const updatedSource = `---\n${YAML.stringify(updatedSourceFm, { lineWidth: 0 }).trimEnd()}\n---\n${body}`;
+  const updatedSource = `---\n${setCanonicalUrl(fmRaw, mattstrattonUrl)}\n---\n${body}`;
   writeFileSync(sourcePath, updatedSource, 'utf8');
 
   console.log(`\nWrote ${relative(ROOT, targetPath)}`);

@@ -3,10 +3,10 @@ title: How My Coworker Who Didn't Know 'cd' Shipped to Production
 published: true
 description: The agent isn't the hard part. The scaffolding around it is. Here's how we built ours so a non-engineer could ship to production safely.
 tags: webd
-canonical_url: https://www.mattstratton.com/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/
+canonical_url: 'https://www.mattstratton.com/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/'
 id: 3542818
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/huq5hzde2dcbh58cle1i.png
-date: 2026-04-23T20:30:39Z
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/huq5hzde2dcbh58cle1i.png'
+date: '2026-04-23T20:30:39Z'
 crosspost: true
 ---
 This morning, our Design Lead asked me how to get her terminal into the right folder.

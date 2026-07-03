@@ -1,12 +1,12 @@
 ---
 title: My Brewfile (Updated)
 published: true
-description: Did you know that Homebrew can install more than just packages? Here's an updated guided tour through my Brewfile to see how I set up applications, VS Code extensions, and more on my MacBook.
+description: 'Did you know that Homebrew can install more than just packages? Here''s an updated guided tour through my Brewfile to see how I set up applications, VS Code extensions, and more on my MacBook.'
 tags: home
-canonical_url: https://www.mattstratton.com/writing/my-brewfile-1pob/
+canonical_url: 'https://www.mattstratton.com/writing/my-brewfile-1pob/'
 id: 327372
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/e2bcvnrx9shjhpqfy8l5.png
-date: 2020-05-04T20:51:50Z
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/e2bcvnrx9shjhpqfy8l5.png'
+date: '2020-05-04T20:51:50Z'
 crosspost: true
 ---
 *Updated 06-24-2026*

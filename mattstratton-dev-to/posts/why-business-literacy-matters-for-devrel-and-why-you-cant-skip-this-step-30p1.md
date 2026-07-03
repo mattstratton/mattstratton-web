@@ -1,14 +1,13 @@
 ---
 title: Why Business Literacy Matters for DevRel (And Why You Can't Skip This Step)
 published: true
-description: DevRel teams struggle to prove value because they lack business literacy. Learn why understanding sales, marketing, and finance is foundational to DevRel success.
+description: 'DevRel teams struggle to prove value because they lack business literacy. Learn why understanding sales, marketing, and finance is foundational to DevRel success.'
 tags: devr
-canonical_url: https://www.mattstratton.com/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/
+canonical_url: 'https://www.mattstratton.com/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/'
 id: 2966206
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/558ps6yn849q6cvqoiyz.png
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/558ps6yn849q6cvqoiyz.png'
 series: DevRel Guide to Business
-date: 2025-10-27T18:51:10Z
-crosspost: true
+date: '2025-10-27T18:51:10Z'
 ---
 I hear over and over again, "the business doesn't understand DevRel." I'm here to tell you that is backwards - the problem is that DevRel doesn't understand business.
 

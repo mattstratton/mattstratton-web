@@ -12,6 +12,7 @@ import {
   delinkEmbeds,
   checkCanonicalHost,
   buildWritingFrontmatter,
+  setCanonicalUrl,
 } from './crosspost-devto.ts';
 
 test('splitFrontmatter splits on first delimiter pair only', () => {
@@ -95,6 +96,22 @@ test('deriveImageFilename handles a relative local cover image', () => {
 
 test('deriveImageFilename falls back to a generated name for an opaque URL', () => {
   assert.equal(deriveImageFilename('https://example.com/no-extension-here', 3), 'image-3.png');
+});
+
+test('setCanonicalUrl replaces an existing canonical_url line in place, leaving every other line byte-for-byte untouched (regression: full YAML re-stringify used to drop quotes from date, which dev.to\'s Ruby YAML parser then rejects as an unquoted Time scalar)', () => {
+  const fmRaw = "title: The Monorepo Song\npublished: true\ntags:\n  - humo\ncanonical_url: 'https://dev.to/mattstratton/the-monorepo-song-1fce'\nid: 251917\ndate: '2020-01-30T21:33:31Z'";
+  const result = setCanonicalUrl(fmRaw, 'https://www.mattstratton.com/writing/the-monorepo-song/');
+  assert.match(result, /^canonical_url: 'https:\/\/www\.mattstratton\.com\/writing\/the-monorepo-song\/'$/m);
+  assert.match(result, /^date: '2020-01-30T21:33:31Z'$/m, 'date quoting must be preserved untouched');
+  assert.match(result, /^id: 251917$/m);
+  assert.equal(result.split('\n').length, fmRaw.split('\n').length, 'line count unchanged - only the one line was replaced');
+});
+
+test('setCanonicalUrl appends a new canonical_url line when none exists yet', () => {
+  const fmRaw = "title: zshrc tour\npublished: true\nid: 4043143";
+  const result = setCanonicalUrl(fmRaw, 'https://www.mattstratton.com/writing/zshrc-tour/');
+  assert.match(result, /^canonical_url: 'https:\/\/www\.mattstratton\.com\/writing\/zshrc-tour\/'$/m);
+  assert.match(result, /^id: 4043143$/m);
 });
 
 test('delinkEmbeds converts youtube and twitter Liquid tags to plain links', () => {

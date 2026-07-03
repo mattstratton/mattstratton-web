@@ -3,10 +3,10 @@ title: Don’t Fear the CFP
 published: true
 description: Deciding to submit a talk for consideration at an event can be a troubling thing — what if my idea isn’t good enough? Do I think big enough thoughts to share a stage with Thought Leaders? Why would anyone care what I have to?
 tags: publ
-canonical_url: https://www.mattstratton.com/writing/dont-fear-the-cfp/
+canonical_url: 'https://www.mattstratton.com/writing/dont-fear-the-cfp/'
 id: 14959
-cover_image: https://thepracticaldev.s3.amazonaws.com/i/jf16mw214n6h8zpwnz12.png
-date: 2017-12-22T16:24:31Z
+cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/jf16mw214n6h8zpwnz12.png'
+date: '2017-12-22T16:24:31Z'
 crosspost: true
 ---
 

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { collectTopics } from '../../../lib/writing';
+
+const topics = collectTopics(await getCollection('writing'));
+---
+
+<Base title="Topics · Writing · Matty Stratton" description="Browse writing by topic.">
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label"><a href="/writing/" class="hover:text-accent">Writing</a></p>
+    <h1 class="mt-4 font-display text-5xl font-semibold tracking-tight">Topics</h1>
+  </section>
+  <ul class="mt-8 flex flex-wrap gap-2">
+    {topics.map((t) => (
+      <li>
+        <a href={`/writing/tags/${t.slug}/`} class="inline-flex items-center gap-1.5 rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule transition hover:ring-accent">
+          {t.name}<span class="label normal-case tracking-normal !text-[0.62rem]">{t.count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

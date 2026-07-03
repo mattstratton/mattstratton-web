@@ -2,25 +2,27 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { buildFieldGuide, type GuideItem } from '../../lib/writing';
+import { buildFieldGuide, collectTopics, type GuideItem } from '../../lib/writing';
 
-const { groups, ungrouped } = buildFieldGuide(await getCollection('writing'));
+const writingEntries = await getCollection('writing');
+const { groups, ungrouped } = buildFieldGuide(writingEntries);
+const topics = collectTopics(writingEntries);
 ---
 
 <Base
   title="Writing · Matty Stratton"
-  description="An evergreen field guide to Postgres internals, performance limits, and the architecture decisions that follow."
+  description="Everything Matt writes, browsable by topic — a curated Postgres field guide, plus everything else."
   image="/og/writing.png"
 >
   <section class="border-b-2 border-ink pb-8">
-    <p class="label">Field guide</p>
+    <p class="label">Writing</p>
     <h1 class="mt-4 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-balance">
-      Writing on Postgres
+      Writing
     </h1>
     <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-      An evergreen reference on Postgres internals and the tradeoffs nobody warns you about. Read it
-      start to finish as an onboarding path, or jump straight to the symptom you’re fighting right now.
-      Some pieces live here; others are on tigerdata.com, linked below.
+      Everything I write, browsable by topic. The Postgres field guide below is a curated,
+      start-to-finish path through internals and performance tradeoffs — some pieces live here,
+      others are on tigerdata.com, linked below. For everything else, browse by topic.
     </p>
   </section>
 
@@ -60,6 +62,24 @@ const { groups, ungrouped } = buildFieldGuide(await getCollection('writing'));
           </li>
         ))}
       </ul>
+    </section>
+  )}
+
+  {topics.length > 0 && (
+    <section class="mt-12 border-t-2 border-ink pt-8">
+      <p class="label">Browse</p>
+      <h2 class="mt-2 font-display text-2xl font-semibold">By topic</h2>
+      <p class="mt-1 text-ink-soft">Postgres and everything else, organized by tag.</p>
+      <ul class="mt-4 flex flex-wrap gap-2">
+        {topics.map((t) => (
+          <li>
+            <a href={`/writing/tags/${t.slug}/`} class="inline-flex items-center gap-1.5 rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule transition hover:ring-accent">
+              {t.name}<span class="label normal-case tracking-normal !text-[0.62rem]">{t.count}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="mt-4"><a href="/writing/tags/" class="label transition-colors hover:text-accent">All topics →</a></p>
     </section>
   )}
 

@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { collectTopics, writingForTopic } from '../../../lib/writing';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('writing');
+  return collectTopics(entries).map((term) => ({
+    params: { slug: term.slug },
+    props: { term, items: writingForTopic(entries, term.slug) },
+  }));
+}
+
+const { term, items } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+
+<Base title={`#${term.name} · Writing · Matty Stratton`} description={`Writing tagged ${term.name}.`}>
+  <section class="border-b-2 border-ink pb-8">
+    <p class="label"><a href="/writing/tags/" class="hover:text-accent">Topics</a></p>
+    <h1 class="mt-4 font-display text-5xl font-semibold tracking-tight">{term.name}</h1>
+    <p class="label mt-3 normal-case tracking-normal">{items.length} posts</p>
+  </section>
+  <ul class="mt-6">
+    {items.map((e) => (
+      <li class="flex gap-4 border-b border-rule py-2.5">
+        <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{fmt(e.data.pubDate)}</span>
+        <a href={`/writing/${e.id}/`} class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline">{e.data.title}</a>
+      </li>
+    ))}
+  </ul>
+</Base>

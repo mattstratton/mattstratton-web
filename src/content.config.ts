@@ -3,9 +3,11 @@ import { glob } from 'astro/loaders';
 import { buttondownLoader } from './lib/buttondown';
 import { liftosaurLoader } from './lib/liftosaur';
 
-// The evergreen Postgres "field guide" authored on mattstratton.com going
-// forward. Separate from the legacy `posts` archive (added in the post-migration
-// phase): clean /writing/<slug> URLs, required description, evergreen metadata.
+// The living home for all of Matt's current writing on mattstratton.com — not
+// just Postgres. Separate from the legacy `posts` archive (added in the
+// post-migration phase, frozen at 2001–2020): clean /writing/<slug> URLs,
+// required description, evergreen metadata. `topics` is the universal tag
+// mechanism; `part` below is a special-cased curated arc, not the whole story.
 const writing = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/writing' }),
   schema: z.object({
@@ -13,8 +15,9 @@ const writing = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    // The 4-part arc from matty-writing-plan.md. Optional so standalone pieces
-    // can exist outside the guide structure.
+    // The curated 4-part Postgres arc (mechanics -> limits -> traps -> decision).
+    // Optional and Postgres-specific — most entries won't set this; everything
+    // else is tagged via `topics` instead.
     part: z.enum(['mechanics', 'limits', 'traps', 'decision']).optional(),
     topics: z.array(z.string()).default([]),
     draft: z.boolean().default(false),

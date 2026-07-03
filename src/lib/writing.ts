@@ -1,5 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
 import { externalFieldGuide } from '../data/field-guide';
+import { collectTaxonomy, entriesForTerm } from './taxonomy';
 
 // The 4-part field-guide arc (matty-writing-plan.md). Order + labels drive the
 // grouped /writing index.
@@ -27,6 +28,16 @@ export function groupByPart(entries: CollectionEntry<'writing'>[]) {
   })).filter((g) => g.entries.length > 0);
   const ungrouped = entries.filter((e) => !e.data.part);
   return { groups, ungrouped };
+}
+
+/** All distinct topics across published writing, alphabetical, with counts. */
+export function collectTopics(entries: CollectionEntry<'writing'>[]) {
+  return collectTaxonomy(publishedWriting(entries), (e) => e.data.topics);
+}
+
+/** Published writing entries tagged with the given topic slug, newest first (already sorted by publishedWriting). */
+export function writingForTopic(entries: CollectionEntry<'writing'>[], slug: string) {
+  return entriesForTerm(publishedWriting(entries), (e) => e.data.topics, slug);
 }
 
 /** A field-guide entry, whether a native post (on-site) or an external link. */

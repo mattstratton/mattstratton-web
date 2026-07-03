@@ -26,6 +26,10 @@ Fidelity beats prettiness — this is a durable archive.
    the clean text + sets the manifest flag. If `written` is false, show the
    before/after sample + `fidelity.reason` and ask the user: accept anyway (they can
    widen scope), re-clean, or skip. Never bypass the gate silently.
+4. **Resync memory** — if `written` was `true`, run the `resync-talk-memory`
+   skill for `id` so the memory record picks up the cleaned transcript. Do
+   this per-transcript (not batched at the end) so a partial `--all` run still
+   syncs everything it actually cleaned.
 
 ## Cleaning ruleset
 

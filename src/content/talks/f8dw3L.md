@@ -8,10 +8,12 @@ timezone: America/Denver
 event: qH3FZP
 abstractHtml: |
   <p>Security and compliance should be treated as just another aspect of quality in your delivery pipeline. It’s not an afterthought - it should be a first-class citizen, and issues identified as early to introduction as possible.</p>
-slideSource: none
-slidesPdf: null
+slideSource: pdf
+slidesPdf: /slides/f8dw3L.pdf
 slideImageCount: 0
-video: null
+video:
+  provider: youtube
+  id: Qf1-CRT0pvY
 resources: []
 thumbnail: /thumbnails/f8dw3L.jpg
 ---

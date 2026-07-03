@@ -1,16 +1,16 @@
 ---
 title: I Contain Multitudes (and Also Three Git Repos)
-published: false
-description: 'A tour of the stack behind mattstratton.com and speaking.mattstratton.com: a monorepo holding two Astro sites and a dev.to sync tool, twenty years of blog posts, and the pipeline that crossposts posts like this one.'
-tags:
+description: "A tour of the stack behind mattstratton.com and speaking.mattstratton.com: a monorepo holding two Astro sites and a dev.to sync tool, twenty years of blog posts, and the pipeline that crossposts posts like this one."
+pubDate: 2026-07-03
+topics:
   - astro
   - webdev
   - showdev
-cover_image: ./assets/mattstratton-com-stack-cover.png
-id: 4062782
-crosspost: true
-canonical_url: 'https://www.mattstratton.com/writing/mattstratton-com-stack/'
+draft: false
+heroImage: /writing/mattstratton-com-stack/mattstratton-com-stack-cover.png
 ---
+
+![](/writing/mattstratton-com-stack/mattstratton-com-stack-cover.png)
 
 My blog is older than most of the tools I use to run it. The oldest posts started life on LiveJournal sometime in the early 2000s, got dragged through a WordPress import at some point in the mid-2000s, spent the better part of a decade as a Hugo site, and, about a week ago, moved into an Astro 5 site that reproduces every one of those old URLs byte for byte. That's 2,630 posts spanning 2001 to 2020, frozen exactly where they landed.
 

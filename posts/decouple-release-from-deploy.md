@@ -1,13 +1,14 @@
 ---
-title: "Your Agent Didn't Break Prod. Your Pipeline Did."
+title: Your Agent Didn't Break Prod. Your Pipeline Did.
 published: false
-description: "'Merged' and 'live' are not the same event, and an agent that can merge to main doesn't change that. It just makes it obvious you never separated them."
+description: '''Merged'' and ''live'' are not the same event, and an agent that can merge to main doesn''t change that. It just makes it obvious you never separated them.'
 tags:
   - devops
   - ai
   - webdev
   - cicd
 cover_image: ./assets/decouple-release-from-deploy-cover.png
+id: 4061454
 ---
 Picture a pipeline that looks pretty reasonable on paper. An agent opens pull requests. CI gates the merge to main: lint, tests, build, all green or it doesn't land. A scheduled job periodically promotes whatever's sitting in staging straight to production. No individual approval per feature. Just a batch cutover on a timer.
 

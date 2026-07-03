@@ -18,6 +18,8 @@ A design-system unification (the warm-paper CSS tokens are currently hand-copied
 
 **Claude Code skills note**: `mattstratton-speaking/.claude/skills/` (`add-talk`, `resync-talk-memory`, `transcript-cleanup`) are committed and are discovered correctly from a Claude Code session at this repo's root — confirmed working post-merge, no `cd` workaround needed.
 
+**CLAUDE.md discovery**: this repo's root `CLAUDE.md` always loads for a Claude Code session started here; the nested `mattstratton-speaking/CLAUDE.md` and `mattstratton-dev-to/CLAUDE.md` are picked up automatically based on which subdirectory's files are being read or edited — no manual `cd` or extra config needed. Keeping three separate files is intentional, not an oversight: each subproject is a genuinely distinct, self-contained codebase (different stack details, URL rules, content models), so consolidating them into one file would just bloat it with irrelevant detail for whichever subproject a session isn't touching.
+
 **GitHub Actions gotcha**: workflow files are ONLY discovered by GitHub at the true repo root's `.github/workflows/` — never in a subdirectory. `mattstratton-dev-to`'s workflows live at the root `.github/workflows/devto-import.yml` and `devto-publish.yml` (not nested under `mattstratton-dev-to/`), each scoped back to that subdirectory via `working-directory`/`files`/`paths` settings inside the workflow. If a future merged subproject brings its own `.github/workflows/`, they need the same treatment — move to root, rename to avoid collisions, keep the path scoping.
 
 ## Commands

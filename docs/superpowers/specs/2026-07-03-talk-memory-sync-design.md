@@ -194,6 +194,16 @@ auto-generated topic tags, transcript chunking/splitting into multiple
 memories, a "delete talk" sync path (no talk deletion workflow exists in this
 repo today), syncing `resources` links or slide assets into memory content.
 
+## Future ideas (not in scope)
+
+- **GitHub Action for sync instead of skill-triggered:** rather than relying on
+  `add-talk`/`transcript-cleanup` to remember to call `resync-talk-memory`, a
+  CI workflow could run it automatically on merge to `main` (e.g. diff which
+  `src/content/talks/*.md` / `public/transcripts/*.txt` files changed in the
+  PR and resync just those ids). Would need the `me` MCP server reachable
+  from CI (auth/network), which isn't set up today. Worth revisiting once the
+  skill-based approach has proven the content/meta shape out.
+
 ## Open questions
 
 None outstanding.

@@ -19,6 +19,8 @@ Not because the agent did anything malicious. Because two very different questio
 
 I've [written before](https://dev.to/mattstratton/how-my-coworker-who-didnt-know-cd-shipped-to-production-3j6j) about the scaffolding that lets a non-engineer safely drive a coding agent against a real codebase. Rules, skills, hooks. Three layers of paranoia built into the system instead of relying on any one person's vigilance on a random Friday. That post was about the merge gate: what stops garbage from landing on `main`.
 
+Part of that merge gate is worth calling out on its own: a second pass on the same PR, same harness, different system prompt, catches things the first pass missed. You don't need a different vendor or a different model for that to work, just a fresh set of eyes that didn't write the code. [I wrote more about why that works here.](https://www.mattstratton.com/newsletter/was-it-the-model-or-just-a-fresh-pass-uncommitted/)
+
 This post is about the gate after that one. Passing CI and landing on `main` solves exactly one problem, and it is not the problem of "will my users see something half-finished this afternoon."
 
 I've been talking about [shifting things left in the pipeline](https://www.youtube.com/watch?v=Qf1-CRT0pvY&t=178s) for the better part of a decade, usually about security. Same instinct, one checkpoint further down the line: not just "is this code safe to merge," but "is deploying this code, right now, safe."

@@ -1,14 +1,15 @@
 ---
-title: 'Marketing 101: Funnels, Campaigns, and What Marketing Actually Means'
+title: "Marketing 101: Funnels, Campaigns, and What Marketing Actually Means"
 published: true
-description: 'DevRel isn''t marketing, but you need to speak their language. Learn about funnels, MQLs, and campaigns...and why understanding marketing makes you better at DevRel.'
+description: DevRel isn't marketing, but you need to speak their language. Learn about funnels, MQLs, and campaigns...and why understanding marketing makes you better at DevRel.
 tags:
   - devrel
-canonical_url: 'https://dev.to/mattstratton/marketing-101-funnels-campaigns-and-what-marketing-actually-means-4j81'
+canonical_url: https://www.mattstratton.com/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/
 id: 2969196
-cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzyg785kv0b888acwdq7l.png'
+cover_image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzyg785kv0b888acwdq7l.png
 series: DevRel Guide to Business
-date: '2025-10-28T16:09:00Z'
+date: 2025-10-28T16:09:00Z
+crosspost: true
 ---
 *This is Part 3 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
 

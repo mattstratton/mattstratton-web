@@ -1,12 +1,12 @@
 ---
 title: Hosting a Participant-First Conference in the Age of Corona - How To Do It
 published: true
-description: 'Sept 1, 2020 was the 7th annual DevOpsDays Chicago conference. It was also the first time we did it virtually. It was super well-received, and a lot of folks have been asking me for details on our implementation.'
+description: Sept 1, 2020 was the 7th annual DevOpsDays Chicago conference. It was also the first time we did it virtually. It was super well-received, and a lot of folks have been asking me for details on our implementation.
 tags: even
-canonical_url: 'https://dev.to/mattstratton/hosting-a-participant-first-conference-in-the-age-of-corona-how-to-do-it-3p2j'
+canonical_url: https://www.mattstratton.com/writing/hosting-a-participant-first-conference-in-the-age-of-corona-how-to-do-it/
 id: 510449
-cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/fyljvgmlrvoeqhr5qyn8.png'
-date: '2020-11-09T16:34:38Z'
+cover_image: https://dev-to-uploads.s3.amazonaws.com/i/fyljvgmlrvoeqhr5qyn8.png
+date: 2020-11-09T16:34:38Z
 crosspost: true
 ---
 Sept 1, 2020 was the 7th annual [DevOpsDays Chicago](https://devopsdays.org/chicago) conference. It was also the first time we did it virtually. It was super well-received, and a lot of folks have been asking me for details on our implementation.

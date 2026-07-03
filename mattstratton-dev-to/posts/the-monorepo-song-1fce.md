@@ -3,10 +3,10 @@ title: The Monorepo Song
 published: true
 description: Because a dev with root access is like a mule with a spinning wheel
 tags: humo
-canonical_url: 'https://dev.to/mattstratton/the-monorepo-song-1fce'
+canonical_url: https://www.mattstratton.com/writing/the-monorepo-song/
 id: 251917
-cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/1gwecfd4ed3nf07pjlee.jpg'
-date: '2020-01-30T21:33:31Z'
+cover_image: https://dev-to-uploads.s3.amazonaws.com/i/1gwecfd4ed3nf07pjlee.jpg
+date: 2020-01-30T21:33:31Z
 crosspost: true
 ---
 (apologies to The Simpsons)

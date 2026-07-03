@@ -16,9 +16,9 @@ export async function getStaticPaths() {
       badge: 'WRITING',
     },
     writing: {
-      title: 'Writing on Postgres',
-      subtitle: 'An evergreen field guide to Postgres internals and performance tradeoffs.',
-      badge: 'FIELD GUIDE',
+      title: 'Writing',
+      subtitle: 'Postgres internals, performance tradeoffs, and everything else — browsable by topic.',
+      badge: 'WRITING',
     },
     post: {
       title: 'The archive',

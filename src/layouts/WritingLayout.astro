@@ -2,6 +2,7 @@
 import Base from './Base.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { PARTS } from '../lib/writing';
+import { slugify } from '../lib/taxonomy';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -47,7 +48,7 @@ const updated = d.updatedDate?.toLocaleDateString('en-US', { year: 'numeric', mo
     {d.topics.length > 0 && (
       <div class="mt-10 flex flex-wrap gap-2 border-t border-rule pt-6">
         {d.topics.map((t) => (
-          <span class="rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule">{t}</span>
+          <a href={`/writing/tags/${slugify(t)}/`} class="rounded-full bg-ink/5 px-3 py-1 text-sm ring-1 ring-rule transition hover:ring-accent">{t}</a>
         ))}
       </div>
     )}

@@ -16,7 +16,9 @@ This repository holds **three independent subprojects**, merged together (with f
 
 A design-system unification (the warm-paper CSS tokens are currently hand-copied between this site and the speaking site, not shared) is a deliberately deferred future project, not part of this merge.
 
-**Claude Code skills note**: `mattstratton-speaking/.claude/skills/` are committed and came over with the merge, but skill discovery from a Claude Code session launched at this repo's root has not been confirmed to surface them automatically — if they don't show up, `cd mattstratton-speaking` (or launch a session scoped there) before using them.
+**Claude Code skills note**: `mattstratton-speaking/.claude/skills/` (`add-talk`, `resync-talk-memory`, `transcript-cleanup`) are committed and are discovered correctly from a Claude Code session at this repo's root — confirmed working post-merge, no `cd` workaround needed.
+
+**GitHub Actions gotcha**: workflow files are ONLY discovered by GitHub at the true repo root's `.github/workflows/` — never in a subdirectory. `mattstratton-dev-to`'s workflows live at the root `.github/workflows/devto-import.yml` and `devto-publish.yml` (not nested under `mattstratton-dev-to/`), each scoped back to that subdirectory via `working-directory`/`files`/`paths` settings inside the workflow. If a future merged subproject brings its own `.github/workflows/`, they need the same treatment — move to root, rename to avoid collisions, keep the path scoping.
 
 ## Commands
 

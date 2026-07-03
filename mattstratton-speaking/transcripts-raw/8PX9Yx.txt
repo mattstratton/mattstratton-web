@@ -1,0 +1,967 @@
+welcome to my talk to five love
+languages of DevOps so Who am I so so
+before my name is Matt Stratton I'm
+senior solution architect at chef
+software I live in Chicago chef is based
+in Seattle we're all over the place tada
+if you want to learn more about Chef we
+have a fancy little table and we have
+lots of swag so come see me and stuff I
+am the co-host of the arrested dev ops
+podcast so if you're into podcasts and
+DevOps then you should listen to it and
+you should come by the chef's table or
+just see me at some point and get a
+sticker for your laptop we actually have
+an episode that should be releasing in
+the next couple days it's about seasonal
+scaling so we had robbed Cummings from
+Nordstrom and I don't remember his name
+who's it all say now but was at PayPal I
+wasn't on this episode and they talked
+about like things they've doing for
+seasonal stuff and it was really cool
+I'm one of the co-organizers of DevOps
+days Chicago so I know everything that
+youre organizers have gone through to
+put this event on and i'm super
+impressed and I'm really proud and
+humbled to be one of your speakers today
+and yeah that's my license plate so if
+you see the Illinois DevOps license
+plate that's me so I definitely bind to
+this and I never put my twitter
+name on this slide and I don't know why
+I haven't fixed that yet but it's easy
+it's at Matt Stratton and that's kind of
+where I am everywhere that you want to
+find me so going to talk a little bit
+about what is this DevOps thing anyway
+and I kind of bring this up because I
+give this talk to lots of different
+kinds of people and and I always find
+that a DevOps phase well first of all
+I'm just going to ask a question how
+many people here this is your first
+DevOps days event first time being added
+DevOps days this is actually super
+common even for in places that like
+Austin or silicon valley that have been
+doing them for five years so many people
+it's our first time which is awesome and
+the point is so some of this may be a
+little bit repetitive some people may
+have been hey I've been jamming on the
+step ops thing for a couple years I read
+our DevOps on reddit you know and I
+listened to the ship show and DevOps
+cafe and I'm just going to say that's
+okay because maybe not everybody knows
+all these things but we're going to get
+some common vocabulary so at least we're
+speaking somewhat of this thing
+language so while ago when I was writing
+this talk in the spring my first time I
+put out there and had people tweet with
+the hashtag DevOps is not so these are
+just some examples of what DevOps is not
+so DevOps has not copy pasting answers
+from stack overflow it's not just
+reading the Phoenix project although you
+should read the Phoenix project it's not
+a tent you know full stack 10 * Rockstar
+engineer and that goes back into
+something Cote was talking about as well
+you know it's not just developers on
+call and it's not your effing khakis
+that's my favorite one the what we kind
+of think about a little bit and I disent
+for me this is what I think DevOps is
+and I had to happen to agree with the
+way that it's been put out into play
+kind of on the chef's side so I believe
+this not because it's what I always say
+that i work at chef because i believe in
+chef it's not the other way around so
+i'm not spouting the corporate crap this
+is why i still work there because they
+agree with me but we kind of look at it
+as saying that DevOps is fundamentally a
+cultural and professional movement which
+is focused on building and operating
+high-velocity organizations and it's
+born from experience of the
+practitioners that's what's in something
+called chef style DevOps Adam Jacob the
+guy on the right is the founder chef he
+gave a talk last year about it you'll
+see the links you can go watch it it's
+super fun and super cool but what does
+this mean is that it's not just about
+culture it's not just about automation
+and it's really something that maybe was
+created by web practitioners and tech
+practitioners maybe this was born out of
+the unicorns but it's really adopted by
+everybody that's a lot of what Cote was
+talking about so at this point you know
+equine metaphors aside everybody's a
+sparkly horse is the way that I look at
+it and so but the difference is
+everything a lot of things a little
+different so there's a book out there by
+a guy named Gary Chapman called the five
+love languages and the I've read part of
+it but the gist and I like the idea I've
+read enough and this I think I'm gonna
+get this right that actually I maybe
+this gonna sound like I'm like the
+biggest coat a fanboy in the world but I
+kind of am a little bit I think Cote
+might have been the one who made this
+reference or if not it was someone else
+on one of his shows who said that pretty
+much
+you know almost every business book can
+be kind of summarized in like its first
+ten pages you just have to read like
+maybe the the introduction of a business
+book and you probably get everything you
+need out of it I kind of felt that way
+with the five love languages but the
+gist is everybody has a different way
+that they communicate love to different
+people right and so those five are you
+know words of affirmation acts of
+service receiving gifts quality time
+physical touch and that's as much as you
+need to know about the specifics of that
+but the point is that there's different
+ways and obviously if my girlfriend you
+know identified like the language she
+speaks as around like you know acts of
+affirmation and mine is around receiving
+gifts then I'm gonna like say oh the way
+that I show you i love you is I'm going
+to buy you like an Apple watch and she's
+going to be like I don't really care
+about that but you're not actually doing
+speaking language I want and the gist of
+it is you can't expect other people to
+change their language to yours you have
+to learn how to speak their language
+which is funny i guess if both you and
+your partner are reading the book at the
+same time then maybe you don't know i
+don't know what happened maybe that's in
+the part of the book i didn't read but
+how does this what does this actually
+have to do with shipping software you're
+like I didn't come to like yourself help
+seminar stratton you know let's talk
+about like you know software so one of
+the things you'll find we talk a lot
+about this this word called empathy in
+dev ops in fact to the point that some
+people who consider themselves the
+enterprise DevOps people will actually
+make fun of it right this is their dig
+right oh it's a DevOps days is all about
+empathy and it's all that hippy hug ops
+and the thing is really empathy
+does matter and all that empathy means
+is kind of having an understanding of
+what someone else is going through right
+and not sympathy not a matter of oh yeah
+that must suck but actually I understand
+it and the reason that matters is not so
+we can be great people that work great
+together that's important but it helps
+us design solutions and understand
+process because I have to understand
+where my stuff begins and ends and yours
+does and where they overlap and the
+thing is so they're booked the five love
+languages is basically about being
+empathetic right so but the thing is
+what's really important is we need to
+talk such great so empathy is important
+we spent all of DevOps days 2014 at
+every conference talking about how
+important empathy was well we need to
+talk that's great we need to talk about
+how right how do we be how can we be
+more empathetic rather than saying go
+make with the empathy next and that was
+Kevin berries one of the authors of the
+Phoenix project I wish I had the exact
+quote but he said something to the
+effect of if I have if I see one more
+DevOps talk about empathy without any
+science backing and I'm going to table
+flip well I don't really have science
+but at least I pretend so that's better
+so I'm going to use a definition or a
+way of talking about DevOps called
+columns you may have also heard it
+referred to as cams and basically where
+this comes from is after the first
+us-based DevOps days which was in
+Mountain View in 2010 Damion Edwards and
+John Willis kind of came up with this
+term cams and you hear him tell the
+story it was a thing they came up with
+at the bar writing on the back of a
+napkin and you know as all great things
+are they kind of come out of nowhere and
+really cam stands for culture automation
+measurement and sharing a little bit
+later Jess humble added an L standing
+for lean which makes a turn into columns
+my friend Jason hand at Victor ops
+thinks it stands for learning it's okay
+we're still friends you could be wrong
+it absolutely still can but for purposes
+of my talk we're going to talk about it
+as meaning lean so we'll start with the
+sea which is culture so oh my goodness
+did I step on okay so i have trouble
+standing still so this might i might
+have to force myself to do not do that
+again okay its back okay I'll do my best
+here okay so culture so a lot of people
+are going to tell you that culture
+doesn't matter in fact there's a a
+gentleman who I generally have a fair
+amount of respect for but on this
+particular aspect I don't who has he's
+in that enterprise DevOps camp early
+spouting that there's a difference i
+don't think there is I think DevOps is
+for everyone but he is fond of saying
+culture is for yogurt and I don't care
+for the dismissive thing so culture is
+important because cultures of people
+people are doing the work and so a fella
+named Jay Paul Reid has talked about
+that it's not
+important to change your culture but
+mostly to ensure that your culture is
+consistent and that's absolutely true
+because it's very difficult to change
+the culture of an organization no matter
+how big it is this is not like a JP
+morgan chase vs you know like my 10
+person startup difference actually the
+JPMorgan Chase may be easier than the
+small startup sometimes in order to like
+make a massive change to culture that
+can usually happen when you bring in
+brand new executive management that can
+come and lay down edicts and things like
+that the good thing is it's not about
+making these 180-degree changes to our
+culture the thing that's more important
+than anything else is making sure that
+that culture is consistent and aligned
+with what's important to the
+organization because also that culture
+can have a lot to do with the
+personality of the organization and
+that's really what's driving that so
+organizations have different
+personalities and you could probably
+identify the one that is there's one for
+example a common personality type of an
+organization is consensus and if you
+work for a company where you have
+meetings about meetings to decide if you
+have a meeting about a meeting you work
+in a consensus oriented organization and
+the work it's challenging is when
+organizations think their personality is
+one type but it's another that's where
+that consistency comes in i worked for a
+company like that who we believed that
+we were a result oriented organization
+and a result oriented organization as
+its name would imply one who's like
+about let's get a result let's ship
+let's sell let's do all this stuff but
+the reality was when you deconstruct it
+we were absolutely consensus based
+organization and we spent so much time
+making sure that everybody felt good
+about everything together and I'm not
+saying people shouldn't but it was it
+was more of the are you sure are you
+sure let's check with them let's check
+with them we actually never had any
+results and so we kind of had this split
+brain problem so the first thing is
+understand the personality of your
+organization and make sure you're
+aligned to that and then figure out how
+we're going to enable the behaviors and
+that's the thing right so Lloyd Taylor's
+a VP of infrastructure at jamoke Oh says
+you know you can't directly change
+culture you can't just say our culture
+is now this I don't care if you're Jamie
+Dimon at chase right you can't say guess
+what here's the culture
+and I will give you an example of why
+you can't do that or why that doesn't
+work and feel bad if jamie dimon is
+watching this because hes getting picked
+on an awful lot which is funny I worked
+for Chase so that's why my culture come
+I'm I thought comes in here but I had a
+director at job after I left Chase who
+happened to run in the same social
+circles as Jamie Dimon and happened to
+be sitting apparently pretty cool guy
+right he was at a dinner and was talking
+to Jamie said what's do well how do you
+attribute to your success and he said
+don't hire and I heard this
+story and I was like yeah um that maybe
+is your direct hires but I've worked
+with a lot of people at chase so the
+thing is you can't point is you can't
+dictate it right but what you can do is
+you can change behavior and behavior is
+what drives culture and what becomes
+culture and how do we change behavior we
+change behavior by changing incentives
+so it depends a lot on how we're in
+scenting so we can think about a couple
+different ways of how we and even those
+incentives may be counterintuitive a
+good example of this is that at etsy so
+etsy has a culture they like to and a
+type of behavior they like to reward and
+one example of that would be we want to
+reward transparency that's generally
+true of Etsy in general they you think
+about if you've ever heard them talk
+about people talk about blameless
+post-mortems and and how they're
+transparent at etsy that's an important
+behavior they want to reinforce so they
+can send for it and a couple examples of
+that actually one that's kind of cool is
+so let's say you're an etsy employee and
+you get an email and it's got a fishing
+link in it you accidentally click on it
+and you cause a security problem so you
+go to the security team you say hey may
+I totally screwed up and I clicked on
+this link and you know was it you gotta
+get you know my password fish and what
+happens security team doesn't go you
+idiot why do you click on links don't
+you know better blah blah blah they say
+here's a $25 etsy gift card thank you
+for telling us because it encourages
+transparency because it says hey it's
+going to happen people are going to mess
+up but if you don't tell me we have a
+much bigger problem similarly they give
+out i think its monthly what they call
+the three arms
+what're award is basically the person
+that screwed up production the worst and
+it's not a like haha make fun of you
+award it's actually a we celebrate this
+together because we all win it and we
+all look at that and they're incenting
+to say this is important to do that so
+you think about the behavior that we
+want if we think about I'm going to talk
+a little bit later about cross
+incentives that we tend to have in a
+traditional IT organization how we can
+change those so we talked a little bit
+about automation so we don't really need
+to go too much into depth on this
+automation is kind of self-explanatory
+this could mean something like Shaffer
+puppet or ansible or salt or whatever is
+the latest and greatest thing right
+letting robots do what robots are good
+at and humans do what humans are good at
+the reality is you want to automate your
+process up to the point that direct
+human intervention is necessary because
+humans are slow and the reality is that
+the areas that actually truly require
+human intervention are a lot less than
+you think great quote from the book
+continuous delivery which is now you
+know showing its teeth a little bit but
+still very accurate this quote is
+absolutely true and it boils down to say
+anytime you're asking experts do boring
+and repetitive tasks but that are
+technically demanding it's the most
+certain way of introducing error short
+of sleep deprivation or inebriation this
+is a problem with a lot of the manual
+stuff we have to do in technology right
+your ops folks are doing really boring
+things but you have to be really
+technically adept to do them and you
+combine those two things and it's a
+recipe for scrub so we let the robots do
+those things and you know Cody alluded
+to this as well or talked about this as
+well which automation is not a headcount
+reduction technique at least it
+shouldn't be it's never a headcount
+reduction play and the reason for this
+that I find and again my background is
+in ops i come from the OP side of DevOps
+so to speak is before i was it chef and
+I was doing infrastructure consulting
+and continuous delivery type consulting
+and going on helping organizations I
+would go out no talk to different
+stakeholder baby sit down talk to the QA
+people talk to the product people talk
+to the devs talk to the test you know
+talk to ops and one of the questions I
+asked everybody as I said I've got a
+magic IT wand and you get one wish
+what's your one wish while Devon company
+a would have a different ways than devs
+and come
+b and the QA testers in this company
+would have a different than that every
+single ops person almost every single
+one had the exact same wish and that
+which was more people in ops and the
+thing is you're not going to get more
+people and ops but the reason they
+wanted more people and ops was because
+they didn't have any time to do the
+important stuff because they were doing
+the so what you do is you say
+well we can throw people at it which is
+not going to happen or we can reduce the
+level of crap you have to do that a
+robot can be good at and then this lets
+you go ahead and and that's the reason
+for automation the reason for automation
+is to enable your already skilled people
+to be able to leverage their skills
+appropriately to drive value to the
+business and again going back to etsy
+you know they're an incredibly automated
+shop right and people will ask John all
+spa who's there SVP of ops over there
+and say John why do you even have an ops
+team and he says are you kidding they
+have so much work to do and they're
+doing all this stuff around making their
+services more reliable and performant
+and all this stuff all the things that
+an ops person would love to spend their
+time doing rather than doing a lot of
+you know copying files around and
+editing templates so talk a little bit
+about lean thinking it's a business
+methodology that lets us think about how
+we organize our activities to deliver
+more value to and it was coined by James
+P Womack and daniel t jones it's
+basically the correlate you know kind of
+the essence of what they when they study
+the Toyota Production system so when I
+think about it in terms of DevOps it's
+really looking at waist and then also
+looking at how it enables us to be able
+to become to be more experiment focused
+and again to reiterate I swear like I
+would say this stuff even if cotate
+didn't he referenced the book lean
+enterprise at the end of his talk if you
+want to go into great detail about that
+talk about measurement is what the M
+stands for and this is important because
+it's how do we know that we've been
+successful if we don't collect metrics
+how do we know that we've moved the
+needle if we don't know what the needle
+looks like and you need to start
+measuring at the beginning of your
+transition because you can't go back in
+time and collect information you didn't
+know you wanted later right so we need
+to know what are the things are
+important
+and that boils down to setting success
+criteria because your DevOps is going to
+look different than my DevOps is going
+to look different than your DevOps how
+do you know that your business because
+just for me say you know shortening you
+know ship taught you know having you
+know what is my what does my cycle time
+look like what's important to my
+business what's my driver and then
+finally we talked about sharing again we
+talked about transparency is key how
+many people have read the book the
+Phoenix project okay no Brent's so you
+know single point of failure no no
+person who knows all the things and I
+friend and former colleague Sasha
+Rosenbaum actually just gave a talk at
+DevOps days Silicon Valley and I think
+it's online and it's called single
+person of failure and it talks about
+this particular problem so I recommend
+that so the thing is also you want to
+share the why you're doing things
+mandates are bad so if you are in the
+position to be to be dictating don't
+explain why and this is this is a thing
+that happens quite a bit as we go up the
+echelon of management is we feel like oh
+I can't tell you the why because it's
+protected and you know there's going to
+be all this argument and all this stuff
+and again just like the areas that
+require human intervention or fewer than
+you think the areas where you have to
+keep your cards to your vest are much
+fewer yeah maybe NDA right maybe there's
+an acquisition going on but you really
+should be sharing the why because people
+will buy into it a lot more if they
+understand and a blameless post-mortem
+cannot happen in a culture without
+sharing so um what so what does this
+actually have to do with anything and
+this is how it ties together so each of
+those things so each columns are each of
+DevOps love language that's a big part
+of the reason by the way that I included
+the owl because then I have five I
+usually always just talk about cams so
+little secret to that but what this
+means is it's really important again
+like we talked about in the five love
+languages it's much more important for
+me to learn to talk to people on
+communicating with and I'm trying to
+convince then for them to learn how to
+listen to me so let's say I'm trying to
+drive a transformation in my
+organization I've got a lot of people
+that I have to convince to do work this
+way so I bought into it I've come to
+DevOps days I've listened to the podcast
+I've read the books I totally understand
+why
+this makes sense and now I'm going and
+I'm trying to convince my VP of
+development or I'm trying to convince
+the dba's over here or the test there's
+a security folks and they don't get it
+and I'm pounding my head against a wall
+and I'm saying to myself it's crystal
+clear why don't you get it the reality
+is if you ever find yourself saying this
+is crystal clear to me why aren't they
+seeing it the problems with you it's not
+with them because again my DevOps love
+language might be different than yours
+it's not enough to get someone to do it
+they have to understand the value in
+their own language so Patrick Dubois who
+was one of the people who arguably
+coined the term DevOps you could say it
+was Patrick or andrew j / but anyway
+should all know Patrick is about a year
+or two ago said we should rename DevOps
+to common sense and I said no you can't
+do that because I would have to get new
+license plates but that's sort of the
+problem right we think like once you get
+DevOps you're like yeah this is just
+common sense or I've you know people say
+I've been doing that along I just call
+it work well if common sense is usually
+in the eye of the beholder right it's a
+relative term and it all becomes common
+sense once you understand it so let's
+think about how we identify somebody's
+particular DevOps love language right
+how do we what are the things we can do
+to understand how I'm going to talk to
+them so one of the things that helps is
+you want to think about their
+communication style in general and so a
+tool for doing that is something called
+disk fits if you've familiarized Briggs
+it's similar to that I like to talk
+about disk because it's easy to do a
+relatively quick assessment of someone
+again not like put them in a little box
+but I can kind of spend a little bit of
+time talking to and I'll understand what
+where you fall in that and basically you
+fall somewhere in a quadrant based upon
+the stands for either dominant or direct
+depending on how nice you want to be I
+guess influencing steadiness and
+conscientiousness and what I found is
+that were you depending upon your
+communication style it actually
+influences which devops love language
+make
+sense to you now don't again your quick
+assessment of someone on the disk scale
+could be wrong so for example if someone
+is direct the things that resonate to
+them more are the lean and the
+measurement parts of debe of columns
+because if you're if you're focused on
+direct you are a results driven person
+you are a we'll figure it out along the
+way let's just get going kind of person
+I am a Heidi fortunately when I managed
+a team they were not DS and that's a
+really good balance because they help
+you not run off the cliff so someone
+who's addy wants to see how the change
+you're doing here is going to move the
+ball forward and they're also likely to
+be more influenced by experimentation
+because they're like okay again I just
+want to see the result don't really care
+how we get there and we'll go as we go
+you start preaching culture automation
+to addy and they don't care about as
+much because they don't care how the
+sausage gets made they're like that
+that's fine automated to whatever you
+have to do but but results right and
+show me on the graph show me that we did
+some stuff after we're done I don't care
+along the way influencing so people who
+are high eyes tend to be more social
+communicators and that doesn't
+necessarily mean they're more friendly
+you know or anything like that but they
+interact more and they respond more on
+culture and sharing side of columns so
+eyes tend to like consensus and they
+like collaboration so if you're someone
+who's in that that kind of a model
+you're going to get a lot more and say
+like okay cool what we're doing this
+thing you know we're culture and we're
+sharing our information that makes a lot
+of sense you talk about things like lean
+or automation and the results oriented
+stuff especially automation tends to not
+resonate to someone who's an eye
+steadiness so steadiness are folks who
+like stability right and it doesn't mean
+that they fear change you know I always
+want to talk about esas I always think
+about Garth from waynesboro going with
+fear change that's not an S & S just
+likes to understand stability and they
+they want to be sure about change and be
+comfortable about it rather than just do
+it so automation resonates really
+well with s is because it gives a lot of
+safety right a lot of understanding of
+what's going to happen and then
+measurement is really resonant to an S
+because again I know what's going on I
+can understand what happened with that
+lean is probably the antithesis of a
+pass right because it's talking about
+making a lot of experimental change the
+end result of Lean Thinking actually is
+really good esas will really like what
+the process looks like when it's done
+but getting there that way that can be
+kind of scary or at least uncomfortable
+and then conscientious so conscientious
+folks are the what I call the you know
+measure 15 times cut once right we're
+going to be absolutely sure not to make
+aa stereotypes or anything most
+operations people are seized most data
+people are seized that's why I like when
+I managed an ops team it was great that
+I was a Heidi and they were all high
+seas you know because you get a whole
+bunch of sees no change gets made
+because we want to measure every single
+thing and be absolutely sure about all
+of our data before we do it and indeed
+goes I don't care let's just figure it
+out so we help each other but again so
+sharing and measurement actually helped
+a lot with seas because they want all
+the information they love data so
+culture is less of an impact as well
+automation is helpful but only as it
+drives the measurement so if you know
+someone if you're working with someone
+that you're trying to get them to
+understand why this change is helpful
+and you know they're a data driven
+person don't go talk about like hey
+we're going to be empathetic and hug ops
+and all this stuff because they don't
+give a but talk about how we're
+going to be able to see the needle move
+we're going to be able to see results
+and we're going to make decisions based
+on results and they will love it so this
+is important so we need to assess the
+drivers you need to understand why what
+what makes a person tick and so there's
+a great book called by daniel pink
+called drive this is surprising truth
+about what motivates us and like again
+we talked about all business books you
+could actually just watch this TED talk
+for free and not have to buy the book
+and get almost all the value out of it
+and the link will be at the end but it's
+about understanding what's important
+because again what's important to me is
+going to be different than to you not
+just because of our communication style
+but what makes us get out of bed in the
+morning what makes us do things am I
+recognition oriented do i do things
+because I want to get lots of followers
+on Twitter and have everybody retweet me
+a lot and quote me and call me a great
+expert intent yes our do I like to get
+paid right like is money and motivator
+to me because it is two people to some
+people what to others it's not and it
+can be a matter of saying if you're not
+a money motivated person me saying okay
+if you do this thing I'm going to give
+you a huge raise I mean no one's going
+to say like oh no do not give me money
+but that's not really going to make me
+really make a change in how I work or
+punishing me by taking money away may
+not have an impact so you need to
+understand what drives a person and this
+is really kind of tricky because we also
+think about conflicting incentives come
+into place when we think about that the
+drivers besides the personal drivers
+think about the drivers that your
+organization has kind of influenced into
+that behavior so traditionally you think
+about what's the Howard development
+teams incented there in scented by
+shipping features right you ship more
+features the more features you ship the
+better dubbing you're doing and how our
+Ops teams incented up time the more the
+system is up the better you're doing I
+had a colleague who was a director of
+ops who her bonus was a percentage of
+the site's up time now what causes up
+time to go down change do you think she
+was incented to allow any changes to her
+systems at all even if she thought they
+were good ideas no because it was and
+she was a money motivated up any
+individual as well so that was money out
+of her pocket problem is if we think
+about it our driver is really the same
+thing which is to sell shoes I mean
+provided that's what our company does
+right so the purpose of a developer is
+not to write code and ship features the
+purpose of an
+is not to keep the site up only insofar
+as it services the greater goal of the
+organization which is to make money so
+we need to figure out how that happens
+and if you've read the book the goal
+that helps you understand that and the
+thing is changing the these micro
+incentives is not always the right thing
+to do because incenting people
+appropriately can actually help because
+if you ship changes at a higher velocity
+that actually does increase the
+stability of your system right and
+caring about uptime and stability does
+enable them to ship more features
+because they're not caught up in
+troubleshooting so again they're
+complementary incentives even though
+they may seem contradictory and remember
+people will always work towards the
+incentive you give them even if it will
+destroy nets that's the net wow I just
+forgot what is Jason what's it called
+Nash people working towards the
+incentive even if it'll destroy their
+organization yes yeah the Nash
+equilibrium so be cautious of that kind
+of thing so the other thing is you want
+it you want to make a change you got to
+be a salesperson so there's a book if
+you are a salesperson or work would
+sales people called the Challenger sale
+and again can be condensed down to the
+whole book can probably be condensed
+down to this one quote which is someone
+who's a challenger has a deep
+understanding of their customers
+business uses at understanding to push
+the customers thinking and teach them
+something new about their company so
+that's the same thing you need to
+understand your company in your
+organization and be able to sell it to
+the decision-makers the people who are
+your stakeholders and you might have to
+actually teach them a little bit about
+something about their part of the
+business that they don't even know this
+is hard if you don't like being a
+salesperson find a buddy in your
+organization who does and again talk
+their language right so you want to look
+at your key influencer as a client
+rather than your boss for purposes of
+this if that's the case for example if
+your client who happens to be your boss
+shoots down your ideas and offers a
+counter-plan right you have to be ready
+to channel some boldness there and stand
+firm in your beliefs so you don't want
+to necessarily argue back and forth or
+worse just back down because of their
+position above
+the company right but you could say
+something like hey I understand what
+you're saying but if we go down this
+route here's like some statistical
+information right here's what is going
+to happen and again it depends upon the
+type of person they are how you respond
+to that but you have to talk their
+language when you're selling and then
+one thing that I really want to get into
+that's important is this idea of
+compliance versus commitment so this is
+the problem with mandates I can be the
+CIO or the CEO and I can come down and I
+can say this is how we're going to do
+stuff do it this way or you don't have a
+job and you know what's going to happen
+people will do what you say because they
+want to have a job right that's called
+being compliant so the compliant one is
+a person who signs documents they put
+their time in they do their TPS reports
+they punch the clock and they might
+continue to do that even if it's
+something they don't believe in because
+they need the job they don't feel like
+they have other options maybe they're
+too lazy to leave whatever is the reason
+they'll make the changes but they won't
+really care about it they won't build
+even it now someone who's committed they
+simply believe in the TPS reports
+because they actually do believe that
+this is the right thing and they're
+dedicated to the idea of change and
+they're committed to the success of the
+company so as you have more commitment
+the success of the company's exponential
+and this is the one thing to me that
+goes back to the sea in comms and when
+we talk about people who talk about
+doing DevOps in the enterprise and why
+culture doesn't matter and it's for
+yogurt it's they say it because they
+feel like you can't measure culture this
+is how you measure culture and
+unfortunately you can't put a nagios
+agent on your people to see how
+committed or compliant they are you
+actually have to talk to them and you
+have to evaluate them but this is a
+metric to evaluate is commitment versus
+compliance best change influencers or
+people who don't see us to see people as
+something that you have to deal with
+right they're change agents are actively
+interested in people enjoy the pursuit
+of the how more than the change itself
+if this isn't you then you maybe you're
+not a change influencer but you probably
+know somebody who is in your
+organization they can help you so be
+aware of that if
+if you look at people as a blocker and
+an annoyance it's really hard to be a
+change influencer and then finally you
+know what bring people along for the
+ride I've talked before about not
+dictating right so let your influencers
+and your stakeholders take part in that
+make your tent big you know if you look
+at the transformation the GE Capital did
+they they went through and they didn't
+just say this was a thing we're doing
+inside Devin ops they as they were
+building it they invited security into
+the into the mix they invited testing
+they said we're going to talk about this
+and maybe you don't start by saying
+we're having the DevOps project and
+we're going to do this start by saying
+hey we have some brown bags once a month
+or every two weeks we get together for
+lunch and let's talk about how things
+are could be better the trick of that is
+don't let it be a venting session right
+like if you're going to do this keep
+keep keep your arms around it's not just
+let's sit down and complain about how
+everything sucks let's as a group kind
+of figure out where are our pain points
+we have to identify where the stoppers
+are where are bottlenecks are we can all
+talk about how we got where we are but
+this is about moving the needle forward
+we only care about the president of
+future we don't care about the past so
+we got a couple minutes maybe questions
+comments problems with your life great
+and I'll put this up with a couple links
+a couple things to reference we did an
+episode of rest of DevOps all about
+culture change talked about a lot of
+these these items i met mash strat on
+twitter's i'm at stratton on the github
+and then i also have the link to the TED
+talk and again I think will help put
+this all up later and you can check it
+out so thank you for
+you

@@ -1,0 +1,189 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SlideBrowser from '../../components/SlideBrowser.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
+import Transcript from '../../components/Transcript.astro';
+import TagChips from '../../components/TagChips.astro';
+import slideCounts from '../../data/slide-counts.json';
+import { groupTalks, canonicalSlug } from '../../lib/talk-groups';
+import { readTranscript, transcriptWords, isCleaned } from '../../lib/transcripts';
+import { topicsFor, techFor } from '../../lib/tags';
+import { talkRouteParams } from '../../lib/talk-url';
+import JsonLd from '../../components/JsonLd.astro';
+import { AUTHOR_PERSON, buildBreadcrumb } from '../../lib/schema';
+
+// URL: legacy /{notistId}/{slug}, new /{year}/{slug} (see lib/talk-url.ts). The
+// id segment is the stable key every inbound link uses. Assets are keyed by the
+// entry id (talk.id) — for legacy talks that equals the original-case notistId.
+export async function getStaticPaths() {
+  const talks = await getCollection('talks');
+  const groups = groupTalks(talks);
+  return talks.map((talk) => ({
+    params: talkRouteParams(talk),
+    // siblingCount = how many times this same abstract was delivered, used to
+    // surface the canonical /talk/{slug} aggregation when there's more than one.
+    props: { talk, siblingCount: groups.get(canonicalSlug(talk.data.notistSlug))?.count ?? 1 },
+  }));
+}
+
+const { talk, siblingCount } = Astro.props;
+const d = talk.data;
+
+const event = d.event ? await getEntry(d.event) : null;
+
+// Slide count comes from the build-time rasterizer manifest; fall back to the
+// ingest-recorded image count, then to none.
+const slideCount = (slideCounts as Record<string, number>)[talk.id] ?? d.slideImageCount ?? 0;
+
+// Durable transcript (if captions were captured for this talk's video).
+const transcript = readTranscript(talk.id);
+
+const presented = d.presentedOn.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Plain-text abstract for meta description.
+const description = d.abstractHtml
+  ? d.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 200)
+  : `${d.title} by Matty Stratton.`;
+
+const siteBase = Astro.site!.href.replace(/\/$/, '');
+const canonicalUrl = `${siteBase}${Astro.url.pathname}`;
+const strippedAbstract = d.abstractHtml
+  ? d.abstractHtml.replace(/<[^>]+>/g, '').slice(0, 500)
+  : `${d.title} by Matty Stratton.`;
+const thumbAbsUrl = d.thumbnail ? `${siteBase}${d.thumbnail}` : null;
+
+const breadcrumb = buildBreadcrumb([
+  { name: 'Home', item: `${siteBase}/` },
+  { name: 'Talks', item: `${siteBase}/talks` },
+  { name: d.title, item: canonicalUrl },
+]);
+
+const talkSchema: Record<string, unknown> = (() => {
+  if (d.video) {
+    const { provider, id: videoId } = d.video;
+    return {
+      '@type': 'VideoObject',
+      name: d.title,
+      description: strippedAbstract,
+      thumbnailUrl:
+        thumbAbsUrl ??
+        (provider === 'youtube' ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null) ??
+        `${siteBase}/og/talks/${talk.id.toLowerCase()}.png`,
+      uploadDate: d.presentedOn.toISOString(),
+      contentUrl:
+        provider === 'youtube'
+          ? `https://www.youtube.com/watch?v=${videoId}`
+          : `https://vimeo.com/${videoId}`,
+      embedUrl:
+        provider === 'youtube'
+          ? `https://www.youtube-nocookie.com/embed/${videoId}`
+          : `https://player.vimeo.com/video/${videoId}`,
+      author: AUTHOR_PERSON,
+      ...(transcript ? { accessibilityFeature: ['transcript'] } : {}),
+    };
+  } else if (slideCount > 0) {
+    return {
+      '@type': 'PresentationDigitalDocument',
+      name: d.title,
+      description: strippedAbstract,
+      datePublished: d.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+      ...(d.slidesPdf
+        ? {
+            associatedMedia: {
+              '@type': 'DataDownload',
+              contentUrl: `${siteBase}${d.slidesPdf}`,
+              encodingFormat: 'application/pdf',
+            },
+          }
+        : {}),
+    };
+  } else {
+    return {
+      '@type': 'Article',
+      headline: d.title,
+      description: strippedAbstract,
+      datePublished: d.presentedOn.toISOString(),
+      url: canonicalUrl,
+      author: AUTHOR_PERSON,
+      ...(thumbAbsUrl ? { thumbnailUrl: thumbAbsUrl } : {}),
+    };
+  }
+})();
+---
+
+<Base
+  title={`${d.title} · Matty Stratton`}
+  description={description}
+  image={`/og/talks/${talk.id.toLowerCase()}.png`}
+  imageAlt={`${d.title} — Matty Stratton`}
+  type="article"
+  publishedTime={d.presentedOn.toISOString()}
+>
+  <Fragment slot="head">
+    <JsonLd schema={[talkSchema, breadcrumb]} />
+  </Fragment>
+  <article class="mx-auto max-w-3xl">
+    <a href="/talks" class="label transition-colors hover:text-accent">← All talks</a>
+
+    <header class="mt-4 border-b-2 border-ink pb-6">
+      <h1 class="font-display text-3xl font-semibold leading-tight tracking-tight text-balance sm:text-4xl">{d.title}</h1>
+      <p class="label mt-3 normal-case tracking-normal">
+        {event && (
+          <>
+            <a href={`/event/${event.data.notistEventId.toLowerCase()}`} class="text-ink underline decoration-rule underline-offset-2 hover:decoration-accent">{event.data.name}</a>
+            <span class="text-ink-soft"> · </span>
+          </>
+        )}
+        <time class="text-ink-soft" datetime={d.presentedOn.toISOString()}>{presented}</time>
+        {event?.data.location && <span class="text-ink-soft"> · {event.data.location}</span>}
+      </p>
+    </header>
+
+    {siblingCount > 1 && (
+      <a
+        href={`/talk/${canonicalSlug(d.notistSlug)}`}
+        class="group mt-6 flex items-center gap-2 rounded-sm bg-panel px-4 py-3 text-sm transition-colors hover:bg-ink/5"
+      >
+        <span class="text-ink-soft">Delivered {siblingCount} times.</span>
+        <span class="font-medium text-accent decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">See every delivery →</span>
+      </a>
+    )}
+
+    {d.video && <VideoEmbed provider={d.video.provider} id={d.video.id} title={d.title} />}
+
+    {slideCount > 0 && (
+      <SlideBrowser id={talk.id} slideCount={slideCount} title={d.title} slidesPdf={d.slidesPdf} />
+    )}
+
+    {d.abstractHtml && (
+      <div class="prose prose-lg mt-8 max-w-none" set:html={d.abstractHtml} />
+    )}
+
+    <TagChips topics={topicsFor(d.notistSlug)} tech={techFor(d.notistSlug)} />
+
+    {d.resources.length > 0 && (
+      <section class="mt-10 border-t border-rule pt-6">
+        <h2 class="label">Resources</h2>
+        <ul class="mt-3 space-y-2">
+          {d.resources.map((r) => (
+            <li>
+              <a href={r.url} class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright" rel="noopener">{r.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {transcript && (
+      <Transcript text={transcript} words={transcriptWords(talk.id)} downloadHref={`/transcripts/${talk.id}.txt`} cleaned={isCleaned(talk.id)} />
+    )}
+  </article>
+</Base>

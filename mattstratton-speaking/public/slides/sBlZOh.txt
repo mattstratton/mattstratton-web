@@ -1,0 +1,253 @@
+Incidents & Accidents
+Matty Stratton, DevOps Evangelist, PagerDuty
+@mattstratton
+
+@mattstratton
+
+Disclaimer, part the first:
+Learn from other industries,
+do not take on their stresses.
+@mattstratton
+
+Disclaimer, part the second:
+This is a topic with a surprisingly
+large number of details.
+@mattstratton
+
+PEACETIME
+WARTIME
+@mattstratton
+"Peacetime"
+
+NORMAL
+EMERGENCY
+@mattstratton
+"Peacetime"
+
+OK
+NOT OK
+@mattstratton
+"Peacetime"
+
+Before, during, after
+@mattstratton
+
+Before
+@mattstratton
+
+Have criteria defined for when to
+have and not have a call.
+@mattstratton
+
+Any unplanned disruption or
+degradation of service that is
+actively affecting customers'
+ability to use the product.
+@mattstratton
+
+Post incident criteria widely.
+Don't litigate during a call.
+@mattstratton
+
+Monitor the business criteria,
+and act accordingly.
+@mattstratton
+
+People are expensive.
+@mattstratton
+
+Practice still makes perfect.
+@mattstratton
+
+"Know your role"
+@mattstratton
+
+Have a clear understanding
+of who is supposed to be
+involved in each role.
+@mattstratton
+
+https://www.fema.gov/national-incident-management-system
+@mattstratton
+•
+"National Incident Management System" (NIMS)
+•
+Incident Command System (ICS).
+•
+Standardized system for emergency response.
+•
+Hierarchical role structure.
+•
+Provides a common management framework.
+•
+Originally developed for CA wildfire response.
+
+COMMAND
+Incident Commander
+(IC)
+Deputy
+Scribe
+LIAISONS
+Internal Liaison
+Customer Liaison
+OPERATIONS
+Subject Matter Expert
+(SME)
+Subject Matter Expert
+(SME)
+Subject Matter Expert
+(SME)
+@mattstratton
+Subject Matter Expert
+(SME)
+Subject Matter Expert
+(SME)
+
+During
+@mattstratton
+
+I'm Matty.
+I'm the Incident Commander.
+@mattstratton
+
+Single source of reference.
+@mattstratton
+
+Becomes the highest authority.
+(Yes, even higher than the CEO)
+@mattstratton
+
+KEY TAKEAWAY
+Not a resolver.
+Coordinates and delegates.
+@mattstratton
+
+DON'T DO THIS
+Let's get the IC on the RC, then
+get a BLT for all the SME's.
+@mattstratton
+
+KEY TAKEAWAY
+Clear is better than concise.
+@mattstratton
+
+The IC manages the
+flow of conversation.
+@mattstratton
+
+What's wrong?
+@mattstratton
+
+What actions can we take?
+@mattstratton
+
+What are the risks involved?
+@mattstratton
+
+"Can someone..."
+@mattstratton
+
+Rich, I'd like you to investigate the increased
+latency, try to find the cause. I'll come back
+to you in 5 minutes. Understood?
+Understood.
+@mattstratton
+
+Humor is best in context.
+@mattstratton
+
+DT5: Roger that
+GND: Delta Tug 5, you can go right on bravo
+DT5: Right on bravo, taxi.
+(...): Testing, testing. 1-2-3-4.
+GND: Well, you can count to 4. It's a step in the right direction.
+Find another frequency to test on now.
+(...): Sorry
+@mattstratton
+
+Have a clear roster
+of who's been engaged.
+@mattstratton
+
+Rally fast, disband faster.
+@mattstratton
+
+Have a way to contribute
+information to the call.
+@mattstratton
+
+Have a clear mechanism for
+making decisions.
+@mattstratton
+
+"IC, I think we should do X"
+"The proposed action is X,
+is there any strong objection?"
+@mattstratton
+
+Capture everything, and call out
+what's important now vs. later.
+@mattstratton
+
+"One last thing..."
+(Assign an owner at the
+end of an incident)
+@mattstratton
+
+After
+@mattstratton
+
+"After action reports",
+"Postmortems",
+"Learning Reviews"
+@mattstratton
+
+The impact to people is a part of
+your incident review as well.
+@mattstratton
+
+Record incident calls,
+review them afterwards.
+@mattstratton
+
+Regularly review the
+incident process itself.
+@mattstratton
+
+Have structure in place beforehand
+Practice, practice, practice
+Have clearly delineated roles
+Manage the conversation flow
+Make clear decisions
+Rally fast, disband faster
+@mattstratton
+Review regularly
+
+@mattstratton
+
+Don't panic.
+Stay calm.
+Calm people stay alive.
+@mattstratton
+
+https://response.pagerduty.com
+@mattstratton
+
+@mattstratton
+
+Resources:
+¥
+¥
+¥
+¥
+Angry Air TrafÞc Controllers and Pilots - https://youtu.be/Zb5e4SzAkkI
+Blameless Post-Mortems (Etsy Code as Craft) - https://codeascraft.com/
+2012/05/22/blameless-postmortems/
+Incidents And Accidents: Examining Failure Without Blame (Arrested DevOps)
+- https://www.arresteddevops.com/blameless/
+PagerDuty Incident Response Process - https://response.pagerduty.com/
+@mattstratton
+
+Thank you!
+Questions?
+@mattstratton

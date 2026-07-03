@@ -1,0 +1,281 @@
+Zero
+Trust
+Is For Networks
+Not Your Teams
+@mattstratton
+
+What's the
+hardest thing
+about DevOps?
+@mattstratton
+
+@mattstratton
+DevOps was aBout
+BREAKING DOWN SILOS
+BUT WE MADE NEW ONES
+@mattstratton
+
+Hi, I'm Matty
+@mattstratton
+Punk
+Music
+Improv
+Dogs
+Aiven
+
+Resilience is a verb
+@mattstratton
+
+Resilience Rebound
+Robustness
+Graceful Extensibility
+Sustained Adaptability
+@mattstratton
+
+Rebound
+Returning to "normal" after a surprise or incident.
+Work done ahead of time.
+@mattstratton
+
+Robustness
+The ability to withstand and absorb well-modeled disturbances
+"Known knowns"
+@mattstratton
+
+Graceful
+Extensibility
+The ability to stretch with challenges to operational boundaries
+As opposed to brittleness.
+@mattstratton
+
+Sustained
+Adaptability
+Recognizing and managing adaptive capabilities over long
+timescales
+@mattstratton
+
+These are
+socio-technical
+systems
+@mattstratton
+
+BLUNT END / SHARP END
+Removed from
+experience
+Upstream decision
+makers
+BLUNT END
+@mattstratton
+People directly
+engaged in the work
+"Chop wood, carry
+water"
+SHARP END
+
+Sharp End
+Constantly building and destroying systems
+Strong signaling
+Improve systems based on strain
+Will do so naturally if given ownership
+@mattstratton
+
+Command and
+Control is a Fallacy
+@mattstratton
+
+Conway's
+Law
+@mattstratton
+
+let's flip conway's
+law around
+@mattstratton
+
+@mattstratton
+Service Design as a
+metaphor for teams
+@mattstratton
+
+@mattstratton
+
+"Our analysis found
+that this culture of
+psychological safety is
+predictive of software
+delivery performance,
+organizational
+performance, and
+productivity"
+- Accelerate State of
+DevOps Report
+@mattstratton
+
+@mattstratton
+What is
+PSYCHOLOGICAL SAFETY?
+@mattstratton
+
+"[Psychological safety is] a
+sense of confidence that the
+team will not embarrass,
+reject, or punish someone for
+speaking up."
+-Amy EdmondsonProfessor, Harvard
+Business School
+@mattstratton
+
+@mattstratton
+Adapted from How Psychological Safety Affects Team Performance
+
+Low psychological safety...
+➔ Lack of diversity of EXPERIENCE
+➔ Unequipped to prevent failure
+➔ Knowledge silos
+➔ Indifference and disengagement
+@mattstratton
+
+@mattstratton
+We need to have trust
+WITHIN TEAMS
+AND ALSO OF TEAMS
+@mattstratton
+
+Trust within
+teams
+@mattstratton
+
+@mattstratton
+
+approach conflict
+as a collaborator
+not as an
+adversary
+@mattstratton
+
+speak human to
+human
+"just like
+me"
+@mattstratton
+
+replace blame
+with curiosity
+you don't
+have all the
+facts
+@mattstratton
+
+model
+vulnerability
+create
+emotional
+bonds
+@mattstratton
+
+Trust of
+teams
+@mattstratton
+
+The Open Organization
+CONVENTIONAL ORGANIZATION
+OPEN ORGANIZATION
+"TOP DOWN"
+COMMAND AND
+CONTROL
+WHAT
+HIERARCHY
+PROMOTION
+AND PAY
+WHY
+@mattstratton
+SETTING
+DIRECTION
+CENTRAL
+PLANNING
+TITLE AND
+RANK
+HOW
+"BOTTOM UP"
+MOTIVATING
+AND INSPIRING
+GETTING
+THINGS DONE
+CATALYZING
+INCLUSIVE
+DECISION-MAKING
+MERITOCRACY
+PURPOSE
+AND PASSION
+WHAT
+LET THE
+SPARKS FLY
+HOW
+ENGAGEMENT
+WHY
+
+Siloed for Protection
+Engineering
+@mattstratton
+Operations
+Prod Mgmt
+
+The Open Organization
+Bottom-up, Collaborative, Continuous Innovation, Agile
+@mattstratton
+
+@mattstratton
+
+Be Chris Farley.
+Not Michael Scott
+@mattstratton
+
+"Improv is like driving
+while only looking in
+the rear view mirror"
+- T. J. Jagodowski
+@mattstratton
+
+@mattstratton
+Bring a brick
+Not a cathedral
+@mattstratton
+
+Improv for DevOps
+➔ Trust in your partner
+➔ There are no mistakes
+➔ The team is greater than all of us
+➔ The fun lies on the other side of "yes"
+@mattstratton
+
+Players in a
+scene are the
+Sharp end
+@mattstratton
+
+"If we treat each
+other as if we
+are all geniuses,
+poets, and
+artists, we have
+a better chance
+of becoming that
+on stage"
+- Del Close
+@mattstratton
+
+Four things to do right now
+➔ Establish rules of engagement
+➔ Create space for open communication
+➔ Measure consistently for long-term
+improvement
+➔ Provide guardrails (buoys not boundaries)
+@mattstratton
+
+Thank You!
+Twitter - @mattstratton
+Mastodon - @mattstratton@hachyderm.io
+BLUESKY - @matty.wtf
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+@mattstratton

@@ -1,0 +1,43 @@
+{
+  "name": "mattstratton-speaking",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted speaking archive for speaking.mattstratton.com (replaces Notist)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "ingest": "tsx scripts/ingest.ts",
+    "optimize": "tsx scripts/optimize.ts",
+    "rasterize": "tsx scripts/rasterize.ts",
+    "transcripts": "tsx scripts/transcripts.ts",
+    "slide-text": "tsx scripts/slide-text.ts",
+    "headshots": "tsx scripts/headshots.ts",
+    "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/hanken-grotesk": "^5.2.8",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@plausible-analytics/tracker": "^0.4.5",
+    "astro": "^5.18.2",
+    "fuse.js": "^7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/d3-geo": "^3.1.0",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
+    "satori": "^0.12.0",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^4.3.1",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.0",
+    "yaml": "^2.9.0"
+  }
+}

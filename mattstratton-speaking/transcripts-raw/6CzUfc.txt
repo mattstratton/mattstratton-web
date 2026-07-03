@@ -1,0 +1,858 @@
+uh well enough talk about trash we have
+the exact opposite of that coming up now
+i would love for you all to welcome
+my friend matt stratton for the next
+talk his chosen charity is girls who
+code
+which again will be featured in the
+discord later his favorite cartoon is
+robotech
+which has some of the i think original
+really good
+like robots i know they're not really
+real but you know
+and uh he is going to talk to us today
+about
+kick him or keep him collaborating on
+our own deserted
+islands everyone please welcome matt
+thanks katie thanks everybody um super
+excited to be here i do know that my
+favorite cartoon
+can be controversial among some so
+we can discuss that in the discord maybe
+in the hallway track
+people have strong feelings about
+whether or not robotech is
+legit and i am open to all
+interpretations
+except that you're probably wrong so
+anyway yeah um
+let's get this thing started right nope
+wrong window there we go ah no no there
+we go hey my name is matt stratton
+i'm primarily known for a couple things
+one being my enjoyment of diet coke
+there is no in-game diet coke
+uh i've been watching nooks cranny for a
+while but i know there's a pop machine
+so maybe that can work out and i am a
+transformation specialist
+at red hat and i work in a group called
+naps which is amazing because it means
+that i work on transformation of naps
+that's actually north america private
+sector public sector but i like to say
+i'm a naps transformation specialist
+i transform naps and my other claim to
+fame is according to ryan kitchens
+of netflix i have the best hair of any
+developer advocate
+um unfortunately you can't see it but
+trust me it's really good
+and you know tom nook approves so that's
+pretty dope right
+all right so let's uh let's talk about
+some stuff here
+so this may or may not be your first
+devops conference you've probably heard
+we've heard a lot today already about
+why collaboration matters you know ian
+had a great keynote talking about
+building bridges
+we know that collaboration is a key part
+of devops and we hear about this
+all the time right it's it's kind of
+we've been doing
+this devops thing is about 10 years old
+and at least conference about devops are
+10 years old
+and we talk about why collaboration is
+super important
+and we talk about why empathy is super
+important and
+just so we're clear i'm not saying it's
+not
+it's it's a really critical part of
+doing devops well
+is working together and one of the ways
+we can work together is by having
+empathy
+so we've heard this we've heard this a
+lot some of you have been hearing it for
+10 years some of you maybe are hearing
+it for the first time today
+and that's okay too but enough talk
+right we get the point you're like
+maddie i get it
+we gotta get along we got to work
+together that's totally totally fine
+how do we actually do it now and that's
+going to be kind of my point
+of today's talk is going to be talking
+about
+practical things that we can do to get
+better
+at collaborating and building those
+bridges and working together
+and having empathy and one of the most
+amazing things if you're not familiar
+with
+uh devops research and and assessment
+and the
+state of devops report is this brought a
+lot of science
+to devops so for a long time we kind of
+knew
+that following these practices were good
+but a lot of was based on just how we
+felt
+right and it was very anecdotal it was
+very
+based on our gut and then dr nicole
+forsgren
+and dora came along and they rubbed some
+science on it and that's been the most
+amazing thing because we have
+data so i'm picking out just one thing
+to drive home the point
+that this has a marked impact
+in your organization is this bit from
+last year's state of devops report which
+was
+in their analysis they saw that having a
+culture of psychological safety
+is predictive of software delivery
+performance organizational performance
+and
+productivity and the reason this matters
+and why this came up
+is years ago google did some internal
+research
+around um their high performing teams
+and saw that one of the most important
+things was having a culture of
+psychological safety
+and what the folks uh at state of devops
+report wondered in last year's report
+was
+is this just a google thing was this
+true
+across the industry and was it true
+among high performers that weren't
+google
+and as you can see and as i saw it if
+you read the report and i highly
+recommend it
+you'll see that it was a hundred percent
+true not just for google
+so this matters but so yes we should
+collaborate we should have empathy
+because we are reasonable human beings
+and we'd like to get along with our
+co-workers and that stuff's great
+but it also makes your organization
+successful
+it hits the bottom line it makes you
+perform better
+and that's a thing that can super duper
+matter
+right boom key
+so
+oh come on are you kidding me with this
+keynote oh there we go oh ah sorry
+i swear i'm a professional speaker so
+anyway cool
+cool cool cool we got the data behind it
+we've got the information um but
+how do we do this we we say we want to
+have
+this result that we've seen you're like
+we're engineers yo
+we would like some instructions we would
+like some code
+now i don't have code like did so
+sorry about that but we're going to be
+kind of practical
+and the first thing we're going to do is
+we're going to talk about psychological
+safety
+and this is a key component we talked
+about this idea
+of psychological safety being so
+important but what i want to do is i
+want to talk about
+really quick is what it means because
+you might think you know what
+those words you put them together you're
+like i know what psychological means
+i know what safety means so you might
+think it means like just
+feeling good or something right well the
+good news is
+it's a real word it's a real term and it
+has a real definition
+and here's what it is right at least
+according to
+um amy edmondson from harvard business
+school
+and it's as simple as this it's a sense
+of confidence
+that the team will not embarrass reject
+or punish someone
+for speaking up that's basically
+psychological safety
+and that is huge and i want you to think
+about teams and organizations and things
+you've been on
+and think about have you felt that
+psychological safety
+or have you not and there's all kinds of
+places this comes up and it's on a
+continuum and it's not always done
+right you're always working at it uh
+there have been
+all kinds of instances and i want to
+give one example
+where you can think you have just
+because you get along with your team
+it doesn't mean your team has a culture
+of psychological safety
+so years ago uh i was working i worked
+for a software company i was a sales
+engineer
+and i had one of my teammates was a very
+very good friend of mine i mean such a
+good friend of mine he's saying at my
+wedding right so we're buds
+and we were in hipchat this predates
+slacks use at this company and
+you know my my my colleague he made a
+mistake he was trying
+to figure something out and it was had
+to do actually with uh
+the flags on an ssh command right he had
+basically misremembered how to identify
+uh the identity file that he wanted to
+use and and we kind of he rubber ducked
+that through the chat
+and then figured it out and was like oh
+my god is this nice and sean how can you
+possibly even
+you know basically made some joke that
+he was incompetent
+right which was set out of love he's my
+friend i know he's a much better
+engineer than i'll ever be
+which is why it was kind of funny to me
+and he totally took it that way and he
+knew i was
+i was i was ribbing him but
+we talked later and my manager pointed
+out to me said look he's like
+i know that you two are friends and he
+wasn't upset by that
+but someone who's on the outside who's
+on the team that's new
+all they saw there is someone made a
+mistake
+and matt made fun of them and they are
+not going to feel comfortable
+in sharing these mistakes right or these
+missteps or what they even what they
+perceive as missteps
+because they're afraid that you're gonna
+make fun of them and that's not okay
+my argument for why this slides are bad
+is i had to get that animated gif in
+which means see there it goes so anyway
+here's the first thing to remember
+no this is the this is the first thing
+to remember
+uh sorry about that is when you to
+instil
+some of the things to do to instill
+psychological safety is approach
+conflict as a collaborator you're not an
+adversary
+right so what we're trying to do when
+there is conflict
+is we are trying we are working together
+we are a team
+right it's not about me winning it's not
+about me being right
+and we do this more than we think we do
+nobody thinks they act this way by the
+way right nobody thinks they're bad
+nobody thinks they're the villain of the
+story um including the villain
+so we have to reframe this to ourselves
+and be
+very very cognizant of that this is a
+team
+sport right when this is coming up we're
+actually trying to get
+to a result when i'm not here to prove
+that i am smarter
+or was more right than my colleague
+this is the last time ever i'm using the
+html player from keynote
+but this was all because i needed to
+have that animated tom nook gif
+and here's the next one right you want
+to replace blame with curiosity
+because the thing is you don't have all
+the facts
+right you you think you know
+but you don't you don't know everything
+and if we look at it as a positive thing
+which is curiosity right i want to
+understand i want to learn more
+so if my approach within my group is to
+do that
+is to learn more and i'm taking this
+curiosity approach
+and this is a big one which is you need
+to model vulnerability
+and this is a way that creates emotional
+bonds
+and this doesn't mean that you and your
+teammates have to be best friends
+and you go out to the bar together and
+you go to each other's
+kids birthday parties and things like
+that but
+sharing things about your own life and
+your own
+lived experiences is a way to create
+those emotional bonds
+and it is incumbent upon folks who are
+a leader in that team to do that and you
+notice i said leader and not manager and
+that goes back
+to the story that i gave earlier where i
+was not the team lead i was not the
+manager
+but i was i i had a senior
+responsibility
+i was someone that had been on the team
+for a long time
+so my behavior is modeled
+you know um
+seriously slide move forward
+there we go so we're going to talk a
+little bit now about the idea of
+blameless facilitation so blameless we
+hear a lot about blameless postmortems
+we talk about them a lot i i know
+there's going to be even more
+conversation about them throughout the
+day
+so i'm not going to go too much into why
+blamelessness matters because again
+we're kind of operating under the
+assumption that we get that
+right we want to go go from a learning
+place but what about if we're trying to
+uh run a conversation maybe it's running
+a meeting maybe it is a post-mortem
+meeting maybe it's just a different kind
+of conversation
+and i want to facilitate it in a
+blameless
+way so what are some of the things we
+can do around that
+now the first thing is i'm going to turn
+on the ear and say that being blameless
+is almost impossible so according to j
+paul reed
+you know if we think about it as humans
+we are hardwired there's been millions
+of years of evolutionary neurobiology
+and then thousands of years of social
+conditioning
+to use blame as a way to give voice
+to these feelings that are uncomfortable
+and frankly painful
+in order to effectively disperse them
+from our psyches
+we cannot remove blame from what we do
+but what we can do is we can become
+blame aware
+and then we can try to make our actions
+avoid blame and there are there are some
+really practical things that we can do
+in a conversation and in a meeting as a
+facilitator
+to help steer the conversation
+away from a blame type approach
+so the first thing is if you are a
+facilitator understanding what your role
+is
+what is the role of a facilitator and
+this is not a moderator this is not a
+presenter
+but if you are trying to facilitate and
+i keep saying a meeting but it can be a
+conversation in a blameless way
+as a facilitator this is your role
+you're there to encourage people to
+speak up and to make sure that
+everyone is heard we talk about one of
+the things in psychological safety
+is that on teams with high amounts of
+psychological safety
+team members all speak about the same
+amount
+right so a facilitator can really help
+your one of your roles is to encourage
+people to speak up
+make sure people get a chance to be
+heard it doesn't mean you necessarily
+call on people because people aren't
+necessarily
+comfortable right you're there to
+clarify insights and challenge the team
+with questions
+so i think about this so i i run a
+podcast called the rest of devops you
+should all check it out
+but as a podcast host when i have guests
+i consider myself the audience proxy
+right so i might ask questions
+of the of the guests that i already know
+the answer to
+but i'm doing that i am i am trying to
+uh give voice to people that don't
+necessarily have the voice on the
+podcast
+because they're not on the call but
+maybe even in the room
+so you're there maybe to clarify that
+and and also challenge with questions
+and then you can also are there to help
+the team see different angles
+and different options because you're a
+little bit abstracted away from it
+right you're and you may have as an
+individual you may have a vested
+interest in this conversation
+so as a facilitator you need to step out
+of it a little bit
+and try to be somewhat objective and
+maybe introduce different angles
+and then also there's the housekeeping
+of it right so as a facilitator
+you are supposed to help keep everyone
+on time and on track right we only have
+so much time
+and it's totally okay and then if people
+are dominating the entire meeting
+they you can really you really have a
+responsibility to kind of
+keep those things on track and some of
+that housekeeping type of stuff
+so a couple other things to keep in mind
+as a facilitator
+you do not make decisions right you are
+there
+to help um if you are
+also not there to take sides you need to
+be as impartial as you can so even
+though now that being said
+in your head you totally know what you
+feel and what you think and i'm not
+telling you
+to stop um doing that kind of thing
+you also need to try to speak as little
+as possible
+and those of you who know me know that
+this is incredibly hard for me
+and also i know that my son henry is
+watching this talk and this would be
+very very hard for henry so henry we may
+need to work on making you a blameless
+facilitator
+but everybody it's a growth opportunity
+but really
+you're not a presenter you're a shadow
+that guides discussion
+you're not there to run the entire
+conversation you're there to support
+and guide and help people be heard
+and then finally let's talk about
+conflict conflict is going to happen so
+you notice i talk about de-escalating
+conflict not removing conflict
+it's going to happen but it can be done
+in a way that feels
+safe we can uh feel uh feel heard
+and we can have even greater
+collaboration
+so marshall rosenberg really put it this
+way and i really kind of love this he
+said you know we really we don't
+seek compromise we're looking to resolve
+the conflict
+to everybody's complete satisfaction and
+i've i've told my kids before that a
+compromise
+is when none of us are happy and that's
+actually maybe a little true so that's
+why we're reframing away from the word
+compromise
+we actually our goal is to resolve the
+conflict and have everybody be happy
+now that doesn't mean you get what you
+wanted
+in the first place right so this is part
+of building a better understanding
+so that we are actually all completely
+satisfied
+with the resolution that occurs
+uh my buddy dave shackleford has said
+you know when you have conflict
+you can pause things with force so
+sometimes you just have to say hey
+yo chill out take a step back we need to
+pause and reset
+but it's hard to make progress until
+people feel heard
+there is a a visceral physical response
+when you believe that your point of view
+has been understood and acknowledged and
+you notice being understood and
+acknowledged
+does not mean it's necessarily agreed
+with but you have been heard
+we want to be heard and remember that
+the other people
+want to be heard and you know what i i
+would reinforce as with the slide that
+the
+stupid keynote html player skipped which
+one of the psychological safeties things
+was we communicate human to human and
+use the phrase
+just like me this is where i would come
+back to that
+i'm really upset that that slide got
+missed so
+we understand that we want to be heard
+other people want to be heard they are
+humans
+just like me
+keynote heard me being mad at it and now
+it won't let me advance my slide
+this is the first time that my kids have
+watched me give a talk so of course it's
+going exceptionally well
+so when we think about non-violent
+communication which is this idea
+um there's four key components of
+non-violent communication which is a way
+of keeping conflict from escalating and
+getting ourselves to this better
+understanding and marshall rosenberg is
+the one who created this idea of
+non-violent communication
+and this is around observations feelings
+needs and requests
+we're going to go through these and see
+how we can actually
+implement this as an understanding when
+we are in a situation of conflict
+whether it's
+with a teammate or even in your personal
+life so the first thing is when we think
+about observations
+what are observations and these have
+these go in order
+right these go from uh you know they
+like we talk
+sometimes in devops you hear us talk
+about this idea of columns which is
+culture automation
+lean measurement and sharing and we say
+the order doesn't matter because it's
+just that way because it spells a word
+in this case the order matters because
+each of these things are going to build
+upon each other
+so we start with observations so what's
+an observation
+it's as its name implies what i observe
+what i see i hear i remember even what i
+imagine
+but free from evaluation right just the
+facts
+that does not or does contribute to my
+well-being right so what do i see when i
+see or hear but the thing about the
+parts of non-violent communication it's
+not just the eye part
+it's also for me to understand what you
+observe what you remember what you see
+free from my evaluations that does or
+does not contribute to your well-being
+so i start with the observations right
+when when i
+see this happen when this is a thing
+that i see happen i
+i hear these words but those go into
+feelings and we can't control our
+feelings and trying to control our stop
+feelings
+is kind of a fool's errand they're gonna
+happen what matters is what we do with
+them and we have to acknowledge and
+understand
+and and respect that they occur so the
+feelings are
+how i feel so it's an emotion or
+sensation not thought
+in relation to that thing that i just
+observed right so when i see
+this i feel this right
+and then i need to put that into the
+frame for you as well
+how are you feeling in relation to that
+observation from you
+and those go into our needs and the
+needs are
+so human right so this is what i need or
+value
+but it's not a preference it's not a
+thing that i
+like or prefer and it's also not an
+action
+um which which causes my feelings right
+so
+when i see this i feel this way i feel
+upset
+because i value being heard because i
+value
+justice right because i value kubernetes
+okay that's not a real one
+um and because i need root access
+and then likewise i need to be able to
+frame that and understand
+what you need or value where that comes
+in
+and then this comes into request this
+comes into the actual
+action and requests are this they are
+clearly requesting
+what would enrich my life without
+demanding right i'm not demanding this
+it is a request this word is intentional
+and then i need to empathetically
+receive what would enrich your life
+without hearing it as a demand
+and again here without hearing it as a
+demand
+even if you demand it i need to not hear
+it that way
+that's really hard so what about
+requests what are they this is the final
+thing they're the concrete actions
+that i would like taken would you be
+willing to
+right when i i see hear this
+i feel this way would you be because of
+this thing
+would you be willing to do this other
+thing right
+and then this is a little more
+empathetic right would you like i might
+have to you might not give me the
+request
+so i might need to volunteer some and
+say would you like
+this to happen would you like this to
+occur
+so to put a bow on it right here's what
+it boils down to
+if you want to go fast go alone you can
+do things by yourself i've got tons of
+github repos where i am the only
+collaborator
+and yes i argue with myself in github
+issues and it is hilarious and yeah i
+can move a lot quicker when i'm the only
+one i have to convince of something
+but if you want to go far go together
+so my name is matt stratton um these
+slides are available at
+speaking.mattstratton.com
+along with some some resource links that
+you might find interesting
+thank you very much for your time you
+can find me on the twitters i'm at matt
+stratton
+and uh i am so excited to be part of
+this event and it is going amazingly
+well
+so let's uh let's give it up for uh for
+our organizers here
+um i can't believe how i almost i can't
+believe how well it's going but i can
+because you all are great thank you matt
+that was great
+everyone when you're when you're done
+really thanking me thank matt for that
+amazing talk
+i loved it and also i have just been
+i'm really glad that uh joey and henry
+could make it today
+they were this is what it took to get my
+kids to watch me give a talk was put it
+in animal crossing
+you know now i know we're here to help
+uh so i want to remind folks that the
+speaker q
+a channel is where you can ask questions
+if you have them
+uh but there's none moving at the moment
+and i think when it comes to topics like
+this
+i i said this earlier to mia i think but
+like oftentimes people don't ask
+questions
+right away because there's a lot to sort
+of digest and
+it's very specific right depending on
+your
+org your team etc
+i've i've seen that and it's giving
+being kind of
+a person who gives a lot of i don't want
+to call them culture talks but
+they're they're not as uh implementation
+heavy
+yeah i i actually had to to to reframe
+how i thought about
+the success of my talks because i used
+to be a measure was i would ask for if
+there were questions and if there were a
+lot of questions i felt like it was a
+good talk
+and what i found with a bunch of my
+talks is that i would get a lot of
+questions
+later in the day because sometimes and
+this is
+what i'm saying is as an attendee that's
+totally okay because sometimes we need
+to marinate on things
+or i might hear a talk i might have seen
+something in ian's talk
+and then later as we're having a
+different conversation i'm like oh
+that kind of reminds me of when they
+said that thing now i have a question
+so that's why i love with with uh you
+know events when
+when we can participate throughout the
+entire event uh because everything kind
+of connects together and we can have
+these conversations so
+again you know i mean thanks everybody
+for letting me be part of it
+so we have one question come into the
+channel so and i think
+let's let's do one and then we'll sort
+of move forward
+how would you recommend starting this
+culture as a junior dev on a very senior
+team
+wow well that uh
+[Laughter]
+that is definitely tricky right so
+any time that you are trying to make
+culture
+change it's always something where you
+need to start
+small and
+one at one of the places and i guess i
+would give a kind of a good example
+an example is going back to the example
+that i gave with with my friend
+and where later offline it was brought
+up so when you see some of the things
+that don't contribute to psychological
+safety or things that do
+um you might not be able to bring it up
+in the moment in fact in the moment
+is often not the best time because
+people aren't receptive
+but if you have some in this scene you
+could say hey you know what
+in this conversation i i abs i notice
+this so you go back to the psychology to
+the i'm sorry the non-violent
+communication
+apply nonviolent communication because
+you fundamentally have a conflict there
+right there's someone's behavior was not
+reinforcing that
+and be able to sit there and say i
+noticed
+right this statement in this particular
+way
+and it made me feel this way and this is
+what i observed and so my request
+is to maybe you know don't make jokes
+like that
+and the the other thing is it's okay
+to introduce it as an idea and don't
+don't try to do everything all at once
+because
+it is something the team kind of has to
+um agree to and they don't necessarily
+have to agree as individuals and some
+people
+might not but i've been on teams where
+we have a charter
+and it's not like super formal and a big
+dock and confluence or whatever it's
+just the thing we agree to that's our
+that are the rules of engagement for our
+team so one way
+and especially some folks who are maybe
+not into this you start
+you know going on about psychological
+safety and empathy and everything and
+their engineer brain turns off
+right so what you can do is you can just
+say hey you know what i think it would
+be really great if we kind of
+put together some informal rules of
+engagement about how our team works
+together
+and here's some ways that we might be
+able to do that and you can introduce
+these things but you don't have to use
+the hug ops terms that might turn some
+people off or they might be into it you
+know your team better than i do
+so yeah i think that's all like
+yeah that's probably the advice i would
+have given to it don't be afraid to take
+the next
+smallest step uh
+matt thank you so much there's more
+questions rolling in if you want to
+uh if you're available to hop in the
+dashboard
+absolutely i would love to we shall all
+benefit from photos of your great hair
+and also your wisdom
+everyone give a very warm thank you to
+matt
+for his talk ugh i just i'm always just
+so
+happy to have him there i don't know why
+i haven't been standing at this table
+i i don't know i like it now now i'm
+just at this table

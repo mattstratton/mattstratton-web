@@ -2,9 +2,15 @@
 #
 # Replaces the previous Hugo build (bin/netlify*.sh + HUGO_VERSION). The build is
 # just `astro build`; redirects live in public/_redirects.
+#
+# This repo is a monorepo (see root CLAUDE.md) — mattstratton-speaking/ and
+# mattstratton-dev-to/ are independent sibling subprojects with their own Netlify
+# site / GitHub Actions respectively. Skip this site's build when a push only
+# touches those subdirectories.
 [build]
   command = "npm run build"
   publish = "dist"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)mattstratton-speaking' ':(exclude)mattstratton-dev-to'"
 
 [build.environment]
   NODE_VERSION = "20"

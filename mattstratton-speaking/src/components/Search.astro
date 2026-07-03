@@ -1,0 +1,409 @@
+---
+/**
+ * Global site search: a nav trigger button that opens a full-screen-on-mobile /
+ * modal-on-desktop dialog with fuzzy text search (Fuse.js) over all talks plus
+ * year / has-video / has-slides facets.
+ *
+ * Progressive enhancement, matching SlideBrowser.astro / VideoEmbed.astro: the
+ * markup is inert static HTML; the `<script>` below wires it up and lazily
+ * fetches /search-index.json (and bundles Fuse) only when first opened.
+ */
+---
+
+<button
+  type="button"
+  data-search-open
+  aria-haspopup="dialog"
+  aria-expanded="false"
+  class="label !text-[0.78rem] inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+  </svg>
+  <span class="sr-only sm:not-sr-only">Search</span>
+</button>
+
+<div
+  data-search-overlay
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="search-title"
+  hidden
+  class="fixed inset-0 z-50"
+>
+  <div data-search-backdrop class="absolute inset-0 bg-ink/40 backdrop-blur-sm"></div>
+
+  <div
+    class="absolute inset-0 flex flex-col bg-panel sm:inset-x-0 sm:top-0 sm:mx-auto sm:my-16 sm:max-h-[80vh] sm:max-w-2xl sm:rounded-lg sm:border sm:border-rule sm:shadow-xl"
+  >
+    <h2 id="search-title" class="sr-only">Search talks</h2>
+
+    <!-- Input row -->
+    <div class="flex items-center gap-2 border-b border-rule px-4 py-3">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5 shrink-0 text-ink-soft" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.2-3.2" stroke-linecap="round" />
+      </svg>
+      <input
+        type="search"
+        data-search-input
+        aria-label="Search talks"
+        placeholder="Search talks, events, topics…"
+        autocomplete="off"
+        class="min-w-0 flex-1 bg-transparent py-2 font-sans text-lg text-ink placeholder:text-ink-soft focus:outline-none"
+      />
+      <button
+        type="button"
+        data-search-close
+        aria-label="Close search"
+        class="flex h-11 w-11 shrink-0 items-center justify-center rounded text-ink-soft transition-colors hover:text-accent"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5" aria-hidden="true">
+          <path d="M6 6 18 18M18 6 6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Facet row -->
+    <div class="flex flex-wrap items-center gap-2 border-b border-rule px-4 py-3">
+      <label class="label normal-case tracking-normal inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <span>Year</span>
+        <select data-facet-year aria-label="Filter by year" class="bg-transparent font-mono text-xs text-ink focus:outline-none">
+          <option value="">All</option>
+        </select>
+      </label>
+      <label class="label normal-case tracking-normal inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <span>Topic</span>
+        <select data-facet-tag aria-label="Filter by topic or technology" class="bg-transparent font-mono text-xs text-ink focus:outline-none">
+          <option value="">All</option>
+        </select>
+      </label>
+      <label class="label normal-case tracking-normal inline-flex min-h-[2rem] cursor-pointer items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <input type="checkbox" data-facet-video class="accent-accent" />
+        <span>Has video</span>
+      </label>
+      <label class="label normal-case tracking-normal inline-flex min-h-[2rem] cursor-pointer items-center gap-1.5 rounded-full border border-rule px-2.5 py-1">
+        <input type="checkbox" data-facet-slides class="accent-accent" />
+        <span>Has slides</span>
+      </label>
+    </div>
+
+    <p data-search-status role="status" aria-live="polite" class="label px-4 pt-3 pb-1"></p>
+
+    <ul data-search-results class="flex-1 overflow-y-auto px-4 pb-4"></ul>
+  </div>
+</div>
+
+<script>
+  import Fuse from 'fuse.js';
+  import type { SearchRecord, DeepRecord } from '../lib/search-types';
+
+  const overlay = document.querySelector<HTMLElement>('[data-search-overlay]');
+  const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
+  const closeBtn = document.querySelector<HTMLButtonElement>('[data-search-close]');
+  const backdrop = document.querySelector<HTMLElement>('[data-search-backdrop]');
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const yearSelect = document.querySelector<HTMLSelectElement>('[data-facet-year]');
+  const tagSelect = document.querySelector<HTMLSelectElement>('[data-facet-tag]');
+  const videoBox = document.querySelector<HTMLInputElement>('[data-facet-video]');
+  const slidesBox = document.querySelector<HTMLInputElement>('[data-facet-slides]');
+  const status = document.querySelector<HTMLElement>('[data-search-status]');
+  const results = document.querySelector<HTMLUListElement>('[data-search-results]');
+
+  // Bail out quietly if the markup isn't present (keeps the script inert elsewhere).
+  if (overlay && openBtn && closeBtn && backdrop && input && yearSelect && tagSelect && videoBox && slidesBox && status && results) {
+    let fuse: Fuse<SearchRecord> | null = null;
+    let records: SearchRecord[] = [];
+    let loaded = false;
+    let lastFocused: HTMLElement | null = null;
+
+    // Deep "search inside talks" index (transcripts) — loaded lazily on the
+    // first query so opening search stays instant and the ~1MB only downloads
+    // when someone actually searches.
+    let deepFuse: Fuse<DeepRecord> | null = null;
+    let deepLoaded = false;
+    let deepLoading = false;
+    let byUrl = new Map<string, SearchRecord>();
+
+    // Canonical talks: results show one entry per talk (notistSlug), not one per
+    // delivery. Each group rolls up its deliveries' badges, years, and a thumbnail.
+    interface TalkGroup {
+      slug: string;
+      title: string;
+      talkUrl: string;
+      count: number;
+      minYear: number;
+      maxYear: number;
+      years: Set<number>;
+      hasVideo: boolean;
+      hasSlides: boolean;
+      hasTranscript: boolean;
+      tags: string[];
+      thumbnail: string | null;
+      eventName: string;
+      date: string;
+    }
+    let groups = new Map<string, TalkGroup>();
+
+    // Fuse score 0 = perfect, 1 = no match. Above this, a "hit" is a fuzzy match
+    // on a common word (junk) — drop it so the long tail of noise doesn't show.
+    const SCORE_CUTOFF = 0.8;
+
+    const escapeHtml = (s: string) =>
+      s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+    const micFallback = `<div class="flex h-full w-full items-center justify-center text-ink/20" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-6 w-6"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke-linecap="round"/></svg></div>`;
+
+    async function ensureIndex() {
+      if (loaded) return;
+      const res = await fetch('/search-index.json');
+      records = (await res.json()) as SearchRecord[];
+      fuse = new Fuse(records, {
+        includeScore: true,
+        threshold: 0.38,
+        ignoreLocation: true,
+        minMatchCharLength: 2,
+        keys: [
+          { name: 'title', weight: 0.5 },
+          { name: 'eventName', weight: 0.25 },
+          { name: 'tags', weight: 0.2 },
+          { name: 'abstract', weight: 0.15 },
+          { name: 'location', weight: 0.1 },
+        ],
+      });
+      byUrl = new Map(records.map((r) => [r.url, r]));
+      // Group deliveries into canonical talks. records arrive newest-first, so the
+      // first delivery seen per slug supplies the representative event/date/thumb.
+      groups = new Map();
+      for (const r of records) {
+        let g = groups.get(r.slug);
+        if (!g) {
+          g = {
+            slug: r.slug,
+            title: r.title,
+            talkUrl: `/talk/${r.slug}`,
+            count: 0,
+            minYear: r.year,
+            maxYear: r.year,
+            years: new Set(),
+            hasVideo: false,
+            hasSlides: false,
+            hasTranscript: false,
+            tags: r.tags ?? [],
+            thumbnail: r.thumbnail,
+            eventName: r.eventName,
+            date: r.date,
+          };
+          groups.set(r.slug, g);
+        }
+        g.count++;
+        g.years.add(r.year);
+        g.minYear = Math.min(g.minYear, r.year);
+        g.maxYear = Math.max(g.maxYear, r.year);
+        g.hasVideo ||= r.hasVideo;
+        g.hasSlides ||= r.hasSlides;
+        g.hasTranscript ||= r.hasTranscript;
+        if (!g.thumbnail && r.thumbnail) g.thumbnail = r.thumbnail;
+      }
+      // Populate year options from distinct years (descending).
+      const years = [...new Set(records.map((r) => r.year))].sort((a, b) => b - a);
+      for (const y of years) {
+        const opt = document.createElement('option');
+        opt.value = String(y);
+        opt.textContent = String(y);
+        yearSelect!.appendChild(opt);
+      }
+      // Populate tag options (alphabetical).
+      const tags = [...new Set(records.flatMap((r) => r.tags ?? []))].sort((a, b) => a.localeCompare(b));
+      for (const t of tags) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        tagSelect!.appendChild(opt);
+      }
+      loaded = true;
+    }
+
+    async function ensureDeepIndex() {
+      if (deepLoaded || deepLoading) return;
+      deepLoading = true;
+      try {
+        const res = await fetch('/deep-index.json');
+        const deep = (await res.json()) as DeepRecord[];
+        deepFuse = new Fuse(deep, {
+          includeScore: true,
+          threshold: 0.4,
+          ignoreLocation: true,
+          minMatchCharLength: 3,
+          keys: ['text'],
+        });
+        deepLoaded = true;
+        run(); // fold transcript matches into whatever the user has typed
+      } catch {
+        /* deep search is a progressive enhancement — ignore fetch failures */
+      } finally {
+        deepLoading = false;
+      }
+    }
+
+    function render(items: TalkGroup[], query: string) {
+      results!.innerHTML = items
+        .map((g) => {
+          const thumb = g.thumbnail
+            ? `<img src="${escapeHtml(g.thumbnail)}" alt="" width="320" height="180" loading="lazy" decoding="async" class="h-full w-full object-cover" />`
+            : micFallback;
+          const badges = [
+            g.hasVideo
+              ? `<span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">video</span>`
+              : '',
+            g.hasSlides
+              ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">slides</span>`
+              : '',
+            g.hasTranscript
+              ? `<span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">transcript</span>`
+              : '',
+          ].join('');
+          const span = g.minYear === g.maxYear ? `${g.minYear}` : `${g.minYear}–${g.maxYear}`;
+          const meta =
+            g.count > 1
+              ? `<span class="text-ink">Delivered ${g.count} times</span><span class="text-ink-soft"> · ${span}</span>`
+              : [
+                  g.eventName ? `<span class="text-ink">${escapeHtml(g.eventName)}</span>` : '',
+                  `<span class="text-ink-soft">${g.eventName ? ' · ' : ''}${escapeHtml(g.date)}</span>`,
+                ].join('');
+          return `<li><a href="${escapeHtml(g.talkUrl)}" aria-label="${escapeHtml(g.title)}" class="group grid grid-cols-[4.5rem_1fr] items-start gap-3 border-b border-rule py-3 transition-colors hover:bg-paper">
+            <div class="relative aspect-video overflow-hidden rounded-sm bg-ink/5 ring-1 ring-rule">${thumb}</div>
+            <div class="min-w-0">
+              <h3 class="font-display text-base font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">${escapeHtml(g.title)}</h3>
+              <p class="label mt-1 normal-case tracking-normal">${meta}</p>
+              ${badges ? `<p class="mt-1.5 flex gap-2">${badges}</p>` : ''}
+            </div>
+          </a></li>`;
+        })
+        .join('');
+
+      const n = items.length;
+      if (!loaded) {
+        status!.textContent = '';
+      } else if (n === 0) {
+        status!.textContent = query ? 'No talks match your search.' : 'No talks match these filters.';
+      } else {
+        status!.textContent = `${n} result${n === 1 ? '' : 's'}`;
+      }
+    }
+
+    function run() {
+      if (!fuse) return;
+      const q = input!.value.trim();
+      let items: TalkGroup[];
+
+      if (q) {
+        // Best (lowest) Fuse score per delivery URL, across both indices. A talk's
+        // title match and its transcript/slide match compete on the same scale, so
+        // a strong deep hit can outrank a weak title hit (the bug we're fixing).
+        const scoreByUrl = new Map<string, number>();
+        const consider = (url: string, score: number | undefined) => {
+          if (score == null) return;
+          const prev = scoreByUrl.get(url);
+          if (prev == null || score < prev) scoreByUrl.set(url, score);
+        };
+        for (const h of fuse!.search(q)) consider(h.item.url, h.score);
+        if (deepFuse) {
+          for (const h of deepFuse.search(q)) consider(h.item.url, h.score);
+        } else {
+          ensureDeepIndex(); // lazy first-query load; re-runs when ready
+        }
+
+        // Collapse deliveries to the best score per canonical talk (notistSlug).
+        const scoreBySlug = new Map<string, number>();
+        for (const [url, score] of scoreByUrl) {
+          const slug = byUrl.get(url)?.slug;
+          if (!slug) continue;
+          const prev = scoreBySlug.get(slug);
+          if (prev == null || score < prev) scoreBySlug.set(slug, score);
+        }
+
+        items = [...scoreBySlug.entries()]
+          .filter(([, score]) => score <= SCORE_CUTOFF) // drop the fuzzy long tail
+          .sort((a, b) => a[1] - b[1]) // best match first
+          .map(([slug]) => groups.get(slug))
+          .filter((g): g is TalkGroup => Boolean(g));
+      } else {
+        // No query: every talk, newest first.
+        items = [...groups.values()].sort((a, b) => b.maxYear - a.maxYear);
+      }
+
+      const year = yearSelect!.value;
+      if (year) items = items.filter((g) => g.years.has(Number(year)));
+      const tag = tagSelect!.value;
+      if (tag) items = items.filter((g) => g.tags.includes(tag));
+      if (videoBox!.checked) items = items.filter((g) => g.hasVideo);
+      if (slidesBox!.checked) items = items.filter((g) => g.hasSlides);
+
+      render(items, q);
+    }
+
+    let debounce: number;
+    input.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = window.setTimeout(run, 120);
+    });
+    for (const el of [yearSelect, tagSelect, videoBox, slidesBox]) {
+      el.addEventListener('change', run);
+    }
+
+    async function open() {
+      lastFocused = document.activeElement as HTMLElement | null;
+      overlay!.removeAttribute('hidden');
+      openBtn!.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      await ensureIndex();
+      run();
+      input!.focus();
+    }
+
+    function close() {
+      overlay!.setAttribute('hidden', '');
+      openBtn!.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      lastFocused?.focus();
+    }
+
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+
+    // `/` opens search, unless the user is typing in a field.
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || overlay!.hasAttribute('hidden')) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      e.preventDefault();
+      open();
+    });
+
+    // Esc to close + a minimal focus trap while the dialog is open.
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        close();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const focusable = overlay!.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled])',
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+</script>

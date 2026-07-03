@@ -1,0 +1,1744 @@
+so I'm really excited to be here I'm
+always very excited to do anything in
+the Minneapolis DevOps community DevOps
+is Minneapolis might be my favorite time
+UPS days but don't tell the Chicago
+people because I see if I'm that I run
+but what we do is it's always nice
+because the Minneapolis event is always
+right before ours so I come up here and
+I steal a bunch of ideas from Joe and
+we'd never implement them nearly as well
+the the other reason I was very excited
+first of all it's always amazing what
+Bridgette lets me come speak of her
+Meetup
+I don't even ask like because I'm afraid
+of getting told no but I'm really cuz ya
+knew I was coming up here to actually
+meet with SPS commerce I've been in this
+building all day long it's awesome and
+then she asked people want to speak at
+the meetup and I said okay and I said
+here's some talks I can give and she
+said you have anything new which
+normally means I'm tired of your old
+stuff but Bridgette doesn't watch my
+talk so she does know my old stuff but
+so the point is this is a brand new talk
+you're seeing it for the very first time
+no one else has ever seen it you can
+either choose to be excited by that or
+disappointed we'll see what happens is
+about 45 minutes so it might be a little
+you know we'll see how it goes but what
+I'm trying to do with this talk to is
+it's very broad in scope so there may be
+parts of this that you're like I totally
+knew that already strong like I didn't
+need to be told but the good news is
+it's 45 minutes long so it's not 45
+minutes worth of stuff here you know I
+hope that also trying to be crazy I
+messed up my picture on the slides so
+first thing that I have to remember so
+anyway it again like yeah I work at page
+duty I'm a DevOps advocate so that
+justified being here I've got page of
+duty stickers we got the rest DevOps
+stickers over here come take some swag
+so let's talk a little bit about
+services all right so imagine a world
+where you understand what you're working
+on you can do it if you try right you're
+clear on what your dependencies are who
+relies on you and what you're delivering
+you have a clear vision of your impact
+on the business your customers and you
+know what you want to do to continue
+delivering value to those people that
+you care
+you innovate you try new things and you
+can solve problems effectively when they
+come up you and your colleagues work
+together to bring value to your business
+without blame and you can make changes
+without being afraid of unintended
+consequences that's where we want to be
+you might already be partially there if
+you're all the way there why are you
+sitting there and not up here is what I
+want to know but it's totally cool right
+we're gonna talk a little bit about
+service and service ownership right
+let's sort what is service ownership so
+service ownership means that people take
+responsibility for what they deliver at
+every stage of a services lifetime I'm
+going to talk about it what do I mean by
+a service because if we've learned
+nothing else from many DevOps talks and
+many DevOps books and many DevOps things
+is that words mean lots of things and
+they don't always mean the same thing to
+everybody it'd be too easy if they did
+we want to think about how we
+communicate across the organization with
+your partners and stakeholders and
+partners in this case doesn't
+necessarily mean like another company
+you do business with it might but take
+about your partners within the
+organization you have stakeholders who
+are people that care about the
+effectiveness from a business
+perspective and other reasons and you
+have people that you partner with right
+it's all the DevOps love all right so
+let's start with the basics right what
+is a service you talk about we're gonna
+spend 45 minutes talking about services
+what the heck do we mean by that so
+here's the thing right a service can be
+a lot of things right it could mean
+different things to different people you
+know maybe it's a micro service usually
+what I talk about this people
+immediately go there because it's micro
+service has service in the name so it
+must be in that but it doesn't
+necessarily just mean micro services so
+I got news for you so good news is if
+you're not doing the micro service thing
+you don't have to like tune out and go
+eat tacos in the back you this stuff you
+can learn right it could be a slice of a
+monolith is something we might consider
+to be a service it can be an internal
+tool maybe it's just a piece of
+functionality maybe it's a components
+maybe it's shared infrastructure right
+maybe it's a feature these are all
+things that service can apply
+- and none of them are wrong some are
+less wrong than others but we won't
+judge that here's what it boils down to
+right if it provides value to other
+people that's a service and that's the
+part that matters for this conversation
+there are certainly times when being
+specific about what service means it
+means a certain thing apply but in this
+case if it provides value to other
+people we consider that a service so the
+first thing you have to do when we think
+about service ownership and how you're
+working together as a team is understand
+what it means to you and your
+organization and like I said there's no
+wrong answer the wrong answer is what
+nobody new organization has the same
+agreement about what the word is you're
+talking about so that's where you kind
+of want to start this is how we think
+about it at pager duty we are definition
+we think about it is a our definition is
+more specific to an infrastructure
+that's composed of distinct services
+that are written as separate pieces of
+code but that's just how we do it that
+doesn't mean it's right right it can be
+applied to parts of a monolithic code
+base as well or external tools but think
+about it is a discrete piece of
+functionality that provides value that's
+wholly owned by a team right so there's
+ownership boundaries that come into play
+this is why your whole monolith is
+probably not a service right and maybe
+this but probably isn't and it's about
+shared understanding right we want to
+come to a shared understanding as to
+where the boundaries of any given
+service are and be able to identify who
+the stakeholders are right if there's
+multiple teams contributing maintaining
+and supporting a given service this is
+even more important it all comes down to
+communication and shared understandings
+and you can start one of the ways that
+really helps understand where these
+boundaries are is to consider who is
+responsible for the service that you're
+defining so a service really should be
+wholly owned by the team that is on call
+for that and there's there's of course
+levels of on call but it's about the
+responsibility where that comes in
+that's where you're going to see some of
+those debars happen
+now if there's multiple teams that share
+responsibility for a service it might be
+better to split that service off if
+possible in two separate services
+because you've got contention right like
+so who is responsible and those of you
+who have seen me talked about Incident
+Response before know that if everybody
+owns a thing nobody owns a thing right
+so if there's two teams that's
+supposedly owned the same service guess
+which one is gonna jump up and down for
+the page in the middle of the night
+answer is neither of them right no
+people don't get excited about that
+right so separating into smaller
+services or sometimes caught sometimes
+called service mitosis and that's
+actually a picture of mitosis so but
+when would service mitosis an
+organization which they generally have
+is a rule that at a certain team size or
+volume some of them do it by volume of
+code I don't necessarily love that one
+because lines of code notice will they
+mean something but it's some demarcation
+some points of inflection point you
+decide that something becomes multiple
+services and services should be set up
+granularly enough to help identify some
+some sources around problems that you
+have so if two micro services always
+behave as one and fixing a problem on
+one means fixing out at another it might
+make sense to consider those the same
+service again we're not here to be
+pedantic about well technically Matt
+these are two micro services they must
+therefore be services right it's about
+where that boundary is and if you're
+finding these two things are connected
+considering them one service from an
+operation and management and development
+perspective can be helpful
+what about mono that's right so if you
+have a monolith the way to think about
+this is how are you going to address
+on-call responsibilities for it right my
+notes here say monoliths tend to be the
+cause of a lot of incidents and I don't
+like to say things like root cause and
+the cause of an incident but yeah you
+know what Monell is so the cause of a
+lot of incidents but the reasons where
+this becomes challenging is because it's
+a big set of code that doesn't
+necessarily have clear boundaries and so
+these incidents that come from a
+monolith they can be actionable and
+sometimes non-actionable and if one team
+owns the monolith they usually don't own
+any other
+services unless the on-call load for
+that monolith is low right because
+there's a lot for that so the thing is
+of multiple teams share responsibility
+for that model if you can consider
+gradually identifying different sources
+of functionality within it and routing
+those alerts to the teams that have the
+right context right so each source of
+functionality can be represented as a
+different service for your documentation
+yura numerating your run books and wikis
+along with your on call ownership in
+tools like I don't know page your duties
+hey and here's the thing service
+ownership is a shared responsibility so
+your software engineers who are writing
+the code are not the only people
+accountable to the ownership of that
+code that they write right and that's
+gonna be the sounds a little tricky
+because you also know that I believe and
+you know you wrote it you run it you're
+responsible for your own code but that
+bigger piece of the service is not just
+about the people who write the code or
+wrote the code so let's think about
+where some of those roles kind of come
+in so we think about that development
+team the software engineers the people
+who actually swung the code right so
+developing a service is more than risk
+writing code yes of course it involves
+code in a shared repo with documentation
+unless you're believing and the no code
+movements but that's not really a thing
+generally you'll have some kind of
+readme that explains what the code does
+and maybe a contract with other services
+that can be understood if they have to
+interact with at least I hope you have
+that you may not have everything in
+place when you're initially developing a
+service but you should still have some
+standard procedures to your organization
+that's defined about what what does it
+mean to create one and here here's kind
+of this is it this is the tweak right
+your service should make sense to other
+people who will interact with it there's
+nuance to this but remember you are not
+the only person who will interact with
+this service unless it's projects that I
+write then nobody uses them but me then
+it's okay don't be me right have more
+popular projects they provide a lot more
+business value of someone other than you
+uses them so you want to make sure your
+code is reviewed by other members of
+your team with whatever process not here
+to tell you exactly how to do code
+review other
+put someone else thinking about it right
+because the thing is you're not always
+going to be around to answer questions
+about what your code is intended to do
+nobody knows what you met right they
+only know what they see so it's your
+responsibility to make it understandable
+because otherwise you're a single point
+of contact and that's no good for
+anybody all right
+they say the two hardest things to do in
+computer science are caching strategies
+and naming and also there's a one buy
+off by one error joke in there too but
+I'm not putting that in here
+so it's totally normal to use creative
+names Greek mythical figures inside
+jokes pop-culture references space
+missions as placeholders for service
+names when you have a small organization
+you think everyone's always going to be
+able to remember that inside joke right
+but hopefully your organization is
+probably going to grow right maybe it's
+gonna change
+you're gonna welcome new members to your
+team and eventually the memories of that
+inside joke will fade and the inside
+joke now becomes something you have to
+explain to everybody over and over and
+over again and at that point if you have
+to explain the joke it's not even funny
+enough to be worth it right so it's
+never good point of content of example
+not about naming services but why inside
+jokes sometimes cause confusion so you
+may know Bridget and I host a podcast
+called the rest of DevOps which as you
+may have been heard is upon on Arrested
+Development it's a popular character on
+the show named Steve Holt I named our
+slack bot Steve Holt Bridget who doesn't
+watch the show says who is Steve Holt
+and why is he in our slack so and any
+any little bit of amusement I got out of
+that was you know found to be less
+useful and Bridget didn't get the joke
+and then I had to explain it and you
+still didn't think it was funny so it's
+cool so be specific right consider
+naming your service something specific
+maybe you need me to explain what it
+does what a concept right
+if you already have services what lesson
+specific names don't panic you don't
+have to make changes to everything at
+once
+fix for word and start do you think
+service is worth more specific clear
+names I understand this is not a trivial
+task ask colleagues and people your
+honor interact with what they would
+expect it to be named right what do you
+think this would be called default too
+long
+names instead of shorter ones characters
+are free this is not a tweet this is the
+service thing but not too long right
+because you know what happens with names
+that are too long they get shortened
+into acronyms and acronyms are just as
+hard to understand as inside jokes so
+make them clear so here's some examples
+of names our specific user Authenticator
+shopping cart login report generator
+pretty sure that if you saw a service
+with this name you could take a gamble
+on what it does and hopefully you'd be
+right if you weren't like so even though
+this is a specific name like don't name
+your report generator shopping carts
+that's just confusing
+that's even worse than the silly
+names here's names that aren't specific
+calling something pac-man unless you're
+actually building pac-man you probably
+aren't Apollo burgandy be right we see
+this one Artemis I have worked at four
+different organizations that have named
+a service Artemis I am sure I will see
+it again this doesn't help anybody right
+and you have to explain what it is one
+of those organizations this pains are
+getting we have a lot of services that
+are named for things like this and it's
+actually very hard for people like
+incident commanders who are trying to
+help run an incident and see there's an
+issue with Artemis but to know there's
+an issue with notification router means
+a lot more also I got news for your
+executives really don't care about
+something called Artemis I'm thinking
+about how we describe things right being
+descriptive providing the documentation
+so the service name should be
+descriptive but of course you're not
+going to contain all the description of
+everything the service does in the
+service name unless it's going to be an
+incredibly long service thing so a
+couple things to think about here you
+know think about what is the intent of
+this service this component the slice of
+functionality there's things to record
+the purpose of the service right how
+does it deliver value that's really
+important to know right is it part of a
+customer facing feature and then you can
+understand how it impacts customers how
+it rolls up into the business components
+so the description could also mention
+other components
+the serviceman you interact with but
+know that those may change as the other
+service owners may change those
+components right dependencies just a
+couple thoughts around dependencies know
+that they're a thing there's a couple
+practices to bear in mind
+right so circular dependencies some of
+this one of the things I like I like to
+point out is people who are very
+experienced software engineers are going
+JA to a lot of this but those who are
+not software engineers and have a
+different role are looking at this
+annoyed that's right so it's really easy
+to do this I do this a lot right and
+then again thinking and those
+dependencies and this is one of those
+things were like those of us that have
+an ops background we feel this way a
+little more naturally but also know from
+a dependency perspective who consumes
+this service who are you a dependency
+for and what do you depend on that's
+outside of that understanding where
+these relationships happen is a really
+key thing and it's really important to
+kind of keep that your description and
+what do you owe to the people who
+consume your service right this talking
+about Virg about about management of
+api's as a whole different talk but a
+couple things that are really key and
+sometimes get missed it's thinking about
+versioning right why does it matter to
+version your service because you would
+like to be able to release new versions
+of it without asking your hundreds of
+thousands of customers who all have to
+go test takes right it's interesting how
+often I've worked at places that this
+was a really foreign concept where we'd
+say we wanted to release a change to an
+API that was being consumed and we
+couldn't change it till we did
+regression testing with every one of our
+customers and I remember going to to
+organization and go to our engineering
+and saying like I don't remember the
+time that when Google updates their Maps
+API that they came to me and asked me to
+test it right you also owe clear
+documentation and examples and one of
+the things to bear in mind when you're
+designing an API especially a public API
+not everybody is as smart as you think
+you are right so always think about
+who's gonna potentially consume this and
+just because it makes sense to you as a
+Java developer doesn't mean that that go
+developer who's consuming your service
+thinks about things the same way you do
+or heaven forbid an SRE who's not a code
+slinger
+like you are might actually need some
+real examples this is something I feel
+pretty strong right okay we think about
+tearing our service right this is a
+boundary crosser but thinking about how
+does your working with your product
+owner and your other engineering leaders
+to understand what the expectations are
+for this service a Tier one service
+would have the strictest expectation of
+latency and uptime they have the
+heaviest responsibility in the
+organization in the case of Pedro duty
+if we consider something that's here one
+service that's something that requires a
+24 by 7 on call multiple layers of
+robustness it requires a DR plan bunch
+of other stuff you want to understand
+this because it's going to be part of
+the design from an engineering
+perspective but this really is very
+cross-functional right this is the
+things I just told you that are true
+about tier 1 services of Patriots
+whereas our tier 2 & 3 services we
+expect Monday through Friday support the
+reason I bring this up is to think about
+these are things that provide supporting
+functionality they're not on the
+critical path this is also if it's a new
+service it's not generally available
+maybe we're testing it out with custom
+rolling it out slowly we don't expect it
+to be tier one yet I think about the
+rules your sustainability team this
+might be the team you think of this SRE
+ops I lately started calling those teams
+sustainability because otherwise I keep
+having to say oh sorry / op / Web Apps
+job / whatever is we just say was
+stainability
+right so here's the thing right things
+are gonna go wrong got news for you and
+as you learn about the different nuances
+of your service you really want to keep
+a record about what you tried that
+converse helped resolve common issues
+right in an ideal world you have the
+ability to resolve these common issues
+at the source of the problem within that
+source now run books are a contentious
+topic they are only helpful if they are
+accurate so it needs to be part of your
+software development lifecycle to update
+that run book when there are changes an
+out-of-date run book is considered
+harmful so it's better to have no run
+book than to have one that's inaccurate
+these are tricky but they don't have to
+be comprehensive either right they can
+be the things that are best and the
+thing is the more comprehensive you try
+to make your run book
+be more out of quickly out of dated is
+going to become and the more the less
+likely people are to actually watch do
+it when you think about alerting as you
+could imagine where the adage of duty I
+have lots of opinions about this but
+here's kind of some short ones to think
+about you should work to only alert on
+items that are actionable and those that
+are related to business goals or
+functionalities don't wake me up in the
+middle of the night to tell me something
+I can't do anything about and doesn't
+actually affect our customers does that
+mean we don't care to record that
+information of course we care to require
+that information that's very interesting
+but it's not an alert right and we're
+gonna talk a little bit more about some
+good ways to set those thresholds and
+monitoring and a little bit I just want
+to bring this up so resiliency we talk
+about this role like yes the
+sustainability team is in charge of the
+resiliency of the service no it's not
+because service does not have resiliency
+people have resiliency it's in charge of
+its robustness and reliability right
+because here's the reason I bring this
+up and every now and again I have to be
+pedantic about something because
+otherwise I wouldn't be made I'm off
+root cause and now I'm onto resiliency
+but we want it when we think about high
+availability
+how about Brazilian resiliency is the
+ability of a system to adapt right to
+things you don't know what we're trying
+to build we're trying to build here is
+how we can respond to things we do know
+the robustness and reliability so
+sustainability team tends to think about
+these things quite a bit they don't own
+all the responsibility but that's
+usually where the headspace is that okay
+now let's think about the Oh program
+management this may be a role that your
+organization doesn't have but if you're
+in if the folks in this role right so
+there's an element of unpredictability
+and service ownership right we get
+action plans and outcomes that come out
+of post-mortems in P IR s we have
+proactive maintenance we need to do
+everything doesn't fit nicely into a
+feature road now by the way if you're in
+program management you don't know that
+they say it again everything doesn't fit
+nicely into a feature roadmap right so
+as a program manager you need to be
+mindful of the necessity for this buffer
+and for this unplanned work that's going
+to have to happen in some organizations
+this might be called project management
+so if you don't call it program
+management and not all works have a role
+that
+this kind of a things okay but these are
+kind of the responsibilities when it
+comes to service ownership right they
+help define what is done like this is
+harder than it seems right emotional
+awareness of stress on the rest of the
+team this is this is something I
+consider a responsibility of program
+manager and most program managers would
+not ever think this is something they're
+supposed to worry about but they
+sometimes are some of the only ones that
+have that kind of visibility because
+they're looking at a broader scope right
+and then also they have that visibility
+into the connective tissue work that's
+occurring between different teams and
+different features right some of this
+there's a lot of times when somebody has
+a different view it's very hard for us
+to get I see this as a vendor I come
+into organizations a lot and I'm the
+only one talking to a whole bunch of
+teams and it's our first time all those
+teams talk to each other because they
+came in to have a meeting with me right
+your program management can be like that
+and then also awareness of the impact
+pulling people away from other projects
+is solve the problem house because again
+they have that visibility or at least
+they should and then product owners
+right so they're responsible you know as
+we know translating the requirements of
+the customers beyond what something
+looks like or what it's capable of
+because frankly if all a product owner
+is taking a requirements list from a
+product from a customer and then it's
+going to engineering and saying go make
+this thing that that Sammy just told me
+she wants you're like that dude an
+office space and says you take the
+requirements whether that's your
+providing no value so that's what you do
+as a product owner you should stop doing
+that because you're probably going to be
+out of work so the thing is customers
+are always asking for up trying
+performance and security but they don't
+use these words right so that's why the
+product owner has to think about what
+are the impacts right and why things
+like up time performance robustness
+these are features of a product right
+even though they didn't show up in a
+user story from a forum and a focus for
+right because again without uptime a
+customer can't get to that wonderful new
+feature that you've delivered right
+without performance they're gonna leave
+in frustration without security they
+won't trust that new feature so these
+things all matter and it's really
+helpful when product owners understand
+those responsibilities the service are
+part of
+their job right and management right
+this is just sort of generally you know
+your your your management people the
+your line managers your executive
+managers right thing is service
+ownership and this model really works
+best when its champions from the top and
+consistent across the entire product and
+engineering organization you can start
+this stuff smaller but you really do
+need to have this this championship
+because there's so much interdependency
+within the org chart right when that
+comes in so like leaders they help set
+goals to balance business priorities
+with achievable engineering goals right
+so if leadership is expecting 100%
+uptime for your main product it's gonna
+be pretty challenging to create a
+reasonable plan about how these things
+can possibly support its destined to
+fail right so another piece is like
+investing in tech debt right leadership
+establishes this cooperative and
+blameless service ownership culture
+defining your top level objectives
+making room and investment for
+maintenance documentation with
+sustainability this is what we would
+like them to do learning it's getting
+better
+all right cool right so let's go a
+little deeper into some of these things
+we kind of talked about where the roles
+are but where do these things come in so
+a couple things what are you observing
+about this service when you're thinking
+about I know we're thinking a little
+holistically right we have this service
+so let's talk about it right what are we
+observing about and this is a whole
+other talk in itself by the way so don't
+expect this one right now but I bet you
+there'll be a good one at this meetup
+sometimes
+so but let's just think about right
+there's a few things to keep in mind
+know you you actually want both of these
+things and these things are not the same
+okay so there you go now you just heard
+enough server ability talk so I really
+like this like it's very common like
+you're amazed that my quote is not from
+charity majors aren't you that's okay
+I've got charity somewhere else but I
+really like this one from Barren right
+so he's like monitoring tells you
+whether the system works observer
+ability lets you ask why it's not
+working you know again it's the things
+that we we don't we can't plan for it a
+lot of times I always think about when I
+think about observability I was like I
+kind of ran into this problem 15 years
+ago ten years ago pitties you know and I
+worked for
+in the company of zaps we would have an
+issue and by email we've resolved this
+resolve the incident everything in that
+my CTO would come to me afterwards and
+say about why weren't you monitoring to
+this and I said Pat because up until
+last night we didn't know what was
+possible we didn't know that that could
+happen and so the thing is but then it's
+really hard to dig into that so the
+monitoring is going to tell us that a
+bad thing happened right we know that
+some some level of things that we care
+about is not being that thing but it's
+not going to tell it's only going to
+tell us things we already knew about and
+I like this idea of empathy driven
+alerting right so focus on the customer
+experience always goes back to the key
+business metrics around the experience
+of your customers and here's your
+charity quote right it's a good one 9s
+don't matter if your customers aren't
+happy right I don't care about the CPU
+utilization of this particular box if
+the customers aren't happy right or
+vice-versa right or if they are happy I
+don't care about how much it's using
+either so it's always going back to like
+being able to understand key business
+metrics the the my favorite trope and
+it's gonna have to come up in this talk
+is do you know how your company makes
+money if you don't go find out we'll
+wait right because we need to know that
+even if you and I understand that not
+everybody works for a profit-driven
+organization but I think you can make
+the extrapolation you know how you're
+providing value you know what is
+important to how that organization
+provides values and it always comes back
+to some key business metrics and setting
+those requires understanding how your
+business works understanding how your
+company makes money and the other thing
+is if I ask you and I say you know what
+is your what are your key what's your
+key business metric and you rattle off
+15 things that's not a key business
+metric that's a bunch of things you care
+about
+so examples if you Netflix is famous one
+is stream starts per second and the
+thing about these key metrics are the
+ones that are like if something happens
+with this it's a clear indicator and
+there's a clear thing we care about it
+doesn't mean you only have one it helps
+if you have one you know so being able
+to understand that defines a lot of the
+things that matter but these metrics
+should always go back
+- customer experience and again this is
+a whole other talk in itself so but just
+a little refresher because at the point
+I want to make about them so if you're
+not familiar so let's start with service
+level indicators right these are
+building blocks and remember they're not
+goals but they're the measure these are
+the things that are indicators of the
+reliability the robustness the
+performance of your service so they
+might be things like latency throughput
+availability again notice I don't say
+90% you know availability is
+availability isn't indicator right it's
+not goals but what is the measure and
+these roll up into service level
+objectives and again these are made up
+of the slis
+we measure them over time and the thing
+about them is they're not contractually
+size right these are an objective these
+are an internal measure your customers
+don't know what these are that's okay
+and again you can go to X recon and
+you'll see a 45-minute talk about this
+one slide so yeah this is a teaser but
+here's what it matters and then finally
+you have your isolations and these are
+terms that we've all known forever and
+ever and ever
+here's the thing they're basically
+driven by your SLO it's the same idea
+the same metric these are things that
+are contractually legally binding
+basically this is when you owe your
+customer money so question is number one
+do you want to be alerted when you're
+breaking an SLA know it's too late you
+want to be alert because you don't want
+this to ever happen right so but these
+are where they build in because you know
+you're rolling up to these SLA is why
+you want to tie things that as much as
+possible so this is a term that I came
+up with on accident but I really like it
+happened with me trying to say happiness
+and sadness at the same time and so it's
+a happiness point so I was talking to
+dr. Jennifer Pett off who the editor of
+the Google a story book she's a program
+anniversary at Google so she has
+credentials I don't have in fact that
+she agrees with it means it's okay and
+so we're talking about where do you set
+an SLO and if we came up with that it
+was the Hat at this point and this is
+the point directly the inflection point
+of customer happiness and customer
+sadness right it's exactly the threshold
+where they pass for being happy to being
+sad that's where you set your SLO
+because of you
+set it to low you're gonna be alerted on
+things your customers are still totally
+happy and everybody's cool if you said
+it too high a lot of customers were sad
+before that happened so is there a
+scientific measure of happiness not yet
+but it gives you kind of the point right
+you want to set it and again they should
+be set tighter than your SLA because we
+want to know about them before we can
+know the customer runnings right and you
+alert on SLO s not uh Nestle is as SL
+eyes do not have a goal right they are
+they are a dial they are a measure and
+again you probably want some alerts on
+an SLA but not for responders you know
+who wants to be alerted on an SLA your
+business management because they know
+they're about to have to write a
+chocolate hopefully that alert never
+goes off because you've caught it on
+your lips right okay
+so then okay great so we've been we'll
+talk about what we're observing what
+we're thinking about how do we actually
+respond to this service this is also a
+really bad sentence I need to think
+about how to rephrase it because it's
+more how do we respond to issues or
+incidents with the circus so again first
+time doing this ah it's great right so
+how do we think about this right so
+escalation policies right what is an
+escalation policy what do we mean by
+that it's the order of responsibility
+for reacting to new issues that are
+detected on a service and there's
+several different approaches to how you
+can coordinate the triage
+acknowledgement and ownership of the
+response and one is we sometimes refer
+to this as a DevOps model yeah but okay
+it's DevOps as opposed to other which is
+why we call it that right but usually
+with organizations that have that follow
+more DevOps principles as opposed to
+central ops or enough or things like
+that they generally have at least three
+levels of escalation for critical path
+services starting with the team that's
+currently maintaining that service right
+so the team that owns that service is
+usually a first escalation point so what
+does it mean to be in that first level
+right it's it's the representative of
+the team that's currently maintaining
+the service remember you may be on-call
+first service you didn't originally
+build that's normal it's okay right and
+but this should be a rotation of folks
+on the team who are ready to respond to
+issues on that service
+they have some domain knowledge around
+it and frequently there are multiple
+people on this first level it's not
+delightful if there is one person in the
+whole organization who is first level
+for that service and they're the only
+one it's not delightful for your
+organization for a couple of reasons one
+what if something happens them like for
+example they get another job because boy
+doesn't suck to be the only person on
+call for a service right and but a lot
+of times too when we think about some
+teams will treat the first level of this
+policy as the primary point of contact
+for questions about the service as well
+so they could be an interrupt handler
+that ships with the on fall rotation so
+it's not necessarily just about
+incidents it could be anything where
+they're kind of you know again someone's
+got a question it's not a critical thing
+but they're playing triage playing
+router they're being able do that that
+works out pretty well usually as long as
+your system set up that way because the
+reality is somebody has a question they
+ask the person they know right so it's a
+great idea to try to do this it doesn't
+always work out so what and what do you
+think about second level so this may be
+another rotation of people on that same
+team so a pager duty our second level of
+the escalation policy is the same group
+of people as a primary level but it's
+offset by a week right the secondary for
+a given week was primary for the week
+before and the whole schedule rotates
+and our logic is that this person still
+has context from the week before this
+isn't true of every team at page or do
+we actually every team at page 3 is
+allowed to do their escalation policies
+the way that they want to but that's a
+common pattern and it's giving an
+additional per it's not necessarily
+going to a more senior person but it's
+the point of that okay I'm the responder
+I exhausted what I'm able to do so I
+need another domain expert who's
+actually probably somebody on my team
+right to be able to help out and then
+for us our third level this is usually
+when it becomes about escalating to
+leadership right this might be the
+engineering manager for the team for our
+tier two and Tier three services most
+escalation policies are these three
+levels and then for our tier one we
+often have a fourth escalation which is
+senior senior engineering leadership to
+kind of bring bring them into play and
+then when we think about escalating
+right so how does this happen right most
+organizations understand that everyone
+is human sometimes for various reasons a
+person who's on call might not be able
+this will work the current problem right
+if the first level responder is
+unavailable the second level level
+usually activates within a time period a
+small gap between level one and level
+two does not necessarily make the
+service more reliable and decreasing the
+gap is a trade-off right if we're like
+okay how much time is there between when
+Bridgette doesn't respond and it
+escalates to Joe the faster you skip to
+the next level you're actually causing a
+little bit more trauma to that team
+because you're putting a lot more
+anxiety on level one because when you're
+on call level one you know you have to
+respond in five minutes
+or it escalates right so having that gap
+is not always a problem and you have to
+think what with the impacts of that and
+the other thing is the escalation can
+occur manually right it could be it's
+not just because Megan didn't respond to
+the page right it can be Megan's like I
+need more help I need I need another set
+of eyes right and we want a pager duty
+we believe that our first level
+responders need to feel comfortable
+asking for help as soon as possible so
+we maintain that the second level of
+escalation should be someone the first
+level responder feels safe with right
+responding to an incident is the team's
+responsibility it's not an individual's
+responsibility
+not a single person at a time so the
+first level responder may be the first
+person who started working on the
+problem but there's no rule requiring
+that that's the person we actually ask
+to resolve the incident that's just
+where it starts this is a DevOps meetup
+so we're not going to talk about these
+but they exist these are other ways to
+do escalation there's a central approach
+hybrid is you know how we say things
+instead of bimodal I see because bimodal
+I see was terrible thanks Gartner
+thinking about tuning your service right
+so we're gonna continually investing and
+making this better right so one of the
+things that could be really key is
+having regular operational reviews
+around your service looking at how are
+you're looking at your monitors looking
+at your SLO s are you breaching them as
+it is continually because the thing is a
+lot of times you
+may in or have an interrupt and it's
+quickly resolved and there's not an
+action item there's not a thing to go
+fix in the code but you're looking for
+patterns and you're looking for small
+tunes and small tweaks you can make over
+time and that's the thing that's where
+you look for patterns because they're
+every incident is different I get you
+but every snowflake has six sites and
+what we really want to be able to see is
+whether or not something was an anomaly
+because sometimes just as weird right
+that happens welcome to computers but
+what we want to do is say like huh I'm
+starting to see a pattern here
+so that means either something really
+bad is gonna happen
+so we want to be in front of it or and
+this is something that is systemic right
+it's not just some really weird
+conflation of just the right user doing
+just the right weird thing that ain't
+never gonna and here's the thing right
+when we're looking at these this tuning
+and again always looking back to these
+reviews
+what alerts do you actually need right
+so if you alert on five things and you
+understand all five of those things
+right
+that's pretty route that that's that's
+something you can reason about if you
+alert on a thousand things and you treat
+each of those with equal priority it's
+highly unlikely that any of them are
+getting the attention that they need so
+continually reviewing and this is where
+operational reviews are big thing for on
+clock handoff right you you need to have
+a consistent way this can't be just the
+thing you sort of do by accident and
+then your spare time it's a really good
+idea to say when you're doing especially
+when you're doing I'm talking and often
+rotation but part of that is an
+operational review which is just hey
+what happened because it's giving an
+opportunity to put some eyes on this and
+doing it in a programmatic way right not
+actionable alerts are terrible right
+okay
+this is why you always always do a
+post-mortem even if it wasn't an actual
+incident that's how you know to refactor
+you're alerting so it's come to blood
+it's like okay something happens we
+thought it was an incident turns out it
+wasn't so we closed it you know what do
+a post-mortem anyone does this yeah does
+this mean schedule a meeting with
+five people and spend an hour and a half
+of the book no no the post-mortem could
+be five minutes long and you could just
+write it up but you want to look at that
+because there was a reason and you may
+want it to be okay for incidents to be
+created we don't want people to be like
+I better damn well be sure that's an
+incident before I trigger instant
+response you want to be able to do that
+but the way that we're going to see that
+things were not actionable is by
+reviewing it when it occurs and saying
+oh interesting we have a flappy monitor
+here or we're learning on this thing
+that's actually not actionable so we
+should stop doing that and the way
+you'll discover that is by doing a
+post-mortem on that and that's why you
+don't do post-mortem only on your big
+scary sub ones that cost the company a
+billion dollars so and then work with
+your learning tool for suppression of
+non-actionable alerts because your
+monitoring tool needs to do all the
+things it does but the way you're being
+alerted you can work to be able to
+suppress them if you know they're not
+actionable and I hear the pager Duty has
+a pretty nice feature like that
+understanding the business impact right
+again know how your company makes money
+what does this service do to tie in with
+regard to customers or revenue or just
+the value that your organization
+provides to its users do you know what
+the business metrics are associated with
+your service and we can kind of go by
+and just sort of looking at all the
+stages that happen from a Wi-Fi is
+lifestyle perspective lifestyle the
+lifestyle of a service and where these
+steps come in right so we think about
+designing a new service we've got a
+brand new beautiful service providing
+new functionality it's all nice and
+beautiful entry field this is amazing
+when this happens when we get to do this
+but sometimes we do so some of the
+things we think about right like we need
+to understand the customers right who
+are the consumers and again a customer
+can be external to your organization
+that can be internal but someone is
+consuming this someone is a customer of
+this service so again load testing and
+staging I know staging is a lie that's
+cool but this is a brand new service so
+it does start somewhere right you want
+to at least be able to model what you
+think it's going to look like if you are
+not involved
+your sustainability teams early in the
+design you're in for some trouble
+because when we kind of as we know if we
+kind of offload that to the end they're
+gonna find some problems and it's too
+late for them to do anything about it
+and it all gets thrown in the backlog
+and never gets done
+see also security understand your
+indicators understand those those
+alerting requirements whatever documents
+aid don't forget it and then again all
+your security stuff and again the stuff
+he needs to happen early this is this is
+why there's a whole new word about this
+this Deb's second language by the way
+nobody in DevOps ever said security
+wasn't part of it but it's ok we like
+words right ok maintaining and iterating
+you know now we've we've got our
+beautiful bouncing baby services out
+there it's making money for us we need
+to keep it running and we need to keep
+improving it right so things we talked
+about like remembering to keep that API
+version communicating to its consumers
+as much as is read reasonable and as
+much as you think is reasonable do more
+being able to keep that proactive
+maintenance is really key what do you
+think about your backlogs you have to
+maintain it you have to feed your dog or
+else your dog gets really sound and
+stops playing fetch with you continually
+addressing the tech debt that we
+discover right it's so very easy to keep
+pushing that stuff down in the backlog
+and then we can't end just thinking
+about all the things that go into what
+does it mean to actually release this
+you need to have a consistent way of
+understanding and sometimes it's time to
+get rid of them and this is something we
+really don't think about a lot and this
+is why you end up with a lot of
+components and services hanging around
+that nobody actually knows what they do
+anymore and people also sometimes are
+very afraid to turn them off and this is
+this happens a little bit of a different
+way but the game for me as an old ops
+perspective there was always that one
+box in the data center nobody knew what
+it did but damn it ain't nobody gonna
+turn it off either right and I did have
+a few change controls that I did put in
+when I was at an insurance company which
+was to start off a server and the
+validation was did anybody complain
+those are hard to get past the cab by
+the way similar to what would that was
+my favorite was what that change was to
+turn off
+server and I got him kicked back to say
+what's your backup plan and I like turn
+it back on
+make sure so anyway when you broke
+things the thing about is again I'm back
+to that point identify the consumers of
+this service as much as you know and
+understand what is that business impact
+because sometimes there will be one but
+it's acceptable right maybe you got a
+couple of customers that are still using
+that service and they're making you a
+hundred bucks a month and your AWS bill
+for that service is twice that I'm not
+an MBA but something tells me maybe it's
+okay to get rid of that one and then but
+have a process for how your off-boarding
+the consumers of this service right your
+so if you're shipping them to something
+different it's not just like okay by the
+way we're turning this off and this is
+really hard to do well by the way
+therefore anybody's doing this well I
+applaud so the thing is service
+ownership includes communication
+compromise and commitment right it's
+almost like you're in a relationship
+with the consumers and customers of your
+service think about it that way right I
+just want to give a couple
+acknowledgments the folks who directly
+or indirectly helped me with this so
+Lilia got Nick Juliet done 13 acres of
+barren Schwarz all the images are
+attribution free free images from
+pixabay and if you enjoyed this talk
+here's a few more things about me right
+so podcasts to the rest of DevOps come
+get some stickers
+I run DevOps State Chicago and until I
+saw bridges slide I forgot that now you
+can go to DevOps tazed I've already
+slash Chicago instead of doing this by
+the way I run the website and I didn't
+remember you can find me on Twitter if
+you haven't seen it plastered all over
+but here's a whole website in case you
+know Twitter works and you can also find
+videos and slides and stuff of previous
+talks at speaking about Matt Stratcom in
+case you didn't know I got a new license
+plate so thank you very much for for
+having me here and I look forward to
+talking to you exactly
+I had no idea how long her talk is gonna
+be so it was exactly 45 minutes thank
+you all right Maddie that was fantastic
+we are going to run mics around and we
+will not be offended if somebody needs
+to duck out but we are going to run mics
+around and take questions and your
+questions will be recorded though we
+don't have the camera set up quite yet
+to zoom in on you during your question
+yeah your question will be audio but not
+video yeah I was curious how you
+pronounce your license plate I say cube
+cuddle I can't pronounce but I think
+it's q Q cube Michelle I think is the
+one that I've used CTL well there's the
+one that's sort of like best oh but you
+know control yeah Oh Archie back toe to
+back dual that's it yeah
+q back dome if you really want it okay
+I'm not the only mic runner am i okay
+great you've got one up first I just
+don't want everyone to wait well I like
+run over there I'm here just to get
+advice so I haven't figured out how to
+charge for it yet so I can't get so when
+my team does on-call rotation right now
+is whoever's on call that's the whole
+shebang basically you're taking
+everything during the day and at night
+to the best that you can now be okay
+with like so yeah that's exactly why I
+bring that up we're learning as we go
+it used to be you know like hot potato
+nobody wants to do
+so anyways so just advised about that
+and what's better and you know so a
+couple a couple things to bear in mind
+being being the the on call or the
+primary responder during the day and at
+night is not necessarily a problem and
+we take points out of the sprint and
+loan them to that person or there's
+that's the understanding so it's like a
+half your time is gonna or thirty your
+time or whatever so the thing to bear in
+mind is that that's always going to be
+just the best guess that really gets you
+badly to try to play that game when
+you're a shared resource like so just to
+not go too crazy into that but I
+remember I ran tech ops team where my
+sis admins were shared across multiple
+product teams and I had to allocate a
+certain amount of time for production
+issues so that was like does this mean
+that once that time is up we don't work
+production issues anymore no right so
+there's a flex you've got the right idea
+just as long as it's not a thing like
+you have so many sort you know the big
+thing is during your your on call week
+there's two two ways to think about one
+is that it's just generally just being
+uncle even if nothing happens adds
+stress so it's a tougher time right so
+as long as we understand the other thing
+I know a lot of teams a lot of folks
+will during your your wrote a week or
+time is you will your focus is on
+sustainability and all that tech done
+because you're also thinking that way
+right so they're those also because
+they're things that don't have some
+specific commitment to a customer so if
+you don't if you don't finish it it's a
+little less impactful so that's it's
+time to kind of work those stories the
+other thing with that impacted it's a
+little harder so I know a lot of people
+really like this idea that it's like we
+switch rotation around by how many
+incidents you work and then the promise
+predictability for everybody else right
+so it sounds delightful to say that like
+if Megan gets called then then Pedro
+Duty will automatically you know move
+Justin to the next on call um Justin
+didn't know he was gonna be like oh and
+you know what his daughter has got a
+play he's going to write so like there's
+there's ripple effects so what we do at
+Patriot II most teams do this it's not
+part of our rules or policy but it's
+just part of our culture is if you're on
+your team and you know that someone
+worked a long incident someone will
+volunteer to take the override form for
+the rest of it it's just sort of a thing
+it's like okay you know and we we try to
+do that to help keep each other what's
+up here the other thing to bear in mind
+too a lot of times when people kind of
+get into this model like oh my god oh my
+call because what if I like have to work
+this eight-hour incident all night then
+we're going I said you shouldn't be
+working in a two-hour incident that's
+too long
+that needed to get handed off at a
+certain point so we have I think it's
+two hours which is pretty short most
+people don't pull that one but a pager
+duty it's generally speaking an incident
+commander or a responder at about two
+hours is supposed to hand off to
+somebody else because there is a point
+of diminishing return of having somebody
+working on this very stressful incident
+for a prolonged period of time you can't
+always do that not all teams have
+brought enough place to do that
+but having that as a general principle
+right being able to do that usually
+that's why you have a backup right then
+you probably head off to the back
+another backup might hand off back to
+you after two hours it's not saying I
+did my two hours all done but at least
+I'm not I'm not dealing with it because
+that's the stuff that you really do stop
+stop being good at it after a certain
+amount of time it's not great it's
+really not for our brand oh yeah yeah
+that would be especially bad if people
+knew that we had if we had bad on-call
+culture yeah I don't have an optical
+schedule which really means that you're
+always on call yes Devine the kafka tea
+leaves yeah that's that's one of the
+things that you say that because a lot
+of times folks who are not used to being
+on call like when you're trying to
+transition they're usually software
+engineers but by the way apparently
+software engineers think that only
+software engineers care about their
+families I guess you know that's a whole
+other thing
+but the problem would I would some
+people I'm like if you're not in an on
+Conroe de you're always on call right
+because people know how to find you the
+beautiful thing about being
+fall is you get to go off call and yes I
+understand there's nuance to that yes I
+understand there's certain roles and
+parts of the organization where you're
+always they're always gonna find you but
+usually you're probably getting paid a
+bunch for that so stop complaining it's
+okay right but as an individual
+contributor generally speaking you means
+that you get to sit there and say I am
+NOT on call tonight I can go to my son's
+Christmas party and not have to worry
+about getting called so that's the
+downside it's it's hard to ship to that
+model and especially when you don't have
+a lot of people one way to start by the
+way getting into that that I found is
+because what people are always afraid of
+with uncle is that 2 a.m. page right so
+people if you have folks who've never
+been on call before
+don't don't don't throw them in the deep
+end start by saying we're gonna put you
+in pager goody or whatever during the
+day because guess what you're already
+responding to incidents what we're doing
+is we're doing it through our regular
+process rather than drive-bys and slack
+or whatever so getting used to that
+model and saying okay maybe you're just
+on call during business hours that you
+don't have to worry about the fact that
+you very much your family does that
+nobody else does but but that eases
+people into it
+because it is a different change to be
+used to being but if you are the right
+person they will find you actually
+perfect
+so here's some small software company
+relies on its support team to be the
+first level if there's an incident when
+the services to point out to the
+customer trying to transition that team
+into a place where perhaps that lead
+developer that did a lot of the work to
+build out the customizations or
+configurations are one for that customer
+getting them accustomed to being on call
+for some period of time during a go live
+is that something that seems like a
+typical transition or a transition that
+you've seen before whether it be a
+support team that's first level they
+aren't the ones who wrote the original
+code of courses you've mentioned earlier
+in your presentation that can be the
+case but then trying to get someone like
+your lead software engineer
+that project is your it's very common
+because that's not Enterprise IT is done
+IT for the last 30 years because you
+have a support team and guess what it
+doesn't work real well right because the
+problem anytime you aren't putting
+domain experts involved as quickly as
+possible as you're asking a group of
+people to know about a lot of things
+right now it can work when you have this
+support team that is following SOP SOP
+standard operators are only doing that
+to a certain point if that's all those
+people are doing you that's the thing
+that computers can do better usually and
+those people are actually pretty smart
+and you can be putting them in a
+position where they're actually doing
+something more effective but it is
+usually stands to reason you're like
+well I don't want to pay my really
+expensive people to have to do support
+stuff so support goes over here it's
+really bad for your company culture too
+because it creates this sort of model of
+like Who I am too good to go on call
+that's for support now that transition
+is common right like because that's how
+a lot of people do it they have a
+production support team and sometimes
+those are the people that fix bugs
+that's a whole other code spell we won't
+talk or organizational smell but yeah
+moving to that and it isn't necessarily
+that again depending on this side and
+they said depending on the software
+company like so it's about finding where
+those boundaries of knowledge and
+responsibilities are so it doesn't have
+to be that the lead developer is always
+on call but someone who's involved with
+it but when it's somebody's only job is
+to be on call to fix things that are
+broken first of all as your set our
+systems are a lot more complex than that
+used to be you're asking a lot and they
+will for that person to also have a
+visibility into all of the things and
+unfortunately because of the way we
+think about it those are usually very
+low paid people and we're actually
+asking them to know the most in our
+whole organizations which is why it
+generally does not work out super great
+there is a difference between that and
+having like a NOC which is a into an
+organization that is very much built
+around being able to understand the
+right people and being able to run an
+incident that's that better but that's
+usually not what that model that you're
+talking about is it's usually just like
+you're the poor schlubs who are in the
+support team and you're the ones who
+have to carry the pager so moving out of
+that as much as you can and part of it
+is because of the organizational
+dynamics the other part is just that
+sort of thing that if I know I'm on the
+hook to support stuff I wrote I care
+more about sustainability I know we can
+it is people are incent it's it's a
+thing it's not the only thing it's not
+the only reason to go to ship it on it
+right it's that's part of it
+but it is absolutely true and doesn't
+mean that I'm going to write perfect
+code because I don't want to get paid
+your stole even if I don't know but we
+think about things differently and we
+think a lot more about operability when
+we know where were part of that and a
+couple questions first to follow up on
+this topic very interesting typically
+the people who are the best experts and
+stuff they are called
+last because they are very busy with
+other stuff so and on one side yes we
+don't want to create this layering of
+you know first first level sports second
+and third but at the same time the
+people for the third level of support
+they usually overwhelm with different
+requests from all sides so well that's
+because they're doing - they're they're
+thinking about support is the secondary
+thing they sometimes do it's not a
+primary thing of supporting the thing
+they built and it's not baked into their
+job so it's there is there are many
+organizations that are very large that
+have very talented people that would be
+considered level 3 that are quite
+capable of being able to be the first
+level but it's a it's a mentality shift
+right
+it's that support and on-call is not an
+ancillary thing and another question
+please
+so we were talking about the services in
+a broader concept not just my cursor
+right but you mentioned that other
+things could be a service so does it
+make sense to start looking at
+everything that the team is doing from
+the services perspective or it still be
+kind of like
+exaggerated approach unnecessary
+approach it doesn't create a management
+kind of nightmare when we need to define
+everything between every everybody what
+is a service and who is responsible does
+it make sense to you and approach that
+well a lot of it goes back to trust of
+the organization right if you don't
+trust your teams to be able to operate
+their tools and they have to be told how
+to do it it's a management nightmare
+because you now have a couple people up
+here that are telling everybody how to
+do their job and if that's and sometimes
+organizationally that works and in a
+case like that it it's very hard because
+now you're creating this but being able
+to create guidance but then saying at a
+certain point this team this delivery
+team has responsibility and has
+ownership of that service so they don't
+have to be told every little bit of how
+to do that right there's guidance that's
+created there's process around it and
+there's capabilities but a lot of it is
+a lot of it is trust and a lot of it is
+this so I guess the thing is defining
+everything as a service doesn't work in
+command and control right it works in
+and being able in more of the lower case
+advil and I need to stop walking over
+there sorry there the cameras don't go
+everyone oh I forget about the camera I
+was like everything hear me it's totally
+fine so a lot of it again it's like it's
+not necessarily going to work for every
+single organization that every single
+organizational model but the other part
+is a lot of this there's data around it
+there's science around it or read
+accelerate write high-performing
+organizations work this way and I've
+seen every industry do it so it's hard
+but it is it easy absolutely not can you
+do it tomorrow absolutely not so working
+small coves yeah Matt hi I'm Greg one
+two three Evan I've been following you
+on Twitter and I'm sorry for for a while
+I don't sleep well early in your
+conversation you were talking about
+finding dependencies and we're trying to
+diagnose a problem and you know it's not
+so bad when you have a small application
+because I can just say okay here it is
+but when we start to look at full stack
+dependencies and for a mature product
+there's nobody around who knows what the
+heck is in there how do we go about
+discovering
+in an effective fast manner if we have
+our lower-level people are not well
+trained it is really going to be hard to
+get them started and on the right track
+do you have suggestions for how to fix
+that step one invent a time machine and
+go back and document your ship okay
+barring that we can't do that it is this
+is where we're and by service registry I
+don't necessarily mean a technical
+solution of that but just being able to
+have kind of some kind of a mapping and
+some kind of a piece and sometimes
+that's just the documentation for that
+service that shows the best that you
+know but some of its going to require
+some investment in doing some research
+right you know because it's also not
+effective to continually page out until
+you finally find the one dude that kind
+of remembers how it works if they're
+still with the company right right you
+know let's talk afterwards because I
+have some ideas on how to solve that
+project thank you all right I'm gonna
+call the Q&A here because I want to make
+sure everyone gets a chance to talk to
+each other to come up and ask their
+individual questions mobbing Stratton
+and making it impossible for him to get
+away from here and I I want to make sure
+that everybody also gets a chance to go
+have a chat with Couchbase remember
+they're hiring and they would love to
+chat with you talking to each other so
+we heard a bunch of people ask questions
+those questions were asked of me guess
+what yeah I have the mic right now but
+that's about to stop so if you have
+ideas or experience with some of these
+things you might invite yourself to cure
+that with folks who asked the question
+so it's not just me doing all the
+talking because I don't barely do
+anything I just convinced Bridgette to
+give me the money I thank you so much
+Matt for sharing all of this wisdom
+please round of applause for Matt
+Stratton

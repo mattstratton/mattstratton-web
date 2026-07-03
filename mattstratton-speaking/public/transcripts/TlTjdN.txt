@@ -1,0 +1,145 @@
+Hi, I'm Daniel, and I'm into sports. You know, I love sports, and my dad decided when I do sports and statistics, so I decided to do that. This is my presentation, and also my dad helped me a lot in this presentation.
+
+Installing R is easy. You go to your R — all you have to do is go to a browser, type in R, and download the system. And then it almost works for almost any software. Type R into the terminal to start. You can use it as a calculator. Also you can use it to check your answers, like "two plus two equals four — true or false."
+
+I learned R variables are pretty cool, like a simple one is A equals 10. There are also R vectors. Vectors are groups of variables in one variable, and a matrix is like a table or graph. Let's look at an example. I took the top five relief pitchers and put them into it with their career ERAs and put them into a vector, and then I can look at their median, max, or minimum. Also, I type in "summary" and I can look at everything else. You can also read files with R. I took top 10 great pitchers and put it into a matrix.
+
+Explaining standard deviation is hard. Me and my dad went to this one blog and it showed two pizza shops and their times for each day. We put the ERAs into vectors and we got that the median and mean were the same. Also we did standard deviation and realized that ABC was a minute faster usually.
+
+Let's go back to an earlier ERA plot. You can use the "abline" function to show the mean, which is the middle line, and standard deviation, which is the top and bottom line.
+
+How many of you have seen Moneyball? Well, in 2002 the Oakland A's had the third-lowest team salary and they went on to embrace sabermetrics. The Society for American Baseball Research — Bill James was the father of it, and he joined the Red Sox in 2003. In 2004 the Red Sox broke the Curse of the Bambino.
+
+Me and my dad found this one book — we haven't read it yet or bought it. And also my dad helped me build a GitHub account, but I don't really know what it does, but he'll teach me more about that.
+
+The Lahman database is pretty cool — you can look at all the baseball data like batting and people's files since back to 1871. The Lahman database has great examples to use. Me and my dad have been using the batting file with the batting statistics, but sometimes using the Masters, which shows the players' names and their info.
+
+In this example I load five great players and their all-time career hits. As you can see Pete Rose is the highest, and some of them are in the 30s and 40s and 60s. On the next one, we took only the years where they had at least 300 at-bats, and everybody's went up from the 30s to the 60s and from the 70s to the 90s to the 190s.
+
+On-base percentage is hits plus base on balls plus hit by pitch over at-bats plus base on balls plus sacrifice flies plus hit by pitch — and that's on-base percentage. I took five great players and looked at their career OBPs, and as you can see Ruth is the highest with 0.4740, and the others are in the .330s.
+
+In Moneyball, Matt Damon and Scott Hatteberg are both players, and Damon had over six million dollars more than Scott Hatteberg, and Hatteberg had a better OBP.
+
+The new stuff that I'm going to be working on is more work in baseball and fantasy football and stocks in R. Thank you.
+
+---
+
+Thanks to the attendees, organizers, and sponsors of DevOpsDays MSP. It's a pleasure to be here.
+
+Let me start by asking a question: how many of you have done this? Or better yet, why do we do this? So logs represent a source of truth for an application, but in a lot of ways they also provide instrumentation. Sometimes we even add our own information to logs, and in the Rails framework this is how we would do it. As we all know, there's data hidden in logs — we've got data about how long something took, how many occurrences, and with the right tool this data can be turned into information.
+
+So how do we get the information out? What if there was a multi-purpose tool, something that could gather all this information for us without parsing brittle logs? We all know that the best tools start on the command line, so any tool that we might choose has to be simple and powerful. No overhead would be nice, and something that we can run from the shell. It would also be nice to have a tool that isn't going to lock us into a fixed solution, something that works with our current languages and frameworks, something that is flexible enough to change with the times.
+
+Well, StatsD — the hero of my story — is just that. I like to think of StatsD as logging for metrics. Basically any place where you might add a log statement, it's a perfect place to add a StatsD metric.
+
+Just a little history: StatsD is an open source project. You can find the project here. We've got a lot of people from Etsy here and would like to thank them for releasing this tool.
+
+Before we jump in, there's a couple of key concepts. StatsD stores metrics in buckets, and each metric has a value. There's a concept of a flush — that really didn't make for a good slide — this defines when the stats are aggregated and sent to the upstream service.
+
+So let me show you a couple of the tools. We'll start with a counter — this is going to count occurrences over the flush interval. And instead of adding logging code, you could add a statement like this instead. Maybe next we want to add a running total, say registered users on the site, and here's an example of a gauge. Once set, this doesn't change until it's set again. Finally, how about a timer? Here's an example — it keeps track of how long something took. This one I like to call the bonus metric: when it runs, it gets all sorts of extra information — percentiles, averages, standard deviation, etc. So the counter, timer, and gauge — they're all pretty easy, right?
+
+These are tools you use with StatsD to instrument your application and generate an army of metrics. But once you've got this army created, what do you do with them next?
+
+Well, I've shown you the good — now let's take a look at the stumbling block for StatsD: you need a new stack. You need a service to receive the metrics, something to visualize the metrics, and something for alerting. So here are a few of the tools used most often. You can use Node.js to run the default aggregator. Brubeck is new on the scene — it was introduced by GitHub just last month. Graphite is the de facto visualizer, but Graphana is certainly a viable option. And I've never used Cabot — I heard it's a popular alerting tool for Graphite.
+
+So from your army you'll transmit your stats via UDP. You'll also notice a data transfer point at each service, and if you're working in a shop that is stack-specific, the typical stack — Node.js, Graphite, and Cabot — can inject a lot of new complexity, and the stack gets a little deep especially when it's outside your realm of expertise.
+
+Of course there are SaaS solutions as represented here — they squish our workflow down and get rid of the interchanges. Both provide visualization and alerting out of the box. You can also do this with a nice handy container and monitoring.
+
+Last month James Turnbull spent a lot of time talking about giving our teams the tools they need to do their own work. He talked about developing infrastructure for developers. I feel like StatsD is one of those tools.
+
+Thanks. My name is Mark Morris. You can find me at Blurbit on the tweets, and I work at Scout, a hosted server monitoring solution. Thank you.
+
+---
+
+Hello. I wanted to talk a little bit about the reason I think that we're all here and how it relates to the Segway. It was innovative — we had great tech, it has a gyroscope for self-balance — but it didn't find a market. And we can relate to that in a lot of ways on a smaller scale. But we want more. We want to be involved with something that has value, something that will have an impact, the chance to work hard at work worth doing, as Teddy Roosevelt put it.
+
+So how can we make it more likely that we're doing that? We can start by acknowledging that we're creatures of habit, and if we want to do something new we have to provide so much value that people will change their patterns to make room for what it is you're doing. You know Steve Jobs predicted that the Segway would redesign cities. So how do we have a hope of knowing what'll stick?
+
+One way we do it is just build it. And we're good at that. We can go through all those activities that entails and release it and find out if it worked. But if we made any bad decisions along the way, we paid a really high price to learn a lesson. So the next time we build an MVP and scale it down a little bit and reduce some waste, but a lot of times we go through the same activities and find out if it worked or not. So we didn't bet the farm, but we still gambled quite a bit.
+
+So Lean gives us an approach that cuts down some of that waste. We can break it down further, figure out what are our assumptions and what are our riskiest assumptions, and how do we test those as fast as possible. So what we did is try to design a better way to deploy complex applications in the cloud. We put an early prototype in front of customers and our focus was totally wrong, so we learned that so early that we lost about a week rather than several months or more of development effort. You want to be wrong as fast as you can, and this build doesn't have to be code — in fact it shouldn't be if you can test it faster any other way.
+
+Okay, that may have lost you if you don't work directly with customers. You're really doing your part, but you're kind of kicking the ball out of the tent. So what is it that your organization is trying to achieve overall? Because that's the goal that should transcend silos. And that's hard — we've got a bunch of teams usually that each have their own objective and they're not necessarily aligned. So even the most resourceful design leaders and product leaders can't achieve that common goal in isolation. For one thing, they need a lot of ideas from a lot of different perspectives. And if we're waiting for those to come out of design, or waiting for them to come out of marketing or product, or from the highest paid person's opinion, we're really missing an opportunity. We find that a lot of those really good ideas come from the people that really know what's possible.
+
+We love involving the engineers, getting them closer to what the customers are experiencing. It's not just about ideas though. Are we empowering these people with the tools that could make them able to achieve their objectives more? Can they even launch a build? Can they launch a release? Do they have access to the metrics for gathering? What is it that they need to achieve their goals — have we asked them?
+
+It can be disorienting. It can even be seen as a challenge or a threat to people that are used to a different way of working. So understand what it is that they're trying to achieve and how you might be able to help them. I wouldn't suggest going out and telling them how to do their job — ask questions and figure out what their challenges are, and be an ally.
+
+Really, designers make great allies. They can be the bridge between some idea you hacked up and real customer insight. They have a way of building shared ownership between teams. They can draw ideas out of the quietest of developers. And we have a language for this already with DevOps — it's really about extending that to the people that can bring us closer to what the customer is experiencing, and help us have an impact.
+
+So I heard a story about a CT scanner. It's a terrifying device to young kids. The engineers at GE witnessed this, and they heard that 80% of kids had to be sedated to use the machine that they had designed. So they used design thinking, they used a lean approach, to come up with not just an experience but an adventure for these kids. They trained the technicians to teach the kids to hold still, to hide from the pirates — and the loud noises that these machines make were cannon blasts. The kids loved it, and the rate of sedation went down to 10%. And that is empathy. That's the key to finding these big ideas that can stick.
+
+So as we're becoming masters of our craft, let's do it in concert, because if we're able to empower each other through empathy, then we're in a much better position to delight our customers and really have an impact. Thank you.
+
+---
+
+Hi, I'm Jason from VictorOps. Originally I titled this presentation "The Death of Email" — or maybe "Let's Kill Email," or "Email Should Die Die Die" — but that's a little too morbid. So we're going to talk about the emergence of ChatOps.
+
+Are you aware that 28% of your time — my time, our time — is actually wasted simply managing email each week? That's 22.4 hours in a standard 80-hour week, which I'm sure most of us actually work much more than that. Furthermore, 20% is wasted or used up simply looking for information — maybe trying to reach out to a colleague or teammate, or looking for information within documentation, wikis, wherever. But 20% of our time is just looking or waiting for information to come back to us.
+
+All of these numbers are coming from the McKinsey Global Institute, and they came to the conclusion that productivity can be increased 20 to 25% simply by moving conversations to a more synchronous method. So what I'm talking about is chat, which leads us into ChatOps.
+
+This is sort of the way I view email — I've probably received 60 or 70 emails already today and I don't plan on looking at them anytime soon. I want to do something real quick here: a little bit of crowd participation. Who here thinks they have the most unread emails in their inbox right now? Okay, grab me after the ignite is over — I've got a prize for whoever has the highest number.
+
+So this is the way I view my inbox — it's just a black hole. Like I said, I've received a lot today already. I don't know when I'm going to get to them. I don't know which ones are urgent. I don't know much about anything that's happening in my email — there's just too much of it. I instruct people all day: if you need something immediately, hit me up on Slack, hit me up on text, do something other than email.
+
+So that's sort of why I stand up here all the time. People are probably thinking "there's Jason talking about ChatOps again," because I just love this idea of synchronous communication. John was talking about earlier how they do things at Etsy on IRC, and this is pretty much the exact same type of demonstration. I thought I'd give you just a few demos of what teams can be doing. This is just me doing a Jenkins build within chat.
+
+On the ops side — you know, I come from VictorOps and we really believe that incident management is perfect for ChatOps, or ChatOps is perfect for incident management. Sending all of the information about what's going on with your alerts, and who's acting on them, and what's happening — all within chat — creates this tribal knowledge, this situational awareness, which we'll talk more about in a minute.
+
+So let me give you a couple of the benefits of ChatOps real quick. Learning and sharing are the two big ones. We hear a lot about sharing — it's part of our CAMS DevOps model — but also learning. They're very closely related. By moving a lot of the conversation and context into chat, we're able to create a better situation for learning and sharing things.
+
+Next would be speed and security — by not having to do as much context switching. Maybe moving some of your command line tools into chat is going to save you a lot of time. Also, the chat bots or the third-party integrations are only going to let you do certain things, so there's a layer of security in there. And then, you know, a lot of us in here are introverts — we're not really good at getting into a big room and just getting creative and brainstorming. Chat is a really good way to do that, and it's fun.
+
+So situational awareness is sort of the end game of moving conversations into chat. You have this better idea of what's going on in your entire team, your entire company. You've got your bots, your conversations, and all these different third parties all adding to the conversation, just creating more information for you to digest.
+
+I need to call out my co-workers here. I received an email — Slack gives you an email every week about the stats — and there was one week recently where 91% of our messages in Slack were direct messages. The rage face that washed over me was probably pretty bad. And the reason is, as a DevOps evangelist, I'm here to advocate for all these best practices, and sharing is one of them. By moving the conversations out of a shared space and into direct messages, we're doing the exact opposite — we're not sharing at all. In fact, we're siloing those conversations, creating buckets that are black-box conversations that nobody else in the company gets to ingest and understand.
+
+There's a really great quote from Jesse Newland of GitHub where the term ChatOps actually originated, and he just says it's "placing tools directly in the middle of the conversation." I've never found a better quote that explains what ChatOps is. It's moving all of these different things that you use every single day into chat, so you're creating better context and better situational knowledge.
+
+I call this my sea of inefficiencies. These are all the different increased efficiencies that you actually start seeing when you switch to chat and ChatOps. I could talk about this for hours — there's not enough time in five minutes for me to cover much. Let's talk more. I've got hard copies of the book available at the VictorOps table, or you can download it for free. Thank you very much for your time.
+
+---
+
+So unlike the other speakers that seem to have to vamp through this, I realized I missed a bunch of intro slides, so I'm going to talk really fast now because I didn't introduce it at all.
+
+Here's the backstory. There's this dude — what the hell — Peacheslock. Alright, so I had a deck that was explaining all of this anyway. Peachesbot is a bot of Peaches, and I'm supposed to explain all the things he says. Apparently "lines of code today" is the thing to learn about DevOps, and that means that there are lines and lines and lines of code that we can't escape from ever.
+
+The whole point of the introduction, by the way, was to explain what I'm doing and what Peachesbot does, and I'm going to kill him for messing up my deck.
+
+So this one I love — "Here lies Peacheslock, stung by people's ability to hear something other than Pete." The thing you have to understand, because I didn't get to introduce it, is this bot takes the things that Pete has said and turns them into something arguably more understandably incoherent than Pete himself.
+
+I don't know what these are — Pete chose these for me from what the Peachfuzz bot does. I like this one: "Has nailed some soft-cooked eggs on the train." Again, he never actually tweeted these words together, but the bot figured it out.
+
+"I'm actually super baked" — this would have been far more appropriate at DevOpsDays Rockies. I got to say, I don't know how we feel about it here in Minneapolis — I'm not up to date on the laws here.
+
+"How many apples you're supposed to put in a pie — so I just put in six and a half because I wanted to use up the rest." This is a really kind of interesting metaphor for tech debt now that I look at it, right? Where we're like, "Well, we bought this tool, so I guess we better use it."
+
+"The meatball is about to happen." DevOps me — I know that Katherine believes DevOps is about cats, but the truth of the matter, from thought leader Peaches, is that DevOps is really about meatballs. And that's a thing to know.
+
+"This is the most inside-baseball talk of the entire thing: generating PGP subkeys and detaching from the Commonwealth." So this is, I guess, what you do when you don't like the way the election is going, or maybe you don't like the way the open source movement is going, and you're just going to go hide somewhere but you need to be secure while you're doing it.
+
+This is also funny because Pete used to work for a DNS provider, so it says, "A good thing that DNS isn't fundamentally broken or we'll have some shared secret keys and passwords — how do you even computer?"
+
+"T-minus two hours till I have leftover chopped liver at home." Again, not all these are really metaphors for tech debt, but you know we're going to hit a point — I see this is actually kind of instructive — we're pushing this code whether it's good or not.
+
+"Pete is now in GIF format." If you've ever seen Pete give a talk, the truth of his thought leadership is really just being good at collecting a whole bunch of animated GIFs together. It's also kind of ironic that I'm snarking on him for that.
+
+"Making the most fire hip-hop album of 2015." I'm really curious to see how this got generated — what was he saying in multiple statements that allowed this to happen?
+
+So it's really about collaboration, I think. "Security is hard because of security." I see you there — that's ops right there. Security makes security hard. And they're watching.
+
+"Excited that I have this extra hour." So if you're not familiar with this bit of Twitter culture: "OH" means "overheard" — it's when you tweet something that you heard someone say. The really the most important part of building your ops culture is just sort of anonymously tweeting weird stuff that your co-workers say.
+
+"I can't use my new AMI until I just put some pulled pork on the rest of my leftover latkes." That may be a metaphor for how long it takes to bake an AMI — I'm not sure.
+
+"Shipped a ton of snow." He lives in Boston and you've got to ship something, so I guess this just means maybe the weather gods use continuous delivery. You know, it's good enough for them — it's good enough for your industry.
+
+"I don't want to live in this godforsaken hellhole — that Parcel search library is part of my cheapo home ramen lunch." So he's raging about Chef at the same time and conflating it with ramen. I don't really know how I feel about this, but the point is I guess we don't always believe.
+
+"Accidental bourbon sure seems to be holding up." This one speaks for itself, I think. How do you even DevOps without bourbon? But it can be accidental bourbon — we deal with it as it comes.
+
+"It's 2014. If you still think writing your own configuration management is a good idea, that's indistinguishable from trolling." So maybe this is the pinned tweet on Peachesbot, and it freaked me out.
+
+"Troubleshooting distributed systems without metrics is like a giant F-you to any sort of reasonable ops." Right there — that's DevOps. Get that tattooed on your eyeballs. That's it. Thank you. I'm gonna kill him.

@@ -1,0 +1,67 @@
+---
+import { getEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { talkUrl } from '../lib/talk-url';
+
+interface Props {
+  talk: CollectionEntry<'talks'>;
+  /** Override the card link (e.g. point at the canonical /talk/{slug} page). */
+  href?: string;
+}
+const { talk, href: hrefOverride } = Astro.props;
+const d = talk.data;
+const event = d.event ? await getEntry(d.event) : null;
+const href = hrefOverride ?? talkUrl(talk);
+const date = d.presentedOn.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+const hasVideo = !!d.video;
+const hasSlides = d.slideSource !== 'none';
+---
+
+<a
+  href={href}
+  aria-label={d.title}
+  class="group grid grid-cols-[5.5rem_1fr] items-start gap-4 border-b border-rule py-5 transition-colors hover:bg-panel sm:grid-cols-[8rem_1fr] sm:gap-6"
+>
+  <div class="relative aspect-video overflow-hidden rounded-sm bg-ink/5 ring-1 ring-rule">
+    {d.thumbnail ? (
+      <img
+        src={d.thumbnail}
+        alt=""
+        width="320"
+        height="180"
+        loading="lazy"
+        decoding="async"
+        class="h-full w-full object-cover grayscale-[0.15] transition duration-300 group-hover:grayscale-0"
+      />
+    ) : (
+      <div class="flex h-full w-full items-center justify-center text-ink/20" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-7 w-7">
+          <rect x="9" y="2.5" width="6" height="11" rx="3" />
+          <path d="M5 11a7 7 0 0 0 14 0M12 18v3" stroke-linecap="round" />
+        </svg>
+      </div>
+    )}
+  </div>
+
+  <div class="min-w-0">
+    <h3 class="font-display text-lg font-medium leading-snug text-balance decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline sm:text-xl">
+      {d.title}
+    </h3>
+    <p class="label mt-1.5 normal-case tracking-normal">
+      {event && <span class="text-ink">{event.data.name}</span>}
+      <span class="text-ink-soft"> · {date}</span>
+    </p>
+    <p class="mt-2 flex gap-2">
+      {hasVideo && (
+        <span class="label inline-flex items-center rounded-full bg-accent/10 px-2 py-0.5 !text-[0.62rem] text-accent">
+          video
+        </span>
+      )}
+      {hasSlides && (
+        <span class="label inline-flex items-center rounded-full bg-ink/5 px-2 py-0.5 !text-[0.62rem]">
+          slides
+        </span>
+      )}
+    </p>
+  </div>
+</a>

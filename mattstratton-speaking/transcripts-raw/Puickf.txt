@@ -1,0 +1,704 @@
+[Music]
+little bit not to give you too much
+topic whiplash but we just had some nice
+deep dive into Kafka now we're gonna
+talk a little bit more about the
+psychology around incident response and
+we're also going to talk about zebras a
+little bit but trust me it'll make sense
+so just a couple things I like to cover
+quickly in this talk I talked a little
+bit about trauma and post-traumatic
+stress we don't talk about any specific
+trauma stuff but I always like to make
+sure people are aware of that and
+another disclaimer the second while I'm
+a trauma survivor I am NOT a mental
+health professional so none of this is
+actual medical advice so you know don't
+call your lawyers or anything like that
+cool so who am i right so my name is
+Matt Stratton I'm fairly well known in
+the DevOps community primarily because I
+really like died coke oh hey I work for
+pager duty how many people here are
+familiar I've heard of pager duty ok
+cool then I did my job of that paid for
+a pager Duty paying for me to come here
+that's pretty much probably the last
+time we're gonna talk about pager duty
+except for maybe some stories I might
+tell around how we do things at pager
+duty and according to Ryan kitchens and
+Netflix I have the best hair of all
+developer advocates so this is my
+equivalent of a resume slide a lot of
+times people like to say this is why you
+should listen to me apparently I think
+you should listen to me because I like
+Diet Coke so I don't know they should
+write my validation is that dr4 is
+growing that we heard from yesterday
+also really loves Diet Coke so if Nicole
+does it then it's got to be right so
+cool right alright so let's talk about
+zebras so if we think about a zebra
+that's at rest to sort of chilling out
+there on the Savannah there's no threat
+of predators its operating within what
+we call the rest and digest function of
+the parasympathetic nervous system right
+it's just kind of hanging out there
+it literally is resting digesting eating
+grass everything's cool enter a lion
+right so now the Zebras being chased by
+a lion
+so there are drastic changes to the
+Zebras body that happen with the
+activation of what's called
+fight-or-flight response of the
+sympathetic nervous system so the heart
+rate increases its breathing rate
+increases right there's large amounts of
+stress hormones like cortisol and
+adrenaline are released into the Zebras
+bloodstream
+the pupils dilate any non-essential
+functions shut down like digestion right
+the Zebras nervous system is preparing
+for to literally run for its life
+right so it's focusing on that now say
+the zebra gets caught its nervous system
+is now overwhelmed right it has no
+further solutions this is called freeze
+it basically plays dead right so the
+lion then drops the zebra goes to maybe
+try to catch another one so maybe the
+zebra gets away and does anybody know
+what the zebra does as soon as it gets
+away its shakes it literally shakes it
+shakes it off and it resets its nervous
+system back to that rest and digest and
+it just continues to move on as if
+nothing had happened
+that's how zebras do it now if there's
+one thing that you take away from this
+entire DevOps days Tel Aviv conference
+it's gonna be this next point so you
+might want to get your camera's ready
+this is probably the most important
+slide you will see it at any DevOps
+conference this year and I can say that
+and it is this
+humans are not zebras right so if you
+learn nothing else is that we are not
+zebras so we don't respond the same way
+to things like this right so this thing
+we call the autonomous nervous system
+which is fight or flight it's common to
+all mammals right so all all mammals
+have that but we have this thing called
+a prefrontal cortex right and zebras and
+other mammals don't have it and usually
+this prefrontal cortex is an advantage
+this is where executive function happens
+it's because of this that we can do
+pattern recognition we can understand
+the difference between good and Bad's
+same and different we can understand
+consequences because of this prefrontal
+cortex the problem is this is also where
+we mentally replay traumatic scenarios
+right and that activates our sympathetic
+nervous system it activates our body the
+same way that a real threat does one of
+the things that
+amazing about humans is our brains are
+incredibly intelligent and really super
+smart and they're also really really
+dumb okay
+they can't tell the difference between
+real and perceived threat
+whereas zebras can so dr. Peter Levine
+who's a psychologist who's done a lot of
+work around post-traumatic stress and
+also who I stole the zebra metaphor from
+said you know animals in the wild are
+not traumatized by routine threats to
+their lives this happens all the time if
+you're a zebra you get chased by lions a
+lot they aren't traumatized by it they
+shake it off they move on but humans we
+can be overwhelmed and we're subject to
+symptoms like hyper arousal shutdown and
+dysregulation this is a thing and
+another way to look at it is we think
+about this idea this is something called
+the window of tolerance so this isn't a
+healthy nervous system something happens
+we get activated our sympathetic nervous
+system kicks in you know again just like
+it does with the zebra and then the
+thing that was upsetting stops and then
+we go back and we settle and we continue
+to move and this is a healthy nervous
+system and this area where we live
+inside of this is called the window of
+tolerance right this is emotional
+arousal that's optimal for well-being
+and effective functioning okay so we
+have this little window of tolerance
+what happens with trauma it looks a
+little more like this right so when a
+traumatic event occurs something that
+our nervous system is not prepared to be
+able to respond to and it comes in there
+instead of kind of being in this this is
+this easy little parabola right we have
+this this this spiky looking graph and
+this looks like a really bad Nagios
+monitor and so that I'm making
+connections it works right so we can
+either be going up and down and up and
+down right on either end or we can get
+stuck on or stuck off and these things
+are pretty common being stuck in either
+way so if we're stuck on that's where we
+we see symptoms around anxiety right the
+inability to relax restlessness hyper
+vigilance digestive problems which makes
+sense because again it's changing our
+physiology if we get stuck off that's
+where we see things like depression
+lethargy and again more digestive
+problems it's it's like these things are
+connected so what is what does this have
+to do with anything right so the first
+thing to bear in mind is trauma is not
+simple right it seems like it is and
+it's just like the systems we work with
+today right like we used to deal with
+very simple systems our systems are
+complex today and trauma
+just like our systems that we work with
+are not simple so a couple things to
+think about right so trauma happens
+because your nervous system is
+overwhelmed that's the difference the
+exact same thing can be traumatic to you
+and maybe not in a different time
+because of how your nervous system
+responds and it's the same for real and
+imagined threats like I said you know it
+can be a real threat or a perceived
+threat your physiology your body and
+your nervous is I'm gonna respond the
+same and it's also subjective and
+relative and this is really really key
+what I perceive is overwhelming or my
+capacity for a solution may be different
+than what you perceive as as
+overwhelming so what does this have to
+do with companies and organizations
+right you're I wouldn't come for mental
+health conference here we want to talk
+about how our our teams and our
+organizations can be better and the
+story behind this talk was when I was
+starting to learn about post-traumatic
+stress and I was going through treatment
+for post-traumatic stress disorder a lot
+of this sounded really similar to how
+all the companies and teams that I work
+with around Incident Response that we
+can rehab really really similarly so if
+we go back and we think about this idea
+of a dysregulated nervous system how is
+this similar to what happens in a
+company or an organization when a
+traumatic event occurs which in this
+case might be just an incident or an
+outage this is it's like trauma right so
+something happens and where those places
+come in again as we think about the
+difference inside that window of
+Tolerance so there's this first idea is
+being hyper aroused that's being stuck
+on up the up side the top part of the
+graph of the window
+this is being stuck in fight-or-flight
+right and so an organization that's
+hyper aroused that this is how their
+response to two to two incidents and
+outages they display effects of of
+constant vigilance right it sounds like
+they're fighting Voldemort
+you know it's we're hyper aware of
+threats everyone's out to get us and
+this takes energy away from moving
+forward if we're always kind of looking
+over our shoulder and concerned that
+everything is a potential downside of
+thing that can happen we're never gonna
+want to do we're not putting energy into
+innovating right this can be reflected
+we can see this in how leadership and
+your organization approaches outages and
+incidents we see a lot of wartime
+metaphors in those production support
+teams how many people have been in an
+organization where you have a team
+that's dedicated just to fixing
+production bugs outside of the delivery
+team we're in a DevOps conference so we
+kind of understand we don't want to do
+that anymore
+but usually organizations that are stuck
+on will have devoted teams that do
+nothing but fixing broken that
+doesn't work out too well right and then
+we can be on the other side we can be
+hypo aroused this is being stuck off
+this is being stuck in fries and this is
+this idea where again we can't move
+forward because we're frozen because if
+we change something bad is gonna happen
+right this is how we respond to
+incidences by not ever doing anything
+then nothing bad will happen and this
+sounds a little silly but I think we can
+all think of a company that we probably
+worker at one time where this was true
+right so we want to think about how we
+respond right we talked about how our
+nervous system responds to trauma how
+does what are healthier ways for an
+organization to respond so one of the
+things that can happen is we see a
+signal that looks similar to a thing
+that happened before and then we think
+it's the same thing again right like
+last time this happened again think
+about how your nervous system response
+to trauma right like something that
+reminds your nervous system of this
+traumatic thing is going to cause the
+same response we do this in
+organizations we see something starting
+to shape a certain way and
+like this looks like the last time this
+happened again our systems are complex
+and there was a time decades ago in my
+career where I used to say I could tell
+a good sysadmin because they would sit
+there and shake their head and Stroke
+their chin and say ah I've seen this
+before that doesn't work so well in
+today's distributed in complex systems
+because just because you've seen this
+before does not mean it's the same thing
+again right and complexity is what makes
+this challenging so one way to think
+about this a little bit I give this talk
+a lot this is the first time I'm giving
+in Israel it's kind of a little bit
+funny and you'll see why because I
+usually ask how many people flew on a
+plane to get here probably not too many
+people but so we think about this idea
+about how we have to take our shoes off
+when when we're boarding a plane right
+or when we're going through an airport
+and I understand that things are a
+little different in the airport here
+it's probably a little more effective so
+it's kind of funny for me to be in
+Israel talking about ineffectiveness of
+airport security normally this is a
+funny thing right but let's think about
+the pattern of what happened right so if
+you don't know and December 22nd of 2001
+this cat named Richard Reid tried to
+ignite explosives in his shoes from a
+flight from Paris to Miami so as a
+result in the States the TSA the
+Transportation Security Administration
+began randomly searching people's shoes
+right and then in 2006 they mandated
+that all passengers had to remove their
+shoes then a few years ago they they
+said well if you give us a hundred bucks
+you don't have take your shoes off
+anymore so that's a whole other problem
+by the way money well spent for those of
+us that you know spend all our lives on
+airplanes so what was the response here
+this one was sort of trying to do some
+pattern matching it was like well one
+dude put some explosives in his shoes so
+therefore all shoes are suspect and no
+incident has looked like that since then
+right you know and and but this is it
+sounds a little silly but we do this a
+lot when we think about incidents that
+occur in our organization where we're
+like okay we saw this particular monitor
+doing this before so this means that
+it's this same defect and it's not
+necessarily because again we put it in
+the wayback machine and we think back to
+our lamp stack days
+there were like three connections that
+happen right so there is not too many
+different possible things I mean for
+crying out loud we just heard about
+1,400 different micro services at Wix
+okay pretty sure that every single thing
+that happens is is a different layer of
+complexity so think about it this way
+right so jennifer Brea has said you know
+we have a saying in medicine that when
+you hear hoofbeats the first thing that
+should come to mind is a horse not a
+zebra how many people have heard that
+that's saying before right okay problem
+is as Jennifer says this cute phrase has
+killed many zebras because the thing is
+sometimes it's a zebra and if we're
+operating under this assumption that
+it's always a horse because it's a horse
+a lot of the times we're gonna miss the
+zebras also look see this is the second
+time zebras are in this talk so this is
+a lot about this idea of sort of jumping
+on this looking for a root cause when
+we're thinking about incidents right
+we're like aha okay there is a single
+thing that caused this incident and last
+time it kind of looked like this so it's
+probably the same thing we're gonna talk
+a little bit about that in a minute but
+I'm not gonna have a whole talk about
+contributing factors and root causes
+because that's a different talk but how
+do we understand our organization's
+window of tolerance because remember
+it's different for every company every
+company has a different window of
+tolerance for incidents and outages how
+can we identify when we are dysregulated
+and that's that's one of the little
+takeaways from this I want you to think
+about is what are some of the things
+that your team can do like how can you
+identify if you are becoming more stuck
+on or more stuck off right so we talked
+a little bit about what what dr. Levine
+said and there's a similar quote which
+says resilient organizations are not
+traumatized by routine threats to their
+mission or business right non resilient
+organizations are readily overwhelmed
+and they're often subject to the
+symptoms of overreaction shutdown and
+lack of regulated effort right again we
+talked about they we've heard this
+before in other talks this week this is
+gonna happen right you're gonna have
+incidents you're gonna have outages is
+this something that's gonna traumatize
+your organization or something you're
+going to be able to move along and who
+said this it was me
+I am NOT a doctor but you have to quote
+yourself in a talk is a lesson that I
+learned right okay so how do we take a
+deregulated state and become regulated
+so we talked about the problem right we
+said okay you're like great
+so we're dysregulated we would very much
+like to not be that how can we do that
+so now we're going to talk about some
+actionable things and so in
+post-traumatic stress treatment in
+individuals there's a treatment method
+called somatic experiencing and somatic
+experiencing it's a form of alternative
+therapy that's aimed at relieving the
+symptoms of post-traumatic stress and
+other mental and physical trauma related
+health problems by focusing on body
+sensations and it was created by the
+trauma therapist dr. Peter Levine and so
+I've had this treatment and this was
+where when I started thinking about it
+the idea is that we're starting with the
+body that's what soma means right it's
+it's about the body and in traditional
+post traumatic stress treatment it's a
+lot of talk therapy and it's top-down
+we're talking about why did this happen
+why do we have trauma if we can
+understand where the trauma came from
+we'll get better
+and what we're doing in somatic
+experiencing is we're actually saying
+let's lead with the body
+what is the physiological response we
+want to have and then how do we connect
+it to our memories of these traumatic
+experiences so what we want to do for
+organizational somatic experiencing is
+create a similar focus on the response
+to train ourselves to have the reactions
+we'd like to have when we have an
+incident or an outage right again this
+is something we're gonna happen and we
+want to create the physiological
+Association we want to we're never gonna
+make incidents stress-free there plenty
+stressful it's a thing that's gonna
+happen but we want to reduce that and
+one of the main reasons we want to do
+this is the number one most important
+thing about affective Incident Response
+is two words and those two words are
+don't panic right so no matter what's
+happening we want to be
+able to have effective incident response
+we need to reduce panic and reducing
+stress will help with that okay cool so
+when we think about somatic we say
+that's body first right
+we don't start with the mind if we start
+with the mind that's sort of like
+looking for the singular root cause
+during an incident the first thing to
+bear in mind is during an incident we
+actually don't really care about what's
+going wrong what we care about is
+restoring service we are gonna try to
+figure out all that stuff later
+um so bear in mind that there's never
+going to be one singular cause there are
+contributing factors and this is similar
+to the nuance and the relativity of
+trauma right the exact same thing that
+happens to me you might have a different
+experience when it happens to you and
+vice versa
+and that's similarly that we might say
+well there's simply well the root cause
+was that somebody messed up this the
+chef configuration well how did that
+happen what were the contributing
+factors was the person tired was a
+person not trained and it's actually
+probably a lot of these things together
+so a lot of it is thinking about the
+fact that our systems are complex
+there's always something broken and
+what's different today is different than
+tomorrow so let's think about some of
+these again there is fundamentally there
+is but one root cause and that root
+cause is the big bang right so move on
+okay cool so then we think about
+contributing factors right so how do we
+do things to make an association with
+outages and issues into that more of a
+safe place right at a place so we are as
+responders as people that have to
+respond to incidents they are less
+stressful right so one of the ways we
+can do this is with game days right
+where we're basically practicing
+Incident Response among other things and
+game days can be helpful with this we
+have to do them properly right they need
+to be low stress and safe the point is
+not to practice decision-making under
+stress and give an example at pager duty
+we do these things we call failure
+Fridays and they're a game day where we
+you know break something on purpose we
+know we're doing and then when we run it
+like it's true incident and recently it
+came up that
+the folks participating the incident
+commander and everything like that
+shouldn't know what the plan was
+we shouldn't know what system were
+testing right shouldn't know the failure
+were injecting and I fought pretty hard
+about this and good news is I won
+because I said the goal of this is not
+to practice being stressed out we will
+get plenty of practice being stressed
+out we're actually trying to do the
+opposite we're trying to associate our
+practices of incident response with not
+being stressed out so when we're doing
+this exploration in a game day it's kind
+of like you need to have guidance it's a
+little bit like meditation right so what
+some kinds of trauma meditation can be
+really helpful it can the problem is if
+you aren't guided through this
+meditation you're not going to really
+get the best benefit out of it right so
+sooner or later you're going through
+Medicaid medication medication helps too
+but I don't have any good metaphors for
+that other than by pager duties but when
+you're going through meditation you may
+encounter a memory of your trauma right
+and if you're not guided what happens
+right you might be overwhelmed by it you
+might avoid it and so the same thing if
+our game day is not following the usual
+rules we aren't creating that proper
+Association so if we do planned failure
+injection in a game day and sometimes we
+call this chaos engineering and whatever
+but really this is very specific around
+this particular concept so again this is
+what we do at patreon or failure Fridays
+which actually we do them on any day but
+we use only do them on Fridays and it's
+fun to say fail your Friday rather than
+failure any day so we still call it
+failure Friday but the whole point is we
+run them like a real incident right we
+have an incident commander we run them
+through pager duty we do a post-mortem
+we do everything even though we know
+exactly what went wrong quote-unquote
+what went wrong because we did it on
+purpose so this creates this
+organizational Association that
+incidents an incident response is just
+this thing we do man we just do this
+every Friday you know we get on a bridge
+and we go into pager duty and we we you
+know have a scribe and we do all the
+things so that when it happens at 2:00
+in the morning yeah it sucks cuz it's
+2:00 in the morning but weird
+is really used to doing it and it's got
+this association this is also why we do
+game days during the middle of the day
+because to be honest there's no good
+time for pager duty to be down right
+like y'all who use pager duty don't ever
+want us to be down that would be really
+sad in fact the worst time for page 30
+to be down is the middle of the night
+for us right so the best time if we're
+gonna take an outage is during the day
+San Francisco time when the majority of
+our engineers are awake and around so
+that's why that's when we run our game
+days so this is another reason why I
+believe very strongly in that you
+execute all you run all of your
+incidents at their initial severity
+right even if you start them and realize
+hey this actually wasn't an incident or
+we thought this was a sub one but really
+it's a 7-3 you still we like to say you
+know you don't litigate severity during
+an incident right part of that is
+because you're gonna spend all your time
+argue about whether or not it's really a
+seven or a seven three and by the time
+you're done arguing it's you know ten
+minutes into a sub one that's a
+different problem but we want to run
+this to our full course because the
+thing is let's say you kickoff your
+incident response process and you
+realize this actually wasn't an incident
+what's the worst thing that happens you
+got practice at doing incident response
+the more that we do this the better we
+get at it practice makes permanent but
+we're also creating that risk that
+Association and part of the reason this
+is really important is because to be
+quite frankly the world of alcohol we
+live in now is not nearly as shitty as
+it was 15 years ago 10 15 years ago when
+when I was on call as a sysadmin I was
+responding to incidents every other
+night and they were it was a constant
+thing I always did because I was also
+one of the only people and I was on call
+every other week well now we have these
+beautiful things where we're on call for
+our own stuff and we're part of these
+large rotations and maybe you might be
+on call you might get called into an
+incident once every three months right
+so what you don't want to be doing is
+during that time being going well how do
+I even log into our Incident Response
+software anymore I don't remember how to
+do this anymore right it's this anomaly
+for creating it as something we do all
+the time it's just business as usual
+and we need to process this failure
+right so we talked a lot about
+blamelessness blameless post-mortems the
+whole thing is we need to follow the
+failure and the outage through with all
+the information that we have and it
+needs to have a conclusion right
+otherwise it's the same thing as
+unprocessed trauma so we we need to with
+trauma we need to integrate our
+experiences in our coherent whole with
+post Instant reviews and post mortems
+this includes this idea of we're telling
+the story so the idea of a post mortem
+is not a hundred percent just to create
+a bunch of JIRA tickets out of that it's
+how do we actually share the story how
+do we actually process it and then it
+comes to and this this gets us into this
+model of being able to actually learn
+more from incidents write a write only
+post-mortem doesn't help anybody there's
+another way I like to put it so normally
+this is the time I would start talking
+about cognitive distortions but I'm
+running out of time so we can if we want
+to talk about the psychobabble some more
+we can do that offline but really the
+couple things I want to to kind of end
+with thinking about is I really love
+this quote from dr. Levine right which
+says resilient strength is the opposite
+of helplessness being resilient as a
+person means that we don't see things
+from the perspective of things that
+happen to us it's a matter of what we
+can do going forward right and as an
+organization it's the same thing
+incidents happen but what do we do going
+forward how do we learn from them and a
+culture of blame leads to a culture of
+helplessness and that's the worst place
+we want to be we don't want to feel like
+in our organization in our team we are
+helpless and we cannot make things
+better and being able to move forward
+past that stuff is really what's key so
+I've got a bunch of supporting links if
+you want to learn more about this stuff
+on my speaking website as well as the
+slides and all this great stuff so thank
+you for having me and I hope you enjoy
+the rest of my mom's days Tel Aviv
+you
+[Music]

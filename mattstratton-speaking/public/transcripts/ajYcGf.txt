@@ -1,0 +1,183 @@
+Hey, thanks for coming out here. We're towards the tail end of KubeCon. We're staying awake, it's great. Welcome to "Charting Your Own Course Through the Cloud Native Ecosystem." My name is Matty Stratton and I'm Whitney Lee. Lovely to meet y'all.
+
+So I first started learning Kubernetes about two years ago. I remember talking with my dad on the phone, telling him I was starting to learn this new technology, and I was trying to describe to him how overwhelming it felt for me. It feels like I'm learning a plate of spaghetti, I said. Not only am I trying to memorize the shape and the placement of every noodle, but I'm also trying to understand how every noodle touches every other noodle and why.
+
+I remember Kubernetes felt so complex to the point of it seeming magical, and as random and arbitrary as trying to understand a plate of pasta. Where does one even start?
+
+So everyone has a story. Matty and I are each going to share ours, and we ask that you reflect on your journey too.
+
+So my name is Matty Stratton. My background — I've spent a couple decades working in operations, so my background is kind of traditional. Years ago, when I wanted to learn more about DevOps, I decided the best way to do that was to start a podcast, really because I felt there wasn't content that was beginner friendly in that area. And one of the really fun little secrets about running a tech podcast is it's a way to get people to come and spend an hour talking to you when they might not necessarily spend that time any other way. So I had an opportunity to learn a lot from folks in the industry in all kinds of different ways from doing the podcast.
+
+I also spent years, and continue to, as a conference organizer. I started the DevOps Days Chicago conference years ago. I'm one of the global organizers for DevOps Days around the world, and that's been a way that I've learned things because you put programs together and you're exposed to those things.
+
+And over time — so I used to have the license plate DEVOPS on my car, and then I moved to California, and when I moved back to Illinois I actually couldn't get the DEVOPS license plate because I already had it but they wouldn't give it back to me because bureaucracy. So I needed something clever and came up with KUBECUDDLE, even though I actually really didn't use Kubernetes very much.
+
+One of the side benefits of that license plate though is if the police are ever looking for me they won't be able to find me, because they won't be able to tell each other what my license plate is because they'll all argue about how to pronounce it. I figure we'll be fine.
+
+And then I went and worked at Red Hat, helping organizations through their transformation using OpenShift, which meant I had to learn a lot about Kubernetes because OpenShift is a platform built on Kubernetes. So working through that gave me a requirement to learn it. Now today I work at Pulumi, and I do a lot with that both in helping folks who are using Pulumi to build and deploy and manage their Kubernetes environments, but also myself I'm building things for demos and for workshops, so it's really given me this need to have this hands-on, applicable approach to my learning about Kubernetes.
+
+Mine — so I am a career changer. I've spent most of my adult life as a wedding photographer. I was a wedding photographer for 10 years. I've been to over 500 weddings. At the end though, the business ran me instead of me running the business. I was super stressed and ready for a change. So when my brother's band got some notoriety and he wanted to go on tour, he invited me to play keys in the band and to sing harmonies, so I jumped at the chance.
+
+So I spent all my savings giving my wedding clients back their money. My partner at the time wasn't supportive. We'd been together eight years — gone. And I put all my stuff into storage and I lived address-free for a year touring in a band.
+
+Then when I got back I wasn't sure what to do next. My son was in college studying software engineering and he was like, "Hey mom, you would like this, you should try it out." And so I did and I really enjoyed it. So I ended up going to a boot camp. I wrote my first line of code in January 2019.
+
+I spent hundreds of hours getting ready for boot camp. Once I was in boot camp, starting in July, I did 11-hour days, six days a week for three months, graduating in October. And then in November I got a job as a cloud developer.
+
+So I worked in a pre-sales team at IBM and we'd put together proof of concepts for clients, but work was on or off, and so when I didn't have work to do on the side I would make YouTube videos from behind the light board. I honestly couldn't believe they let me behind the light board when I was so green, but I think that's part of what made my videos good — that I really explain stuff at a beginner level. So all in all I made seven light board videos for the IBM Cloud YouTube channel, and those have a half a million views altogether.
+
+So then I realized, actually this is what I want my career to be, not the pre-sales stuff. And so I got hired as a developer advocate at VMware Tanzu. And I've been working really hard to learn Kubernetes the last few years and learn it well and be able to teach it. And now I have a show called Enlightening where from behind a light board I'll have a guest come on and explain a technical concept to me and I'll draw out the concept as I understand it. A show looks like this — this is my mentor Rick, who came on and taught me how you add persistent storage to your Kubernetes application.
+
+So when we're looking at a big topic like Kubernetes and different things in the ecosystem, it can seem very overwhelming — and it can seem very overwhelming because, well, it is very overwhelming. There's a lot to it.
+
+And the internet is vast; there are a lot of resources out there. So how do we start researching a big topic?
+
+One of the things that really helps is to have a planned pattern that you can repeat. We're going to talk about this cycle that we continue to repeat, and if you think about it — if you've worked in agile software development, if you think about DevOps — this cycle looks kind of familiar because what it is, in a way, is a feedback loop. We're going to collect resources, we're going to skim through them, we're going to refine them, we're going to learn, and we're going to repeat this cycle. So let's dig in a little bit about how this cycle works.
+
+So the first step is to collect resources. Find introductory resources, often ones that start with the title "what is." You're going to get a sampler. Now this doesn't have to be exhaustive. The idea is for you to know what are the most recommended and popular resources out there just to get started. Don't worry about actually trying to learn the concept yet; just get a sense of the landscape and a sense of what the choices are.
+
+Now we're not going deep here while we're skimming these resources. This is just to help us evaluate what we're going to focus on. So like Whitney said, don't worry about trying to learn it; don't go too deep. We're literally skimming over them to get a sense.
+
+And here's the thing — at first you don't know what you don't know. And as you're looking through these resources and evaluating, one of the things to look for is what concepts continue to come up. You might sit there and say like, it's a lot of stuff about storage, I see these themes. Okay, there's things about role-based access control — should I pay attention to that? Here's a wonderful thing: fundamentally what's happening here is pattern recognition, which humans are really great at. That's one of the things that's awesome about our prefrontal cortex that other mammals don't have — it helps us look for patterns. So we're saying, what are we seeing come up as patterns?
+
+Now you kind of sit there and say, okay, with these resources what assumed knowledge are they expecting? For me, when I was learning Kubernetes, with my application developer background I hadn't ever worked with Linux. So when I looked at one of the first resources I worked with — "how do you find what application image is running in a pod?" — it said, "All you do is run kubectl describe and then grep for the image." And I was just like, grep? What's that? And like pipe? This language was getting thrown at me, and honestly I was so clueless that I didn't even know to think, "oh I need to learn more about Linux," because I didn't know Linux was the thing I didn't know.
+
+So I ended up backing out of trying to learn Kubernetes, got a Linux command line book, read a couple of chapters of that, and then started my Kubernetes journey back up.
+
+And you want to sort of sit here and say, what resources resonate with you personally? This may have to do with your learning style or your experience level, how much time you have available. You may be a beginner at the idea; you may come with a background of experience. These are all different kinds of stories. So what resonates to Whitney is different than what resonates to me, which is different than what resonates to you. You're the only one who can evaluate that.
+
+Now we'll take the resources we've collected and skimmed and we're going to narrow them down. The idea here is, like Matt said, to identify the resources that resonate with you personally. So for example, to learn Kubernetes I see a lot of people recommend to each other, "Go use Kubernetes the Hard Way, go to Kelsey Hightower's resource." And I'm sure it's an incredible resource, but little baby Whitney two years ago who doesn't know what grep is — that resource was way above my head back then. And only now do I feel it's in my zone of proximal development.
+
+So now that we've collected the array of resources, we've skimmed through them, and we've chosen ones that resonate with us — now it's time to learn.
+
+So the work of learning: to learn consistently, the best strategy is to define bite-size goals, achieve those reasonable goals, and then do it again. Remember to reach for knowledge that is in your zone of proximal development — concepts that will challenge you but are not so hard that they feel overwhelming.
+
+The next thing you want to do is measure your progress to get a sense of accomplishment. I personally love my Anki flash card deck, so it's spaced repetition study and I study cards every morning when I get up. I added a stats plugin too, so I have a GitHub-style graph so I can see my progress and that I've studied every day.
+
+Other popular note-taking and study tools are Notion and Obsidian. But maybe you're not that fancy; maybe you want to hand-write your notes in a daily learning journal, or maybe you keep a blog of what you learn each day. There are different ways of finding joy with it, and every way is valid.
+
+The goal here is to keep learning at a consistent pace and to get a sense of purpose and a feeling of success in the journey itself, and not in those far-away goals.
+
+So years ago there was this up-and-coming comic named Brad Isaac. He was a young comedian and somehow he found himself backstage with legendary comedian Jerry Seinfeld, and he went to him and said, "You got any tips for an up-and-coming comedian?"
+
+And Jerry said to him, "The way to be a better comic was to write better jokes." But then he said, okay, how do you write better jokes? You write better jokes by writing a lot of jokes and by doing it every day.
+
+So what he said to him was: you're going to get yourself one of those big whole-year-long calendars — a whole year, not a flip one, but you know, a whole year one — put it up on a wall where you can see it, get a big red magic marker, and every day that you write a joke, cross off that day. And then your only job is to not break the chain. Keep them going.
+
+And then as you continue to do it, you see this streak, you see this chain, and you don't want to break the chain and it makes you feel good. Your only job is to not break the chain. And notice that nowhere in any of that did he focus on results — it was just doing. So you can do the same thing. You can say, every day I'm doing something with my learning journey. It doesn't mean I'm learning a lot; it doesn't mean I even accomplished anything, but I did something. Because when we get those streaks going it makes us not want to break them, and we build those patterns and that's what moves us along.
+
+So now when you're going to go through this we're going to ask a couple of questions. You can answer them to yourself in your head, because if we all answered them out loud at the same time it would be chaos — although that might be kind of fun. These are questions that will help you evaluate how you're going to approach your learning and your techniques.
+
+So right now in your head ask yourself: what is your own personal level of technology experience? When I started learning Kubernetes I didn't realize that a node is the same thing as a machine is the same thing as a box is the same thing as a worker, and all of those things just mean computer. So I particularly had to choose learning resources that have a very beginner level.
+
+Matty, on the other hand, started learning Kubernetes from a completely different perspective where he had a lot of experience with DevOps already. The point is learning can begin from anywhere.
+
+And the next question you're going to ask is: how much time do you have to devote to learning? Some folks are in a place where you can do full-time boot camp style learning where that's all that you're doing. Some of us are doing it maybe 10 minutes a week, and anywhere in between. We all live full lives that do other things; we have different responsibilities; we're in different places. There's no right answer, but you want to be realistic so you set yourself up for success. If you realistically can't devote more than a little bit of time a week, then don't create a plan that's not going to allow for that. You want to make sure what you come up with is sustainable. Whatever that amount of time is, it will get you where you want to go.
+
+So the last question you want to ask yourself right now in your head is: what is your learning style? Now you may not know the answer to that yet, but the good news is that's what we're about to talk about next.
+
+So as we talk about different learning styles, we're going to focus on the VARK model. VARK stands for Visual, Auditory, Reading/Writing, and the K is for Kinesthetic — or Kubernetes.
+
+These learning styles are not mutually exclusive. I personally think I'm both a visual learner and a reading/writing learner, but Matty identifies as an auditory learner and a kinesthetic learner. That actually works out really well.
+
+Another thing to note is that concepts will sink deeper when you consume them using more than one learning style at once. So if for example you watch a video that engages you both visually and audibly, then you take that and apply that knowledge kinesthetically, then that's going to help that concept sink very deeply for you.
+
+Your learning style can also be situationally dependent, so maybe you learn one way with work concepts and in a totally different way when you're doing your hobbies.
+
+So what type of learner are you? How do you know? Matty and I are each going to go over the four learning styles and ask you more questions for you to consider in your head — yes, there's been a lot of homework in this talk.
+
+So first let's talk about the visual learning style. How do you know this is you? Do you understand information better when it's presented in a visual way? Are you a doodler? Are you a list maker? Do you see patterns in things? Are arts, beauty, and aesthetics important to you? Do you enjoy consuming pictures, diagrams, maps, charts, and graphs? If so, you're a visual learner.
+
+You have a superpower. So as you're learning a concept, draw out your understanding. Maybe assign colors to common themes in your notes — your brain remembers colors very well, so use this to your advantage. On my phone I organize my apps and folders according to color. Watch videos with a large graphic component, like light board videos.
+
+Visual learners may need more time to process material, but then they often understand it more deeply. This is something I wish I knew sooner, because in boot camp I felt like it took me longer to understand the concepts than the people around me. But now I know: once I do know something it's really stuck in there and I can examine it from all angles.
+
+So if you are an auditory learner like me, here are some ways to find out if you are. Maybe you learn better when the subject is reinforced by sound — like I really like reading, but audiobooks help me catch things better. Do you like to talk things through? It's actually kind of funny: while we've been working on this deck, more often than not I would be sitting there talking to myself, or talking to Whitney, and saying, "Okay, sorry, I'm just thinking out loud," and at a certain point she was like, "Well, you are an auditory learner."
+
+Another thing — if you're familiar with the idea of rubber duck debugging: if rubber duck debugging works really well for you — that's the idea where a programmer comes up to a senior programmer and asks for help with a problem, and the senior programmer had a little rubber duck on the desk and said, "Explain it to the duck." And in the middle of explaining to the duck, the programmer figured out the solution. We call that rubber duck debugging. If that resonates with you, you might be an auditory learner.
+
+Are you really great at verbally explaining things? Again, like me, I find myself often saying things like, "Okay, let's get this out of Slack and get on Zoom and use mouth words for a minute." That is definitely an auditory type learner.
+
+And maybe you create songs to help remember information. People do that. I've done it.
+
+I wish I was a Kubernetes baller, I wish I could install her, I wish I had a kube API I would call her, I wish I had an app that was fast and no crash and its footprint was smaller.
+
+Fun fact: the original title for this talk was "I Wish I Was a Kubernetes Baller," but we felt like the other title might have gotten us through the program committee a little bit better.
+
+So if you are an auditory learner, how do you maximize that superpower? Well, one of the things is learning in groups because we can talk it out — so study groups, maybe a book club, get some study buddies. Another thing: all of this material that we're providing here could be written in a blog post and you might read it, but we're here listening to it being spoken, and this is a different way. So guest speakers, guest lecturers, go to meetups — all of this stuff that's online.
+
+And audiobooks — I talked before about how I really like to read. I mean I like to read so much that when I was a kid if I got in trouble I got grounded from books, because my parents knew they could ground me and I would just sit and read. Well, one of the things I've realized over the last few years as I've gotten into audiobooks is they resonate differently. I catch things — I will listen to some of my favorite books and catch stuff from books I've read dozens of times in my life and think, "Oh, I didn't even notice that happened," because I'm at the pace of the narrator.
+
+Also, explain things in your own voice. My dog knows a lot about Pulumi because I explain a lot of stuff I'm trying to figure out to my one-year-old Australian Shepherd.
+
+So is your learning style reading and writing? Here are some questions to help you figure it out. Do you prefer to learn through written words? Are you drawn to writing? Do you enjoy reading articles or books? Do you keep a journal? Are you likely to look up definitions? Do you Google everything? Do you make lists? Interestingly, the visual style and reading/writing style have some overlap.
+
+If this is you, you have a reading/writing superpower. So here are some ways to take advantage of that. Read and write — note-taking is a powerful tool in your belt. For me, if I read only, the information goes in one eye and right out the other. It does not stay in there. But if I read and take notes it's a different story.
+
+Join a book club — this is a fun way to reinforce your understanding.
+
+When taking notes, don't write word for word. Paraphrase the ideas in your own thoughts. This will help you think critically about the information.
+
+Use flash cards — give yourself opportunities to recall the information that you're learning. This will help strengthen the neural pathways that are forming in your brain.
+
+And then our final style is kinesthetic. Some of the ways you can figure out if this is you: do you learn by experiencing or doing things? Kinesthetic to me is also a visceral learning — it's somatic, it's body, it's feeling. Do you like to act out events or use your hands to help promote understanding?
+
+Does it help you to draw things out? Now I don't draw well, but I draw on whiteboards all the time — never to create an artifact that makes sense to anybody, but in the days when we used to go out and do these things in person I'd be sitting in a conference room trying to explain something, and it's just a whole bunch of arrows and squiggles, and it's literally just a dry erase marker that's following my gestures. But it is a way for me to take my physicality and put it into the process.
+
+Do you really want to have examples, especially if we're talking about technology in action — like real examples, not like "Dog implements class Animal," but like a real thing? If that makes sense to you, great. I do find that does not help me learn.
+
+Maybe you're good at applied activities like painting or dancing or cooking, or maybe you aren't good at them but you just like to do them a lot.
+
+And do you have to actually practice something in order to do it? For me I found this to be very true — when I'm learning a new technology I have to put it into a problem set that makes sense to me so that I can actually practice doing it.
+
+And maybe it's difficult for you to sit still for long periods of time. Have you noticed how Whitney has stood very very still? And I've been wandering around — and I'm like a conference speaker, I'm supposed to know how to move on a stage, and I still wander around. So if any of those things are true, you may have the superpower of kinesthetic.
+
+So how do we maximize that? If it's a code type thing, write code while you're learning — go along with it, actually practice while you're doing it. I also love turning learning into a game. There are lots of different ways you can do that. For quite some time I had an online game show called DevOps Party Games which was basically just making a lot of jokes about tech. One way to think about it — I used to say that I wanted to learn just enough about Kubernetes to make jokes about it. Well, you know what, that's actually not a bad way. You turn it into a game, it keeps you going.
+
+But think about your pace — this visceral, kinesthetic style of learning can actually be very tiring, so just pace yourself because you're going to get pretty exhausted. And look for real, hands-on ways to do things. There might be online playgrounds, or local things like kind or minikube — something that's going to let you actually do this for real without having to be given access to a giant production cluster. That could be a very visceral way to learn. But maybe don't do it on the production cluster.
+
+Not to imply that Whitney and I are not real people — we are real. We kind of wanted to talk to some folks out in the community to get some thoughts on their journey and maybe some of their recommendations, because again everybody has different stories.
+
+So one person that I spoke to was Gwenevere Singer, who's a software engineer. Gwen's tech background — again a career changer — she did six months of a boot camp with Ruby on Rails and front end stuff, and learned Kubernetes as part of her internship. I asked her: what was a piece of advice that you got at first that was not helpful? And it was this — I'm sure we've all heard this too: "How do you learn? Well, just go contribute to it!" The problem with that is: what does that mean? Contributing to projects can be a great way to learn, but you need some guidance. You need something more to go on.
+
+And then I asked what was some of the hardest stuff, and I really like thinking about this because everybody has a different stumbling block. Gwen said: this idea that you SSH into a node but then you can kubectl exec into a pod — it's just like where we trip up. But every one of us has got a different story of the one thing where you're like, "I don't know why, that's just weird for me."
+
+And then finally I asked — everybody was always insisting that Kubernetes is really really hard. How many people have continually heard this, and even in a reassuring way of like, "Don't worry, Kubernetes is really hard." The problem with that is that a lot of times this is really referring to someone's inability to explain it. And I'm just as guilty as anyone else of making jokes about Kubernetes being hard because it's funny. I think we've all seen swiftonsecurity's tweet — I think it was swiftonsecurity, I now misremember — but it said, "I tried to explain Kubernetes to someone and now neither of us understands it." The reality is this is not actually true. Kubernetes isn't easy, but it's not hard and it's not impossible. And it has a lot to do with — this talk is about accessing learning resources, but those of us who are part of creating learning resources need to think about how we can make this stuff more inclusive.
+
+So now let's talk about Kat Cosgrove and her journey. Like me, Kat is a developer advocate who comes from a web developer background. So the unhelpful advice that Kat got when she was first learning is the same: "Oh, this is always hard to learn." This well-intentioned piece of advice feels like a lack of consideration for learners. So instead, Kat says it's important that new learners know that no one is an expert in every aspect of Kubernetes — this is something I wish I knew when I started out. Most folks employed in the field likely know the fundamental concepts of Kubernetes, but they only have really deep knowledge in one or two aspects of it.
+
+We also asked Kat: what is the hardest thing about learning Kubernetes when you first tackled it? And her reply: networking. She said, "Frankly I'm still pretty convinced that networking is magic." It's not.
+
+So Matty and I also tweeted asking the community how they first learned Kubernetes. One of our first responses came from Lena Hall who said, "I read a big percentage of Kubernetes documentation in 2015 in the last row of a sparsely populated movie theater session. It was fun." This tweet leaves me with more questions than answers — what movie was playing at the time? Like what was it, that boring?
+
+So Tim Davis said: "I still think it's a bunch of smoke and mirrors and a man behind the curtain. I learned it from watching you. Okay, I still don't know it, send help." It's sort of like the man behind the curtain — Tim, we're kidding, we're kidding a little bit. This is a line from The Wizard of Oz. But that said, I think the point here is that as we continue to work there's always still things where we don't completely understand.
+
+And then finally I really love this tweet from Duffy. He kind of said there are three ways — part of his story was presentations from Kelsey Hightower. This reminds me of something I want to call out: we talked about Kubernetes the Hard Way being not necessarily beginner friendly, but that is by no means anything to do with Kelsey. Kelsey is one of the most accessible people and creates all sorts of great content that is accessible to everybody. It's just that specific resource.
+
+And then I also really like this idea of going into the Slack, but sometimes just by watching the questions and the answers other people have — which is kind of a reiteration on why learning in the open and asking questions in public is really powerful, because you'll actually get more answers yourself anyway, but it also helps other people.
+
+And Duffy was also working on CoreOS at the time. I love this idea that sharing with others is the most effective way to learn a thing.
+
+So we're here on the last day of KubeCon. We've seen a lot of amazing presentations from some of the most advanced folks in our community who are pushing the state of the art forward and know Kubernetes better than anyone we could think of.
+
+Every one of those people was where you are now, where I am now. We've all been somewhere; they got to where they are, and you're going to get to where you need to be. And then you can help all the others.
+
+So let's go over some takeaways.
+
+As we discussed at the beginning, when you choose educational resources to start with, consider three things: consider your own personal knowledge level, the amount of time you have to devote to learning, and your learning style.
+
+Track your study habits so that you have a sense of purpose and a feeling of success in the journey itself. Remember, it's not about the results — learning is a lifelong process.
+
+No one is perfect, so if you miss some study days be kind to yourself and get back to studying. Life is messy and complicated and it can vary from moment to moment. This is okay.
+
+You know, earlier we said you don't know what you don't know. Well, I'll tell you who does know what you don't know — a mentor. So your mentor can give you amazing perspective and guidance about what is the next best step.
+
+And then finally: there's no getting around it — deep learning takes time. So accept that, build a good pattern, and you can do it.
+
+So this is our reference slide. You can take a picture, but don't worry — I'm going to give you a better way to get at these references. You can go to this bit.ly link or this QR code, which will take you to where you can get the slides as well as a website that has a link to all the resources we referred to, plus a bunch of other great ones.
+
+And speaking of even more resources: in this very room at 4:55 there's going to be a great panel called "Navigating the CNCF Landscape the Right Way." I swear the program committee put them together but we didn't name the things together. That's going to be a panel really focusing on some specific resources and suggestions — sort of taking some of these ideas and giving you some great things to add to your collection of resources. So I highly recommend everybody come back for that panel. It's even in the same room — I mean you have to wait a while to sit in here, so maybe go do something else for a little bit, but come on back.
+
+So my name is Matt Stratton and I'm Whitney Lee. This has been super fun. Thanks y'all.
+
+If people have questions you can find us on Twitter. We'll be hanging out up here if anybody wants to take some questions.

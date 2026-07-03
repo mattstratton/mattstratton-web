@@ -1,0 +1,99 @@
+Hot Takes, Myths, And Falsehoods
+Why Everyone Is Wrong About DevOps Except For Me
+@mattstratton
+
+Don't believe everything that you read on the internet
+@mattstratton
+
+@mattstratton
+
+"DevOps is more than just tools"
+@mattstratton
+
+FALSE
+• If it was more than just tools, why would we have
+so many of them?
+• Nobody cares about your culture
+• There are a LOT of tools on DevOps twitter
+@mattstratton
+
+fi
+"There is no one true de nition of
+DevOps"
+@mattstratton
+
+FALSE
+• There are over 8 million results when I search
+"de nition of DevOps", and 8 million people can't
+be wrong
+• What else would we argue about on Twitter?
+• It's way too hard to explain nuance to senior
+fi
+management anyway
+@mattstratton
+
+"Kubernetes won't solve all your problems"
+@mattstratton
+
+FALSE
+• Kubernetes came from Google
+• @crayzeigh deployed his blog on
+Kubernetes and now it only goes down
+twice a month
+• YAML shows your commitment to precision
+@mattstratton
+
+"If you DevOps, you still need testing"
+@mattstratton
+
+FALSE
+• Remove the human element and remove the
+human error
+• If your microservice only does one thing, it
+can't have an error. That would be an
+additional thing
+• QA people are annoying anyway
+@mattstratton
+
+"You can't buy DevOps"
+@mattstratton
+
+FALSE
+• You may not be able to buy it, but I can sell it
+to you
+• Seriously, I would love to sell you some
+devops
+• What will it take to get you in a devops
+today?
+@mattstratton
+
+"DevOps does not work for everyone"
+@mattstratton
+
+FALSE
+• Then why did all the sysadmins become
+DevOps Engineers overnight?
+• It's not fair for me to not be able to sell
+everyone DevOps
+• "Every company is a DevOps company" some vendor, probably
+@mattstratton
+
+"You can do DevOps on Windows"
+@mattstratton
+
+FALSE
+• A key component of DevOps is a smug sense
+of self-satisfaction
+• Something something slashdot
+• Some other joke
+@mattstratton
+
+"Cats are more aligned with DevOps than dogs"
+@mattstratton
+
+FALSE
+@mattstratton
+
+For more DevOps hilarity...
+devopspartygames.com
+@mattstratton

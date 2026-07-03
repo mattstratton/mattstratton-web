@@ -1,0 +1,207 @@
+The Four Agreements of
+Incident Response
+Matty Stratton
+DevOps Advocate & Thought Validator, PagerDuty
+@mattstratton
+
+@mattstratton
+
+!"
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+An unplanned disruption or degradation
+of service that is actively affecting
+customers' ability to use the product.
+@mattstratton
+
+@mattstratton
+
+50,000 responders receiving a total of 760 million notiÞcations
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+▸ 250 million notiÞcations during sleeping hours
+▸ 122 million notiÞcations on weekends
+▸ A total of 750,000 nights with sleep-interrupting notiÞcations
+▸ A total of 330,000 weekend days with interrupt notiÞcations
+@mattstratton
+
+The most meaningful metrics on attrition
+▸ Number of days where a responder's work and
+life are interrupted
+▸ Number of days when a responder is woken
+overnight
+▸ Number of weekend days interrupted by
+notiÞcations.
+@mattstratton
+
+@mattstratton
+
+The Four Agreements
+• Be Impeccable with Your Word
+• Don't Take Anything Personally
+• Don't Make Assumptions
+• Always Do Your Best
+@mattstratton
+
+Be Impeccable With Your Word
+@mattstratton
+
+Rich Adams 11:12
+!ic page
+Oﬃcer URL APP 11:12
+Paging Incident Commanders(s)
+Arup Chakrabar: has been paged.
+Paul Rechsteiner has been paged.
+Renee Lung has been paged.
+Use !ic responders to see who the team responders are.
+Incident triggered: h@ps://example.pagerduty.com/incident/PD5I34R
+!ic page
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+Be Impeccable With Your Word
+• Anyone can trigger incident response
+• Don't litigate severity
+• Notify stakeholders
+@mattstratton
+
+Don't Take Anything Personally
+@mattstratton
+
+PEACETIME
+WARTIME
+@mattstratton
+
+NORMAL
+EMERGENCY
+@mattstratton
+
+OK
+NOT OK
+@mattstratton
+
+@mattstratton
+
+National Incident Management System (NIMS)
+Coordinated Incident Management System (CIMS)
+Australasian Inter-Service Incident Management System (AIIMS)
+Gold-Silver-Bronze Command Structure (GSB)
+Incident Command System (ICS)
+... and many other similar systems used in around the world.
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+Don't Take Anything Personally
+• Switch in mindset
+• Incident Commander is the highest authority
+• Incident Commander is not a resolver
+• Executive Swoop
+@mattstratton
+
+Don't Make Assumptions
+@mattstratton
+
+This background is blue.
+@r_adams
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+Rachael, I'd like you to
+investigate the increased
+latency, try to find the cause. I'll
+come back to you in 5 minutes.
+Understood.
+@mattstratton
+
+Don't Make Assumptions
+• Consensus is hard
+• Clear is better than concise
+• Assign tasks to a speciÞc person
+• Time-box all tasks
+@mattstratton
+
+Always Do Your Best
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+DON'T
+PANIC
+@r_adams
+
+@mattstratton
+
+Always Do Your Best
+• Better to make the wrong decision than no decision
+• Rally fast, disband faster
+• Handovers are encouraged
+• Useful post-mortems
+• Review your process
+• Don't Panic
+@mattstratton
+
+@mattstratton
+
+speaking.mattstratton.com
+@mattstratton
+
+@MATTSTRATTON
+LINKEDIN.COM/IN/MATTSTRATTON
+MATTSTRATTON.COM
+ARRESTEDDEVOPS.COM
+SHARE YOUR ON-CALL
+STORIES WITH ME LATER
+@mattstratton

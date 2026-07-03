@@ -1,0 +1,318 @@
+The Lifecycle of a Service
+Matt Stratton
+DevOps Advocate & Thought Validator, PagerDuty
+@mattstratton
+
+Service Ownership means people take
+responsibility for what they deliver, at
+every stage of a service's lifetime.
+@mattstratton
+
+What is a service?
+@mattstratton
+
+A service can be a lot of things
+Microservice
+Slice of a monolith
+Internal tool
+Piece of functionality
+Component
+Shared infrastructure
+Feature
+@mattstratton
+
+A service can be a lot of things
+If it provides value to other people, it's a service
+@mattstratton
+
+DeÞne what a "service" means to you
+@mattstratton
+
+A service is a discrete piece of
+functionality that provides value that is
+wholly owned by a team
+@mattstratton
+
+Shared understanding
+@mattstratton
+
+Who is responsible?
+@mattstratton
+
+"Service mitosis"
+@mattstratton
+
+Service deÞnitions help with
+problem resolution
+@mattstratton
+
+What about a monolith?
+@mattstratton
+
+Roles in service ownership
+@mattstratton
+
+Development Team
+@mattstratton
+
+Your service should make sense to
+other people who will interact with it
+@mattstratton
+
+Naming
+@mattstratton
+
+Be speciÞc
+@mattstratton
+
+Names that are speciÞc
+•
+"User authenticator"
+•
+"Payment processor"
+•
+"Shopping cart"
+•
+"Login"
+•
+"Report generator"
+•
+"Email tracking code"
+@mattstratton
+
+Less amazing names
+•
+PacMan (unless you're actually building PAC-MAN, which I doubt)
+•
+Apollo
+•
+BurgunDB
+•
+Artemis
+@mattstratton
+
+Descriptions
+@mattstratton
+
+Descriptions
+•
+What is the intent of this service, component, this slice of functionality?
+•
+How does this thing deliver value?
+•
+What does it contribute to?
+•
+How will this impact customers?
+@mattstratton
+
+API
+•
+Versioning
+•
+Clear documentation / examples
+@mattstratton
+
+Sustainability team
+@mattstratton
+
+Runbooks
+@mattstratton
+
+Alerting
+@mattstratton
+
+Resiliency
+Robustness
+and reliability
+@mattstratton
+
+Program management
+@mattstratton
+
+Responsibilities of program management
+•
+DeÞning what 'done' is
+•
+Emotional awareness of stress of the rest of the team
+•
+Connective tissue work between diﬀerent teams and features (help understand and
+mitigate dependencies)
+•
+Awareness of what it means to pull people away from other projects to solve a
+problem
+@mattstratton
+
+Product owner
+@mattstratton
+
+Customers are always asking for
+uptime, performance, and security -
+they just don't usually use those words
+@mattstratton
+
+Senior leadership
+@mattstratton
+
+Responsibilities of senior leadership
+•
+Make room in the roadmap for investing in tech debt
+•
+Encourage a culture of cooperation and sharing
+•
+Set goals that balance business priorities with achievable engineering goals
+@mattstratton
+
+Going deeper
+@mattstratton
+
+What are you observing about this
+service?
+@mattstratton
+
+Observability vs monitoring
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+Empathy-driven alerting
+@mattstratton
+
+A brief overview of SLA / SLO / SLI
+@mattstratton
+
+Service Level Indicators (SLI)
+•
+Latency
+•
+Throughput
+•
+Availability
+@mattstratton
+
+Service Level Objectives
+•
+Made up of SLIs
+•
+Measured over time
+•
+Not contractually set
+@mattstratton
+
+Service Level Agreements
+•
+Composed of SLOs
+•
+Contractually/legally binding
+•
+Basically, this is where you owe your customer money
+@mattstratton
+
+The "hadness" point
+@mattstratton
+
+Alert on SLOs
+@mattstratton
+
+How does a team respond to this
+service?
+@mattstratton
+
+Tuning your service
+@mattstratton
+
+Investigate patterns
+@mattstratton
+
+What alerts do you actually need?
+@mattstratton
+
+Suppression of non-actionable
+alerts
+@mattstratton
+
+Understand business impact
+@mattstratton
+
+Lifecycle steps
+@mattstratton
+
+Designing a new service
+@mattstratton
+
+Design phase
+•
+Understand the customers (product is a key role here)
+•
+Load testing / staging
+•
+Ensure SRE / sustainability teams are involved early
+•
+DeÞne SLI/SLO/SLA
+•
+Identify alerting requirements
+•
+Documentation (API, runbook, functional service registry if applicable)
+•
+Perform all security checks
+@mattstratton
+
+Maintaining and iterating
+@mattstratton
+
+Maintenance and iteration
+•
+Version the service API
+•
+Communicate to consumers
+•
+Proactive maintenance
+•
+Address tech debt consistently
+•
+Testing and deploying/releasing the service (CI/CD, testing in prod, etc)
+@mattstratton
+
+Retiring a service
+@mattstratton
+
+Retiring and sunsetting
+•
+Identify consumers
+•
+Determine business impact of retiring
+•
+Communicate / oﬀboard consumers
+@mattstratton
+
+Service ownership includes
+communication, compromise, and
+commitment.
+@mattstratton
+
+Acknowledgements
+Lilia Gutnik - @superlilia
+Julian Dunn - @julian_dunn
+Charity Majors - @mipsytipsy
+Liz Fong-Jones - @lizthegrey
+Images provided by
+@mattstratton
+
+If you enjoyed this talk, here's more about me
+arresteddevops.com
+devopsdayschi.org
+twitter.com/mattstratton
+speaking.mattstratton.com
+@mattstratton
+
+PagerDuty Connect NYC
+March 26
+meet.pagerduty.com/connectnyc20
+@mattstratton
+
+pduty.me/work-with-pagey
+(also pagerduty.com/careers)
+@mattstratton
+
+@mattstratton

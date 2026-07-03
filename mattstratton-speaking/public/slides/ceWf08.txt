@@ -1,0 +1,123 @@
+THE PSYCHOLOGY
+OF CHAOS ENGINEERING
+Matt Stratton
+DevOps Advocate & Thought Validator, PagerDuty
+@mattstratton
+
+@mattstratton
+
+let's set some agreement
+@mattstratton
+
+Chaos Engineering is the discipline of experimenting
+on a system in order to build conÞdence in the
+system's capability to withstand turbulent conditions
+in production.
+https://principlesofchaos.org/
+@mattstratton
+
+Netßix Technology Blog, 2011
+By running Chaos Monkey in the middle of a business day, in a carefully
+monitored environment with engineers standing by to address any
+problems, we can still learn the lessons about the weaknesses of our
+system, and build automatic recovery mechanisms to deal with them. So
+next time an instance fails at 3 am on a Sunday, we won't even notice.
+https://bit.ly/netflix-chaos
+@mattstratton
+
+perceptions
+@mattstratton
+
+"isn't all engineering chaotic?"
+@mattstratton
+
+"isn't all engineering chaotic?"
+@mattstratton
+
+It's not about breaking things
+@mattstratton
+
+It's not about breaking things
+@mattstratton
+
+look, I know you know this
+@mattstratton
+
+I'm gonna say it anyway
+@mattstratton
+
+these are experiments
+@mattstratton
+
+@mattstratton
+
+we know this, Matty
+@mattstratton
+
+how we talk about things matters
+@mattstratton
+
+people get nervous
+@mattstratton
+
+"You want to do what in
+production??"
+@mattstratton
+
+use your monitoring like it's for real
+because it is
+@mattstratton
+
+Something's broken...
+...it's your fault
+use your monitoring like it's for real
+because it is
+@mattstratton
+
+but what about the people?
+@mattstratton
+
+how does it make you feel to know
+Netßix practices chaos engineering?
+@mattstratton
+
+what about your bank?
+@mattstratton
+
+@mattstratton
+
+data, such as it is
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+management can get...
+...nervous
+@mattstratton
+
+consider your words
+@mattstratton
+
+it's about the philosophy
+@mattstratton
+
+@mattstratton
+
+safety Þrst
+@mattstratton
+
+•
+Know your conditions - when will you shut down the experiment?
+•
+This isn't about causing stress on your people - be transparent
+•
+There are humans at the other end of those numbers
+@mattstratton
+
+https://speaking.mattstratton.com
+@mattstratton
+
+Pagey Says....
+@mattstratton

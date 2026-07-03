@@ -1,7 +1,7 @@
 ---
 title: What's Actually in My .zshrc (and Why)
 description: A guided tour through the parts of my shell config that are actually worth explaining, from a shell that now has two audiences to a Keychain-backed secrets setup.
-pubDate: 2026-07-03
+pubDate: 2026-07-01
 topics:
   - shell
   - zsh

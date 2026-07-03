@@ -9,6 +9,7 @@ tags:
   - productivity
 cover_image: ./assets/zshrc-tour-cover.png
 id: 4043143
+date: '2026-07-01T15:39:44Z'
 crosspost: true
 canonical_url: https://www.mattstratton.com/writing/zshrc-tour/
 ---

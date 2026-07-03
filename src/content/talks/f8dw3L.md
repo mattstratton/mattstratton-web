@@ -11,7 +11,9 @@ abstractHtml: |
 slideSource: none
 slidesPdf: null
 slideImageCount: 0
-video: null
+video:
+  provider: youtube
+  id: Qf1-CRT0pvY
 resources: []
 thumbnail: /thumbnails/f8dw3L.jpg
 ---

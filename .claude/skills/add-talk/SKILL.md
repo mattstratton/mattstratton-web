@@ -56,6 +56,8 @@ do not reimplement them.
    shows on `/talks`, its event page, and (if a new event) the map.
 4. Show `git status` + diff. Then branch → commit (with the co-author trailer) →
    offer to open a PR. **Never commit without the user's sign-off.**
+5. **Resync memory** — run the `resync-talk-memory` skill for `talk.id` so the
+   new talk becomes searchable in the `me` memory engine.
 
 ## Out of scope
 

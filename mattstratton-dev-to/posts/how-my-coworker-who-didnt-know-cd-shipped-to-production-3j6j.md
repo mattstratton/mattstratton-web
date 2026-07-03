@@ -7,6 +7,7 @@ canonical_url: 'https://dev.to/mattstratton/how-my-coworker-who-didnt-know-cd-sh
 id: 3542818
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/huq5hzde2dcbh58cle1i.png'
 date: '2026-04-23T20:30:39Z'
+crosspost: true
 ---
 This morning, our Design Lead asked me how to get her terminal into the right folder.
 

@@ -7,6 +7,7 @@ canonical_url: 'https://medium.com/@mattstratton/dont-fear-the-cfp-e8272910972b'
 id: 14959
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/jf16mw214n6h8zpwnz12.png'
 date: '2017-12-22T16:24:31Z'
+crosspost: true
 ---
 
 _This post is based upon a talk I gave at_ [_DevOpsDays Detroit&nbsp;2015_](https://legacy.devopsdays.org/events/2015-detroit/proposals/how-to-train-yourself/)_._

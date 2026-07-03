@@ -7,6 +7,7 @@ canonical_url: 'https://dev.to/mattstratton/my-brewfile-1pob'
 id: 327372
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/e2bcvnrx9shjhpqfy8l5.png'
 date: '2020-05-04T20:51:50Z'
+crosspost: true
 ---
 *Updated 06-24-2026*
 

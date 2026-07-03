@@ -6,6 +6,7 @@ tags: long
 canonical_url: 'https://medium.com/@mattstratton/the-five-love-languages-of-devops-77606263c910'
 id: 11211
 date: '2017-10-31T18:35:20Z'
+crosspost: true
 ---
 
 _Based upon a talk I have given at several&nbsp;events._

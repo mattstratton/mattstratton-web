@@ -10,6 +10,7 @@ tags:
 cover_image: ./assets/decouple-release-from-deploy-cover.png
 id: 4061454
 date: '2026-07-03T15:43:16Z'
+crosspost: true
 ---
 Picture a pipeline that looks pretty reasonable on paper. An agent opens pull requests. CI gates the merge to main: lint, tests, build, all green or it doesn't land. A scheduled job periodically promotes whatever's sitting in staging straight to production. No individual approval per feature. Just a batch cutover on a timer.
 

@@ -7,6 +7,7 @@ canonical_url: 'https://dev.to/mattstratton/hot-takes-myths-and-fake-news---why-
 id: 57270
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/38h2hq4ti2m5uc5k79z4.png'
 date: '2018-10-26T18:37:34Z'
+crosspost: true
 ---
 *(Adapted from a talk I gave at [DevOpsDays Indianapolis](https://www.devopsdays.org/events/2018-indianapolis/program/matt-stratton/) and [DevOpsDays Riga](https://www.devopsdays.org/events/2018-riga/program/matty-stratton-ignite-1/))*
 

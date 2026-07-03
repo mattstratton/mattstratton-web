@@ -1,6 +1,6 @@
 ---
 title: Your Agent Didn't Break Prod. Your Pipeline Did.
-published: false
+published: true
 description: '''Merged'' and ''live'' are not the same event, and an agent that can merge to main doesn''t change that. It just makes it obvious you never separated them.'
 tags:
   - devops

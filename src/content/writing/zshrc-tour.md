@@ -1,18 +1,17 @@
 ---
 title: What's Actually in My .zshrc (and Why)
-published: true
 description: A guided tour through the parts of my shell config that are actually worth explaining, from a shell that now has two audiences to a Keychain-backed secrets setup.
-tags:
+pubDate: 2026-07-01
+topics:
   - shell
   - zsh
   - dotfiles
   - productivity
-cover_image: ./assets/zshrc-tour-cover.png
-id: 4043143
-date: '2026-07-01T15:39:44Z'
-crosspost: true
-canonical_url: https://www.mattstratton.com/writing/zshrc-tour/
+draft: false
+heroImage: /writing/zshrc-tour/zshrc-tour-cover.png
 ---
+
+![](/writing/zshrc-tour/zshrc-tour-cover.png)
 
 Your shell config is mostly a graveyard. A line you added in 2019 to fix a problem you don't remember having. An alias you're afraid to remove because what if you need it. Mine is no different, but there are a handful of pieces in there that are worth explaining, not because they're clever, but because most people have never thought about why they'd want them.
 
@@ -146,4 +145,3 @@ That's really it. It's a small mechanism, not a deep one, which is exactly why i
 ## Go poke around
 
 The full files are in [matty-dotfiles](https://github.com/mattstratton/matty-dotfiles) if you want the parts I skipped. If you've got a shell trick worth stealing, I want to hear about it in the comments.
-

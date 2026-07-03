@@ -10,6 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "migrate": "tsx scripts/migrate-posts.ts",
+    "crosspost": "tsx scripts/crosspost-devto.ts",
     "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
   },
   "dependencies": {

@@ -72,6 +72,11 @@
     --tw-prose-quotes: var(--color-ink);
     --tw-prose-code: var(--color-accent);
   }
+
+  .prose code::before,
+  .prose code::after {
+    content: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

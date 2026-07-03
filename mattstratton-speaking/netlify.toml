@@ -4,9 +4,14 @@
 # generated LOCALLY pre-commit (npm run rasterize / npm run optimize) and committed,
 # so the deploy needs no external tools (no poppler, no Ghostscript). This keeps
 # the build host-agnostic and fast.
+#
+# Lives as a subdirectory in a monorepo (see root CLAUDE.md) — this site's Netlify
+# project points its Package directory here. Skip a build when a push doesn't
+# touch anything under this subdirectory.
 [build]
   command = "npm run build"
   publish = "dist"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- mattstratton-speaking"
 
 [build.environment]
   NODE_VERSION = "20"

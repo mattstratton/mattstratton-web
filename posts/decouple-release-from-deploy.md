@@ -32,6 +32,18 @@ If your pipeline treats "merged" and "live" as synonyms, you've opted into conti
 
 Feature flags are one popular way to do that separation, and if you already run one, great, keep running it. But a flag is a mechanism, not the point. I don't run a feature-flag system myself, and I still get the same separation. What matters is the decoupling, not the specific tool you use to get it.
 
+In case it's not obvious what one even looks like: a feature flag, at its most embarrassingly simple, is a boolean and an `if` statement.
+
+```javascript
+if (flags.newInvoiceExport) {
+  renderNewExport()
+} else {
+  renderOldExport()
+}
+```
+
+You do not need a vendor with a pricing page to get started. A config value, an environment variable, a column on a settings table, all of that counts as day one. Upgrade to something like LaunchDarkly or Unleash once the dumb version is the thing slowing you down, not before.
+
 ## Put a gate on the release event, not just the merge event
 
 My own setup looks like this: PRs merge to `main`, but `main` isn't what's live. A separate release step promotes `main` to a `production` branch, and that promotion only happens after I explicitly say go. Nothing gets pushed to production on a timer, and nothing gets pushed because a batch of unrelated changes happened to be sitting around.

@@ -6,6 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Personal site + blog for mattstratton.com. **Astro 5 + Tailwind CSS v4**, deployed to Netlify. Migrated from Hugo (hugo-profile theme) in 2026; it's a deliberate sibling of the speaking site (`mattstratton-speaking`) — same warm-paper design system, differentiated by a teal/amber accent.
 
+## Monorepo structure
+
+This repository holds **three independent subprojects**, merged together (with full git history via `git subtree`) for a single place to manage the whole mattstratton.com stack. There is no shared tooling, no npm workspaces, and no shared package.json — each subproject is fully self-contained and needs its own `npm install` run from inside its own directory.
+
+- **`/` (this directory)** — this site, mattstratton.com. See the rest of this file.
+- **`mattstratton-speaking/`** — speaking.mattstratton.com, a separate Astro 5 + Tailwind v4 site with its own `netlify.toml`, `CLAUDE.md`, and Claude Code skills (`add-talk`, `resync-talk-memory`, `transcript-cleanup`). Deliberately different Astro config (`trailingSlash: 'never'`, `build.format: 'file'`) — do not try to unify it with this site's config.
+- **`mattstratton-dev-to/`** — manages Matt's dev.to posts via a git-ownership-transfer model (see its own `CLAUDE.md`). Feeds the `crosspost-devto` script (see `scripts/`) that selectively republishes dev.to posts into this site's `/writing/` collection.
+
+A design-system unification (the warm-paper CSS tokens are currently hand-copied between this site and the speaking site, not shared) is a deliberately deferred future project, not part of this merge.
+
+**Claude Code skills note**: `mattstratton-speaking/.claude/skills/` are committed and came over with the merge, but skill discovery from a Claude Code session launched at this repo's root has not been confirmed to surface them automatically — if they don't show up, `cd mattstratton-speaking` (or launch a session scoped there) before using them.
+
 ## Commands
 
 ```bash

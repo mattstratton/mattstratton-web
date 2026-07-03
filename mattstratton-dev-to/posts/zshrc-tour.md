@@ -9,6 +9,7 @@ tags:
   - productivity
 cover_image: ./assets/zshrc-tour-cover.png
 id: 4043143
+date: '2026-07-01T15:39:44Z'
 ---
 
 Your shell config is mostly a graveyard. A line you added in 2019 to fix a problem you don't remember having. An alias you're afraid to remove because what if you need it. Mine is no different, but there are a handful of pieces in there that are worth explaining, not because they're clever, but because most people have never thought about why they'd want them.

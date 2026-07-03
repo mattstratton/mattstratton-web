@@ -1,0 +1,22 @@
+name: Publish to dev.to
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**/*.md"]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Loop guard: do not re-run on the action's own id write-back commit
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish articles on dev.to
+        uses: sinedied/publish-devto@85426e8090533468bb8012015451e3af797b65af # v2
+        with:
+          devto_key: ${{ secrets.DEVTO_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          files: "posts/**/*.md"
+          branch: main
+          conventional_commits: true

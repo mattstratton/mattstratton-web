@@ -7,6 +7,7 @@ canonical_url: 'https://dev.to/mattstratton/coding-agents-are-actually-good-at-t
 id: 3299129
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rxoya791llxf4y6v2c81.png'
 date: '2026-03-01T20:31:28Z'
+crosspost: true
 ---
 The discourse around AI coding tools tends to collapse into two camps: people who think they're going to replace developers, and people dunking on "vibe coding" demos that fall apart the moment you look at them sideways.
 

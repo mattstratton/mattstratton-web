@@ -7,6 +7,7 @@ tags:
 canonical_url: 'https://dev.to/mattstratton/finance-101-budgets-pls-and-the-language-of-money-3dp9'
 id: 2969627
 cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqg4giv7gqcufvzmejpgr.png'
+series: DevRel Guide to Business
 date: '2025-10-28T18:53:35Z'
 ---
 *This is Part 4 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*

@@ -1,0 +1,58 @@
+{
+  "formal": {
+    "sizes": [
+      {
+        "label": "Thumb (600×900)",
+        "src": "/headshots/formal-600.jpg",
+        "w": 600,
+        "h": 900
+      },
+      {
+        "label": "Medium (1200×1800)",
+        "src": "/headshots/formal-1200.jpg",
+        "w": 1200,
+        "h": 1800
+      },
+      {
+        "label": "Large (1600×2400)",
+        "src": "/headshots/formal-1600.jpg",
+        "w": 1600,
+        "h": 2400
+      }
+    ],
+    "original": {
+      "label": "Original (2387×3581)",
+      "src": "/headshots/formal.png",
+      "w": 2387,
+      "h": 3581
+    }
+  },
+  "purple-hair": {
+    "sizes": [
+      {
+        "label": "Thumb (600×800)",
+        "src": "/headshots/purple-hair-600.jpg",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "label": "Medium (1200×1600)",
+        "src": "/headshots/purple-hair-1200.jpg",
+        "w": 1200,
+        "h": 1600
+      },
+      {
+        "label": "Large (1600×2133)",
+        "src": "/headshots/purple-hair-1600.jpg",
+        "w": 1600,
+        "h": 2133
+      }
+    ],
+    "original": {
+      "label": "Original (2316×3088)",
+      "src": "/headshots/purple-hair.png",
+      "w": 2316,
+      "h": 3088
+    }
+  }
+}

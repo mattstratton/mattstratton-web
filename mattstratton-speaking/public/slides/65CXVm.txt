@@ -1,0 +1,103 @@
+THE FIVE LOVE LANGUAGES OF
+DEVOPS
+
+WHOAMI
+
+WHAT IS THIS DEVOPS THING
+ANYWAY?
+
+"A cultural and professional movement, focused
+on how we build and operate high velocity
+organizations, born from the experiences of its
+practitioners."
+1
+-- Chef Style DevOps
+1
+https://youtu.be/_DEToXsgrPc
+
+THE FIVE LOVE
+LANGUAGES
+
+WHAT DOES THIS HAVE TO DO
+WITH SHIPPING SOFTWARE?
+
+CALMS
+
+CULTURE
+
+You can't directly change culture. But
+you can change behavior, and behavior
+becomes culture
+- Lloyd Taylor, VP Infrastructure, Ngmoco
+
+AUTOMATION
+
+"Asking experts to do boring and
+repetitive, and yet technically demanding
+tasks is the most certain way of
+ensuring human error, short of sleep
+deprivation, or inebriation."
+- Continuous Delivery, Jez Humble and David Farley
+
+LEAN THINKING
+
+MEASUREMENT
+
+SHARING
+
+WUT?
+
+EACH OF THESE IS A
+"DEVOPS LOVE LANGUAGE"
+
+If you find yourself thinking "this is
+crystal clear to me, why aren't they
+seeing it?," that's more about you than
+it is about them.
+- -Bill Joy, Arrested DevOps Episode 33
+
+IT'S NOT ENOUGH TO GET SOMEONE TO DO IT,
+THEY NEED TO SEE THE VALUE IN THEIR OWN
+LANGUAGE
+
+DISC
+▸ Dominant/Direct
+▸ Influencing
+▸ Steadiness
+▸ Conscientious
+
+DIRECT
+LEAN/MEASUREMENT
+
+INFLUENCING
+CULTURE/SHARING
+
+STEADINESS
+AUTOMATION/MEASUREMENT
+
+CONSCIENTIOUS
+SHARING/MEASUREMENT
+
+ASSESS THE DRIVERS
+
+BE A SALESPERSON
+
+TALK THEIR LANGUAGE
+
+COMPLIANCE VS.
+COMMITMENT
+
+THE BEST CHANGE INFLUENCERS ARE THOSE
+WHO DON'T SEE PEOPLE AS SOMETHING THEY
+'HAVE TO DEAL WITH'.
+
+BRING PEOPLE ALONG FOR
+THE RIDE
+
+QUESTIONS?
+
+MORE STUFF
+▸ http://arresteddevops.com/devops-culture-change/
+▸ https://github.com/chef/devops-kungfu
+▸ @mattstratton on the twitters
+▸ https://github.com/mattstratton on the githubs

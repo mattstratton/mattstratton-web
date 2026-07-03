@@ -1,0 +1,307 @@
+{
+  "hot-takes-myths-and-fake-news-why-everyone-is-wrong-about-devops-except-for-me": {
+    "topics": [
+      "DevOps",
+      "Humor"
+    ],
+    "tech": [
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  "zero-trust-is-for-networks-not-your-teams": {
+    "topics": [
+      "Culture & Teams"
+    ],
+    "tech": []
+  },
+  "databases-a-history-of-places-to-put-your-stuff": {
+    "topics": [
+      "Databases & Data"
+    ],
+    "tech": []
+  },
+  "a-quick-deep-dive-into-the-devopsdays-website": {
+    "topics": [
+      "Speaking & Community"
+    ],
+    "tech": []
+  },
+  "what-got-you-here-wont-get-you-there": {
+    "topics": [
+      "Leadership",
+      "Observability & Resilience"
+    ],
+    "tech": []
+  },
+  "the-handwaver-s-guide-to-contributing-to-open-source": {
+    "topics": [
+      "Speaking & Community"
+    ],
+    "tech": []
+  },
+  "the-lifecycle-of-a-service": {
+    "topics": [
+      "Product & Service Management"
+    ],
+    "tech": []
+  },
+  "the-four-agreements-of-incident-response": {
+    "topics": [
+      "Incident Response",
+      "The Human Side"
+    ],
+    "tech": [
+      "PagerDuty"
+    ]
+  },
+  "the-five-love-languages-of-devops": {
+    "topics": [
+      "DevOps",
+      "Culture & Teams"
+    ],
+    "tech": []
+  },
+  "kick-em-or-keep-em-collaborating-on-our-own-deserted-islands": {
+    "topics": [
+      "Culture & Teams",
+      "The Human Side"
+    ],
+    "tech": []
+  },
+  "avengers-assemble-the-thanos-incident": {
+    "topics": [
+      "Incident Response",
+      "Humor"
+    ],
+    "tech": []
+  },
+  "fight-flight-or-freeze-releasing-organizational-trauma": {
+    "topics": [
+      "The Human Side",
+      "Culture & Teams"
+    ],
+    "tech": []
+  },
+  "how-do-you-infect-your-organization-with-humane-ops": {
+    "topics": [
+      "Culture & Teams",
+      "The Human Side"
+    ],
+    "tech": []
+  },
+  "turning-infrastructure-into-software-through-cloud-engineering": {
+    "topics": [
+      "Cloud Native & Kubernetes",
+      "Infrastructure as Code"
+    ],
+    "tech": []
+  },
+  "bridging-dev-and-ops-keynote-presentation": {
+    "topics": [
+      "DevOps",
+      "Culture & Teams"
+    ],
+    "tech": []
+  },
+  "youve-convinced-me-we-have-to-collaborate-but-how-the-hell-do-we-deal-with-people": {
+    "topics": [
+      "Culture & Teams",
+      "The Human Side"
+    ],
+    "tech": []
+  },
+  "the-journey-from-devops-to-cloud-engineering": {
+    "topics": [
+      "DevOps",
+      "Cloud Native & Kubernetes"
+    ],
+    "tech": [
+      "Kubernetes",
+      "Pulumi"
+    ]
+  },
+  "managing-your-mental-stack": {
+    "topics": [
+      "The Human Side",
+      "Career & Growth"
+    ],
+    "tech": []
+  },
+  "talk-selection-as-mockumentary-film-editing": {
+    "topics": [
+      "Speaking & Community"
+    ],
+    "tech": []
+  },
+  "everything-is-a-product-how-to-apply-product-management-practices-to-technology-services": {
+    "topics": [
+      "Product & Service Management",
+      "Leadership"
+    ],
+    "tech": []
+  },
+  "charting-your-own-course-through-the-cloud-native-landscape": {
+    "topics": [
+      "Cloud Native & Kubernetes",
+      "Career & Growth"
+    ],
+    "tech": [
+      "Kubernetes"
+    ]
+  },
+  "devops-lean-thinking-panel": {
+    "topics": [
+      "DevOps"
+    ],
+    "tech": []
+  },
+  "hot-takes-myths-and-falsehoods-why-everyone-is-wrong-about-devops-except-for-me": {
+    "topics": [
+      "DevOps",
+      "Humor"
+    ],
+    "tech": [
+      "Kubernetes"
+    ]
+  },
+  "devops-in-the-machine": {
+    "topics": [
+      "DevOps",
+      "Humor"
+    ],
+    "tech": []
+  },
+  "don-t-panic-effective-incident-response": {
+    "topics": [
+      "Incident Response"
+    ],
+    "tech": [
+      "PagerDuty"
+    ]
+  },
+  "incidents-accidents": {
+    "topics": [
+      "Incident Response"
+    ],
+    "tech": [
+      "PagerDuty"
+    ]
+  },
+  "the-psychology-of-chaos-engineering": {
+    "topics": [
+      "Observability & Resilience",
+      "The Human Side"
+    ],
+    "tech": []
+  },
+  "kubernetes-you-rainbow-infused-space-unicorn-what-leslie-knope-can-teach-us-about-devops": {
+    "topics": [
+      "Cloud Native & Kubernetes",
+      "Humor",
+      "DevOps"
+    ],
+    "tech": [
+      "Kubernetes"
+    ]
+  },
+  "dont-panic-effective-incident-response": {
+    "topics": [
+      "Incident Response"
+    ],
+    "tech": [
+      "PagerDuty"
+    ]
+  },
+  "build-an-infrastructure-platform-with-kubernetes": {
+    "topics": [
+      "Cloud Native & Kubernetes",
+      "Infrastructure as Code"
+    ],
+    "tech": [
+      "Kubernetes",
+      "Pulumi",
+      "Amazon EKS"
+    ]
+  },
+  "agile-change-and-release-management-at-the-1-online-rental-site-in-the-us": {
+    "topics": [
+      "DevOps"
+    ],
+    "tech": []
+  },
+  "where-do-we-go-from-here-the-next-level-of-devrel-value": {
+    "topics": [
+      "Speaking & Community"
+    ],
+    "tech": []
+  },
+  "shifting-left-securely": {
+    "topics": [
+      "Security"
+    ],
+    "tech": []
+  },
+  "the-proactive-approach-data-driven-observability-incident-response": {
+    "topics": [
+      "Observability & Resilience",
+      "Incident Response"
+    ],
+    "tech": [
+      "PagerDuty",
+      "Humio"
+    ]
+  },
+  "devlolops-how-to-automate-your-devops-hilarity": {
+    "topics": [
+      "Humor",
+      "DevOps"
+    ],
+    "tech": []
+  },
+  "blameless-postmortems-how-to-actually-do-them": {
+    "topics": [
+      "Incident Response"
+    ],
+    "tech": [
+      "PagerDuty"
+    ]
+  },
+  "how-to-train-your-self-dragon-style-to-submit-talks": {
+    "topics": [
+      "Speaking & Community",
+      "Career & Growth"
+    ],
+    "tech": []
+  },
+  "7-things-executives-can-learn-from-software-engineers": {
+    "topics": [
+      "Leadership"
+    ],
+    "tech": []
+  },
+  "making-infrastructure-s-mores-with-chef": {
+    "topics": [
+      "Infrastructure as Code",
+      "Security"
+    ],
+    "tech": [
+      "Chef"
+    ]
+  },
+  "escaping-iiot-pilot-purgatory-why-your-database-breaks-at-scale": {
+    "topics": [
+      "Databases & Data"
+    ],
+    "tech": [
+      "PostgreSQL"
+    ]
+  },
+  "hiring-your-first-devop": {
+    "topics": [
+      "DevOps",
+      "Humor"
+    ],
+    "tech": []
+  }
+}

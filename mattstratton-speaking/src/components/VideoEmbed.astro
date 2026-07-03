@@ -1,0 +1,75 @@
+---
+// Durable, privacy-friendly video facade. Renders a poster + play button and
+// swaps in the real player iframe only on click — no third-party requests (and
+// no player JS) until the visitor opts in. Self-contained: no external embed
+// library or CDN, so nothing can break the basic view. Replaces Notist's
+// brittle proxy embeds. Supports YouTube and Vimeo.
+interface Props {
+  provider: 'youtube' | 'vimeo';
+  id: string;
+  title: string;
+}
+const { provider, id, title } = Astro.props;
+
+// YouTube exposes a lightweight thumbnail; Vimeo needs an API call for one, so
+// it falls back to a plain dark poster (only one Vimeo talk in the archive).
+const poster =
+  provider === 'youtube' ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : null;
+---
+
+<div
+  class="group relative my-8 aspect-video w-full overflow-hidden rounded-lg bg-slate-900"
+  data-video-facade
+  data-provider={provider}
+  data-id={id}
+>
+  <button
+    type="button"
+    class="absolute inset-0 flex h-full w-full items-center justify-center"
+    aria-label={`Play video: ${title}`}
+  >
+    {poster && (
+      <img
+        src={poster}
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover opacity-90 transition group-hover:opacity-100"
+        loading="lazy"
+        decoding="async"
+      />
+    )}
+    <span
+      class="relative flex h-16 w-16 items-center justify-center rounded-full bg-red-600 text-white shadow-lg transition group-hover:scale-105"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" class="ml-1 h-7 w-7" aria-hidden="true">
+        <path d="M8 5v14l11-7z" />
+      </svg>
+    </span>
+  </button>
+</div>
+
+<script>
+  // Wire every facade on the page. Top-level (non-conditional) so Astro reliably
+  // bundles and ships this script.
+  function embedUrl(provider: string | undefined, id: string | undefined): string | null {
+    if (!id) return null;
+    if (provider === 'youtube')
+      return `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+    if (provider === 'vimeo') return `https://player.vimeo.com/video/${id}?autoplay=1`;
+    return null;
+  }
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-video-facade]')) {
+    const btn = root.querySelector('button');
+    btn?.addEventListener('click', () => {
+      const url = embedUrl(root.dataset.provider, root.dataset.id);
+      if (!url) return;
+      const iframe = document.createElement('iframe');
+      iframe.src = url;
+      iframe.className = 'absolute inset-0 h-full w-full';
+      iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture; encrypted-media');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('title', 'Video player');
+      root.replaceChildren(iframe);
+    });
+  }
+</script>

@@ -1,0 +1,85 @@
+/* Self-hosted variable fonts (no CDN — durability-first). */
+@import '@fontsource-variable/hanken-grotesk';
+@import '@fontsource-variable/jetbrains-mono';
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* ───────────────────────────────────────────────────────────
+   Warm-paper, all-sans archive: Hanken Grotesk throughout (heavier,
+   tighter for display), JetBrains Mono for labels/metadata, an
+   electric-violet accent that nods to the hair.
+   ─────────────────────────────────────────────────────────── */
+@theme {
+  --font-sans: 'Hanken Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Hanken Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+
+  --color-paper: #f5f1e8;
+  --color-panel: #fffdf7;
+  --color-ink: #1b1712;
+  --color-ink-soft: #6d6354;
+  --color-accent: #6d28d9;
+  --color-accent-bright: #d6298f;
+  --color-rule: #ddd2bf;
+
+  --color-slate-900: #1b1712; /* override stray slate refs toward the warm ink */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    /* Warm paper with a barely-there grain for depth, not a flat fill. */
+    background-color: var(--color-paper);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+
+  ::selection {
+    background: var(--color-accent-bright);
+    color: white;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Mono eyebrow/label helper used across the site. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink-soft);
+  }
+
+  /* Abstract / long-form prose tuned to the warm theme. */
+  .prose {
+    --tw-prose-body: var(--color-ink);
+    --tw-prose-headings: var(--color-ink);
+    --tw-prose-links: var(--color-accent);
+    --tw-prose-bold: var(--color-ink);
+    --tw-prose-counters: var(--color-ink-soft);
+    --tw-prose-bullets: var(--color-rule);
+    --tw-prose-quotes: var(--color-ink);
+    --tw-prose-code: var(--color-accent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,111 @@
+Databases: A
+History of Places
+to Put Your Stuff
+
+"
+It's like one person 8 years ago wrote
+the slappingest piece of database
+marketing copy known to man and
+everyone else remixed it like they're
+trying to get away with plagiarizing a
+high school book report.
+- Kat, complaining on Twitter
+
+Damn that's a lot of databases
+in-memory, active, cloud, data warehouse,
+deductive, descriptive, document-oriented,
+embedded, federated, heterogeneous,
+graph, array, hypertext, knowledge base,
+mobile, operational, parallel, probabilistic,
+real-time, spatial, temporal,
+terminology-oriented, unstructured
+
+The 1950s
+
+Bigass Boxes of Punch Cards
+
+1951
+Univac I
+First magnetic tape
+
+1956
+IBM 305 RAMAC
+First disc storage
+
+1961
+The first DBMS
+Integrated Data store
+Charles Bachman
+
+The 1970s
+
+How relational databases work
+Edgar Codd, the top gun of tables
+
+ORACLE AND IBM ENTER THE CAGE
+
+TIME FOR POSTGRES
+
+The 80s
+
+The 90s
+
+KAT RESIST THE URGE TO JUST PUT A BIG PHOTO OF GRADY
+BOOCH HERE, HE KNOWS YOU USE HIM IN HIS TALKS AND IT'S
+PROBABLY GETTING CREEPY
+
+The 2000s and beyond
+
+https://bit.ly/its-webscale
+
+#nosql
+
+key-value
+graph
+column
+NoSQL isn't just
+document model
+document
+
+ACID vs CAP theorem
+
+The World Wide Webs is technically just a large,
+distributed hypertext database
+
+What have we learned?
+
+KAT
+Twitter - @dixie3flatline
+Bluesky - @kat.lol
+GitHub - katcosgrove
+LinkedIn - linkedin.com/in/katcosgrove
+MATTY
+Twitter - @mattstratton
+Mastodon - @mattstratton@hachyderm.io
+Bluesky - @matty.wtf
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+
+REFERENCES
+●
+●
+●
+●
+●
+A Timeline of Database History & Database Management
+Wikipedia entry for databases and history
+IBM Information Management System
+MongoDB is Web Scale video
+Charles Bachman
+
+ATTRIBUTIONS
+This presentation is licensed under the Creative Commons Attribution-ShareAlike
+https://creativecommons.org/licenses/by-sa/3.0/deed.en
+Photo of Edgar Codd - Photo copyright IBM
+Relational database diagram from
+Photo of Michael Stonebreaker - Photo by David Monniaux
+Photo of an IBM punched card - Photo by Peter Birkinshaw, CC By 2.0
+Photo of an IBM 305 RAMAC - Photo by Norsk Teknisk Museum
+dBase Logo
+Drawing of Route 53 Database t-shirt logo - Copyright Corey Quinn (probably)

@@ -1,0 +1,609 @@
+BLAMELESS POSTMORTEMS
+HOW TO ACTUALLY DO THEM
+Matty Stratton
+DevOps Advocate & Thought Validator, PagerDuty
+@mattstratton
+
+What will we cover
+•
+What is a Postmortem?
+•
+Blameless Culture
+•
+How to Write a Postmortem
+•
+Postmortem Meetings
+•
+Putting it into Practice
+@mattstratton
+
+What is a postmortem?
+@mattstratton
+
+What went wrong, and how do we
+learn from it?
+@mattstratton
+
+Organizations may refer to the
+postmortem process in slightly
+different ways
+After-Action Review
+Post-Incident Review
+Learning Review
+Incident Review
+Incident Report
+Root Cause Analysis (or RCA)
+@mattstratton
+
+Why do postmortems?
+@mattstratton
+
+KEY TAKEAWAY
+The postmortem process drives focus, instills a
+culture of learning, and identifies opportunities
+for improvement that otherwise would be lost.
+@mattstratton
+
+When to do a postmortem
+@mattstratton
+
+Do a postmortem after every
+major incident
+@mattstratton
+
+Postmortems are done shortly after
+the incident is resolved, while the
+context is still fresh for all responders.
+@mattstratton
+
+Who is responsible for the
+postmortem?
+@mattstratton
+
+Designate a single owner
+@mattstratton
+
+Ownership Criteria
+•
+Took a leadership role during the incident
+•
+Performed a task that led to stabilizing the service
+•
+Was the primary on-call responder for the most heavily affected service
+•
+Manually triggered the incident to initiate incident response
+@mattstratton
+
+Dedicated investigators
+@mattstratton
+
+Postmortems are not a
+punishment
+@mattstratton
+
+Blameless
+@mattstratton
+
+KEY TAKEAWAY
+The impulse to blame and punish has the
+unintended effect of disincentivizing the
+knowledge sharing required to learn from
+incidents
+@mattstratton
+
+KEY TAKEAWAY
+The goal of the postmortem is to understand
+what systemic factors led to the incident and
+identify actions that can improve the resiliency of
+the affected system
+@mattstratton
+
+Why blamelessness is hard
+@mattstratton
+
+J. Paul Reed
+Principal Consultant, Release Engineering Approaches
+Humans are hardwired through millions of years of
+evolutionary neurobiology and thousands of years of social
+conditioning to use the technique of blaming as a way to give
+voice to painful and uncomfortable feelings, in order to
+effectively disperse them from our psyches
+@mattstratton
+
+By being aware of our biases, we will
+be able to identify when they occur
+and work to move past them
+@mattstratton
+
+Fundamental attribution error
+@mattstratton
+
+Confirmation bias
+@mattstratton
+
+Hindsight bias
+@mattstratton
+
+Negativity bias
+@mattstratton
+
+Bias
+Fundamental attribution error
+ConÞrmation bias
+DeÞnition
+Countermeasure
+Discuss 'what' questions instead of 'who'.
+What people do reßects their character Focus on the system, the infrastructure,
+rather than their circumstances.
+and the situation - not the people
+involved.
+Favoring information that reinforces
+existing positions.
+Appoint someone to play devil's
+advocate to take contrarian viewpoints
+during investigations.
+Hindsight bias
+Explain events in terms of foresight
+Seeing the incident as inevitable despite
+instead. Start your timeline analysis at a
+there having been little or no objective
+point before the incident, and work your
+basis for predicting it because we know
+way forward instead of backward from
+the outcome.
+resolution.
+Negativity bias
+Reframe incidents as learning
+Things of a more negative nature have a
+opportunities, and remember to describe
+greater effect on one's mental state than
+what was handled well in incident
+neutral or even positive things.
+response.
+@mattstratton
+
+How to avoid blame
+@mattstratton
+
+KEY TAKEAWAY
+Ask "what" and "how" questions
+rather than "who" or "why"
+@mattstratton
+
+Consider multiple and diverse
+perspectives
+@mattstratton
+
+Ask yourself why a reasonable,
+rational, and decent person may
+have taken a particular action
+@mattstratton
+
+Abstract to an inspecific
+responder
+@mattstratton
+
+Contrast what you did not intend
+with what you do intend
+@mattstratton
+
+How to introduce postmortems
+@mattstratton
+
+Sell the business value of
+blamelessness
+@mattstratton
+
+Acknowledge that practicing
+blamelessness is difficult for
+everyone
+@mattstratton
+
+Get buy-in from individual
+contributors too
+@mattstratton
+
+Psychological safety
+@mattstratton
+
+Amy Edmondson
+Professor, Harvard Business School
+[Psychological safety is] a sense of
+confidence that the team will not embarrass,
+reject, or punish someone for speaking up.
+@mattstratton
+
+Conversational turn-taking
+@mattstratton
+
+High social sensitivity or empathy
+@mattstratton
+
+Start small
+@mattstratton
+
+Information sharing
+@mattstratton
+
+Being transparent about system
+failure reinforces a culture of
+blamelessness
+@mattstratton
+
+Create a community of experienced
+postmortem writers to review postmortem
+drafts and spread good practices
+@mattstratton
+
+Schedule postmortem meetings
+on a shared calendar
+@mattstratton
+
+Email completed postmortems to all
+teams involved in incident response
+@mattstratton
+
+Accountability
+@mattstratton
+
+Set a policy for postmortem
+action items
+@mattstratton
+
+Clarify ownership of postmortem
+action items
+@mattstratton
+
+Engage the leaders that prioritize
+work
+@mattstratton
+
+Open tickets for postmortem action
+items in your work management
+ticketing system
+@mattstratton
+
+Actually doing it
+@mattstratton
+
+The Steps
+1.
+Create a new postmortem for the incident.
+2.
+Schedule a postmortem meeting within the required timeframe for all required and optional attendees on the "Incident Postmortem Meetings" shared calendar.
+3.
+Populate the incident timeline with important changes in status/impact and key actions taken by responders.
+•
+4.
+For each item in the timeline, include a metric or some third-party page where the data came from.
+Analyze the incident.
+•
+Identify contributing factors
+•
+Consider technology and process.
+5.
+Open any follow-up action tickets.
+6.
+Write the external messaging.
+7.
+Ask for review.
+8.
+Attend the postmortem meeting.
+9.
+Share the postmortem.
+@mattstratton
+
+Owner responsibilities
+•
+Scheduling the postmortem meeting on the shared calendar and inviting the relevant people (this should be
+scheduled within 3 business days for a Sev-1 and 5 business days for a Sev-2).
+•
+Investigating the incident, pulling in whomever you need from other teams to assist in the investigation.
+•
+Ensuring the page is updated with all of the necessary content. Use your organization's template for what
+should be included.
+•
+Creating follow-up tickets. (You are only responsible for creating the tickets, not following them up to
+resolution).
+•
+Reviewing the postmortem content with appropriate parties before the meeting. Running through the
+topics at the postmortem meeting (the Incident Commander will "run" the meeting and keep the discussion on
+track, but you will likely be doing most of the talking).
+•
+Communicating the results of the postmortem internally.
+@mattstratton
+
+Administration
+@mattstratton
+
+Who should attend?
+•
+Service owners involved or impacted in the incident.
+•
+Key engineer(s)/responders involved in the incident.
+•
+Engineering manager for impacted systems.
+•
+Product manager for impacted systems.
+•
+Customer liaison (only for Sev-1 incidents).
+•
+Incident commander and/or a facilitator
+•
+Incident commander deputy, shadow, scribe (if present).
+@mattstratton
+
+Create a timeline
+@mattstratton
+
+Timeline tips
+•
+Stick to the facts.
+•
+Include changes to incident status and impact.
+•
+Include key decisions and actions taken by responders.
+•
+Illustrate each point with a metric.
+@mattstratton
+
+Document the impact
+@mattstratton
+
+Analyze the incident
+@mattstratton
+
+KEY TAKEAWAY
+There is no single root cause of major failure in
+complex systems, but a combination of
+contributing factors that together lead to failure
+@mattstratton
+
+KEY TAKEAWAY
+An individual's action should
+never be considered a root cause.
+@mattstratton
+
+Dr. Richard Cook
+Department of Integrated Systems Engineering at the Ohio State University
+All practitioner actions are actually
+gambles, that is, acts that take place in
+the face of uncertain outcomes.
+@mattstratton
+
+Check data
+@mattstratton
+
+Helpful questions
+•
+Is it an isolated incident or part of a trend?
+•
+Was this a specific bug, a failure in a class of problem we anticipated, or did it uncover
+a class of issue we did not architecturally anticipate?
+•
+Was there work the team chose not to do in the past that contributed to this incident?
+•
+Research if there were any similar or related incidents in the past. Does this incident
+demonstrate a larger trend in your system?
+•
+Will this class of issue get worse/more likely as you continue to grow and scale the
+use of the service?
+@mattstratton
+
+Follow-up actions
+@mattstratton
+
+Action items
+•
+Actionable
+•
+Specific
+•
+Bounded
+@mattstratton
+
+Poorly Worded
+Better
+Investigate monitoring for this
+scenario.
+Actionable: Add alerting for all
+cases where this service returns
+>1% errors.
+Fix the issue that caused the
+outage.
+SpeciÞc: Handle invalid postal
+code in user address form input
+safely.
+Make sure engineer checks that
+database schema can be parsed
+before updating.
+Bounded: Add automated
+presubmit check for schema
+changes.
+@mattstratton
+
+Don't create too many tickets
+@mattstratton
+
+The person who creates the ticket
+is not responsible for completing it
+@mattstratton
+
+Write external messaging
+@mattstratton
+
+External messaging components
+•
+Summary: Two to three sentences that summarize the duration of the
+incident and the observable customer impact.
+•
+What Happened: Summary of contributing factors. Summary of
+customer-facing impact during the incident. Summary of mitigation
+efforts during the incident.
+•
+What Are We Doing About This: Summary of action items.
+@mattstratton
+
+Postmortem Review
+@mattstratton
+
+Do
+•
+Make sure the timeline is an accurate representation of events.
+•
+Define any technical lingo/acronyms you use that newcomers may not
+understand.
+•
+Separate what happened from how to fix it.
+•
+Write follow-up tasks that are actionable, specific, and bounded in scope.
+•
+Discuss how the incident fits into our understanding of the health and
+resiliency of the services affected.
+@mattstratton
+
+Don't
+•
+Don't use the word "outage" unless it really was an outage.
+•
+Don't change details or events to make things "look better."
+•
+Don't name and shame someone.
+•
+Avoid the concept of "human error."
+•
+Don't just point out what went wrong.
+@mattstratton
+
+The postmortem meeting
+@mattstratton
+
+Send the postmortem document
+in advance
+@mattstratton
+
+KEY TAKEAWAY
+An essential outcome of the postmortem
+meeting is buy-in for the action plan
+@mattstratton
+
+Participants
+Incident Commander
+Incident Commander
+Shadow, Scribe, Deputy
+Service Owners
+Engineering Managers
+Product Managers
+Customer Liaison
+@mattstratton
+
+Facilitation
+@mattstratton
+
+Facilitator's Role
+•
+Encourage people to speak up, and make sure that everyone is heard.
+•
+Clarify insights and challenge the team with questions.
+•
+Help the team to see different angles and different options.
+•
+Keep everyone on time and on track. Cut off tangents and stop people
+from dominating the entire meeting.
+@mattstratton
+
+More on facilitation
+•
+The facilitator does not make decisions.
+•
+The facilitator does not take sides.
+•
+Try to speak as little as possible.
+•
+Be a shadow that guides discussions, not a presenter who takes over the
+meeting.
+@mattstratton
+
+Who should facilitate?
+@mattstratton
+
+Facilitator competencies
+•
+Reads non-verbal cues to assess how people are feeling in the room and sees who
+might have something to say.
+•
+Paraphrases what is said to clarify for self and others.
+•
+Asks open questions to stimulate deeper thinking.
+•
+Comfortable interrupting when discussion gets off track or someone dominates the
+discussion.
+•
+Redirects conversation to focus on goals.
+•
+Drives discussion to decision making and action items.
+@mattstratton
+
+Facilitation tips
+@mattstratton
+
+Housekeeping
+•
+Set ground rules at the beginning of the meeting.
+•
+Establish a safeword for when the conversation gets off track.
+•
+Share the agenda so the team is clear on what is on- and off-topic.
+•
+Use a timer to timebox.
+•
+Present the postmortem document from your laptop onto the TV so
+everyone can see.
+@mattstratton
+
+Avoid blame
+@mattstratton
+
+Keep on-topic
+@mattstratton
+
+One person dominating?
+@mattstratton
+
+Encourage contributions
+@mattstratton
+
+Practice makes perfect
+@mattstratton
+
+https://postmortems.pagerduty.com
+@mattstratton
+
+@mattstratton
+
+pduty.me/dodpdx
+@mattstratton
+
+Key Takeaways
+•
+The postmortem process drives focus, instills a culture of learning, and identifies opportunities for improvement that
+otherwise would be lost.
+•
+The goal of the postmortem is to understand what systemic factors led to the incident and identify actions that can that
+can improve the resiliency of the affected system
+•
+An essential outcome of the postmortem meeting is buy-in for the action plan
+•
+Ask "what" and "how" questions rather than "who" or "why"
+•
+There is no single root cause of major failure in complex systems, but a combination of contributing factors that
+together lead to failure
+•
+An individual's action should never be considered a root cause.
+•
+The impulse to blame and punish has the unintended effect of disincentivizing the knowledge sharing required to learn
+from incidents
+@mattstratton
+
+Pagey says thank you
+@mattstratton

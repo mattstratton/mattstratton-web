@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://speaking.mattstratton.com/sitemap-index.xml

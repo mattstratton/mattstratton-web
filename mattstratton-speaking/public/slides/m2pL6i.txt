@@ -1,0 +1,143 @@
+7 Things Executives
+Can Learn From
+Software Engineers
+Matt Stratton
+Staff Developer Advocate • Pulumi
+@mattstratton
+
+The power of
+iteration
+
+Small teams
+move fast
+
+Small teams move fast
+●
+●
+●
+●
+Glue work between the teams
+Black box squads (input/output)
+Conway's law
+Software contracts extend to teams ("this api does x" etc)
+
+Fast feedback
+
+Fast Feedback
+●
+●
+●
+●
+Set success criteria that is measurable
+Get changes in front of users/consumers quickly
+Create a process to share all feedback as soon as possible
+Automate feedback where possible
+
+Trust but
+verify
+
+Trust, But Verify
+●
+●
+●
+Guardrails are good!
+Make the right way the easy way
+People want to do the right thing, but mistakes can happen
+
+Collaboration
+over
+competition
+
+Collaboration over Competition
+●
+●
+●
+●
+Power structures can create unintended consequences
+Ownership/fiefdoms
+"Who moved my cheese"? (or who touched it)
+Resource guarding
+
+Westrum Model
+
+Community
+spirit
+
+Community Spirit
+●
+●
+●
+●
+Developers love to work in communities
+Communities can be internal and external
+We can learn from our peers - and help them as well
+Fewer things have to be secret than we think
+
+Learning
+culture
+
+Learning Culture
+●
+●
+●
+Learning from Incidents
+Shadow rotations (not just for juniors and not just for tech)
+Blamelessness
+
+Incidents are unplanned
+investments; their costs have
+already been incurred. Your org's
+challenge is to get ROI on those
+events.
+-
+John Allspaw, Adaptive Capacity Labs
+
+RCA != learning
+
+Shadow Rotations
+
+The impulse to blame and punish has the
+unintended effect of disincentivizing the
+knowledge sharing required to learn from
+incidents
+
+Resilience and Organizational
+Dynamics
+
+Blunt / Sharp End
+Blunt End
+Sharp End
+Removed from
+experience
+People directly
+engaged in the
+work
+Upstream decision
+makers
+"Chop wood, carry
+water"
+
+Sharp End
+Constantly building and destroying
+systems
+Strong signaling
+Improve systems based on strain
+Will do so naturally if given ownership
+
+[Psychological safety is] a sense of
+confidence that the team will not
+embarrass, reject, or punish
+someone for speaking up
+Amy Edmondson, Professor, Harvard Business School
+
+Radical candor?
+If you are asking for candor/blunt feedback, what are you doing to
+make this safe?
+
+Thank you!
+Twitter - @mattstratton
+GitHub - mattstratton
+Slides - speaking.mattstratton.com
+LinkedIn - linkedin.com/in/mattstratton
+Podcast - ArrestedDevOps.com
+DevOps Party Games - devopspartygames.com

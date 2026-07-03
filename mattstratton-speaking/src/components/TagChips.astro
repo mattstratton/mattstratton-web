@@ -1,0 +1,33 @@
+---
+// Tag chips for a talk: topics in sans, tech in mono with a leading #, both
+// linking to their /tag/{slug} browse page. Renders nothing when untagged.
+import { tagSlug } from '../lib/tags';
+
+interface Props {
+  topics?: string[];
+  tech?: string[];
+}
+const { topics = [], tech = [] } = Astro.props;
+const hasAny = topics.length > 0 || tech.length > 0;
+---
+
+{hasAny && (
+  <p class="mt-6 flex flex-wrap gap-2">
+    {topics.map((t) => (
+      <a
+        href={`/tag/${tagSlug(t)}`}
+        class="label normal-case tracking-normal rounded-full border border-rule px-2.5 py-1 text-ink-soft transition-colors hover:border-accent hover:text-accent"
+      >
+        {t}
+      </a>
+    ))}
+    {tech.map((t) => (
+      <a
+        href={`/tag/${tagSlug(t)}`}
+        class="inline-flex items-center rounded-full bg-ink/5 px-2.5 py-1 font-mono text-xs text-ink-soft transition-colors hover:bg-accent/10 hover:text-accent"
+      >
+        <span class="text-ink/30">#</span>{t}
+      </a>
+    ))}
+  </p>
+)}

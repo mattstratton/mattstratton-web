@@ -1,0 +1,23 @@
+All right, so we've heard a lot of myths out there in the world about DevOps. There's things you may have heard, so we're gonna talk about hot takes, myths, and falsehoods, and why everyone's wrong about DevOps except for me.
+
+So the first thing is: don't believe everything that you read on the internet. You're gonna see a lot of stuff on Twitter, a lot of stuff in blogs, a lot of stuff in podcasts. They're gonna tell you what DevOps is all about and they're probably mostly wrong. Just because it's on the internet doesn't make it a fact. Just because someone tweets about it doesn't make it a fact, because putting words in random order is not really thought leadership. But it actually kind of is, right? So whatever, whatever it is, it works.
+
+So I'm gonna go through some common misconceptions about DevOps and tell you why they're wrong.
+
+So you may have heard this myth that DevOps is more than tools. A lot of people will tell you DevOps is more than tools, it's a lot of other things. So this is what I'm gonna tell you why this is false. The reason is, because if it was more than just tools, why would we have so many of them? And nobody cares about your culture, and there are a lot of tools on DevOps Twitter. So DevOps is definitely about tools.
+
+The next myth is DevOps is more than automation, right? We hear this a lot. We're like, it's not just about automating things, there's all the other letters in CALMS, it's not just an automation story. This is also empirically false, and the reason is because the A in CALMS is the only vowel, and vowels are more important than consonants because there's fewer of them. Therefore automation, by grammatical reason, must be the most important part of DevOps.
+
+Okay, Kubernetes won't solve all your problems. Some people will tell you this. I'll say, I know you think Kubernetes is the answer, it won't solve all your problems. But this is also a myth, and this is how we're gonna bust this one wide open: because it came from Google, and also Docker is boring and old, and YAML shows your commitment to precision.
+
+Okay, some people will tell you if you do DevOps you still need testing, there's still a place for testers in a DevOps world. Sorry, very, very untrue. And this is why: if you remove the human element, you remove the human error. And also, if a microservice only does one thing, it can't have an error, because that's a second thing.
+
+All right, we're here, we had a wonderful Expo, and some people will still tell you that you can't buy DevOps. Boy, is this a popular myth. People will love to tell you, but it's false. You may not be able to buy it, but I sure can sell it to you. Seriously, I would love to sell you all some DevOps today. Yeah, what would it take to get you in a bright shiny new DevOps?
+
+DevOps is not a title. Oh, this is a little bit, you know, you're not sure. People will tell you this, you see a lot of this on Twitter, you know, there's no title such as DevOps. Well, I'm sorry to tell you this is also false, and here's why: nobody can tell you what titles to use in your organization. I mean, well, I guess like HR can, I mean that's kind of their job, but I mean, what does HR know anyway? Is there an HR Enterprise Summit here in London? Probably not. So call them whatever you want, it's totally fine.
+
+Oh, people will tell you that you can do DevOps on Windows. You'll hear this, and I know it's people are trying to be inclusive and everything, but it's an unfortunate truth that this is truly a myth. And here is why: a key component of DevOps is a smug sense of self-satisfaction, and Windows is all just click-Next stuff, right? And there's something about Slashdot, or Hacker News, or something like that.
+
+Oh, here's one: cats are more aligned with DevOps than dogs. See a lot of cat GIFs in slides and they'll tell you, you know, you can't do DevOps without cats. And this one is really probably the most egregious myth of all, because here, right, dogs, it's cute, right? You know, I mean, sorry, these aren't all gold. Yeah, but it's a cute dog.
+
+So I want you to think about those myths. Think about how you can change your organization with this new way of thinking. And also, you know, so Paige says follow me on Twitter, I need to have more followers than at least Damon, right? If we could help. If not John. But thank you very much.

@@ -1,0 +1,993 @@
+so
+everybody hey thanks for coming out here
+we're towards the tail end
+of kubecon
+we're staying awake it's great it's
+great uh welcome to uh charting your own
+course through the cloud native
+ecosystem and uh my name is maddie
+stratton and i'm whitney lee lovely to
+meet y'all
+so i first started learning kubernetes
+about two years ago i remember talking
+with my dad on the phone telling him i
+was starting to learn this new
+technology and i was trying to describe
+to him how overwhelming it felt for me
+it feels like i'm learning a plate of
+spaghetti i said not only am i trying to
+memorize the shape and the placement of
+every noodle but i'm also trying to
+understand why how every noodle touches
+every other noodle and why
+i remember kubernetes felt so complex to
+the point of it seeming magical
+and as random and arbitrary as trying to
+understand a plate of pasta where does
+one even start
+so everyone has a story maddie and i are
+each going to share ours and we ask that
+you reflect on your journey too
+so my name is maddie stratton my uh
+background
+everything's going too fast okay it's
+fine um first time using uh iphone
+clicker it's all right it's totally good
+i've spent a couple decades working in
+operation so my background is kind of
+traditional um jumping ahead
+years ago uh when i wanted to learn more
+about devops i decided the best way to
+do that was to start a podcast uh really
+because i felt there wasn't uh content
+that was beginner friendly in that area
+and one of the really fun little secrets
+about running a tech podcast is it's a
+way to get people to come and spend an
+hour talking to you when they might not
+necessarily spend that time
+any other way so i had an opportunity to
+learn a lot from from folks in the
+industry of all kinds of different ways
+from doing the podcast
+i also spent years and continue to as a
+conference organizer i started the
+devops day chicago conference years ago
+i'm one of the global organizers for
+devops days around the world and
+that's been a way that i've learned
+things because you put programs together
+you're exposed to those things
+and then over time i myself
+wow that just totally ruined the joke
+sorry there's a delay on my clicker wow
+okay well forget that part um
+the story of that though was uh i used
+to have the license plate devops on my
+car and then i moved to california and
+when i moved back to illinois i actually
+couldn't get the devops license plate
+because i i already had it but they
+wouldn't give it back to me because
+bureaucracy
+so i needed something clever and came up
+with
+with having kubecuddle even though i
+actually really didn't use kubernetes
+very much
+one of the side benefits of that license
+plate though is uh if the police are
+ever looking for me they won't be able
+to find me because they won't be able to
+tell each other what my license plate is
+because they'll all argue about how to
+pronounce it i figure we'll be fine
+and uh but then i went and i worked at
+red hat and uh helping organizations
+through their transformation using
+openshift which meant i had to learn a
+lot about kubernetes because openshift
+is a platform built on on kubernetes so
+working through that gave me a
+requirement to learn that now today i
+work at palumi
+and i do a lot with that both in helping
+folks who are using pollumi to build and
+deploy and manage their kubernetes
+environments but also myself i'm
+building i'm building things for demos
+for workshops so it's really given me
+this need to have this hands-on kind of
+applicable approach
+to uh to my learning about
+kubernetes
+mine so i
+am a career changer i've spent most of
+my adult life as a wedding photographer
+i was a wedding photographer for 10
+years i photographed i've been to over
+500 weddings so at the end though the
+business ran me instead of me running
+the business i was super stressed and
+ready for a change so when my brothers
+banned mutual benefits got some
+notoriety and he wanted to go on tour he
+invited me to play keys in the bands and
+to sing harmonies so i jumped at the
+chance so i
+spent all my savings giving my wedding
+clients back their money my partner at
+the time wasn't supportive we'd been
+together eight years
+gone
+and i put all my stuff into storage and
+i lived address free for a year touring
+in a band
+then when i got back i wasn't sure what
+to do next my son was in college
+studying uh software engineering and he
+was like hey mom mom you would like this
+you should try it out and so i did and i
+really enjoyed it so i ended up going to
+a boot camp i wrote my first line of
+code in january 2019
+i spent hundreds of hours getting ready
+for boot camp once i was in boot camp i
+started in july i spent i did 11 hour
+days six days a week for three months
+graduating in october so um and then in
+november i got a job as a cloud
+developer
+just like that
+so i i worked in a pre-sales team oh
+thank you that's so nice
+thanks
+so i worked in a pre-sales team at ibm
+and we'd put together proof of concepts
+for clients but work was on or off and
+so when i didn't have work to do on the
+side i would make youtube videos from
+behind the light board i honestly
+couldn't believe they let me behind the
+light board when i was so green but i
+think that's part of what made my videos
+good is that i really explain stuff at a
+beginner level so all in all i made
+seven light board videos for the ibm
+cloud youtube channel and those have um
+a half a million views all together
+so then i realized actually this is what
+i want my career to be not the pre-sale
+stuff and so i got hired as a developer
+advocate at vmware tons you and i've
+been working really hard to learn
+kubernetes last few years and learn it
+well and be able to teach it and now i
+have a show called enlightening so from
+behind a light board i'll have a guest
+come on and explain a technical concept
+to me and i'll draw out the concept as i
+understand it a show looks like this
+this is my mentor rick came on and
+taught me how you add persistent storage
+to your kubernetes application
+that's me so
+so when we're looking at a big topic
+like kubernetes like different things in
+the ecosystem it can seem very
+overwhelming
+and it can seem very overwhelming
+because well it is very overwhelming
+there's a lot to it
+and we you know kind of look at that and
+i don't know if you know this or not but
+the internet is vast there are a lot of
+resources out there so how do we start
+researching a big topic
+and one of the things that really helps
+is to have a planned pattern that you
+can repeat so we're going to talk about
+this uh this cycle that we continue to
+repeat and if you think about it if
+you've worked in you know agile software
+development you think about devops all
+these things this cycle looks kind of
+familiar because what it is in a way is
+a feedback loop we're going to sit there
+we're going to say okay we we're going
+to collect resources we're going to
+skim through them we're going to refine
+them we're going to learn and we're
+going to
+repeat this cycle and we're going to dig
+in a little bit about how this cycle
+works
+so the first step is to collect
+resources so find introduction resources
+often ones that start with the title
+what if so you're going to get a sampler
+now this doesn't have to be exhaustive
+the idea is for you to know what are the
+most recommended and popular resources
+out there just to get started don't
+worry about actually trying to learn the
+concept yet just get a sense of the
+landscape and a sense of what the
+choices are
+now we're not going deep here while
+we're skimming these resources this is
+just to help us evaluate what we're
+going to focus on so like whitney said
+don't worry about trying to learn it
+don't go too deep we're literally
+skimming over them to get a sense
+and
+here's the thing at first you don't know
+what you don't know
+and as you're looking through these
+resources and evaluating one of the
+things to to look for
+is what concepts continue to come up
+right you might sit there and say like
+it's a lot of stuff about storage i see
+these themes right okay there's things
+about role-based access control should i
+pay attention to that here's a wonderful
+thing fundamentally what's happening
+here is pattern recognition which humans
+are really great at that's what one of
+the things that's awesome about our
+prefrontal cortex that other mammals
+don't have it helps us look for patterns
+so we're saying what are we seeing come
+up as patterns
+now you kind of sit there and say okay
+with these resources what assumed
+knowledge are they expecting with this
+for me when i was learning kubernetes
+with my uh application developer
+background i hadn't ever worked with
+linux so when i one of the first
+resources i worked with it's like how do
+you find what application image is
+running in a pod like oh all you do is
+run cube cuddle describe and then grep
+for the image and i was just like
+grep what's that and like pipe grip this
+i was like i have no idea these language
+this language is getting thrown at me
+and honestly i was so clueless that i
+didn't even know to look like oh i need
+to learn more about linux because i
+didn't know it was linux was the thing i
+didn't know
+so i ended up backing out of trying to
+learn kubernetes i got a linux command
+line book i read a couple of chapters of
+that and then i started my kubernetes
+journey back up
+what and you want to sort of sit here
+and say what resources
+resonate with you
+personally right this may have to do
+with your learning style or your
+experience level how much time you have
+available and as we talk about this you
+may be a beginner at the idea you may
+come with a background of experience
+this is all different kinds of stories
+so what resonates to whitney is
+different than what resonates to me is
+what different that resonates to you
+you're the only one who can evaluate
+that
+and then now now we're going to let
+whitney talk
+now we'll take the resources we've
+collected in skim and we're going to
+narrow them down so the idea here is
+like what matt said to identify the
+resources that resonate with you
+personally so for example to learn
+kubernetes i see a lot of people
+recommend to each other
+go look use kubernetes the hard way go
+to kelsey hightower's resource and i'm
+sure it's an incredible resource but
+little baby whitney two years ago who
+doesn't know what grep is
+that resource is way way above my head
+from back then and only now do i feel
+it's in my zone of proximal
+development so now that we've collected
+the array of resources we've skimmed
+through them we've chosen ones that
+resonate with us
+now it's time to learn
+so
+so the work of learning to uh to learn
+consistently the best strategy is to
+define bite-size goals achieve those
+reasonable goals and then do it again so
+remember to reach for knowledge that is
+in your zone of proximal development
+and then
+um so zone approximate development are
+concepts that will challenge you but are
+not so hard that they feel overwhelming
+look at all these loops
+we're just looping all over the place
+it's phenomenal
+so
+the next thing you want to measure your
+progress to get a sense of
+accomplishment
+i personally love my anki flash card
+deck so it's spaced repetition study and
+i study cards every morning when i get
+up
+i added a stats plugin too so i have a
+github style graph so i can see my
+progress and that i've studied every day
+other popular note-taking and study
+tools are notion and obsidian but maybe
+you're not that fancy maybe you want to
+hand write your notes in a daily
+learning journal or maybe you keep a
+blog of what you learn each day like
+there are different ways of finding joy
+with it in every way is valid
+the goal here
+is to keep learning at a consistent pace
+and to get a sense of purpose and a
+feeling of success and the journey in
+itself and not in those far away goals
+so years ago there was this
+up-and-coming comic named brad isaac he
+was a young comedian and somehow he
+found himself kind of backstage with
+legendary comedian jerry seinfeld and he
+went to him and he just sort of came out
+and said you got any tips for an
+upcoming comedian
+and jerry said to him he said
+the way to be a better comic was to
+write better jokes but then he said okay
+how do you write better jokes you write
+better jokes by writing a lot of jokes
+and by doing it every day
+so what he said to him he said okay
+you're gonna get yourself one of those
+big
+whole year-long calendars that's a whole
+year not not a flip one like in the
+picture but you know whole year one put
+it up on a wall where you can see it get
+a big red magic marker and every day
+that you write a joke cross off that day
+and then your whole your only job is to
+not break the chain right keep them
+going
+and then you as you continue to do it
+you see this streak you see this chain
+and you don't want to break the chain
+and it makes you feel good
+your only job
+is to not break the chain and you notice
+that in any of that nowhere did he focus
+on results it was just doing so you can
+do the same thing you can say every day
+i'm doing something with my learning
+journey it doesn't mean i'm learning a
+lot it doesn't mean that i actually
+accomplished even maybe i didn't
+accomplish anything but i did something
+because when we get those streaks going
+it makes us not want to break them and
+we build those patterns and that's what
+moves us along
+so now
+when you're going to go through this
+we're going to ask a couple questions of
+you you can answer them to yourself in
+your head because if we all answered
+them out loud at the same time it would
+be chaos but i don't know that might be
+kind of fun uh and these are questions
+that will help evaluate how you're gonna
+approach
+your learning and your your uh
+techniques
+so right now in your head ask yourself
+what is your own personal level of
+technology experience so when i started
+learning kubernetes i didn't realize
+that a node is the same thing as a
+machine is the same thing as a box is
+the same thing as a worker and all of
+those things just mean computer
+so i i particularly had to choose
+learning source resources that have a
+very beginner level
+manny on the other hand started learning
+kubernetes from a completely different
+perspective where he had a lot of
+experience with devops already
+the point is learning can begin from
+anywhere
+and the next question you're going to
+ask is how much time do you have to
+devote to learning some folks are in a
+place where you can do full
+time boot camp style learning where you
+can devote that's all that you're doing
+some of us are doing it maybe 10 minutes
+a week and anywhere in between we have
+we all live full lives that do other
+things we have different
+responsibilities we're in different
+places there's no right answer but you
+want to be realistic so you set yourself
+up for success you know if you
+realistically can't devote more than a
+little bit of time a week then
+don't create a plan that's that's not
+going to allow for that right so you
+want to make sure what you come up with
+is
+sustainable whatever that way whatever
+that amount of time is it will get you
+where you want to go
+so the last question you want to ask
+yourself right now in your head is what
+is your learning style
+now you may not know the answer to that
+this one yet but the good news is that's
+what we're about to talk about next
+so as we talk about different learning
+styles we're going to focus on the bark
+model so varc stands for it's an acronym
+for visual
+auditory
+reading writing and the k is for
+kinesthetic or kubernetes
+uh these learning styles are not
+mutually exclusive i personally think
+i'm both a visual learner and a reading
+writing learner but maddie identifies as
+an auditory learner and a kinesthetic
+learner that actually works out really
+well
+another thing to note is that concepts
+will sink deeper when you consume the of
+your your concepts learning more than
+one style using more than one learning
+style at once so if for example if you
+watch a video that engages you both
+visually and
+audibly then you take that and then
+apply that knowledge kinesthetically
+then that's going to help that concept
+sink very deeply for you
+your learning style can also be
+situationally dependent so maybe you
+learn one way with work concepts in a
+totally different way when you're doing
+your hobbies
+so what type of learner are you how do
+you know
+maddie and i are each going to go go
+over the four learning styles and ask
+you more questions for you to consider
+in your head you know there's been so
+much homework in this talk
+so first let's talk about the visual
+learning style how do you know this is
+you do you understand information better
+when it's presented in a visual way are
+you a doodler
+are you a list maker do you see patterns
+in things are arts beauty and aesthetics
+important to you do you enjoy consuming
+pictures diagrams maps charts and graphs
+if so you're a visual learner
+you have a superpower so as you're
+learning a concept draw out your
+understanding
+maybe assign colors to column common
+themes in your notes your brain
+remembers colors very well so use this
+to your advantage on my phone i organize
+my apps and folders according to color
+yeah
+watch videos with a large graphic
+component
+light board videos
+and visual learners may need more time
+to process material but then they often
+understand it more deeply this is
+something i wish i knew sooner because
+in boot camp i felt like it took me
+longer to understand the concepts than
+the people around me but now i know once
+i do know something it's really stuck in
+there and i can examine it from all
+angles
+so if you are an auditory learner like
+me here's some of the ways to find out
+if you are
+maybe you learn better when the subject
+is reinforced by sound like i really
+like reading but audiobooks help me
+catch things better
+do you like to uh talk things through
+it's actually kind of funny while we've
+been working on this deck more often
+than not i would be sitting there and
+and talking to myself and sitting there
+sitting there or talking to whitney and
+say okay sorry i'm just i'm just
+thinking out loud i'm just thinking out
+loud i'm just thinking out loud and at a
+certain point when he's like well you
+are an auditory learner
+um
+another thing if you're familiar with
+the idea of rubber duck debugging if
+rubber duck debugging works really well
+for you and that's the idea of that uh
+someone you know a programmer came up
+to a senior programmer and asked for
+help with the problem and he had a
+person had a little rubber duck on the
+desk and said explain it to the duck and
+explain to the duck in the middle of
+explaining the duck figured out the
+solution we call that rubber duck
+debugging if that resonates with you you
+might be an auditory learner
+um are you really great at verbally
+explaining your things is that where
+those go in if again like me i find
+myself often saying things like okay
+let's get this out of slack and get on
+zoom and use mouth words for a minute
+that is definitely an auditory type
+learner
+i don't know and maybe you create songs
+to help remember information people do
+that i've done it oh yeah yeah let's
+hear it
+i wish i was a kubernetes baller i wish
+i could install her i wish i had a cube
+api i would call her i wish i had an app
+that was fast and no crash and his
+footprint was smaller boom
+[Applause]
+[Laughter]
+fun fact fun fact original title for
+this talk is i wish i was a kubernetes
+baller but we
+felt like the
+the other title might have gotten us
+through but a little bit better
+so if you are an auditory learner um
+how do you maximize that superpower well
+one of the things is learning in groups
+because we can talk it out so study
+groups maybe a book club you know
+something you know get some study
+buddies um another thing is
+all of this material that we're
+providing here could be written in a
+blog post and you might read it but
+we're sitting here listening to it be
+spoken and this is a different way so
+guest speakers guest lecturers go to
+meetups all this stuff that's online
+and uh audiobook stuff i talked before
+about how
+i really like to read i mean i like to
+read so much that when i was a kid if i
+got in trouble i got grounded from books
+right because my parents knew they could
+ground me and i would just sit and read
+well one of the things i've realized
+over the last few years as i've gotten
+into audiobooks is
+they resonate different like i catch
+things i will listen to some of my
+favorite books
+and and catch stuff these are books i've
+read dozens of times in my life i'm like
+oh i didn't even notice that happened
+because i'm at the pace of the narrator
+and also you know kind of explain things
+um
+in your own voice and i said
+my dog knows a lot about palumi because
+i explain a lot of stuff i'm trying to
+figure out to my one-year-old australian
+shepherd so
+[Laughter]
+so is your learning style reading and
+writing here are some questions to help
+you figure it out
+do you prefer to learn through written
+words are you drawn to writing do you
+enjoy reading articles or books do you
+keep a journal i keep a journal
+are you likely to look up definitions do
+you google everything do you make lists
+interestingly this is a these two styles
+the visual style and reading writing
+style have some overlap
+if this is you you're have a reading
+writing superpower so here are some ways
+to take advantage of that
+read and write note taking is a powerful
+tool in your belt for me if i read only
+the information goes in one eye and
+right out the other it does not stay in
+there but if i read and take notes it's
+a different story
+join a book club this is a fun way to
+reinforce your understanding
+when taking notes don't write word for
+word paraphrase the ideas in your own
+thoughts this will help you to think
+critically about the information
+use flash cards give yourself
+opportunities to recall the information
+that you're learning this will help
+strengthen the neural pathways that are
+forming in your brain
+and then our final style is kinesthetic
+and
+one of the ways some of the ways you can
+figure out if this is you is
+do you learn by experiencing or doing
+things i always think a kid aesthetic
+also to me is a visceral learning right
+it's somatic it's body it's feeling
+do you like to act out events or use
+your hands to help promote understanding
+does it help you to draw things out now
+one of the things is i i don't know if
+you know this or not i didn't draw these
+pictures because i don't draw well but i
+draw on whiteboards all the time but
+never to create an artifact that makes
+sense to anybody but i found in the days
+when we used to go out and do these
+things in person i'd be sitting in a
+conference room trying to explain
+something and it's just a whole bunch of
+arrows and squiggles and doing whatever
+and it's literally just
+a dry erase marker that's following my
+gestures but it is a way for me to sort
+of take my physicality and go into that
+um
+do you really want to have examples
+especially if we're talking about
+technology in action and like real
+examples not like dog implements class
+animal right but like a real thing now
+that's saying if if that makes sense to
+you like good job awesome i do that does
+not help me learn um the the you know
+those pieces maybe you're good at
+applied activities like like painting or
+dancing or cooking or maybe you aren't
+good at them but you just like to do
+them a lot like as maybe i do right
+and do you have to actually practice
+something in order to do it and for me i
+found this to be very true when i'm
+learning a new technology i have to put
+it into a problem set that makes sense
+to me so that i can actually practice
+doing it
+and the other thing is maybe is it
+difficult for you to sit still for long
+periods of time have you noticed how
+whitney has stood very very still and
+it's been great and i've been
+and i'm like a conference speaker i'm
+supposed to know how to move on a stage
+and i still wander around so if any of
+those things are true you may have the
+superpower of kinesthetic so
+how do we maximize that so and maybe
+writing code isn't the example this is
+one but if it's a code type thing write
+code while you're learning go along with
+it actually practice while you're doing
+it i also love turning learning into a
+game uh there's lots of different ways
+you can do that uh for quite some time i
+had an online game show called devops
+party games which was basically just
+making a lot of jokes about tech one way
+to think about you i used to say that i
+wanted to learn just enough about
+kubernetes to make jokes about it well
+you know what that's actually not a bad
+way you know you turn it into a game it
+keeps you kind of going and but think
+about your pace we talked about how this
+visceral
+kinetic kinesthetic style of learning
+can actually be very tiring so just like
+whitney said in some of the other ones
+it might take a little longer on the
+other side if you're kinesthetic like
+you know kind of pace yourself because
+you're going to get pretty exhausted and
+look for real executing um
+hands-on ways to do things so they might
+be online playgrounds might be easy
+local things like kind you know mini
+cube something that's going to let you
+actually just do this for real without
+having to like be given access to a
+giant production cluster and see what
+happens that's actually pretty very that
+could be a very visceral way to learn
+but maybe i don't recommend it
+now
+not to imply that whitney and i are not
+real people i'm a hologram we are we are
+so not real uh we we kind of wanted to
+talk to some folks out in the community
+to get some thoughts on their journey
+and maybe some of their recommendations
+because again everybody has
+some different stories
+so um
+one person that i spoke to was uh was
+gwenevere singer who's a software
+engineer uh gwen's tech background
+um again career changer she uh did six
+months of a boot camp with ruby on rails
+front end stuff and uh learned
+kubernetes as part of her internship and
+i kind of asked i said you know gwen
+what was a piece of advice that you got
+at first that was
+not helpful and it was this right i'm
+sure we've all heard this too like how
+do you learn well just go contribute to
+it right well the problem with that is
+how do you what does that mean right
+contributing to projects can be a great
+way to learn but you need some guidance
+you need something so we kind of can run
+into that
+and then
+you know kind of ask what was some of
+the hardest stuff and i really like
+thinking about this because everybody
+has a different stumbling block so gwen
+said i don't know this idea that you ssh
+into
+a node but then you could cuddle exec
+into a pod it's just like where we trip
+up but every one of us out here has got
+a different story of the one thing where
+you're like i don't know why that's just
+weird for me
+and then kind of finally i was like um
+what was what are the things you know so
+everybody was always insisting that this
+is really really hard how many people
+have continually heard this and even in
+a reassuring way of like don't worry
+don't worry kubernetes is really hard
+okay the problem with that is that kind
+of like one says a lot of times this is
+really when someone is sort of
+referring to their in someone's
+inability to explain it and i'm just as
+guilty as anyone else of like
+making jokes about kubernetes being hard
+because it's funny you know i think we
+may have all seen
+swift on security's tweet which is i
+think it was swift it might have been
+swifter e and i now misremember but said
+i tried to explain kubernetes to someone
+and now neither of us understands it the
+reality is this is not actually true
+right
+kubernetes isn't easy
+but it's not hard and it's not
+impossible and it has a lot to do where
+this this talk is about accessing
+learning resources but those of us who
+are part of creating learning resources
+need to think about how we can make this
+stuff more inclusive
+so now let's talk about
+cosgrove and her journey like me kat is
+a developer advocate who comes from a
+web developer background so the
+unhelpful advice that cat got when she
+was first learning is the same oh this
+is always hard to learn
+this well-intentioned piece of advice
+feels like a lack of consideration for
+learners so instead kat says it's
+important that new learners know that no
+one is an expert in every aspect of
+kubernetes this is something i wish i
+knew when i started out
+most most folks employed
+in the field likely know the fundamental
+concepts of kubernetes but they only
+have really deep knowledge in one or two
+aspects of it
+so we also asked cat what is the hardest
+thing
+about learning kubernetes when you first
+tackled it and her reply networking she
+said frankly i'm still pretty convinced
+that networking is magic
+it's not
+so maddie and i also tweeted asking the
+community how they first learned
+kubernetes one of our first responses
+came from lena hall who said
+i read a big percentage of kubernetes
+documentation in 2015 in the last row of
+a sparsely populated movie theater
+session it was fun
+uh this tweet leaves me with more
+questions than answers what movie was
+playing at the time like what was it
+that boring
+so uh tim davis said you know
+uh this is i still think it's a bunch of
+smoke mirrors and a man behind the
+curtain he said i learned it from
+watching you
+okay i still don't know it send help and
+really it's sort of like you know the
+the the man behind the curtain tim
+uh we're kidding we're kidding a little
+bit this is a line from the wizard of oz
+but that said you know had to have to
+kind of give a little little bit of poke
+but but i think that the point here is
+that again
+as we continue to work there's always
+still things where we don't completely
+understand
+and then finally i really love this
+tweet from duffy
+and
+he kind of said you know there are three
+ways that he you know kind of his story
+part of it was presentations from kelsey
+hightower and this reminds me of
+something i just want to you know call
+in and call out again we talked about
+kubernetes the hard way being not
+necessarily beginner friendly and
+everything like that that is by no means
+anything to do with kelsey kelsey is one
+of the most you know accessible and
+creates all sorts of great content and
+is accessible to everybody um
+well that sounded more like everybody
+can just go to kelsey's house and ask
+about kubernetes i don't think you can
+do that but uh it's very inclusive stuff
+it's just that specific resource but
+then i also really like this idea of
+like going into the slack but sometimes
+just by watching the questions and the
+answers other people have which is kind
+of a reiteration on why learning in the
+open and asking questions in public is
+really powerful because
+you'll actually get more answers
+yourself anyway but it helps other
+people
+and then also you definitely was you
+know working actually on core os
+but
+i love this idea that you know sharing
+with others is the most effective way
+to learn a thing so
+we're here on the last day of kubecon
+we've seen a lot of amazing
+presentations
+from
+you know some of the like most advanced
+folks in our community that are you know
+pushing the state of the art forward and
+know kubernetes better than anyone we
+could think of
+every one of those people
+was where you are now where i am now
+we've all been they've all been
+somewhere they got to where they are
+and you're going to get to where you
+need to be
+and then you
+can help all the others
+so let's go over some takeaways
+so as we discussed at the beginning when
+you choose educational resources to
+start with consider three things
+consider your own personal knowledge
+level the amount of time you have to
+devote to learning and your learning
+style
+track your study habits so that you have
+a sense of purpose and a feeling of
+success in the journey itself
+remember it's not about the results
+learning is a lifelong process
+no one is perfect so if you miss some
+study days be kind to yourself and get
+back to studying life is messy and
+complicated and it can vary from moment
+to moment this is okay
+you know earlier we said you don't know
+what you don't know well i'll tell you
+who it does know what you don't know a
+mentor
+so
+sorry and so your mentor can give you
+amazing perspective and guidance about
+what is the next best step
+and then finally there's no getting
+around it deep learning takes time so
+accept that build a good pattern and you
+can do it
+so this is our reference slide you can
+feel free to take a picture but don't
+worry i'm going to give you a better way
+to get at these references so uh
+either that or everybody just like take
+very copious notes really quickly of all
+this details but we've got a lot of
+background articles on things that we've
+done but to make life even easier you
+can go to this bitly or this qr code
+will take you to um
+to where you can get the slides as well
+as on the website that has a link to all
+the resources that we refer to plus a
+bunch of other great ones and speaking
+of even more resources in this very room
+at uh
+4 55 there's going to be a great panel
+called navigating the cncf landscape the
+right way i swear i think the program
+committee put them together but we
+didn't name the things together and
+that's going to be a panel that's really
+focusing on some specific resources and
+suggestions so sort of taking some of
+these ideas so giving you some great
+things to add to your collecting of
+resources so i highly recommend
+everybody come back for that panel it's
+even in the same room i mean you have to
+wait a long time to sit in here so maybe
+go do something else for a little bit
+but uh come on back again so my name is
+matt stratton and this is and i'm
+whitney lee this has been super fun
+thanks y'all
+they did it
+i think if people have questions you can
+find us on twitter we'll be hanging out
+up here if anybody wants to to take some
+questions and stuff but i think they're
+we went right up to the time yeah
+thank you thank you so much

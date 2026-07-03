@@ -1,0 +1,508 @@
+HOW TO INFECT YOUR ORGANIZATION
+WITH HUMANE OPS
+Matty Stratton
+DevOps Evangelist, PagerDuty
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+▸ 250 million notiÞcations during sleeping hours
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+▸ 250 million notiÞcations during sleeping hours
+▸ 122 million notiÞcations on weekends
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+▸ 250 million notiÞcations during sleeping hours
+▸ 122 million notiÞcations on weekends
+▸ A total of 750,000 nights with sleep-interrupting notiÞcations
+@mattstratton
+
+THE DATA
+50,000 RESPONDERS RECEIVING A TOTAL OF 760 MILLION NOTIFICATIONS
+▸ 60 million notiÞcations during dinner hours
+▸ 82 million notiÞcations during evening hours
+▸ 250 million notiÞcations during sleeping hours
+▸ 122 million notiÞcations on weekends
+▸ A total of 750,000 nights with sleep-interrupting notiÞcations
+▸ A total of 330,000 weekend days with interrupt notiÞcations
+@mattstratton
+
+LET'S HAVE SOME DATA
+THE MOST MEANINGFUL METRICS ON ATTRITION ARE
+@mattstratton
+
+LET'S HAVE SOME DATA
+THE MOST MEANINGFUL METRICS ON ATTRITION ARE
+▸ Number of days where a responder's work and
+life are interrupted
+@mattstratton
+
+LET'S HAVE SOME DATA
+THE MOST MEANINGFUL METRICS ON ATTRITION ARE
+▸ Number of days where a responder's work and
+life are interrupted
+▸ Number of days when a responder is woken
+overnight
+@mattstratton
+
+LET'S HAVE SOME DATA
+THE MOST MEANINGFUL METRICS ON ATTRITION ARE
+▸ Number of days where a responder's work and
+life are interrupted
+▸ Number of days when a responder is woken
+overnight
+▸ Number of weekend days interrupted by
+notiÞcations.
+@mattstratton
+
+EXAMPLES OF MEMES ARE TUNES,
+IDEAS, CATCH-PHRASES, CLOTHES
+FASHIONS, WAYS OF MAKING POTS OR
+OF BUILDING ARCHES. JUST AS
+GENES PROPAGATE THEMSELVES IN
+THE GENE POOL BY LEAPING FROM
+BODY TO BODY, SO MEMES
+PROPAGATE THEMSELVES IN THE
+MEME POOL BY LEAPING FROM BRAIN
+TO BRAIN VIA IMITATION.
+@mattstratton
+Richard Dawkins
+@mattstratton
+
+SNOW CRASH
+@mattstratton
+
+SNOW CRASH
+▸ In the book, "Snow Crash" itself is a neurallinguistic virus.
+@mattstratton
+
+SNOW CRASH
+▸ In the book, "Snow Crash" itself is a neurallinguistic virus.
+▸ The bad guys Þgure out how to unlock it, and it
+spreads from hacker to hacker like a meme
+@mattstratton
+
+SNOW CRASH
+▸ In the book, "Snow Crash" itself is a neurallinguistic virus.
+▸ The bad guys Þgure out how to unlock it, and it
+spreads from hacker to hacker like a meme
+▸ Plus, lots of swordplay
+@mattstratton
+
+SNOW CRASH
+▸ In the book, "Snow Crash" itself is a neurallinguistic virus.
+▸ The bad guys Þgure out how to unlock it, and it
+spreads from hacker to hacker like a meme
+▸ Plus, lots of swordplay
+"IDEOLOGY IS A VIRUS."
+- NEAL STEPHENSON
+@mattstratton
+
+WHAT IF YOU ARE THE SUPREME LEADER?
+@mattstratton
+
+WHAT IF YOU ARE THE SUPREME LEADER?
+▸ "Command and control" doesn't work
+@mattstratton
+
+WHAT IF YOU ARE THE SUPREME LEADER?
+▸ "Command and control" doesn't work
+▸ Use measurement for good, not for evil
+@mattstratton
+
+WHAT IF YOU ARE THE SUPREME LEADER?
+▸ "Command and control" doesn't work
+▸ Use measurement for good, not for evil
+▸ Avoid "executive swoop"
+@mattstratton
+
+WHAT IF YOU ARE THE SUPREME LEADER?
+▸ "Command and control" doesn't work
+▸ Use measurement for good, not for evil
+▸ Avoid "executive swoop"
+@mattstratton
+
+MIDDLE MANAGEMENT TIPS
+@mattstratton
+
+MIDDLE MANAGEMENT TIPS
+▸ Encourage safe post-incident review spaces
+@mattstratton
+
+MIDDLE MANAGEMENT TIPS
+▸ Encourage safe post-incident review spaces
+▸ Drive for a culture of learning
+@mattstratton
+
+MIDDLE MANAGEMENT TIPS
+▸ Encourage safe post-incident review spaces
+▸ Drive for a culture of learning
+▸ You hired smart people - use them
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+A CULTURE OF LEARNING
+http://bit.ly/2KpzKKW
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+A CULTURE OF LEARNING
+▸ In a generative, performance-oriented organization, "failure leads to inquiry."
+http://bit.ly/2KpzKKW
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+A CULTURE OF LEARNING
+▸ In a generative, performance-oriented organization, "failure leads to inquiry."
+▸ Don't take my word for it. Ask Ron Westrum.
+http://bit.ly/2KpzKKW
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+A CULTURE OF LEARNING
+▸ In a generative, performance-oriented organization, "failure leads to inquiry."
+▸ Don't take my word for it. Ask Ron Westrum.
+▸ You can also ask Dr. Nicole Forsgren - @nicolefv
+http://bit.ly/2KpzKKW
+@mattstratton
+
+USE THE FORCE, EVEN
+IF YOU AREN'T A JEDI
+@mattstratton
+
+REVIEW ALL THE THINGS
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+NORMALIZATION OF DEVIANCE
+http://bit.ly/2Ihj1wV
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+NORMALIZATION OF DEVIANCE
+▸ The gradual process through which unacceptable practice or standards
+become acceptable. As the deviant behavior is repeated without catastrophic
+results, it becomes the social norm for the organization.
+http://bit.ly/2Ihj1wV
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+NORMALIZATION OF DEVIANCE
+▸ The gradual process through which unacceptable practice or standards
+become acceptable. As the deviant behavior is repeated without catastrophic
+results, it becomes the social norm for the organization.
+▸ This happened to NASA. Twice.
+http://bit.ly/2Ihj1wV
+@mattstratton
+
+REVIEW. REVIEW. REVIEW
+NORMALIZATION OF DEVIANCE
+▸ The gradual process through which unacceptable practice or standards
+become acceptable. As the deviant behavior is repeated without catastrophic
+results, it becomes the social norm for the organization.
+▸ This happened to NASA. Twice.
+▸ In our case, we start to accept alerts or degradations as acceptable.
+http://bit.ly/2Ihj1wV
+@mattstratton
+
+QUESTION METRICS
+@mattstratton
+
+QUESTION METRICS
+WHY ARE WE USING THESE NUMBERS?
+@mattstratton
+
+QUESTION METRICS
+WHY ARE WE USING THESE NUMBERS?
+▸ What is the data that drive your incident process
+@mattstratton
+
+QUESTION METRICS
+WHY ARE WE USING THESE NUMBERS?
+▸ What is the data that drive your incident process
+▸ Are your metrics tied to business outcomes?
+@mattstratton
+
+QUESTION METRICS
+WHY ARE WE USING THESE NUMBERS?
+▸ What is the data that drive your incident process
+▸ Are your metrics tied to business outcomes?
+▸ Correlation doesn't always equal causation
+@mattstratton
+
+SIMPLE. ALWAYS.
+@mattstratton
+
+KEEP IT SIMPLE
+@mattstratton
+
+KEEP IT SIMPLE
+THE MORE RESILIENTLY THE SYSTEM IS
+DESIGNED, THE MORE LIKELY IT IS TO CAUSE
+A NEGATIVE BUSINESS IMPACT
+@mattstratton
+
+KEEP IT SIMPLE
+THE MORE RESILIENTLY THE SYSTEM IS
+DESIGNED, THE MORE LIKELY IT IS TO CAUSE
+A NEGATIVE BUSINESS IMPACT
+Stratton's Law of Catastrophic Predestination
+@mattstratton
+
+COMMUNICATE.
+TALK TO PEOPLE
+@mattstratton
+
+COMMUNICATE.
+TALK TO PEOPLE
+▸ Who are your customers? What are their
+expectations?
+@mattstratton
+
+COMMUNICATE.
+TALK TO PEOPLE
+▸ Who are your customers? What are their
+expectations?
+▸ Whose customer are you? Can you help them
+out?
+@mattstratton
+
+COMMUNICATE.
+TALK TO PEOPLE
+▸ Who are your customers? What are their
+expectations?
+▸ Whose customer are you? Can you help them
+out?
+▸ What are the perceptions of your team?
+@mattstratton
+
+HUMANS, PEOPLE ARE
+@mattstratton
+
+HUMANS, PEOPLE ARE
+▸ Consider contextual on-call
+@mattstratton
+
+HUMANS, PEOPLE ARE
+▸ Consider contextual on-call
+▸ The Golden Rule
+@mattstratton
+
+HUMANS, PEOPLE ARE
+▸ Consider contextual on-call
+▸ The Golden Rule
+▸ Bake cookies
+@mattstratton
+
+HUMANS, PEOPLE ARE
+▸ Consider contextual on-call
+▸ The Golden Rule
+▸ Bake cookies
+@mattstratton
+
+LEARN TO TAKE COMMAND
+INCIDENT COMMAND
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+▸ Have clearly deÞned roles
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+▸ Have clearly deÞned roles
+▸ Avoid bystander effect
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+▸ Have clearly deÞned roles
+▸ Avoid bystander effect
+▸ Rally fast, disband faster
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+▸ Have clearly deÞned roles
+▸ Avoid bystander effect
+▸ Rally fast, disband faster
+▸ Don't litigate severity
+@mattstratton
+
+MAKE IT NICE ON THE BRIDGE
+DURING A CALL
+▸ Have clearly deÞned roles
+▸ Avoid bystander effect
+▸ Rally fast, disband faster
+▸ Don't litigate severity
+▸ Have a clear mechanism for making decisions
+@mattstratton
+
+SHARING IS CARING
+SHARE ALL TESTS
+@mattstratton
+
+SHARE ALL TESTS
+TESTS ARE FOR SWE AND SRE BOTH
+@mattstratton
+
+SHARE ALL TESTS
+TESTS ARE FOR SWE AND SRE BOTH
+▸ All functional tests used in preproduction should have a corresponding
+monitor in production
+@mattstratton
+
+SHARE ALL TESTS
+TESTS ARE FOR SWE AND SRE BOTH
+▸ All functional tests used in preproduction should have a corresponding
+monitor in production
+▸ All monitoring functionality in production should have corresponding tests in
+the build/release process
+@mattstratton
+
+SHARE ALL TESTS
+TESTS ARE FOR SWE AND SRE BOTH
+▸ All functional tests used in preproduction should have a corresponding
+monitor in production
+▸ All monitoring functionality in production should have corresponding tests in
+the build/release process
+▸ Monitoring is testing with at time dimension. There should be full parity
+between preproduction and production.
+@mattstratton
+
+EVERY SPRINT
+DO ONE NICE THING
+@mattstratton
+
+HELP YOUR RESPONDERS IN EACH AND EVERY SPRINT
+@mattstratton
+
+HELP YOUR RESPONDERS IN EACH AND EVERY SPRINT
+▸ In each sprint/work unit, add value to your responders
+@mattstratton
+
+HELP YOUR RESPONDERS IN EACH AND EVERY SPRINT
+▸ In each sprint/work unit, add value to your responders
+▸ Even if it's not on a card
+@mattstratton
+
+HELP YOUR RESPONDERS IN EACH AND EVERY SPRINT
+▸ In each sprint/work unit, add value to your responders
+▸ Even if it's not on a card
+▸ You rebel, you.
+@mattstratton
+
+ADDING VALUE
+SOME EXAMPLES
+@mattstratton
+
+ADDING VALUE
+SOME EXAMPLES
+▸ Provide better context in logging (stacktraces alone don't count)
+@mattstratton
+
+ADDING VALUE
+SOME EXAMPLES
+▸ Provide better context in logging (stacktraces alone don't count)
+▸ Remove some technical debt. Yes, you have some.
+@mattstratton
+
+ADDING VALUE
+SOME EXAMPLES
+▸ Provide better context in logging (stacktraces alone don't count)
+▸ Remove some technical debt. Yes, you have some.
+▸ Add some (useful) tests
+@mattstratton
+
+ADDING VALUE
+SOME EXAMPLES
+▸ Provide better context in logging (stacktraces alone don't count)
+▸ Remove some technical debt. Yes, you have some.
+▸ Add some (useful) tests
+▸ Remove something unused
+@mattstratton
+
+ADDING VALUE
+@mattstratton
+
+ADDING VALUE
+▸ If you use feature ßags, add a description Þeld to the conÞguration
+@mattstratton
+
+ADDING VALUE
+▸ If you use feature ßags, add a description Þeld to the conÞguration
+▸ If you use runbooks, ensure they are up to date every time you cut a release. If
+you don't do this, abandon the runbook altogether (an incorrect runbook is
+considered harmful)
+@mattstratton
+
+ADDING VALUE
+▸ If you use feature ßags, add a description Þeld to the conÞguration
+▸ If you use runbooks, ensure they are up to date every time you cut a release. If
+you don't do this, abandon the runbook altogether (an incorrect runbook is
+considered harmful)
+▸ SIMPLIFY, MAN!
+@mattstratton
+
+@MATTSTRATTON
+LINKEDIN.COM/IN/MATTSTRATTON
+MATTSTRATTON.COM
+ARRESTEDDEVOPS.COM
+SHARE YOUR ON-CALL
+STORIES WITH ME LATER
+@mattstratton
+
+NOTI.ST/MATTSTRATTON
+@mattstratton
+
+FURTHER READING AND REFERENCES
+▸ Improving Your Employee Retention With Real-Time Ops Data - http://bit.ly/
+2rGTnq4
+▸ Page It Forward! - http://bit.ly/2In8Lzc
+▸ The study of information ßow: A personal journey - http://bit.ly/2KpzKKW
+▸ The Normalization of Deviance (If It Can Happen to NASA, It Can Happen to
+You) - http://bit.ly/2Ihj1wV
+@mattstratton
+
+▸ Snow Crash by Neal Stephenson - http://bit.ly/2Iiuc8L
+▸ The Cybersecurity Canon: Snow Crash - http://bit.ly/2InDYGI
+▸ Disasters! Arrested DevOps Episode 37 - https://arresteddevops.com/37
+▸ PagerDuty Incident Response - http://response.pagerduty.com
+@mattstratton

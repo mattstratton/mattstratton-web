@@ -1,0 +1,100 @@
+The Psychology of Chaos
+Engineering
+Matty Stratton, PagerDuty
+@mattstratton
+
+Chaos Engineering is the discipline of experimenting on a system
+in order to build conÞdence in the system's capability
+to withstand turbulent conditions in production.
+https://principlesofchaos.org/
+@mattstratton
+
+"By running Chaos Monkey in the middle of a business day, in a
+carefully monitored environment with engineers standing by to
+address any problems, we can still learn the lessons about the
+weaknesses of our system, and build automatic recovery
+mechanisms to deal with them. So next time an instance fails at 3 am
+on a Sunday, we won't even notice."
+-Netßix Technology Blog, 2011
+https://bit.ly/netßix-chaos
+@mattstratton
+
+What chaos engineering is NOT
+@mattstratton
+
+@mattstratton
+
+It's not about breaking things
+@mattstratton
+
+@mattstratton
+
+Experimenting in production is
+preferred
+@mattstratton
+
+You can't do this without good
+measurement
+@mattstratton
+
+Minimize your blast radius
+@mattstratton
+
+Something's broken...
+...it's your fault
+@mattstratton
+
+Some helpful tools
+• Netßix Simian Army - https://github.com/Netßix/SimianArmy
+• Gremlin - https://www.gremlin.com/
+• ChaosToolkit - https://chaostoolkit.org/
+@mattstratton
+
+But what about the people?
+@mattstratton
+
+How does it make you feel to know
+Netßix practices chaos
+engineering?
+@mattstratton
+
+What about your bank?
+@mattstratton
+
+@mattstratton
+
+Management can get...
+...nervous
+@mattstratton
+
+Consider your words
+@mattstratton
+
+It's about the philosophy
+@mattstratton
+
+@mattstratton
+
+Safety Þrst
+@mattstratton
+
+• Know your conditions - when will you shut down the experiment?
+• This isn't about causing stress on your people - be transparent
+• There are humans at the other end of those numbers
+@mattstratton
+
+Further Reading
+• Chaos Engineering Traps - Nora Jones bit.ly/2Pr53ZH
+• ChaosCat: Automating Failure Injection at PagerDuty bit.ly/2UCbdXN
+• ChaoSlingr: Introducing Security into Chaos Testing bit.ly/2GDZN1V
+@mattstratton
+
+https://speaking.mattstratton.com
+@mattstratton
+
+Pagey Says....
+@mattstratton
+
+Session
+Evaluations
+in the App

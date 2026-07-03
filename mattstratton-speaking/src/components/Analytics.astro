@@ -1,0 +1,38 @@
+---
+/**
+ * Plausible Analytics (privacy-friendly, cookieless) via the official NPM tracker.
+ * Bundled by Vite rather than loaded from a CDN — keeps analytics a versioned,
+ * first-party dependency in line with the site's durability goal.
+ *
+ * Prod-only: the `import.meta.env.PROD` guard means it never fires in `npm run dev`
+ * (the tracker's `captureOnLocalhost` also defaults to false as a second safeguard).
+ *
+ * The new tracker has no auto-404 extension, so the 404 page passes `is404` to fire a
+ * manual `404` custom event. A processed <script> can't read Astro props directly
+ * (and define:vars would forbid the ESM import), so we bridge via a <meta> marker.
+ */
+interface Props {
+  is404?: boolean;
+}
+
+const { is404 = false } = Astro.props;
+---
+
+{is404 && <meta name="x-plausible-404" content="true" />}
+<script>
+  import { init, track } from '@plausible-analytics/tracker';
+
+  if (import.meta.env.PROD) {
+    init({
+      domain: 'speaking.mattstratton.com',
+      // First-party proxy (see netlify.toml) so adblockers can't drop events.
+      endpoint: '/api/event',
+      outboundLinks: true,
+      fileDownloads: true,
+    });
+
+    if (document.querySelector('meta[name="x-plausible-404"]')) {
+      track('404', { props: { path: location.pathname }, interactive: false });
+    }
+  }
+</script>

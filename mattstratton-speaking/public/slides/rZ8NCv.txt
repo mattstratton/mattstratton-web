@@ -1,0 +1,266 @@
+Incidents & Accidents
+Matty Stratton, DevOps Evangelist, PagerDuty
+@mattstratton
+
+@mattstratton
+
+Disclaimer, part the first:
+Learn from other industries,
+do not take on their stresses.
+@mattstratton
+
+Disclaimer, part the second:
+This is a topic with a surprisingly
+large number of details.
+@mattstratton
+
+PEACETIME
+WARTIME
+@mattstratton
+"Peacetime"
+
+NORMAL
+EMERGENCY
+@mattstratton
+"Peacetime"
+
+OK
+NOT OK
+@mattstratton
+"Peacetime"
+
+Before, during, after
+@mattstratton
+
+Before
+@mattstratton
+
+Have criteria defined for when to
+have and not have a call.
+@mattstratton
+
+Any unplanned disruption or
+degradation of service that is
+actively affecting customers'
+ability to use the product.
+@mattstratton
+
+Post incident criteria widely.
+Don't litigate during a call.
+@mattstratton
+
+Monitor the business criteria,
+and act accordingly.
+@mattstratton
+
+People are expensive.
+@mattstratton
+
+Practice still makes perfect.
+@mattstratton
+
+"Know your role"
+@mattstratton
+
+Deputy / Scribe
+"Subject Matter
+Expert"
+@mattstratton
+Incident
+Commander
+"Subject Matter
+Expert"
+"Subject Matter
+Expert"
+
+Have a clear understanding
+of who is supposed to be
+involved in each role.
+@mattstratton
+
+During
+@mattstratton
+
+I'm Matty.
+I'm the Incident Commander.
+@mattstratton
+
+DON'T DO THIS
+Let's get the IC on the RC, then
+get a BLT for all the SME's.
+@mattstratton
+
+KEY TAKEAWAY
+Clear is better than concise.
+@mattstratton
+
+The IC becomes the highest
+authority.
+(Yes, even higher than the CEO)
+@mattstratton
+
+The IC manages the
+flow of conversation.
+@mattstratton
+
+"Can someone..."
+@mattstratton
+
+Rich, I'd like you to investigate the increased
+latency, try to find the cause. I'll come back
+to you in 5 minutes. Understood?
+Understood.
+@mattstratton
+
+Humor is best in context.
+@mattstratton
+
+DT5: Roger that
+GND: Delta Tug 5, you can go right on bravo
+DT5: Right on bravo, taxi.
+(...): Testing, testing. 1-2-3-4.
+GND: Well, you can count to 4. It's a step in the right direction.
+Find another frequency to test on now.
+(...): Sorry
+@mattstratton
+
+Have a clear roster
+of who's been engaged.
+@mattstratton
+
+Rally fast, disband faster.
+@mattstratton
+
+Have a way to contribute
+information to the call.
+@mattstratton
+
+Have a clear mechanism for
+making decisions.
+@mattstratton
+
+"IC, I think we should do X"
+"The proposed action is X,
+is there any strong objection?"
+@mattstratton
+
+Capture everything, and call out
+what's important now vs. later.
+@mattstratton
+
+"One last thing..."
+(Assign an owner at the
+end of an incident)
+@mattstratton
+
+After
+@mattstratton
+
+"After action reports",
+"Postmortems",
+"Learning Reviews"
+@mattstratton
+
+The impact to people is a part of
+your incident review as well.
+@mattstratton
+
+Record incident calls,
+review them afterwards.
+@mattstratton
+
+Regularly review the
+incident process itself.
+@mattstratton
+
+FD: "OK, why don't, you gotta pass the data for the crew checklist anyway
+onboard, don't you?"
+MC: "Right"
+FD: "Don'tcha got a page update? Well why don't we read it up to them and
+that'll serve both purposes?"
+MC: "Alright."
+FD: "Both that mattered as well as what page you want it in the checklist?"
+MC: "OK."
+@mattstratton
+
+TELMU: "Flight, TELMU."
+FD: "Go TELMU."
+TELMU: "We show the LEM overhead hatch is closed, and the heater current
+looks normal."
+FD: "OK."
+GUIDE: "Flight, Guidance."
+FD: "Go Guidance"
+GUIDE: "We've had a hardware restart, I don't know what it was."
+@mattstratton
+
+FD: "GNC, you wanna look at it? See if you've seen a problem"
+Lovell: "Houston, we've had a problem ..."
+FD: "Rog, we're copying it CAPCOM, we see a hardware restart"
+Lovell: "... Main B Bus undervolt"
+FD: "You see an AC bus undervolt there guidance, er, ah, EECOM?"
+EECOM: "Negative flight"
+FD: "I believe the crew reported it."
+???: "We got a main B undervolt"
+@mattstratton
+
+EECOM: "OK flight we've got some instrumentation issues ... let me add em up"
+FD: "Rog"
+CAPCOM: "OK stand by 13 we're looking at it"
+EECOM: "We may have had an instrumentation problem flight"
+FD: "Rog"
+INCO: "Flight, INCO"
+FD: "Go INCO"
+INCO: "We switched to wide beam about the time he had that problem"
+@mattstratton
+
+Haise: "...the voltage is looking good. And we had a pretty large bang
+associated with the caution and warning there. And as I recall main B was the
+one that had had an amp spike on it once before."
+FD: "OK"
+CAPCOM: "Roger, Fred."
+FD: "INCO, you said you went to wide beam with that?"
+INCO: "Yes"
+FD: "Let's see if we can correlate those times get the time when you went to
+wide-beam there INCO"
+INCO: "OK"
+@mattstratton
+
+@mattstratton
+
+Have structure in place beforehand
+Practice, practice, practice
+Have clearly delineated roles
+Manage the conversation flow
+Make clear decisions
+Rally fast, disband faster
+@mattstratton
+Review regularly
+
+@mattstratton
+
+Don't panic.
+Stay calm.
+Calm people stay alive.
+@mattstratton
+
+https://response.pagerduty.com
+@mattstratton
+
+@mattstratton
+
+Resources:
+¥
+¥
+¥
+¥
+Angry Air TrafÞc Controllers and Pilots - https://youtu.be/Zb5e4SzAkkI
+Blameless Post-Mortems (Etsy Code as Craft) - https://codeascraft.com/
+2012/05/22/blameless-postmortems/
+Incidents And Accidents: Examining Failure Without Blame (Arrested DevOps)
+- https://www.arresteddevops.com/blameless/
+PagerDuty Incident Response Process - https://response.pagerduty.com/
+@mattstratton
+
+Thank you!
+Questions?
+@mattstratton

@@ -1,0 +1,23 @@
+So, unlike Gil, I believe in the format of Ignite — but I don't have auto-advancing on this, so we're going to see how well this works. There we go. Okay, anyway: this is all about hot takes, myths, and falsehoods — fundamentally, why everyone is wrong about DevOps except for me. My name is Matt Stratton, I'm a DevOps advocate at PagerDuty.
+
+So basically, don't believe everything that you read on the internet. You will find that quite a lot of people have opinions on the internet — they love to share them, and most of those opinions are wrong. And you know, really putting words in random order is not thought leadership. Except, actually, that pretty much is exactly what thought leadership is. What you might find as you explore the internet is that there are a lot of common beliefs about DevOps, and I'm here to tell you that most of those common beliefs are untrue. So I'm going to go through some of the common myths and misconceptions about DevOps and bust those myths.
+
+The first myth is that you might hear people tell you that DevOps is more than just tools. You might have heard this one before, and unfortunately I've got to tell you, that is not true. And here's why it's not true: if it was more than just tools, why would we have so many of them? And there also are a lot of tools on DevOps Twitter.
+
+Someone might tell you that DevOps is more than just automation. We've probably heard that before, and a lot of folks will tell you it's more than automation and there's a lot more to it than that. That's patently false, and here's why: because if we look at CAMS, A is the only vowel. Vowels are more important than consonants, and therefore automation has got to be the most important part of DevOps.
+
+Okay, someone might tell you that Kubernetes won't solve all your problems — and unfortunately, the reason why this is untrue... Phillip's talk always messes this joke up for me, but anyway: Kubernetes came from Google, so that's clear, right?
+
+Docker is boring and old — we covered that a little bit earlier. But yeah, UML does show your commitment to precision. This one kind of gets messed up when Phillip's talk is before mine, because he shows just how precise UML really is.
+
+Folks might tell you that if you do DevOps, you still need to have testing. People will tell you this. This is also untrue, because if you remove the human element, you remove human error. And if a microservice does only one thing, it literally can't have an error — because that would mean it's doing two things, right?
+
+Someone will tell you — you hear this one a lot — you can't buy DevOps. How many people have heard this myth before? This is really a big myth, and here's why: you might not be able to buy it, but I sure as hell can sell it to you. Seriously, I would love to sell you some DevOps. What's it going to take to get you in a bright and shiny new DevOps today?
+
+DevOps is not a title — we've heard this one before a lot. And the reality of this is, nobody can tell you what titles to use in your organization. Maybe your HR department can — but what do they know about DevOps?
+
+And maybe you've heard this myth before, that you can do DevOps on Windows. People have said this, and this is just really untrue, because a key component of DevOps is a smug sense of self-satisfaction, and something something about Slashdot.
+
+And finally, perhaps the most egregious myth around DevOps is that cats are more aligned with DevOps than dogs, right? You can't have a DevOps talk without cat gifs in it. Cats are what DevOps is really about — and that's not true, because, I mean, come on, this is really cute, right?
+
+So anyway, thank you very much. My name is Matt Stratton; PagerDuty says you should follow me on Twitter. And that will bring us to the end of the Ignite.

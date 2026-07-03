@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TalkCard from '../../components/TalkCard.astro';
+
+// One page per event, listing every talk delivered there. Events are a full
+// collection (93 venues) that, until now, had no pages of their own — their
+// names were just text on talk pages. URLs are lowercased to match the
+// site-wide canonical-lowercase convention (Netlify 301s mixed-case).
+export async function getStaticPaths() {
+  const [events, talks] = [await getCollection('events'), await getCollection('talks')];
+  return events.map((event) => {
+    const eventTalks = talks
+      .filter((t) => t.data.event?.id === event.id)
+      .sort((a, b) => b.data.presentedOn.getTime() - a.data.presentedOn.getTime());
+    return {
+      params: { id: event.data.notistEventId.toLowerCase() },
+      props: { event, talks: eventTalks },
+    };
+  });
+}
+
+const { event, talks } = Astro.props;
+const e = event.data;
+
+const date = e.date
+  ? e.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+
+const meta = [date, e.location].filter(Boolean).join(' · ');
+const description = `${talks.length} talk${talks.length === 1 ? '' : 's'} by Matty Stratton at ${e.name}.`;
+---
+
+<Base
+  title={`${e.name} · Matty Stratton`}
+  description={description}
+  image={`/og/event/${e.notistEventId.toLowerCase()}.png`}
+  imageAlt={`${e.name} — Matty Stratton`}
+>
+  <article class="mx-auto max-w-3xl">
+    <a href="/talks" class="label transition-colors hover:text-accent">← All talks</a>
+
+    <header class="mt-4 border-b-2 border-ink pb-6">
+      <p class="label">Event</p>
+      <h1 class="mt-2 font-display text-3xl font-semibold leading-tight tracking-tight text-balance sm:text-4xl">{e.name}</h1>
+      {meta && <p class="label mt-3 normal-case tracking-normal text-ink-soft">{meta}</p>}
+      {e.url && (
+        <p class="mt-3">
+          <a href={e.url} class="text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright" rel="noopener">Conference site ↗</a>
+        </p>
+      )}
+    </header>
+
+    <div class="mt-6 flex items-baseline gap-3">
+      <h2 class="label">{talks.length} {talks.length === 1 ? 'talk' : 'talks'} here</h2>
+    </div>
+    <div class="mt-2 border-t-2 border-ink">
+      {talks.map((talk) => <TalkCard talk={talk} />)}
+    </div>
+  </article>
+</Base>

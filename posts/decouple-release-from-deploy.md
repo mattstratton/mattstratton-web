@@ -59,7 +59,7 @@ None of that requires a flag anywhere. The gate isn't "does this code know how t
 
 ## An automated check is monitoring with a head start
 
-I've spent a lot of years on the incident response and observability side of this industry, enough to have [given entire talks on it](https://noti.st/mattstratton/gD2v6u/the-proactive-approach-data-driven-observability-incident-response). The lesson that refuses to go out of style: an automated check after a release doesn't exist to catch every possible bad deploy. It exists to catch the *slow* discovery of a bad deploy.
+I've spent a lot of years on the incident response and observability side of this industry, enough to have [given entire talks on it](https://speaking.mattstratton.com/talk/the-proactive-approach-data-driven-observability-incident-response). The lesson that refuses to go out of style: an automated check after a release doesn't exist to catch every possible bad deploy. It exists to catch the *slow* discovery of a bad deploy.
 
 A user hitting your bug is monitoring too. It's just the worst possible kind, because you find out from a support ticket instead of a dashboard, and by the time the ticket lands, it's already been somebody's bad afternoon for a while.
 
@@ -75,13 +75,13 @@ This is the expand/contract pattern, and if you've been doing this long enough y
 
 Skip that discipline and your revert button becomes decorative. You can `git revert` the code in about four seconds. If the migration already ran and already dropped a column the old code expects, reverting the code just gives you a fancier way to be down.
 
-This is also, not coincidentally, [incident response 101](https://noti.st/mattstratton/VhGnmc/dont-panic-effective-incident-response). Effective incident response runs on having a small number of pre-agreed moves you can execute without a meeting: revert, roll back, page someone, whatever applies. The worst possible moment to invent your rollback plan is during the incident it's supposed to fix. If reverting requires an engineer to reason live about which of three interdependent migrations is safe to undo, you don't have a rollback plan. You have a discussion topic, and discussion topics don't resolve outages.
+This is also, not coincidentally, [incident response 101](https://speaking.mattstratton.com/talk/don-t-panic-effective-incident-response). Effective incident response runs on having a small number of pre-agreed moves you can execute without a meeting: revert, roll back, page someone, whatever applies. The worst possible moment to invent your rollback plan is during the incident it's supposed to fix. If reverting requires an engineer to reason live about which of three interdependent migrations is safe to undo, you don't have a rollback plan. You have a discussion topic, and discussion topics don't resolve outages.
 
 ## Someone still has to own saying "go"
 
 None of the automation above changes who's accountable for a release. It changes what that person is accountable *with*.
 
-I've talked before, on stages instead of on a blog, about how [the lifecycle of a service](https://noti.st/mattstratton/AwDQxx/the-lifecycle-of-a-service) doesn't end the moment something reaches production, and ownership doesn't evaporate the second it ships. Somebody owns a service in production the same way somebody owns the decision to promote a build to it. If your team can't answer "who decided to release this" for a given deploy, an agent that opens PRs quickly is not actually your biggest problem.
+I've talked before, on stages instead of on a blog, about how [the lifecycle of a service](https://speaking.mattstratton.com/talk/the-lifecycle-of-a-service) doesn't end the moment something reaches production, and ownership doesn't evaporate the second it ships. Somebody owns a service in production the same way somebody owns the decision to promote a build to it. If your team can't answer "who decided to release this" for a given deploy, an agent that opens PRs quickly is not actually your biggest problem.
 
 In my setup, that person is me, for now. It might be someone else on my team next month, and the gate doesn't care which name is attached, only that a name is. The promotion step has an owner. It is never "whichever cron job happened to fire at 3am."
 

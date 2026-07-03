@@ -19,7 +19,7 @@ That pipeline will absolutely, eventually, wreck your week.
 
 Not because the agent did anything malicious. Because two very different questions got quietly collapsed into one gate: "did this pass CI" and "is this safe for a real person to see right now." Those have never been the same question, not for humans and not for robots. We just used to have enough friction in the deploy process that the gap between them rarely mattered.
 
-I've [written before](https://dev.to/mattstratton/how-my-coworker-who-didnt-know-cd-shipped-to-production-3j6j) about the scaffolding that lets a non-engineer safely drive a coding agent against a real codebase. Rules, skills, hooks. Three layers of paranoia built into the system instead of relying on any one person's vigilance on a random Friday. That post was about the merge gate: what stops garbage from landing on `main`.
+I've [written before](/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/) about the scaffolding that lets a non-engineer safely drive a coding agent against a real codebase. Rules, skills, hooks. Three layers of paranoia built into the system instead of relying on any one person's vigilance on a random Friday. That post was about the merge gate: what stops garbage from landing on `main`.
 
 Part of that merge gate is worth calling out on its own: a second pass on the same PR, same harness, different system prompt, catches things the first pass missed. You don't need a different vendor or a different model for that to work, just a fresh set of eyes that didn't write the code. [I wrote more about why that works here.](https://www.mattstratton.com/newsletter/was-it-the-model-or-just-a-fresh-pass-uncommitted/)
 
@@ -95,4 +95,4 @@ Take that human out of the loop, or just make them faster and more numerous by h
 
 The agent didn't create this problem. It just removed the friction that used to hide it.
 
-*Same as last time: if you want the receipts on how the merge-side guardrails work, [that's here](https://dev.to/mattstratton/how-my-coworker-who-didnt-know-cd-shipped-to-production-3j6j). This one's the other half.*
+*Same as last time: if you want the receipts on how the merge-side guardrails work, [that's here](/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/). This one's the other half.*

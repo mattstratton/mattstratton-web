@@ -92,7 +92,7 @@ Type `issue 412` and it spins up Claude Code in plan mode, in its own worktree n
 
 ## atuin and starship deserve more than a name-drop
 
-I mentioned in [My Brewfile](https://dev.to/mattstratton/my-brewfile-1pob) that I install both of these, but I glossed over why, so let's fix that.
+I mentioned in [My Brewfile](/writing/my-brewfile-1pob/) that I install both of these, but I glossed over why, so let's fix that.
 
 ```bash
 eval "$(atuin init zsh)"

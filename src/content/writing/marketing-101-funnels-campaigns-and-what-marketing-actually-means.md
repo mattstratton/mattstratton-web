@@ -10,7 +10,7 @@ heroImage: /writing/marketing-101-funnels-campaigns-and-what-marketing-actually-
 
 ![](/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/zyg785kv0b888acwdq7l.png)
 
-*This is Part 3 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 3 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 Let's talk about the relationship between DevRel and marketing. And if you just shuddered uncontrollably, you're exactly who I'm writing this for.
 
@@ -207,7 +207,7 @@ Next up: Finance 101. Because understanding budgets, P&Ls, and why your CFO care
 *Got thoughts on the DevRel/marketing relationship? Think I'm totally wrong about something? Let's talk about it in the comments.*
 
 ---
-**Previously:** [Part 2: Sales 101](https://dev.to/mattstratton/sales-101-what-your-sales-team-does-and-how-devrel-fits-in-29d8)
+**Previously:** [Part 2: Sales 101](/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/)
 
 **Next up:** [Finance 101]( 
-https://dev.to/mattstratton/finance-101-budgets-pls-and-the-language-of-money-3dp9)
+/writing/finance-101-budgets-pls-and-the-language-of-money/)

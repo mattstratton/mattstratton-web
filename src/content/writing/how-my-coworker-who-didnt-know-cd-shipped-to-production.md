@@ -50,7 +50,7 @@ The downside of teaching a designer to use the terminal is that she will want he
 
 Hold both of these facts in your brain at the same time: Tanya is asking me what `cd` does this morning. Tanya shipped a real feature to a real codebase last week.
 
-If you read [my last post on coding agents and internal tooling](https://dev.to/mattstratton/coding-agents-are-actually-good-at-this-one-thing-5dej), you know where I ended it. The caveat was that I was a solo contributor to a real codebase, and the first comment on the post called out exactly the right thing. *Who owns this when you leave?* That's a reasonable question. In March, my answer was "me, and that's a problem."
+If you read [my last post on coding agents and internal tooling](/writing/coding-agents-are-actually-good-at-this-one-thing/), you know where I ended it. The caveat was that I was a solo contributor to a real codebase, and the first comment on the post called out exactly the right thing. *Who owns this when you leave?* That's a reasonable question. In March, my answer was "me, and that's a problem."
 
 My answer in April is "...and also Tanya."
 

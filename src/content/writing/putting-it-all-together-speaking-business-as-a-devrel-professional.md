@@ -10,7 +10,7 @@ heroImage: /writing/putting-it-all-together-speaking-business-as-a-devrel-profes
 
 ![](/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/4f21cxu3z6d0ypgju4pa.png)
 
-*This is Part 7 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 7 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 We've covered a lot of ground in this series. Sales pipelines and forecast accuracy. Marketing funnels and MQLs. P&Ls and CapEx vs OpEx. Product-Led Growth and how it changes the game for developer tools companies. If your brain feels a little full right now, that's normal. This is a lot of new vocabulary and new ways of thinking.
 

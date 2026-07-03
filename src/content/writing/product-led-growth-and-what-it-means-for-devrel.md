@@ -10,7 +10,7 @@ heroImage: /writing/product-led-growth-and-what-it-means-for-devrel/o6sijn10fab2
 
 ![](/writing/product-led-growth-and-what-it-means-for-devrel/o6sijn10fab2fuftqg2j.png)
 
-*This is Part 5 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 5 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 We've covered sales, marketing, and finance - the three core business functions you need to understand. But there's one more concept that ties everything together, and it's especially critical if you work at a developer tools company or any company with a self-serve product: **Product-Led Growth** (PLG).
 
@@ -244,6 +244,6 @@ Next up, we're bringing it all together in the final post - how to actually use 
 *As always, comments are open below if you want to discuss, debate, or share your PLG experiences.*
 
 ---
-**Previously:** [Part 5: Product 101](https://dev.to/mattstratton/product-101-your-secret-weapon-for-understanding-the-business-2m6j9)
+**Previously:** [Part 5: Product 101](/writing/product-101-your-secret-weapon-for-understanding-the-business/)
 
-**Next up:** [Wrapping it all up](https://dev.to/mattstratton/putting-it-all-together-speaking-business-as-a-devrel-professional-2kfj)
+**Next up:** [Wrapping it all up](/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/)

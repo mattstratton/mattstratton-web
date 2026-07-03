@@ -10,7 +10,7 @@ heroImage: /writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/z
 
 ![](/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/zjpxkzku5xlxg42qlq49.png)
 
-*This is Part 2 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 2 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 Let's talk about sales folks. And I need you to stick with me here, because I know what you're thinking.
 
@@ -167,6 +167,6 @@ Next up, we're tackling marketing. Because if you thought sales was misunderstoo
 *Questions? Confused about pipeline? Want to argue with me about whether DevRel should ever talk to sales? Drop a comment!*
 
 ---
-**Previously:** [Part 1: Why Business Literacy Matters](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1)
+**Previously:** [Part 1: Why Business Literacy Matters](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/)
 
-**Next up:** [Marketing 101](https://dev.to/mattstratton/marketing-101-funnels-campaigns-and-what-marketing-actually-means-4j81)
+**Next up:** [Marketing 101](/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/)

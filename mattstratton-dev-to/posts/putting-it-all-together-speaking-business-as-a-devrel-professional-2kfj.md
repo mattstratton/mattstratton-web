@@ -1,15 +1,14 @@
 ---
-title: "Putting It All Together: Speaking Business as a DevRel Professional"
+title: 'Putting It All Together: Speaking Business as a DevRel Professional'
 published: true
-description: You've learned sales, marketing, finance, and PLG. Now learn how to translate DevRel work into business language that resonates with every stakeholder in your company.
+description: 'You''ve learned sales, marketing, finance, and PLG. Now learn how to translate DevRel work into business language that resonates with every stakeholder in your company.'
 tags:
   - devrel
-canonical_url: https://www.mattstratton.com/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/
+canonical_url: 'https://www.mattstratton.com/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/'
 id: 2969633
-cover_image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4f21cxu3z6d0ypgju4pa.png
+cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4f21cxu3z6d0ypgju4pa.png'
 series: DevRel Guide to Business
-date: 2025-10-28T18:54:34Z
-crosspost: true
+date: '2025-10-28T18:54:34Z'
 ---
 *This is Part 7 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
 

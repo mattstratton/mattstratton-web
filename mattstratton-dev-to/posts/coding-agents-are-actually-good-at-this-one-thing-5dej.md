@@ -3,10 +3,10 @@ title: Coding Agents Are Actually Good at This One Thing
 published: true
 description: Coding agents aren't magic. But for internal tooling? They've brought back the "just build the thing" era I've been missing since Microsoft Access.
 tags: webd
-canonical_url: https://www.mattstratton.com/writing/coding-agents-are-actually-good-at-this-one-thing/
+canonical_url: 'https://www.mattstratton.com/writing/coding-agents-are-actually-good-at-this-one-thing/'
 id: 3299129
-cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rxoya791llxf4y6v2c81.png
-date: 2026-03-01T20:31:28Z
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rxoya791llxf4y6v2c81.png'
+date: '2026-03-01T20:31:28Z'
 crosspost: true
 ---
 The discourse around AI coding tools tends to collapse into two camps: people who think they're going to replace developers, and people dunking on "vibe coding" demos that fall apart the moment you look at them sideways.

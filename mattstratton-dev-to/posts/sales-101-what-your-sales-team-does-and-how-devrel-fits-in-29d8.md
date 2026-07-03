@@ -1,15 +1,14 @@
 ---
-title: "Sales 101: What Your Sales Team Does (And How DevRel Fits In)"
+title: 'Sales 101: What Your Sales Team Does (And How DevRel Fits In)'
 published: true
-description: Stop treating sales like the enemy. Learn what your sales team actually does, decode pipeline and ARR, and discover how DevRel impacts deals without selling out.
+description: 'Stop treating sales like the enemy. Learn what your sales team actually does, decode pipeline and ARR, and discover how DevRel impacts deals without selling out.'
 tags:
   - devrel
-canonical_url: https://www.mattstratton.com/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/
+canonical_url: 'https://www.mattstratton.com/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/'
 id: 2968777
-cover_image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzjpxkzku5xlxg42qlq49.png
+cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzjpxkzku5xlxg42qlq49.png'
 series: DevRel Guide to Business
-date: 2025-10-28T13:41:03Z
-crosspost: true
+date: '2025-10-28T13:41:03Z'
 ---
 *This is Part 2 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
 

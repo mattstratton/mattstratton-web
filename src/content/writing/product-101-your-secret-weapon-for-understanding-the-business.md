@@ -10,7 +10,7 @@ heroImage: /writing/product-101-your-secret-weapon-for-understanding-the-busines
 
 ![](/writing/product-101-your-secret-weapon-for-understanding-the-business/yul3alsercwqflrzkk8m.png)
 
-*This is Part 5 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 5 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 We've covered sales, marketing, and finance. But there's one group we haven't talked about yet - and they might be your most valuable partnership in the entire company: **Product**.
 
@@ -300,6 +300,6 @@ Next up: we'll talk about Product-Led Growth and how it changes everything about
 *Questions about working with product? War stories about great (or terrible) product partnerships? Let's hear them in the comments!*
 
 ---
-**Previously:** [Part 4: Finance 101](https://dev.to/mattstratton/finance-101-budgets-pls-and-the-language-of-money-3dp9)
+**Previously:** [Part 4: Finance 101](/writing/finance-101-budgets-pls-and-the-language-of-money/)
 
-**Next up:** [Product-Led Growth](https://dev.to/mattstratton/product-led-growth-and-what-it-means-for-devrel-10mj)
+**Next up:** [Product-Led Growth](/writing/product-led-growth-and-what-it-means-for-devrel/)

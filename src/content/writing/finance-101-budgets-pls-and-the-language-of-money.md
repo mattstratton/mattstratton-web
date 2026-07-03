@@ -10,7 +10,7 @@ heroImage: /writing/finance-101-budgets-pls-and-the-language-of-money/qg4giv7gqc
 
 ![](/writing/finance-101-budgets-pls-and-the-language-of-money/qg4giv7gqcufvzmejpgr.png)
 
-*This is Part 4 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
+*This is Part 4 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/).*
 
 Time for everyone's favorite topic: money. Specifically, how companies think about money, track money, and make decisions about money.
 
@@ -230,6 +230,6 @@ Look, finance isn't the hippest part of business literacy. But it might be the m
 *Questions about budgets? Confused about the difference between CapEx and OpEx? Want to share your budget horror stories? Comments are open.*
 
 ---
-**Previously:** [Part 3: Marketing 101](https://dev.to/mattstratton/marketing-101-funnels-campaigns-and-what-marketing-actually-means-4j81)
+**Previously:** [Part 3: Marketing 101](/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/)
 
-**Next up:** [Product 101](https://dev.to/mattstratton/product-101-your-secret-weapon-for-understanding-the-business-2m6j)
+**Next up:** [Product 101](/writing/product-101-your-secret-weapon-for-understanding-the-business/)

@@ -23,12 +23,12 @@ But here's some tough love for you, from me: if you can't translate that work in
 > This is Part 1 of a 6-part series on business literacy for DevRel:
 > 
 > 1. **Why Business Literacy Matters** (you are here)
-> 2. [Sales 101](https://dev.to/mattstratton/sales-101-what-your-sales-team-does-and-how-devrel-fits-in-29d8)
-> 3. [Marketing 101](https://dev.to/mattstratton/marketing-101-funnels-campaigns-and-what-marketing-actually-means-4j81)
-> 4. [Finance 101](https://dev.to/mattstratton/finance-101-budgets-pls-and-the-language-of-money-3dp9)
-> 5. [Product-Led Growth](https://dev.to/mattstratton/product-led-growth-and-what-it-means-for-devrel-10mj)
-> 6. [Product 101](https://dev.to/mattstratton/product-101-your-secret-weapon-for-understanding-the-business-2m6j)
-> 7. [Putting It All Together](https://dev.to/mattstratton/putting-it-all-together-speaking-business-as-a-devrel-professional-2kfj)
+> 2. [Sales 101](/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/)
+> 3. [Marketing 101](/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/)
+> 4. [Finance 101](/writing/finance-101-budgets-pls-and-the-language-of-money/)
+> 5. [Product-Led Growth](/writing/product-led-growth-and-what-it-means-for-devrel/)
+> 6. [Product 101](/writing/product-101-your-secret-weapon-for-understanding-the-business/)
+> 7. [Putting It All Together](/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/)
 
 ## The Uncomfortable Truth About DevRel Right Now
 
@@ -132,4 +132,4 @@ Have you struggled to communicate DevRel value to non-technical stakeholders? Wh
 
 ---
 
-**Next in this series:** [Sales 101](https://dev.to/mattstratton/sales-101-what-your-sales-team-does-and-how-devrel-fits-in-29d8)
+**Next in this series:** [Sales 101](/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/)

@@ -1,14 +1,15 @@
 ---
-title: 'Product 101: Your Secret Weapon for Understanding the Business'
+title: "Product 101: Your Secret Weapon for Understanding the Business"
 published: true
 description: Strategic product leaders sit at the intersection of everything. Learn why Product is DevRel's most valuable partnership—and your secret source of business intel.
 tags:
   - devrel
-canonical_url: 'https://dev.to/mattstratton/product-101-your-secret-weapon-for-understanding-the-business-2m6j'
+canonical_url: https://www.mattstratton.com/writing/product-101-your-secret-weapon-for-understanding-the-business/
 id: 2991428
-cover_image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyul3alsercwqflrzkk8m.png'
+cover_image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyul3alsercwqflrzkk8m.png
 series: DevRel Guide to Business
-date: '2025-11-04T14:58:55Z'
+date: 2025-11-04T14:58:55Z
+crosspost: true
 ---
 *This is Part 5 of my 7-part series on business literacy for DevRel. [Start with Part 1 if you missed it](https://dev.to/mattstratton/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step-30p1).*
 

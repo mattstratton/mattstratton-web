@@ -1,0 +1,689 @@
+{
+  "fetchedAt": "2026-07-04T18:11:28.286Z",
+  "records": [
+    {
+      "id": 1783113033361,
+      "text": "2026-07-03 21:10:33 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2268s / exercises: {\n  Overhead Press / 3x5 85lb / warmup: 1x5 67.5lb / target: 2x5 85lb, 1x5+ 85lb\n  Deadlift / 4x8 145lb / warmup: 1x5 115lb / target: 4x8 145lb\n  Incline Row / 4x12 35lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1782863695156,
+      "text": "2026-06-30 23:54:55 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3240s / exercises: {\n  Squat / 2x5 147.5lb, 1x6 147.5lb / warmup: 1x5 72.5lb, 1x5 117.5lb / target: 2x5 147.5lb, 1x5+ 147.5lb\n  Bench Press / 4x8 85lb / warmup: 1x5 67.5lb / target: 4x8 85lb\n  Lat Pulldown / 3x12 73.75lb, 1x20 73.75lb / target: 3x12 73.75lb 90s, 1x12+ 73.75lb 90s\n}"
+    },
+    {
+      "id": 1782682792255,
+      "text": "2026-06-28 21:39:52 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3156s / exercises: {\n  Deadlift / 3x5 165lb / warmup: 1x5 82.5lb, 1x5 130lb / target: 2x5 165lb, 1x5+ 165lb\n  Overhead Press / 4x8 55lb / warmup: 1x5 45lb / target: 4x8 55lb\n  Incline Row / 4x12 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1782579624127,
+      "text": "2026-06-27 17:00:24 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3119s / exercises: {\n  Bench Press / 2x5 110lb, 1x6 110lb / warmup: 1x5 87.5lb / target: 2x5 110lb, 1x5+ 110lb\n  Squat / 4x8 105lb / warmup: 1x5 82.5lb / target: 4x8 105lb\n  Lat Pulldown / 3x12 68.75lb, 1x18 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n}"
+    },
+    {
+      "id": 1782250079420,
+      "text": "2026-06-23 21:27:59 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2203s / exercises: {\n  Overhead Press / 3x5 80lb / warmup: 1x5 62.5lb / target: 2x5 80lb, 1x5+ 80lb\n  Deadlift / 4x8 135lb / warmup: 1x5 107.5lb / target: 4x8 135lb\n  Incline Row / 4x12 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1782163209004,
+      "text": "2026-06-22 21:20:09 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 2457s / exercises: {\n  Squat / 3x5 137.5lb / warmup: 1x5 67.5lb, 1x5 110lb / target: 2x5 137.5lb, 1x5+ 137.5lb\n  Bench Press / 4x8 80lb / warmup: 1x5 62.5lb / target: 4x8 80lb\n  Lat Pulldown / 3x12 68.75lb, 1x16 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n}"
+    },
+    {
+      "id": 1781997902135,
+      "text": "2026-06-20 23:25:02 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3229s / exercises: {\n  Bench Press / 3x5 105lb / warmup: 1x5 52.5lb, 1x5 82.5lb / target: 2x5 105lb, 1x5+ 105lb\n  Squat / 4x8 95lb / warmup: 1x5 75lb / target: 4x8 95lb\n  Lat Pulldown / 3x12 68.75lb, 1x15 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n}"
+    },
+    {
+      "id": 1781740257865,
+      "text": "2026-06-17 23:50:57 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3276s / exercises: {\n  Overhead Press / 2x5 75lb, 1x6 75lb / warmup: 1x5 60lb / target: 2x5 75lb, 1x5+ 75lb\n  Deadlift / 4x8 125lb / warmup: 1x5 80lb / target: 4x8 102.5lb\n  Incline Row / 4x12 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1781652073055,
+      "text": "2026-06-16 23:21:13 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3034s / exercises: {\n  Squat / 3x5 127.5lb / warmup: 1x5 45lb, 1x5 62.5lb / target: 2x5 127.5lb, 1x5+ 127.5lb\n  Bench Press / 4x8 75lb / warmup: 1x5 60lb / target: 4x8 75lb\n  Lat Pulldown / 4x12 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n}"
+    },
+    {
+      "id": 1761686811002,
+      "text": "2025-10-28 21:04:17 +00:00 / program: \"GZCLP\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 1324s / exercises: {\n  Overhead Press / 5x3 85lb / warmup: 1x5 45lb, 1x5 67.5lb / target: 4x3 85lb, 1x3+ 85lb\n}"
+    },
+    {
+      "id": 1761599518690,
+      "text": "2025-10-27 20:38:17 +00:00 / program: \"GZCLP\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 1997s / exercises: {\n  Squat / 5x3 190lb / warmup: 1x5 45lb, 1x5 95lb, 1x5 150lb / target: 4x3 190lb, 1x3+ 190lb\n  Bench Press / 3x0 125lb / warmup: 1x5 45lb, 1x5 62.5lb, 1x5 100lb / target: 3x10 125lb\n}"
+    },
+    {
+      "id": 1752024090131,
+      "text": "2025-07-09 00:39:02 +00:00 / program: \"GZCLP\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2443s / exercises: {\n  Overhead Press / 3x3 100lb, 1x2 100lb, 1x1 100lb / warmup: 1x5 50lb, 1x5 80lb / target: 4x3 100lb, 1x3+ 100lb\n  Deadlift / 3x10 175lb / warmup: 1x5 140lb / target: 3x10 175lb\n  Lat Pulldown / 2x8 100lb, 1x7 100lb / target: 2x15 100lb 90s, 1x15+ 100lb 90s\n}"
+    },
+    {
+      "id": 1751933093766,
+      "text": "2025-07-07 23:20:49 +00:00 / program: \"GZCLP\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 2629s / exercises: {\n  Squat / 3x3 235lb / warmup: 1x5 70lb, 1x5 117.5lb, 1x5 187.5lb / target: 3x3 235lb\n  Bench Press / 3x5 115lb / warmup: 1x5 90lb / target: 3x10 115lb\n  Triceps Pushdown / 2x10 50lb, 1x8 50lb / target: 2x15 50lb 90s, 1x15+ 50lb 90s\n}"
+    },
+    {
+      "id": 1748997340956,
+      "text": "2025-06-03 23:36:53 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 2\" / week: 1 / dayInWeek: 2 / duration: 3392s / exercises: {\n  Squat / 3x5 202.5lb (80%) / warmup: 1x5 60lb, 1x5 100lb, 1x5 160lb / target: 3x5 202.5lb (80%)\n  Deadlift / 5x6 207.5lb (68%) / warmup: 1x5 165lb / target: 5x6 207.5lb (68%)\n}"
+    },
+    {
+      "id": 1748909607599,
+      "text": "2025-06-02 23:07:35 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 1\" / week: 1 / dayInWeek: 1 / duration: 3663s / exercises: {\n  Bench Press / 1x5 155lb (80%), 2x5 145lb (80%) / warmup: 1x5 80lb, 1x5 125lb / target: 3x5 162.5lb (80%)\n  Incline Bench Press / 5x6 77.5lb (68%) / warmup: 1x5 65lb / target: 5x6 77.5lb (68%)\n  Arnold Press / 1x10 15lb (75%), 1x11 15lb (75%), 3x10 15lb (75%) / warmup: 1x5 10lb / target: 5x10+ 15lb (75%)\n  Lateral Raise / 5x10 10lb (75%) / target: 5x10+ 10lb (75%)\n}"
+    },
+    {
+      "id": 1744070067697,
+      "text": "2025-04-07 22:51:45 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 2 - Day 1\" / week: 2 / dayInWeek: 1 / duration: 3492s / exercises: {\n  Bench Press / 4x3 172.5lb (85%) / warmup: 1x5 85lb, 1x5 137.5lb / target: 3x3 172.5lb (85%), 1x3+ 172.5lb (85%)\n  Incline Bench Press / 5x5 82.5lb (72%) / warmup: 1x5 65lb / target: 5x5 82.5lb (72%)\n  Arnold Press / 1x10 15lb (75%), 1x15 15lb (75%), 1x13 15lb (75%), 1x15 15lb (75%), 1x16 15lb (75%) / target: 5x10+ 15lb (75%)\n  Lateral Raise / 2x10 10lb (75%) / target: 5x10+ 10lb (75%)\n}"
+    },
+    {
+      "id": 1743792001444,
+      "text": "2025-04-04 17:56:10 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 4\" / week: 1 / dayInWeek: 4 / duration: 2602s / exercises: {\n  Deadlift / 3x5 245lb (80%) / warmup: 1x5 122.5lb, 1x5 195lb / target: 3x5 245lb (80%)\n  Squat / 5x6 172.5lb (68%) / warmup: 1x5 85lb, 1x5 137.5lb / target: 5x6 172.5lb (68%)\n}"
+    },
+    {
+      "id": 1743713154154,
+      "text": "2025-04-03 19:33:14 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 3\" / week: 1 / dayInWeek: 3 / duration: 3561s / exercises: {\n  Overhead Press / 3x5 90lb (80%) / warmup: 1x5 70lb / target: 3x5 90lb (80%)\n  Bench Press Close Grip / 5x6 92.5lb (68%) / warmup: 1x5 45lb, 1x5 72.5lb / target: 5x6 92.5lb (68%)\n  Incline Chest Fly / 5x10 20lb (75%) / warmup: 1x5 15lb / target: 5x10+ 25lb (75%)\n  Pullover, Barbell / 2x10 55lb (75%), 1x7 55lb (75%), 1x8 55lb (75%) / warmup: 1x5 25lb / target: 5x10+ 55lb (75%)\n}"
+    },
+    {
+      "id": 1743021732908,
+      "text": "2025-03-26 20:42:12 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 2\" / week: 1 / dayInWeek: 2 / duration: 3912s / exercises: {\n  Squat / 3x5 202.5lb (80%) / warmup: 3x5 / target: 3x5 202.5lb (80%)\n  Deadlift / 5x6 207.5lb (68%) / warmup: 2x5 / target: 5x6 207.5lb (68%)\n  Lat Pulldown / 1x10 86.25lb (75%), 3x12 86.25lb (75%), 1x14 86.25lb (75%) / target: 5x10+ 86.25lb (75%)\n  Incline Curl / 4x12 15lb (75%), 1x14 15lb (75%) / target: 5x10+ 15lb (75%)\n}"
+    },
+    {
+      "id": 1742856366654,
+      "text": "2025-03-24 22:46:06 +00:00 / program: \"GZCL: The Rippler\" / dayName: \"Week 1 - Day 1\" / week: 1 / dayInWeek: 1 / duration: 3757s / exercises: {\n  Bench Press / 3x5 162.5lb (80%) / warmup: 3x5 / target: 3x5 162.5lb (80%)\n  Incline Bench Press / 5x6 77.5lb (68%) / warmup: 1x5 / target: 5x6 77.5lb (68%)\n  Arnold Press / 5x12 15lb (75%) / warmup: 1x5 / target: 5x10+ 15lb (75%)\n  Lateral Raise / 5x10 10lb (75%) / target: 5x10+ 10lb (75%)\n}"
+    },
+    {
+      "id": 1741899620703,
+      "text": "2025-03-13 21:00:20 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 2808s / exercises: {\n  Squat / 3x5 255lb / warmup: 3x5 / target: 2x5 255lb, 1x5+ 255lb\n  Incline Bench Press / 4x8 130lb / warmup: 2x5 / target: 4x8 130lb\n}"
+    },
+    {
+      "id": 1741118126813,
+      "text": "2025-03-04 19:55:26 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3124s / exercises: {\n  Squat / 3x5 250lb / warmup: 2x5 / target: 2x5 250lb, 1x5+ 250lb\n  Incline Bench Press / 4x8 125lb / warmup: 2x5 / target: 4x8 125lb\n  Lat Pulldown / 4x12 100lb / target: 3x12 100lb 90s, 1x12+ 100lb 90s\n  Bicep Curl, EZ Bar / 3x8 75lb / target: 2x8 75lb 90s, 1x8+ 75lb 90s\n}"
+    },
+    {
+      "id": 1740774849387,
+      "text": "2025-02-28 20:34:09 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 2221s / exercises: {\n  Deadlift / 1x5 310lb, 1x5 315lb, 1x6 315lb / warmup: 2x5 / target: 1x5 310lb, 1x5 315lb, 1x5+ 315lb\n  Overhead Press / 4x8 82.5lb / warmup: 1x5 / target: 4x8 82.5lb\n}"
+    },
+    {
+      "id": 1740687853325,
+      "text": "2025-02-27 20:24:13 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 2645s / exercises: {\n  Bench Press / 5x2 190lb / warmup: 2x5 / target: 4x2 190lb, 1x2+ 190lb\n  Bulgarian Split Squat / 2x8 30lb, 2x0 30lb / target: 4x8 30lb\n  Lat Pulldown / 4x12 100lb / target: 3x12 100lb 90s, 1x12+ 100lb 90s\n  Hammer Curl / 3x8 35lb / target: 2x8 35lb 90s, 1x8+ 35lb 90s\n}"
+    },
+    {
+      "id": 1740531804895,
+      "text": "2025-02-26 01:03:24 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3696s / exercises: {\n  Overhead Press / 3x5 105lb / warmup: 2x5 / target: 2x5 105lb, 1x5+ 105lb\n  Deadlift / 4x8 240lb / warmup: 1x5 / target: 4x8 240lb\n  Incline Row / 3x12 45lb / target: 3x12 45lb 90s, 1x12+ 45lb 90s\n  Triceps Pushdown / 3x8 57.5lb / target: 2x8 57.5lb 90s, 1x8+ 57.5lb 90s\n}"
+    },
+    {
+      "id": 1739317873318,
+      "text": "2025-02-11 23:51:13 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 5255s / exercises: {\n  Squat / 3x5 245lb / warmup: 1x5, 2x3 / target: 2x5 245lb, 1x5+ 245lb\n  Incline Bench Press / 4x8 120lb / warmup: 2x5 / target: 4x8 120lb\n  Bicep Curl, EZ Bar / 3x8 75lb / target: 2x8 75lb 90s, 1x8+ 75lb 90s\n}"
+    },
+    {
+      "id": 1738980093329,
+      "text": "2025-02-08 02:01:33 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3942s / exercises: {\n  Bench Press / 3x3 190lb, 1x2 190lb / warmup: 1x5, 1x4 / target: 3x3 190lb, 1x3+ 190lb\n  Bulgarian Split Squat / 4x8 25lb / target: 4x8 25lb\n  Lat Pulldown / 4x12 100lb / target: 3x12 100lb 90s, 1x12+ 100lb 90s\n  Hammer Curl / 1x6 35lb, 1x8 35lb, 1x6 35lb / target: 2x8 35lb 90s, 1x8+ 35lb 90s\n}"
+    },
+    {
+      "id": 1738787581541,
+      "text": "2025-02-05 20:33:01 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3111s / exercises: {\n  Overhead Press / 3x5 102.5lb / warmup: 2x5 / target: 2x5 102.5lb, 1x5+ 102.5lb\n  Deadlift / 4x8 235lb / warmup: 1x5 / target: 4x8 235lb\n  Incline Row / 4x12 45lb / target: 3x12 45lb 90s, 1x12+ 45lb 90s\n  Triceps Pushdown / 2x8 52.5lb, 1x12 52.5lb / target: 2x8 52.5lb 90s, 1x8+ 52.5lb 90s\n}"
+    },
+    {
+      "id": 1738608052384,
+      "text": "2025-02-03 18:40:52 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3770s / exercises: {\n  Squat / 3x5 240lb / warmup: 2x5 / target: 2x5 240lb, 1x5+ 240lb\n  Incline Bench Press / 4x8 115lb / warmup: 2x5 / target: 4x8 115lb\n  Lat Pulldown / 3x12 95lb, 1x17 95lb / target: 3x12 95lb 90s, 1x12+ 95lb 90s\n  Bicep Curl, EZ Bar / 2x8 70lb, 1x11 70lb / target: 2x8 70lb 90s, 1x8+ 70lb 90s\n}"
+    },
+    {
+      "id": 1738443299329,
+      "text": "2025-02-01 20:54:59 +00:00 / duration: 1917s / exercises: {\n  Chest Fly / 1x6 25lb, 2x8 20lb / target: 1x6 25lb, 2x8 20lb\n  Incline Curl / 1x8 20lb, 1x6 25lb, 1x8 25lb / target: 1x8 20lb, 1x6 25lb, 1x8 25lb\n  Lateral Raise / 3x8 10lb / target: 3x8 10lb\n  Skullcrusher, Dumbbell / 2x8 30lb, 1x6 30lb / target: 2x8 30lb, 1x6 30lb\n  Incline Chest Fly / 3x6 25lb / target: 3x6 25lb\n  Shoulder Press / 1x6 35lb / target: 3x6 35lb\n}"
+    },
+    {
+      "id": 1738351535250,
+      "text": "2025-01-31 19:25:35 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3189s / exercises: {\n  Deadlift / 3x5 300lb / warmup: 1x3 / target: 2x5 300lb, 1x5+ 300lb\n  Overhead Press / 4x8 80lb / warmup: 1x5 / target: 4x8 80lb\n  Incline Row / 4x12 45lb / target: 3x12 45lb 90s, 1x12+ 45lb 90s\n  Triceps Pushdown / 2x8 47.5lb, 1x12 47.5lb / target: 2x8 47.5lb 90s, 1x8+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1738285257481,
+      "text": "2025-01-31 01:00:57 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3267s / exercises: {\n  Bench Press / 4x3 185lb / warmup: 2x5, 1x3 / target: 3x3 185lb, 1x3+ 185lb\n  Bulgarian Split Squat / 4x8 20lb / target: 4x8 20lb\n  Lat Pulldown / 4x12 95lb / target: 3x12 95lb 90s, 1x12+ 95lb 90s\n  Hammer Curl / 2x8 30lb, 1x10 30lb / target: 2x8 30lb 90s, 1x8+ 30lb 90s\n}"
+    },
+    {
+      "id": 1738113621050,
+      "text": "2025-01-29 01:20:21 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2956s / exercises: {\n  Overhead Press / 3x5 101lb / warmup: 2x5 / target: 2x5 101lb, 1x5+ 101lb\n  Deadlift / 4x8 230lb / warmup: 1x5 / target: 4x8 230lb\n}"
+    },
+    {
+      "id": 1738014846260,
+      "text": "2025-01-27 21:54:06 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3686s / exercises: {\n  Squat / 3x5 235lb / warmup: 3x5 / target: 2x5 235lb, 1x5+ 235lb\n  Incline Bench Press / 4x8 110lb / warmup: 2x5 / target: 4x8 110lb\n  Lat Pulldown / 4x12 95lb / target: 3x12 95lb 90s, 1x12+ 95lb 90s\n  Bicep Curl, EZ Bar / 3x8 70lb / target: 2x8 70lb 90s, 1x8+ 70lb 90s\n}"
+    },
+    {
+      "id": 1737929182334,
+      "text": "2025-01-26 22:06:22 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 2917s / exercises: {\n  Deadlift / 3x5 290lb / warmup: 2x5 / target: 2x5 290lb, 1x5+ 290lb\n  Overhead Press / 4x8 77.5lb / warmup: 1x5 / target: 4x8 77.5lb\n}"
+    },
+    {
+      "id": 1737839028503,
+      "text": "2025-01-25 21:03:48 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 4255s / exercises: {\n  Bench Press / 4x3 180lb / warmup: 1x5, 1x3 / target: 3x3 180lb, 1x3+ 180lb\n  Bulgarian Split Squat / 4x8 15lb / target: 4x8 15lb\n  Lat Pulldown / 4x12 95lb / target: 3x12 95lb 90s, 1x12+ 95lb 90s\n  Hammer Curl / 4x12 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1737577427678,
+      "text": "2025-01-22 20:23:47 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3480s / exercises: {\n  Overhead Press / 3x5 98.5lb / warmup: 2x5 / target: 2x5 98.5lb, 1x5+ 98.5lb\n  Deadlift / 4x8 220lb / warmup: 1x5 / target: 4x8 220lb\n  Incline Row / 4x12 45lb / target: 3x12 45lb 90s, 1x12+ 45lb 90s\n  Triceps Pushdown / 4x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1737414612275,
+      "text": "2025-01-20 23:10:12 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3645s / exercises: {\n  Squat / 3x5 230lb / warmup: 2x5 / target: 2x5 230lb, 1x5+ 230lb\n  Incline Bench Press / 4x8 105lb / warmup: 2x5 / target: 4x8 105lb\n  Lat Pulldown / 3x12 90lb, 1x16 90lb / target: 3x12 90lb 90s, 1x12+ 90lb 90s\n  Bicep Curl, EZ Bar / 4x12 60lb / target: 3x12 60lb 90s, 1x12+ 60lb 90s\n}"
+    },
+    {
+      "id": 1737231675736,
+      "text": "2025-01-18 20:21:15 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3657s / exercises: {\n  Deadlift / 3x5 280lb / warmup: 1x5 / target: 2x5 280lb, 1x5+ 280lb\n  Overhead Press / 4x8 75lb / warmup: 1x5 / target: 4x8 75lb\n  Incline Row / 3x12 40lb, 1x16 40lb / target: 3x12 40lb 90s, 1x12+ 40lb 90s\n  Triceps Pushdown / 4x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1736372158368,
+      "text": "2025-01-08 21:35:58 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3443s / exercises: {\n  Squat / 3x5 225lb / warmup: 2x5 / target: 2x5 225lb, 1x5+ 225lb\n  Incline Bench Press / 4x8 100lb / warmup: 1x5 / target: 4x8 100lb\n  Lat Pulldown / 4x12 90lb / target: 3x12 90lb 90s, 1x12+ 90lb 90s\n  Bicep Curl, EZ Bar / 3x12 60lb / target: 3x12 60lb 90s, 1x12+ 60lb 90s\n}"
+    },
+    {
+      "id": 1735771036896,
+      "text": "2025-01-01 22:37:16 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 4322s / exercises: {\n  Bench Press / 4x3 175lb / warmup: 2x5 / target: 3x3 175lb, 1x3+ 175lb\n  Bulgarian Split Squat / 4x8 10lb / target: 4x8 10lb\n  Lat Pulldown / 3x12 90lb / target: 3x12 90lb 90s, 1x12+ 90lb 90s\n  Hammer Curl / 2x12 30lb, 1x8 30lb, 1x7 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"
+    },
+    {
+      "id": 1735595513647,
+      "text": "2024-12-30 21:51:53 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 2977s / exercises: {\n  Squat / 3x5 216lb / warmup: 3x5 / target: 2x5 216lb, 1x5+ 216lb\n  Incline Bench Press / 4x8 95lb / warmup: 2x5 / target: 4x8 95lb\n  Lat Pulldown / 3x12 83.75lb, 1x17 83.75lb / target: 3x12 83.75lb 90s, 1x12+ 83.75lb 90s\n  Bicep Curl, EZ Bar / 4x12 60lb / target: 3x12 60lb 90s, 1x12+ 60lb 90s\n}"
+    },
+    {
+      "id": 1735428557927,
+      "text": "2024-12-28 23:29:17 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 2369s / exercises: {\n  Deadlift / 3x5 260lb / warmup: 1x5 / target: 2x5 260lb, 1x5+ 260lb\n  Overhead Press / 4x8 70lb / warmup: 1x5 / target: 4x8 70lb\n}"
+    },
+    {
+      "id": 1735253685806,
+      "text": "2024-12-26 22:54:45 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3154s / exercises: {\n  Bench Press / 1x3 175lb, 2x5 175lb / warmup: 3x5 / target: 2x5 175lb, 1x5+ 175lb\n  Bulgarian Split Squat / 4x8 5lb / target: 4x8 5lb\n  Lat Pulldown / 4x12 83.75lb / target: 3x12 83.75lb 90s, 1x12+ 83.75lb 90s\n}"
+    },
+    {
+      "id": 1735081979028,
+      "text": "2024-12-24 23:12:59 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3070s / exercises: {\n  Overhead Press / 3x5 96lb / warmup: 2x5 / target: 2x5 96lb, 1x5+ 96lb\n  Deadlift / 4x8 208.5lb / warmup: 1x5 / target: 4x8 208.5lb\n  Incline Row / 3x12 40lb, 1x13 40lb / target: 3x12 40lb 90s, 1x12+ 40lb 90s\n  Bicep Curl, EZ Bar / 4x12 58.5lb / target: 3x12 58.5lb 90s, 1x12+ 58.5lb 90s\n}"
+    },
+    {
+      "id": 1734987078450,
+      "text": "2024-12-23 20:51:18 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3680s / exercises: {\n  Squat / 3x5 211lb / warmup: 3x5 / target: 2x5 211lb, 1x5+ 211lb\n  Incline Bench Press / 4x8 90lb / warmup: 1x5 / target: 4x8 90lb\n  Lat Pulldown / 3x12 78.75lb, 1x16 78.75lb / target: 3x12 78.75lb 90s, 1x12+ 78.75lb 90s\n  Triceps Pushdown / 4x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1734812305037,
+      "text": "2024-12-21 20:18:25 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3489s / exercises: {\n  Bench Press / 3x5 170lb / warmup: 2x5 / target: 2x5 170lb, 1x5+ 170lb\n  Bulgarian Split Squat / 4x8 0lb / target: 4x8 0lb\n  Lat Pulldown / 4x12 78.75lb / target: 3x12 78.75lb 90s, 1x12+ 78.75lb 90s\n  Triceps Pushdown / 2x12 47.5lb, 1x10 47.5lb, 1x11 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1734474838476,
+      "text": "2024-12-17 22:33:58 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2787s / exercises: {\n  Overhead Press / 2x5 93.5lb, 1x7 93.5lb / warmup: 2x5 / target: 2x5 93.5lb, 1x5+ 93.5lb\n  Deadlift / 4x8 198.5lb / warmup: 1x5 / target: 4x8 198.5lb\n  Incline Row / 3x12 35lb, 1x16 35lb / target: 3x12 35lb 90s, 1x12+ 35lb 90s\n  Bicep Curl, EZ Bar / 4x12 58.5lb / target: 3x12 58.5lb 90s, 1x12+ 58.5lb 90s\n}"
+    },
+    {
+      "id": 1734393962119,
+      "text": "2024-12-17 00:06:02 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3340s / exercises: {\n  Squat / 3x5 206lb / warmup: 3x5 / target: 2x5 206lb, 1x5+ 206lb\n  Incline Bench Press / 4x8 85lb / warmup: 1x5 / target: 4x8 85lb\n  Lat Pulldown / 3x12 73.75lb, 1x16 73.75lb / target: 3x12 73.75lb 90s, 1x12+ 73.75lb 90s\n  Triceps Pushdown / 2x12 47.5lb, 1x9 47.5lb, 1x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1734138003200,
+      "text": "2024-12-14 01:00:03 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3928s / exercises: {\n  Bench Press / 3x5 165lb / warmup: 2x5 / target: 2x5 165lb, 1x5+ 165lb\n  Squat / 4x8 145lb / warmup: 1x5 / target: 4x8 145lb\n  Lat Pulldown / 3x12 73.75lb, 1x14 73.75lb / target: 3x12 73.75lb 90s, 1x12+ 73.75lb 90s\n  Triceps Pushdown / 2x12 47.5lb, 1x9 47.5lb, 1x10 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1734035488960,
+      "text": "2024-12-12 20:31:28 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2948s / exercises: {\n  Overhead Press / 3x5 91lb / warmup: 2x5 / target: 2x5 91lb, 1x5+ 91lb\n  Deadlift / 4x8 188.5lb / warmup: 1x5 / target: 4x8 188.5lb\n  Incline Row / 4x12 35lb / target: 3x12 35lb 90s, 1x12+ 35lb 90s\n  Bicep Curl, EZ Bar / 3x12 53.5lb, 1x15 53.5lb / target: 3x12 53.5lb 90s, 1x12+ 53.5lb 90s\n}"
+    },
+    {
+      "id": 1733864364932,
+      "text": "2024-12-10 20:59:24 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3526s / exercises: {\n  Squat / 3x5 201lb / warmup: 3x5 / target: 2x5 201lb, 1x5+ 201lb\n  Bench Press / 4x8 122.5lb / warmup: 2x5 / target: 4x8 122.5lb\n  Lat Pulldown / 3x12 68.75lb, 1x18 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n  Triceps Pushdown / 4x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1733600623318,
+      "text": "2024-12-07 19:43:43 +00:00 / duration: 317s / exercises: {\n  Squat / 1x50 115lb / target: 1x50 115lb\n}"
+    },
+    {
+      "id": 1733514008576,
+      "text": "2024-12-06 19:40:08 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 1924s / exercises: {\n  Deadlift / 2x5 240lb, 1x6 240lb / warmup: 1x5 / target: 2x5 240lb, 1x5+ 240lb\n  Overhead Press / 4x8 65lb / warmup: 1x5 / target: 4x8 65lb\n  Bicep Curl, EZ Bar / 4x12 53.5lb / target: 3x12 53.5lb 90s, 1x12+ 53.5lb 90s\n}"
+    },
+    {
+      "id": 1733512515886,
+      "text": "2024-12-06 19:15:15 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 1225s / exercises: {\n  Bench Press / 3x5 160lb / warmup: 2x5 / target: 2x5 160lb, 1x5+ 160lb\n  Triceps Pushdown / 4x12 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1733341209329,
+      "text": "2024-12-04 19:40:09 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2944s / exercises: {\n  Overhead Press / 3x5 88.5lb / warmup: 1x5 / target: 2x5 88.5lb, 1x5+ 88.5lb\n  Deadlift / 4x8 178.5lb / warmup: 1x5 / target: 4x8 178.5lb\n  Incline Row / 3x12 35lb, 1x14 35lb / target: 3x12 35lb 90s, 1x12+ 35lb 90s\n  Bicep Curl, EZ Bar / 4x12 53.5lb / target: 3x12 53.5lb 90s, 1x12+ 53.5lb 90s\n}"
+    },
+    {
+      "id": 1733272236820,
+      "text": "2024-12-04 00:30:36 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3543s / exercises: {\n  Squat / 3x5 196lb / warmup: 2x5 / target: 2x5 196lb, 1x5+ 196lb\n  Bench Press / 4x8 117.5lb / warmup: 2x5 / target: 4x8 117.5lb\n  Lat Pulldown / 3x12 68.75lb, 1x16 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n  Triceps Pushdown / 1x12 47.5lb, 1x10 47.5lb, 1x9 47.5lb, 1x6 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1733094623513,
+      "text": "2024-12-01 23:10:23 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3291s / exercises: {\n  Deadlift / 3x5 230lb / warmup: 2x5 / target: 2x5 230lb, 1x5+ 230lb\n  Overhead Press / 4x8 62.5lb / warmup: 1x5 / target: 4x8 62.5lb\n  Pendlay Row / 3x12 102.5lb, 1x8 102.5lb / target: 3x12 102.5lb 90s, 1x12+ 102.5lb 90s\n  Bicep Curl, EZ Bar / 4x12 53.5lb / warmup: 1x5 / target: 3x12 53.5lb 90s, 1x12+ 53.5lb 90s\n}"
+    },
+    {
+      "id": 1733004717117,
+      "text": "2024-11-30 22:11:57 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 4172s / exercises: {\n  Bench Press / 3x5 153.5lb / warmup: 3x5 / target: 2x5 153.5lb, 1x5+ 153.5lb\n  Squat / 4x8 140lb / warmup: 2x5 / target: 4x8 140lb\n  Lat Pulldown / 3x12 68.75lb, 1x16 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n  Triceps Pushdown / 2x12 47.5lb, 1x9 47.5lb, 1x5 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1732744841373,
+      "text": "2024-11-27 22:00:41 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 2707s / exercises: {\n  Overhead Press / 3x5 86lb / warmup: 1x5 / target: 2x5 86lb, 1x5+ 86lb\n  Deadlift / 4x8 168.5lb / warmup: 1x5 / target: 4x8 168.5lb\n  Incline Row / 3x12 30lb, 1x18 30lb / warmup: 1x5 / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n  Bicep Curl, EZ Bar / 2x12 53.5lb, 1x9 53.5lb, 1x0 53.5lb / warmup: 1x5 / target: 3x12 53.5lb 90s, 1x12+ 53.5lb 90s\n}"
+    },
+    {
+      "id": 1732651868013,
+      "text": "2024-11-26 20:11:08 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3361s / exercises: {\n  Squat / 3x5 191lb / warmup: 3x5 / target: 2x5 191lb, 1x5+ 191lb\n  Bench Press / 4x8 112.5lb / warmup: 1x5 / target: 4x8 112.5lb\n  Lat Pulldown / 3x12 68.75lb, 1x14 68.75lb / target: 3x12 68.75lb 90s, 1x12+ 68.75lb 90s\n  Triceps Pushdown / 2x12 47.5lb, 1x10 47.5lb, 1x5 47.5lb / target: 3x12 47.5lb 90s, 1x12+ 47.5lb 90s\n}"
+    },
+    {
+      "id": 1732067561101,
+      "text": "2024-11-20 01:52:41 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 2\" / week: 1 / dayInWeek: 2 / duration: 2984s / exercises: {\n  Deadlift / 1x5 171lb, 1x5 205lb, 1x5 235lb, 5x10 150lb / warmup: 1x5 / target: 1x5 171lb, 1x5 205lb, 1x5 235lb, 5x10 150lb\n  Triceps Pushdown / 5x10 40lb / target: 5x10 40lb\n}"
+    },
+    {
+      "id": 1732041915677,
+      "text": "2024-11-19 18:45:15 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 1\" / week: 1 / dayInWeek: 1 / duration: 2596s / exercises: {\n  Overhead Press / 1x5 66lb, 1x5 77lb, 1x5 87lb, 5x10 57.5lb / warmup: 1x5 / target: 1x5 66lb, 1x5 77lb, 1x5 87lb, 5x10 57.5lb\n  Lat Pulldown / 5x10 85lb / target: 5x10 85lb\n}"
+    },
+    {
+      "id": 1731437790270,
+      "text": "2024-11-12 18:56:30 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 4 - Deload - Day 4\" / week: 4 / dayInWeek: 4 / duration: 3397s / exercises: {\n  Squat / 1x5 91lb, 1x5 114.5lb, 1x5 137.5lb, 5x10 105lb / warmup: 2x5 / target: 1x5 91lb, 1x5 114.5lb, 1x5 137.5lb, 5x10 105lb\n  Lateral Raise / 5x10 10lb / warmup: 1x5 / target: 5x10 10lb\n}"
+    },
+    {
+      "id": 1731353158643,
+      "text": "2024-11-11 19:25:58 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 4 - Deload - Day 3\" / week: 4 / dayInWeek: 3 / duration: 2780s / exercises: {\n  Bench Press / 1x5 73.5lb, 1x5 92lb, 1x5 110lb, 5x10 82lb / warmup: 1x5 / target: 1x5 73.5lb, 1x5 92lb, 1x5 110lb, 5x10 82lb\n  Hammer Curl / 5x10 25lb / warmup: 1x5 / target: 5x10 25lb\n}"
+    },
+    {
+      "id": 1731164022280,
+      "text": "2024-11-09 14:53:42 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 4 - Deload - Day 1\" / week: 4 / dayInWeek: 1 / duration: 2173s / exercises: {\n  Overhead Press / 1x5 45lb, 1x5 51lb, 1x5 62lb, 5x10 46lb / target: 1x5 45lb, 1x5 51lb, 1x5 62lb, 5x10 46lb\n  Lat Pulldown / 5x10 80lb / target: 5x10 80lb\n}"
+    },
+    {
+      "id": 1730585391854,
+      "text": "2024-11-02 22:09:51 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 3 - Day 4\" / week: 3 / dayInWeek: 4 / duration: 2457s / exercises: {\n  Squat / 1x5 167.5lb, 1x3 190lb, 1x1 212.5lb, 5x10 125lb / warmup: 2x5 / target: 1x5 167.5lb, 1x3 190lb, 1x1 212.5lb, 5x10 125lb\n}"
+    },
+    {
+      "id": 1730500934982,
+      "text": "2024-11-01 22:42:14 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 3 - Day 3\" / week: 3 / dayInWeek: 3 / duration: 3094s / exercises: {\n  Bench Press / 1x5 135lb, 1x3 155lb, 1x1 170lb, 5x10 100lb / warmup: 3x5 / target: 1x5 135lb, 1x3 155lb, 1x1 170lb, 5x10 100lb\n  Hammer Curl / 5x10 25lb / target: 5x10 25lb\n}"
+    },
+    {
+      "id": 1730224817507,
+      "text": "2024-10-29 18:00:17 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 3 - Day 2\" / week: 3 / dayInWeek: 2 / duration: 2963s / exercises: {\n  Deadlift / 1x5 200lb, 1x3 225lb, 1x1 255lb, 5x10 145lb / warmup: 2x0, 1x5 / target: 1x5 200lb, 1x3 225lb, 1x1 255lb, 5x10 145lb\n  Triceps Pushdown / 5x10 37.5lb / target: 5x10 37.5lb\n}"
+    },
+    {
+      "id": 1730135149565,
+      "text": "2024-10-28 17:05:49 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 3 - Day 1\" / week: 3 / dayInWeek: 1 / duration: 2580s / exercises: {\n  Overhead Press / 1x5 73lb, 1x3 83lb, 1x1 93lb, 5x10 55lb / warmup: 1x5 / target: 1x5 73lb, 1x3 83lb, 1x1 93lb, 5x10 55lb\n  Lat Pulldown / 5x10 72.5lb / warmup: 2x0, 1x5 / target: 5x10 72.5lb\n}"
+    },
+    {
+      "id": 1729952750569,
+      "text": "2024-10-26 14:25:50 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 2 - Day 4\" / week: 2 / dayInWeek: 4 / duration: 3166s / exercises: {\n  Squat / 1x3 157lb, 1x3 180lb, 1x3 202lb, 5x10 125lb / warmup: 1x0, 2x5 / target: 1x3 157lb, 1x3 180lb, 1x3 202lb, 5x10 125lb\n  Hanging Leg Raise / 5x10 0lb / target: 5x10 0lb\n}"
+    },
+    {
+      "id": 1729949544379,
+      "text": "2024-10-26 13:32:24 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 2 - Day 3\" / week: 2 / dayInWeek: 3 / duration: 2507s / exercises: {\n  Bench Press / 1x3 126lb, 1x3 144lb, 1x4 162lb, 5x10 100lb / warmup: 3x5 / target: 1x3 126lb, 1x3 144lb, 1x3+ 162lb, 5x10 100lb\n  Hammer Curl / 5x10 25lb / warmup: 1x5 / target: 5x10 25lb\n}"
+    },
+    {
+      "id": 1729719116433,
+      "text": "2024-10-23 21:31:56 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 2 - Day 2\" / week: 2 / dayInWeek: 2 / duration: 3478s / exercises: {\n  Deadlift / 1x3 187lb, 1x3 213lb, 1x3 240lb, 5x10 145lb / warmup: 1x0, 2x5 / target: 1x3 187lb, 1x3 213lb, 1x3 240lb, 5x10 145lb\n  Triceps Pushdown / 5x10 32.5lb / target: 5x10 32.5lb\n}"
+    },
+    {
+      "id": 1729605672180,
+      "text": "2024-10-22 14:01:12 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 2 - Day 1\" / week: 2 / dayInWeek: 1 / duration: 2490s / exercises: {\n  Overhead Press / 1x3 70lb, 1x3 80lb, 1x3 89lb, 5x10 55lb / warmup: 1x5 / target: 1x3 70lb, 1x3 80lb, 1x3 89lb, 5x10 55lb\n  Lat Pulldown / 5x10 75lb / warmup: 2x5 / target: 5x10 75lb\n}"
+    },
+    {
+      "id": 1729361395498,
+      "text": "2024-10-19 18:09:55 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 4\" / week: 1 / dayInWeek: 4 / duration: 3140s / exercises: {\n  Squat / 1x5 145lb, 1x5 167lb, 1x5 190lb, 5x10 125lb / warmup: 3x5 / target: 1x5 145lb, 1x5 167lb, 1x5 190lb, 5x10 125lb\n  Hanging Leg Raise / 2x10 0lb, 3x0 0lb / target: 5x10 0lb\n}"
+    },
+    {
+      "id": 1729283363836,
+      "text": "2024-10-18 20:29:23 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 3\" / week: 1 / dayInWeek: 3 / duration: 3393s / exercises: {\n  Bench Press / 1x5 116lb, 1x5 134lb, 1x5 152lb, 5x10 100lb / warmup: 2x5 / target: 1x5 116lb, 1x5 134lb, 1x5 152lb, 5x10 100lb\n  Hammer Curl / 5x10 25lb / warmup: 1x5 / target: 5x10 25lb\n}"
+    },
+    {
+      "id": 1729010285808,
+      "text": "2024-10-15 16:38:05 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 2\" / week: 1 / dayInWeek: 2 / duration: 2823s / exercises: {\n  Deadlift / 1x5 172lb, 1x5 199lb, 1x5 225lb, 5x10 148lb / warmup: 2x0, 1x5 / target: 1x5 172lb, 1x5 199lb, 1x5 225lb, 5x10 148lb\n  Triceps Pushdown / 4x10 27.5lb, 1x10 32.5lb / warmup: 1x5 / target: 4x10 27.5lb, 1x10 32.5lb\n}"
+    },
+    {
+      "id": 1728915644385,
+      "text": "2024-10-14 14:20:44 +00:00 / program: \"5/3/1: Boring But Big\" / dayName: \"Week 1 - Day 1\" / week: 1 / dayInWeek: 1 / duration: 2701s / exercises: {\n  Overhead Press / 1x5 63lb, 1x5 73lb, 1x5 83lb, 5x10 55lb / warmup: 1x5 / target: 1x5 63lb, 1x5 73lb, 1x5 83lb, 5x10 55lb\n  Lat Pulldown / 5x10 70lb / warmup: 3x5 / target: 5x10 70lb\n}"
+    },
+    {
+      "id": 1728768216793,
+      "text": "2024-10-12 21:23:36 +00:00 / program: \"GZCLP\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3720s / exercises: {\n  Deadlift / 5x3 280lb / warmup: 2x5, 1x3 / target: 4x3 280lb, 1x3+ 280lb\n  Overhead Press / 3x10 65lb / warmup: 1x5 / target: 3x10 65lb\n  Lat Pulldown / 3x15 65lb / warmup: 1x5 / target: 2x15 65lb 90s, 1x15+ 65lb 90s\n  Incline Row / 2x15 30lb / warmup: 1x5 / target: 2x15 30lb 90s\n  Lateral Raise / 1x15 15lb, 2x15 10lb / warmup: 1x5 / target: 1x15 15lb 90s, 1x15 10lb 90s, 1x15+ 10lb 90s\n}"
+    },
+    {
+      "id": 1728581076575,
+      "text": "2024-10-10 17:24:36 +00:00 / program: \"GZCLP\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 4143s / exercises: {\n  Bench Press / 5x3 170lb / warmup: 3x5 / target: 4x3 170lb, 1x3+ 170lb\n  Squat / 3x10 140lb / warmup: 3x5 / target: 3x10 140lb\n  Triceps Pushdown / 1x15 40lb, 1x14 40lb, 1x10 40lb / warmup: 2x5 / target: 2x15 40lb 90s, 1x15+ 40lb 90s\n  Hammer Curl / 2x15 25lb, 1x11 25lb / warmup: 1x5 / target: 2x15 25lb 90s, 1x15+ 25lb 90s\n}"
+    },
+    {
+      "id": 1728492540269,
+      "text": "2024-10-09 16:49:00 +00:00 / program: \"GZCLP\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 3935s / exercises: {\n  Seated Overhead Press / 4x3 60lb, 1x12 60lb / warmup: 1x5 / target: 4x3 60lb, 1x3+ 60lb\n  Deadlift / 3x10 163lb / warmup: 3x5 / target: 3x10 163lb\n  Lat Pulldown / 2x15 60lb, 1x20 60lb / warmup: 2x5 / target: 2x15 60lb 90s, 1x15+ 60lb 90s\n  Hammer Curl / 1x10 20lb, 1x10 25lb, 1x12 25lb / target: 1x10 20lb, 1x10 25lb, 1x10+ 25lb\n  Triceps Pushdown / 1x10 40lb, 1x15 40lb, 1x13 40lb / target: 1x10 40lb, 1x15 40lb, 1x10+ 40lb\n}"
+    },
+    {
+      "id": 1728065063473,
+      "text": "2024-10-04 18:04:23 +00:00 / program: \"GZCLP\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3186s / exercises: {\n  Squat / 4x3 185lb, 1x4 185lb / warmup: 3x5 / target: 4x3 185lb, 1x3+ 185lb\n  Bench Press / 3x10 110lb / warmup: 2x5 / target: 3x10 110lb\n  Hammer Curl / 3x15 15lb / warmup: 1x5 / target: 2x15 15lb 90s, 1x15+ 15lb 90s\n}"
+    },
+    {
+      "id": 1727550829159,
+      "text": "2024-09-28 19:13:49 +00:00 / program: \"GZCLP\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 2286s / exercises: {\n  Deadlift / 4x3 220lb, 1x4 220lb / warmup: 1x5 / target: 4x3 220lb, 1x3+ 220lb\n  Overhead Press / 3x10 60lb / warmup: 1x5 / target: 3x10 60lb\n  Triceps Pushdown / 2x15 40lb, 1x9 40lb / warmup: 2x5 / target: 2x15 40lb 90s, 1x15+ 40lb 90s\n}"
+    },
+    {
+      "id": 1727457912436,
+      "text": "2024-09-27 17:25:12 +00:00 / program: \"GZCLP\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 3366s / exercises: {\n  Bench Press / 4x3 150lb, 1x5 150lb / warmup: 3x5 / target: 4x3 150lb, 1x3+ 150lb\n  Squat / 3x10 135lb / warmup: 3x5 / target: 3x10 135lb\n  Incline Row / 2x15 25lb, 1x20 25lb / warmup: 1x5 / target: 2x15 25lb 90s, 1x15+ 25lb 90s\n}"
+    },
+    {
+      "id": 1727305860000,
+      "text": "2024-09-25 23:11:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B1 (OHP Day)\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Overhead Press / 6x2 105lb / warmup: 2x5, 1x3 / target: 6x2 105lb\n  Deadlift / 3x10 160lb / warmup: 1x3 / target: 3x10 160lb\n  Lat Pulldown / 2x15 60lb, 1x20 60lb / target: 2x15 60lb, 1x20 60lb\n}"
+    },
+    {
+      "id": 1727218260000,
+      "text": "2024-09-24 22:51:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3720s / exercises: {\n  Squat / 5x3 235lb / warmup: 2x5, 1x3 / target: 5x3 235lb\n  Bench Press / 3x10 150lb / warmup: 2x5, 1x3 / target: 3x10 150lb\n  Hammer Curl / 3x15 40lb / warmup: 1x5 / target: 3x15 40lb\n}"
+    },
+    {
+      "id": 1726773060000,
+      "text": "2024-09-19 19:11:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A2 (Bench Day)\" / week: undefined / dayInWeek: undefined / duration: 3420s / exercises: {\n  Bench Press / 5x3 170lb / warmup: 2x5, 1x3 / target: 5x3 170lb\n  Squat / 3x10 180lb / warmup: 1x5, 1x3 / target: 3x10 180lb\n  Incline Row / 3x15 60lb / target: 3x15 60lb\n}"
+    },
+    {
+      "id": 1726681380000,
+      "text": "2024-09-18 17:43:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B1 (OHP Day)\" / week: undefined / dayInWeek: undefined / duration: 3120s / exercises: {\n  Overhead Press / 6x2 100lb / warmup: 1x5, 1x3 / target: 6x2 100lb\n  Deadlift / 3x10 155lb / warmup: 1x5 / target: 3x10 155lb\n  Lat Pulldown / 1x15 50lb, 1x15 60lb, 1x18 50lb / target: 1x15 50lb, 1x15 60lb, 1x18 50lb\n}"
+    },
+    {
+      "id": 1726534080000,
+      "text": "2024-09-17 00:48:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3900s / exercises: {\n  Squat / 5x3 230lb / warmup: 2x5, 1x3 / target: 5x3 230lb\n  Bench Press / 3x10 145lb / warmup: 2x5, 1x3 / target: 3x10 145lb\n  Bicep Curl, EZ Bar / 3x12 60lb / target: 3x12 60lb\n}"
+    },
+    {
+      "id": 1726266000000,
+      "text": "2024-09-13 22:20:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A2 (Bench Day)\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Bench Press / 4x3 165lb, 1x4 165lb / warmup: 2x5, 1x3 / target: 4x3 165lb, 1x4 165lb\n  Squat / 3x10 175lb / warmup: 1x5, 1x3 / target: 3x10 175lb\n  Lat Pulldown, Band / 3x12 59lb / target: 3x12 59lb\n}"
+    },
+    {
+      "id": 1726095360000,
+      "text": "2024-09-11 22:56:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B2 (Deadlift Day)\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Deadlift / 4x3 280lb, 1x1 280lb / warmup: 2x5, 1x3 / target: 4x3 280lb, 1x1 280lb\n  Overhead Press / 3x10 70lb / warmup: 1x5 / target: 3x10 70lb\n  Triceps Extension, Barbell / 1x12 65lb, 1x10 65lb, 1x8 65lb / target: 1x12 65lb, 1x10 65lb, 1x8 65lb\n}"
+    },
+    {
+      "id": 1725916680000,
+      "text": "2024-09-09 21:18:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3900s / exercises: {\n  Squat / 4x3 225lb, 1x4 225lb / warmup: 2x5, 1x3 / target: 4x3 225lb, 1x4 225lb\n  Bench Press / 3x10 140lb / warmup: 2x5, 1x3 / target: 3x10 140lb\n  Bicep Curl, EZ Bar / 2x12 60lb, 1x9 60lb / target: 2x12 60lb, 1x9 60lb\n}"
+    },
+    {
+      "id": 1725632520000,
+      "text": "2024-09-06 14:22:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B2 (Deadlift Day)\" / week: undefined / dayInWeek: undefined / duration: 3600s / exercises: {\n  Deadlift / 5x3 270lb / warmup: 2x5, 1x3 / target: 5x3 270lb\n  Overhead Press / 2x10 65lb, 1x12 65lb / target: 2x10 65lb, 1x12 65lb\n  Triceps Extension, Barbell / 1x12 65lb, 1x10 65lb, 1x8 65lb / target: 1x12 65lb, 1x10 65lb, 1x8 65lb\n}"
+    },
+    {
+      "id": 1725564600000,
+      "text": "2024-09-05 19:30:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A2 (Bench Day)\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Bench Press / 5x3 160lb / warmup: 2x5, 1x3 / target: 5x3 160lb\n  Squat / 3x10 170lb / warmup: 1x5, 1x3 / target: 3x10 170lb\n  Lat Pulldown, Band / 1x12 40lb, 2x15 40lb / target: 1x12 40lb, 2x15 40lb\n}"
+    },
+    {
+      "id": 1725406020000,
+      "text": "2024-09-03 23:27:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B1 (OHP Day)\" / week: undefined / dayInWeek: undefined / duration: 2640s / exercises: {\n  Overhead Press / 1x3 105lb, 4x3 95lb / warmup: 2x5, 1x3 / target: 1x3 105lb, 4x3 95lb\n  Deadlift / 3x10 150lb / warmup: 1x3 / target: 3x10 150lb\n  Pendlay Row / 3x8 135lb / target: 3x8 135lb\n}"
+    },
+    {
+      "id": 1725229380000,
+      "text": "2024-09-01 22:23:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3900s / exercises: {\n  Squat / 4x3 220lb, 1x5 220lb / warmup: 2x5, 1x3 / target: 4x3 220lb, 1x5 220lb\n  Bench Press / 3x10 135lb / warmup: 2x5, 1x3 / target: 3x10 135lb\n  Bicep Curl, EZ Bar / 2x12 60lb, 1x6 60lb / target: 2x12 60lb, 1x6 60lb\n}"
+    },
+    {
+      "id": 1725044340000,
+      "text": "2024-08-30 18:59:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B2 (Deadlift Day)\" / week: undefined / dayInWeek: undefined / duration: 3060s / exercises: {\n  Deadlift / 5x3 260lb / warmup: 2x5, 1x3 / target: 5x3 260lb\n  Overhead Press / 3x10 60lb / target: 3x10 60lb\n  Triceps Extension, Barbell / 1x12 65lb, 1x10 65lb, 1x7 65lb / target: 1x12 65lb, 1x10 65lb, 1x7 65lb\n}"
+    },
+    {
+      "id": 1724954940000,
+      "text": "2024-08-29 18:09:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A2 (Bench Day)\" / week: undefined / dayInWeek: undefined / duration: 3660s / exercises: {\n  Bench Press / 5x3 155lb / warmup: 2x5, 1x3 / target: 5x3 155lb\n  Squat / 3x10 165lb / warmup: 2x5, 1x3 / target: 3x10 165lb\n  Lat Pulldown, Band / 3x15 35lb / target: 3x15 35lb\n}"
+    },
+    {
+      "id": 1724780880000,
+      "text": "2024-08-27 17:48:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B1 (OHP Day)\" / week: undefined / dayInWeek: undefined / duration: 2820s / exercises: {\n  Overhead Press / 5x3 100lb / warmup: 2x5, 1x3 / target: 5x3 100lb\n  Deadlift / 3x10 140lb / warmup: 1x5 / target: 3x10 140lb\n  Pendlay Row / 3x8 130lb / target: 3x8 130lb\n}"
+    },
+    {
+      "id": 1724710560000,
+      "text": "2024-08-26 22:16:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3480s / exercises: {\n  Squat / 4x3 215lb, 1x5 215lb / warmup: 2x5, 1x3 / target: 4x3 215lb, 1x5 215lb\n  Bench Press / 3x10 130lb / warmup: 2x5, 1x3 / target: 3x10 130lb\n  Bicep Curl, EZ Bar / 2x12 60lb, 1x6 60lb / target: 2x12 60lb, 1x6 60lb\n}"
+    },
+    {
+      "id": 1724440920000,
+      "text": "2024-08-23 19:22:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B2 (Deadlift Day)\" / week: undefined / dayInWeek: undefined / duration: 3060s / exercises: {\n  Deadlift / 5x3 250lb / warmup: 2x5, 1x3 / target: 5x3 250lb\n  Overhead Press / 3x10 55lb / target: 3x10 55lb\n  Triceps Extension, Barbell / 3x15 50lb / target: 3x15 50lb\n}"
+    },
+    {
+      "id": 1724346420000,
+      "text": "2024-08-22 17:07:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A2 (Bench Day)\" / week: undefined / dayInWeek: undefined / duration: 3300s / exercises: {\n  Bench Press / 4x3 150lb, 1x4 150lb / warmup: 2x5, 1x3 / target: 4x3 150lb, 1x4 150lb\n  Squat / 3x10 160lb / warmup: 2x5, 1x3 / target: 3x10 160lb\n  Lat Pulldown, Band / 3x15 35lb / target: 3x15 35lb\n}"
+    },
+    {
+      "id": 1724198520000,
+      "text": "2024-08-21 00:02:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout B1 (OHP Day)\" / week: undefined / dayInWeek: undefined / duration: 2760s / exercises: {\n  Overhead Press / 5x3 95lb / warmup: 2x5, 1x3 / target: 5x3 95lb\n  Deadlift / 3x10 135lb / warmup: 1x5 / target: 3x10 135lb\n  Pendlay Row / 3x6 130lb / target: 3x6 130lb\n}"
+    },
+    {
+      "id": 1724106720000,
+      "text": "2024-08-19 22:32:00 +00:00 / program: \"Hevy\" / dayName: \"GZCLP - Workout A1 (Squat Day)\" / week: undefined / dayInWeek: undefined / duration: 3480s / exercises: {\n  Squat / 5x3 210lb / warmup: 1x5, 3x3 / target: 5x3 210lb\n  Bench Press / 3x10 125lb / warmup: 2x5, 1x3 / target: 3x10 125lb\n  Bicep Curl, EZ Bar / 3x12 50lb / target: 3x12 50lb\n}"
+    },
+    {
+      "id": 1723944000000,
+      "text": "2024-08-18 01:20:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 4440s / exercises: {\n  Squat / 5x5 210lb / warmup: 3x5 / target: 5x5 210lb\n  Overhead Press / 1x4 95lb, 4x5 90lb / warmup: 2x5 / target: 1x4 95lb, 4x5 90lb\n  Deadlift / 1x5 250lb / warmup: 3x5 / target: 1x5 250lb\n}"
+    },
+    {
+      "id": 1723677480000,
+      "text": "2024-08-14 23:18:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4920s / exercises: {\n  Squat / 5x5 210lb / warmup: 3x5 / target: 5x5 210lb\n  Bench Press / 5x5 150lb / warmup: 3x5 / target: 5x5 150lb\n  Pendlay Row / 5x5 130lb / warmup: 1x5 / target: 5x5 130lb\n}"
+    },
+    {
+      "id": 1723497840000,
+      "text": "2024-08-12 21:24:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 4560s / exercises: {\n  Squat / 5x5 205lb / warmup: 4x5 / target: 5x5 205lb\n  Overhead Press / 5x5 95lb / warmup: 3x5 / target: 5x5 95lb\n  Deadlift / 1x5 240lb, 1x1 270lb / warmup: 3x5 / target: 1x5 240lb, 1x1 270lb\n}"
+    },
+    {
+      "id": 1723336920000,
+      "text": "2024-08-11 00:42:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4920s / exercises: {\n  Squat / 5x5 205lb / warmup: 4x5 / target: 5x5 205lb\n  Bench Press / 5x5 150lb / warmup: 4x5 / target: 5x5 150lb\n  Pendlay Row / 5x5 130lb / warmup: 1x5 / target: 5x5 130lb\n}"
+    },
+    {
+      "id": 1723073280000,
+      "text": "2024-08-07 23:28:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 4200s / exercises: {\n  Squat / 5x5 200lb / warmup: 4x5 / target: 5x5 200lb\n  Overhead Press / 5x5 90lb / warmup: 2x5 / target: 5x5 90lb\n  Deadlift / 1x5 230lb / warmup: 3x5 / target: 1x5 230lb\n}"
+    },
+    {
+      "id": 1722895560000,
+      "text": "2024-08-05 22:06:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4860s / exercises: {\n  Squat / 5x5 195lb / warmup: 4x5 / target: 5x5 195lb\n  Bench Press / 5x5 145lb / warmup: 4x5 / target: 5x5 145lb\n  Pendlay Row / 5x5 125lb / warmup: 1x5 / target: 5x5 125lb\n}"
+    },
+    {
+      "id": 1722519780000,
+      "text": "2024-08-01 13:43:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 3720s / exercises: {\n  // Safeties at 18\n  Squat / 5x5 190lb / warmup: 4x5 / target: 5x5 190lb\n  Overhead Press / 5x5 85lb / warmup: 2x5 / target: 5x5 85lb\n  Deadlift / 1x5 220lb / warmup: 2x5 / target: 1x5 220lb\n}"
+    },
+    {
+      "id": 1722275580000,
+      "text": "2024-07-29 17:53:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4500s / exercises: {\n  Squat / 5x5 185lb / warmup: 4x5 / target: 5x5 185lb\n  Bench Press / 5x5 140lb / warmup: 4x5 / target: 5x5 140lb\n  Pendlay Row / 5x5 120lb / warmup: 1x5 / target: 5x5 120lb\n}"
+    },
+    {
+      "id": 1721595300000,
+      "text": "2024-07-21 20:55:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 4080s / exercises: {\n  Squat / 5x5 180lb / warmup: 4x5 / target: 5x5 180lb\n  Overhead Press / 5x5 80lb / warmup: 2x5 / target: 5x5 80lb\n  Deadlift / 1x5 210lb / warmup: 2x5 / target: 1x5 210lb\n}"
+    },
+    {
+      "id": 1721082840000,
+      "text": "2024-07-15 22:34:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4140s / exercises: {\n  Squat / 5x5 175lb / warmup: 4x5 / target: 5x5 175lb\n  Bench Press / 5x5 135lb / warmup: 3x5 / target: 5x5 135lb\n  Pendlay Row / 5x5 115lb / target: 5x5 115lb\n}"
+    },
+    {
+      "id": 1720642260000,
+      "text": "2024-07-10 20:11:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 3900s / exercises: {\n  Squat / 5x5 170lb / warmup: 4x5 / target: 5x5 170lb\n  Overhead Press / 5x5 75lb / warmup: 2x5 / target: 5x5 75lb\n  Deadlift / 1x5 200lb / warmup: 2x5 / target: 1x5 200lb\n}"
+    },
+    {
+      "id": 1720488360000,
+      "text": "2024-07-09 01:26:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 4320s / exercises: {\n  Squat / 5x5 165lb / warmup: 4x5 / target: 5x5 165lb\n  Bench Press / 5x5 130lb / warmup: 3x5 / target: 5x5 130lb\n  Pendlay Row / 5x5 110lb / warmup: 1x5 / target: 5x5 110lb\n}"
+    },
+    {
+      "id": 1720219080000,
+      "text": "2024-07-05 22:38:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 3300s / exercises: {\n  Squat / 5x5 160lb / warmup: 4x5 / target: 5x5 160lb\n  Overhead Press / 5x5 70lb / warmup: 2x5 / target: 5x5 70lb\n  Deadlift / 1x5 190lb / warmup: 2x5 / target: 1x5 190lb\n}"
+    },
+    {
+      "id": 1720050240000,
+      "text": "2024-07-03 23:44:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Squat / 5x5 155lb / warmup: 4x5 / target: 5x5 155lb\n  Bench Press / 5x5 125lb / warmup: 3x5 / target: 5x5 125lb\n  Pendlay Row / 5x5 105lb / warmup: 1x5 / target: 5x5 105lb\n}"
+    },
+    {
+      "id": 1719856740000,
+      "text": "2024-07-01 17:59:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 2760s / exercises: {\n  Squat / 5x5 150lb / warmup: 4x5 / target: 5x5 150lb\n  Overhead Press / 5x5 65lb / warmup: 2x5 / target: 5x5 65lb\n  Deadlift / 1x5 180lb / warmup: 1x5 / target: 1x5 180lb\n}"
+    },
+    {
+      "id": 1719616140000,
+      "text": "2024-06-28 23:09:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 3720s / exercises: {\n  Squat / 5x5 145lb / warmup: 4x5 / target: 5x5 145lb\n  Bench Press / 5x5 120lb / warmup: 3x5 / target: 5x5 120lb\n  Pendlay Row / 5x5 100lb / target: 5x5 100lb\n}"
+    },
+    {
+      "id": 1719421920000,
+      "text": "2024-06-26 17:12:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 2700s / exercises: {\n  Squat / 5x5 140lb / warmup: 4x5 / target: 5x5 140lb\n  Overhead Press / 5x5 60lb / target: 5x5 60lb\n  Deadlift / 1x5 170lb / warmup: 1x5 / target: 1x5 170lb\n}"
+    },
+    {
+      "id": 1719261540000,
+      "text": "2024-06-24 20:39:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 2820s / exercises: {\n  Squat / 5x5 135lb / warmup: 3x5 / target: 5x5 135lb\n  Bench Press / 5x5 105lb / warmup: 3x5 / target: 5x5 105lb\n  Pendlay Row / 5x5 95lb / target: 5x5 95lb\n}"
+    },
+    {
+      "id": 1718975100000,
+      "text": "2024-06-21 13:05:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 2580s / exercises: {\n  Squat / 5x5 130lb / warmup: 3x5 / target: 5x5 130lb\n  Overhead Press / 5x5 55lb / target: 5x5 55lb\n  Deadlift / 1x5 160lb / warmup: 1x5 / target: 1x5 160lb\n}"
+    },
+    {
+      "id": 1718808480000,
+      "text": "2024-06-19 14:48:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 2940s / exercises: {\n  Squat / 5x5 130lb / warmup: 3x5 / target: 5x5 130lb\n  Bench Press / 5x5 100lb / warmup: 3x5 / target: 5x5 100lb\n  Bent Over Row / 5x5 80lb / target: 5x5 80lb\n}"
+    },
+    {
+      "id": 1718643720000,
+      "text": "2024-06-17 17:02:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 B\" / week: undefined / dayInWeek: undefined / duration: 2280s / exercises: {\n  Squat / 5x5 125lb / warmup: 3x5 / target: 5x5 125lb\n  Overhead Press / 5x5 50lb / target: 5x5 50lb\n  Deadlift / 1x5 150lb / warmup: 1x5 / target: 1x5 150lb\n}"
+    },
+    {
+      "id": 1718379720000,
+      "text": "2024-06-14 15:42:00 +00:00 / program: \"Hevy\" / dayName: \"5x5 A\" / week: undefined / dayInWeek: undefined / duration: 60s / exercises: {\n  Squat / 5x5 115lb / target: 5x5 115lb\n  Bench Press / 5x5 95lb / target: 5x5 95lb\n  Bent Over Row / 5x5 75lb / target: 5x5 75lb\n}"
+    },
+    {
+      "id": 1718298180000,
+      "text": "2024-06-13 17:03:00 +00:00 / program: \"Hevy\" / dayName: \"Pull A\" / week: undefined / dayInWeek: undefined / duration: 1800s / exercises: {\n  Deadlift / 1x6 145lb, 2x6 155lb / target: 1x6 145lb, 2x6 155lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x8 70lb / target: 2x10 70lb, 1x8 70lb\n  Bent Over Row / 3x8 125lb / target: 3x8 125lb\n}"
+    },
+    {
+      "id": 1718112660000,
+      "text": "2024-06-11 13:31:00 +00:00 / program: \"Hevy\" / dayName: \"Legs\" / week: undefined / dayInWeek: undefined / duration: 1680s / exercises: {\n  Squat / 3x8 145lb / warmup: 1x5 / target: 3x8 145lb\n  Hip Thrust / 1x8 115lb / warmup: 1x5 / target: 1x8 115lb\n  Standing Calf Raise, Barbell / 3x10 95lb / warmup: 1x5 / target: 3x10 95lb\n}"
+    },
+    {
+      "id": 1717974000000,
+      "text": "2024-06-09 23:00:00 +00:00 / program: \"Hevy\" / dayName: \"Push B\" / week: undefined / dayInWeek: undefined / duration: 2820s / exercises: {\n  Incline Bench Press / 1x6 115lb, 1x7 115lb, 1x8 115lb / warmup: 1x6 / target: 1x6 115lb, 1x7 115lb, 1x8 115lb\n  // One arm at a time \n  Triceps Extension / 2x10 30lb, 1x8 30lb / warmup: 1x5 / target: 2x10 30lb, 1x8 30lb\n  Shoulder Press / 2x10 30lb, 1x12 30lb / warmup: 1x5 / target: 2x10 30lb, 1x12 30lb\n  // Weight is dumbbell 50% (it thinks you use both)\n  Pullover / 1x10 15lb, 2x12 15lb / warmup: 2x5 / target: 1x10 15lb, 2x12 15lb\n  Skullcrusher, Dumbbell / 1x8 30lb / target: 1x8 30lb\n}"
+    },
+    {
+      "id": 1717764420000,
+      "text": "2024-06-07 12:47:00 +00:00 / program: \"Hevy\" / dayName: \"Pull A\" / week: undefined / dayInWeek: undefined / duration: 2040s / exercises: {\n  Deadlift / 3x8 145lb / target: 3x8 145lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x6 70lb / target: 2x10 70lb, 1x6 70lb\n  Bent Over Row / 3x8 125lb / target: 3x8 125lb\n  // Seated\n  Hammer Curl / 1x6 30lb, 1x10 25lb, 1x8 30lb / target: 1x6 30lb, 1x10 25lb, 1x8 30lb\n}"
+    },
+    {
+      "id": 1717349880000,
+      "text": "2024-06-02 17:38:00 +00:00 / program: \"Hevy\" / dayName: \"Afternoon Workout\" / week: undefined / dayInWeek: undefined / duration: 960s / exercises: {\n  // Slot 7\n  Squat / 1x8 135lb, 2x8 140lb / warmup: 1x5 / target: 1x8 135lb, 2x8 140lb\n}"
+    },
+    {
+      "id": 1717159560000,
+      "text": "2024-05-31 12:46:00 +00:00 / program: \"Hevy\" / dayName: \"Push B\" / week: undefined / dayInWeek: undefined / duration: 2400s / exercises: {\n  Incline Bench Press / 1x5 115lb, 2x6 115lb / warmup: 1x5 / target: 1x5 115lb, 2x6 115lb\n  // One arm at a time \n  Triceps Extension / 3x10 30lb / target: 3x10 30lb\n  Shoulder Press / 3x10 30lb / warmup: 1x5 / target: 3x10 30lb\n  Chest Fly / 3x10 25lb / warmup: 1x5 / target: 3x10 25lb\n  Skullcrusher, Dumbbell / 1x8 30lb, 1x6 30lb / target: 1x8 30lb, 1x6 30lb\n}"
+    },
+    {
+      "id": 1716729960000,
+      "text": "2024-05-26 13:26:00 +00:00 / program: \"Hevy\" / dayName: \"Pull A\" / week: undefined / dayInWeek: undefined / duration: 3300s / exercises: {\n  Deadlift / 2x8 135lb, 1x10 135lb / target: 2x8 135lb, 1x10 135lb\n  Bicep Curl, Barbell / 3x10 70lb / target: 3x10 70lb\n  Bent Over Row / 1x8 115lb, 2x10 115lb / target: 1x8 115lb, 2x10 115lb\n  Hammer Curl / 2x10 30lb, 1x6 30lb / target: 2x10 30lb, 1x6 30lb\n  Bent Over One Arm Row / 3x10 30lb / target: 3x10 30lb\n}"
+    },
+    {
+      "id": 1716640560000,
+      "text": "2024-05-25 12:36:00 +00:00 / program: \"Hevy\" / dayName: \"Legs\" / week: undefined / dayInWeek: undefined / duration: 2220s / exercises: {\n  Squat / 1x7 135lb, 2x8 135lb / warmup: 3x5 / target: 1x7 135lb, 2x8 135lb\n  Hip Thrust / 3x8 95lb / warmup: 1x5 / target: 3x8 95lb\n  // Use DB but make the weight the total of both  (it thinks it’s a barbell exercise)\n  Bulgarian Split Squat, Bodyweight / 3x8 0lb / target: 3x8 0lb\n  Standing Calf Raise / 3x10 60lb / target: 3x10 60lb\n}"
+    },
+    {
+      "id": 1716207720000,
+      "text": "2024-05-20 12:22:00 +00:00 / program: \"Hevy\" / dayName: \"Push A\" / week: undefined / dayInWeek: undefined / duration: 2220s / exercises: {\n  Bench Press / 3x6 145lb / warmup: 2x5 / target: 3x6 145lb\n  Triceps Extension, Barbell / 2x10 70lb, 1x8 70lb / target: 2x10 70lb, 1x8 70lb\n  Overhead Press / 3x8 75lb / warmup: 1x5 / target: 3x8 75lb\n  Incline Chest Fly / 3x8 25lb / warmup: 1x5 / target: 3x8 25lb\n}"
+    },
+    {
+      "id": 1716052860000,
+      "text": "2024-05-18 17:21:00 +00:00 / program: \"Hevy\" / dayName: \"Pull B\" / week: undefined / dayInWeek: undefined / duration: 2640s / exercises: {\n  Deadlift / 1x7 135lb, 2x8 135lb / target: 1x7 135lb, 2x8 135lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x8 70lb / target: 2x10 70lb, 1x8 70lb\n  Incline Row / 3x10 30lb / target: 3x10 30lb\n  Incline Curl / 2x10 25lb, 1x8 25lb / target: 2x10 25lb, 1x8 25lb\n  Bent Over Row / 3x8 115lb / target: 3x8 115lb\n}"
+    },
+    {
+      "id": 1715871840000,
+      "text": "2024-05-16 15:04:00 +00:00 / program: \"Hevy\" / dayName: \"Push B\" / week: undefined / dayInWeek: undefined / duration: 2760s / exercises: {\n  Incline Bench Press / 3x6 115lb / warmup: 3x5 / target: 3x6 115lb\n  Triceps Extension / 3x10 30lb / warmup: 1x5 / target: 3x10 30lb\n  Shoulder Press / 3x10 30lb / target: 3x10 30lb\n  Chest Fly / 3x10 25lb / warmup: 1x5 / target: 3x10 25lb\n  Skullcrusher, Dumbbell / 1x8 30lb, 1x7 30lb / warmup: 1x5 / target: 1x8 30lb, 1x7 30lb\n}"
+    },
+    {
+      "id": 1715787000000,
+      "text": "2024-05-15 15:30:00 +00:00 / program: \"Hevy\" / dayName: \"Legs\" / week: undefined / dayInWeek: undefined / duration: 1500s / exercises: {\n  Squat / 3x6 135lb / warmup: 3x5 / target: 3x6 135lb\n  Hip Thrust / 3x8 65lb / warmup: 1x5 / target: 3x8 65lb\n  Standing Calf Raise / 1x10 60lb, 1x12 60lb / target: 1x10 60lb, 1x12 60lb\n}"
+    },
+    {
+      "id": 1715702100000,
+      "text": "2024-05-14 15:55:00 +00:00 / program: \"Hevy\" / dayName: \"Pull A\" / week: undefined / dayInWeek: undefined / duration: 2100s / exercises: {\n  Deadlift / 2x3 135lb, 1x4 135lb / target: 2x3 135lb, 1x4 135lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x5 70lb / warmup: 1x5 / target: 2x10 70lb, 1x5 70lb\n  Bent Over Row / 2x8 115lb, 1x7 115lb / warmup: 2x5 / target: 2x8 115lb, 1x7 115lb\n  Hammer Curl / 1x10 30lb, 1x8 30lb / target: 1x10 30lb, 1x8 30lb\n}"
+    },
+    {
+      "id": 1715603460000,
+      "text": "2024-05-13 12:31:00 +00:00 / program: \"Hevy\" / dayName: \"Push A\" / week: undefined / dayInWeek: undefined / duration: 2880s / exercises: {\n  Bench Press / 3x8 135lb / warmup: 2x5 / target: 3x8 135lb\n  Overhead Press / 3x6 85lb / warmup: 2x5 / target: 3x6 85lb\n  Triceps Extension, Barbell / 2x10 70lb, 1x5 70lb / warmup: 1x5 / target: 2x10 70lb, 1x5 70lb\n  Incline Chest Fly / 2x8 25lb, 1x10 25lb / warmup: 1x5 / target: 2x8 25lb, 1x10 25lb\n  Skullcrusher, Barbell / 2x8 70lb, 1x6 70lb / target: 2x8 70lb, 1x6 70lb\n}"
+    },
+    {
+      "id": 1715521380000,
+      "text": "2024-05-12 13:43:00 +00:00 / program: \"Hevy\" / dayName: \"Pull B\" / week: undefined / dayInWeek: undefined / duration: 2880s / exercises: {\n  Deadlift / 3x8 115lb / warmup: 3x5 / target: 3x8 115lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x7 70lb / warmup: 1x5 / target: 2x10 70lb, 1x7 70lb\n  Incline Row / 3x12 30lb / target: 3x12 30lb\n  Incline Curl / 2x8 25lb, 1x4 25lb / warmup: 1x5 / target: 2x8 25lb, 1x4 25lb\n  Bent Over Row / 2x8 115lb, 1x10 115lb / warmup: 2x5 / target: 2x8 115lb, 1x10 115lb\n}"
+    },
+    {
+      "id": 1715260620000,
+      "text": "2024-05-09 13:17:00 +00:00 / program: \"Hevy\" / dayName: \"Push B\" / week: undefined / dayInWeek: undefined / duration: 2700s / exercises: {\n  Incline Bench Press / 3x6 115lb / warmup: 3x5 / target: 3x6 115lb\n  Shoulder Press / 2x8 30lb, 1x10 30lb / warmup: 1x5 / target: 2x8 30lb, 1x10 30lb\n  Triceps Extension, Barbell / 3x8 70lb / warmup: 2x5 / target: 3x8 70lb\n  Chest Fly / 3x8 25lb / warmup: 1x5 / target: 3x8 25lb\n  Skullcrusher, Barbell / 2x8 70lb, 1x7 70lb / target: 2x8 70lb, 1x7 70lb\n}"
+    },
+    {
+      "id": 1715192700000,
+      "text": "2024-05-08 18:25:00 +00:00 / program: \"Hevy\" / dayName: \"Legs\" / week: undefined / dayInWeek: undefined / duration: 2340s / exercises: {\n  Squat / 2x8 115lb, 1x8 125lb / warmup: 3x5 / target: 2x8 115lb, 1x8 125lb\n  // Use DB but make the weight the total of both  (it thinks it’s a barbell exercise)\n  Bulgarian Split Squat, Bodyweight / 2x8 10lb, 1x4 10lb / warmup: 2x5 / target: 2x8 10lb, 1x4 10lb\n  Hip Thrust / 1x9 45lb, 2x8 45lb / target: 1x9 45lb, 2x8 45lb\n  Standing Calf Raise / 3x10 60lb / target: 3x10 60lb\n}"
+    },
+    {
+      "id": 1715108220000,
+      "text": "2024-05-07 18:57:00 +00:00 / program: \"Hevy\" / dayName: \"Pull A\" / week: undefined / dayInWeek: undefined / duration: 3240s / exercises: {\n  Deadlift / 1x6 105lb, 1x9 105lb, 1x8 105lb / warmup: 3x5 / target: 1x6 105lb, 1x9 105lb, 1x8 105lb\n  Bicep Curl, Barbell / 2x10 70lb, 1x6 70lb / warmup: 2x5 / target: 2x10 70lb, 1x6 70lb\n  Bent Over Row / 2x6 115lb, 1x8 115lb / warmup: 2x5 / target: 2x6 115lb, 1x8 115lb\n  Hammer Curl / 2x8 30lb, 1x7 30lb / warmup: 2x5 / target: 2x8 30lb, 1x7 30lb\n  Incline Row / 1x8 30lb, 1x10 30lb, 1x12 30lb / warmup: 1x5 / target: 1x8 30lb, 1x10 30lb, 1x12 30lb\n}"
+    },
+    {
+      "id": 1715011980000,
+      "text": "2024-05-06 16:13:00 +00:00 / program: \"Hevy\" / dayName: \"Push A\" / week: undefined / dayInWeek: undefined / duration: 3000s / exercises: {\n  Bench Press / 3x6 135lb / warmup: 3x5 / target: 3x6 135lb\n  Overhead Press / 3x6 85lb / warmup: 3x5 / target: 3x6 85lb\n  Triceps Extension, Barbell / 3x8 70lb / warmup: 3x5 / target: 3x8 70lb\n  Incline Chest Fly / 2x8 25lb, 1x10 25lb / warmup: 1x5 / target: 2x8 25lb, 1x10 25lb\n  Skullcrusher, Barbell / 3x8 70lb / target: 3x8 70lb\n}"
+    },
+    {
+      "id": 1714397700000,
+      "text": "2024-04-29 13:35:00 +00:00 / program: \"Hevy\" / dayName: \"Push A\" / week: undefined / dayInWeek: undefined / duration: 3660s / exercises: {\n  Bench Press / 3x8 134.99lb / warmup: 3x5 / target: 3x8 134.99lb\n  Overhead Press / 1x8 70lb, 2x8 80.01lb / warmup: 3x5 / target: 1x8 70lb, 2x8 80.01lb\n  Triceps Extension, Barbell / 2x10 70lb, 1x8 70lb / warmup: 3x5 / target: 2x10 70lb, 1x8 70lb\n  Incline Chest Fly / 2x10 20lb, 1x14 20lb / warmup: 3x5 / target: 2x10 20lb, 1x14 20lb\n  Skullcrusher, Barbell / 2x10 60.01lb, 1x9 60.01lb / warmup: 3x5 / target: 2x10 60.01lb, 1x9 60.01lb\n}"
+    },
+    {
+      "id": 1713747660000,
+      "text": "2024-04-22 01:01:00 +00:00 / program: \"Hevy\" / dayName: \"Early Morning Workout\" / week: undefined / dayInWeek: undefined / duration: 1560s / exercises: {\n  Chest Press, Leverage Machine / 1x12 55.12lb, 1x12 66.14lb, 1x14 66.14lb / target: 1x12 55.12lb, 1x12 66.14lb, 1x14 66.14lb\n  Seated Row, Leverage Machine / 1x12 88.18lb, 2x12 99.21lb / target: 1x12 88.18lb, 2x12 99.21lb\n  Overhead Press / 2x12 44.09lb, 1x10 44.09lb / target: 2x12 44.09lb, 1x10 44.09lb\n  Triceps Pushdown / 1x7 66.14lb, 2x12 44.09lb / target: 1x7 66.14lb, 2x12 44.09lb\n}"
+    },
+    {
+      "id": 1713605760000,
+      "text": "2024-04-20 09:36:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split (New)\" / week: undefined / dayInWeek: undefined / duration: 3780s / exercises: {\n  Bench Press / 1x10 125lb, 2x8 135lb / warmup: 1x5 / target: 1x10 125lb, 2x8 135lb\n  Bent Over Row / 3x12 105lb / target: 3x12 105lb\n  Shoulder Press / 3x16 25lb / target: 3x16 25lb\n  Incline Row / 3x16 25lb / target: 3x16 25lb\n  Chest Fly / 1x12 20lb, 1x16 20lb / target: 1x12 20lb, 1x16 20lb\n  // Remember - side!\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Incline Bench Press, Dumbbell / 3x16 25lb / target: 3x16 25lb\n  Incline Curl / 2x12 25lb / target: 2x12 25lb\n  // Incline - 60 degree\n  Triceps Extension, Barbell / 2x10 70lb / target: 2x10 70lb\n}"
+    },
+    {
+      "id": 1713471360000,
+      "text": "2024-04-18 20:16:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2340s / exercises: {\n  Squat / 1x10 105lb, 2x10 115lb / target: 1x10 105lb, 2x10 115lb\n  Deadlift / 3x10 95lb / target: 3x10 95lb\n  Leg Extension / 3x12 70lb / target: 3x12 70lb\n  Lying Leg Curl / 3x12 50lb / target: 3x12 50lb\n  Standing Calf Raise / 3x12 25lb / target: 3x12 25lb\n}"
+    },
+    {
+      "id": 1713280440000,
+      "text": "2024-04-16 15:14:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body (Mod)\" / week: undefined / dayInWeek: undefined / duration: 2160s / exercises: {\n  Incline Bench Press / 2x10 115lb, 1x6 115lb / target: 2x10 115lb, 1x6 115lb\n  Bent Over Row / 3x12 95lb / target: 3x12 95lb\n  Shoulder Press / 3x16 25lb / target: 3x16 25lb\n  Incline Row / 1x16 25lb, 1x20 25lb, 1x16 25lb / target: 1x16 25lb, 1x20 25lb, 1x16 25lb\n  Chest Fly / 2x16 20lb / target: 2x16 20lb\n}"
+    },
+    {
+      "id": 1713193680000,
+      "text": "2024-04-15 15:08:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split (short)\" / week: undefined / dayInWeek: undefined / duration: 1920s / exercises: {\n  Squat / 1x10 95lb, 2x10 105lb / target: 1x10 95lb, 2x10 105lb\n  Deadlift / 1x10 95lb, 2x12 95lb / target: 1x10 95lb, 2x12 95lb\n  Standing Calf Raise / 3x12 25lb / target: 3x12 25lb\n}"
+    },
+    {
+      "id": 1713030240000,
+      "text": "2024-04-13 17:44:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split (New)\" / week: undefined / dayInWeek: undefined / duration: 4740s / exercises: {\n  Bench Press / 3x12 125lb / warmup: 1x5 / target: 3x12 125lb\n  Bent Over Row / 2x12 95lb, 1x15 95lb / target: 2x12 95lb, 1x15 95lb\n  Shoulder Press / 2x16 25lb, 1x17 25lb / target: 2x16 25lb, 1x17 25lb\n  Incline Row / 3x16 25lb / target: 3x16 25lb\n  Chest Fly / 2x16 20lb / target: 2x16 20lb\n  // Remember - side!\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Incline Bench Press, Dumbbell / 3x16 25lb / target: 3x16 25lb\n  Hammer Curl / 1x18 25lb, 1x14 25lb / target: 1x18 25lb, 1x14 25lb\n  // Incline - 60 degree\n  Triceps Extension, Barbell / 2x16 60lb / target: 2x16 60lb\n}"
+    },
+    {
+      "id": 1712661900000,
+      "text": "2024-04-09 11:25:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split (New)\" / week: undefined / dayInWeek: undefined / duration: 3240s / exercises: {\n  Bench Press / 3x12 115lb / warmup: 1x5 / target: 3x12 115lb\n  Bent Over Row / 2x12 95lb, 1x14 95lb / target: 2x12 95lb, 1x14 95lb\n  Shoulder Press / 3x16 25lb / target: 3x16 25lb\n  Incline Row / 3x16 25lb / target: 3x16 25lb\n  Chest Fly / 2x16 20lb / target: 2x16 20lb\n  // Remember - side!\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Incline Bench Press, Dumbbell / 2x16 25lb, 1x18 25lb / target: 2x16 25lb, 1x18 25lb\n  Incline Curl / 1x12 25lb, 1x13 25lb / target: 1x12 25lb, 1x13 25lb\n  // Incline - 60 degree\n  Triceps Extension, Barbell / 1x12 60lb, 1x16 60lb / target: 1x12 60lb, 1x16 60lb\n}"
+    },
+    {
+      "id": 1712486640000,
+      "text": "2024-04-07 10:44:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2340s / exercises: {\n  Squat / 3x10 95lb, 1x12 95lb / target: 3x10 95lb, 1x12 95lb\n  Deadlift / 1x10 95lb, 1x12 95lb, 2x10 95lb / target: 1x10 95lb, 1x12 95lb, 2x10 95lb\n  Leg Extension / 3x12 70lb, 1x14 70lb / target: 3x12 70lb, 1x14 70lb\n  Lying Leg Curl / 3x12 35lb / target: 3x12 35lb\n  Standing Calf Raise / 1x12 25lb, 2x12 35lb / target: 1x12 25lb, 2x12 35lb\n}"
+    },
+    {
+      "id": 1712179080000,
+      "text": "2024-04-03 21:18:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split (New)\" / week: undefined / dayInWeek: undefined / duration: 3360s / exercises: {\n  Bench Press / 3x12 115lb / warmup: 1x5 / target: 3x12 115lb\n  Bent Over Row / 2x12 75lb, 1x12 85lb / target: 2x12 75lb, 1x12 85lb\n  Shoulder Press / 2x12 25lb, 1x16 25lb / target: 2x12 25lb, 1x16 25lb\n  Incline Row / 3x16 25lb / target: 3x16 25lb\n  Chest Fly / 1x12 20lb, 1x13 20lb / target: 1x12 20lb, 1x13 20lb\n  // Remember - side!\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Incline Bench Press, Dumbbell / 3x12 25lb / target: 3x12 25lb\n  Incline Curl / 1x12 25lb, 1x11 25lb, 1x11 20lb / target: 1x12 25lb, 1x11 25lb, 1x11 20lb\n  // Incline - 60 degree\n  Triceps Extension, Barbell / 1x16 60lb, 1x12 60lb / target: 1x16 60lb, 1x12 60lb\n}"
+    },
+    {
+      "id": 1711383420000,
+      "text": "2024-03-25 16:17:00 +00:00 / program: \"Hevy\" / dayName: \"Combo Day\" / week: undefined / dayInWeek: undefined / duration: 3720s / exercises: {\n  Squat / 1x12 45lb, 2x12 65lb / target: 1x12 45lb, 2x12 65lb\n  Bench Press / 3x12 115lb / target: 3x12 115lb\n  Deadlift / 3x10 95lb / target: 3x10 95lb\n  Shoulder Press / 2x12 25lb, 1x16 25lb / target: 2x12 25lb, 1x16 25lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  Incline Row / 1x12 25lb, 2x16 25lb / target: 1x12 25lb, 2x16 25lb\n  Front Raise / 3x12 15lb / target: 3x12 15lb\n  Standing Calf Raise / 2x12 25lb, 1x10 25lb / target: 2x12 25lb, 1x10 25lb\n  Incline Curl / 2x12 25lb / target: 2x12 25lb\n  Triceps Extension, Barbell / 2x12 60lb / target: 2x12 60lb\n}"
+    },
+    {
+      "id": 1711206000000,
+      "text": "2024-03-23 15:00:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split (New)\" / week: undefined / dayInWeek: undefined / duration: 2760s / exercises: {\n  Bench Press / 3x12 115lb / target: 3x12 115lb\n  Bent Over Row / 1x12 75lb, 1x12 65lb, 1x12 75lb / target: 1x12 75lb, 1x12 65lb, 1x12 75lb\n  Shoulder Press / 2x12 25lb, 1x16 25lb / target: 2x12 25lb, 1x16 25lb\n  Incline Row / 3x16 25lb / target: 3x16 25lb\n  Chest Fly / 1x12 20lb, 1x14 20lb / target: 1x12 20lb, 1x14 20lb\n  // Remember - side!\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Squat / 1x14 25lb, 1x16 25lb / target: 1x14 25lb, 1x16 25lb\n  Incline Curl / 1x12 25lb, 1x10 25lb / target: 1x12 25lb, 1x10 25lb\n  // Incline - 60 degree\n  Triceps Extension, Barbell / 1x10 70lb, 1x12 60lb / target: 1x10 70lb, 1x12 60lb\n}"
+    },
+    {
+      "id": 1711057740000,
+      "text": "2024-03-21 21:49:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 1860s / exercises: {\n  Squat / 4x10 65lb / target: 4x10 65lb\n  Deadlift / 1x12 95lb, 2x10 95lb, 1x12 95lb / target: 1x12 95lb, 2x10 95lb, 1x12 95lb\n  Leg Extension / 4x12 70lb / target: 4x12 70lb\n  Standing Calf Raise / 2x12 25lb, 1x10 25lb / target: 2x12 25lb, 1x10 25lb\n}"
+    },
+    {
+      "id": 1710858060000,
+      "text": "2024-03-19 14:21:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2700s / exercises: {\n  Bench Press / 3x12 105lb / target: 3x12 105lb\n  Bent Over Row / 3x12 65lb / target: 3x12 65lb\n  Shoulder Press / 1x12 20lb, 1x12 25lb, 1x16 25lb / target: 1x12 20lb, 1x12 25lb, 1x16 25lb\n  Incline Row / 3x12 25lb / target: 3x12 25lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  // Lean forward slightly\n  Lateral Raise / 1x12 15lb, 1x13 15lb / target: 1x12 15lb, 1x13 15lb\n  Squat / 2x16 20lb / target: 2x16 20lb\n  Concentration Curl / 1x14 25lb, 1x10 25lb / target: 1x14 25lb, 1x10 25lb\n  Triceps Extension / 1x16 20lb, 1x11 20lb / target: 1x16 20lb, 1x11 20lb\n}"
+    },
+    {
+      "id": 1710770820000,
+      "text": "2024-03-18 14:07:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 1800s / exercises: {\n  Squat / 3x10 45lb / warmup: 2x5 / target: 3x10 45lb\n  Deadlift / 4x12 95lb / target: 4x12 95lb\n  Leg Extension / 3x12 70lb / target: 3x12 70lb\n  Standing Calf Raise / 2x12 25lb, 1x10 25lb / target: 2x12 25lb, 1x10 25lb\n}"
+    },
+    {
+      "id": 1710513420000,
+      "text": "2024-03-15 14:37:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2400s / exercises: {\n  Bench Press / 3x12 105lb / target: 3x12 105lb\n  Bent Over Row / 3x12 65lb / target: 3x12 65lb\n  Shoulder Press / 2x12 20lb, 1x16 20lb / target: 2x12 20lb, 1x16 20lb\n  Incline Row / 1x12 20lb, 2x12 25lb / target: 1x12 20lb, 2x12 25lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  // Lean forward slightly\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Squat / 1x16 20lb, 1x12 20lb / target: 1x16 20lb, 1x12 20lb\n  Hammer Curl / 1x14 25lb, 1x12 25lb / target: 1x14 25lb, 1x12 25lb\n  Triceps Extension / 1x12 20lb, 1x15 20lb / target: 1x12 20lb, 1x15 20lb\n}"
+    },
+    {
+      "id": 1710450600000,
+      "text": "2024-03-14 21:10:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 1980s / exercises: {\n  Squat, Bodyweight / 4x10 0lb / target: 4x10 0lb\n  Deadlift / 3x12 95lb / target: 3x12 95lb\n  Leg Extension / 3x12 70lb / target: 3x12 70lb\n  Standing Calf Raise / 3x15 0lb / target: 3x15 0lb\n  Crunch / 2x15 0lb / target: 2x15 0lb\n}"
+    },
+    {
+      "id": 1710262200000,
+      "text": "2024-03-12 16:50:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2700s / exercises: {\n  Bench Press / 2x12 105lb, 1x10 105lb / target: 2x12 105lb, 1x10 105lb\n  Bent Over Row / 3x12 65lb / target: 3x12 65lb\n  Shoulder Press / 3x12 20lb / target: 3x12 20lb\n  Bent Over One Arm Row / 1x12 20lb, 2x12 25lb / target: 1x12 20lb, 2x12 25lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Squat / 2x12 20lb / target: 2x12 20lb\n  Hammer Curl / 1x14 25lb, 1x11 25lb / target: 1x14 25lb, 1x11 25lb\n  Triceps Extension / 2x15 20lb / target: 2x15 20lb\n}"
+    },
+    {
+      "id": 1710178440000,
+      "text": "2024-03-11 17:34:00 +00:00 / program: \"Hevy\" / dayName: \"Lower Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 1680s / exercises: {\n  Squat, Bodyweight / 4x10 0lb / target: 4x10 0lb\n  Deadlift / 3x12 95lb / target: 3x12 95lb\n  Leg Extension / 3x12 70lb / target: 3x12 70lb\n  Standing Calf Raise / 3x15 0lb / target: 3x15 0lb\n  Crunch / 3x15 0lb / target: 3x15 0lb\n  Lying Leg Curl / 3x12 35lb / target: 3x12 35lb\n}"
+    },
+    {
+      "id": 1709917620000,
+      "text": "2024-03-08 17:07:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split 2\" / week: undefined / dayInWeek: undefined / duration: 2460s / exercises: {\n  Inverted Row / 2x10 0lb, 1x7 0lb / target: 2x10 0lb, 1x7 0lb\n  Overhead Press / 2x8 45lb, 1x8 65lb / target: 2x8 45lb, 1x8 65lb\n  Incline Row / 3x12 20lb / target: 3x12 20lb\n  Incline Bench Press / 1x8 105lb, 1x10 96lb, 1x7 105lb / target: 1x8 105lb, 1x10 96lb, 1x7 105lb\n  Squat / 2x10 15lb / target: 2x10 15lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  Skullcrusher, Barbell / 2x12 55lb, 1x9 55lb / target: 2x12 55lb, 1x9 55lb\n  Bicep Curl, Barbell / 2x12 55lb, 1x6 55lb / target: 2x12 55lb, 1x6 55lb\n}"
+    },
+    {
+      "id": 1709656980000,
+      "text": "2024-03-05 16:43:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split 1\" / week: undefined / dayInWeek: undefined / duration: 2520s / exercises: {\n  Bench Press / 1x12 95lb, 2x10 105lb / target: 1x12 95lb, 2x10 105lb\n  Bent Over Row / 3x12 45lb / target: 3x12 45lb\n  Shoulder Press / 3x12 20lb / target: 3x12 20lb\n  Bent Over One Arm Row / 3x12 20lb / target: 3x12 20lb\n  Chest Fly / 2x12 20lb / target: 2x12 20lb\n  Lateral Raise / 2x12 15lb / target: 2x12 15lb\n  Pullover / 2x12 12.5lb / target: 2x12 12.5lb\n  Hammer Curl / 1x18 25lb, 1x10 25lb / target: 1x18 25lb, 1x10 25lb\n  Triceps Extension / 1x18 20lb, 1x16 20lb / target: 1x18 20lb, 1x16 20lb\n}"
+    },
+    {
+      "id": 1709393280000,
+      "text": "2024-03-02 15:28:00 +00:00 / program: \"Hevy\" / dayName: \"Upper Body Split\" / week: undefined / dayInWeek: undefined / duration: 1920s / exercises: {\n  Bench Press / 3x12 95lb / target: 3x12 95lb\n  Incline Row / 1x12 15lb, 1x14 15lb, 1x16 15lb / target: 1x12 15lb, 1x14 15lb, 1x16 15lb\n  Overhead Press, Dumbbell / 2x12 20lb, 1x14 20lb / target: 2x12 20lb, 1x14 20lb\n  Bicep Curl, Barbell / 2x12 45lb, 1x14 45lb / target: 2x12 45lb, 1x14 45lb\n  Triceps Extension, Barbell / 2x12 45lb, 1x16 45lb / target: 2x12 45lb, 1x16 45lb\n}"
+    },
+    {
+      "id": 1709243700000,
+      "text": "2024-02-29 21:55:00 +00:00 / program: \"Hevy\" / dayName: \"Evening Workout\" / week: undefined / dayInWeek: undefined / duration: 2100s / exercises: {\n  Bench Press / 3x12 95lb / target: 3x12 95lb\n  Bicep Curl, Barbell / 3x10 45lb / target: 3x10 45lb\n  Triceps Extension, Barbell / 2x12 45lb / target: 2x12 45lb\n}"
+    },
+    {
+      "id": 1708853760000,
+      "text": "2024-02-25 09:36:00 +00:00 / program: \"Hevy\" / dayName: \"Circuit Standard Workout B\" / week: undefined / dayInWeek: undefined / duration: 1500s / exercises: {\n  Bench Press / 2x12 85lb, 1x16 85lb / target: 2x12 85lb, 1x16 85lb\n  Deadlift / 2x12 65lb / target: 2x12 65lb\n  Hammer Curl / 3x10 25lb / target: 3x10 25lb\n  Crunch / 1x15 0lb / target: 1x15 0lb\n  Bent Over One Arm Row / 1x15 20lb, 1x12 20lb / target: 1x15 20lb, 1x12 20lb\n  Skullcrusher, Dumbbell / 2x12 20lb / target: 2x12 20lb\n  Overhead Press, Dumbbell / 2x12 20lb / target: 2x12 20lb\n}"
+    },
+    {
+      "id": 1708635180000,
+      "text": "2024-02-22 20:53:00 +00:00 / program: \"Hevy\" / dayName: \"Standard Workout A\" / week: undefined / dayInWeek: undefined / duration: 2040s / exercises: {\n  Bench Press / 2x12 85lb, 1x16 85lb / target: 2x12 85lb, 1x16 85lb\n  Squat, Bodyweight / 3x10 0lb / target: 3x10 0lb\n  Bicep Curl / 3x10 25lb / target: 3x10 25lb\n  Incline Row / 1x12 15lb, 1x16 15lb, 1x12 15lb / target: 1x12 15lb, 1x16 15lb, 1x12 15lb\n  Triceps Extension / 1x12 20lb, 1x12 25lb, 1x20 20lb / target: 1x12 20lb, 1x12 25lb, 1x20 20lb\n  Plank / 3x0 0lb / target: 3x0 0lb\n  Front Raise / 2x12 10lb, 1x14 10lb / target: 2x12 10lb, 1x14 10lb\n}"
+    },
+    {
+      "id": 1708345200000,
+      "text": "2024-02-19 12:20:00 +00:00 / program: \"Hevy\" / dayName: \"Standard Workout \" / week: undefined / dayInWeek: undefined / duration: 1680s / exercises: {\n  Bench Press / 2x12 85lb, 1x15 85lb / target: 2x12 85lb, 1x15 85lb\n  Squat, Bodyweight / 3x10 0lb / target: 3x10 0lb\n  Bicep Curl / 3x10 25lb / target: 3x10 25lb\n  Incline Row / 3x12 15lb / target: 3x12 15lb\n  Triceps Extension / 3x12 20lb / target: 3x12 20lb\n  Plank / 3x0 0lb / target: 3x0 0lb\n  Front Raise / 3x12 10lb / target: 3x12 10lb\n}"
+    }
+  ]
+}

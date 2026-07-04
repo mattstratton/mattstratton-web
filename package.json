@@ -11,6 +11,7 @@
     "astro": "astro",
     "migrate": "tsx scripts/migrate-posts.ts",
     "crosspost": "tsx scripts/crosspost-devto.ts",
+    "refresh-fitness-cache": "tsx scripts/update-liftosaur-cache.ts",
     "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
   },
   "dependencies": {

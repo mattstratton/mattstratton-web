@@ -1,3 +1,5 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import type { Loader } from 'astro/loaders';
 import type { CollectionEntry } from 'astro:content';
 
@@ -282,7 +284,7 @@ const API_BASE =
 // limit on workout history size (100/page * 200 = 20k workouts).
 const MAX_PAGES = 200;
 
-interface LiftosaurHistoryRecord {
+export interface LiftosaurHistoryRecord {
   id: number;
   text: string;
 }
@@ -295,47 +297,118 @@ interface LiftosaurHistoryResponse {
   };
 }
 
+// Fetches the full paginated Liftosaur workout history for the given API
+// key. Throws on a non-OK response or network error — callers decide how to
+// handle failure (the build-time loader falls back to a cached snapshot;
+// scripts/update-liftosaur-cache.ts lets the error abort the refresh).
+export async function fetchLiftosaurRecords(key: string): Promise<LiftosaurHistoryRecord[]> {
+  const records: LiftosaurHistoryRecord[] = [];
+  let cursor: number | null = null;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const url = new URL(`${API_BASE}/history`);
+    url.searchParams.set('limit', '100');
+    if (cursor != null) url.searchParams.set('cursor', String(cursor));
+
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${key}` } });
+    if (!res.ok) {
+      throw new Error(`Liftosaur API ${res.status} ${res.statusText}`);
+    }
+
+    const body = (await res.json()) as LiftosaurHistoryResponse;
+    records.push(...(body.data?.records ?? []));
+    if (!body.data?.hasMore || body.data.nextCursor == null) break;
+    cursor = body.data.nextCursor;
+  }
+  return records;
+}
+
+export interface LiftosaurCache {
+  fetchedAt: string;
+  records: LiftosaurHistoryRecord[];
+}
+
+const CACHE_PATH = fileURLToPath(new URL('../data/liftosaur-cache.json', import.meta.url));
+
+// Committed fallback snapshot (src/data/liftosaur-cache.json), refreshed by
+// scripts/update-liftosaur-cache.ts on the same daily cron that triggers the
+// Netlify rebuild (.github/workflows/fitness-rebuild.yml). Netlify builds
+// from a fresh checkout every time — there's no in-process "previous build"
+// to fall back on — so a transient Liftosaur API outage during a build reads
+// this file instead of wiping the page to empty.
+function readLiftosaurCache(): LiftosaurCache | null {
+  try {
+    return JSON.parse(readFileSync(CACHE_PATH, 'utf-8')) as LiftosaurCache;
+  } catch {
+    return null;
+  }
+}
+
+export interface LiftosaurFetchInfo {
+  fetchedAt: string;
+  source: 'live' | 'cache';
+}
+
+const FETCH_INFO_PATH = fileURLToPath(new URL('../../.liftosaur-meta.json', import.meta.url));
+
+// Written by liftosaurLoader() during the content-layer sync and read by the
+// /fitness page (after `getCollection('workouts')`) to render a "data as of"
+// note. A file round-trip rather than a shared module export, because the
+// loader and the page run in separate Vite SSR module graphs during
+// `astro build` — a mutable export set by one isn't visible in the other.
+export function readLiftosaurFetchInfo(): LiftosaurFetchInfo | null {
+  try {
+    return JSON.parse(readFileSync(FETCH_INFO_PATH, 'utf-8')) as LiftosaurFetchInfo;
+  } catch {
+    return null;
+  }
+}
+
 // Astro content-layer loader for the fitness page. At build time it pulls
 // workout history from the Liftosaur REST API and exposes it as a `workouts`
 // collection. The API key is read from the environment (LIFTOSAUR_API_KEY,
 // set as a Netlify env var + a local .env) — never committed. If the key is
-// missing or the API errors, the page builds empty rather than failing the
-// build (same convention as src/lib/buttondown.ts).
+// missing or the live fetch fails, it falls back to the committed cache
+// snapshot; only if that's also unavailable does the page build empty (same
+// last-resort convention as src/lib/buttondown.ts).
 export function liftosaurLoader(): Loader {
   return {
     name: 'liftosaur',
     load: async ({ store, logger, parseData }) => {
-      store.clear();
       const key = import.meta.env?.LIFTOSAUR_API_KEY ?? process.env.LIFTOSAUR_API_KEY;
+
+      let records: LiftosaurHistoryRecord[] = [];
+      let fetchInfo: LiftosaurFetchInfo | null = null;
+
       if (!key) {
-        logger.warn('LIFTOSAUR_API_KEY not set — fitness page will build empty.');
-        return;
-      }
-
-      const records: LiftosaurHistoryRecord[] = [];
-      let cursor: number | null = null;
-      try {
-        for (let page = 0; page < MAX_PAGES; page++) {
-          const url = new URL(`${API_BASE}/history`);
-          url.searchParams.set('limit', '100');
-          if (cursor != null) url.searchParams.set('cursor', String(cursor));
-
-          const res = await fetch(url, { headers: { Authorization: `Bearer ${key}` } });
-          if (!res.ok) {
-            logger.error(`Liftosaur API ${res.status} ${res.statusText} — fitness page will build empty.`);
-            return;
-          }
-
-          const body = (await res.json()) as LiftosaurHistoryResponse;
-          records.push(...(body.data?.records ?? []));
-          if (!body.data?.hasMore || body.data.nextCursor == null) break;
-          cursor = body.data.nextCursor;
+        logger.warn('LIFTOSAUR_API_KEY not set — falling back to cached workout data, if any.');
+      } else {
+        try {
+          records = await fetchLiftosaurRecords(key);
+          fetchInfo = { fetchedAt: new Date().toISOString(), source: 'live' };
+        } catch (err) {
+          logger.error(`Liftosaur fetch failed (${String(err)}) — falling back to cached workout data, if any.`);
         }
-      } catch (err) {
-        logger.error(`Liftosaur fetch failed (${String(err)}) — fitness page will build empty.`);
+      }
+
+      if (!fetchInfo) {
+        const cache = readLiftosaurCache();
+        if (cache) {
+          records = cache.records;
+          fetchInfo = { fetchedAt: cache.fetchedAt, source: 'cache' };
+        }
+      }
+
+      if (!fetchInfo) {
+        logger.warn('No live data and no cache available — fitness page will build empty.');
+        try {
+          writeFileSync(FETCH_INFO_PATH, 'null');
+        } catch {
+          // Best-effort — the page treats a missing/invalid file as "no info".
+        }
         return;
       }
 
+      store.clear();
       let count = 0;
       for (const record of records) {
         try {
@@ -356,7 +429,12 @@ export function liftosaurLoader(): Loader {
           logger.warn(`Skipped Liftosaur workout ${record.id} (${String(err)}).`);
         }
       }
-      logger.info(`Loaded ${count} workout(s) from Liftosaur.`);
+      try {
+        writeFileSync(FETCH_INFO_PATH, JSON.stringify(fetchInfo));
+      } catch {
+        // Best-effort — the page treats a missing/invalid file as "no info".
+      }
+      logger.info(`Loaded ${count} workout(s) from Liftosaur (source: ${fetchInfo.source}).`);
     },
   };
 }

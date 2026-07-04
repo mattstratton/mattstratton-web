@@ -1,19 +1,47 @@
 name: Rebuild fitness page
 
-# Triggers a Netlify rebuild so the /fitness page picks up new Liftosaur
-# workout data. Manual (workflow_dispatch) for on-demand refreshes, plus a
-# daily schedule so it doesn't go stale if you forget. Requires a
-# NETLIFY_BUILD_HOOK_FITNESS repo secret (create a build hook in Netlify site
-# settings > Build & deploy > Build hooks, then add its URL as this secret).
+# Refreshes the committed Liftosaur fallback cache (src/data/liftosaur-cache.json)
+# and triggers a Netlify rebuild so the /fitness page picks up new workout
+# data. Manual (workflow_dispatch) for on-demand refreshes, plus a daily
+# schedule so it doesn't go stale if you forget.
+#
+# The cache refresh runs — and is committed straight to main — before the
+# build hook fires, so a Netlify build that hits a flaky Liftosaur API falls
+# back to this snapshot instead of the /fitness page building empty (see
+# src/lib/liftosaur.ts). Requires a LIFTOSAUR_API_KEY repo secret (same value
+# as the Netlify env var) and a NETLIFY_BUILD_HOOK_FITNESS repo secret (create
+# a build hook in Netlify site settings > Build & deploy > Build hooks, then
+# add its URL as this secret).
 
 on:
   workflow_dispatch: {}
   schedule:
     - cron: '0 12 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   trigger-rebuild:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Refresh Liftosaur fallback cache
+        env:
+          LIFTOSAUR_API_KEY: ${{ secrets.LIFTOSAUR_API_KEY }}
+        run: npm run refresh-fitness-cache
+      - name: Commit cache if changed
+        run: |
+          if ! git diff --quiet -- src/data/liftosaur-cache.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/data/liftosaur-cache.json
+            git commit -m "chore: refresh Liftosaur fallback cache"
+            git push
+          fi
       - name: Call Netlify build hook
         run: curl -sf -X POST "${{ secrets.NETLIFY_BUILD_HOOK_FITNESS }}"

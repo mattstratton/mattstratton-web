@@ -8,11 +8,13 @@ import {
   sparklinePoints,
   workoutHasPR,
   MAIN_LIFTS,
+  readLiftosaurFetchInfo,
 } from '../../lib/liftosaur';
 import { slugify } from '../../lib/posts';
 
 const entries = await getCollection('workouts');
 const workouts = sortedWorkouts(entries);
+const fetchInfo = readLiftosaurFetchInfo();
 const prs = computePersonalRecords(workouts);
 const prByExercise = new Map(prs.map((pr) => [pr.exercise, pr]));
 
@@ -27,6 +29,8 @@ const recent = workouts.slice(0, 5);
 
 const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const fmtDateTime = (iso: string) =>
+  new Date(iso).toLocaleString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
 const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
 const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
 
@@ -115,5 +119,12 @@ const SPARK_H = 32;
       <a href="https://notes.mattstratton.com/public/garage-gym/" rel="noopener" class="underline decoration-accent-bright decoration-2 underline-offset-4">garage gym page</a>{' '}
       of my digital garden.
     </p>
+    {fetchInfo && (
+      <p class="mt-2 text-sm">
+        Data as of {fmtDateTime(fetchInfo.fetchedAt)}{fetchInfo.source === 'cache'
+          ? ' (last successful sync — the live Liftosaur fetch failed on the most recent build).'
+          : '.'}
+      </p>
+    )}
   </section>
 </Base>

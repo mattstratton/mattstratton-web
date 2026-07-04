@@ -4,6 +4,12 @@ dist/
 .astro/
 .netlify/
 
+# Per-build Liftosaur fetch metadata (src/lib/liftosaur.ts) — regenerated
+# every build, read by src/pages/fitness/index.astro via disk instead of a
+# shared JS module export (loader and page run in separate Vite SSR module
+# graphs during `astro build`, so a mutable export doesn't reliably persist).
+.liftosaur-meta.json
+
 # Secrets (Buttondown API key etc.) — never commit
 .env
 .env.*

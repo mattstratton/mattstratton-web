@@ -13,7 +13,7 @@
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)mattstratton-speaking' ':(exclude)mattstratton-dev-to'"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
 
 # Generated OG cards are immutable per page; cache them hard.
 [[headers]]

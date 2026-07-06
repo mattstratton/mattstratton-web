@@ -14,7 +14,7 @@
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- mattstratton-speaking"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
 
 # Plausible Analytics first-party proxy (https://plausible.io/docs/proxy/guides/netlify).
 # The tracker POSTs events to /api/event (see src/components/Analytics.astro), which

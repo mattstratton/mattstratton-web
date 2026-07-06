@@ -8,7 +8,9 @@ A self-hosted Astro static site replacing `speaking.mattstratton.com` (previousl
 
 ## Stack
 
-Astro 5 (static), Tailwind 4 (via `@tailwindcss/vite`), TypeScript strict. **Node 20** (Astro 6 needs Node 22 — stay on 5 unless Node is upgraded). Deploys to Netlify.
+Astro 6 (static), Tailwind 4 (via `@tailwindcss/postcss` — `@tailwindcss/vite` is incompatible with Astro 6's default rolldown-vite, see [withastro/astro#16542](https://github.com/withastro/astro/issues/16542)), TypeScript strict. **Node 24**. Deploys to Netlify.
+
+Astro 7 was not adopted alongside Astro 6: it broke the root site's (mattstratton.com) dynamic `.png.ts` OG-image endpoints when combined with `trailingSlash: 'always'` there (an upstream Astro 7 bug in how dynamic file-extension endpoints handle trailing slashes). This site's `trailingSlash: 'never'`/`build.format: 'file'` config wasn't separately tested against Astro 7 — both sites were kept on the same Astro major for consistency. Revisit once the upstream bug is fixed, testing this site's config independently.
 
 ## Commands
 

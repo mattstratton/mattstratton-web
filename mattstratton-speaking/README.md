@@ -17,7 +17,7 @@ npm run build      # production build → dist/
 npm run preview    # serve the production build locally
 ```
 
-Requires **Node 20**. The asset pipeline below additionally needs `poppler` and `ghostscript` locally (`brew install poppler ghostscript`).
+Requires **Node 24**. The asset pipeline below additionally needs `poppler` and `ghostscript` locally (`brew install poppler ghostscript`).
 
 ## How it works
 

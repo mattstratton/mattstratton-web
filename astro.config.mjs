@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import tailwindcss from '@tailwindcss/vite';
 
 // Migrated from Hugo. URL preservation is the prime directive: the 2,600+ legacy
 // posts were emitted by Hugo at their literal `url:` value as directory-style
@@ -18,9 +17,4 @@ export default defineConfig({
   },
   // Keep generated OG image routes (/og/*.png) out of the sitemap.
   integrations: [sitemap({ filter: (page) => !page.includes('/og/') })],
-  vite: {
-    // Cast: @tailwindcss/vite ships its own Vite types which skew from Astro's
-    // bundled Vite types — harmless at runtime, noisy at type-check.
-    plugins: [/** @type {any} */ (tailwindcss())],
-  },
 });

@@ -10,6 +10,7 @@ cover_image: ./assets/mattstratton-com-stack-cover.png
 id: 4062782
 crosspost: true
 canonical_url: 'https://www.mattstratton.com/writing/mattstratton-com-stack/'
+date: '2026-07-06T01:17:28Z'
 ---
 
 My blog is older than most of the tools I use to run it. The oldest posts started life on LiveJournal sometime in the early 2000s, got dragged through a WordPress import at some point in the mid-2000s, spent the better part of a decade as a Hugo site, and, about a week ago, moved into an Astro 5 site that reproduces every one of those old URLs byte for byte. That's 2,630 posts spanning 2001 to 2020, frozen exactly where they landed.

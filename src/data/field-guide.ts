@@ -13,6 +13,8 @@ export interface FieldGuideLink {
   description: string;
   part: PartKey;
   url: string;
+  image?: string;
+  topics?: string[];
 }
 
 export const externalFieldGuide: FieldGuideLink[] = [
@@ -23,6 +25,8 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'MVCC is great for concurrent workloads. For append-only data, it’s 23 bytes of overhead per row that never gets used. Here’s what that actually costs.',
     part: 'mechanics',
     url: 'https://www.tigerdata.com/blog/mvcc-feature-youre-paying-for-but-not-using',
+    image: 'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/03/V1.png',
+    topics: ['MVCC', 'Postgres'],
   },
   {
     title: 'Write Amplification in Postgres: The 3-4x Tax on Every Insert',
@@ -30,6 +34,8 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Every 1 KB insert in Postgres becomes ~2.5 KB of committed I/O before it’s done. Here’s where the multiplier comes from, and where the tuning knobs run out.',
     part: 'mechanics',
     url: 'https://www.tigerdata.com/blog/write-amplification-in-postgres-the-3-4x-tax-on-every-insert',
+    image: 'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/thumbnail--1-.png',
+    topics: ['write-amplification', 'Postgres'],
   },
   {
     title: 'When Continuous Ingestion Breaks Traditional Postgres',
@@ -37,6 +43,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Postgres maintenance depends on quiet periods your continuous workload eliminated. Here’s what happens inside the database when the gaps disappear.',
     part: 'mechanics',
     url: 'https://www.tigerdata.com/blog/when-continuous-ingestion-breaks-traditional-postgres',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/03/When-Continuous-Ingestion-Breaks-Traditional-Postgres-1280x720.png',
+    topics: ['ingestion', 'Postgres'],
   },
 
   // Part 2 — Why you're hitting the wall
@@ -46,6 +55,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'PostgreSQL hits hard limits under analytics workloads. Here’s why MVCC, WAL, and row storage compound, and what to do instead.',
     part: 'limits',
     url: 'https://www.tigerdata.com/blog/postgres-optimization-treadmill',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/02/advocacy-essay-thumbnail-with-elephant.png',
+    topics: ['performance', 'Postgres'],
   },
   {
     title: 'Six Signs That Postgres Tuning Won’t Fix Your Performance Problems',
@@ -53,6 +65,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'When Postgres tuning won’t fix performance: recognize the six characteristics of time-series workloads that need a purpose-built architecture.',
     part: 'limits',
     url: 'https://www.tigerdata.com/blog/six-signs-postgres-tuning-wont-fix-performance-problems',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/02/Postgres-Tuning-Performance-compressed.png',
+    topics: ['tuning', 'Postgres'],
   },
   {
     title: 'Postgres Performance: Why Peak Throughput Benchmarks Miss the Real Problem',
@@ -60,6 +75,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Peak throughput tells you what Postgres can do in a sprint. Production asks what it can do forever. Those are different questions.',
     part: 'limits',
     url: 'https://www.tigerdata.com/blog/postgres-performance-why-peak-throughput-benchmarks-miss-real-problem',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/03/The-Database-Question-Nobody-Asks.png',
+    topics: ['benchmarking', 'Postgres'],
   },
   {
     title: 'Vertical Scaling: Buying Time You Can’t Afford',
@@ -67,6 +85,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Postgres vertical scaling works, until it doesn’t. Why high-frequency ingestion workloads hit an architectural wall, and what to do about it.',
     part: 'limits',
     url: 'https://www.tigerdata.com/blog/vertical-scaling-buying-time-you-cant-afford',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/02/Blog-Thumbnail-1280x720.png',
+    topics: ['vertical-scaling', 'Postgres'],
   },
 
   // Part 3 — The traps
@@ -76,6 +97,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Every Postgres index is a flat tax on every insert. At high ingestion rates, that tax is the whole problem.',
     part: 'traps',
     url: 'https://www.tigerdata.com/blog/why-adding-more-indexes-eventually-makes-things-worse',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/03/Option-1-1200X627.png',
+    topics: ['indexing', 'Postgres'],
   },
   {
     title: 'The Hidden Costs of Table Partitioning at Scale',
@@ -83,6 +107,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Table partitioning fixes retention and pruning, but adds hidden costs in planning time, schema migrations, and ops overhead. Know the tradeoffs before you commit.',
     part: 'traps',
     url: 'https://www.tigerdata.com/blog/hidden-costs-table-partitioning-scale',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/03/Blog-Thumbnail-1280x720.png',
+    topics: ['partitioning', 'Postgres'],
   },
   {
     title: 'Read Replicas Don’t Solve Write Bottlenecks',
@@ -90,6 +117,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Read replicas fix read contention. They don’t fix write throughput. Here’s the mechanical reason why, and what actually changes the trajectory.',
     part: 'traps',
     url: 'https://www.tigerdata.com/blog/read-replicas-dont-solve-write-bottlenecks',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/Read-Replicas-Don-t-Solve-Write-Bottlenecks-V2.png',
+    topics: ['read-replicas', 'Postgres'],
   },
 
   // Part 4 — The decision
@@ -99,6 +129,8 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Optimization problems stay fixed. Architectural ones come back. A framework for knowing which you’re dealing with before you’ve spent months on the wrong fix.',
     part: 'decision',
     url: 'https://www.tigerdata.com/blog/optimization-vs-architecture-knowing-the-difference',
+    image: 'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/thumbnail-blog.png',
+    topics: ['architecture', 'Postgres'],
   },
   {
     title: 'The Best Time to Migrate Was at 10M Rows. The Second Best Time Is Now.',
@@ -106,6 +138,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Migration cost scales with data volume. The optimization tax you pay while waiting scales faster.',
     part: 'decision',
     url: 'https://www.tigerdata.com/blog/when-to-migrate-postgres-to-timescaledb',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/Best-time-to-migrate-Blog.png',
+    topics: ['migration', 'Postgres'],
   },
   {
     title: 'Document Databases: Be Honest',
@@ -113,6 +148,9 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'Most MongoDB pain isn’t a MongoDB problem. It’s a workload shape problem that would follow you to Postgres.',
     part: 'decision',
     url: 'https://www.tigerdata.com/blog/document-databases-be-honest',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/Document-Databases_-Be-Honest-V2.png',
+    topics: ['mongodb', 'document-databases'],
   },
   {
     title: 'ClickHouse Is Fast. Your Pipeline Isn’t.',
@@ -120,5 +158,8 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'ClickHouse is fast. But the pipeline tax, ACID trade-offs, and two-system overhead are part of the decision too. Here’s the full picture.',
     part: 'decision',
     url: 'https://www.tigerdata.com/blog/clickhouse-is-fast-your-pipeline-isnt',
+    image:
+      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/thumbnail-blog-thumbnail-1280x720--1-.png',
+    topics: ['clickhouse'],
   },
 ];

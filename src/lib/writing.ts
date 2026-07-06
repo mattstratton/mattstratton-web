@@ -30,14 +30,41 @@ export function groupByPart(entries: CollectionEntry<'writing'>[]) {
   return { groups, ungrouped };
 }
 
-/** All distinct topics across published writing, alphabetical, with counts. */
-export function collectTopics(entries: CollectionEntry<'writing'>[]) {
-  return collectTaxonomy(publishedWriting(entries), (e) => e.data.topics);
+/** A topic-taggable item, whether a native post (on-site) or an external tigerdata.com link. */
+export interface TopicItem {
+  title: string;
+  href: string;
+  pubDate?: Date;
+  external: boolean;
+  topics: string[];
 }
 
-/** Published writing entries tagged with the given topic slug, newest first (already sorted by publishedWriting). */
+/** Native + external entries merged into one topic-taggable shape, for taxonomy purposes. */
+function allTopicItems(entries: CollectionEntry<'writing'>[]): TopicItem[] {
+  const nativeItems: TopicItem[] = publishedWriting(entries).map((e) => ({
+    title: e.data.title,
+    href: `/writing/${e.id}/`,
+    pubDate: e.data.pubDate,
+    external: false,
+    topics: e.data.topics,
+  }));
+  const externalItems: TopicItem[] = externalFieldGuide.map((l) => ({
+    title: l.title,
+    href: l.url,
+    external: true,
+    topics: l.topics ?? [],
+  }));
+  return [...nativeItems, ...externalItems];
+}
+
+/** All distinct topics across published writing + external field-guide links, alphabetical, with counts. */
+export function collectTopics(entries: CollectionEntry<'writing'>[]) {
+  return collectTaxonomy(allTopicItems(entries), (i) => i.topics);
+}
+
+/** Writing/field-guide items (native or external) tagged with the given topic slug, newest first. */
 export function writingForTopic(entries: CollectionEntry<'writing'>[], slug: string) {
-  return entriesForTerm(publishedWriting(entries), (e) => e.data.topics, slug);
+  return entriesForTerm(allTopicItems(entries), (i) => i.topics, slug);
 }
 
 /** A field-guide entry, whether a native post (on-site) or an external link. */
@@ -46,6 +73,7 @@ export interface GuideItem {
   description: string;
   href: string;
   external: boolean;
+  image?: string;
 }
 
 /**
@@ -58,16 +86,16 @@ export function buildFieldGuide(native: CollectionEntry<'writing'>[]) {
   const groups = PARTS.map((p) => {
     const nat: GuideItem[] = pub
       .filter((e) => e.data.part === p.key)
-      .map((e) => ({ title: e.data.title, description: e.data.description, href: `/writing/${e.id}/`, external: false }));
+      .map((e) => ({ title: e.data.title, description: e.data.description, href: `/writing/${e.id}/`, external: false, image: e.data.heroImage }));
     const ext: GuideItem[] = externalFieldGuide
       .filter((l) => l.part === p.key)
-      .map((l) => ({ title: l.title, description: l.description, href: l.url, external: true }));
+      .map((l) => ({ title: l.title, description: l.description, href: l.url, external: true, image: l.image }));
     return { key: p.key, label: p.label, blurb: p.blurb, items: [...nat, ...ext] };
   }).filter((g) => g.items.length > 0);
 
   const ungrouped: GuideItem[] = pub
     .filter((e) => !e.data.part)
-    .map((e) => ({ title: e.data.title, description: e.data.description, href: `/writing/${e.id}/`, external: false }));
+    .map((e) => ({ title: e.data.title, description: e.data.description, href: `/writing/${e.id}/`, external: false, image: e.data.heroImage }));
 
   return { groups, ungrouped };
 }

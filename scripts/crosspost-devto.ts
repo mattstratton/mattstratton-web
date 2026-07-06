@@ -9,7 +9,7 @@
  * git-owned (have an `id`). Create-only: refuses to touch a writing entry that
  * already exists, so a later run can never clobber manual edits.
  *
- * Run: npm run crosspost -- <devto-filename> [--slug x] [--pub-date x] [--override-canonical]
+ * Run: npm run crosspost -- <devto-filename> [--slug x] [--pub-date x] [--override-canonical] [--skip-if-exists]
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync, readdirSync } from 'node:fs';
 import { join, relative } from 'node:path';
@@ -184,12 +184,16 @@ export function buildWritingFrontmatter(input: WritingFrontmatterInput): Record<
 
 function parseArgs(argv: string[]) {
   const positional: string[] = [];
-  const opts: { slug?: string; pubDate?: string; overrideCanonical: boolean } = { overrideCanonical: false };
+  const opts: { slug?: string; pubDate?: string; overrideCanonical: boolean; skipIfExists: boolean } = {
+    overrideCanonical: false,
+    skipIfExists: false,
+  };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--slug') opts.slug = argv[++i];
     else if (a === '--pub-date') opts.pubDate = argv[++i];
     else if (a === '--override-canonical') opts.overrideCanonical = true;
+    else if (a === '--skip-if-exists') opts.skipIfExists = true;
     else positional.push(a);
   }
   return { file: positional[0], ...opts };
@@ -225,11 +229,11 @@ function gitFirstCommitDate(absPath: string): string | undefined {
 }
 
 async function main() {
-  const { file, slug: slugOverride, pubDate: pubDateOverride, overrideCanonical } = parseArgs(process.argv.slice(2));
+  const { file, slug: slugOverride, pubDate: pubDateOverride, overrideCanonical, skipIfExists } = parseArgs(process.argv.slice(2));
 
   if (!file) {
     const eligible = listEligiblePosts();
-    console.log('Usage: npm run crosspost -- <devto-filename> [--slug x] [--pub-date x] [--override-canonical]\n');
+    console.log('Usage: npm run crosspost -- <devto-filename> [--slug x] [--pub-date x] [--override-canonical] [--skip-if-exists]\n');
     console.log(eligible.length ? 'Eligible posts (crosspost: true, has id):' : 'No eligible posts found (need crosspost: true and an existing id).');
     for (const f of eligible) console.log(`  - ${f}`);
     process.exitCode = eligible.length ? 0 : 1;
@@ -246,13 +250,17 @@ async function main() {
 
   if (!fm.id) throw new Error(`${filename} has no id — not git-owned yet, cannot crosspost.`);
   if (fm.crosspost !== true) throw new Error(`${filename} is not flagged for crosspost — add \`crosspost: true\` to its frontmatter first.`);
-  checkCanonicalHost(typeof fm.canonical_url === 'string' ? fm.canonical_url : undefined, overrideCanonical);
 
   const slug = slugOverride || deriveSlug(filename);
   const targetPath = join(WRITING_DIR, `${slug}.md`);
   if (existsSync(targetPath)) {
+    if (skipIfExists) {
+      console.log(`${targetPath} already exists — skipping (--skip-if-exists).`);
+      return;
+    }
     throw new Error(`${targetPath} already exists — already crossposted, or a slug collision. Use --slug to disambiguate.`);
   }
+  checkCanonicalHost(typeof fm.canonical_url === 'string' ? fm.canonical_url : undefined, overrideCanonical);
   console.log(`Derived slug: ${slug} (from ${filename}) — confirm this reads well as a URL before committing.`);
 
   const { date: pubDate, source } = resolvePubDate(fm.date, pubDateOverride, gitFirstCommitDate(sourcePath));

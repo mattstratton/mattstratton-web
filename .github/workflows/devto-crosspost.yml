@@ -1,0 +1,79 @@
+name: Crosspost eligible dev.to posts to writing collection
+
+on:
+  pull_request:
+    paths:
+      - "mattstratton-dev-to/posts/**/*.md"
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: devto-crosspost-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    # Same-repo PRs only: GITHUB_TOKEN is force-read-only for fork PRs on
+    # `pull_request`, so a push there would fail anyway.
+    # Loop guard: don't re-run on this job's own write-back commit.
+    if: >
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: List dev.to post files changed in this PR
+        id: changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          files=$(gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --paginate --jq '.[].filename' \
+            | grep -E '^mattstratton-dev-to/posts/[A-Za-z0-9._-]+\.md$' || true)
+          {
+            echo "files<<EOF"
+            echo "$files"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Crosspost eligible + changed posts
+        if: steps.changed.outputs.files != ''
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
+        run: |
+          set -euo pipefail
+          eligible=$(npm run --silent crosspost | sed -n 's/^  - //p' || true)
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            base=$(basename "$f")
+            if printf '%s\n' "$eligible" | grep -qx "$base"; then
+              echo "Crossposting $base"
+              npm run --silent crosspost -- "$base" --skip-if-exists
+            fi
+          done <<< "$FILES"
+
+      - name: Commit and push generated writing entries onto this PR
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mattstratton-dev-to/posts src/content/writing public/writing
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: crosspost eligible dev.to post(s) to writing collection"
+          git push origin "HEAD:refs/heads/$HEAD_REF"

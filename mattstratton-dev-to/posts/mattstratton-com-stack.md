@@ -1,6 +1,6 @@
 ---
 title: I Contain Multitudes (and Also Three Git Repos)
-published: false
+published: true
 description: 'A tour of the stack behind mattstratton.com and speaking.mattstratton.com: a monorepo holding two Astro sites and a dev.to sync tool, twenty years of blog posts, and the pipeline that crossposts posts like this one.'
 tags:
   - astro

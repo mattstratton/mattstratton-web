@@ -22,10 +22,16 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
     <p class="label mt-3 normal-case tracking-normal">{items.length} posts</p>
   </section>
   <ul class="mt-6">
-    {items.map((e) => (
+    {items.map((item) => (
       <li class="flex gap-4 border-b border-rule py-2.5">
-        <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{fmt(e.data.pubDate)}</span>
-        <a href={`/writing/${e.id}/`} class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline">{e.data.title}</a>
+        <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{item.pubDate ? fmt(item.pubDate) : ''}</span>
+        <a
+          href={item.href}
+          rel={item.external ? 'noopener' : undefined}
+          class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline"
+        >
+          {item.title}{item.external && <span class="label ml-2 align-middle normal-case tracking-normal text-ink-soft">tigerdata.com ↗</span>}
+        </a>
       </li>
     ))}
   </ul>

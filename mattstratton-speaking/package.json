@@ -21,8 +21,11 @@
     "@astrojs/sitemap": "^3.7.3",
     "@fontsource-variable/hanken-grotesk": "^5.2.8",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@iconify-json/lucide": "^1.2.116",
+    "@iconify-json/simple-icons": "^1.2.89",
     "@plausible-analytics/tracker": "^0.4.5",
     "astro": "^6.4.8",
+    "astro-icon": "^1.1.5",
     "fuse.js": "^7.4.2"
   },
   "devDependencies": {

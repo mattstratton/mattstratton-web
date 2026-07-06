@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import ThumbnailCard from '../../components/ThumbnailCard.astro';
 import { collectTaxonomy, postsForTerm } from '../../lib/posts';
 
 export async function getStaticPaths() {
@@ -23,9 +24,12 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
   </section>
   <ul class="mt-6">
     {posts.map((p) => (
-      <li class="flex gap-4 border-b border-rule py-2.5">
-        <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{fmt(p.data.date)}</span>
-        <a href={`/${p.data.permalink}/`} class="decoration-accent-bright decoration-2 underline-offset-4 hover:underline">{p.data.title}</a>
+      <li class="border-b border-rule py-2.5">
+        <a href={`/${p.data.permalink}/`} class="group flex items-center gap-4">
+          <span class="label w-28 shrink-0 normal-case tracking-normal text-ink-soft">{fmt(p.data.date)}</span>
+          <ThumbnailCard src={p.data.image} />
+          <span class="decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{p.data.title}</span>
+        </a>
       </li>
     ))}
   </ul>

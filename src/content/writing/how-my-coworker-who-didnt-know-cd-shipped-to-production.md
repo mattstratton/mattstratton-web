@@ -6,6 +6,7 @@ topics:
   - webdev
 draft: false
 heroImage: /writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/huq5hzde2dcbh58cle1i.png
+heroInBody: true
 ---
 
 ![](/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/huq5hzde2dcbh58cle1i.png)

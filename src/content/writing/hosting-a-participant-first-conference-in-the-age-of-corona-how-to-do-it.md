@@ -6,6 +6,7 @@ topics:
   - events
 draft: false
 heroImage: /writing/hosting-a-participant-first-conference-in-the-age-of-corona-how-to-do-it/fyljvgmlrvoeqhr5qyn8.png
+heroInBody: true
 ---
 
 ![](/writing/hosting-a-participant-first-conference-in-the-age-of-corona-how-to-do-it/fyljvgmlrvoeqhr5qyn8.png)

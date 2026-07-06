@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/finance-101-budgets-pls-and-the-language-of-money/qg4giv7gqcufvzmejpgr.png
+heroInBody: true
 ---
 
 ![](/writing/finance-101-budgets-pls-and-the-language-of-money/qg4giv7gqcufvzmejpgr.png)

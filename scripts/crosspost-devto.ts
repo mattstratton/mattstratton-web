@@ -290,9 +290,7 @@ async function main() {
 
   const { body: rewrittenBody, coverImage: rewrittenCover } = rewriteImageReferences(body, coverImageRaw, urlMap);
   const delinkedBody = delinkEmbeds(rewrittenBody);
-  // heroImage isn't rendered by WritingLayout.astro yet, so also embed the
-  // cover inline — that's the only path that actually displays today.
-  const finalBody = rewrittenCover ? `![](${rewrittenCover})\n\n${delinkedBody.trim()}` : delinkedBody.trim();
+  const finalBody = delinkedBody.trim();
 
   const newFm = buildWritingFrontmatter({
     title: String(fm.title ?? slug),

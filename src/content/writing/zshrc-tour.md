@@ -9,6 +9,7 @@ topics:
   - productivity
 draft: false
 heroImage: /writing/zshrc-tour/zshrc-tour-cover.png
+heroInBody: true
 ---
 
 ![](/writing/zshrc-tour/zshrc-tour-cover.png)

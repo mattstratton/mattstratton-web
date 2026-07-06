@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/product-led-growth-and-what-it-means-for-devrel/o6sijn10fab2fuftqg2j.png
+heroInBody: true
 ---
 
 ![](/writing/product-led-growth-and-what-it-means-for-devrel/o6sijn10fab2fuftqg2j.png)

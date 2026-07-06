@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/putting-it-all-together-speaking-business-as-a-devrel-professional/4f21cxu3z6d0ypgju4pa.png
+heroInBody: true
 ---
 
 ![](/writing/putting-it-all-together-speaking-business-as-a-devrel-professional/4f21cxu3z6d0ypgju4pa.png)

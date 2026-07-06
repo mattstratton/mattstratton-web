@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Newsletter from '../../components/Newsletter.astro';
+import ThumbnailCard from '../../components/ThumbnailCard.astro';
 import { buildFieldGuide, collectTopics, type GuideItem } from '../../lib/writing';
 
 const writingEntries = await getCollection('writing');
@@ -38,11 +39,7 @@ const topics = collectTopics(writingEntries);
               rel={item.external ? 'noopener' : undefined}
               class="group flex items-start gap-4 border-b border-rule py-4 transition-colors hover:bg-panel"
             >
-              {item.image ? (
-                <img src={item.image} alt="" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-sm object-cover ring-1 ring-rule" />
-              ) : (
-                <span class="hidden h-10 w-10 shrink-0 sm:block" aria-hidden="true"></span>
-              )}
+              <ThumbnailCard src={item.image} />
               <div class="min-w-0">
                 <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
                   {item.title}{item.external && <span class="label ml-2 align-middle normal-case tracking-normal text-ink-soft">tigerdata.com ↗</span>}
@@ -63,11 +60,7 @@ const topics = collectTopics(writingEntries);
         {ungrouped.map((item: GuideItem) => (
           <li>
             <a href={item.href} class="group flex items-start gap-4 border-b border-rule py-4 transition-colors hover:bg-panel">
-              {item.image ? (
-                <img src={item.image} alt="" loading="lazy" decoding="async" class="h-10 w-10 shrink-0 rounded-sm object-cover ring-1 ring-rule" />
-              ) : (
-                <span class="hidden h-10 w-10 shrink-0 sm:block" aria-hidden="true"></span>
-              )}
+              <ThumbnailCard src={item.image} />
               <div class="min-w-0">
                 <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{item.title}</h3>
                 <p class="mt-1 text-ink-soft">{item.description}</p>

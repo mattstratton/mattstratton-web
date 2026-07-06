@@ -37,6 +37,7 @@ export interface TopicItem {
   pubDate?: Date;
   external: boolean;
   topics: string[];
+  image?: string;
 }
 
 /** Native + external entries merged into one topic-taggable shape, for taxonomy purposes. */
@@ -47,12 +48,14 @@ function allTopicItems(entries: CollectionEntry<'writing'>[]): TopicItem[] {
     pubDate: e.data.pubDate,
     external: false,
     topics: e.data.topics,
+    image: e.data.heroImage,
   }));
   const externalItems: TopicItem[] = externalFieldGuide.map((l) => ({
     title: l.title,
     href: l.url,
     external: true,
     topics: l.topics ?? [],
+    image: l.image,
   }));
   return [...nativeItems, ...externalItems];
 }

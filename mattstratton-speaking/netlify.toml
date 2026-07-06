@@ -6,15 +6,24 @@
 # the build host-agnostic and fast.
 #
 # Lives as a subdirectory in a monorepo (see root CLAUDE.md) — this site's Netlify
-# project points its Package directory here. Skip a build when a push doesn't
-# touch anything under this subdirectory.
+# project points its Package directory here.
+#
+# Previously had a custom `ignore` command that diffed against
+# $CACHED_COMMIT_REF to skip this build when a push didn't touch this
+# subdirectory. Removed 2026-07-06: in this repo's merge history (a real
+# 2-parent `git merge`, not a path-rewritten `git subtree` graft — see root
+# CLAUDE.md), $CACHED_COMMIT_REF was observed resolving in a way that made
+# the diff come back empty even for commits that demonstrably changed files
+# under this path, silently skipping a build that should have run (PR #64).
+# Root-caused as unreliable rather than fixed; correctness (always deploying
+# real changes) matters more here than skipping the occasional unrelated
+# rebuild, so this site now just builds on every push.
 [build]
   command = "npm run build"
   publish = "dist"
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- mattstratton-speaking"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "24"
 
 # Plausible Analytics first-party proxy (https://plausible.io/docs/proxy/guides/netlify).
 # The tracker POSTs events to /api/event (see src/components/Analytics.astro), which

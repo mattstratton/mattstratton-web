@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal site + blog for mattstratton.com. **Astro 5 + Tailwind CSS v4**, deployed to Netlify. Migrated from Hugo (hugo-profile theme) in 2026; it's a deliberate sibling of the speaking site (`mattstratton-speaking`) — same warm-paper design system, differentiated by a teal/amber accent.
+Personal site + blog for mattstratton.com. **Astro 6 + Tailwind CSS v4** (Tailwind runs via `@tailwindcss/postcss`, not `@tailwindcss/vite` — see the Node/Astro version note below), deployed to Netlify. Migrated from Hugo (hugo-profile theme) in 2026; it's a deliberate sibling of the speaking site (`mattstratton-speaking`) — same warm-paper design system, differentiated by a teal/amber accent.
 
 ## Monorepo structure
 
@@ -32,7 +32,9 @@ npm run migrate    # re-run the legacy-post converter (content/post → src/cont
 npm test           # run script + lib unit tests
 ```
 
-Node **20** (see `netlify.toml`). Netlify builds via `npm run build`, publishes `dist/`.
+Node **24** (see `netlify.toml`, `.nvmrc`). Netlify builds via `npm run build`, publishes `dist/`.
+
+**Astro 7 is not usable yet**: it breaks the dynamic `.png.ts` OG-image endpoints (`src/pages/og/**`) when combined with this site's `trailingSlash: 'always'` — an upstream Astro bug in how dynamic file-extension endpoints handle trailing slashes, not a config mistake here. Stayed on Astro 6 until that's fixed upstream. Separately, Astro 6 defaults to rolldown-vite, which `@tailwindcss/vite` doesn't yet support ([withastro/astro#16542](https://github.com/withastro/astro/issues/16542)) — worked around by running Tailwind via `@tailwindcss/postcss` (`postcss.config.mjs`) instead of the Vite plugin.
 
 ## Architecture
 

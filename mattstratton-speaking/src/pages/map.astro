@@ -107,7 +107,18 @@ const legendCounts = nonZeroCounts.length
             data-year={p.year ?? ''}
             data-tags={p.tags.join(' ')}
             data-kind="point"
+            pointer-events="all"
           >
+            {/*
+              pointer-events="all" lives on the <a> (a low-specificity SVG
+              presentation attribute), not on the hit-circle itself — so it's
+              inherited down to both circles normally, but the filter script's
+              `pointer-events-none` class toggle (a real stylesheet rule) can
+              still override it on filtered-out dots. If "all" were set
+              directly on the circle, that per-element value would beat
+              inheritance and filtered-out dots would stay clickable.
+            */}
+            <circle cx={p.x} cy={p.y} r={p.r + 4} fill="transparent" />
             <circle
               cx={p.x}
               cy={p.y}
@@ -136,7 +147,7 @@ const legendCounts = nonZeroCounts.length
           data-tags={p.tags.join(' ')}
           data-kind="point"
         >
-          <a href={p.href} class="group flex flex-wrap items-baseline gap-x-2">
+          <a href={p.href} class="group flex min-h-11 flex-wrap items-center gap-x-2">
             <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{p.name}</span>
             {p.location && <span class="label normal-case tracking-normal text-ink-soft">{p.location}</span>}
           </a>
@@ -158,7 +169,7 @@ const legendCounts = nonZeroCounts.length
             data-tags={v.tags.join(' ')}
             data-kind="virtual"
           >
-            <a href={v.href} class="group flex flex-wrap items-baseline gap-x-2">
+            <a href={v.href} class="group flex min-h-11 flex-wrap items-center gap-x-2">
               <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{v.name}</span>
             </a>
           </li>

@@ -8,6 +8,7 @@ import { buildMapData, type EventInput, type TalkInput } from '../lib/map-data';
 import { tagsFor, tagBySlug } from '../lib/tags';
 import MapLegend from '../components/MapLegend.astro';
 import MapFilters from '../components/MapFilters.astro';
+import { Icon } from 'astro-icon/components';
 
 // "Where I've spoken" — a static, fully-owned SVG dot-map. The world geometry is
 // committed (src/assets/world-110m.json, public-domain Natural Earth), projected
@@ -86,8 +87,8 @@ const legendCounts = nonZeroCounts.length
 
   <MapFilters years={years} tags={tags} total={points.length} virtualTotal={virtual.length} />
 
-  <figure class="mt-8">
-    <svg viewBox={`0 0 ${W} ${H}`} class="h-auto w-full" aria-hidden="true">
+  <figure class="relative mt-8">
+    <svg viewBox={`0 0 ${W} ${H}`} class="h-auto w-full" aria-hidden="true" data-map-svg>
       <g fill="var(--color-panel, #e9e2d3)" stroke="var(--color-rule, #d8cfbd)" stroke-width="0.5">
         {countryPaths.map((d) => <path d={d} />)}
       </g>
@@ -107,6 +108,9 @@ const legendCounts = nonZeroCounts.length
             data-year={p.year ?? ''}
             data-tags={p.tags.join(' ')}
             data-kind="point"
+            data-name={p.name}
+            data-location={p.location}
+            data-count={p.talkCount}
             pointer-events="all"
           >
             {/*
@@ -133,6 +137,32 @@ const legendCounts = nonZeroCounts.length
         ))}
       </g>
     </svg>
+    <div class="absolute right-3 bottom-3 flex gap-1" data-map-zoom-controls hidden>
+      <button
+        type="button"
+        data-map-zoom-out
+        aria-label="Zoom out"
+        class="flex h-9 w-9 items-center justify-center rounded-full bg-panel/95 shadow ring-1 ring-rule hover:text-accent"
+      >
+        <Icon name="lucide:zoom-out" class="h-4 w-4" aria-hidden="true" />
+      </button>
+      <button
+        type="button"
+        data-map-zoom-in
+        aria-label="Zoom in"
+        class="flex h-9 w-9 items-center justify-center rounded-full bg-panel/95 shadow ring-1 ring-rule hover:text-accent"
+      >
+        <Icon name="lucide:zoom-in" class="h-4 w-4" aria-hidden="true" />
+      </button>
+      <button
+        type="button"
+        data-map-zoom-reset
+        aria-label="Reset map view"
+        class="flex h-9 w-9 items-center justify-center rounded-full bg-panel/95 shadow ring-1 ring-rule hover:text-accent"
+      >
+        <Icon name="lucide:maximize-2" class="h-4 w-4" aria-hidden="true" />
+      </button>
+    </div>
     <MapLegend counts={legendCounts} />
   </figure>
 
@@ -177,6 +207,29 @@ const legendCounts = nonZeroCounts.length
       </ul>
     </section>
   )}
+
+  <div
+    data-map-panel
+    role="dialog"
+    aria-labelledby="map-panel-name"
+    hidden
+    class="fixed inset-x-0 bottom-0 z-50 border-t-2 border-ink bg-panel p-5 shadow-xl sm:inset-x-auto sm:bottom-auto sm:w-72 sm:rounded-lg sm:border sm:border-rule"
+  >
+    <button
+      type="button"
+      data-map-panel-close
+      aria-label="Close"
+      class="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-full text-ink-soft hover:text-accent"
+    >
+      <Icon name="lucide:x" class="h-4 w-4" aria-hidden="true" />
+    </button>
+    <p data-map-panel-location class="label normal-case tracking-normal text-ink-soft"></p>
+    <h3 id="map-panel-name" data-map-panel-name class="mt-1 font-display text-lg font-medium"></h3>
+    <p data-map-panel-count class="label mt-1 normal-case tracking-normal text-ink-soft"></p>
+    <a data-map-panel-link class="mt-3 inline-block text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright">
+      View this event →
+    </a>
+  </div>
 </Base>
 
 <script>
@@ -255,5 +308,225 @@ const legendCounts = nonZeroCounts.length
     });
 
     applyFilters();
+  }
+</script>
+
+<script>
+  import { clampViewBox, zoomAt, panBy, pinchZoom, type ViewBox, type PinchGesture } from '../lib/map-viewbox';
+
+  const svg = document.querySelector<SVGSVGElement>('[data-map-svg]');
+  const zoomControls = document.querySelector<HTMLElement>('[data-map-zoom-controls]');
+  const zoomInBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-in]');
+  const zoomOutBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-out]');
+  const resetBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-reset]');
+  const panel = document.querySelector<HTMLElement>('[data-map-panel]');
+  const panelClose = document.querySelector<HTMLButtonElement>('[data-map-panel-close]');
+  const panelName = document.querySelector<HTMLElement>('[data-map-panel-name]');
+  const panelLocation = document.querySelector<HTMLElement>('[data-map-panel-location]');
+  const panelCount = document.querySelector<HTMLElement>('[data-map-panel-count]');
+  const panelLink = document.querySelector<HTMLAnchorElement>('[data-map-panel-link]');
+
+  if (
+    svg &&
+    zoomControls &&
+    zoomInBtn &&
+    zoomOutBtn &&
+    resetBtn &&
+    panel &&
+    panelClose &&
+    panelName &&
+    panelLocation &&
+    panelCount &&
+    panelLink
+  ) {
+    const LIMITS = { width: 1000, height: 500, minWidth: 125 };
+    let viewBox: ViewBox = { x: 0, y: 0, w: LIMITS.width, h: LIMITS.height };
+
+    function render() {
+      svg!.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+    }
+
+    function clientToViewBox(clientX: number, clientY: number, rect: DOMRect, vb: ViewBox) {
+      return {
+        x: vb.x + ((clientX - rect.left) / rect.width) * vb.w,
+        y: vb.y + ((clientY - rect.top) / rect.height) * vb.h,
+      };
+    }
+
+    zoomControls.hidden = false;
+
+    zoomInBtn.addEventListener('click', () => {
+      const center = { x: viewBox.x + viewBox.w / 2, y: viewBox.y + viewBox.h / 2 };
+      viewBox = zoomAt(viewBox, center, 1 / 1.4, LIMITS);
+      render();
+    });
+    zoomOutBtn.addEventListener('click', () => {
+      const center = { x: viewBox.x + viewBox.w / 2, y: viewBox.y + viewBox.h / 2 };
+      viewBox = zoomAt(viewBox, center, 1.4, LIMITS);
+      render();
+    });
+    resetBtn.addEventListener('click', () => {
+      viewBox = clampViewBox({ x: 0, y: 0, w: LIMITS.width, h: LIMITS.height }, LIMITS);
+      render();
+    });
+
+    // touch-action is set here (not as a static class) so a no-JS mobile
+    // browser keeps normal native touch scrolling over the map region.
+    svg.style.touchAction = 'none';
+
+    svg.addEventListener(
+      'wheel',
+      (e) => {
+        e.preventDefault();
+        const rect = svg!.getBoundingClientRect();
+        const focal = clientToViewBox(e.clientX, e.clientY, rect, viewBox);
+        viewBox = zoomAt(viewBox, focal, e.deltaY > 0 ? 1.2 : 1 / 1.2, LIMITS);
+        render();
+      },
+      { passive: false },
+    );
+
+    const pointers = new Map<number, { x: number; y: number }>();
+    let dragStart: { x: number; y: number; viewBox: ViewBox; rect: DOMRect } | null = null;
+    let pinchStart: (PinchGesture & { rect: DOMRect; midClient: { x: number; y: number } }) | null = null;
+    let moved = false;
+
+    let lastFocused: HTMLElement | null = null;
+
+    function positionPanel(anchorRect: DOMRect) {
+      const isDesktop = window.matchMedia('(min-width: 640px)').matches;
+      if (!isDesktop) {
+        panel!.style.removeProperty('left');
+        panel!.style.removeProperty('top');
+        return;
+      }
+      const margin = 12;
+      const panelRect = panel!.getBoundingClientRect();
+      let left = anchorRect.left + anchorRect.width / 2 - panelRect.width / 2;
+      let top = anchorRect.bottom + margin;
+      left = Math.min(Math.max(margin, left), window.innerWidth - panelRect.width - margin);
+      top = Math.min(top, window.innerHeight - panelRect.height - margin);
+      panel!.style.left = `${left}px`;
+      panel!.style.top = `${top}px`;
+    }
+
+    function openPanel(dot: HTMLElement) {
+      lastFocused = document.activeElement as HTMLElement | null;
+      panelName!.textContent = dot.dataset.name ?? '';
+      panelLocation!.textContent = dot.dataset.location ?? '';
+      const count = Number(dot.dataset.count ?? '0');
+      panelCount!.textContent = count === 1 ? '1 talk' : `${count} talks`;
+      panelLink!.href = dot.getAttribute('href') ?? '#';
+      panel!.hidden = false;
+      positionPanel(dot.getBoundingClientRect());
+      panelClose!.focus();
+    }
+
+    function closePanel() {
+      panel!.hidden = true;
+      lastFocused?.focus();
+    }
+
+    panelClose.addEventListener('click', closePanel);
+
+    panel.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closePanel();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const focusable = panel!.querySelectorAll<HTMLElement>('a[href], button:not([disabled])');
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (panel!.hidden) return;
+      const target = e.target as Element;
+      if (panel!.contains(target) || target.closest('a[data-event-id]')) return;
+      closePanel();
+    });
+
+    function pointerDistance(): number {
+      const pts = [...pointers.values()];
+      return Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+    }
+    function pointerMidpoint(): { x: number; y: number } {
+      const pts = [...pointers.values()];
+      return { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
+    }
+
+    svg.addEventListener('pointerdown', (e) => {
+      svg!.setPointerCapture(e.pointerId);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+      if (pointers.size === 1) {
+        moved = false;
+        dragStart = { x: e.clientX, y: e.clientY, viewBox: { ...viewBox }, rect: svg!.getBoundingClientRect() };
+        pinchStart = null;
+      } else if (pointers.size === 2) {
+        dragStart = null;
+        const rect = svg!.getBoundingClientRect();
+        const midClient = pointerMidpoint();
+        pinchStart = {
+          startViewBox: { ...viewBox },
+          startDistance: pointerDistance(),
+          startFocal: clientToViewBox(midClient.x, midClient.y, rect, viewBox),
+          rect,
+          midClient,
+        };
+      }
+    });
+
+    svg.addEventListener('pointermove', (e) => {
+      if (!pointers.has(e.pointerId)) return;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+      if (pointers.size === 1 && dragStart) {
+        const dx = ((e.clientX - dragStart.x) / dragStart.rect.width) * dragStart.viewBox.w;
+        const dy = ((e.clientY - dragStart.y) / dragStart.rect.height) * dragStart.viewBox.h;
+        if (Math.abs(e.clientX - dragStart.x) > 4 || Math.abs(e.clientY - dragStart.y) > 4) moved = true;
+        viewBox = panBy(dragStart.viewBox, { x: dx, y: dy }, LIMITS);
+        render();
+      } else if (pointers.size === 2 && pinchStart) {
+        moved = true;
+        const midNow = pointerMidpoint();
+        const panDelta = {
+          x: ((midNow.x - pinchStart.midClient.x) / pinchStart.rect.width) * pinchStart.startViewBox.w,
+          y: ((midNow.y - pinchStart.midClient.y) / pinchStart.rect.height) * pinchStart.startViewBox.h,
+        };
+        viewBox = pinchZoom(pinchStart, pointerDistance(), panDelta, LIMITS);
+        render();
+      }
+    });
+
+    function endPointer(e: PointerEvent) {
+      pointers.delete(e.pointerId);
+      if (pointers.size === 0) {
+        dragStart = null;
+        pinchStart = null;
+      }
+    }
+    svg.addEventListener('pointerup', endPointer);
+    svg.addEventListener('pointercancel', endPointer);
+
+    // Tap-vs-drag disambiguation for Task 3 (tap-to-preview) to consume:
+    // `moved` is true if this gesture included any real pan/pinch movement.
+    svg.addEventListener('click', (e) => {
+      const dot = (e.target as Element).closest<HTMLElement>('a[data-event-id][data-kind="point"]');
+      if (!dot) return;
+      e.preventDefault();
+      if (moved) return;
+      openPanel(dot);
+    });
   }
 </script>

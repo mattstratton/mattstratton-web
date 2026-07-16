@@ -108,6 +108,9 @@ const legendCounts = nonZeroCounts.length
             data-year={p.year ?? ''}
             data-tags={p.tags.join(' ')}
             data-kind="point"
+            data-name={p.name}
+            data-location={p.location}
+            data-count={p.talkCount}
             pointer-events="all"
           >
             {/*
@@ -204,6 +207,29 @@ const legendCounts = nonZeroCounts.length
       </ul>
     </section>
   )}
+
+  <div
+    data-map-panel
+    role="dialog"
+    aria-labelledby="map-panel-name"
+    hidden
+    class="fixed inset-x-0 bottom-0 z-50 border-t-2 border-ink bg-panel p-5 shadow-xl sm:inset-x-auto sm:bottom-auto sm:w-72 sm:rounded-lg sm:border sm:border-rule"
+  >
+    <button
+      type="button"
+      data-map-panel-close
+      aria-label="Close"
+      class="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-full text-ink-soft hover:text-accent"
+    >
+      <Icon name="lucide:x" class="h-4 w-4" aria-hidden="true" />
+    </button>
+    <p data-map-panel-location class="label normal-case tracking-normal text-ink-soft"></p>
+    <h3 id="map-panel-name" data-map-panel-name class="mt-1 font-display text-lg font-medium"></h3>
+    <p data-map-panel-count class="label mt-1 normal-case tracking-normal text-ink-soft"></p>
+    <a data-map-panel-link class="mt-3 inline-block text-accent underline decoration-rule underline-offset-2 hover:decoration-accent-bright">
+      View this event →
+    </a>
+  </div>
 </Base>
 
 <script>
@@ -293,8 +319,26 @@ const legendCounts = nonZeroCounts.length
   const zoomInBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-in]');
   const zoomOutBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-out]');
   const resetBtn = document.querySelector<HTMLButtonElement>('[data-map-zoom-reset]');
+  const panel = document.querySelector<HTMLElement>('[data-map-panel]');
+  const panelClose = document.querySelector<HTMLButtonElement>('[data-map-panel-close]');
+  const panelName = document.querySelector<HTMLElement>('[data-map-panel-name]');
+  const panelLocation = document.querySelector<HTMLElement>('[data-map-panel-location]');
+  const panelCount = document.querySelector<HTMLElement>('[data-map-panel-count]');
+  const panelLink = document.querySelector<HTMLAnchorElement>('[data-map-panel-link]');
 
-  if (svg && zoomControls && zoomInBtn && zoomOutBtn && resetBtn) {
+  if (
+    svg &&
+    zoomControls &&
+    zoomInBtn &&
+    zoomOutBtn &&
+    resetBtn &&
+    panel &&
+    panelClose &&
+    panelName &&
+    panelLocation &&
+    panelCount &&
+    panelLink
+  ) {
     const LIMITS = { width: 1000, height: 500, minWidth: 125 };
     let viewBox: ViewBox = { x: 0, y: 0, w: LIMITS.width, h: LIMITS.height };
 
@@ -346,6 +390,71 @@ const legendCounts = nonZeroCounts.length
     let dragStart: { x: number; y: number; viewBox: ViewBox; rect: DOMRect } | null = null;
     let pinchStart: (PinchGesture & { rect: DOMRect; midClient: { x: number; y: number } }) | null = null;
     let moved = false;
+
+    let lastFocused: HTMLElement | null = null;
+
+    function positionPanel(anchorRect: DOMRect) {
+      const isDesktop = window.matchMedia('(min-width: 640px)').matches;
+      if (!isDesktop) {
+        panel!.style.removeProperty('left');
+        panel!.style.removeProperty('top');
+        return;
+      }
+      const margin = 12;
+      const panelRect = panel!.getBoundingClientRect();
+      let left = anchorRect.left + anchorRect.width / 2 - panelRect.width / 2;
+      let top = anchorRect.bottom + margin;
+      left = Math.min(Math.max(margin, left), window.innerWidth - panelRect.width - margin);
+      top = Math.min(top, window.innerHeight - panelRect.height - margin);
+      panel!.style.left = `${left}px`;
+      panel!.style.top = `${top}px`;
+    }
+
+    function openPanel(dot: HTMLElement) {
+      lastFocused = document.activeElement as HTMLElement | null;
+      panelName!.textContent = dot.dataset.name ?? '';
+      panelLocation!.textContent = dot.dataset.location ?? '';
+      const count = Number(dot.dataset.count ?? '0');
+      panelCount!.textContent = count === 1 ? '1 talk' : `${count} talks`;
+      panelLink!.href = dot.getAttribute('href') ?? '#';
+      panel!.hidden = false;
+      positionPanel(dot.getBoundingClientRect());
+      panelClose!.focus();
+    }
+
+    function closePanel() {
+      panel!.hidden = true;
+      lastFocused?.focus();
+    }
+
+    panelClose.addEventListener('click', closePanel);
+
+    panel.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closePanel();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      const focusable = panel!.querySelectorAll<HTMLElement>('a[href], button:not([disabled])');
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (panel!.hidden) return;
+      const target = e.target as Element;
+      if (panel!.contains(target) || target.closest('a[data-event-id]')) return;
+      closePanel();
+    });
 
     function pointerDistance(): number {
       const pts = [...pointers.values()];
@@ -417,7 +526,7 @@ const legendCounts = nonZeroCounts.length
       if (!dot) return;
       e.preventDefault();
       if (moved) return;
-      // Task 3 replaces this comment with a call to open the preview panel.
+      openPanel(dot);
     });
   }
 </script>

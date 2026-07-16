@@ -4,6 +4,10 @@ import { geoNaturalEarth1, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import Base from '../layouts/Base.astro';
 import world from '../assets/world-110m.json';
+import { buildMapData, type EventInput, type TalkInput } from '../lib/map-data';
+import { tagsFor, tagBySlug } from '../lib/tags';
+import MapLegend from '../components/MapLegend.astro';
+import MapFilters from '../components/MapFilters.astro';
 
 // "Where I've spoken" — a static, fully-owned SVG dot-map. The world geometry is
 // committed (src/assets/world-110m.json, public-domain Natural Earth), projected
@@ -22,43 +26,49 @@ const countryPaths = (land.features as any[])
   .map((f) => toPath(f))
   .filter((d): d is string => Boolean(d));
 
-// Talk count per event, to size the dots.
-const talks = await getCollection('talks');
-const talkCount = new Map<string, number>();
-for (const t of talks) {
-  if (t.data.event) talkCount.set(t.data.event.id, (talkCount.get(t.data.event.id) ?? 0) + 1);
-}
+const eventEntries = await getCollection('events');
+const talkEntries = await getCollection('talks');
 
-// Project each geocoded event to an [x, y] dot.
-const events = await getCollection('events');
-const points = events
-  .filter((e) => typeof e.data.latitude === 'number' && typeof e.data.longitude === 'number')
-  .map((e) => {
-    const xy = projection([e.data.longitude as number, e.data.latitude as number]);
-    if (!xy) return null;
-    const count = talkCount.get(e.id) ?? 0;
-    return {
-      x: xy[0],
-      y: xy[1],
-      r: 3 + Math.sqrt(count),
-      name: e.data.name,
-      location: e.data.location ?? '',
-      href: `/event/${e.data.notistEventId.toLowerCase()}`,
-    };
-  })
-  .filter((p): p is NonNullable<typeof p> => p !== null)
-  .sort((a, b) => b.y - a.y); // draw northern dots last so they sit on top
+const events: EventInput[] = eventEntries.map((e) => ({
+  id: e.id,
+  notistEventId: e.data.notistEventId,
+  name: e.data.name,
+  location: e.data.location,
+  date: e.data.date,
+  latitude: e.data.latitude,
+  longitude: e.data.longitude,
+}));
+const talks: TalkInput[] = talkEntries.map((t) => ({
+  notistSlug: t.data.notistSlug,
+  eventId: t.data.event?.id,
+}));
 
+const {
+  points: rawPoints,
+  virtual: rawVirtual,
+  years,
+  tags,
+} = buildMapData(events, talks, {
+  project: (lonLat) => projection(lonLat),
+  tagsFor,
+  tagBySlug,
+});
+
+// Draw northern dots last so they sit on top of overlapping southern ones.
+const points = [...rawPoints].sort((a, b) => b.y - a.y);
 // Alphabetized list for the accessible text fallback / index below the map.
-const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
+const list = [...rawPoints].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
+const virtual = [...rawVirtual].sort((a, b) => a.name.localeCompare(b.name));
 
-// Events without coordinates are online/virtual (they carry location "Virtual",
-// see content.config.ts) — they can't sit on a geographic map. List them
-// separately so the page reflects all the speaking, not just the mappable part.
-const virtual = events
-  .filter((e) => typeof e.data.latitude !== 'number' || typeof e.data.longitude !== 'number')
-  .map((e) => ({ name: e.data.name, href: `/event/${e.data.notistEventId.toLowerCase()}` }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+// Legend samples: 1 talk, the dataset's median non-zero count, and its max —
+// always truthful as the archive grows, never a hardcoded guess.
+const nonZeroCounts = rawPoints
+  .map((p) => p.talkCount)
+  .filter((c) => c > 0)
+  .sort((a, b) => a - b);
+const legendCounts = nonZeroCounts.length
+  ? [...new Set([1, nonZeroCounts[Math.floor(nonZeroCounts.length / 2)], nonZeroCounts[nonZeroCounts.length - 1]])]
+  : [1];
 ---
 
 <Base
@@ -74,6 +84,8 @@ const virtual = events
     </p>
   </header>
 
+  <MapFilters years={years} tags={tags} total={points.length} virtualTotal={virtual.length} />
+
   <figure class="mt-8">
     <svg viewBox={`0 0 ${W} ${H}`} class="h-auto w-full" aria-hidden="true">
       <g fill="var(--color-panel, #e9e2d3)" stroke="var(--color-rule, #d8cfbd)" stroke-width="0.5">
@@ -88,7 +100,25 @@ const virtual = events
       */}
       <g>
         {points.map((p) => (
-          <a href={p.href} tabindex="-1">
+          <a
+            href={p.href}
+            tabindex="-1"
+            data-event-id={p.id}
+            data-year={p.year ?? ''}
+            data-tags={p.tags.join(' ')}
+            data-kind="point"
+            pointer-events="all"
+          >
+            {/*
+              pointer-events="all" lives on the <a> (a low-specificity SVG
+              presentation attribute), not on the hit-circle itself — so it's
+              inherited down to both circles normally, but the filter script's
+              `pointer-events-none` class toggle (a real stylesheet rule) can
+              still override it on filtered-out dots. If "all" were set
+              directly on the circle, that per-element value would beat
+              inheritance and filtered-out dots would stay clickable.
+            */}
+            <circle cx={p.x} cy={p.y} r={p.r + 4} fill="transparent" />
             <circle
               cx={p.x}
               cy={p.y}
@@ -103,14 +133,21 @@ const virtual = events
         ))}
       </g>
     </svg>
+    <MapLegend counts={legendCounts} />
   </figure>
 
   <section class="mt-10 border-t border-rule pt-6">
     <h2 class="label">Every place, alphabetically</h2>
     <ul class="mt-4 grid gap-x-6 gap-y-1 sm:grid-cols-2">
       {list.map((p) => (
-        <li class="border-b border-rule/60 py-1.5">
-          <a href={p.href} class="group flex flex-wrap items-baseline gap-x-2">
+        <li
+          class="border-b border-rule/60 py-1.5"
+          data-event-id={p.id}
+          data-year={p.year ?? ''}
+          data-tags={p.tags.join(' ')}
+          data-kind="point"
+        >
+          <a href={p.href} class="group flex min-h-11 flex-wrap items-center gap-x-2">
             <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{p.name}</span>
             {p.location && <span class="label normal-case tracking-normal text-ink-soft">{p.location}</span>}
           </a>
@@ -125,8 +162,14 @@ const virtual = events
       <p class="label normal-case tracking-normal text-ink-soft mt-1">Online events — no place on the map, but they still count.</p>
       <ul class="mt-4 grid gap-x-6 gap-y-1 sm:grid-cols-2">
         {virtual.map((v) => (
-          <li class="border-b border-rule/60 py-1.5">
-            <a href={v.href} class="group flex flex-wrap items-baseline gap-x-2">
+          <li
+            class="border-b border-rule/60 py-1.5"
+            data-event-id={v.id}
+            data-year={v.year ?? ''}
+            data-tags={v.tags.join(' ')}
+            data-kind="virtual"
+          >
+            <a href={v.href} class="group flex min-h-11 flex-wrap items-center gap-x-2">
               <span class="font-display text-sm font-medium decoration-accent-bright decoration-2 underline-offset-2 group-hover:underline">{v.name}</span>
             </a>
           </li>
@@ -135,3 +178,82 @@ const virtual = events
     </section>
   )}
 </Base>
+
+<script>
+  const yearSelect = document.querySelector<HTMLSelectElement>('[data-map-filter-year]');
+  const tagSelect = document.querySelector<HTMLSelectElement>('[data-map-filter-tag]');
+  const resetBtn = document.querySelector<HTMLButtonElement>('[data-map-filter-reset]');
+  const status = document.querySelector<HTMLElement>('[data-map-filter-status]');
+  const items = Array.from(document.querySelectorAll<HTMLElement>('[data-event-id]'));
+
+  // Bail out quietly if the markup isn't present (keeps the script inert elsewhere).
+  if (yearSelect && tagSelect && resetBtn && status && items.length > 0) {
+    const pointIds = new Set(
+      items.filter((el) => el.dataset.kind === 'point').map((el) => el.dataset.eventId),
+    );
+    const virtualIds = new Set(
+      items.filter((el) => el.dataset.kind === 'virtual').map((el) => el.dataset.eventId),
+    );
+
+    function matches(el: HTMLElement, year: string, tag: string): boolean {
+      if (year && el.dataset.year !== year) return false;
+      if (tag && !(el.dataset.tags ?? '').split(' ').includes(tag)) return false;
+      return true;
+    }
+
+    function applyFilters() {
+      const year = yearSelect!.value;
+      const tag = tagSelect!.value;
+      const visiblePoints = new Set<string>();
+      const visibleVirtual = new Set<string>();
+
+      for (const el of items) {
+        const ok = matches(el, year, tag);
+        // Dots live inside the SVG and are enhanced with opacity/pointer-events
+        // (removing them would fight the existing draw order); list rows are
+        // plain HTML and use `hidden` — cheaper and semantically correct there.
+        if (el.closest('svg')) {
+          el.classList.toggle('opacity-0', !ok);
+          el.classList.toggle('pointer-events-none', !ok);
+        } else {
+          el.toggleAttribute('hidden', !ok);
+        }
+        if (ok && el.dataset.eventId) {
+          (el.dataset.kind === 'point' ? visiblePoints : visibleVirtual).add(el.dataset.eventId);
+        }
+      }
+
+      status!.textContent = `Showing ${visiblePoints.size} of ${pointIds.size} venues on the map${
+        virtualIds.size > 0 ? ` · ${visibleVirtual.size} of ${virtualIds.size} delivered virtually` : ''
+      }`;
+
+      const params = new URLSearchParams(location.search);
+      if (year) params.set('year', year);
+      else params.delete('year');
+      if (tag) params.set('tag', tag);
+      else params.delete('tag');
+      const qs = params.toString();
+      history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    }
+
+    const initial = new URLSearchParams(location.search);
+    if (initial.has('year')) yearSelect.value = initial.get('year')!;
+    if (initial.has('tag')) tagSelect.value = initial.get('tag')!;
+
+    yearSelect.addEventListener('change', applyFilters);
+    tagSelect.addEventListener('change', applyFilters);
+    resetBtn.addEventListener('click', () => {
+      yearSelect.value = '';
+      tagSelect.value = '';
+      applyFilters();
+    });
+    window.addEventListener('popstate', () => {
+      const p = new URLSearchParams(location.search);
+      yearSelect.value = p.get('year') ?? '';
+      tagSelect.value = p.get('tag') ?? '';
+      applyFilters();
+    });
+
+    applyFilters();
+  }
+</script>

@@ -6,6 +6,7 @@ import Base from '../layouts/Base.astro';
 import world from '../assets/world-110m.json';
 import { buildMapData, type EventInput, type TalkInput } from '../lib/map-data';
 import { tagsFor, tagBySlug } from '../lib/tags';
+import MapLegend from '../components/MapLegend.astro';
 
 // "Where I've spoken" — a static, fully-owned SVG dot-map. The world geometry is
 // committed (src/assets/world-110m.json, public-domain Natural Earth), projected
@@ -57,6 +58,16 @@ const points = [...rawPoints].sort((a, b) => b.y - a.y);
 // Alphabetized list for the accessible text fallback / index below the map.
 const list = [...rawPoints].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
 const virtual = [...rawVirtual].sort((a, b) => a.name.localeCompare(b.name));
+
+// Legend samples: 1 talk, the dataset's median non-zero count, and its max —
+// always truthful as the archive grows, never a hardcoded guess.
+const nonZeroCounts = rawPoints
+  .map((p) => p.talkCount)
+  .filter((c) => c > 0)
+  .sort((a, b) => a - b);
+const legendCounts = nonZeroCounts.length
+  ? [...new Set([1, nonZeroCounts[Math.floor(nonZeroCounts.length / 2)], nonZeroCounts[nonZeroCounts.length - 1]])]
+  : [1];
 ---
 
 <Base
@@ -101,6 +112,7 @@ const virtual = [...rawVirtual].sort((a, b) => a.name.localeCompare(b.name));
         ))}
       </g>
     </svg>
+    <MapLegend counts={legendCounts} />
   </figure>
 
   <section class="mt-10 border-t border-rule pt-6">

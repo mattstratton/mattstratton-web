@@ -4,6 +4,8 @@ import { geoNaturalEarth1, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import Base from '../layouts/Base.astro';
 import world from '../assets/world-110m.json';
+import { buildMapData, type EventInput, type TalkInput } from '../lib/map-data';
+import { tagsFor, tagBySlug } from '../lib/tags';
 
 // "Where I've spoken" — a static, fully-owned SVG dot-map. The world geometry is
 // committed (src/assets/world-110m.json, public-domain Natural Earth), projected
@@ -22,43 +24,39 @@ const countryPaths = (land.features as any[])
   .map((f) => toPath(f))
   .filter((d): d is string => Boolean(d));
 
-// Talk count per event, to size the dots.
-const talks = await getCollection('talks');
-const talkCount = new Map<string, number>();
-for (const t of talks) {
-  if (t.data.event) talkCount.set(t.data.event.id, (talkCount.get(t.data.event.id) ?? 0) + 1);
-}
+const eventEntries = await getCollection('events');
+const talkEntries = await getCollection('talks');
 
-// Project each geocoded event to an [x, y] dot.
-const events = await getCollection('events');
-const points = events
-  .filter((e) => typeof e.data.latitude === 'number' && typeof e.data.longitude === 'number')
-  .map((e) => {
-    const xy = projection([e.data.longitude as number, e.data.latitude as number]);
-    if (!xy) return null;
-    const count = talkCount.get(e.id) ?? 0;
-    return {
-      x: xy[0],
-      y: xy[1],
-      r: 3 + Math.sqrt(count),
-      name: e.data.name,
-      location: e.data.location ?? '',
-      href: `/event/${e.data.notistEventId.toLowerCase()}`,
-    };
-  })
-  .filter((p): p is NonNullable<typeof p> => p !== null)
-  .sort((a, b) => b.y - a.y); // draw northern dots last so they sit on top
+const events: EventInput[] = eventEntries.map((e) => ({
+  id: e.id,
+  notistEventId: e.data.notistEventId,
+  name: e.data.name,
+  location: e.data.location,
+  date: e.data.date,
+  latitude: e.data.latitude,
+  longitude: e.data.longitude,
+}));
+const talks: TalkInput[] = talkEntries.map((t) => ({
+  notistSlug: t.data.notistSlug,
+  eventId: t.data.event?.id,
+}));
 
+const {
+  points: rawPoints,
+  virtual: rawVirtual,
+  years,
+  tags,
+} = buildMapData(events, talks, {
+  project: (lonLat) => projection(lonLat),
+  tagsFor,
+  tagBySlug,
+});
+
+// Draw northern dots last so they sit on top of overlapping southern ones.
+const points = [...rawPoints].sort((a, b) => b.y - a.y);
 // Alphabetized list for the accessible text fallback / index below the map.
-const list = [...points].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
-
-// Events without coordinates are online/virtual (they carry location "Virtual",
-// see content.config.ts) — they can't sit on a geographic map. List them
-// separately so the page reflects all the speaking, not just the mappable part.
-const virtual = events
-  .filter((e) => typeof e.data.latitude !== 'number' || typeof e.data.longitude !== 'number')
-  .map((e) => ({ name: e.data.name, href: `/event/${e.data.notistEventId.toLowerCase()}` }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+const list = [...rawPoints].sort((a, b) => (a.location || a.name).localeCompare(b.location || b.name));
+const virtual = [...rawVirtual].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <Base

@@ -69,6 +69,23 @@ test('buildMapData drops a point whose projection returns null, without treating
   assert.equal(virtual.length, 0);
 });
 
+test('buildMapData does not leak year/tags from unplottable events into facet lists', () => {
+  const eventWithCoords: EventInput = { ...MELBOURNE, id: 'unplottable-event', date: new Date('2023-06-15T00:00:00') };
+  const talks: TalkInput[] = [{ notistSlug: 'talk-a', eventId: 'unplottable-event' }];
+  const registry: Record<string, TagInfo> = {
+    kubernetes: { name: 'Kubernetes', kind: 'tech', slug: 'kubernetes', count: 1 },
+  };
+  const { points, virtual, years, tags } = buildMapData([eventWithCoords], talks, {
+    project: () => null, // projection fails for this event
+    tagsFor: () => ['Kubernetes'],
+    tagBySlug: (slug) => registry[slug],
+  });
+  assert.equal(points.length, 0);
+  assert.equal(virtual.length, 0);
+  assert.deepEqual(years, []); // 2023 should NOT be in years
+  assert.deepEqual(tags.map((t) => t.slug), []); // kubernetes should NOT be in tags
+});
+
 test('buildMapData counts talks per event via the event reference', () => {
   const talks: TalkInput[] = [
     { notistSlug: 'talk-a', eventId: '0SaoHZ' },

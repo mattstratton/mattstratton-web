@@ -81,14 +81,14 @@ export function buildMapData(events: EventInput[], talks: TalkInput[], options: 
     const count = talkCount.get(e.id) ?? 0;
     const tags = [...(tagSlugsByEvent.get(e.id) ?? [])];
     const year = e.date ? e.date.getFullYear() : null;
-    if (year !== null) yearSet.add(year);
-    for (const s of tags) tagSlugSet.add(s);
     const href = `/event/${e.notistEventId.toLowerCase()}`;
     const hasCoords = typeof e.latitude === 'number' && typeof e.longitude === 'number';
 
     if (hasCoords) {
       const xy = project([e.longitude as number, e.latitude as number]);
       if (!xy) continue; // unplottable projection artifact — drop silently, matches prior behavior
+      if (year !== null) yearSet.add(year);
+      for (const s of tags) tagSlugSet.add(s);
       points.push({
         id: e.id,
         x: xy[0],
@@ -102,6 +102,8 @@ export function buildMapData(events: EventInput[], talks: TalkInput[], options: 
         tags,
       });
     } else {
+      if (year !== null) yearSet.add(year);
+      for (const s of tags) tagSlugSet.add(s);
       virtual.push({ id: e.id, name: e.name, href, year, tags });
     }
   }

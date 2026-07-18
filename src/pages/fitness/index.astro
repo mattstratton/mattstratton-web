@@ -28,9 +28,16 @@ const mainLifts = MAIN_LIFTS.map((name) => ({
 const recent = workouts.slice(0, 5);
 
 const fmtDate = (iso: string) =>
-  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
 const fmtDateTime = (iso: string) =>
-  new Date(iso).toLocaleString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  new Date(iso).toLocaleString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZone: 'America/Chicago',
+  });
 const fmtDuration = (seconds: number) => `${Math.round(seconds / 60)} min`;
 const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
 

@@ -44,7 +44,9 @@ export function groupWorkoutsByYear(workouts: ParsedWorkout[]): [number, ParsedW
   const sorted = [...workouts].sort((a, b) => b.date.localeCompare(a.date));
   const years = new Map<number, ParsedWorkout[]>();
   for (const w of sorted) {
-    const year = new Date(w.date).getUTCFullYear();
+    const year = Number(
+      new Intl.DateTimeFormat('en-US', { year: 'numeric', timeZone: 'America/Chicago' }).format(new Date(w.date)),
+    );
     if (!years.has(year)) years.set(year, []);
     years.get(year)!.push(w);
   }

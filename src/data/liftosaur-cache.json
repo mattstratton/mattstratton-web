@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-07-26T17:31:17.933Z",
+  "fetchedAt": "2026-07-27T14:32:45.578Z",
   "records": [
+    {
+      "id": 1785154031253,
+      "text": "2026-07-27 12:07:11 +00:00 / program: \"Hotel Travel Week\" / dayName: \"Day 1: Hotel Full Body\" / week: 1 / dayInWeek: 1 / duration: 844s / exercises: {\n  Bench Press, Dumbbell / 1x10 30lb, 2x10 35lb / warmup: 1x8 20lb / target: 3x10-12 40lb\n  Overhead Press, Dumbbell / 3x10 20lb / warmup: 1x10 15lb / target: 3x10-12 25lb\n  Triceps Extension / 1x10 30lb, 2x12 35lb / target: 3x12-15 30lb\n}"
+    },
     {
       "id": 1785079782697,
       "text": "2026-07-26 15:29:42 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 5241s / exercises: {\n  Squat / 2x5 187.5lb, 1x6 187.5lb / warmup: 1x5 45lb, 1x5 92.5lb, 1x5 150lb / target: 2x5 187.5lb, 1x5+ 187.5lb\n  Bench Press / 4x8 105lb / warmup: 1x5 82.5lb / target: 4x8 105lb\n  Lat Pulldown / 4x12 93.75lb / target: 3x12 93.75lb 90s, 1x12+ 93.75lb 90s\n  Triceps Pushdown / 3x12 32.5lb, 1x18 32.5lb / target: 3x12 32.5lb 90s, 1x12+ 32.5lb 90s\n}"

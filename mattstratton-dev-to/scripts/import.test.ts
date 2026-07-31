@@ -8,6 +8,7 @@ import {
   buildMarkdown,
   getTrackedIds,
   isParseableFrontMatter,
+  normalizeTags,
   type DevToArticle,
 } from './import.js'
 
@@ -52,6 +53,61 @@ tags: PostgreSQL,Extensions
 
 Body content with colon in title.`,
 }
+
+// dev.to writes tags as a comma-separated string in the front matter it stores inside
+// body_markdown. Unlike articleWithColonInTitle, this block is valid YAML, so it actually
+// reaches the `existing.tags` branch instead of falling back to the API's tag_list array.
+const articleWithCommaSeparatedTags: DevToArticle = {
+  ...sampleArticle,
+  id: 55555,
+  slug: 'comma-tags',
+  tag_list: ['fallback'],
+  body_markdown: `---
+title: "Comma Tags"
+published: true
+tags: devops, ai, webdev, cicd
+---
+
+Body content here.`,
+}
+
+// dev.to's stored front matter can carry an empty tag list even when the live article
+// has real tags (tags edited in the web UI after the body was last saved).
+const articleWithEmptyStoredTags: DevToArticle = {
+  ...sampleArticle,
+  id: 44444,
+  slug: 'empty-stored-tags',
+  tag_list: ['infosec', 'privacy', 'security'],
+  body_markdown: `---
+title: "Empty Stored Tags"
+published: true
+tags: []
+---
+
+Body content here.`,
+}
+
+describe('normalizeTags', () => {
+  it('splits a comma-separated string into trimmed tags', () => {
+    expect(normalizeTags('devops, ai, webdev, cicd')).toEqual(['devops', 'ai', 'webdev', 'cicd'])
+  })
+
+  it('passes an array through, trimming and dropping blanks', () => {
+    expect(normalizeTags([' go ', '', 'postgres'])).toEqual(['go', 'postgres'])
+  })
+
+  it('returns undefined for nullish, empty, and whitespace-only input', () => {
+    expect(normalizeTags(null)).toBeUndefined()
+    expect(normalizeTags(undefined)).toBeUndefined()
+    expect(normalizeTags([])).toBeUndefined()
+    expect(normalizeTags('')).toBeUndefined()
+    expect(normalizeTags('  ,  ')).toBeUndefined()
+  })
+
+  it('does not slice a string by character (the tag-truncation regression)', () => {
+    expect(normalizeTags('devops, ai, webdev, cicd')).not.toContain('devo')
+  })
+})
 
 describe('buildFrontMatter', () => {
   it('injects id from article', () => {
@@ -99,6 +155,27 @@ describe('buildFrontMatter', () => {
     const fm = buildFrontMatter(articleWithExistingFrontMatter)
     // articleWithExistingFrontMatter has tags: [go, postgres] in its body_markdown front matter
     expect((fm.tags as string[])).toEqual(['go', 'postgres'])
+  })
+
+  it('parses a comma-separated tags string from body_markdown into an array', () => {
+    const fm = buildFrontMatter(articleWithCommaSeparatedTags)
+    expect(fm.tags).toEqual(['devops', 'ai', 'webdev', 'cicd'])
+  })
+
+  it('still caps a comma-separated tags string at 4 tags', () => {
+    const article: DevToArticle = {
+      ...articleWithCommaSeparatedTags,
+      body_markdown: articleWithCommaSeparatedTags.body_markdown.replace(
+        'tags: devops, ai, webdev, cicd',
+        'tags: a, b, c, d, e'
+      ),
+    }
+    expect(buildFrontMatter(article).tags).toEqual(['a', 'b', 'c', 'd'])
+  })
+
+  it('falls back to API tag_list when stored front matter has an empty tag list', () => {
+    const fm = buildFrontMatter(articleWithEmptyStoredTags)
+    expect(fm.tags).toEqual(['infosec', 'privacy', 'security'])
   })
 
   it('does not throw when body_markdown front matter has an unquoted colon in title', () => {

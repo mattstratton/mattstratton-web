@@ -2,7 +2,11 @@
 title: Matt’s Favorite Visual Studio Code Extensions
 published: true
 description: 'Back in October, I decided I was going to “force” myself to use Visual Studio Code as my only edito...'
-tags: text
+tags:
+  - vscode
+  - texteditor
+  - productivity
+  - tooling
 canonical_url: 'https://medium.com/@mattstratton/matts-favorite-visual-studio-code-extensions-49a92752c350'
 id: 14832
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/yk4fe26q692ojchvq5vy.png'

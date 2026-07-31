@@ -2,7 +2,11 @@
 title: Configuring Chef Automate to Trigger PagerDuty Alerts
 published: true
 description: 'Wouldn’t it be great if we could generate an incident when our systems fell out of compliance? By combining Chef Automate and PagerDuty, through simple webhooks, we can absolutely do this.'
-tags: devo
+tags:
+  - devops
+  - chef
+  - pagerduty
+  - compliance
 canonical_url: 'https://medium.com/@mattstratton/configuring-chef-automate-to-trigger-pagerduty-alerts-823a1fab9402'
 id: 14911
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/nu9w2mn75pccnkloaw8b.png'

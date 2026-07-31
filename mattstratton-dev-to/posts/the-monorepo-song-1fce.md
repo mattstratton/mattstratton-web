@@ -2,7 +2,10 @@
 title: The Monorepo Song
 published: true
 description: Because a dev with root access is like a mule with a spinning wheel
-tags: humo
+tags:
+  - humor
+  - devops
+  - monorepo
 canonical_url: 'https://www.mattstratton.com/writing/the-monorepo-song/'
 id: 251917
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/1gwecfd4ed3nf07pjlee.jpg'

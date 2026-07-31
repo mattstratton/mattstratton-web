@@ -2,7 +2,11 @@
 title: Coding Agents Are Actually Good at This One Thing
 published: true
 description: Coding agents aren't magic. But for internal tooling? They've brought back the "just build the thing" era I've been missing since Microsoft Access.
-tags: webd
+tags:
+  - ai
+  - webdev
+  - productivity
+  - devtools
 canonical_url: 'https://www.mattstratton.com/writing/coding-agents-are-actually-good-at-this-one-thing/'
 id: 3299129
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rxoya791llxf4y6v2c81.png'

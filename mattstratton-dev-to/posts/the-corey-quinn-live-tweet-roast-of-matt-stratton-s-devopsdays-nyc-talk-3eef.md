@@ -2,7 +2,11 @@
 title: The Corey Quinn Live-Tweet Roast of Matt Stratton's DevOpsDays NYC talk
 published: true
 description: 'Infamous cloud influencer Corey Quinn live-tweets Matt Stratton''s talk from DevOpsDays NYC 2020, in a good-natured "roast" format.'
-tags: humo
+tags:
+  - humor
+  - devops
+  - twitter
+  - publicspeaking
 canonical_url: 'https://dev.to/mattstratton/the-corey-quinn-live-tweet-roast-of-matt-stratton-s-devopsdays-nyc-talk-3eef'
 id: 292357
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/i/5kgr2mooiqyo7mn0ymkl.png'

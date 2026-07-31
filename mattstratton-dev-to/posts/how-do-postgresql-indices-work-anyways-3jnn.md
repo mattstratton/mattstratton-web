@@ -2,7 +2,11 @@
 title: 'How Do PostgreSQL Indices Work, Anyways?'
 published: true
 description: 'You''ve created hundreds of indexes but do you know what''s actually happening underneath? B-tree internals, page splits, MVCC bloat, and the diagnostic queries to see it all for yourself.'
-tags: post
+tags:
+  - postgres
+  - database
+  - sql
+  - performance
 canonical_url: 'https://dev.to/tigerdata/how-do-postgresql-indices-work-anyways-3jnn'
 id: 3364185
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4ohbx1ve78ttegal7iw.png'

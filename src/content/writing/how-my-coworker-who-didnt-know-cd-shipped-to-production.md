@@ -180,6 +180,6 @@ Second, a correction on the opener. Tanya is not the only other person shipping 
 
 Airtable, it's been real. Tiger Den is better. Tanya is proof.
 
-*Follow-up, July 2026: everything above is the merge gate — what keeps garbage off `main`. There's a second gate after it, between "merged" and "live," and skipping that one will wreck your week in an entirely different way. [That's the other half.](/writing/decouple-release-from-deploy/)*
+*Follow-up, July 2026: everything above is the merge gate; what keeps garbage off `main`. There's a second gate after it, between "merged" and "live," and skipping that one will wreck your week in an entirely different way. [That's the other half.](/writing/decouple-release-from-deploy/)*
 
 *This post was reviewed and approved by Tanya before publishing. Zero AI agent skills involved.*

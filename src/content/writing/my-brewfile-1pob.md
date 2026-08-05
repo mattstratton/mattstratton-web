@@ -6,6 +6,7 @@ topics:
   - homebrew
 draft: false
 heroImage: /writing/my-brewfile-1pob/e2bcvnrx9shjhpqfy8l5.png
+heroInBody: true
 ---
 
 ![](/writing/my-brewfile-1pob/e2bcvnrx9shjhpqfy8l5.png)

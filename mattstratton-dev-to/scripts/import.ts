@@ -59,6 +59,19 @@ export function isParseableFrontMatter(markdown: string): boolean {
   }
 }
 
+// dev.to's own stored front matter (the block inside `body_markdown`) writes tags as a
+// comma-separated *string* — `tags: devops, ai, webdev, cicd` — while the API's `tag_list`
+// field is a real array. Slicing before normalizing therefore sliced a string by character,
+// silently turning four tags into a four-letter fragment (`devops, ai, webdev, cicd` -> `devo`).
+// Returns undefined rather than [] for no usable tags, so callers can `??` through to the next
+// source: an empty `tags: []` in dev.to's stored front matter must not shadow real API tags.
+export function normalizeTags(value: unknown): string[] | undefined {
+  if (value == null) return undefined
+  const raw = Array.isArray(value) ? value.map((t) => String(t)) : String(value).split(',')
+  const tags = raw.map((t) => t.trim()).filter((t) => t.length > 0)
+  return tags.length > 0 ? tags : undefined
+}
+
 export function buildFrontMatter(article: DevToArticle): Record<string, unknown> {
   const { data: existing } = parseBodyMarkdown(article.body_markdown)
 
@@ -66,7 +79,7 @@ export function buildFrontMatter(article: DevToArticle): Record<string, unknown>
     title: existing.title ?? article.title,
     published: true,
     description: existing.description ?? article.description,
-    tags: (existing.tags as string[] | undefined)?.slice(0, 4) ?? article.tag_list.slice(0, 4),
+    tags: (normalizeTags(existing.tags) ?? normalizeTags(article.tag_list) ?? []).slice(0, 4),
     canonical_url:
       existing.canonical_url ??
       article.canonical_url ??

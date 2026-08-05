@@ -2,7 +2,11 @@
 title: Why I'm Learning ROS 2 as a Database Person
 published: true
 description: There's no real story for storing and querying ROS 2 telemetry at fleet scale. I'm going to build one and document everything I get wrong along the way.
-tags: ros2
+tags:
+  - ros2
+  - robotics
+  - timeseries
+  - database
 canonical_url: 'https://dev.to/mattstratton/why-im-learning-ros-2-as-a-database-person-3cce'
 id: 3597694
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i1abng8j0w47hwi1z2x4.png'

@@ -2,7 +2,11 @@
 title: How My Coworker Who Didn't Know 'cd' Shipped to Production
 published: true
 description: The agent isn't the hard part. The scaffolding around it is. Here's how we built ours so a non-engineer could ship to production safely.
-tags: webd
+tags:
+  - ai
+  - webdev
+  - productivity
+  - devtools
 canonical_url: 'https://www.mattstratton.com/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/'
 id: 3542818
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/huq5hzde2dcbh58cle1i.png'
@@ -176,5 +180,7 @@ First, a callback to [Guilherme](https://dev.to/theminimalcreator/comment/3544p)
 Second, a correction on the opener. Tanya is not the only other person shipping code to Tiger Den. A few other folks have been committing too. I made her the hero because her two-week arc was the cleanest story. Apologies to the rest of the team for the dramatic license.
 
 Airtable, it's been real. Tiger Den is better. Tanya is proof.
+
+*Follow-up, July 2026: everything above is the merge gate; what keeps garbage off `main`. There's a second gate after it, between "merged" and "live," and skipping that one will wreck your week in an entirely different way. [That's the other half.](https://dev.to/mattstratton/your-agent-didnt-break-prod-your-pipeline-did-4g9o)*
 
 *This post was reviewed and approved by Tanya before publishing. Zero AI agent skills involved.*

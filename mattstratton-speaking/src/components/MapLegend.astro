@@ -1,0 +1,25 @@
+---
+// Explains the map's dot-size encoding: a few representative talk counts,
+// each drawn at its real dotRadius() so it visually matches the map exactly.
+import { dotRadius } from '../lib/map-data';
+
+interface Props {
+  counts: number[];
+}
+const { counts } = Astro.props;
+---
+
+<figcaption class="mt-3 flex flex-wrap items-center gap-4">
+  {counts.map((count) => {
+    const r = dotRadius(count);
+    const size = Math.ceil(r * 2 + 4);
+    return (
+      <span class="label normal-case tracking-normal flex items-center gap-1.5 text-ink-soft">
+        <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
+          <circle cx={size / 2} cy={size / 2} r={r} class="fill-accent/60" />
+        </svg>
+        {count} talk{count === 1 ? '' : 's'}
+      </span>
+    );
+  })}
+</figcaption>

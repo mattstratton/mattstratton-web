@@ -1,7 +1,7 @@
 name: Publish to dev.to
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths: ["mattstratton-dev-to/posts/**/*.md"]
 permissions:
   contents: write
@@ -18,5 +18,5 @@ jobs:
           devto_key: ${{ secrets.DEVTO_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           files: "mattstratton-dev-to/posts/**/*.md"
-          branch: master
+          branch: main
           conventional_commits: true

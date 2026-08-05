@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/product-101-your-secret-weapon-for-understanding-the-business/yul3alsercwqflrzkk8m.png
+heroInBody: true
 ---
 
 ![](/writing/product-101-your-secret-weapon-for-understanding-the-business/yul3alsercwqflrzkk8m.png)

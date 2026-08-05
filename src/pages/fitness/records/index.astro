@@ -9,7 +9,7 @@ const workouts = sortedWorkouts(entries);
 const prs = computePersonalRecords(workouts).sort((a, b) => a.exercise.localeCompare(b.exercise));
 
 const fmtDate = (iso: string) =>
-  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
 const fmtSet = (reps: number, weight: number, unit: string) => `${reps}×${weight}${unit}`;
 ---
 

@@ -2,7 +2,8 @@
 title: Product-Led Growth and What It Means for DevRel
 published: true
 description: 'Product-Led Growth changes everything for DevRel. Learn how PLG works, why it matters for developer tools, and how DevRel becomes essential infrastructure.'
-tags: devr
+tags:
+  - devrel
 canonical_url: 'https://www.mattstratton.com/writing/product-led-growth-and-what-it-means-for-devrel/'
 id: 2969631
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6sijn10fab2fuftqg2j.png'

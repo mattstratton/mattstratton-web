@@ -9,6 +9,7 @@ topics:
   - cicd
 draft: false
 heroImage: /writing/decouple-release-from-deploy/decouple-release-from-deploy-cover.png
+heroInBody: true
 ---
 
 ![](/writing/decouple-release-from-deploy/decouple-release-from-deploy-cover.png)

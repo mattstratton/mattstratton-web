@@ -6,6 +6,7 @@ topics:
   - public-speaking
 draft: false
 heroImage: /writing/dont-fear-the-cfp/jf16mw214n6h8zpwnz12.png
+heroInBody: true
 ---
 
 ![](/writing/dont-fear-the-cfp/jf16mw214n6h8zpwnz12.png)

@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   const workouts = sortedWorkouts(entries);
   const prs = computePersonalRecords(workouts);
   const fmtDate = (iso: string) =>
-    new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
   return prs.map((pr) => ({
     params: { slug: slugify(pr.exercise) },
     props: { title: pr.exercise, subtitle: `PR: ${pr.reps}×${pr.weight}${pr.unit} on ${fmtDate(pr.date)}` },

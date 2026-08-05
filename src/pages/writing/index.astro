@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Newsletter from '../../components/Newsletter.astro';
+import ThumbnailCard from '../../components/ThumbnailCard.astro';
 import { buildFieldGuide, collectTopics, type GuideItem } from '../../lib/writing';
 
 const writingEntries = await getCollection('writing');
@@ -36,12 +37,15 @@ const topics = collectTopics(writingEntries);
             <a
               href={item.href}
               rel={item.external ? 'noopener' : undefined}
-              class="group block border-b border-rule py-4 transition-colors hover:bg-panel"
+              class="group flex items-start gap-4 border-b border-rule py-4 transition-colors hover:bg-panel"
             >
-              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
-                {item.title}{item.external && <span class="label ml-2 align-middle normal-case tracking-normal text-ink-soft">tigerdata.com ↗</span>}
-              </h3>
-              <p class="mt-1 text-ink-soft">{item.description}</p>
+              <ThumbnailCard src={item.image} />
+              <div class="min-w-0">
+                <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">
+                  {item.title}{item.external && <span class="label ml-2 align-middle normal-case tracking-normal text-ink-soft">tigerdata.com ↗</span>}
+                </h3>
+                <p class="mt-1 text-ink-soft">{item.description}</p>
+              </div>
             </a>
           </li>
         ))}
@@ -55,9 +59,12 @@ const topics = collectTopics(writingEntries);
       <ul class="mt-4">
         {ungrouped.map((item: GuideItem) => (
           <li>
-            <a href={item.href} class="group block border-b border-rule py-4 transition-colors hover:bg-panel">
-              <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{item.title}</h3>
-              <p class="mt-1 text-ink-soft">{item.description}</p>
+            <a href={item.href} class="group flex items-start gap-4 border-b border-rule py-4 transition-colors hover:bg-panel">
+              <ThumbnailCard src={item.image} />
+              <div class="min-w-0">
+                <h3 class="font-display text-lg font-medium decoration-accent-bright decoration-2 underline-offset-4 group-hover:underline">{item.title}</h3>
+                <p class="mt-1 text-ink-soft">{item.description}</p>
+              </div>
             </a>
           </li>
         ))}

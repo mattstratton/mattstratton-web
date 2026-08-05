@@ -2,7 +2,10 @@
 title: From Cooking Up Delight To The Gospel of Incident Resolution
 published: true
 description: I just remembered that it’s compulsory to write a blog post when you change jobs. This is mine. If yo...
-tags: care
+tags:
+  - career
+  - jobs
+  - devops
 canonical_url: 'https://medium.com/@mattstratton/from-cooking-up-delight-to-the-gospel-of-incident-resolution-fbf6c5ec816a'
 id: 14504
 cover_image: 'https://thepracticaldev.s3.amazonaws.com/i/7nvfcnwndooi04qdabls.jpg'

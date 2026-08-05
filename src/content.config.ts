@@ -25,6 +25,9 @@ const writing = defineCollection({
     // Set when the canonical version lives elsewhere (e.g. a tigerdata.com cross-post).
     canonicalUrl: z.string().url().optional(),
     heroImage: z.string().optional(),
+    // True when heroImage also appears inline in the body (legacy crossposts that
+    // embedded the cover directly) — WritingLayout then skips the top hero.
+    heroInBody: z.boolean().default(false),
   }),
 });
 

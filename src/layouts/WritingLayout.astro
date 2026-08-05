@@ -41,6 +41,16 @@ const updated = d.updatedDate?.toLocaleDateString('en-US', { year: 'numeric', mo
       )}
     </header>
 
+    {d.heroImage && !d.heroInBody && (
+      <img
+        src={d.heroImage}
+        alt={d.title}
+        loading="eager"
+        decoding="async"
+        class="mt-8 aspect-video w-full rounded-sm object-cover ring-1 ring-rule"
+      />
+    )}
+
     <div class="prose prose-lg mt-8 max-w-none">
       <slot />
     </div>

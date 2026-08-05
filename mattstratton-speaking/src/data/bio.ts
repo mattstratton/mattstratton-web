@@ -10,10 +10,10 @@ export const role = 'Head of Developer Advocacy & Docs, Tiger Data';
 export const pronouns = 'he/him';
 
 export const socials = [
-  { label: 'Mastodon', url: 'https://hachyderm.io/@mattstratton' },
-  { label: 'GitHub', url: 'https://github.com/mattstratton' },
-  { label: 'Arrested DevOps', url: 'https://www.arresteddevops.com/' },
-  { label: 'mattstratton.com', url: 'https://mattstratton.com' },
+  { label: 'Mastodon', url: 'https://hachyderm.io/@mattstratton', icon: 'simple-icons:mastodon' },
+  { label: 'GitHub', url: 'https://github.com/mattstratton', icon: 'simple-icons:github' },
+  { label: 'Arrested DevOps', url: 'https://www.arresteddevops.com/', icon: 'lucide:mic' },
+  { label: 'mattstratton.com', url: 'https://mattstratton.com', icon: 'lucide:globe' },
 ];
 
 export const bios = {

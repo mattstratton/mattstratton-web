@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/zjpxkzku5xlxg42qlq49.png
+heroInBody: true
 ---
 
 ![](/writing/sales-101-what-your-sales-team-does-and-how-devrel-fits-in/zjpxkzku5xlxg42qlq49.png)

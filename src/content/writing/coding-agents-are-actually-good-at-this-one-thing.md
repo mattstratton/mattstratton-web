@@ -6,6 +6,7 @@ topics:
   - webdev
 draft: false
 heroImage: /writing/coding-agents-are-actually-good-at-this-one-thing/rxoya791llxf4y6v2c81.png
+heroInBody: true
 ---
 
 ![](/writing/coding-agents-are-actually-good-at-this-one-thing/rxoya791llxf4y6v2c81.png)

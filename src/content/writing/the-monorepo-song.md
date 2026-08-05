@@ -6,6 +6,7 @@ topics:
   - humor
 draft: false
 heroImage: /writing/the-monorepo-song/1gwecfd4ed3nf07pjlee.jpg
+heroInBody: true
 ---
 
 ![](/writing/the-monorepo-song/1gwecfd4ed3nf07pjlee.jpg)

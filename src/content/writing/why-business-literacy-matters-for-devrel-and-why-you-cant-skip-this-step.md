@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/558ps6yn849q6cvqoiyz.png
+heroInBody: true
 ---
 
 ![](/writing/why-business-literacy-matters-for-devrel-and-why-you-cant-skip-this-step/558ps6yn849q6cvqoiyz.png)

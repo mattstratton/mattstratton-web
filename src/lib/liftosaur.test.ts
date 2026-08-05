@@ -201,9 +201,9 @@ test('sortedWorkouts maps collection entries to ParsedWorkout, newest first', ()
 
 test('groupWorkoutsByYear groups by year, descending, workouts newest first within a year', () => {
   const workouts = [
-    workout('2025-03-01T00:00:00.000Z', 'Squat', [[5, 100]]),
-    workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 110]]),
-    workout('2025-01-01T00:00:00.000Z', 'Squat', [[5, 90]]),
+    workout('2025-03-01T12:00:00.000Z', 'Squat', [[5, 100]]),
+    workout('2026-01-01T12:00:00.000Z', 'Squat', [[5, 110]]),
+    workout('2025-01-01T12:00:00.000Z', 'Squat', [[5, 90]]),
   ];
   const grouped = groupWorkoutsByYear(workouts);
   assert.deepEqual(
@@ -212,7 +212,17 @@ test('groupWorkoutsByYear groups by year, descending, workouts newest first with
   );
   assert.deepEqual(
     grouped[1][1].map((w) => w.date),
-    ['2025-03-01T00:00:00.000Z', '2025-01-01T00:00:00.000Z'],
+    ['2025-03-01T12:00:00.000Z', '2025-01-01T12:00:00.000Z'],
+  );
+});
+
+test('groupWorkoutsByYear uses the America/Chicago calendar day, not UTC, for the year boundary', () => {
+  // Midnight UTC on Jan 1 is still Dec 31 evening in America/Chicago.
+  const workouts = [workout('2026-01-01T00:00:00.000Z', 'Squat', [[5, 100]])];
+  const grouped = groupWorkoutsByYear(workouts);
+  assert.deepEqual(
+    grouped.map(([year]) => year),
+    [2025],
   );
 });
 

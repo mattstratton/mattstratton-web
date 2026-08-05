@@ -6,6 +6,7 @@ topics:
   - devops
 draft: false
 heroImage: /writing/hot-takes-myths-and-fake-news---why-everyone-is-wrong-about-devops-except-for-me/38h2hq4ti2m5uc5k79z4.png
+heroInBody: true
 ---
 
 ![](/writing/hot-takes-myths-and-fake-news---why-everyone-is-wrong-about-devops-except-for-me/38h2hq4ti2m5uc5k79z4.png)

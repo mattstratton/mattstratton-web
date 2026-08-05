@@ -8,6 +8,7 @@ topics:
   - showdev
 draft: false
 heroImage: /writing/mattstratton-com-stack/mattstratton-com-stack-cover.png
+heroInBody: true
 ---
 
 ![](/writing/mattstratton-com-stack/mattstratton-com-stack-cover.png)

@@ -6,6 +6,7 @@ topics:
   - devrel
 draft: false
 heroImage: /writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/zyg785kv0b888acwdq7l.png
+heroInBody: true
 ---
 
 ![](/writing/marketing-101-funnels-campaigns-and-what-marketing-actually-means/zyg785kv0b888acwdq7l.png)

@@ -53,6 +53,17 @@ Node **24** (see `netlify.toml`, `.nvmrc`). Netlify builds via `npm run build`, 
 
 **Redirects**: `public/_redirects` (Netlify) — vanity redirects, speaking→speaking.mattstratton.com, legacy pages→homepage anchors, old Hugo pagination, and a few edge-case taxonomy slugs.
 
+**Voice profile**: `VOICE.md` at the monorepo root describes Matt's personal
+writing voice (tone, formatting habits, vocabulary, anti-patterns, sample
+excerpts) — consult it when drafting or reviewing `writing` collection posts
+or `mattstratton-dev-to/` posts. It's optional, silent context: nothing here
+depends on it existing, and it has no runtime dependency on Tiger Den or the
+`tigerdata-marketing-skills` plugin (it's a static file, seeded once from
+those sources). Tiger Data's `content-reviewer` and other marketing-skills
+plugin skills are explicitly **not** used anywhere in this repo — they're
+scoped to Tiger Data content — though their rubric structure informed how
+`VOICE.md` is organized.
+
 **Static assets**: `public/` is served at the root path (img/, wp-content/, fav.png, CV PDF). `public/wp-content/` (76MB) holds legacy post images; ~760 are unreferenced WordPress variants and could be pruned after a careful srcset-aware audit.
 
 ## Environment variables

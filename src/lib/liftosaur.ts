@@ -117,7 +117,10 @@ export function computeEst1RMTrend(workouts: ParsedWorkout[], exerciseName: stri
 // Each exercise line's first (unlabeled) segment is the actually-completed
 // sets; "warmup:" and "target:" segments are planned/warmup data we don't
 // track for history/PRs/trends, so they're parsed out and discarded.
-const SET_GROUP_RE = /(\d+)x(\d+)\+?\s+([\d.]+)(lb|kg)/g;
+// `\d+\|\d+` after the rep count is Liftosaur's per-side rep notation for
+// unilateral exercises (e.g. "3x12|12 20lb" = 3 sets of 12 reps each side);
+// both sides are always equal in practice, so the left value is used as reps.
+const SET_GROUP_RE = /(\d+)x(\d+)(?:\|\d+)?\+?\s+([\d.]+)(lb|kg)/g;
 
 function parseSets(segment: string): WorkoutSet[] {
   const sets: WorkoutSet[] = [];
@@ -150,7 +153,11 @@ export function parseWorkoutText(id: number, text: string): ParsedWorkout {
   const exercisesMatch = text.match(/exercises: \{\n([\s\S]*)\n\}/);
 
   const date = dateMatch ? new Date(`${dateMatch[1].replace(' ', 'T')}${dateMatch[2]}`).toISOString() : '';
-  const exerciseLines = exercisesMatch ? exercisesMatch[1].split('\n').filter((l) => l.trim()) : [];
+  // Liftosaur lets you interleave free-text `// note` lines with exercises in
+  // the log (e.g. "// One arm at a time") — not exercise data, so drop them.
+  const exerciseLines = exercisesMatch
+    ? exercisesMatch[1].split('\n').filter((l) => l.trim() && !l.trim().startsWith('//'))
+    : [];
 
   return {
     id: String(id),

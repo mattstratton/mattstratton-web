@@ -73,6 +73,34 @@ test('parseWorkoutText handles an exercise line with no warmup segment', () => {
   ]);
 });
 
+test('parseWorkoutText handles per-side rep notation (unilateral exercises)', () => {
+  const unilateralText =
+    '2026-08-14 20:24:06 +00:00 / program: "P" / dayName: "D" / week: 1 / dayInWeek: 4 / duration: 60s / exercises: {\n' +
+    '  Incline Curl / 3x12|12 20lb, 1x9|9 20lb / target: 3x12 20lb 90s, 1x12+ 20lb 90s\n' +
+    '}';
+  const w = parseWorkoutText(1, unilateralText);
+  assert.deepEqual(w.exercises[0].sets, [
+    { reps: 12, weight: 20, unit: 'lb' },
+    { reps: 12, weight: 20, unit: 'lb' },
+    { reps: 12, weight: 20, unit: 'lb' },
+    { reps: 9, weight: 20, unit: 'lb' },
+  ]);
+});
+
+test('parseWorkoutText skips inline // note lines, not treating them as exercises', () => {
+  const notedText =
+    '2026-08-12 20:24:06 +00:00 / program: "P" / dayName: "D" / week: 1 / dayInWeek: 3 / duration: 60s / exercises: {\n' +
+    '  Squat / 8x8 175lb / target: 8x8 175lb\n' +
+    '  // J cup at 12\n' +
+    '  Bent Over Row / 4x12 75lb / target: 4x12 75lb\n' +
+    '}';
+  const w = parseWorkoutText(1, notedText);
+  assert.deepEqual(
+    w.exercises.map((e) => e.name),
+    ['Squat', 'Bent Over Row'],
+  );
+});
+
 test('parseWorkoutText handles kg units', () => {
   const kgText =
     '2026-01-01 00:00:00 +00:00 / program: "P" / dayName: "D" / week: 1 / dayInWeek: 1 / duration: 60s / exercises: {\n' +

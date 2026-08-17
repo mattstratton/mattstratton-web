@@ -18,7 +18,7 @@ I went to publish something about the database behind my personal health tracker
 
 Not wildly wrong. Wrong in the quiet way, where the conclusion still holds and the reasoning under it has rotted. Every single one had the same cause: I measured something adjacent to the thing I cared about, wrote the result into a comment, and then the comment outlived my memory of where the number came from.
 
-The setup, briefly. Ten years of Apple Health data plus two and a half years of lifting, [on SQLite until it lost data twice](https://dev.to/mattstratton/the-past-keeps-changing-3eg8) and on TimescaleDB since. 73,210 Reports across 81 metrics in a 30 MB database, and the [repo is public](https://github.com/mattstratton/mattstratton-fitness-tracker). That last part is why this was worth a day of anyone's time: a wrong number in a public schema comment is a wrong number somebody else might trust.
+The setup, briefly. Ten years of Apple Health data plus two and a half years of lifting, [on SQLite until it lost data twice](https://dev.to/mattstratton/the-past-keeps-changing-235g) and on TimescaleDB since. 73,210 Reports across 81 metrics in a 30 MB database, and the [repo is public](https://github.com/mattstratton/mattstratton-fitness-tracker). That last part is why this was worth a day of anyone's time: a wrong number in a public schema comment is a wrong number somebody else might trust.
 
 Five of them, roughly in order of how badly the arithmetic was wrong. The last one is barely wrong at all and is by some distance the one that should worry you.
 
@@ -164,4 +164,4 @@ It's the engineering equivalent of labelling your leftovers, and the only reason
 
 ---
 
-Companion pieces: [The past keeps changing](https://dev.to/mattstratton/the-past-keeps-changing-3eg8) is the argument this project exists to make, about data that revises itself and why upsert makes that unfalsifiable. [Don't give the model SQL](https://dev.to/mattstratton/dont-give-the-model-sql-3h3h) is about the app on top of it.
+Companion pieces: [The past keeps changing](https://dev.to/mattstratton/the-past-keeps-changing-235g) is the argument this project exists to make, about data that revises itself and why upsert makes that unfalsifiable. [Don't give the model SQL](https://dev.to/mattstratton/dont-give-the-model-sql-5h32) is about the app on top of it.

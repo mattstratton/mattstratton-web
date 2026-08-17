@@ -164,7 +164,7 @@ I couldn't have measured any of this before, because the old schema's entire des
 
 Knowing how often your data revises itself is less interesting than knowing what you can do the day it goes wrong.
 
-One evening in August my food-logging app and this site disagreed about the same day by 868 calories, both of them reading the same database. I've written up [what caused that separately](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-dkk), because it's a TimescaleDB footgun with its own set of lessons and I diagnosed it wrong the first time. What belongs here is what the diagnosis cost.
+One evening in August my food-logging app and this site disagreed about the same day by 868 calories, both of them reading the same database. I've written up [what caused that separately](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-4j34), because it's a TimescaleDB footgun with its own set of lessons and I diagnosed it wrong the first time. What belongs here is what the diagnosis cost.
 
 One query. Both Reports were sitting in the log with their timestamps on them, so I could see the number the page was serving, the number that had arrived after the page stopped looking, and the five hours between the two that explained the whole thing.
 
@@ -214,4 +214,4 @@ Get it right and most of the rest falls out.
 
 ---
 
-Two follow-ups to this one. [Every number I didn't measure was wrong](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-dkk) is the confessional: five figures in this project that I never checked against the real thing, and the cheap arithmetic that would have caught each one. [Don't give the model SQL](https://dev.to/mattstratton/dont-give-the-model-sql-3h3h) is about the app on top, and why its chat interface has thirteen typed tools instead of a query box.
+Two follow-ups to this one. [Every number I didn't measure was wrong](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-4j34) is the confessional: five figures in this project that I never checked against the real thing, and the cheap arithmetic that would have caught each one. [Don't give the model SQL](https://dev.to/mattstratton/dont-give-the-model-sql-5h32) is about the app on top, and why its chat interface has thirteen typed tools instead of a query box.

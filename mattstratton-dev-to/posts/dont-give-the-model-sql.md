@@ -17,7 +17,7 @@ date: '2026-08-17T14:20:00Z'
 
 I built a web app to answer questions about my own health data, for a reason that is embarrassingly small. I already had a perfectly good way to ask them: a Claude Code skill that queried the database and reasoned over the results. It worked well. It also can't run on Claude iOS, and the moment I actually want to ask "should I be worried about this" is standing in a kitchen at 6am, not sitting at a desk.
 
-So it lives at a URL, behind Google sign-in allowlisted to exactly one address, with the [source public](https://github.com/mattstratton/mattstratton-fitness-tracker) minus the data. It reads the TimescaleDB database I wrote about in [The Past Keeps Changing](https://dev.to/mattstratton/the-past-keeps-changing-3eg8), and it answers two different kinds of question in two deliberately different ways.
+So it lives at a URL, behind Google sign-in allowlisted to exactly one address, with the [source public](https://github.com/mattstratton/mattstratton-fitness-tracker) minus the data. It reads the TimescaleDB database I wrote about in [The Past Keeps Changing](https://dev.to/mattstratton/the-past-keeps-changing-235g), and it answers two different kinds of question in two deliberately different ways.
 
 (Obligatory: none of this is medical advice, and the thresholds in it are tuned to one person's circumstances. If you copy the rules you will get advice calibrated to somebody else's body.)
 
@@ -182,4 +182,4 @@ Which is the argument for tool shape over prompt text, arriving as a bug rather 
 
 ---
 
-The other two in this set: [The past keeps changing](https://dev.to/mattstratton/the-past-keeps-changing-3eg8) is why the storage layer under all this is append-only, and [every number I didn't measure was wrong](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-dkk) is the five figures I had to retract while writing these.
+The other two in this set: [The past keeps changing](https://dev.to/mattstratton/the-past-keeps-changing-235g) is why the storage layer under all this is append-only, and [every number I didn't measure was wrong](https://dev.to/mattstratton/every-number-i-didnt-measure-was-wrong-4j34) is the five figures I had to retract while writing these.

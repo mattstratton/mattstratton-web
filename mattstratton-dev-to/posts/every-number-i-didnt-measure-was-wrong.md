@@ -1,6 +1,6 @@
 ---
 title: Every Number I Didn't Measure Was Wrong
-published: false
+published: true
 description: 'Five claims I wrote into a schema, a README and a set of docs without ever checking them against the real thing. Three were flatly wrong, one was a mechanism I misread twice, and one was true in a way that misled me anyway.'
 tags:
   - programming

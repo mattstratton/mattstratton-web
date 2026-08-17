@@ -1,5 +1,5 @@
 ---
-title: 'Don''t Give the Model SQL'
+title: Don't Give the Model SQL
 published: false
 description: 'My health data has six traps in it that have each already produced a wrong answer. Given SQL, a model walks into all six. Told about them in a prompt, it avoids them most of the time, which is worse.'
 tags:
@@ -9,8 +9,9 @@ tags:
   - database
 cover_image: ./assets/dont-give-the-model-sql-cover.png
 crosspost: true
-series: 'Rebuilding My Health Tracker'
+series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/dont-give-the-model-sql/'
+id: 4418607
 ---
 
 I built a web app to answer questions about my own health data, for a reason that is embarrassingly small. I already had a perfectly good way to ask them: a Claude Code skill that queried the database and reasoned over the results. It worked well. It also can't run on Claude iOS, and the moment I actually want to ask "should I be worried about this" is standing in a kitchen at 6am, not sitting at a desk.

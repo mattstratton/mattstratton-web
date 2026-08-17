@@ -1,5 +1,5 @@
 ---
-title: 'Every Number I Didn''t Measure Was Wrong'
+title: Every Number I Didn't Measure Was Wrong
 published: false
 description: 'Five claims I wrote into a schema, a README and a set of docs without ever checking them against the real thing. Three were flatly wrong, one was a mechanism I misread twice, and one was true in a way that misled me anyway.'
 tags:
@@ -9,8 +9,9 @@ tags:
   - devjournal
 cover_image: ./assets/every-number-i-didnt-measure-was-wrong-cover.png
 crosspost: true
-series: 'Rebuilding My Health Tracker'
+series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/every-number-i-didnt-measure-was-wrong/'
+id: 4418605
 ---
 
 I went to publish something about the database behind my personal health tracker, and fact-checking it took a day. By the end, most of the numbers I had written down to justify that database's design had turned out to be wrong.

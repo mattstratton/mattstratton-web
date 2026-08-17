@@ -1,5 +1,5 @@
 ---
-title: 'The Past Keeps Changing'
+title: The Past Keeps Changing
 published: false
 description: 'Apple Health revises days after they have closed, and 69% of the values my pipeline has watched land changed after the day they describe was already over. Upsert made that invisible for months.'
 tags:
@@ -9,8 +9,9 @@ tags:
   - programming
 cover_image: ./assets/the-past-keeps-changing-cover.png
 crosspost: true
-series: 'Rebuilding My Health Tracker'
+series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/the-past-keeps-changing/'
+id: 4418606
 ---
 
 I moved my personal health tracker onto a time-series database this month. It holds 69,000 rows in thirty megabytes.

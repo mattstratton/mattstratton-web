@@ -1,6 +1,6 @@
 ---
 title: Don't Give the Model SQL
-published: false
+published: true
 description: 'My health data has six traps in it that have each already produced a wrong answer. Given SQL, a model walks into all six. Told about them in a prompt, it avoids them most of the time, which is worse.'
 tags:
   - ai

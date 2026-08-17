@@ -1,6 +1,6 @@
 ---
 title: The Past Keeps Changing
-published: false
+published: true
 description: 'Apple Health revises days after they have closed, and 69% of the values my pipeline has watched land changed after the day they describe was already over. Upsert made that invisible for months.'
 tags:
   - postgres

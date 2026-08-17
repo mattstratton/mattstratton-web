@@ -12,7 +12,8 @@
     "migrate": "tsx scripts/migrate-posts.ts",
     "crosspost": "tsx scripts/crosspost-devto.ts",
     "refresh-fitness-cache": "tsx scripts/update-liftosaur-cache.ts",
-    "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +"
+    "test": "find scripts src/lib -name '*.test.ts' -exec node --import tsx --test {} +",
+    "covers": "tsx scripts/make-covers.ts"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",

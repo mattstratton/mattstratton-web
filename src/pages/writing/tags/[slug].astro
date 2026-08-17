@@ -13,7 +13,10 @@ export async function getStaticPaths() {
 }
 
 const { term, items } = Astro.props;
-const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+// UTC for the same reason as WritingLayout: `pubDate` is date-only, so it
+// parses as UTC midnight and renders a day early in any western zone.
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 ---
 
 <Base title={`#${term.name} · Writing · Matty Stratton`} description={`Writing tagged ${term.name}.`}>

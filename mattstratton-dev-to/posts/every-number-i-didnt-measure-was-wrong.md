@@ -12,6 +12,7 @@ crosspost: true
 series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/every-number-i-didnt-measure-was-wrong/'
 id: 4418605
+date: '2026-08-17T14:19:59Z'
 ---
 
 I went to publish something about the database behind my personal health tracker, and fact-checking it took a day. By the end, most of the numbers I had written down to justify that database's design had turned out to be wrong.

@@ -12,6 +12,7 @@ crosspost: true
 series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/the-past-keeps-changing/'
 id: 4418606
+date: '2026-08-17T14:19:58Z'
 ---
 
 I moved my personal health tracker onto a time-series database this month. It holds 69,000 rows in thirty megabytes.

@@ -12,6 +12,7 @@ crosspost: true
 series: Rebuilding My Health Tracker
 canonical_url: 'https://www.mattstratton.com/writing/dont-give-the-model-sql/'
 id: 4418607
+date: '2026-08-17T14:20:00Z'
 ---
 
 I built a web app to answer questions about my own health data, for a reason that is embarrassingly small. I already had a perfectly good way to ask them: a Claude Code skill that queried the database and reasoned over the results. It worked well. It also can't run on Claude iOS, and the moment I actually want to ask "should I be worried about this" is standing in a kitchen at 6am, not sitting at a desk.

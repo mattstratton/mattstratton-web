@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-08-26T12:50:25.199Z",
+  "fetchedAt": "2026-08-27T21:50:16.582Z",
   "records": [
+    {
+      "id": 1787787898054,
+      "text": "2026-08-26 23:44:58 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3109s / exercises: {\n  Deadlift / 3x5 275lb / warmup: 1x5 137.5lb, 1x5 220lb / target: 2x5 275lb, 1x5+ 275lb\n  Overhead Press / 4x8 82.5lb / warmup: 1x5 45lb / target: 4x8 82.5lb\n  Lat Pulldown / 2x12 103.75lb, 1x10 103.75lb, 1x9 103.75lb / target: 3x12 103.75lb 90s, 1x12+ 103.75lb 90s\n  Incline Curl / 4x12|12 20lb / target: 3x12 20lb 90s, 1x12+ 20lb 90s\n}"
+    },
     {
       "id": 1787700938513,
       "text": "2026-08-25 23:35:38 +00:00 / program: \"GZCLP: Blacknoir version\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 5376s / exercises: {\n  Bench Press / 2x5 155lb, 1x6 155lb / warmup: 1x5 45lb, 1x5 77.5lb, 1x5 122.5lb / target: 2x5 155lb, 1x5+ 155lb\n  Squat / 4x8 185lb / warmup: 1x5 45lb, 1x5 92.5lb / target: 4x8 185lb\n  Bent Over Row / 4x12 90lb / target: 3x12 90lb 90s, 1x12+ 90lb 90s\n  Triceps Extension, EZ Bar / 3x12 45lb, 1x18 45lb / target: 3x12 40lb 90s, 1x12+ 40lb 90s\n}"

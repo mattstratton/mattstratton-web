@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-09-10T15:54:08.064Z",
+  "fetchedAt": "2026-09-11T15:56:10.091Z",
   "records": [
+    {
+      "id": 1789063599934,
+      "text": "2026-09-10 18:06:39 +00:00 / program: \"GZCLP\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 4152s / exercises: {\n  Overhead Press / 5x3 112.5lb / warmup: 1x5 45lb, 1x5 90lb / target: 4x3 112.5lb, 1x3+ 112.5lb\n  Deadlift / 3x10 215lb / warmup: 1x5 170lb / target: 3x10 215lb\n  Lat Pulldown / 4x12 105lb / target: 3x12 105lb 90s, 1x12+ 105lb 90s\n  Bicep Curl, EZ Bar / 4x12 60lb / target: 3x12 60lb 90s, 1x12+ 60lb 90s\n}"
+    },
     {
       "id": 1789000599176,
       "text": "2026-09-10 00:36:39 +00:00 / program: \"GZCLP\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 3826s / exercises: {\n  Squat / 4x3 235lb, 1x5 235lb / warmup: 1x5 45lb, 1x5 187.5lb / target: 4x3 235lb, 1x3+ 235lb\n  Incline Bench Press / 1x10 120lb, 2x10 95lb / warmup: 1x5 45lb, 1x5 95lb / target: 1x10 120lb, 2x10 95lb\n  Bent Over Row / 4x12 100lb / target: 3x12 100lb 90s, 1x12+ 100lb 90s\n  Triceps Pushdown / 3x12 55lb, 1x18 55lb / target: 3x12 55lb 90s, 1x12+ 55lb 90s\n}"

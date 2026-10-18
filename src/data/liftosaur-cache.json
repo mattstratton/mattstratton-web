@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-10-17T15:01:54.326Z",
+  "fetchedAt": "2026-10-18T15:26:45.436Z",
   "records": [
+    {
+      "id": 1792273717174,
+      "text": "2026-10-17 21:48:37 +00:00 / program: \"GZCLP\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 5235s / exercises: {\n  Deadlift / 5x3 345lb / warmup: 1x5 172.5lb, 1x3 275lb / target: 4x3 345lb, 1x3+ 345lb\n  Overhead Press / 1x10 100lb, 2x6 100lb / warmup: 1x5 45lb, 1x5 80lb / target: 3x10 100lb\n  Lat Pulldown / 4x12 105lb / target: 3x12 105lb 90s, 1x12+ 105lb 90s\n  Incline Curl / 1x10|10 25lb, 1x9|9 25lb, 2x8|8 25lb / target: 3x12 25lb 90s, 1x12+ 25lb 90s\n}"
+    },
     {
       "id": 1792192592666,
       "text": "2026-10-16 23:16:32 +00:00 / program: \"GZCLP\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 4913s / exercises: {\n  Bench Press / 6x2 185lb / warmup: 1x5 45lb, 1x5 92.5lb, 1x3 147.5lb / target: 5x2 185lb, 1x2+ 185lb\n  Bulgarian Split Squat / 3x10|10 25lb / target: 3x10 25lb\n  Bent Over Row / 3x12 120lb, 1x18 120lb / target: 3x12 120lb 90s, 1x12+ 120lb 90s\n  Tricep Extension Dumbbell Single / 1x12|12 30lb, 2x8|8 30lb, 1x0|0 30lb / target: 3x12 30lb 90s, 1x12+ 30lb 90s\n}"

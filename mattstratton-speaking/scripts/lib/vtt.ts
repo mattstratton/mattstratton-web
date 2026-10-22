@@ -9,6 +9,8 @@
  * tags, no echo) passes through unharmed — the dedup is a no-op on it.
  */
 
+import { stripTags } from '../../src/lib/strip-html';
+
 const ENTITIES: Record<string, string> = {
   '&amp;': '&',
   '&lt;': '<',
@@ -34,7 +36,7 @@ export function cleanVtt(raw: string): string {
     if (/^\d+$/.test(rawLine.trim())) continue;
 
     // Drop inline timestamp/styling tags (<00:00:04.020>, <c>, </c>, <c.colorXX>).
-    const text = decode(rawLine.replace(/<[^>]+>/g, ''))
+    const text = decode(stripTags(rawLine))
       .replace(/\s+/g, ' ')
       .trim();
 

@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { stripTags } from '../lib/strip-html';
 import { talkUrl } from '../lib/talk-url';
 import { hasTranscript } from '../lib/transcripts';
 
@@ -39,7 +40,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   for (const t of talksWithTranscripts) {
     const url = new URL(talkUrl(t), site).href;
-    const plainText = t.data.abstractHtml?.replace(/<[^>]+>/g, '') ?? '';
+    const plainText = stripTags(t.data.abstractHtml ?? '');
     const firstSentence = plainText.match(/^[^.!?]+[.!?]/)?.[0]?.trim() ?? plainText.slice(0, 120);
     const transcriptUrl = `${siteHref}/transcripts/${t.id}.txt`;
     lines.push(

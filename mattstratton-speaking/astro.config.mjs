@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import icon from 'astro-icon';
+import tailwindcss from '@tailwindcss/vite';
 
 // Durability-first static site replacing the Notist speaking archive.
 // URLs mirror Notist exactly: /{notistId}/{slug}, no trailing slash, no /username segment.
@@ -12,6 +13,7 @@ export default defineConfig({
     // Emit /{id}/{slug}.html so paths resolve without a trailing slash, matching Notist.
     format: 'file',
   },
+  vite: { plugins: [tailwindcss()] },
   // Keep the generated OG image routes (/og/*.png) out of the sitemap.
   integrations: [sitemap({ filter: (page) => !page.includes('/og/') && !page.endsWith('/llms.txt') }), icon()],
 });

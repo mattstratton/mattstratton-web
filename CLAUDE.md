@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal site + blog for mattstratton.com. **Astro 6 + Tailwind CSS v4** (Tailwind runs via `@tailwindcss/postcss`, not `@tailwindcss/vite` — see the Node/Astro version note below), deployed to Netlify. Migrated from Hugo (hugo-profile theme) in 2026; it's a deliberate sibling of the speaking site (`mattstratton-speaking`) — same warm-paper design system, differentiated by a teal/amber accent.
+Personal site + blog for mattstratton.com. **Astro 7 + Tailwind CSS v4** (Tailwind runs via `@tailwindcss/vite`), deployed to Netlify. Migrated from Hugo (hugo-profile theme) in 2026; it's a deliberate sibling of the speaking site (`mattstratton-speaking`) — same warm-paper design system, differentiated by a teal/amber accent.
 
 ## Monorepo structure
 
 This repository holds **three independent subprojects**, merged together (with full git history via `git subtree`) for a single place to manage the whole mattstratton.com stack. There is no shared tooling, no npm workspaces, and no shared package.json — each subproject is fully self-contained and needs its own `npm install` run from inside its own directory.
 
 - **`/` (this directory)** — this site, mattstratton.com. See the rest of this file.
-- **`mattstratton-speaking/`** — speaking.mattstratton.com, a separate Astro 5 + Tailwind v4 site with its own `netlify.toml`, `CLAUDE.md`, and Claude Code skills (`add-talk`, `resync-talk-memory`, `transcript-cleanup`). Deliberately different Astro config (`trailingSlash: 'never'`, `build.format: 'file'`) — do not try to unify it with this site's config.
+- **`mattstratton-speaking/`** — speaking.mattstratton.com, a separate Astro 7 + Tailwind v4 site with its own `netlify.toml`, `CLAUDE.md`, and Claude Code skills (`add-talk`, `resync-talk-memory`, `transcript-cleanup`). Deliberately different Astro config (`trailingSlash: 'never'`, `build.format: 'file'`) — do not try to unify it with this site's config.
 - **`mattstratton-dev-to/`** — manages Matt's dev.to posts via a git-ownership-transfer model (see its own `CLAUDE.md`). Feeds the `crosspost-devto` script (see `scripts/`) that selectively republishes dev.to posts into this site's `/writing/` collection.
 
 A design-system unification (the warm-paper CSS tokens are currently hand-copied between this site and the speaking site, not shared) is a deliberately deferred future project, not part of this merge.
@@ -34,7 +34,7 @@ npm test           # run script + lib unit tests
 
 Node **24** (see `netlify.toml`, `.nvmrc`). Netlify builds via `npm run build`, publishes `dist/`.
 
-**Astro 7 is not usable yet**: it breaks the dynamic `.png.ts` OG-image endpoints (`src/pages/og/**`) when combined with this site's `trailingSlash: 'always'` — an upstream Astro bug in how dynamic file-extension endpoints handle trailing slashes, not a config mistake here. Stayed on Astro 6 until that's fixed upstream. Separately, Astro 6 defaults to rolldown-vite, which `@tailwindcss/vite` doesn't yet support ([withastro/astro#16542](https://github.com/withastro/astro/issues/16542)) — worked around by running Tailwind via `@tailwindcss/postcss` (`postcss.config.mjs`) instead of the Vite plugin.
+**Astro 7 is required for security fixes**: Astro 6 stopped at 6.4.8 and never got the AVIF-optimization RCE fix (GHSA-26w7-cxv4-gfx2), which only exists in 7.x. The earlier `.png.ts` OG-endpoint/`trailingSlash: 'always'` breakage did not reproduce on 7.4.2 (all `/og/*.png` build). Tailwind moved from `@tailwindcss/postcss` to `@tailwindcss/vite` now that it supports Vite 8.
 
 ## Architecture
 

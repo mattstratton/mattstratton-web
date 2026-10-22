@@ -22,3 +22,16 @@ export function stripHtml(html: string): string {
     .replace(/\s+/g, ' ')
     .trim();
 }
+
+/**
+ * Drop tags, repeating until stable so nested input like `<<b>script>` can't
+ * reassemble into a tag after a single pass (CodeQL js/incomplete-multi-character-sanitization).
+ */
+export function stripTags(s: string): string {
+  let prev: string;
+  do {
+    prev = s;
+    s = s.replace(/<[^>]+>/g, '');
+  } while (s !== prev);
+  return s;
+}

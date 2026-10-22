@@ -3,6 +3,8 @@
  * for copy-paste, mirroring Notist's Text / HTML / Markdown tabs. Handles the
  * small tag set our bios use: <p> <a> <code> <strong> <em> <br>.
  */
+import { stripTags } from './strip-html';
+
 export interface BioFormats {
   text: string;
   html: string;
@@ -27,10 +29,11 @@ function decode(s: string): string {
 /** Strip to plain text: paragraphs become blank-line-separated. */
 export function htmlToText(html: string): string {
   return decode(
-    html
-      .replace(/<\/p>\s*<p>/gi, '\n\n')
-      .replace(/<br\s*\/?>/gi, '\n')
-      .replace(/<[^>]+>/g, ''),
+    stripTags(
+      html
+        .replace(/<\/p>\s*<p>/gi, '\n\n')
+        .replace(/<br\s*\/?>/gi, '\n'),
+    ),
   )
     .replace(/\n{3,}/g, '\n\n')
     .trim();
@@ -39,14 +42,15 @@ export function htmlToText(html: string): string {
 /** Convert to Markdown: links, code, emphasis, paragraphs. */
 export function htmlToMarkdown(html: string): string {
   return decode(
-    html
-      .replace(/<a\s+[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gi, '[$2]($1)')
-      .replace(/<code>(.*?)<\/code>/gi, '`$1`')
-      .replace(/<(strong|b)>(.*?)<\/\1>/gi, '**$2**')
-      .replace(/<(em|i)>(.*?)<\/\1>/gi, '_$2_')
-      .replace(/<\/p>\s*<p>/gi, '\n\n')
-      .replace(/<br\s*\/?>/gi, '  \n')
-      .replace(/<[^>]+>/g, ''),
+    stripTags(
+      html
+        .replace(/<a\s+[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gi, '[$2]($1)')
+        .replace(/<code>(.*?)<\/code>/gi, '`$1`')
+        .replace(/<(strong|b)>(.*?)<\/\1>/gi, '**$2**')
+        .replace(/<(em|i)>(.*?)<\/\1>/gi, '_$2_')
+        .replace(/<\/p>\s*<p>/gi, '\n\n')
+        .replace(/<br\s*\/?>/gi, '  \n'),
+    ),
   )
     .replace(/\n{3,}/g, '\n\n')
     .trim();

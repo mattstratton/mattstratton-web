@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-11-02T21:26:15.784Z",
+  "fetchedAt": "2026-11-03T16:17:29.245Z",
   "records": [
+    {
+      "id": 1793663468638,
+      "text": "// Only did squats today due to schedule problem \n2026-11-02 23:51:08 +00:00 / program: \"GZCLP\" / dayName: \"Day 1\" / week: 1 / dayInWeek: 1 / duration: 1829s / exercises: {\n  Squat / 4x3 270lb, 1x3 270lb @9 / warmup: 1x5 45lb, 1x5 135lb, 1x3 215lb / target: 4x3 270lb, 1x3+ 270lb\n}"
+    },
     {
       "id": 1793468933534,
       "text": "2026-10-31 17:48:53 +00:00 / program: \"GZCLP\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 3583s / exercises: {\n  Deadlift / 4x3 355lb, 1x3 355lb @9 / warmup: 1x5 177.5lb, 1x3 282.5lb / target: 4x3 355lb, 1x3+ 355lb\n  Overhead Press / 3x10 72.5lb / warmup: 1x5 45lb, 1x5 57.5lb / target: 3x10 72.5lb\n  Bent Over Row / 4x12 125lb / target: 3x12 125lb 90s, 1x12+ 125lb 90s\n}"

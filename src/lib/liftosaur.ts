@@ -146,11 +146,16 @@ function parseExerciseLine(line: string): WorkoutExercise {
 }
 
 export function parseWorkoutText(id: number, text: string): ParsedWorkout {
-  const dateMatch = text.match(/^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) ([+-]\d{2}:\d{2})/);
-  const programMatch = text.match(/program: "([^"]*)"/);
-  const dayNameMatch = text.match(/dayName: "([^"]*)"/);
-  const durationMatch = text.match(/duration: (\d+)s/);
-  const exercisesMatch = text.match(/exercises: \{\n([\s\S]*)\n\}/);
+  // A workout-level note is emitted as `// ...` line(s) *before* the date line,
+  // so strip those or the ^-anchored date match fails and the workout is skipped.
+  // Every match below runs on the stripped text: the note is arbitrary user text
+  // and could itself contain `program: "..."` or `duration: 5s`.
+  const body = text.replace(/^(?:\s*\/\/[^\n]*\n)+/, '').trimStart();
+  const dateMatch = body.match(/^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) ([+-]\d{2}:\d{2})/);
+  const programMatch = body.match(/program: "([^"]*)"/);
+  const dayNameMatch = body.match(/dayName: "([^"]*)"/);
+  const durationMatch = body.match(/duration: (\d+)s/);
+  const exercisesMatch = body.match(/exercises: \{\n([\s\S]*)\n\}/);
 
   const date = dateMatch ? new Date(`${dateMatch[1].replace(' ', 'T')}${dateMatch[2]}`).toISOString() : '';
   // Liftosaur lets you interleave free-text `// note` lines with exercises in

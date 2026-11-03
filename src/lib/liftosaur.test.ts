@@ -101,6 +101,37 @@ test('parseWorkoutText skips inline // note lines, not treating them as exercise
   );
 });
 
+test('parseWorkoutText handles a workout-level // note placed before the date line', () => {
+  const notedText =
+    '// Only did squats today due to schedule problem \n' +
+    '2026-11-02 23:51:08 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 / dayInWeek: 1 / duration: 1829s / exercises: {\n' +
+    '  Squat / 4x3 270lb, 1x3 270lb @9 / warmup: 1x5 45lb / target: 4x3 270lb, 1x3+ 270lb\n' +
+    '}';
+  const w = parseWorkoutText(1, notedText);
+  assert.equal(w.date, '2026-11-02T23:51:08.000Z');
+  assert.equal(w.program, 'GZCLP');
+  assert.deepEqual(
+    w.exercises.map((e) => e.name),
+    ['Squat'],
+  );
+});
+
+test('parseWorkoutText ignores header-looking text inside a pre-date note, and tolerates a blank line', () => {
+  const notedText =
+    '// felt weak, program: "deload" duration: 5s\n' +
+    '// second line of the note\n' +
+    '\n' +
+    '2026-11-02 23:51:08 +00:00 / program: "GZCLP" / dayName: "Day 1" / week: 1 / dayInWeek: 1 / duration: 1829s / exercises: {\n' +
+    '  Squat / 4x3 270lb / target: 4x3 270lb\n' +
+    '}';
+  const w = parseWorkoutText(1, notedText);
+  assert.equal(w.date, '2026-11-02T23:51:08.000Z');
+  assert.equal(w.program, 'GZCLP');
+  assert.equal(w.dayName, 'Day 1');
+  assert.equal(w.durationSeconds, 1829);
+  assert.equal(w.exercises.length, 1);
+});
+
 test('parseWorkoutText handles kg units', () => {
   const kgText =
     '2026-01-01 00:00:00 +00:00 / program: "P" / dayName: "D" / week: 1 / dayInWeek: 1 / duration: 60s / exercises: {\n' +

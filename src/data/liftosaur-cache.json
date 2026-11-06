@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-11-05T19:32:44.998Z",
+  "fetchedAt": "2026-11-06T18:56:04.425Z",
   "records": [
+    {
+      "id": 1793907559471,
+      "text": "2026-11-05 19:39:19 +00:00 / program: \"GZCLP\" / dayName: \"Day 3\" / week: 1 / dayInWeek: 3 / duration: 2122s / exercises: {\n  Bench Press / 4x3 160lb, 1x4 160lb @7 / warmup: 1x5 45lb, 1x5 75lb, 1x3 125lb / target: 4x3 160lb, 1x3+ 160lb\n  Bulgarian Split Squat / 2x8|8 30lb / target: 2x8 30lb\n}"
+    },
     {
       "id": 1793750336746,
       "text": "2026-11-03 23:58:56 +00:00 / program: \"GZCLP\" / dayName: \"Day 2\" / week: 1 / dayInWeek: 2 / duration: 4200s / exercises: {\n  Overhead Press / 4x3 102.5lb, 1x3 102.5lb @8 / warmup: 1x5 45lb, 1x5 75lb / target: 4x3 102.5lb, 1x3+ 102.5lb\n  Bicep Curl, EZ Bar / 4x12 60lb / target: 3x12 60lb 90s, 1x12+ 60lb 90s\n  Deadlift / 3x5 225lb / warmup: 1x3 175lb / target: 1x5 220lb, 2x5 225lb\n  Lat Pulldown / 4x12 105lb / target: 3x12 105lb 90s, 1x12+ 105lb 90s\n}"

@@ -171,11 +171,6 @@ export const publications = {
       source: 'tigerdata.com',
       url: 'https://www.tigerdata.com/blog/write-amplification-in-postgres-the-3-4x-tax-on-every-insert',
     },
-    {
-      title: 'ClickHouse Is Fast. Your Pipeline Isn’t.',
-      source: 'tigerdata.com',
-      url: 'https://www.tigerdata.com/blog/clickhouse-is-fast-your-pipeline-isnt',
-    },
   ] satisfies LinkCard[],
 };
 

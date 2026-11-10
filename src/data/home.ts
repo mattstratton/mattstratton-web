@@ -83,7 +83,7 @@ export const building = {
       name: 'Tiger Den',
       stack: 'Next.js · tRPC · Drizzle · Postgres',
       description:
-        'The internal marketing platform at Tiger Data. It started as a content inventory to replace Airtable and a spreadsheet nobody updated, and grew into content, events, partnerships, budget, and brand tools, plus hybrid keyword and vector search and an MCP server so the rest of the company can point their agents at it. Non-engineers on the team ship code to it too.',
+        'The internal marketing platform at Tiger Data. It started as a content inventory to replace Airtable and a spreadsheet nobody updated, and grew into most of how the team plans and tracks its work, with hybrid keyword and vector search across all of it. The part that matters most is the MCP server, built with agents as the actual users: tool descriptions enforced by tests, errors that list every missing field at once so an agent doesn’t burn three round-trips finding them, and usage telemetry to see what agents really call. Non-engineers on the team ship code to it too.',
       links: [
         { label: 'How it started', url: '/writing/coding-agents-are-actually-good-at-this-one-thing/' },
         { label: 'How a non-engineer ships to it', url: '/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/' },

@@ -8,7 +8,7 @@ export const GET: APIRoute = async (context) => {
   const entries = publishedWriting(await getCollection('writing'));
   return rss({
     title: 'Matty Stratton · Writing',
-    description: 'Postgres internals, performance limits, and architecture tradeoffs.',
+    description: 'Postgres internals, data infrastructure, and building with AI.',
     site: context.site ?? 'https://www.mattstratton.com',
     items: entries.map((e) => ({
       title: e.data.title,

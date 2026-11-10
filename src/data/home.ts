@@ -171,7 +171,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Transformation Specialist, NAPS Transformation Office',
+    job: 'Sales Specialist (Transformation)',
     company: 'Red Hat',
     companyUrl: 'https://www.redhat.com/',
     date: '2020 - 2021',
@@ -183,7 +183,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Senior Developer Advocate',
+    job: 'Principal DevOps Advocate',
     company: 'PagerDuty',
     companyUrl: 'https://pagerduty.com',
     date: '2017 - 2020',
@@ -198,7 +198,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Senior Solutions Architect',
+    job: 'Customer Architect, Senior Solutions Architect',
     company: 'Chef',
     companyUrl: 'https://chef.io',
     date: '2014 - 2017',

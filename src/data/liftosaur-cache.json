@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-11-09T21:57:56.143Z",
+  "fetchedAt": "2026-11-10T19:22:23.546Z",
   "records": [
+    {
+      "id": 1794266593215,
+      "text": "2026-11-09 23:23:13 +00:00 / program: \"5/3/1 - 5's PRO + FSL (Strength & Hypertrophy)\" / dayName: \"Week 1 - Day 1 - Squat\" / week: 1 / dayInWeek: 1 / duration: 3162s / exercises: {\n  Squat / 1x5 162.5lb, 1x5 187.5lb, 1x5 212.5lb, 5x5 162.5lb / warmup: 1x5 45lb, 1x5 125lb / target: 1x5 162.5lb 150s, 1x5 187.5lb 150s, 1x5 212.5lb 150s, 5x5 162.5lb 150s\n  Incline Bench Press / 3x8 125lb / warmup: 1x5 45lb, 1x5 95lb / target: 3x8 125lb 90s\n  Bent Over Row / 3x8 125lb / target: 3x8 125lb 90s\n  Triceps Pushdown / 2x10 60lb / target: 2x10 60lb 75s\n}"
+    },
     {
       "id": 1794001305288,
       "text": "2026-11-06 21:41:45 +00:00 / program: \"GZCLP\" / dayName: \"Day 4\" / week: 1 / dayInWeek: 4 / duration: 2103s / exercises: {\n  Deadlift / 4x3 360lb, 1x3 360lb @10 / warmup: 1x5 175lb, 1x3 285lb / target: 4x3 360lb, 1x3+ 360lb\n}"

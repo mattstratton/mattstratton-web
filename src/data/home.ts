@@ -47,7 +47,7 @@ export const hero = {
   content:
     'I run Developer Advocacy and Docs at Tiger Data. Most of my writing is about what’s actually happening inside the systems you depend on: MVCC and write amplification in Postgres, the walls you hit running analytics on live data, and what goes wrong when you hand a model your database. The rest of my time goes to building things with coding agents, usually on the same data infrastructure I write about. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. Some of that is for work and some of it is for me, which is how I ended up with an app that plans dinner and a health dashboard with strong opinions about my protein intake.',
   image: '/img/goto.jpg',
-  resume: { name: 'Resume', url: '/Matty-Stratton-CV-2025.pdf' },
+  resume: { name: 'Resume', url: '/Matty-Stratton-CV.pdf' },
   socialLinks: [
     { label: 'GitHub', url: 'https://github.com/mattstratton' },
     { label: 'Twitter', url: 'https://twitter.com/mattstratton' },
@@ -125,8 +125,8 @@ export const experience: ExperienceItem[] = [
     date: '2025 - Present',
     bullets: [
       'Own developer advocacy, content, and documentation as one function, treating docs as a product surface instead of static reference.',
+      'Built Tiger Den, the internal marketing platform and context layer for Tiger Data marketing’s AI work, served over MCP to the team’s 60-plus agent skills.',
       'Led the migration and re-architecture of the docs platform to Astro, including the API reference and its integration with the Tiger MCP server.',
-      'Built Tiger Den, the internal marketing platform used across the company for content inventory, planning, and context for agentic queries.',
       'Run the KOL program: influencer partnerships and tracked campaigns that reach developers beyond our own channels.',
     ],
   },
@@ -136,7 +136,7 @@ export const experience: ExperienceItem[] = [
     companyUrl: 'https://turbot.com',
     date: '2025',
     summary:
-      'That was the official title. In practice I ran Turbot’s marketing: developer advocacy, community, product marketing, and brand.',
+      'That was the official title. In practice I ran Turbot’s marketing: developer advocacy, product marketing, community, and brand.',
     bullets: [
       'Ran campaign strategy and creative for Turbot’s Launch Weeks: announcement posts, demo videos, and end-to-end social campaigns.',
       'Launched CloudGovernance.org, a community knowledge hub for cloud policy and automation.',

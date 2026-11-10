@@ -32,6 +32,9 @@
 /page              /             301
 /page/             /             301
 
+# CV moved to a stable, unversioned path
+/Matty-Stratton-CV-2025.pdf  /Matty-Stratton-CV.pdf  301
+
 # ── Old Hugo pagination (Paginate:3) collapses to the full listings ─────────
 /post/page/*             /post/             301
 /categories/:cat/page/*  /categories/:cat/  301

@@ -11,13 +11,13 @@ export async function getStaticPaths() {
 
   const pages: Record<string, { title: string; subtitle: string; badge: string }> = {
     home: {
-      title: 'Postgres, performance, and the tradeoffs nobody warns you about.',
-      subtitle: 'Writing from Matty Stratton, backed by 20+ years of infrastructure.',
+      title: 'Databases, data infrastructure, and the AI you build on top.',
+      subtitle: 'Writing and building from Matty Stratton, backed by 20+ years of infrastructure.',
       badge: 'WRITING',
     },
     writing: {
       title: 'Writing',
-      subtitle: 'Postgres internals, performance tradeoffs, and everything else — browsable by topic.',
+      subtitle: 'Postgres internals, building with AI, and everything else, browsable by topic.',
       badge: 'WRITING',
     },
     post: {
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
     },
     newsletter: {
       title: 'Uncommitted',
-      subtitle: 'Monthly dispatches on Postgres internals and performance.',
+      subtitle: 'Monthly dispatches on databases, building with AI, and whatever else.',
       badge: 'NEWSLETTER',
     },
     fitness: {
@@ -47,7 +47,7 @@ export async function getStaticPaths() {
     },
     default: {
       title: 'Matty Stratton',
-      subtitle: 'Postgres, performance, and 25 years of writing.',
+      subtitle: 'Databases, building with AI, and 25 years of writing.',
       badge: 'WRITING',
     },
   };

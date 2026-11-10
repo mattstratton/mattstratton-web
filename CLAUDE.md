@@ -45,9 +45,9 @@ Node **24** (see `netlify.toml`, `.nvmrc`). Netlify builds via `npm run build`, 
 - `writing` — the evergreen Postgres "field guide" authored going forward. Clean `/writing/<slug>` URLs, grouped by `part` on the index.
 - `workouts` — workout history pulled from the Liftosaur REST API at build time (`src/lib/liftosaur.ts`), powering `/fitness/`. Liftosaur returns each workout as a compact Liftoscript-text blob rather than JSON, so `parseWorkoutText` extracts date/program/exercises/sets; PRs and trend sparklines are derived from that at render time (`computePersonalRecords`, `computeTrend`), not fetched separately.
 
-**Homepage content** lives in `src/data/home.ts` (typed module, not a collection) — hero, about, experience, publications, featured talks, newsletter, contact. Section components are in `src/components/sections/`. The experience tabs are CSS-only (no JS).
+**Homepage content** lives in `src/data/home.ts` (typed module, not a collection) — hero, about, building (projects), experience, publications, featured talks, newsletter, contact. Section components are in `src/components/sections/`. The experience tabs are CSS-only (no JS).
 
-**Layouts** (`src/layouts/`): `Base.astro` (root: head/OG meta, nav, footer), `PostLayout.astro` (archive posts), `WritingLayout.astro` (field guide), `Page.astro` (standalone markdown pages like hire-me, privacy-policy).
+**Layouts** (`src/layouts/`): `Base.astro` (root: head/OG meta, nav, footer), `PostLayout.astro` (archive posts), `WritingLayout.astro` (field guide).
 
 **OG cards**: generated at build by `src/lib/og-card.ts` (satori + sharp) via `src/pages/og/*` routes — for the homepage, sections, and per-writing-post only (legacy posts share `/og/default.png`).
 

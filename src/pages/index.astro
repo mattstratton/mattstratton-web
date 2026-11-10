@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Hero from '../components/sections/Hero.astro';
 import About from '../components/sections/About.astro';
+import Building from '../components/sections/Building.astro';
 import Experience from '../components/sections/Experience.astro';
 import Publications from '../components/sections/Publications.astro';
 import FeaturedTalks from '../components/sections/FeaturedTalks.astro';
@@ -13,6 +14,7 @@ import { siteMeta } from '../data/home';
 <Base title="Matty Stratton" description={siteMeta.description} image="/og/home.png">
   <Hero />
   <About />
+  <Building />
   <Experience />
   <Publications />
   <FeaturedTalks />

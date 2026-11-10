@@ -22,7 +22,7 @@ export const GET: APIRoute = async (context) => {
 
   return rss({
     title: 'Matty Stratton',
-    description: 'Postgres, performance, and 25 years of writing from Matty Stratton.',
+    description: 'Databases, building with AI, and 25 years of writing from Matty Stratton.',
     site: context.site ?? 'https://www.mattstratton.com',
     items,
   });

@@ -27,19 +27,27 @@ export interface LinkCard {
   image?: string;
 }
 
+export interface Project {
+  name: string;
+  stack: string;
+  description: string;
+  links?: SocialLink[];
+}
+
 export const siteMeta = {
   description:
-    'Matty Stratton writes about Postgres internals, performance tradeoffs, and database architecture, backed by 20+ years of running infrastructure.',
+    'Matty Stratton writes about databases, data infrastructure, and building with AI on top of them, backed by 20+ years of running infrastructure.',
 };
 
 export const hero = {
   intro: 'Hi, my name is',
   name: 'Matty.',
-  subtitle: 'I write about Postgres internals and the performance tradeoffs you usually learn the hard way.',
+  subtitle:
+    'I work on databases and data infrastructure, build AI on top of them, and write about the tradeoffs you usually learn the hard way.',
   content:
-    'I run Developer Relations at Tiger Data. I write about what’s actually happening inside Postgres: MVCC, write amplification, and the walls you hit when you run analytics on live data. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. I’m also learning physical AI and robotics in public, which is going about as well as you’d expect.',
+    'I run Developer Advocacy and Docs at Tiger Data. Most of my writing is about what’s actually happening inside the systems you depend on: MVCC and write amplification in Postgres, the walls you hit running analytics on live data, and what goes wrong when you hand a model your database. The rest of my time goes to building things with coding agents, usually on the same data infrastructure I write about. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. Some of that is for work and some of it is for me, which is how I ended up with an app that plans dinner and a health dashboard with strong opinions about my protein intake.',
   image: '/img/goto.jpg',
-  resume: { name: 'Resume', url: '/Matty-Stratton-CV-2025.pdf' },
+  resume: { name: 'Resume', url: '/Matty-Stratton-CV.pdf' },
   socialLinks: [
     { label: 'GitHub', url: 'https://github.com/mattstratton' },
     { label: 'Twitter', url: 'https://twitter.com/mattstratton' },
@@ -50,27 +58,89 @@ export const about = {
   title: 'About Me',
   image: '/img/matty-shades-500-sq.png',
   content:
-    'I run Developer Relations at Tiger Data, where most of my writing time goes to Postgres: what it’s doing under the hood, why you hit performance walls, and how to tell a tuning problem from an architecture problem. That perspective comes from a couple of decades of actually operating the stuff. I started as a sysadmin, did the SRE and DevOps thing, and ran technology operations back before any of those were résumé words. That history is the whole point. It’s a lot easier to write honestly about database tradeoffs when you’ve been the person paged at 3am because of one. I’m also a longtime conference speaker, co-host of the Arrested DevOps podcast, and currently learning physical AI and robotics in public.',
+    'I run Developer Advocacy and Docs at Tiger Data. My writing time mostly goes to databases: what Postgres is doing under the hood, why you hit performance walls, and how to tell a tuning problem from an architecture problem. My building time mostly goes to AI. I built Tiger Den, our internal marketing platform, with coding agents, and it’s grown into something the wider company uses as context for its own agents. That perspective comes from a couple of decades of actually operating the stuff. I started as a sysadmin, did the SRE and DevOps thing, and ran technology operations back before any of those were résumé words. That history is the whole point. It’s a lot easier to write honestly about database tradeoffs when you’ve been the person paged at 3am because of one. Same goes for deciding what a model is allowed to touch. I’m also a longtime conference speaker and organizer, and co-host of the Arrested DevOps podcast.',
   skills: [
+    'Databases & Data Infrastructure',
     'PostgreSQL',
     'Time-Series Databases',
-    'Kubernetes',
-    'DevOps',
+    'Building with LLMs & Coding Agents',
+    'MCP & Agentic Workflows',
     'Developer Relations',
+    'Docs as Product',
+    'DevOps',
+    'Kubernetes',
     'Infrastructure as Code',
-    'Physical AI / Robotics (learning in public)',
   ],
+};
+
+export const building = {
+  title: 'Building',
+  content:
+    'Things I’ve built lately, mostly with coding agents (Claude Code and Cursor) doing the typing and me making the calls. All of it sits on a real database, because of course it does.',
+  items: [
+    {
+      name: 'Tiger Den',
+      stack: 'Next.js · tRPC · Drizzle · Postgres',
+      description:
+        'Tiger Data’s internal marketing platform, and the context layer for everything marketing does with AI. Brand guidelines, voice profiles, reference docs, and the whole content inventory live here, with hybrid keyword and vector search across it. Our marketing team’s 60-plus agent skills pull that context over MCP instead of each keeping its own copy, and every skill run gets logged, so we can see which ones actually earn their keep. The MCP server treats agents as the real users: test-enforced tool descriptions, and errors that list every missing field at once. Non-engineers ship code to it too.',
+      links: [
+        { label: 'How it started', url: '/writing/coding-agents-are-actually-good-at-this-one-thing/' },
+        { label: 'How a non-engineer ships to it', url: '/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/' },
+      ],
+    },
+    {
+      name: 'Conducky',
+      stack: 'Next.js · Express · Prisma · Postgres',
+      description:
+        'Code of conduct incident management for conferences and events. I’ve run conferences for a long time, and handling CoC reports well is one of those things that matters enormously and almost never has real tooling behind it. So I built it: multi-tenant, anonymous reporting, field-level encryption, and open source.',
+      links: [
+        { label: 'conducky.com', url: 'https://conducky.com/' },
+        { label: 'GitHub', url: 'https://github.com/mattstratton/conducky' },
+      ],
+    },
+    {
+      name: 'Health data tracker',
+      stack: 'TimescaleDB · Claude',
+      description:
+        'Pulls my Apple Health data into TimescaleDB, with a deterministic coach view and an ask view where Claude answers questions through read-only tools instead of raw SQL. The data turned out to be the hard part. It usually is.',
+      links: [
+        { label: 'Don’t Give the Model SQL', url: '/writing/dont-give-the-model-sql/' },
+        { label: 'GitHub', url: 'https://github.com/mattstratton/mattstratton-fitness-tracker' },
+      ],
+    },
+    {
+      name: 'Daybook',
+      stack: 'SwiftUI · Next.js · Postgres · Claude',
+      description:
+        'My personal everything app for iPhone and Mac: today’s schedule, workouts, to-dos, and dinner in one place. Claude drafts the week’s dinners from my recipe collection and builds the grocery list, and workouts get planned around my rules and checked against what I actually lifted. One user, never distributed, and a pile of architecture decision records anyway.',
+    },
+  ] satisfies Project[],
 };
 
 export const experience: ExperienceItem[] = [
   {
-    job: 'Head of Developer Relations',
+    job: 'Head of Developer Advocacy and Docs',
     company: 'Tiger Data',
     companyUrl: 'https://www.tigerdata.com',
-    date: '2024 - Present',
+    date: '2025 - Present',
     bullets: [
-      'Lead developer relations, helping engineers reason about Postgres and time-series performance at scale.',
-      'Write about Postgres internals, performance tradeoffs, and when to reach for purpose-built data infrastructure.',
+      'Own developer advocacy, content, and documentation as one function, treating docs as a product surface instead of static reference.',
+      'Built Tiger Den, the internal marketing platform and context layer for Tiger Data marketing’s AI work, served over MCP to the team’s 60-plus agent skills.',
+      'Led the migration and re-architecture of the docs platform to Astro, including the API reference and its integration with the Tiger MCP server.',
+      'Run the KOL program: influencer partnerships and tracked campaigns that reach developers beyond our own channels.',
+    ],
+  },
+  {
+    job: 'Solution Architect',
+    company: 'Turbot',
+    companyUrl: 'https://turbot.com',
+    date: '2025',
+    summary:
+      'That was the official title. In practice I ran Turbot’s marketing: developer advocacy, product marketing, community, and brand.',
+    bullets: [
+      'Ran campaign strategy and creative for Turbot’s Launch Weeks: announcement posts, demo videos, and end-to-end social campaigns.',
+      'Launched CloudGovernance.org, a community knowledge hub for cloud policy and automation.',
+      'Drove community-led growth through online presence, narrative, and cross-channel messaging for technical audiences.',
     ],
   },
   {
@@ -101,7 +171,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Transformation Specialist, NAPS Transformation Office',
+    job: 'Sales Specialist (Transformation)',
     company: 'Red Hat',
     companyUrl: 'https://www.redhat.com/',
     date: '2020 - 2021',
@@ -113,7 +183,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Senior Developer Advocate',
+    job: 'Principal DevOps Advocate',
     company: 'PagerDuty',
     companyUrl: 'https://pagerduty.com',
     date: '2017 - 2020',
@@ -128,7 +198,7 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    job: 'Senior Solutions Architect',
+    job: 'Customer Architect, Senior Solutions Architect',
     company: 'Chef',
     companyUrl: 'https://chef.io',
     date: '2014 - 2017',
@@ -216,7 +286,7 @@ export const speaking = {
 export const newsletter = {
   title: 'Uncommitted',
   content:
-    'Monthly dispatches on Postgres internals, performance, and whatever else is rattling around in my head.',
+    'Monthly dispatches on databases, building with AI, and whatever else is rattling around in my head.',
   // Public Buttondown username (not a secret) — drives the embed signup form.
   buttondownUser: 'mattstratton' as string | null,
 };

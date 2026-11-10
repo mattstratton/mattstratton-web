@@ -8,7 +8,7 @@ export const GET: APIRoute = async (context) => {
   );
   return rss({
     title: 'Uncommitted · Matty Stratton',
-    description: 'Postgres internals, performance, and the occasional find worth knowing about.',
+    description: 'Databases, data infrastructure, building with AI, and the occasional find worth knowing about.',
     site: context.site ?? 'https://www.mattstratton.com',
     items: issues.map((issue) => ({
       title: issue.data.subject,

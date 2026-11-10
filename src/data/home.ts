@@ -45,7 +45,7 @@ export const hero = {
   subtitle:
     'I work on databases and data infrastructure, build AI on top of them, and write about the tradeoffs you usually learn the hard way.',
   content:
-    'I run Developer Advocacy and Docs at Tiger Data. Most of my writing is about what’s actually happening inside the systems you depend on: MVCC and write amplification in Postgres, the walls you hit running analytics on live data, and what goes wrong when you hand a model your database. The rest of my time goes to building things with coding agents, usually on the same data infrastructure I write about. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. I’m also learning physical AI and robotics in public, which is going about as well as you’d expect.',
+    'I run Developer Advocacy and Docs at Tiger Data. Most of my writing is about what’s actually happening inside the systems you depend on: MVCC and write amplification in Postgres, the walls you hit running analytics on live data, and what goes wrong when you hand a model your database. The rest of my time goes to building things with coding agents, usually on the same data infrastructure I write about. The credibility comes from twenty-plus years of operating infrastructure (sysadmin, SRE, DevOps), not from a marketing deck. Some of that is for work and some of it is for me, which is how I ended up with an app that plans dinner and a health dashboard with strong opinions about my protein intake.',
   image: '/img/goto.jpg',
   resume: { name: 'Resume', url: '/Matty-Stratton-CV-2025.pdf' },
   socialLinks: [
@@ -58,7 +58,7 @@ export const about = {
   title: 'About Me',
   image: '/img/matty-shades-500-sq.png',
   content:
-    'I run Developer Advocacy and Docs at Tiger Data. My writing time mostly goes to databases: what Postgres is doing under the hood, why you hit performance walls, and how to tell a tuning problem from an architecture problem. My building time mostly goes to AI. I built Tiger Den, our internal marketing platform, with coding agents, and it’s grown into something the wider company uses as context for its own agents. That perspective comes from a couple of decades of actually operating the stuff. I started as a sysadmin, did the SRE and DevOps thing, and ran technology operations back before any of those were résumé words. That history is the whole point. It’s a lot easier to write honestly about database tradeoffs when you’ve been the person paged at 3am because of one. Same goes for deciding what a model is allowed to touch. I’m also a longtime conference speaker, co-host of the Arrested DevOps podcast, and currently learning physical AI and robotics in public.',
+    'I run Developer Advocacy and Docs at Tiger Data. My writing time mostly goes to databases: what Postgres is doing under the hood, why you hit performance walls, and how to tell a tuning problem from an architecture problem. My building time mostly goes to AI. I built Tiger Den, our internal marketing platform, with coding agents, and it’s grown into something the wider company uses as context for its own agents. That perspective comes from a couple of decades of actually operating the stuff. I started as a sysadmin, did the SRE and DevOps thing, and ran technology operations back before any of those were résumé words. That history is the whole point. It’s a lot easier to write honestly about database tradeoffs when you’ve been the person paged at 3am because of one. Same goes for deciding what a model is allowed to touch. I’m also a longtime conference speaker and organizer, and co-host of the Arrested DevOps podcast.',
   skills: [
     'Databases & Data Infrastructure',
     'PostgreSQL',
@@ -70,7 +70,6 @@ export const about = {
     'DevOps',
     'Kubernetes',
     'Infrastructure as Code',
-    'Physical AI / Robotics (learning in public)',
   ],
 };
 
@@ -83,7 +82,7 @@ export const building = {
       name: 'Tiger Den',
       stack: 'Next.js · tRPC · Drizzle · Postgres',
       description:
-        'The internal marketing platform at Tiger Data. It started as a content inventory to replace Airtable and a spreadsheet nobody updated, and grew into most of how the team plans and tracks its work, with hybrid keyword and vector search across all of it. The part that matters most is the MCP server, built with agents as the actual users: tool descriptions enforced by tests, errors that list every missing field at once so an agent doesn’t burn three round-trips finding them, and usage telemetry to see what agents really call. Non-engineers on the team ship code to it too.',
+        'Tiger Data’s internal marketing platform, and the context layer for everything marketing does with AI. Brand guidelines, voice profiles, reference docs, and the whole content inventory live here, with hybrid keyword and vector search across it. Our marketing team’s 60-plus agent skills pull that context over MCP instead of each keeping its own copy, and every skill run gets logged, so we can see which ones actually earn their keep. The MCP server treats agents as the real users: test-enforced tool descriptions, and errors that list every missing field at once. Non-engineers ship code to it too.',
       links: [
         { label: 'How it started', url: '/writing/coding-agents-are-actually-good-at-this-one-thing/' },
         { label: 'How a non-engineer ships to it', url: '/writing/how-my-coworker-who-didnt-know-cd-shipped-to-production/' },

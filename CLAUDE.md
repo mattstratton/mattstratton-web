@@ -47,7 +47,7 @@ Node **24** (see `netlify.toml`, `.nvmrc`). Netlify builds via `npm run build`, 
 
 **Homepage content** lives in `src/data/home.ts` (typed module, not a collection) — hero, about, building (projects), experience, publications, featured talks, newsletter, contact. Section components are in `src/components/sections/`. The experience tabs are CSS-only (no JS).
 
-**Layouts** (`src/layouts/`): `Base.astro` (root: head/OG meta, nav, footer), `PostLayout.astro` (archive posts), `WritingLayout.astro` (field guide), `Page.astro` (standalone markdown pages like hire-me, privacy-policy).
+**Layouts** (`src/layouts/`): `Base.astro` (root: head/OG meta, nav, footer), `PostLayout.astro` (archive posts), `WritingLayout.astro` (field guide).
 
 **OG cards**: generated at build by `src/lib/og-card.ts` (satori + sharp) via `src/pages/og/*` routes — for the homepage, sections, and per-writing-post only (legacy posts share `/og/default.png`).
 

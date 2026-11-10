@@ -152,14 +152,4 @@ export const externalFieldGuide: FieldGuideLink[] = [
       'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/Document-Databases_-Be-Honest-V2.png',
     topics: ['mongodb', 'document-databases'],
   },
-  {
-    title: 'ClickHouse Is Fast. Your Pipeline Isn’t.',
-    description:
-      'ClickHouse is fast. But the pipeline tax, ACID trade-offs, and two-system overhead are part of the decision too. Here’s the full picture.',
-    part: 'decision',
-    url: 'https://www.tigerdata.com/blog/clickhouse-is-fast-your-pipeline-isnt',
-    image:
-      'https://storage.ghost.io/c/6b/cb/6bcb39cf-9421-4bd1-9c9d-fa7b6755ba0e/content/images/2026/04/thumbnail-blog-thumbnail-1280x720--1-.png',
-    topics: ['clickhouse'],
-  },
 ];

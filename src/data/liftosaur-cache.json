@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-11-10T19:22:23.546Z",
+  "fetchedAt": "2026-11-11T01:55:37.983Z",
   "records": [
+    {
+      "id": 1794348559150,
+      "text": "2026-11-10 22:09:19 +00:00 / program: \"5/3/1 - 5's PRO + FSL (Strength & Hypertrophy)\" / dayName: \"Week 1 - Day 2 - Bench\" / week: 1 / dayInWeek: 2 / duration: 2424s / exercises: {\n  Bench Press / 1x5 107.5lb, 1x5 125lb, 1x5 140lb, 5x5 107.5lb / warmup: 1x5 45lb, 1x5 85lb / target: 1x5 107.5lb 150s, 1x5 125lb 150s, 1x5 140lb 150s, 5x5 107.5lb 150s\n  Lat Pulldown / 3x8 105lb / target: 3x8 105lb 90s\n  Lateral Raise / 3x12 10lb / target: 3x12 10lb 75s\n  Bicep Curl, EZ Bar / 3x10 60lb / target: 3x10 60lb 75s\n}"
+    },
     {
       "id": 1794266593215,
       "text": "2026-11-09 23:23:13 +00:00 / program: \"5/3/1 - 5's PRO + FSL (Strength & Hypertrophy)\" / dayName: \"Week 1 - Day 1 - Squat\" / week: 1 / dayInWeek: 1 / duration: 3162s / exercises: {\n  Squat / 1x5 162.5lb, 1x5 187.5lb, 1x5 212.5lb, 5x5 162.5lb / warmup: 1x5 45lb, 1x5 125lb / target: 1x5 162.5lb 150s, 1x5 187.5lb 150s, 1x5 212.5lb 150s, 5x5 162.5lb 150s\n  Incline Bench Press / 3x8 125lb / warmup: 1x5 45lb, 1x5 95lb / target: 3x8 125lb 90s\n  Bent Over Row / 3x8 125lb / target: 3x8 125lb 90s\n  Triceps Pushdown / 2x10 60lb / target: 2x10 60lb 75s\n}"

@@ -1,0 +1,42 @@
+name: Verify dev.to posts won't clobber live data
+
+# Fails a PR if a changed, already-published post has fewer tags (or an empty
+# title/description/canonical_url) compared to what dev.to is serving now —
+# i.e. merging would make the publisher silently destroy live data.
+# Read-only: uses dev.to's public API, no secrets.
+on:
+  pull_request:
+    paths:
+      - "mattstratton-dev-to/posts/**/*.md"
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+
+      - run: npm ci
+        working-directory: mattstratton-dev-to
+
+      - name: Verify changed posts against live dev.to
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        working-directory: mattstratton-dev-to
+        run: |
+          set -euo pipefail
+          files=$(gh api "repos/${{ github.repository }}/pulls/${PR_NUMBER}/files" \
+            --paginate --jq '.[].filename' \
+            | grep -E '^mattstratton-dev-to/posts/[A-Za-z0-9._-]+\.md$' \
+            | sed 's#^mattstratton-dev-to/##' || true)
+          [ -z "$files" ] && { echo "No post files to verify."; exit 0; }
+          # shellcheck disable=SC2086
+          npm run --silent verify -- $files

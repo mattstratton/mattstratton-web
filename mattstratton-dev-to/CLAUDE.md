@@ -81,6 +81,8 @@ posts/
 scripts/
   import.ts          # the importer — exports: DevToArticle, getTrackedIds, buildFrontMatter, buildMarkdown
   import.test.ts     # vitest unit tests for the pure functions
+  verify.ts          # PR guard (run by devto-verify.yml): `npm run verify -- posts/x.md` — fails if git has fewer tags than live or empties title/description/canonical_url. Public API, no key.
+  verify.test.ts     # vitest tests for findDestructive
 .github/
   workflows/
     import.yml       # daily cron + manual → creates posts/<slug>.md → opens PR

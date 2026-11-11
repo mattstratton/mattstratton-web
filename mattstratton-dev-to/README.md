@@ -138,6 +138,7 @@ posts/
   assets/            # images for git-native posts (referenced by relative paths)
 scripts/
   import.ts          # the create-only, publish-gated importer
+  verify.ts          # PR guard: fails if git would destroy live dev.to data (fewer tags, emptied fields)
 .github/
   workflows/
     import.yml       # daily cron + manual trigger → opens PR with new posts

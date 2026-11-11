@@ -5,7 +5,8 @@
   "scripts": {
     "import": "tsx scripts/import.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify": "tsx scripts/verify.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3"

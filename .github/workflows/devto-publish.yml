@@ -8,15 +8,21 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Loop guard: do not re-run on the action's own id write-back commit
+    # Loop guard: the action's id write-back commit is tagged [skip ci], which is what
+    # actually stops a re-run now that it's pushed with a PAT (so the actor is no longer
+    # github-actions[bot]). The actor check is kept as belt-and-braces.
     if: github.actor != 'github-actions[bot]'
     steps:
+      # REPO_PUSH_TOKEN (fine-grained PAT, Contents: read/write) because the "Protect Main"
+      # ruleset requires PRs and only the admin role can bypass; GITHUB_TOKEN can't.
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          token: ${{ secrets.REPO_PUSH_TOKEN }}
       - name: Publish articles on dev.to
         uses: sinedied/publish-devto@85426e8090533468bb8012015451e3af797b65af # v2
         with:
           devto_key: ${{ secrets.DEVTO_API_KEY }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.REPO_PUSH_TOKEN }}
           files: "mattstratton-dev-to/posts/**/*.md"
           branch: main
           conventional_commits: true

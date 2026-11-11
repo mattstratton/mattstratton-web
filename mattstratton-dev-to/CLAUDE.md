@@ -102,4 +102,4 @@ This is safe to run repeatedly — it's idempotent. Running it when no new posts
 - `DEVTO_API_KEY` — dev.to personal API key. Required for both import and publish workflows.
 - `GITHUB_TOKEN` — built-in. Sufficient for unprotected `main`.
 
-If `main` is ever branch-protected, the publisher's `id` write-back will fail with `GITHUB_TOKEN` — a Personal Access Token with `repo` scope would be needed instead.
+`main` is protected by the "Protect Main" ruleset (PR required; only the admin role bypasses), so the publisher's `id` write-back can't use `GITHUB_TOKEN`. `devto-publish.yml` uses `REPO_PUSH_TOKEN` instead — a fine-grained PAT with Contents: read/write on this repo. It expires; rotate it or the write-back (and the daily fitness cache commit) will start failing.

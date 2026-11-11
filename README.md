@@ -62,9 +62,9 @@ scoped to `mattstratton-dev-to/` are still forced to live at top level (via
 | `devto-import.yml` | Daily cron (13:00 UTC) + manual | Pulls newly published dev.to posts into `mattstratton-dev-to/posts/` and opens a PR for review. | `DEVTO_API_KEY` |
 | `devto-crosspost.yml` | PR touching `mattstratton-dev-to/posts/**/*.md` | Auto-crossposts eligible, changed posts into the `writing` collection and commits the generated files back onto the same PR. | — |
 | `devto-verify.yml` | PR touching `mattstratton-dev-to/posts/**/*.md` | Read-only guard: fails the PR if a changed, already-published post has fewer tags (or an emptied title/description/canonical_url) than dev.to is serving now, since the publisher would silently overwrite live data. No secrets. | — |
-| `devto-publish.yml` | Push to `main` touching `mattstratton-dev-to/posts/**/*.md` | Publishes changed/new posts to dev.to via the API, writing generated metadata (like the post `id`) back via a commit. | `DEVTO_API_KEY` |
+| `devto-publish.yml` | Push to `main` touching `mattstratton-dev-to/posts/**/*.md` | Publishes changed/new posts to dev.to via the API, writing generated metadata (like the post `id`) back via a commit. | `DEVTO_API_KEY`, `REPO_PUSH_TOKEN` |
 | `test.yml` | Every PR + push to `main` | Runs `npm ci && npm test` in each of the three subprojects (root, `mattstratton-dev-to`, `mattstratton-speaking`) as a matrix. No path filters, so it always reports a real pass/fail. | — |
-| `fitness-rebuild.yml` | Daily cron (12:00 UTC) + manual | Refreshes the Liftosaur fallback cache and commits it to `main`, then triggers a Netlify rebuild so `/fitness` picks up fresh data even if the live API is flaky at build time. | `LIFTOSAUR_API_KEY`, `NETLIFY_BUILD_HOOK_FITNESS` |
+| `fitness-rebuild.yml` | Daily cron (12:00 UTC) + manual | Refreshes the Liftosaur fallback cache and commits it to `main`, then triggers a Netlify rebuild so `/fitness` picks up fresh data even if the live API is flaky at build time. | `LIFTOSAUR_API_KEY`, `NETLIFY_BUILD_HOOK_FITNESS`, `REPO_PUSH_TOKEN` |
 
 Both dev.to workflows guard against infinite loops (`github.actor !=
 'github-actions[bot]'`) since they commit back into the repo themselves —

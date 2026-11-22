@@ -1,6 +1,10 @@
 {
-  "fetchedAt": "2026-11-21T18:44:35.045Z",
+  "fetchedAt": "2026-11-22T19:05:37.295Z",
   "records": [
+    {
+      "id": 1795368105958,
+      "text": "2026-11-22 17:21:45 +00:00 / program: \"5/3/1 - 5's PRO + FSL (Strength & Hypertrophy)\" / dayName: \"Week 1 - Day 4 - Overhead Press\" / week: 1 / dayInWeek: 4 / duration: 2438s / exercises: {\n  Overhead Press / 1x5 75lb, 1x5 85lb, 1x5 97.5lb @8, 5x5 75lb / warmup: 1x5 45lb / target: 1x5 75lb 150s, 1x5 85lb 150s, 1x5 97.5lb @8+ 150s, 5x5 75lb 150s\n  Bent Over One Arm Row / 3x8|8 45lb / target: 3x8 45lb 90s\n  Bench Press, Dumbbell / 3x8 40lb / target: 3x8 40lb 90s\n  Lateral Raise / 2x13 10lb / target: 2x13 10lb 75s\n  Hammer Curl / 2x10|10 20lb / target: 2x10 20lb 75s\n}"
+    },
     {
       "id": 1794686632670,
       "text": "2026-11-14 20:03:52 +00:00 / program: \"5/3/1 - 5's PRO + FSL (Strength & Hypertrophy)\" / dayName: \"Week 1 - Day 3 - Deadlift\" / week: 1 / dayInWeek: 3 / duration: 3409s / exercises: {\n  Deadlift / 1x5 217.5lb, 1x5 250lb, 1x5 285lb @7.5, 3x5 217.5lb / warmup: 1x5 165lb / target: 1x5 217.5lb 180s, 1x5 250lb 180s, 1x5 285lb @8+ 180s, 3x5 217.5lb 180s\n  Bulgarian Split Squat / 3x8|8 30lb / target: 3x8 30lb 90s\n  Lying Leg Curl, Band / 1x10 0lb / target: 1x10 0lb 75s\n  Plank / 3x1 0lb 30s / target: 3x1 0lb 30s|60s\n}"
